@@ -1,0 +1,40 @@
+{
+  "slug": "chris-sarro",
+  "name": "Chris Sarro",
+  "nickname": null,
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 7,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 73,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1988-08-01",
+  "age": 37,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744598319/o/1744598318824_67f94286d27a2699510063b5_CHRIS_SARRO_400x533_compressed.png",
+  "social": {
+    "instagram": "https://www.instagram.com/chrisgoldengloves/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/chris-sarro"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1457,
+  "elo_peak": 1500
+}

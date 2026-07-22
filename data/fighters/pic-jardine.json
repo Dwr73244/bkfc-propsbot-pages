@@ -1,0 +1,39 @@
+{
+  "slug": "pic-jardine",
+  "name": "Pic Jardine",
+  "nickname": "THE MAULER",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 70,
+  "reach_in": 70,
+  "stance": null,
+  "dob": "1991-05",
+  "age": 34,
+  "nationality": "United Kingdom",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/picjardine",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/pic-jardine"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1519,
+  "elo_peak": 1519
+}

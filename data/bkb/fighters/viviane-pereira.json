@@ -1,0 +1,38 @@
+{
+  "slug": "viviane-pereira",
+  "league": "BKB",
+  "name": "Viviane Pereira",
+  "nickname": null,
+  "division": "Lightweight",
+  "bkb_record": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "kos": 0
+  },
+  "bkfc_record": null,
+  "mma_record": null,
+  "height_in": 60,
+  "reach_in": 64,
+  "stance": null,
+  "dob": "1993-08-28",
+  "age": 33,
+  "nationality": null,
+  "hometown": "Fortaleza , Ceará , Brazil",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "Viviane \"Sucuri' Pereira (born August 8, 1993) is a Brazilian mixed martial artist and competes in strawweight division. She last competed for Invicta Fighting Championships. A professional mixed martial artist since 2013, Pereira has also fought in the UFC.",
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://en.wikipedia.org/wiki/Viviane_Pereira"
+  ],
+  "last_updated": "2026-04-19"
+}

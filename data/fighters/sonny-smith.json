@@ -1,0 +1,39 @@
+{
+  "slug": "sonny-smith",
+  "name": "Sonny Smith",
+  "nickname": "SAVAGE",
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 71,
+  "reach_in": 72,
+  "stance": null,
+  "dob": "1988-03",
+  "age": 38,
+  "nationality": "United Kingdom",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/sixsightco/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/sonny-smith"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1478,
+  "elo_peak": 1500
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "albert-inclan",
+  "name": "Albert Inclan",
+  "nickname": null,
+  "division": "Flyweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 4,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 63,
+  "reach_in": 65,
+  "stance": null,
+  "dob": "1996-01-01",
+  "age": 30,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": "Phoenix",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1747699079/o/ALBERT_INCLAN_400x533.png?1747699079",
+  "social": {
+    "instagram": "https://www.instagram.com/albert_inclan602/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/albert-inclan"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1500,
+  "elo_peak": 1519
+}

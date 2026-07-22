@@ -1,0 +1,41 @@
+{
+  "slug": "keith-richardson",
+  "name": "Keith Richardson",
+  "nickname": "The Rockstar",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 5,
+    "losses": 2,
+    "draws": 0,
+    "kos": 3
+  },
+  "mma_record": null,
+  "height_in": 66,
+  "reach_in": 68,
+  "stance": null,
+  "dob": "1983-11-01",
+  "age": 42,
+  "nationality": "United States",
+  "hometown": "Long Island, New York",
+  "fighting_out_of": "Rock Hill, South Carolina",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1745418286/o/KEITH_RICHARDSON_400x533.png?1745418286",
+  "social": {
+    "instagram": "https://www.instagram.com/rockstarmma/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/RockstarMMA/"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/keith-richardson"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1568,
+  "elo_peak": 1577
+}

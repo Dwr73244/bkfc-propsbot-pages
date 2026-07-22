@@ -1,0 +1,157 @@
+{
+  "slug": "bkfc-61",
+  "name": "BKFC 61 Connecticut: Rivera vs. Straus",
+  "event_number": 61,
+  "event_type": "Numbered",
+  "date": "2024-05-11T20:00:00Z",
+  "venue": "Mohegan Sun",
+  "city": "Uncasville",
+  "state": "CT",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "jimmie-rivera",
+      "fighter_b_slug": "daniel-straus",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jimmie-rivera",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "michael-trizano",
+      "fighter_b_slug": "louie-lopez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "michael-trizano",
+        "method": "KO (punches)",
+        "round": 1,
+        "time": "1:02"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "ryan-reber",
+      "fighter_b_slug": "anthony-foye",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ryan-reber",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Women's Strawweight",
+      "weight_limit_kg": 52,
+      "fighter_a_slug": "sarah-click",
+      "fighter_b_slug": "natalie-gage",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "sarah-click",
+        "method": "TKO (doctor stoppage)",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "rick-hawn",
+      "fighter_b_slug": "stephen-stengel",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rick-hawn",
+        "method": "KO (punch)",
+        "round": 1,
+        "time": "0:35"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "zach-calmus",
+      "fighter_b_slug": "connor-mckenna",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "zach-calmus",
+        "method": "KO (punch)",
+        "round": 3,
+        "time": "1:49"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "pat-brady",
+      "fighter_b_slug": "lewis-rumsey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "pat-brady",
+        "method": "TKO (punches)",
+        "round": 2,
+        "time": "1:41"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "scott-roberts",
+      "fighter_b_slug": "chris-sarro",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "scott-roberts",
+        "method": "TKO (doctor stoppage)",
+        "round": 1,
+        "time": "0:27"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

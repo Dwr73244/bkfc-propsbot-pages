@@ -1,0 +1,39 @@
+{
+  "slug": "stevie-taylor",
+  "name": "Stevie Taylor",
+  "nickname": null,
+  "division": "Light Heavyweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 74,
+  "reach_in": 80,
+  "stance": null,
+  "dob": "1987-05",
+  "age": 38,
+  "nationality": "United Kingdom",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/Stevietaylor666",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/stevie-taylor"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1478,
+  "elo_peak": 1500
+}

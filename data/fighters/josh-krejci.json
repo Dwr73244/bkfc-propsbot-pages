@@ -1,0 +1,39 @@
+{
+  "slug": "josh-krejci",
+  "name": "Josh Krejci",
+  "nickname": "JARHEAD",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 71,
+  "stance": null,
+  "dob": "1988-01",
+  "age": 38,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744598992/o/1744598992321_67cf5f1ab7918b6be9bfd548_JOSH_KREJCI_AVATAR_400x533_compressed.png?1744598992",
+  "social": {
+    "instagram": "https://www.instagram.com/HARAMBE_88",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/josh-krejci"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1478,
+  "elo_peak": 1500
+}

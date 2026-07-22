@@ -1,0 +1,39 @@
+{
+  "slug": "lewis-keen",
+  "name": "Lewis Keen",
+  "nickname": null,
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 5,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 70,
+  "stance": null,
+  "dob": "1998-09",
+  "age": 27,
+  "nationality": "United Kingdom",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755817412/o/JON_TELFER_SMALL_AVATAR_400x400.png?1755817412",
+  "social": {
+    "instagram": "https://www.instagram.com/lewisskeen",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/lewis-keen"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1519,
+  "elo_peak": 1519
+}

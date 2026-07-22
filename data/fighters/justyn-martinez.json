@@ -1,0 +1,39 @@
+{
+  "slug": "justyn-martinez",
+  "name": "Justyn Martinez",
+  "nickname": null,
+  "division": "Flyweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 6,
+    "draws": 0,
+    "kos": 2
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1993-06",
+  "age": 32,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1762457383/o/JUSTYN_MARTINEZ_AVATAR_400x533.png?1762457383",
+  "social": {
+    "instagram": "https://www.instagram.com/justyn_martinez/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/justyn-martinez"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1543,
+  "elo_peak": 1543
+}

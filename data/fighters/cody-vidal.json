@@ -1,0 +1,40 @@
+{
+  "slug": "cody-vidal",
+  "name": "Cody Vidal",
+  "nickname": null,
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": "3-1",
+  "height_in": 70,
+  "reach_in": 74,
+  "stance": null,
+  "dob": "1988-09",
+  "age": 37,
+  "nationality": "United States",
+  "hometown": "Fountain Valley, California",
+  "fighting_out_of": null,
+  "gym": "Classic Fight Team",
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1776185364/o/CODY_VIDAL_AVATAR_400x533.png?1776185364",
+  "social": {
+    "instagram": "https://www.instagram.com/VIDAL.VISIONS",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "American mixed martial artist turned bare-knuckle fighter based in Fountain Valley, California, training with Classic Fight Team. Compiled a 3-1 MMA record with all bouts ending in round one before transitioning to BKFC. Known primarily as a striker, he made his BKFC debut at KnuckleMania IV against Keith Richardson, lost to David Simpson in November 2025, and is matched against Jomi Escoboza in May 2026.",
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/cody-vidal"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1505,
+  "elo_peak": 1505
+}

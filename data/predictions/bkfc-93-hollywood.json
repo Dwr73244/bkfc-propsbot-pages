@@ -1,0 +1,146 @@
+{
+  "event_slug": "bkfc-93-hollywood",
+  "generated_at": "2026-07-21T23:34:45.861Z",
+  "model_version": "0.1.0",
+  "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "leonardo-perdomo",
+      "fighter_b_slug": "anthony-garrett",
+      "prediction": {
+        "prob_a": 0.6505,
+        "prob_b": 0.3495,
+        "raw_score": 0.2389,
+        "favorite_slug": "leonardo-perdomo",
+        "confidence": "Low",
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 42,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "W-W",
+            "value_b": "—",
+            "edge_slug": "leonardo-perdomo",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Perdomo hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "11-0",
+            "value_b": "0-0",
+            "edge_slug": "leonardo-perdomo",
+            "edge_strength": 1,
+            "weight": 0.11,
+            "display": "92% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "18%",
+            "value_b": "—",
+            "edge_slug": "anthony-garrett",
+            "edge_strength": 0.252,
+            "weight": 0.11,
+            "display": "-17 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 34,
+            "value_b": 36,
+            "edge_slug": "leonardo-perdomo",
+            "edge_strength": 0.36,
+            "weight": 0.09,
+            "display": "34 vs 36"
+          },
+          {
+            "name": "Reach",
+            "value_a": "73\"",
+            "value_b": "84\"",
+            "edge_slug": "anthony-garrett",
+            "edge_strength": 1,
+            "weight": 0.08,
+            "display": "-11\" Garrett"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.3y ago",
+            "value_b": "—",
+            "edge_slug": "leonardo-perdomo",
+            "edge_strength": 0.3,
+            "weight": 0.05,
+            "display": "Perdomo more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "33%",
+            "value_b": "—",
+            "edge_slug": "anthony-garrett",
+            "edge_strength": 0.333,
+            "weight": 0.04,
+            "display": "Garrett tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "11 fights",
+            "value_b": "0 fights",
+            "edge_slug": "leonardo-perdomo",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+11 fights Perdomo"
+          }
+        ],
+        "summary": "Model leans Perdomo 65/35. Edges on recent form, bkfc record, age, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 707,
+              "implied_prob": 0.124
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -707,
+              "implied_prob": 0.876
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -171,
+              "implied_prob": 0.631
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 308,
+              "implied_prob": 0.245
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 707,
+              "implied_prob": 0.124
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
+}

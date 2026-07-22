@@ -1,0 +1,39 @@
+{
+  "slug": "jayme-hinshaw",
+  "name": "Jayme Hinshaw",
+  "nickname": "ATOMBOMB",
+  "division": "Women's Strawweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 62,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1989-10",
+  "age": 36,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": "https://www.facebook.com/Jaymehinshawmma/"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/jayme-hinshaw"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1522,
+  "elo_peak": 1522
+}

@@ -1,0 +1,174 @@
+{
+  "slug": "bkfc-fight-night-pechanga-2025-01-18",
+  "name": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2025-01-18T20:00:00Z",
+  "venue": "Pechanga Resort Casino",
+  "city": "Temecula",
+  "state": "CA",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "evgeny-kurdanov",
+      "fighter_b_slug": "elvin-brito",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "evgeny-kurdanov",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "robbie-peralta",
+      "fighter_b_slug": "jordan-christensen",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "robbie-peralta",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "ryan-petersen",
+      "fighter_b_slug": "matthew-socholotiuk",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ryan-petersen",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "rodney-thomas",
+      "fighter_b_slug": "art-driscoll",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rodney-thomas",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "mike-andaya",
+      "fighter_b_slug": "dan-godoy",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mike-andaya",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:45"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "caleb-joseph-avila",
+      "fighter_b_slug": "tylor-sijohn",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "caleb-joseph-avila",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:25"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "iman-williams",
+      "fighter_b_slug": "gabriel-mota",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "iman-williams",
+        "method": "KO",
+        "round": 1,
+        "time": "1:54"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "jeremy-sauceda",
+      "fighter_b_slug": "luis-villasenor",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jeremy-sauceda",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:38"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "justyn-martinez",
+      "fighter_b_slug": "alexander-prince-gutierrez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "justyn-martinez",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:05"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

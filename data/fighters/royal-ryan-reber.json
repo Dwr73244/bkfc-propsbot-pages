@@ -1,0 +1,39 @@
+{
+  "slug": "royal-ryan-reber",
+  "name": "Royal Ryan Reber",
+  "full_name": null,
+  "nickname": "Royal",
+  "division": "Bantamweight",
+  "bkfc_record": {
+    "wins": 7,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 70,
+  "stance": null,
+  "dob": "1987-08-01",
+  "age": 38,
+  "nationality": "United States",
+  "hometown": "Florida",
+  "fighting_out_of": "Florida",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744599932644_67d35824c559bdd502c1d303_REBER_AVATAR_400x533_compressed.png",
+  "social": {
+    "instagram": "https://www.instagram.com/royalreber/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "American bantamweight out of Florida who joined BKFC in 2022. Known as an efficient, calculated, technical fighter, holding a 7-2 BKFC record. Notable moments include a chaotic BKFC 32 incident when opponent Jack Grady was disqualified for repeated illegal headbutts, and a five-round war with Travis Thompson that ended in a draw before Reber won the sixth-round tiebreaker via split decision.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/royal-ryan-reber"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1519,
+  "elo_peak": 1519
+}

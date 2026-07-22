@@ -1,0 +1,40 @@
+{
+  "slug": "will-santiago",
+  "name": "Will Santiago",
+  "nickname": "THE BROWN BOMBER",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 2,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1983-02",
+  "age": 43,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744596077/o/1744596076740_67cf5d020b4df41f96c2ff23_DAKOTA_COCHRANE_SMALL_AVATAR_400x400_compressed.png?1744596077",
+  "social": {
+    "instagram": "https://www.instagram.com/brownbomber_mma/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/will-santiago"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1500,
+  "elo_peak": 1522
+}

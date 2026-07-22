@@ -1,0 +1,190 @@
+{
+  "slug": "bkb-38-wolves-brawl-ii",
+  "league": "BKB",
+  "name": "BKB 38: Wolves Brawl II",
+  "event_number": 38,
+  "event_type": "Numbered",
+  "date": "2025-03-22T20:00:00Z",
+  "venue": "The Halls Wolverhampton",
+  "city": "Wolverhampton",
+  "state": null,
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Super Middleweight",
+      "fighter_a_slug": "lt-nelson",
+      "fighter_b_slug": "james-connelly",
+      "title_fight": true,
+      "title_name": "BKB Super Middleweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lt-nelson",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Super Middleweight",
+      "fighter_a_slug": "aaron-mccallum",
+      "fighter_b_slug": "mark-tiffin",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mark-tiffin",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "david-winiarski",
+      "fighter_b_slug": "simey-doherty",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "david-winiarski",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "callan-harley",
+      "fighter_b_slug": "jordan-ward",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jordan-ward",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "nathan-massey",
+      "fighter_b_slug": "ryan-meer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "nathan-massey",
+        "method": "KO",
+        "round": 3
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "liam-howell",
+      "fighter_b_slug": "cyrus-rafi",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "liam-howell",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "ryan-barrett",
+      "fighter_b_slug": "kevin-greenwood",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ryan-barrett",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "paul-hilz",
+      "fighter_b_slug": "dean-paterson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "paul-hilz",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "patrick-nash",
+      "fighter_b_slug": "sultan-ahmed",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "patrick-nash",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "matty-moore",
+      "fighter_b_slug": "gavin-curragh",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "matty-moore",
+        "method": "KO",
+        "round": 2
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/bkb-38-wolves-brawl-ii"
+  ],
+  "last_updated": "2026-04-17"
+}

@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-04-19T16:28:46.519Z",
+  "dry_run": false,
+  "total_targets": 10,
+  "enriched": [
+    {
+      "slug": "jamel-herring",
+      "boxrec_id": 634455,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 24,
+          "losses": 5,
+          "draws": 0,
+          "kos": 12,
+          "last_updated": "2026-04-19"
+        },
+        "boxrec_id": 634455,
+        "boxrec_url": "https://boxrec.com/en/box-pro/634455",
+        "sources_appended": "https://boxrec.com/en/box-pro/634455"
+      }
+    },
+    {
+      "slug": "austin-trout",
+      "boxrec_id": 328611,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 37,
+          "losses": 5,
+          "draws": 1,
+          "kos": 18,
+          "last_updated": "2026-04-19"
+        },
+        "boxrec_id": 328611,
+        "boxrec_url": "https://boxrec.com/en/box-pro/328611",
+        "amateur_boxing_record": "163-42-1",
+        "sources_appended": "https://boxrec.com/en/box-pro/328611"
+      }
+    },
+    {
+      "slug": "paulie-malignaggi",
+      "boxrec_id": 52984,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 36,
+          "losses": 8,
+          "draws": 0,
+          "kos": 7,
+          "last_updated": "2026-04-19"
+        },
+        "boxrec_id": 52984,
+        "boxrec_url": "https://boxrec.com/en/box-pro/52984"
+      }
+    },
+    {
+      "slug": "mike-perry",
+      "boxrec_id": 863648,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 0,
+          "losses": 2,
+          "draws": 0,
+          "kos": 0,
+          "last_updated": "2026-04-19"
+        },
+        "boxrec_id": 863648,
+        "boxrec_url": "https://boxrec.com/en/box-pro/863648",
+        "sources_appended": "https://boxrec.com/en/box-pro/863648"
+      }
+    },
+    {
+      "slug": "jeremy-stephens",
+      "boxrec_id": 924832,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 0,
+          "losses": 1,
+          "draws": 1,
+          "kos": 0,
+          "last_updated": "2026-04-19"
+        },
+        "boxrec_id": 924832,
+        "boxrec_url": "https://boxrec.com/en/box-pro/924832",
+        "dob_upgraded": "1986-05-26",
+        "sources_appended": "https://boxrec.com/en/box-pro/924832"
+      }
+    },
+    {
+      "slug": "ashley-brace",
+      "boxrec_id": 729344,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 8,
+          "losses": 0,
+          "draws": 1,
+          "kos": 3,
+          "last_updated": "2026-04-19"
+        },
+        "boxrec_id": 729344,
+        "boxrec_url": "https://boxrec.com/en/box-pro/729344",
+        "dob": "1991-03-09",
+        "height_in": 62,
+        "stance": "Orthodox",
+        "sources_appended": "https://boxrec.com/en/box-pro/729344"
+      }
+    },
+    {
+      "slug": "britain-hart",
+      "boxrec_id": 777371,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 4,
+          "losses": 4,
+          "draws": 3,
+          "kos": 3,
+          "last_updated": "2026-04-19"
+        },
+        "boxrec_id": 777371,
+        "boxrec_url": "https://boxrec.com/en/box-pro/777371",
+        "sources_appended": "https://boxrec.com/en/box-pro/777371"
+      }
+    },
+    {
+      "slug": "alfredo-angulo",
+      "boxrec_id": 288697,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 26,
+          "losses": 8,
+          "draws": 0,
+          "kos": 21,
+          "last_updated": "2026-04-19"
+        },
+        "boxrec_id": 288697,
+        "boxrec_url": "https://boxrec.com/en/box-pro/288697",
+        "dob_upgraded": "1982-08-11",
+        "reach_in": 69,
+        "stance": "Orthodox",
+        "sources_appended": "https://boxrec.com/en/box-pro/288697"
+      }
+    },
+    {
+      "slug": "bec-rawlings",
+      "boxrec_id": 851858,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 0,
+          "losses": 1,
+          "draws": 0,
+          "kos": 0,
+          "last_updated": "2026-04-19"
+        },
+        "boxrec_id": 851858,
+        "boxrec_url": "https://boxrec.com/en/box-pro/851858",
+        "reach_in": 64,
+        "sources_appended": "https://boxrec.com/en/box-pro/851858"
+      }
+    },
+    {
+      "slug": "luke-rockhold",
+      "boxrec_id": null,
+      "source": "verified",
+      "changes": {
+        "pro_boxing_record": {
+          "wins": 0,
+          "losses": 1,
+          "draws": 0,
+          "kos": 0,
+          "last_updated": "2026-04-19"
+        }
+      }
+    }
+  ],
+  "no_match": [],
+  "no_record": [],
+  "blocked": [],
+  "errors": [],
+  "missing": [],
+  "log": [
+    "[jamel-herring] enriched from verified: pro_boxing_record, boxrec_id, boxrec_url, sources_appended",
+    "[austin-trout] enriched from verified: pro_boxing_record, boxrec_id, boxrec_url, amateur_boxing_record, sources_appended",
+    "[paulie-malignaggi] enriched from verified: pro_boxing_record, boxrec_id, boxrec_url",
+    "[mike-perry] enriched from verified: pro_boxing_record, boxrec_id, boxrec_url, sources_appended",
+    "[jeremy-stephens] enriched from verified: pro_boxing_record, boxrec_id, boxrec_url, dob_upgraded, sources_appended",
+    "[ashley-brace] enriched from verified: pro_boxing_record, boxrec_id, boxrec_url, dob, height_in, stance, sources_appended",
+    "[britain-hart] enriched from verified: pro_boxing_record, boxrec_id, boxrec_url, sources_appended",
+    "[alfredo-angulo] enriched from verified: pro_boxing_record, boxrec_id, boxrec_url, dob_upgraded, reach_in, stance, sources_appended",
+    "[bec-rawlings] enriched from verified: pro_boxing_record, boxrec_id, boxrec_url, reach_in, sources_appended",
+    "[luke-rockhold] enriched from verified: pro_boxing_record"
+  ],
+  "finished_at": "2026-04-19T16:28:46.524Z",
+  "cloudflare_hits": 0,
+  "blocker_notes": {
+    "boxrec_anonymous_quota": "BoxRec rate-limits anonymous requests to roughly 5-10 profile page views per IP per day. After those, the site 302-redirects to /en/login?error=limit. The public /en/suggest_search autocomplete endpoint has a separate, higher quota and continues to work — we use it for name->ID resolution. Node's native fetch is also blocked by Cloudflare (403) regardless of headers; only curl-class clients pass the TLS fingerprint check. Net result: for this pass we relied on Wikipedia infoboxes (which cite BoxRec IDs) as the authoritative source for pro-boxing records. Two BoxRec profile pages (Herring wrong-ID Cangiano + Malignaggi 52984) were fetched live before the quota exhausted.",
+    "mitigations": [
+      "scripts/_boxrec-verified.json caches 10 Wikipedia-sourced records with BoxRec IDs so future reruns don't re-hit WebFetch",
+      "scrape-boxrec.mjs supports --use-verified flag for offline enrichment",
+      "Future auth'd run (with BoxRec paid sub + session cookie) could enrich the remaining ~50 priority fighters in one batch by passing Cookie header in fetchText()"
+    ]
+  },
+  "wikipedia_only_no_pro_boxing": [
+    { "slug": "chris-camozzi", "note": "MMA/BKFC only — no pro boxing record" },
+    { "slug": "nate-maness", "note": "MMA/BKFC only — no pro boxing record" },
+    { "slug": "eddie-alvarez", "note": "MMA/BKFC only — no pro boxing record" },
+    { "slug": "chad-mendes", "note": "MMA/BKFC only — no pro boxing record" },
+    { "slug": "thiago-alves", "note": "MMA/BKFC only — no pro boxing record" },
+    { "slug": "ben-rothwell", "note": "MMA/BKFC only — no pro boxing record" },
+    { "slug": "lorenzo-hunt", "note": "BKFC only — no pro boxing record (13-2 BKFC record with 11 KOs)" },
+    { "slug": "christine-ferea", "note": "BKFC only (11-1 BKFC record); no sanctioned pro boxing" },
+    { "slug": "donald-sanchez", "note": "BKFC only — no pro boxing record" },
+    { "slug": "paul-felder", "note": "MMA only — no pro boxing record" },
+    { "slug": "luis-palomino", "note": "Scheduled pro boxing debut Nov 2024 vs Gabriel Rosado per Wikipedia, result not yet confirmed — skipped until record is verifiable" }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "daniel-spohn",
+  "name": "Daniel Spohn",
+  "nickname": "Dragon",
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": "19-9-1",
+  "height_in": 76,
+  "reach_in": 77,
+  "stance": null,
+  "dob": "1984-10",
+  "age": null,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744599697/o/1744599696855_67bcdde670f95459deb019a9_BKFC41_-_Website_fighter_avatar_Spohn__28Mar2023_29_compressed.png",
+  "social": {
+    "instagram": "https://www.instagram.com/dragonspohn/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/dragonspohn"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/daniel-spohn",
+    "https://en.wikipedia.org/wiki/Dan_Spohn"
+  ],
+  "last_updated": "2026-04-17",
+  "full_name": "Daniel Spohn",
+  "elo": 1478,
+  "elo_peak": 1500
+}

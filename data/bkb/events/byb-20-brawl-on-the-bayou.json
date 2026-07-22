@@ -1,0 +1,160 @@
+{
+  "slug": "byb-20-brawl-on-the-bayou",
+  "league": "BKB",
+  "name": "BYB 20: Brawl on the Bayou",
+  "event_number": 20,
+  "event_type": "Numbered",
+  "date": "2023-09-16T20:00:00Z",
+  "venue": "Mississippi Coast Coliseum",
+  "city": "Biloxi",
+  "state": "Mississippi",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "monica-medina",
+      "fighter_b_slug": "paty-juarez",
+      "title_fight": true,
+      "title_name": "BKB Lightweight Championship (Women)",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "monica-medina",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "jd-burns",
+      "fighter_b_slug": "isaiah-quinones",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "isaiah-quinones",
+        "method": "KO",
+        "round": 2
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "harrison-aiken",
+      "fighter_b_slug": "kealii-kanekoa",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kealii-kanekoa",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "harold-mcqueen",
+      "fighter_b_slug": "oleksandr-sitarchuck",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "harold-mcqueen",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "walter-saravia",
+      "fighter_b_slug": "isaac-ware",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "walter-saravia",
+        "method": "KO",
+        "round": 3
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "julio-tanori",
+      "fighter_b_slug": "jeremiah-potts",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "julio-tanori",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "eric-olsen",
+      "fighter_b_slug": "eryk-majda",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "eryk-majda",
+        "method": "KO",
+        "round": 2
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "ike-villanueva",
+      "fighter_b_slug": "matt-kovacs",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ike-villanueva",
+        "method": "TKO",
+        "round": 1
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-20-brawl-on-the-bayou"
+  ],
+  "last_updated": "2026-04-17"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "chris-camozzi",
+  "name": "Chris Camozzi",
+  "full_name": "Christopher Allen Camozzi",
+  "nickname": null,
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 4,
+    "losses": 2,
+    "draws": 0,
+    "kos": 3
+  },
+  "mma_record": "27-15",
+  "height_in": 75,
+  "reach_in": 78,
+  "stance": "Southpaw",
+  "dob": "1986-11-20",
+  "age": 39,
+  "nationality": "United States",
+  "hometown": "Alameda, California",
+  "fighting_out_of": "Lakewood, Colorado",
+  "gym": "Genesis Training Center",
+  "champion": false,
+  "ranking": 1,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://instagram.com/chriscamozzi",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "Chris Camozzi is a veteran American combat sports athlete whose UFC middleweight career ran from 2010 to 2016 before he transitioned to bare knuckle. At age 39 he headlines BKFC 88 Denver for the Interim Cruiserweight Championship as the #1 ranked contender. Camozzi is a southpaw with a 27-15 MMA record, and he brings technical boxing and durability to the bare-knuckle ring.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/chris-camozzi",
+    "https://en.wikipedia.org/wiki/Chris_Camozzi"
+  ],
+  "last_updated": "2026-04-19",
+  "style_tags": [
+    "counter",
+    "volume",
+    "cardio"
+  ],
+  "elo": 1496,
+  "elo_peak": 1522,
+  "record_source": "wikipedia",
+  "record_verified": "2026-07-07"
+}

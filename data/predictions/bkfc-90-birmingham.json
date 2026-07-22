@@ -1,0 +1,1157 @@
+{
+  "event_slug": "bkfc-90-birmingham",
+  "generated_at": "2026-05-31T12:15:57.995Z",
+  "model_version": "0.1.0",
+  "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "connor-tierney",
+      "fighter_b_slug": "rico-franco",
+      "prediction": {
+        "prob_a": 0.4779,
+        "prob_b": 0.5221,
+        "raw_score": -0.1383,
+        "favorite_slug": "rico-franco",
+        "confidence": "Low",
+        "advantage_a": 48,
+        "advantage_b": 52,
+        "predictability": 29,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1456,
+            "value_b": 1564,
+            "edge_slug": "rico-franco",
+            "edge_strength": 0.54,
+            "weight": 0.16,
+            "display": "-108 ELO Franco"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "L-L",
+            "value_b": "W-W-W",
+            "edge_slug": "rico-franco",
+            "edge_strength": 1,
+            "weight": 0.13,
+            "display": "Franco hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "9-2",
+            "value_b": "10-3",
+            "edge_slug": null,
+            "edge_strength": 0.09,
+            "weight": 0.11,
+            "display": "77% vs 73% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "20%",
+            "edge_slug": null,
+            "edge_strength": 0.225,
+            "weight": 0.11,
+            "display": "15 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 31,
+            "value_b": 33,
+            "edge_slug": "connor-tierney",
+            "edge_strength": 0.24,
+            "weight": 0.09,
+            "display": "31 vs 33"
+          },
+          {
+            "name": "Reach",
+            "value_a": "73\"",
+            "value_b": "69\"",
+            "edge_slug": "connor-tierney",
+            "edge_strength": 0.667,
+            "weight": 0.08,
+            "display": "+4\" Tierney"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1d ago",
+            "value_b": "1d ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/2 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "80%",
+            "value_b": "27%",
+            "edge_slug": "connor-tierney",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Tierney tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "11 fights",
+            "value_b": "13 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Home",
+            "value_a": "United Kingdom",
+            "value_b": "United Kingdom",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Franco 52/48. Edges on elo rating, recent form.",
+        "market_adjusted": true
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 270,
+              "implied_prob": 0.27
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -270,
+              "implied_prob": 0.73
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -111,
+              "implied_prob": 0.525
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 390,
+              "implied_prob": 0.204
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 270,
+              "implied_prob": 0.27
+            }
+          ]
+        }
+      ],
+      "edge": {
+        "model_prob_a": 0.47793715010745363,
+        "model_prob_b": 0.5220628498925464,
+        "market_fair_prob_a": 0.5597014925373134,
+        "market_fair_prob_b": 0.4402985074626865,
+        "edge_pct_a": -0.08176434242985975,
+        "edge_pct_b": 0.08176434242985986,
+        "edge_slug": "rico-franco",
+        "edge_pct": 0.08176434242985975
+      }
+    },
+    {
+      "order": 2,
+      "fighter_a_slug": "john-phillips",
+      "fighter_b_slug": "ryan-barrett",
+      "prediction": {
+        "prob_a": 0.733,
+        "prob_b": 0.267,
+        "raw_score": 0.3806,
+        "favorite_slug": "john-phillips",
+        "confidence": "Very Low",
+        "advantage_a": 73,
+        "advantage_b": 27,
+        "predictability": 37,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1547,
+            "value_b": 1475,
+            "edge_slug": "john-phillips",
+            "edge_strength": 0.36,
+            "weight": 0.16,
+            "display": "+72 ELO Phillips"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W",
+            "value_b": "L",
+            "edge_slug": "john-phillips",
+            "edge_strength": 1,
+            "weight": 0.13,
+            "display": "Phillips hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "1-0",
+            "value_b": "0-0",
+            "edge_slug": "john-phillips",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "67% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "100%",
+            "value_b": "—",
+            "edge_slug": "john-phillips",
+            "edge_strength": 0.975,
+            "weight": 0.11,
+            "display": "65 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1d ago",
+            "value_b": "1d ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "0%",
+            "value_b": "100%",
+            "edge_slug": "ryan-barrett",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Barrett tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "1 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Home",
+            "value_a": "United Kingdom",
+            "value_b": "United Kingdom",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Phillips 73/27. Edges on elo rating, recent form, bkfc record, ko rate.",
+        "market_adjusted": true
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 751,
+              "implied_prob": 0.118
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -751,
+              "implied_prob": 0.882
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -174,
+              "implied_prob": 0.635
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 305,
+              "implied_prob": 0.247
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 751,
+              "implied_prob": 0.118
+            }
+          ]
+        }
+      ],
+      "edge": {
+        "model_prob_a": 0.7330065028031612,
+        "model_prob_b": 0.26699349719683885,
+        "market_fair_prob_a": 0.7379182156133829,
+        "market_fair_prob_b": 0.26208178438661706,
+        "edge_pct_a": -0.0049117128102217356,
+        "edge_pct_b": 0.004911712810221791,
+        "edge_slug": "ryan-barrett",
+        "edge_pct": 0.0049117128102217356
+      }
+    },
+    {
+      "order": 3,
+      "fighter_a_slug": "jonno-chipchase",
+      "fighter_b_slug": "brian-hyslop",
+      "prediction": {
+        "prob_a": 0.4541,
+        "prob_b": 0.5459,
+        "raw_score": -0.0924,
+        "favorite_slug": "brian-hyslop",
+        "confidence": "Low",
+        "advantage_a": 45,
+        "advantage_b": 55,
+        "predictability": 31,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1469,
+            "value_b": 1522,
+            "edge_slug": "brian-hyslop",
+            "edge_strength": 0.265,
+            "weight": 0.16,
+            "display": "-53 ELO Hyslop"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "L-L-W",
+            "value_b": "W",
+            "edge_slug": "brian-hyslop",
+            "edge_strength": 1,
+            "weight": 0.13,
+            "display": "Hyslop hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "3-2",
+            "value_b": "1-1",
+            "edge_slug": null,
+            "edge_strength": 0.179,
+            "weight": 0.11,
+            "display": "57% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "33%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.025,
+            "weight": 0.11,
+            "display": "-2 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 35,
+            "value_b": 39,
+            "edge_slug": "jonno-chipchase",
+            "edge_strength": 0.36,
+            "weight": 0.09,
+            "display": "35 vs 39"
+          },
+          {
+            "name": "Reach",
+            "value_a": "73\"",
+            "value_b": "65\"",
+            "edge_slug": "jonno-chipchase",
+            "edge_strength": 1,
+            "weight": 0.08,
+            "display": "+8\" Chipchase"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1d ago",
+            "value_b": "1d ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/2 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "50%",
+            "value_b": "60%",
+            "edge_slug": null,
+            "edge_strength": 0.2,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "5 fights",
+            "value_b": "2 fights",
+            "edge_slug": "jonno-chipchase",
+            "edge_strength": 0.375,
+            "weight": 0.03,
+            "display": "+3 fights Chipchase"
+          },
+          {
+            "name": "Home",
+            "value_a": "United Kingdom",
+            "value_b": "United Kingdom",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Hyslop 55/45. Edges on elo rating, recent form.",
+        "market_adjusted": true
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 210,
+              "implied_prob": 0.322
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -210,
+              "implied_prob": 0.678
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 105,
+              "implied_prob": 0.488
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 427,
+              "implied_prob": 0.19
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 210,
+              "implied_prob": 0.322
+            }
+          ]
+        }
+      ],
+      "edge": {
+        "model_prob_a": 0.45405177154085585,
+        "model_prob_b": 0.5459482284591441,
+        "market_fair_prob_a": 0.4709141274238227,
+        "market_fair_prob_b": 0.5290858725761772,
+        "edge_pct_a": -0.016862355882966862,
+        "edge_pct_b": 0.016862355882966917,
+        "edge_slug": "brian-hyslop",
+        "edge_pct": 0.016862355882966862
+      }
+    },
+    {
+      "order": 4,
+      "fighter_a_slug": "mike-wilkinson",
+      "fighter_b_slug": "luke-brassfield",
+      "prediction": {
+        "prob_a": 0.5686,
+        "prob_b": 0.4314,
+        "raw_score": 0.1061,
+        "favorite_slug": "mike-wilkinson",
+        "confidence": "Very Low",
+        "advantage_a": 57,
+        "advantage_b": 43,
+        "predictability": 22,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-1",
+            "edge_slug": "mike-wilkinson",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 33% win rate"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "1 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Home",
+            "value_a": "—",
+            "value_b": "United Kingdom",
+            "edge_slug": "luke-brassfield",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "Brassfield fights at home"
+          }
+        ],
+        "summary": "Model leans Wilkinson 57/43. Edges on bkfc record.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 257,
+              "implied_prob": 0.28
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -257,
+              "implied_prob": 0.72
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -108,
+              "implied_prob": 0.518
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 396,
+              "implied_prob": 0.202
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 257,
+              "implied_prob": 0.28
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 5,
+      "fighter_a_slug": "nathan-leeson",
+      "fighter_b_slug": "stevie-devenport",
+      "prediction": {
+        "prob_a": 0.605,
+        "prob_b": 0.395,
+        "raw_score": 0.2797,
+        "favorite_slug": "nathan-leeson",
+        "confidence": "Very Low",
+        "advantage_a": 60,
+        "advantage_b": 40,
+        "predictability": 34,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1522,
+            "value_b": 1478,
+            "edge_slug": "nathan-leeson",
+            "edge_strength": 0.22,
+            "weight": 0.16,
+            "display": "+44 ELO Leeson"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "L",
+            "edge_slug": "nathan-leeson",
+            "edge_strength": 1,
+            "weight": 0.13,
+            "display": "Leeson hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1d ago",
+            "value_b": "1d ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Leeson 60/40. Edges on elo rating, recent form.",
+        "market_adjusted": true
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -233,
+              "implied_prob": 0.7
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -102,
+              "implied_prob": 0.504
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 410,
+              "implied_prob": 0.196
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": {
+        "model_prob_a": 0.6049699439082963,
+        "model_prob_b": 0.3950300560917037,
+        "market_fair_prob_a": 0.5203327171903882,
+        "market_fair_prob_b": 0.4796672828096119,
+        "edge_pct_a": 0.08463722671790808,
+        "edge_pct_b": -0.08463722671790819,
+        "edge_slug": "nathan-leeson",
+        "edge_pct": 0.08463722671790808
+      }
+    },
+    {
+      "order": 6,
+      "fighter_a_slug": "george-thorpe",
+      "fighter_b_slug": "leigh-cohoon",
+      "prediction": {
+        "prob_a": 0.5484,
+        "prob_b": 0.4516,
+        "raw_score": 0.0784,
+        "favorite_slug": "george-thorpe",
+        "confidence": "Medium",
+        "advantage_a": 55,
+        "advantage_b": 45,
+        "predictability": 49,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1542,
+            "value_b": 1522,
+            "edge_slug": null,
+            "edge_strength": 0.1,
+            "weight": 0.16,
+            "display": "+20 ELO "
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W",
+            "value_b": "L-W-W",
+            "edge_slug": "george-thorpe",
+            "edge_strength": 0.7,
+            "weight": 0.13,
+            "display": "Thorpe hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-1",
+            "value_b": "3-0",
+            "edge_slug": "leigh-cohoon",
+            "edge_strength": 0.5,
+            "weight": 0.11,
+            "display": "60% vs 80% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "50%",
+            "value_b": "67%",
+            "edge_slug": "leigh-cohoon",
+            "edge_strength": 0.25,
+            "weight": 0.11,
+            "display": "-17 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 29,
+            "value_b": 41,
+            "edge_slug": "george-thorpe",
+            "edge_strength": 1,
+            "weight": 0.09,
+            "display": "29 vs 41"
+          },
+          {
+            "name": "Reach",
+            "value_a": "79\"",
+            "value_b": "74\"",
+            "edge_slug": "george-thorpe",
+            "edge_strength": 0.833,
+            "weight": 0.08,
+            "display": "+5\" Thorpe"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1d ago",
+            "value_b": "1d ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "50%",
+            "value_b": "67%",
+            "edge_slug": "leigh-cohoon",
+            "edge_strength": 0.333,
+            "weight": 0.04,
+            "display": "Cohoon tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "3 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "6'2\"",
+            "value_b": "6'0\"",
+            "edge_slug": "george-thorpe",
+            "edge_strength": 0.4,
+            "weight": 0.03,
+            "display": "+2\" Thorpe"
+          },
+          {
+            "name": "Home",
+            "value_a": "United Kingdom",
+            "value_b": "United Kingdom",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Thorpe 55/45. Edges on recent form, age, reach, height.",
+        "market_adjusted": true
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 406,
+              "implied_prob": 0.198
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -406,
+              "implied_prob": 0.802
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -137,
+              "implied_prob": 0.578
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 345,
+              "implied_prob": 0.225
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 406,
+              "implied_prob": 0.198
+            }
+          ]
+        }
+      ],
+      "edge": {
+        "model_prob_a": 0.5484030583499545,
+        "model_prob_b": 0.4515969416500455,
+        "market_fair_prob_a": 0.5454545454545455,
+        "market_fair_prob_b": 0.4545454545454546,
+        "edge_pct_a": 0.0029485128954089834,
+        "edge_pct_b": -0.0029485128954090944,
+        "edge_slug": "george-thorpe",
+        "edge_pct": 0.0029485128954089834
+      }
+    },
+    {
+      "order": 7,
+      "fighter_a_slug": "paul-osullivan",
+      "fighter_b_slug": "paul-hilz",
+      "prediction": {
+        "prob_a": 0.6536,
+        "prob_b": 0.3464,
+        "raw_score": 0.2656,
+        "favorite_slug": "paul-osullivan",
+        "confidence": "Very Low",
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 33,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1519,
+            "value_b": 1481,
+            "edge_slug": "paul-osullivan",
+            "edge_strength": 0.19,
+            "weight": 0.16,
+            "display": "+38 ELO O'Sullivan"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "L",
+            "edge_slug": "paul-osullivan",
+            "edge_strength": 1,
+            "weight": 0.13,
+            "display": "O'Sullivan hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "1-2",
+            "value_b": "0-0",
+            "edge_slug": "paul-hilz",
+            "edge_strength": 0.25,
+            "weight": 0.11,
+            "display": "40% vs 50% win rate"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1d ago",
+            "value_b": "1d ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "33%",
+            "edge_slug": "paul-osullivan",
+            "edge_strength": 0.333,
+            "weight": 0.04,
+            "display": "O'Sullivan tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "0 fights",
+            "edge_slug": "paul-osullivan",
+            "edge_strength": 0.375,
+            "weight": 0.03,
+            "display": "+3 fights O'Sullivan"
+          },
+          {
+            "name": "Home",
+            "value_a": "United Kingdom",
+            "value_b": "—",
+            "edge_slug": "paul-osullivan",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "O'Sullivan fights at home"
+          }
+        ],
+        "summary": "Model leans O'Sullivan 65/35. Edges on recent form, opponent quality, bkfc experience, home.",
+        "market_adjusted": true
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 308,
+              "implied_prob": 0.245
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -308,
+              "implied_prob": 0.755
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -119,
+              "implied_prob": 0.544
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 373,
+              "implied_prob": 0.211
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 308,
+              "implied_prob": 0.245
+            }
+          ]
+        }
+      ],
+      "edge": {
+        "model_prob_a": 0.6536121657743585,
+        "model_prob_b": 0.34638783422564146,
+        "market_fair_prob_a": 0.6383763837638375,
+        "market_fair_prob_b": 0.36162361623616235,
+        "edge_pct_a": 0.015235782010521004,
+        "edge_pct_b": -0.015235782010520893,
+        "edge_slug": "paul-osullivan",
+        "edge_pct": 0.015235782010521004
+      }
+    },
+    {
+      "order": 8,
+      "fighter_a_slug": "tommy-hawthorn",
+      "fighter_b_slug": "will-smith",
+      "prediction": {
+        "prob_a": 0.6503,
+        "prob_b": 0.3497,
+        "raw_score": 0.2288,
+        "favorite_slug": "tommy-hawthorn",
+        "confidence": "Low",
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 44,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1522,
+            "value_b": 1478,
+            "edge_slug": "tommy-hawthorn",
+            "edge_strength": 0.22,
+            "weight": 0.16,
+            "display": "+44 ELO Hawthorn"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "L",
+            "edge_slug": "tommy-hawthorn",
+            "edge_strength": 1,
+            "weight": 0.13,
+            "display": "Hawthorn hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "1-0",
+            "value_b": "1-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.11,
+            "display": "67% vs 67% win rate"
+          },
+          {
+            "name": "Age",
+            "value_a": 30,
+            "value_b": 36,
+            "edge_slug": "tommy-hawthorn",
+            "edge_strength": 0.6,
+            "weight": 0.09,
+            "display": "30 vs 36"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1d ago",
+            "value_b": "1d ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "100%",
+            "value_b": "100%",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "1 fights",
+            "value_b": "1 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'9\"",
+            "value_b": "6'1\"",
+            "edge_slug": "will-smith",
+            "edge_strength": 0.8,
+            "weight": 0.03,
+            "display": "-4\" Smith"
+          },
+          {
+            "name": "Home",
+            "value_a": "United Kingdom",
+            "value_b": "United Kingdom",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Hawthorn 65/35. Edges on elo rating, recent form, age.",
+        "market_adjusted": true
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -233,
+              "implied_prob": 0.7
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -102,
+              "implied_prob": 0.504
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 410,
+              "implied_prob": 0.196
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": {
+        "model_prob_a": 0.6502832822978191,
+        "model_prob_b": 0.34971671770218093,
+        "market_fair_prob_a": 0.6574074074074073,
+        "market_fair_prob_b": 0.34259259259259256,
+        "edge_pct_a": -0.007124125109588264,
+        "edge_pct_b": 0.007124125109588375,
+        "edge_slug": "will-smith",
+        "edge_pct": 0.007124125109588264
+      }
+    }
+  ]
+}

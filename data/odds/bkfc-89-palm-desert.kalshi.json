@@ -1,0 +1,8 @@
+{
+  "event_slug": "bkfc-89-palm-desert",
+  "event_date": "2026-05-22",
+  "source": "kalshi",
+  "source_url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open",
+  "fetched_at": "2026-04-18T19:12:25.476Z",
+  "bouts": []
+}

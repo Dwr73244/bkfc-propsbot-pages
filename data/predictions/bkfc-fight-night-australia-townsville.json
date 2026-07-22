@@ -1,0 +1,1019 @@
+{
+  "event_slug": "bkfc-fight-night-australia-townsville",
+  "generated_at": "2026-04-19T07:55:01.948Z",
+  "model_version": "0.1.0",
+  "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "haze-hepi",
+      "fighter_b_slug": "krzysztof-wisniewski",
+      "prediction": {
+        "prob_a": 0.4714,
+        "prob_b": 0.5286,
+        "raw_score": -0.0518,
+        "favorite_slug": "krzysztof-wisniewski",
+        "confidence": "Low",
+        "advantage_a": 47,
+        "advantage_b": 53,
+        "predictability": 32,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "3-1",
+            "value_b": "3-0",
+            "edge_slug": "krzysztof-wisniewski",
+            "edge_strength": 0.333,
+            "weight": 0.11,
+            "display": "67% vs 80% win rate"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "4 fights",
+            "value_b": "3 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "6'3\"",
+            "value_b": "6'3\"",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "0\" even"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Poland",
+            "edge_slug": "haze-hepi",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "Hepi fights at home"
+          }
+        ],
+        "summary": "Model leans Wiśniewski 53/47. Edges on bkfc record.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -567,
+              "implied_prob": 0.85
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -158,
+              "implied_prob": 0.612
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 320,
+              "implied_prob": 0.238
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 2,
+      "fighter_a_slug": "mark-flanagan",
+      "fighter_b_slug": "dilan-prasovic",
+      "prediction": {
+        "prob_a": 0.455,
+        "prob_b": 0.545,
+        "raw_score": -0.0818,
+        "favorite_slug": "dilan-prasovic",
+        "confidence": "Very Low",
+        "advantage_a": 45,
+        "advantage_b": 55,
+        "predictability": 25,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Age",
+            "value_a": 35,
+            "value_b": 30,
+            "edge_slug": "dilan-prasovic",
+            "edge_strength": 0.6,
+            "weight": 0.09,
+            "display": "35 vs 30"
+          },
+          {
+            "name": "Reach",
+            "value_a": "75\"",
+            "value_b": "76\"",
+            "edge_slug": "dilan-prasovic",
+            "edge_strength": 0.167,
+            "weight": 0.08,
+            "display": "-1\" Prasovic"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "6'1\"",
+            "value_b": "6'3\"",
+            "edge_slug": "dilan-prasovic",
+            "edge_strength": 0.4,
+            "weight": 0.03,
+            "display": "-2\" Prasovic"
+          },
+          {
+            "name": "Stance",
+            "value_a": "Orthodox",
+            "value_b": "Orthodox",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Mirror stance"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Montenegro",
+            "edge_slug": "mark-flanagan",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "Flanagan fights at home"
+          }
+        ],
+        "summary": "Model leans Prasovic 55/45. Edges on age, height.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 604,
+              "implied_prob": 0.142
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -604,
+              "implied_prob": 0.858
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -162,
+              "implied_prob": 0.618
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 316,
+              "implied_prob": 0.24
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 604,
+              "implied_prob": 0.142
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 3,
+      "fighter_a_slug": "josh-kuhne",
+      "fighter_b_slug": "mick-whitehead",
+      "prediction": {
+        "prob_a": 0.5941,
+        "prob_b": 0.4059,
+        "raw_score": 0.1732,
+        "favorite_slug": "josh-kuhne",
+        "confidence": "Very Low",
+        "advantage_a": 59,
+        "advantage_b": 41,
+        "predictability": 33,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Reach",
+            "value_a": "76\"",
+            "value_b": "72\"",
+            "edge_slug": "josh-kuhne",
+            "edge_strength": 0.667,
+            "weight": 0.08,
+            "display": "+4\" Kuhne"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'10\"",
+            "value_b": "5'9\"",
+            "edge_slug": "josh-kuhne",
+            "edge_strength": 0.2,
+            "weight": 0.03,
+            "display": "+1\" Kuhne"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Australia",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Kuhne 59/41. Edges on reach.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 303,
+              "implied_prob": 0.248
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -303,
+              "implied_prob": 0.752
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -118,
+              "implied_prob": 0.541
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 375,
+              "implied_prob": 0.211
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 303,
+              "implied_prob": 0.248
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 4,
+      "fighter_a_slug": "brayden-marzona",
+      "fighter_b_slug": "boaz-kapua",
+      "prediction": {
+        "prob_a": 0.4389,
+        "prob_b": 0.5611,
+        "raw_score": -0.1113,
+        "favorite_slug": "boaz-kapua",
+        "confidence": "Very Low",
+        "advantage_a": 44,
+        "advantage_b": 56,
+        "predictability": 31,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Reach",
+            "value_a": "71\"",
+            "value_b": "73\"",
+            "edge_slug": "boaz-kapua",
+            "edge_strength": 0.333,
+            "weight": 0.08,
+            "display": "-2\" Kapua"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'10\"",
+            "value_b": "6'0\"",
+            "edge_slug": "boaz-kapua",
+            "edge_strength": 0.4,
+            "weight": 0.03,
+            "display": "-2\" Kapua"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Australia",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Kapua 56/44. Edges on reach, height.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 327,
+              "implied_prob": 0.234
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -327,
+              "implied_prob": 0.766
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -123,
+              "implied_prob": 0.552
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 366,
+              "implied_prob": 0.214
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 327,
+              "implied_prob": 0.234
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 5,
+      "fighter_a_slug": "luke-bampton",
+      "fighter_b_slug": "hunter-ioane",
+      "prediction": {
+        "prob_a": 0.4213,
+        "prob_b": 0.5787,
+        "raw_score": -0.1442,
+        "favorite_slug": "hunter-ioane",
+        "confidence": "Very Low",
+        "advantage_a": 42,
+        "advantage_b": 58,
+        "predictability": 32,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Reach",
+            "value_a": "68\"",
+            "value_b": "70\"",
+            "edge_slug": "hunter-ioane",
+            "edge_strength": 0.333,
+            "weight": 0.08,
+            "display": "-2\" Ioane"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'5\"",
+            "value_b": "5'9\"",
+            "edge_slug": "hunter-ioane",
+            "edge_strength": 0.8,
+            "weight": 0.03,
+            "display": "-4\" Ioane"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Australia",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Ioane 58/42. Edges on reach, height.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 252,
+              "implied_prob": 0.284
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -252,
+              "implied_prob": 0.716
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -106,
+              "implied_prob": 0.516
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 399,
+              "implied_prob": 0.2
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 252,
+              "implied_prob": 0.284
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 6,
+      "fighter_a_slug": "cooper-clarke",
+      "fighter_b_slug": "ryan-winnett",
+      "prediction": {
+        "prob_a": 0.5482,
+        "prob_b": 0.4518,
+        "raw_score": 0.0875,
+        "favorite_slug": "cooper-clarke",
+        "confidence": "Very Low",
+        "advantage_a": 55,
+        "advantage_b": 45,
+        "predictability": 24,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Age",
+            "value_a": 20,
+            "value_b": 32,
+            "edge_slug": "cooper-clarke",
+            "edge_strength": 0.44,
+            "weight": 0.09,
+            "display": "20 vs 32"
+          },
+          {
+            "name": "Reach",
+            "value_a": "73\"",
+            "value_b": "72\"",
+            "edge_slug": "cooper-clarke",
+            "edge_strength": 0.167,
+            "weight": 0.08,
+            "display": "+1\" Clarke"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'9\"",
+            "value_b": "5'11\"",
+            "edge_slug": "ryan-winnett",
+            "edge_strength": 0.4,
+            "weight": 0.03,
+            "display": "-2\" Winnett"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Australia",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Clarke 55/45. Edges on age.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 242,
+              "implied_prob": 0.292
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -242,
+              "implied_prob": 0.708
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -104,
+              "implied_prob": 0.51
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 404,
+              "implied_prob": 0.198
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 242,
+              "implied_prob": 0.292
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 7,
+      "fighter_a_slug": "patrick-tolone",
+      "fighter_b_slug": "fetongi-tuinauvai",
+      "prediction": {
+        "prob_a": 0.6504,
+        "prob_b": 0.3496,
+        "raw_score": 0.2845,
+        "favorite_slug": "patrick-tolone",
+        "confidence": "Very Low",
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 37,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Reach",
+            "value_a": "80\"",
+            "value_b": "73\"",
+            "edge_slug": "patrick-tolone",
+            "edge_strength": 1,
+            "weight": 0.08,
+            "display": "+7\" Tolone"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "6'2\"",
+            "value_b": "5'11\"",
+            "edge_slug": "patrick-tolone",
+            "edge_strength": 0.6,
+            "weight": 0.03,
+            "display": "+3\" Tolone"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Australia",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Tolone 65/35. Edges on reach, height.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 900,
+              "implied_prob": 0.1
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -900,
+              "implied_prob": 0.9
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -184,
+              "implied_prob": 0.648
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 297,
+              "implied_prob": 0.252
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 900,
+              "implied_prob": 0.1
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 8,
+      "fighter_a_slug": "chris-drummond",
+      "fighter_b_slug": "asher-jack",
+      "prediction": {
+        "prob_a": 0.4881,
+        "prob_b": 0.5119,
+        "raw_score": -0.0215,
+        "favorite_slug": "asher-jack",
+        "confidence": "Very Low",
+        "advantage_a": 49,
+        "advantage_b": 51,
+        "predictability": 28,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'10\"",
+            "value_b": "5'11\"",
+            "edge_slug": "asher-jack",
+            "edge_strength": 0.2,
+            "weight": 0.03,
+            "display": "-1\" Jack"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Australia",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 300,
+              "implied_prob": 0.25
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -300,
+              "implied_prob": 0.75
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -117,
+              "implied_prob": 0.54
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 376,
+              "implied_prob": 0.21
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 300,
+              "implied_prob": 0.25
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 9,
+      "fighter_a_slug": "sebastian-temesi",
+      "fighter_b_slug": "alvin-kanehailua",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "alvin-kanehailua",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Australia",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 400,
+              "implied_prob": 0.2
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -400,
+              "implied_prob": 0.8
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -136,
+              "implied_prob": 0.576
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 346,
+              "implied_prob": 0.224
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 400,
+              "implied_prob": 0.2
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 10,
+      "fighter_a_slug": "darcy-braine",
+      "fighter_b_slug": "ritchie-faoso",
+      "prediction": {
+        "prob_a": 0.608,
+        "prob_b": 0.392,
+        "raw_score": 0.1998,
+        "favorite_slug": "darcy-braine",
+        "confidence": "Very Low",
+        "advantage_a": 61,
+        "advantage_b": 39,
+        "predictability": 34,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Reach",
+            "value_a": "79\"",
+            "value_b": "76\"",
+            "edge_slug": "darcy-braine",
+            "edge_strength": 0.5,
+            "weight": 0.08,
+            "display": "+3\" Braine"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "6'7\"",
+            "value_b": "6'0\"",
+            "edge_slug": "darcy-braine",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+7\" Braine"
+          },
+          {
+            "name": "Home",
+            "value_a": "Australia",
+            "value_b": "Australia",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Braine 61/39. Edges on reach, height.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 694,
+              "implied_prob": 0.126
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -694,
+              "implied_prob": 0.874
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -170,
+              "implied_prob": 0.629
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 309,
+              "implied_prob": 0.245
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 694,
+              "implied_prob": 0.126
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "event_slug": "bkfc-89-palm-desert",
+  "event_date": "2026-05-22",
+  "source": "bestfightodds-props",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4198",
+  "fetched_at": "2026-05-24T00:03:39.523Z",
+  "total_prop_rows": 0,
+  "bouts": [
+    {
+      "fighter_a_slug": "cody-vidal",
+      "fighter_b_slug": "jomi-escoboza",
+      "matchup_id": "43413",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "chase-gormley",
+      "fighter_b_slug": "levi-costa",
+      "matchup_id": "43412",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "evgenii-kurdanov",
+      "fighter_b_slug": "eric-lopez",
+      "matchup_id": "43410",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
+}

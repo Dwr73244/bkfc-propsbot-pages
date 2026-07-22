@@ -1,0 +1,39 @@
+{
+  "slug": "mahmoud-ahmed",
+  "name": "Mahmoud Ahmed",
+  "nickname": "Mando",
+  "division": "Bantamweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 65,
+  "reach_in": 68,
+  "stance": null,
+  "dob": "1997-01",
+  "age": 29,
+  "nationality": "Egypt",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744600345/o/1744600344976_67bcddbceb4efa4daaff4d62_mahmoud_mando_Website_fighter_avatar_template_compressed.webp?1744600345",
+  "social": {
+    "instagram": "https://www.instagram.com/MAHMOUDMANDO.OFFICIAL",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/mahmoud-ahmed"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1519,
+  "elo_peak": 1519
+}

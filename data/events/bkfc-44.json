@@ -1,0 +1,89 @@
+{
+  "slug": "bkfc-44",
+  "name": "BKFC 44 Montana: Stewart vs. Lopez",
+  "event_number": 44,
+  "event_type": "Numbered",
+  "date": "2023-06-09T20:00:00Z",
+  "venue": "Four Seasons Arena",
+  "city": "Great Falls",
+  "state": "MT",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "louie-lopez",
+      "fighter_b_slug": "kai-stewart",
+      "title_fight": true,
+      "title_name": "BKFC Featherweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kai-stewart",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "dallas-davison",
+      "fighter_b_slug": "lloyd-mix",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lloyd-mix",
+        "method": "TKO (corner stoppage)",
+        "round": 4,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "billy-wagner",
+      "fighter_b_slug": "bryce-henry",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bryce-henry",
+        "method": "TKO (corner stoppage)",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "Prelim",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "gabriel-mota",
+      "fighter_b_slug": "sawyer-depee",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "sawyer-depee",
+        "method": "KO",
+        "round": 1,
+        "time": null
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

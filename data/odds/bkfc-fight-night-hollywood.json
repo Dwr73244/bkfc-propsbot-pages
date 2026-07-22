@@ -1,0 +1,41 @@
+{
+  "event_slug": "bkfc-fight-night-hollywood",
+  "event_date": "2026-06-04",
+  "source": "consensus",
+  "source_url": null,
+  "fetched_at": "2026-07-21T23:34:45.794Z",
+  "book_count": 5,
+  "books": [
+    "bestfightodds",
+    "kalshi",
+    "polymarket",
+    "unibet",
+    "xbet"
+  ],
+  "bouts": [
+    {
+      "fighter_a_slug": "julian-lane",
+      "fighter_b_slug": "bryce-henry",
+      "moneyline_a": 340,
+      "moneyline_b": -530,
+      "implied_prob_a": 0.227,
+      "implied_prob_b": 0.841,
+      "vig": 0.069,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          340,
+          340
+        ],
+        "b": [
+          -530,
+          -530
+        ]
+      }
+    }
+  ]
+}

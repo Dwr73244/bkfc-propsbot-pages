@@ -1,0 +1,40 @@
+{
+  "slug": "jake-bostwick",
+  "name": "Jake Bostwick",
+  "nickname": "Brutal",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 4,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": "18-10",
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1989-10-28",
+  "age": 36,
+  "nationality": "United Kingdom",
+  "hometown": "England",
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "English combat sports veteran who built an 18-10 MMA record across Cage Warriors, Cage Rage, and Ultimate Challenge MMA, winning titles at three separate promotions. Transitioned to bare-knuckle boxing in 2020 and has fought notable BKFC names including Julian Lane, Isaac Doolittle, Erick Lozano, and Francesco Ricchi. Known as a technical counter-striker who is dangerous over 10-minute bouts.",
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/brutal-jake-bostwick",
+    "https://www.sherdog.com/fighter/Jake-Bostwick-16402"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1528,
+  "elo_peak": 1528
+}

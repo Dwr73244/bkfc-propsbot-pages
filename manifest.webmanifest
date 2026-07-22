@@ -1,0 +1,26 @@
+{
+  "name": "PropsBot BKFC",
+  "short_name": "BKFC",
+  "description": "Free BKFC + BKB bare-knuckle fight tracker with AI predictions, live odds, and model-vs-market analysis.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070e1a",
+  "theme_color": "#15ffc2",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "categories": ["sports", "entertainment", "utilities"],
+  "icons": [
+    {
+      "src": "/assets/img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

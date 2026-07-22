@@ -1,0 +1,39 @@
+{
+  "slug": "ray-pell",
+  "name": "Ray Pell",
+  "nickname": "HONKEYKONG",
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 70,
+  "stance": null,
+  "dob": "1992-08",
+  "age": 33,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744596718/o/1744596717746_67bcd80e9db072fd91cac12a_BKFC_-_Website_avatar_Pell__28Feb2024_29_compressed.png?1744596718",
+  "social": {
+    "instagram": "https://www.instagram.com/honkeykong92/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/ray-pell"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1478,
+  "elo_peak": 1500
+}

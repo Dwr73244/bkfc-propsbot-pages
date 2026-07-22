@@ -1,0 +1,42 @@
+{
+  "slug": "paul-hilz",
+  "name": "Paul Hilz",
+  "full_name": null,
+  "nickname": null,
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": null,
+  "age": null,
+  "nationality": null,
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1776197991/o/PAUL_HILZ_AVATAR_400x533.png?1776197991",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs-franco",
+    "https://www.bkfc.com/fighters/paul-hilz"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1481,
+  "elo_peak": 1500,
+  "record_source": "tracked-events",
+  "record_verified": "2026-07-07"
+}

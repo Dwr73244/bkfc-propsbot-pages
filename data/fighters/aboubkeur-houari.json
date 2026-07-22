@@ -1,0 +1,39 @@
+{
+  "slug": "aboubkeur-houari",
+  "name": "Aboubkeur Houari",
+  "nickname": "THE PENER",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 70,
+  "reach_in": null,
+  "stance": null,
+  "dob": null,
+  "age": null,
+  "nationality": "Algeria",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594380/o/1744594380579_67c812c24ea909ca09588751_BKFC_-_Website_avatar_Houari__28Mar2025_29_compressed.webp?1744594380",
+  "social": {
+    "instagram": "https://www.instagram.com/HOUARIBAKR",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/aboubkeur-houari"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1478,
+  "elo_peak": 1500
+}

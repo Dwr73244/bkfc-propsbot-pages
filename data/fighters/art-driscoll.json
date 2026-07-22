@@ -1,0 +1,39 @@
+{
+  "slug": "art-driscoll",
+  "name": "Art Driscoll",
+  "nickname": "BERSERKER",
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 3,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 72,
+  "stance": null,
+  "dob": "1984-07",
+  "age": 41,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/theberserkerbkfc/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/art-driscoll"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1481,
+  "elo_peak": 1500
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "esteban-rodriguez",
+  "name": "Esteban Rodriguez",
+  "full_name": null,
+  "nickname": "Mohawk",
+  "division": "Heavyweight",
+  "bkfc_record": {
+    "wins": 6,
+    "losses": 1,
+    "draws": 0,
+    "kos": 5
+  },
+  "mma_record": "1-4",
+  "height_in": 76,
+  "reach_in": 81,
+  "stance": null,
+  "dob": null,
+  "age": 34,
+  "nationality": "United States",
+  "hometown": "Grand Rapids, Michigan",
+  "fighting_out_of": "Grand Rapids, Michigan",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://instagram.com/mohawkrodriguez",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/mohawkrodriguez/"
+  },
+  "bio": "Esteban 'Mohawk' Rodriguez is an all-action BKFC heavyweight with a perfect 5-0 knockout rate through his finishing fights — every one of his wins has come by KO. Fighting out of Grand Rapids, Michigan, he steps up to cruiserweight to challenge Chris Camozzi for the Interim Cruiserweight Championship at BKFC 88 Denver.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/esteban-rodriguez",
+    "https://www.bkfc.com/news/esteban-rodriguez-steps-into-superstardom-in-bkfc-88-headliner"
+  ],
+  "last_updated": "2026-04-19",
+  "style_tags": [
+    "ko-hunter",
+    "power"
+  ],
+  "elo": 1548,
+  "elo_peak": 1548
+}

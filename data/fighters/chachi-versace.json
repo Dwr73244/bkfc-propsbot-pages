@@ -1,0 +1,37 @@
+{
+  "slug": "chachi-versace",
+  "name": "Chachi Versace",
+  "full_name": null,
+  "nickname": null,
+  "division": "Flyweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 66,
+  "reach_in": 67,
+  "stance": null,
+  "dob": "1988-02-01",
+  "age": 38,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594145/o/1744594144651_67d358ae3a721f6b3323fceb_VERSACE_AVATAR_400x533_compressed.png",
+  "social": {
+    "instagram": "https://www.instagram.com/chachi___versace/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/chachi-versace"
+  ],
+  "last_updated": "2026-04-19"
+}

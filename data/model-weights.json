@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-07-01T12:13:22.554Z",
+  "backtest_bouts": 362,
+  "method": "point-in-time backtest, weights proportional to (accuracy - 0.5) + floor, discounted by min(1, sample_size/30), then normalized",
+  "weights": {
+    "ELO Rating": 0.206,
+    "Recent Form": 0.152,
+    "BKFC Record": 0.145,
+    "MMA Background": 0.109,
+    "KO Rate": 0.099,
+    "Pro Boxing": 0.096,
+    "Reach": 0.059,
+    "Height": 0.057,
+    "Age": 0.04,
+    "Style Matchup": 0.026,
+    "Cut Susceptibility": 0.007,
+    "Experience": 0.004,
+    "Activity": 0
+  },
+  "factor_accuracy": {
+    "Pro Boxing": {
+      "n": 4,
+      "accuracy": 1,
+      "edge_pp": 50
+    },
+    "KO Rate": {
+      "n": 8,
+      "accuracy": 0.75,
+      "edge_pp": 25
+    },
+    "ELO Rating": {
+      "n": 24,
+      "accuracy": 0.667,
+      "edge_pp": 16.7
+    },
+    "Style Matchup": {
+      "n": 3,
+      "accuracy": 0.667,
+      "edge_pp": 16.7
+    },
+    "MMA Background": {
+      "n": 18,
+      "accuracy": 0.611,
+      "edge_pp": 11.1
+    },
+    "Recent Form": {
+      "n": 100,
+      "accuracy": 0.59,
+      "edge_pp": 9
+    },
+    "BKFC Record": {
+      "n": 106,
+      "accuracy": 0.585,
+      "edge_pp": 8.5
+    },
+    "Reach": {
+      "n": 132,
+      "accuracy": 0.523,
+      "edge_pp": 2.3
+    },
+    "Height": {
+      "n": 117,
+      "accuracy": 0.521,
+      "edge_pp": 2.1
+    },
+    "Age": {
+      "n": 161,
+      "accuracy": 0.509,
+      "edge_pp": 0.9
+    },
+    "Experience": {
+      "n": 4,
+      "accuracy": 0.5,
+      "edge_pp": 0
+    },
+    "Cut Susceptibility": {
+      "n": 8,
+      "accuracy": 0.5,
+      "edge_pp": 0
+    },
+    "Activity": {
+      "n": 0,
+      "accuracy": 0,
+      "edge_pp": -50
+    }
+  },
+  "full_model": {
+    "picks_made": 139,
+    "toss_ups_skipped": 223,
+    "correct": 82,
+    "wrong": 57,
+    "accuracy": 0.59,
+    "edge_pp": 9,
+    "brier_score": 0.2463,
+    "by_confidence": {
+      "high": {
+        "n": 2,
+        "correct": 1,
+        "accuracy": 0.5
+      },
+      "med": {
+        "n": 61,
+        "correct": 35,
+        "accuracy": 0.574
+      },
+      "low": {
+        "n": 76,
+        "correct": 46,
+        "accuracy": 0.605
+      }
+    },
+    "reliability": [
+      {
+        "bucket": "50-55%",
+        "n": 223,
+        "avg_predicted": 0.513,
+        "actual": 0.534,
+        "gap_pp": 2.1
+      },
+      {
+        "bucket": "55-60%",
+        "n": 76,
+        "avg_predicted": 0.577,
+        "actual": 0.605,
+        "gap_pp": 2.8
+      },
+      {
+        "bucket": "60-65%",
+        "n": 50,
+        "avg_predicted": 0.624,
+        "actual": 0.56,
+        "gap_pp": -6.4
+      },
+      {
+        "bucket": "65-70%",
+        "n": 11,
+        "avg_predicted": 0.669,
+        "actual": 0.636,
+        "gap_pp": -3.3
+      },
+      {
+        "bucket": "70-80%",
+        "n": 2,
+        "avg_predicted": 0.732,
+        "actual": 0.5,
+        "gap_pp": -23.2
+      }
+    ]
+  }
+}

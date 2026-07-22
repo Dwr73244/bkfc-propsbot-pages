@@ -1,0 +1,39 @@
+{
+  "slug": "liam-dooley",
+  "name": "Liam Dooley",
+  "nickname": null,
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 70,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1994-05",
+  "age": 31,
+  "nationality": "United Kingdom",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/liamdooley1994",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/liam-dooley"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1522,
+  "elo_peak": 1522
+}

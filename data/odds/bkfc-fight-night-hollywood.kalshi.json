@@ -1,0 +1,8 @@
+{
+  "event_slug": "bkfc-fight-night-hollywood",
+  "event_date": "2026-06-04",
+  "source": "kalshi",
+  "source_url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open",
+  "fetched_at": "2026-05-21T23:36:18.592Z",
+  "bouts": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "paul-hilz",
+  "league": "BKB",
+  "name": "Paul Hilz",
+  "nickname": null,
+  "division": "Lightweight",
+  "bkb_record": {
+    "wins": 3,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": null,
+  "age": null,
+  "nationality": null,
+  "hometown": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1776197991/o/PAUL_HILZ_AVATAR_400x533.png?1776197991",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
+  ],
+  "last_updated": "2026-04-18",
+  "elo": 1534,
+  "elo_peak": 1537
+}

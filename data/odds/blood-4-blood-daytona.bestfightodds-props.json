@@ -1,0 +1,17 @@
+{
+  "event_slug": "blood-4-blood-daytona",
+  "event_date": "2026-05-06",
+  "source": "bestfightodds-props",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4176",
+  "fetched_at": "2026-05-07T05:02:00.699Z",
+  "total_prop_rows": 0,
+  "bouts": [
+    {
+      "fighter_a_slug": "jake-bostwick",
+      "fighter_b_slug": "roderick-stewart",
+      "matchup_id": "43216",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
+}

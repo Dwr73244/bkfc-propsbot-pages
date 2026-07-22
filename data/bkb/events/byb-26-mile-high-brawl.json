@@ -1,0 +1,130 @@
+{
+  "slug": "byb-26-mile-high-brawl",
+  "league": "BKB",
+  "name": "BYB 26: Mile High Brawl",
+  "event_number": 26,
+  "event_type": "Numbered",
+  "date": "2024-05-10T20:00:00Z",
+  "venue": "1STBANK Center",
+  "city": "Denver",
+  "state": "Colorado",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "lt-nelson",
+      "fighter_b_slug": "tommy-turner",
+      "title_fight": true,
+      "title_name": "BKB Middleweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lt-nelson",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "art-parker",
+      "fighter_b_slug": "dewitt-dixon",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dewitt-dixon",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "walter-saravia",
+      "fighter_b_slug": "shawn-rall",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "walter-saravia",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "robert-duran-jr",
+      "fighter_b_slug": "javon-wright",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "robert-duran-jr",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "uly-diaz",
+      "fighter_b_slug": "zion-tomlinson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "zion-tomlinson",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "paty-juarez",
+      "fighter_b_slug": "pavla-kladivova",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "paty-juarez",
+        "method": "TKO",
+        "round": 4
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-26-mile-high-brawl"
+  ],
+  "last_updated": "2026-04-17"
+}

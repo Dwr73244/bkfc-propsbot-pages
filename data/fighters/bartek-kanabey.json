@@ -1,0 +1,40 @@
+{
+  "slug": "bartek-kanabey",
+  "name": "Bartek Kanabey",
+  "nickname": "THE POLISH PLOUGH",
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 4,
+    "losses": 3,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 78,
+  "stance": null,
+  "dob": "1997-06",
+  "age": 28,
+  "nationality": "United Kingdom",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1770227302/o/JEFF_SAUNDERS_SMALL_AVATAR_400x400.png?1770227302",
+  "social": {
+    "instagram": "https://www.instagram.com/bkb_thepolishplough/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/bartek-kanabey"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1502,
+  "elo_peak": 1522
+}

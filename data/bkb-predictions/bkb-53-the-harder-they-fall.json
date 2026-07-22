@@ -1,0 +1,1214 @@
+{
+  "event_slug": "bkb-53-the-harder-they-fall",
+  "generated_at": "2026-04-18T10:45:32.141Z",
+  "model_version": "0.1.0",
+  "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "lt-nelson",
+      "fighter_b_slug": "mark-tiffin",
+      "prediction": {
+        "prob_a": 0.7166,
+        "prob_b": 0.2834,
+        "raw_score": 0.3568,
+        "favorite_slug": "lt-nelson",
+        "confidence": "Low",
+        "advantage_a": 72,
+        "advantage_b": 28,
+        "predictability": 53,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1621,
+            "value_b": 1537,
+            "edge_slug": "lt-nelson",
+            "edge_strength": 0.42,
+            "weight": 0.16,
+            "display": "+84 ELO Nelson"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W-W-W-W",
+            "value_b": "W-W-L-W",
+            "edge_slug": "lt-nelson",
+            "edge_strength": 0.408,
+            "weight": 0.13,
+            "display": "Nelson hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "7-1-1",
+            "value_b": "3-1",
+            "edge_slug": null,
+            "edge_strength": 0.152,
+            "weight": 0.11,
+            "display": "73% vs 67% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "43%",
+            "value_b": "0%",
+            "edge_slug": "lt-nelson",
+            "edge_strength": 0.643,
+            "weight": 0.11,
+            "display": "43 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Pro Boxing",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No boxing data"
+          },
+          {
+            "name": "Reach",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No MMA data"
+          },
+          {
+            "name": "Style",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No style data"
+          },
+          {
+            "name": "Activity",
+            "value_a": "10mo ago",
+            "value_b": "1.1y ago",
+            "edge_slug": "lt-nelson",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Nelson more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "40%",
+            "value_b": "51%",
+            "edge_slug": null,
+            "edge_strength": 0.219,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "9 fights",
+            "value_b": "4 fights",
+            "edge_slug": "lt-nelson",
+            "edge_strength": 0.625,
+            "weight": 0.03,
+            "display": "+5 fights Nelson"
+          },
+          {
+            "name": "Height",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Stance",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Home",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          }
+        ],
+        "summary": "Model leans Nelson 72/28. Edges on elo rating, recent form, ko rate, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 241,
+              "implied_prob": 0.293
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -241,
+              "implied_prob": 0.707
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -104,
+              "implied_prob": 0.509
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 405,
+              "implied_prob": 0.198
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 241,
+              "implied_prob": 0.293
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 2,
+      "fighter_a_slug": "jarod-grant",
+      "fighter_b_slug": "jon-barnard",
+      "prediction": {
+        "prob_a": 0.7749,
+        "prob_b": 0.2251,
+        "raw_score": 0.4755,
+        "favorite_slug": "jarod-grant",
+        "confidence": "Very Low",
+        "advantage_a": 77,
+        "advantage_b": 23,
+        "predictability": 41,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1564,
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No ELO data"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W-W",
+            "value_b": "—",
+            "edge_slug": "jarod-grant",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Grant hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "3-0",
+            "value_b": "0-0",
+            "edge_slug": "jarod-grant",
+            "edge_strength": 0.75,
+            "weight": 0.11,
+            "display": "80% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "67%",
+            "value_b": "—",
+            "edge_slug": "jarod-grant",
+            "edge_strength": 0.475,
+            "weight": 0.11,
+            "display": "32 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Pro Boxing",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No boxing data"
+          },
+          {
+            "name": "Reach",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No MMA data"
+          },
+          {
+            "name": "Style",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No style data"
+          },
+          {
+            "name": "Activity",
+            "value_a": "11mo ago",
+            "value_b": "—",
+            "edge_slug": "jarod-grant",
+            "edge_strength": 0.7,
+            "weight": 0.05,
+            "display": "Grant more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "28%",
+            "value_b": "—",
+            "edge_slug": "jon-barnard",
+            "edge_strength": 0.444,
+            "weight": 0.04,
+            "display": "Barnard tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "0 fights",
+            "edge_slug": "jarod-grant",
+            "edge_strength": 0.375,
+            "weight": 0.03,
+            "display": "+3 fights Grant"
+          },
+          {
+            "name": "Height",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Stance",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Home",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          }
+        ],
+        "summary": "Model leans Grant 77/23. Edges on recent form, bkfc record, ko rate, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 248,
+              "implied_prob": 0.288
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -248,
+              "implied_prob": 0.712
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -105,
+              "implied_prob": 0.513
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 401,
+              "implied_prob": 0.2
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 248,
+              "implied_prob": 0.288
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 3,
+      "fighter_a_slug": "claudia-zamora",
+      "fighter_b_slug": "viviane-pereira",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "viviane-pereira",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No ELO data"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No recent fights"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Age",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Pro Boxing",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No boxing data"
+          },
+          {
+            "name": "Reach",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No MMA data"
+          },
+          {
+            "name": "Style",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No style data"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No activity data"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No cut data"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No SOS data"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Stance",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Home",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -233,
+              "implied_prob": 0.7
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -102,
+              "implied_prob": 0.504
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 410,
+              "implied_prob": 0.196
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 4,
+      "fighter_a_slug": "robert-duran-jr",
+      "fighter_b_slug": "austin-spivey",
+      "prediction": {
+        "prob_a": 0.3726,
+        "prob_b": 0.6274,
+        "raw_score": -0.2004,
+        "favorite_slug": "austin-spivey",
+        "confidence": "Low",
+        "advantage_a": 37,
+        "advantage_b": 63,
+        "predictability": 43,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1480,
+            "value_b": 1521,
+            "edge_slug": "austin-spivey",
+            "edge_strength": 0.205,
+            "weight": 0.16,
+            "display": "-41 ELO Spivey"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "L-L-W",
+            "value_b": "W",
+            "edge_slug": "austin-spivey",
+            "edge_strength": 1,
+            "weight": 0.13,
+            "display": "Spivey hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "1-2",
+            "value_b": "1-0",
+            "edge_slug": "austin-spivey",
+            "edge_strength": 0.667,
+            "weight": 0.11,
+            "display": "40% vs 67% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "100%",
+            "value_b": "100%",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.11,
+            "display": "0 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Pro Boxing",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No boxing data"
+          },
+          {
+            "name": "Reach",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No MMA data"
+          },
+          {
+            "name": "Style",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No style data"
+          },
+          {
+            "name": "Activity",
+            "value_a": "11mo ago",
+            "value_b": "8mo ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/2 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "75%",
+            "value_b": "17%",
+            "edge_slug": "robert-duran-jr",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Jr tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "1 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Stance",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Home",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          }
+        ],
+        "summary": "Model leans Spivey 63/37. Edges on elo rating, recent form, bkfc record.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 471,
+              "implied_prob": 0.175
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -471,
+              "implied_prob": 0.825
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -146,
+              "implied_prob": 0.594
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 333,
+              "implied_prob": 0.231
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 471,
+              "implied_prob": 0.175
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 5,
+      "fighter_a_slug": "jose-fernandez",
+      "fighter_b_slug": "brandon-shavers",
+      "prediction": {
+        "prob_a": 0.4453,
+        "prob_b": 0.5547,
+        "raw_score": -0.0845,
+        "favorite_slug": "brandon-shavers",
+        "confidence": "Very Low",
+        "advantage_a": 45,
+        "advantage_b": 55,
+        "predictability": 24,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1500,
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No ELO data"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-L",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.073,
+            "weight": 0.13,
+            "display": "Similar form"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "1-1",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.11,
+            "display": "50% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "0%",
+            "value_b": "—",
+            "edge_slug": "brandon-shavers",
+            "edge_strength": 0.525,
+            "weight": 0.11,
+            "display": "-35 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Pro Boxing",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No boxing data"
+          },
+          {
+            "name": "Reach",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No MMA data"
+          },
+          {
+            "name": "Style",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No style data"
+          },
+          {
+            "name": "Activity",
+            "value_a": "11mo ago",
+            "value_b": "—",
+            "edge_slug": "jose-fernandez",
+            "edge_strength": 0.7,
+            "weight": 0.05,
+            "display": "Fernandez more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "33%",
+            "value_b": "—",
+            "edge_slug": "brandon-shavers",
+            "edge_strength": 0.333,
+            "weight": 0.04,
+            "display": "Shavers tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "2 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Stance",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Home",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          }
+        ],
+        "summary": "Model leans Shavers 55/45. Edges on ko rate, opponent quality.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 196,
+              "implied_prob": 0.338
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -196,
+              "implied_prob": 0.662
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 110,
+              "implied_prob": 0.477
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 439,
+              "implied_prob": 0.185
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 196,
+              "implied_prob": 0.338
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 6,
+      "fighter_a_slug": "joshua-sikes",
+      "fighter_b_slug": "darrian-leu-pierre",
+      "prediction": {
+        "prob_a": 0.6931,
+        "prob_b": 0.3069,
+        "raw_score": 0.3133,
+        "favorite_slug": "joshua-sikes",
+        "confidence": "Very Low",
+        "advantage_a": 69,
+        "advantage_b": 31,
+        "predictability": 35,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1539,
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No ELO data"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W",
+            "value_b": "—",
+            "edge_slug": "joshua-sikes",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Sikes hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-0",
+            "value_b": "0-0",
+            "edge_slug": "joshua-sikes",
+            "edge_strength": 0.625,
+            "weight": 0.11,
+            "display": "75% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "50%",
+            "value_b": "—",
+            "edge_slug": "joshua-sikes",
+            "edge_strength": 0.225,
+            "weight": 0.11,
+            "display": "15 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Pro Boxing",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No boxing data"
+          },
+          {
+            "name": "Reach",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No MMA data"
+          },
+          {
+            "name": "Style",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "No style data"
+          },
+          {
+            "name": "Activity",
+            "value_a": "11mo ago",
+            "value_b": "—",
+            "edge_slug": "joshua-sikes",
+            "edge_strength": 0.7,
+            "weight": 0.05,
+            "display": "Sikes more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "0%",
+            "value_b": "—",
+            "edge_slug": "darrian-leu-pierre",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Pierre tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "2 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Stance",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          },
+          {
+            "name": "Home",
+            "value_a": "—",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0,
+            "display": "Unknown"
+          }
+        ],
+        "summary": "Model leans Sikes 69/31. Edges on recent form, bkfc record, ko rate, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -233,
+              "implied_prob": 0.7
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -102,
+              "implied_prob": 0.504
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 410,
+              "implied_prob": 0.196
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
+}

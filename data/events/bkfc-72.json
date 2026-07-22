@@ -1,0 +1,140 @@
+{
+  "slug": "bkfc-72",
+  "name": "BKFC 72 Dubai Day 2: Stewart vs. Strydom",
+  "event_number": 72,
+  "event_type": "Numbered",
+  "date": "2025-04-05T20:00:00Z",
+  "venue": "Dubai Tennis Stadium",
+  "city": "Dubai",
+  "state": null,
+  "country": "United Arab Emirates",
+  "country_code": "AE",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "kai-stewart",
+      "fighter_b_slug": "tommy-strydom",
+      "title_fight": true,
+      "title_name": "BKFC Featherweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kai-stewart",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Women's Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "jessica-borga",
+      "fighter_b_slug": "hannah-rankin",
+      "title_fight": true,
+      "title_name": "BKFC Women's Featherweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jessica-borga",
+        "method": "KO",
+        "round": 1,
+        "time": "0:32"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "nico-gaffie",
+      "fighter_b_slug": "brandon-allen",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "nico-gaffie",
+        "method": "TKO",
+        "round": 4,
+        "time": "1:59"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "vlad-tuinov",
+      "fighter_b_slug": "sabri-ben-henia",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "vlad-tuinov",
+        "method": "TKO (punches)",
+        "round": 1,
+        "time": "0:26"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "Prelim",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "john-phillips",
+      "fighter_b_slug": "fabio-maldonado",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "john-phillips",
+        "method": "KO (punch)",
+        "round": 2,
+        "time": "0:29"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "aaron-chalmers",
+      "fighter_b_slug": "chas-symonds",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "aaron-chalmers",
+        "method": "TKO (left hook)",
+        "round": 3,
+        "time": "0:16"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "hasan-yousefi",
+      "fighter_b_slug": "guto-inocente",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "hasan-yousefi",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

@@ -1,0 +1,17 @@
+{
+  "event_slug": "bkfc-fight-night-hollywood",
+  "event_date": "2026-06-04",
+  "source": "bestfightodds-props",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4218",
+  "fetched_at": "2026-06-05T22:03:49.558Z",
+  "total_prop_rows": 0,
+  "bouts": [
+    {
+      "fighter_a_slug": "julian-lane",
+      "fighter_b_slug": "bryce-henry",
+      "matchup_id": "43582",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
+}

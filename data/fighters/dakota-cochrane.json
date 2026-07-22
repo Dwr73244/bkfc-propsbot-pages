@@ -1,0 +1,40 @@
+{
+  "slug": "dakota-cochrane",
+  "name": "Dakota Cochrane",
+  "nickname": null,
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 7,
+    "losses": 3,
+    "draws": 0,
+    "kos": 2
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 71,
+  "stance": null,
+  "dob": "1986-05",
+  "age": 39,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744596075/o/1744596075066_67cf5cfccefef30b4e7cc45a_DAKOTA_COCHRANE_AVATAR_400x533_compressed.png?1744596075",
+  "social": {
+    "instagram": "https://www.instagram.com/dakotacochranemma/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/dakota-cochrane"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1543,
+  "elo_peak": 1543
+}

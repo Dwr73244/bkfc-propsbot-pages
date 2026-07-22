@@ -1,0 +1,144 @@
+{
+  "slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+  "name": "bkfc-fight-night-newcastle-garside-vs-taylor",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-08-01T00:00:00Z",
+  "venue": "WALKER ACTIVITY DOME",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "lewis-garside",
+      "fighter_b_slug": "bradley-taylor",
+      "title_fight": true,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "lewis-keen",
+      "fighter_b_slug": "james-lilley",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "paul-cook",
+      "fighter_b_slug": "liam-hutchinson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "james-walker",
+      "fighter_b_slug": "barry-boyle",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "john-ferguson",
+      "fighter_b_slug": "mikey-nolan",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "harrison-cave",
+      "fighter_b_slug": "danny-moir",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "kj-metcalfe",
+      "fighter_b_slug": "doalty-torrance",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "cory-chapman",
+      "fighter_b_slug": "jack-blair",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "kyle-redfearn",
+      "fighter_b_slug": "declan-mercer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Women's Flyweight",
+      "fighter_a_slug": "sandra-rees",
+      "fighter_b_slug": "sally-macdonald",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 11,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "chris-burton",
+      "fighter_b_slug": "daniel-curtin",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-fight-night-newcastle-garside-vs-taylor"
+  ],
+  "last_updated": "2026-07-10",
+  "needs_card_population": false
+}

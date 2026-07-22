@@ -1,0 +1,41 @@
+{
+  "event_slug": "blood-4-blood-daytona",
+  "event_date": "2026-05-06",
+  "source": "consensus",
+  "source_url": null,
+  "fetched_at": "2026-07-21T23:34:45.795Z",
+  "book_count": 5,
+  "books": [
+    "bestfightodds",
+    "kalshi",
+    "polymarket",
+    "unibet",
+    "xbet"
+  ],
+  "bouts": [
+    {
+      "fighter_a_slug": "jake-bostwick",
+      "fighter_b_slug": "roderick-stewart",
+      "moneyline_a": -385,
+      "moneyline_b": 270,
+      "implied_prob_a": 0.794,
+      "implied_prob_b": 0.27,
+      "vig": 0.064,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -385,
+          -385
+        ],
+        "b": [
+          270,
+          270
+        ]
+      }
+    }
+  ]
+}

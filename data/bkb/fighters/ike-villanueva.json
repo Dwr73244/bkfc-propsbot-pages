@@ -1,0 +1,40 @@
+{
+  "slug": "ike-villanueva",
+  "league": "BKB",
+  "name": "Ike Villanueva",
+  "nickname": null,
+  "division": "Heavyweight",
+  "bkb_record": {
+    "wins": 4,
+    "losses": 2,
+    "draws": 0,
+    "kos": 3
+  },
+  "bkfc_record": null,
+  "mma_record": null,
+  "height_in": 75,
+  "reach_in": 73,
+  "stance": "Orthodox",
+  "dob": "1984-04-04",
+  "age": 42,
+  "nationality": null,
+  "hometown": "Houston, Texas",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "Isaac \"Ike\" James Villanueva (born April 4, 1984), is an American mixed martial artist and bare-knuckle boxer who competes in the Heavyweight division of BKB Bare Knuckle Boxing and competed in the Light Heavyweight division of the Ultimate Fighting Championship. He is a former BYB Heavyweight Champion.",
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://en.wikipedia.org/wiki/Ike_Villanueva"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1535,
+  "elo_peak": 1566
+}

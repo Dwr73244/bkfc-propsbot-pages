@@ -1,0 +1,191 @@
+{
+  "slug": "bkfc-on-dazn-mohegan-sun-2025",
+  "name": "BKFC on DAZN Mohegan Sun: Lane vs. VanCamp",
+  "event_number": null,
+  "event_type": "Special",
+  "date": "2025-02-01T20:00:00Z",
+  "venue": "Mohegan Sun Arena",
+  "city": "Uncasville",
+  "state": "CT",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "julian-lane",
+      "fighter_b_slug": "cameron-vancamp",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "julian-lane",
+        "method": "KO",
+        "round": 4,
+        "time": "0:54"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "brennan-ward",
+      "fighter_b_slug": "james-dennis",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brennan-ward",
+        "method": "KO",
+        "round": 1,
+        "time": "0:38"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "dakota-cochrane",
+      "fighter_b_slug": "will-santiago",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dakota-cochrane",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:03"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "rico-disciullo",
+      "fighter_b_slug": "anthony-foye",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rico-disciullo",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:08"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "yorgan-de-castro",
+      "fighter_b_slug": "bobby-brents",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "yorgan-de-castro",
+        "method": "TKO (hematoma)",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "parker-porter",
+      "fighter_b_slug": "chase-gormley",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "parker-porter",
+        "method": "KO",
+        "round": 1,
+        "time": "0:44"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "andrew-strode",
+      "fighter_b_slug": "tyler-randall",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "andrew-strode",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "sito-navarro",
+      "fighter_b_slug": "jack-grady",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "sito-navarro",
+        "method": "TKO",
+        "round": 4,
+        "time": "1:44"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "jared-lennon",
+      "fighter_b_slug": "jacob-kreitel",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jared-lennon",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:45"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "spencer-meehan",
+      "fighter_b_slug": "grady-wall",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "spencer-meehan",
+        "method": "TKO (shoulder injury)",
+        "round": 1,
+        "time": "0:22"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

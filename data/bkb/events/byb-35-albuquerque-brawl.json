@@ -1,0 +1,160 @@
+{
+  "slug": "byb-35-albuquerque-brawl",
+  "league": "BKB",
+  "name": "BYB 35: Albuquerque Brawl",
+  "event_number": 35,
+  "event_type": "Numbered",
+  "date": "2025-01-11T20:00:00Z",
+  "venue": "Tingley Coliseum",
+  "city": "Albuquerque",
+  "state": "New Mexico",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "javon-wright",
+      "fighter_b_slug": "walter-saravia",
+      "title_fight": true,
+      "title_name": "BKB Welterweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "javon-wright",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "giovanni-rosales",
+      "fighter_b_slug": "nickolas-whitmore",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "giovanni-rosales",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "nate-williams",
+      "fighter_b_slug": "chaise-nelson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "chaise-nelson",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "yuniesky-gonzalez",
+      "fighter_b_slug": "martez-mcgregor",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "yuniesky-gonzalez",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "henry-barahona",
+      "fighter_b_slug": "matthew-maestas",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "henry-barahona",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "jarome-hatch",
+      "fighter_b_slug": "daniel-lerwell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jarome-hatch",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "cole-griego",
+      "fighter_b_slug": "carlos-guerra",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "carlos-guerra",
+        "method": "KO",
+        "round": 3
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "cody-terry-east",
+      "fighter_b_slug": "dylan-rush",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "cody-terry-east",
+        "method": "TKO",
+        "round": 4
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-35-albuquerque-brawl"
+  ],
+  "last_updated": "2026-04-17"
+}

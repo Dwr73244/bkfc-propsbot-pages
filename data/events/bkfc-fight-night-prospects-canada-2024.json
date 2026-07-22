@@ -1,0 +1,191 @@
+{
+  "slug": "bkfc-fight-night-prospects-canada-2024",
+  "name": "BKFC Fight Night Prospects: Canada",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2024-03-02T20:00:00Z",
+  "venue": "River Cree Resort and Casino",
+  "city": "Enoch",
+  "state": "AB",
+  "country": "Canada",
+  "country_code": "CA",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Women's Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "jade-masson-wong",
+      "fighter_b_slug": "gabrielle-roman",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jade-masson-wong",
+        "method": "KO",
+        "round": 1,
+        "time": "1:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "jeremiah-riggs",
+      "fighter_b_slug": "sonny-smith",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jeremiah-riggs",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:49"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "stan-surmacz",
+      "fighter_b_slug": "reuben-roundstone",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "stan-surmacz",
+        "method": "KO",
+        "round": 3,
+        "time": "1:12"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "drew-stuve",
+      "fighter_b_slug": "jason-kelly",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "drew-stuve",
+        "method": "TKO (doctor stoppage)",
+        "round": 1,
+        "time": "1:11"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "chad-lucanas",
+      "fighter_b_slug": "trai-santos",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "chad-lucanas",
+        "method": "KO",
+        "round": 1,
+        "time": "1:50"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "sam-polk",
+      "fighter_b_slug": "jake-craig",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "sam-polk",
+        "method": "KO",
+        "round": 1,
+        "time": "1:12"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "hasan-alghanim",
+      "fighter_b_slug": "dalton-shtybel",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "hasan-alghanim",
+        "method": "KO",
+        "round": 2,
+        "time": "1:05"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "tyler-tremblett",
+      "fighter_b_slug": "donnie-tice",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tyler-tremblett",
+        "method": "TKO",
+        "round": 2,
+        "time": "1:24"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "robert-desharnais",
+      "fighter_b_slug": "desi-johnson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "robert-desharnais",
+        "method": "KO",
+        "round": 1,
+        "time": "0:34"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "matthew-socholotiuk",
+      "fighter_b_slug": "adam-de-freitas",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "matthew-socholotiuk",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:13"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

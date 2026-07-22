@@ -1,0 +1,175 @@
+{
+  "slug": "byb-19-brawl-in-the-pines",
+  "league": "BKB",
+  "name": "BYB 19: Brawl in the Pines",
+  "event_number": 19,
+  "event_type": "Numbered",
+  "date": "2023-08-10T20:00:00Z",
+  "venue": "Charles F. Dodge City Center",
+  "city": "Pembroke Pines",
+  "state": "Florida",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "brandon-birr",
+      "fighter_b_slug": "harold-mcqueen",
+      "title_fight": true,
+      "title_name": "BKB Featherweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-birr",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "chad-kelly",
+      "fighter_b_slug": "zion-tomlinson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "NC",
+        "round": 1
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Flyweight",
+      "fighter_a_slug": "casie-dees",
+      "fighter_b_slug": "jessika-smith",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "casie-dees",
+        "method": "TKO",
+        "round": 5
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "josh-burns",
+      "fighter_b_slug": "levi-costa",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "levi-costa",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "rynell-riley",
+      "fighter_b_slug": "gregoris-cisneros",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rynell-riley",
+        "method": "DQ",
+        "round": 1
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "lt-nelson",
+      "fighter_b_slug": "james-connelly",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "Draw",
+        "round": 5
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "yordan-fuentes",
+      "fighter_b_slug": "brandon-johnson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "yordan-fuentes",
+        "method": "TKO",
+        "round": 4
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "carlos-alexandre",
+      "fighter_b_slug": "andre-ewell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "carlos-alexandre",
+        "method": "TKO",
+        "round": 5
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "jose-fernandez",
+      "fighter_b_slug": "sam-liera",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "sam-liera",
+        "method": "TKO",
+        "round": 3
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-19-brawl-in-the-pines"
+  ],
+  "last_updated": "2026-04-17"
+}

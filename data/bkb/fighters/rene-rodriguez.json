@@ -1,0 +1,44 @@
+{
+  "slug": "rene-rodriguez",
+  "league": "BKB",
+  "name": "Rene Rodriguez",
+  "nickname": null,
+  "division": "Heavyweight",
+  "bkb_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": 0
+  },
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": null,
+  "age": null,
+  "nationality": null,
+  "hometown": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
+  ],
+  "last_updated": "2026-04-18",
+  "elo": 1478,
+  "elo_peak": 1500
+}

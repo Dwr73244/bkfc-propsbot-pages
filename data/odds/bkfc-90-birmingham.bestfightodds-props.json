@@ -1,0 +1,59 @@
+{
+  "event_slug": "bkfc-90-birmingham",
+  "event_date": "2026-05-30",
+  "source": "bestfightodds-props",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4210",
+  "fetched_at": "2026-05-31T05:06:23.582Z",
+  "total_prop_rows": 0,
+  "bouts": [
+    {
+      "fighter_a_slug": "connor-tierney",
+      "fighter_b_slug": "rico-franco",
+      "matchup_id": "43511",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "john-phillips",
+      "fighter_b_slug": "ryan-barrett",
+      "matchup_id": "43512",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "jonno-chipchase",
+      "fighter_b_slug": "brian-hyslop",
+      "matchup_id": "43516",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "nathan-leeson",
+      "fighter_b_slug": "stevie-devenport",
+      "matchup_id": "43519",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "george-thorpe",
+      "fighter_b_slug": "leigh-cohoon",
+      "matchup_id": "43515",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "paul-osullivan",
+      "fighter_b_slug": "paul-hilz",
+      "matchup_id": "43518",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "tommy-hawthorn",
+      "fighter_b_slug": "will-smith",
+      "matchup_id": "43513",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
+}

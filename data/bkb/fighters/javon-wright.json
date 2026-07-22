@@ -1,0 +1,40 @@
+{
+  "slug": "javon-wright",
+  "league": "BKB",
+  "name": "Javon Wright",
+  "nickname": "Wolfman",
+  "division": "Welterweight",
+  "bkb_record": {
+    "wins": 2,
+    "losses": 2,
+    "draws": 0,
+    "kos": 0
+  },
+  "bkfc_record": null,
+  "mma_record": "6-6",
+  "height_in": 71,
+  "reach_in": null,
+  "stance": "Switch",
+  "dob": null,
+  "age": null,
+  "nationality": "United States",
+  "hometown": "St. Louis, Missouri",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/Stlwolf_2700",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/wolfman.wright"
+  },
+  "bio": "American welterweight known for long hair and a relentless, high-output fighting style. Fights out of Long Beach, California by way of St. Louis, Missouri under coach Adam Flowers. Brings a diverse combat background with a 6-6 MMA record, 1-0 kickboxing record, and 1-5 pro boxing record. Notable BKB wins over Carlos Guerra, Walter Saravia, and Kylle McMillan.",
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/brawlers/javon-wright"
+  ],
+  "last_updated": "2026-04-18",
+  "elo": 1503,
+  "elo_peak": 1525
+}

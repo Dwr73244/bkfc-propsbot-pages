@@ -1,0 +1,533 @@
+{
+  "phase": "42f",
+  "generated_at": "2026-04-19",
+  "total_bkb": 277,
+  "bkb_only": 255,
+  "needs_backfill": 253,
+  "priority_pool": 74,
+  "processed": 40,
+  "enriched": 3,
+  "skipped_no_match": 15,
+  "skipped_ambiguous": 18,
+  "post_hoc_reverted": 4,
+  "post_hoc_reverted_notes": "Manual audit rejected 4 bad matches (wrong person on Wikipedia): carlos-guerra (volleyball player, also subsequently overwritten by parallel agent), harold-mcqueen (executed criminal, 1997), monica-medina (US attorney), nick-bass (musician Nick Bassett). Kept enrichments: ike-villanueva, jack-marshman, viviane-pereira.",
+  "final_enriched_slugs": ["ike-villanueva", "jack-marshman", "viviane-pereira"],
+  "fighters": [
+    {
+      "slug": "lt-nelson",
+      "name": "LT Nelson",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Nelson Lee (detective)",
+        "Lee Nelson's Well Good Show",
+        "Nelson Lee"
+      ],
+      "reason": "ambiguous_or_weak_match (score=2)"
+    },
+    {
+      "slug": "daniel-lerwell",
+      "name": "Daniel Lerwell",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Daniel Ledwell",
+        "Daniel Elwell",
+        "Daniel le Pelley"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "mark-tiffin",
+      "name": "Mark Tiffin",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Mark Timlin (footballer)",
+        "Mark Ruffin",
+        "Mark Griffin (spiritual teacher)"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "javon-wright",
+      "name": "Javon Wright",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Jason Bright",
+        "Jason Wright",
+        "Jacob Wright"
+      ],
+      "reason": "ambiguous_or_weak_match (score=2)"
+    },
+    {
+      "slug": "aaron-mccallum",
+      "name": "Aaron McCallum",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "david-winiarski",
+      "name": "David Winiarski",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "jack-marshman",
+      "name": "Jack Marshman",
+      "matched": true,
+      "added": {
+        "dob": "1989-12-19",
+        "height_in": 72,
+        "reach_in": 73,
+        "hometown": "Abertillery , Wales",
+        "bio": "Jack Marshman (born 19 December 1989) is a retired Welsh professional mixed martial artist who competed in the Middleweight division. A professional competitor since 2010, he has competed for Ultimate Fighting Championship (UFC), BAMMA and Cage Warriors. He is the former BAMMA Lonsdale Middleweight Champion and former Cage Warriors Middleweight Champion."
+      },
+      "wiki_candidates": [
+        "Jack Marshman",
+        "Jack Marshall",
+        "Jack Marshall (composer)"
+      ],
+      "matched_title": "Jack Marshman",
+      "matched_url": "https://en.wikipedia.org/wiki/Jack_Marshman",
+      "parsed": {
+        "dob": "1989-12-19",
+        "height_in": 72,
+        "reach_in": 73,
+        "hometown": "Abertillery , Wales",
+        "bio_len": 356
+      }
+    },
+    {
+      "slug": "james-connelly",
+      "name": "James Connelly",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "James Connelly",
+        "James Connelly (ice hockey)",
+        "James Connelly (aviator)"
+      ],
+      "matched_title": "James Connelly",
+      "matched_url": "https://en.wikipedia.org/wiki/James_Connelly",
+      "parsed": {}
+    },
+    {
+      "slug": "kallum-skhane",
+      "name": "Kallum Skhane",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "robert-duran-jr",
+      "name": "Robert Duran Jr",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Roberto Durán Arena",
+        "Robert Durand",
+        "Robert Duane \"Rib\" Hillis"
+      ],
+      "reason": "ambiguous_or_weak_match (score=1)"
+    },
+    {
+      "slug": "scott-mchugh",
+      "name": "Scott McHugh",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Scott McLaughlin",
+        "Scott McCaughey",
+        "Hugh L. Scott"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "jose-fernandez",
+      "name": "Jose Fernandez",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "José Fernández (born 1939)",
+        "Jose Fernandez",
+        "José Fernández Madrid"
+      ],
+      "matched_title": "Jose Fernandez",
+      "matched_url": "https://en.wikipedia.org/wiki/Jose_Fernandez",
+      "parsed": {}
+    },
+    {
+      "slug": "joshua-sikes",
+      "name": "Joshua Sikes",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Joshua Siegel (politician)",
+        "Josh Hines-Allen",
+        "Joshua Sikhu Okonya"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "liam-howell",
+      "name": "Liam Howell",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Liam Howlett",
+        "Liam Howe",
+        "Liam Norwell"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "robert-koky",
+      "name": "Robert Koky",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Robert Koch",
+        "Robert Kocharyan",
+        "Robert Kiyosaki"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "ryan-meer",
+      "name": "Ryan Meer",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Meg Ryan",
+        "Ryan Murphy (producer)",
+        "Ryan Seacrest"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "dan-gittens",
+      "name": "Dan Gittens",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "austin-spivey",
+      "name": "Austin Spivey",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "estevan-partida",
+      "name": "Estevan Partida",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "simey-doherty",
+      "name": "Simey Doherty",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "claudia-zamora",
+      "name": "Claudia Zamora",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Claudia Zacchara",
+        "Claudia Mora",
+        "Claudia Morales Reza"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "darrian-leu-pierre",
+      "name": "Darrian Leu Pierre",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "jon-barnard",
+      "name": "Jon Barnard",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "John Barnard Jenkins",
+        "John Barnard",
+        "John Barnard Byles"
+      ],
+      "reason": "ambiguous_or_weak_match (score=2)"
+    },
+    {
+      "slug": "nick-bass",
+      "name": "Nick Bass",
+      "matched": true,
+      "added": {
+        "hometown": "July 28",
+        "bio": "Nick Bassett is an American musician and record producer from Modesto, California. He was the bassist of shoegaze band Nothing and is the lead guitarist of shoegaze band Whirr. He also played guitar in the original lineup of blackgaze band Deafheaven."
+      },
+      "wiki_candidates": [
+        "Nick Ball (boxer)",
+        "Nick Bassett",
+        "Nick Bassett (York City)"
+      ],
+      "matched_title": "Nick Bassett",
+      "matched_url": "https://en.wikipedia.org/wiki/Nick_Bassett",
+      "parsed": {
+        "hometown": "July 28",
+        "bio_len": 251
+      }
+    },
+    {
+      "slug": "viviane-pereira",
+      "name": "Viviane Pereira",
+      "matched": true,
+      "added": {
+        "dob": "1993-08-28",
+        "height_in": 60,
+        "reach_in": 64,
+        "hometown": "Fortaleza , Ceará , Brazil",
+        "bio": "Viviane \"Sucuri' Pereira (born August 8, 1993) is a Brazilian mixed martial artist and competes in strawweight division. She last competed for Invicta Fighting Championships. A professional mixed martial artist since 2013, Pereira has also fought in the UFC."
+      },
+      "wiki_candidates": [
+        "Viviane Pereira",
+        "Viviane Ferreira",
+        "Viviane Moreira Fernandes"
+      ],
+      "matched_title": "Viviane Pereira",
+      "matched_url": "https://en.wikipedia.org/wiki/Viviane_Pereira",
+      "parsed": {
+        "dob": "1993-08-28",
+        "height_in": 60,
+        "reach_in": 64,
+        "hometown": "Fortaleza , Ceará , Brazil",
+        "bio_len": 258
+      }
+    },
+    {
+      "slug": "ike-villanueva",
+      "name": "Ike Villanueva",
+      "matched": true,
+      "added": {
+        "dob": "1984-04-04",
+        "height_in": 75,
+        "reach_in": 73,
+        "stance": "Orthodox",
+        "hometown": "Houston, Texas",
+        "bio": "Isaac \"Ike\" James Villanueva (born April 4, 1984), is an American mixed martial artist and bare-knuckle boxer who competes in the Heavyweight division of BKB Bare Knuckle Boxing and competed in the Light Heavyweight division of the Ultimate Fighting Championship. He is a former BYB Heavyweight Champion."
+      },
+      "wiki_candidates": [
+        "Ike Villanueva"
+      ],
+      "matched_title": "Ike Villanueva",
+      "matched_url": "https://en.wikipedia.org/wiki/Ike_Villanueva",
+      "parsed": {
+        "dob": "1984-04-04",
+        "height_in": 75,
+        "reach_in": 73,
+        "stance": "Orthodox",
+        "hometown": "Houston, Texas",
+        "bio_len": 304
+      }
+    },
+    {
+      "slug": "jarome-hatch",
+      "name": "Jarome Hatch",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Jarod Hatch"
+      ],
+      "reason": "ambiguous_or_weak_match (score=2)"
+    },
+    {
+      "slug": "cub-hawkins",
+      "name": "Cub Hawkins",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Curt Hawkins",
+        "Curt Hawkins and Zach Ryder",
+        "Cam Hawkins"
+      ],
+      "reason": "ambiguous_or_weak_match (score=2)"
+    },
+    {
+      "slug": "gregoris-cisneros",
+      "name": "Gregoris Cisneros",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "jamie-driver",
+      "name": "Jamie Driver",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Jamie Oliver",
+        "Jamie Rivera",
+        "Jamie Oliver's Food Revolution"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "marko-martinjak",
+      "name": "Marko Martinjak",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "monica-medina",
+      "name": "Monica Medina",
+      "matched": true,
+      "added": {
+        "hometown": "(age 63&#8211;64)",
+        "bio": "Monica P. Medina (born 1962) is an American attorney and government official who previously served as the Assistant Secretary of State for Oceans and International Environmental and Scientific Affairs at the Department of State. Medina served as Principal Deputy Undersecretary of Commerce for Oceans and Atmosphere, deputy associate attorney general, and general counsel of National Oceanic and Atmospheric Administration."
+      },
+      "wiki_candidates": [
+        "Monica Medina",
+        "Mónica Medina",
+        "Monica Reinagel"
+      ],
+      "matched_title": "Monica Medina",
+      "matched_url": "https://en.wikipedia.org/wiki/Monica_Medina",
+      "parsed": {
+        "hometown": "(age 63&#8211;64)",
+        "bio_len": 423
+      }
+    },
+    {
+      "slug": "ryan-jett",
+      "name": "Ryan Jett",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Jeri Ryan",
+        "Matt Ryan (American football)",
+        "Ryan Bertrand"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "zion-tomlinson",
+      "name": "Zion Tomlinson",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "brandon-birr",
+      "name": "Brandon Birr",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Brandon Borrello",
+        "Brandon Herrera",
+        "Brandon Burlsworth"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "carlos-guerra",
+      "name": "Carlos Guerra",
+      "matched": true,
+      "added": {
+        "dob": "1981-08-03",
+        "height_in": 77,
+        "nationality": "Mexican",
+        "hometown": "Tampico, México",
+        "bio": "Carlos Guerra (born (1981-08-03)3 August 1981) is a Mexican male volleyball player. He was part of the Mexico men's national volleyball team at the 2010 FIVB Volleyball Men's World Championship in Italy, at the 2014 FIVB Volleyball Men's World Championship in Poland and at the Volleyball at the 2016 Summer Olympics in Rio. He currently plays for Volero Aarberg."
+      },
+      "wiki_candidates": [
+        "Carlos Guerra",
+        "Carlos Guevara (baseball)",
+        "Carlos Guerrero de Lizardi"
+      ],
+      "matched_title": "Carlos Guerra",
+      "matched_url": "https://en.wikipedia.org/wiki/Carlos_Guerra",
+      "parsed": {
+        "dob": "1981-08-03",
+        "height_in": 77,
+        "nationality": "Mexican",
+        "hometown": "Tampico, México",
+        "bio_len": 363
+      }
+    },
+    {
+      "slug": "dj-linderman",
+      "name": "DJ Linderman",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [],
+      "reason": "no_wikipedia_match"
+    },
+    {
+      "slug": "dorian-darch",
+      "name": "Dorian Darch",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Dorian Zachai",
+        "Dorian Daughtry"
+      ],
+      "reason": "ambiguous_or_weak_match (score=0)"
+    },
+    {
+      "slug": "eric-olsen",
+      "name": "Eric Olsen",
+      "matched": false,
+      "added": {},
+      "wiki_candidates": [
+        "Eric Olsen",
+        "Eric Olsen (American football)",
+        "Eric Olsen (writer)"
+      ],
+      "matched_title": "Eric Olsen",
+      "matched_url": "https://en.wikipedia.org/wiki/Eric_Olsen",
+      "parsed": {}
+    },
+    {
+      "slug": "harold-mcqueen",
+      "name": "Harold McQueen",
+      "matched": true,
+      "added": {
+        "dob": "1952-07-25",
+        "hometown": "-07-25 ) July 25, 1952 Richmond, Kentucky , U.S.",
+        "bio": "Harold I. McQueen Jr. (July 25, 1952 – July 1, 1997) was an American man who was the first criminal executed by the state of Kentucky after the reinstatement of capital punishment in the United States in 1976."
+      },
+      "wiki_candidates": [
+        "Harold McQueen Jr.",
+        "Harold McSween"
+      ],
+      "matched_title": "Harold McQueen Jr.",
+      "matched_url": "https://en.wikipedia.org/wiki/Harold_McQueen_Jr.",
+      "parsed": {
+        "dob": "1952-07-25",
+        "hometown": "-07-25 ) July 25, 1952 Richmond, Kentucky , U.S.",
+        "bio_len": 209
+      }
+    }
+  ]
+}

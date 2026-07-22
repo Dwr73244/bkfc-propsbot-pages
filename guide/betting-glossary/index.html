@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <title>BKFC Betting Glossary | PropsBot BKFC</title>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preconnect" href="https://bkfc-cdn.gigcasters.com" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../assets/fonts/inter-400.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../assets/fonts/inter-700.woff2" />
+  <link rel="stylesheet" href="../../assets/css/fonts.css" />
+
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <link rel="apple-touch-icon" href="../../assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#070e1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BKFC">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Clear definitions of BKFC and combat-sports betting terms: moneyline, implied probability, de-vigging, Closing Line Value, predictability, shrinkage, and how to interpret model-vs-market edges." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bkfc.propsbot.ai/guide/betting-glossary/" />
+  <meta name="author" content="PropsBot AI" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://bkfc.propsbot.ai/guide/betting-glossary/" />
+  <meta property="og:title" content="BKFC Betting Glossary" />
+  <meta property="og:description" content="Clear definitions of BKFC and combat-sports betting terms: moneyline, implied probability, de-vigging, Closing Line Value, predictability, shrinkage, and how to interpret model-vs-market edges." />
+  <meta property="og:image" content="https://propsbot.ai/wp-content/uploads/2024/01/propsbot-og.png" />
+  <meta property="og:site_name" content="PropsBot BKFC" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@PropsBot_AI" />
+  <meta name="twitter:title" content="BKFC Betting Glossary" />
+  <meta name="twitter:description" content="Clear definitions of BKFC and combat-sports betting terms: moneyline, implied probability, de-vigging, Closing Line Value, predictability, shrinkage, and how to interpret model-vs-market edges." />
+  <meta name="twitter:image" content="https://propsbot.ai/wp-content/uploads/2024/01/propsbot-og.png" />
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://bkfc.propsbot.ai/guide/betting-glossary/#article","headline":"BKFC Betting Glossary","description":"Clear definitions of BKFC and combat-sports betting terms: moneyline, implied probability, de-vigging, Closing Line Value, predictability, shrinkage, and how to interpret model-vs-market edges.","datePublished":"2026-04-17","dateModified":"2026-04-17","url":"https://bkfc.propsbot.ai/guide/betting-glossary/","mainEntityOfPage":"https://bkfc.propsbot.ai/guide/betting-glossary/","author":{"@id":"https://bkfc.propsbot.ai/about/#author"},"publisher":{"@id":"https://bkfc.propsbot.ai/#publisher"},"isAccessibleForFree":true},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does Advantage Score 67 mean in BKFC?","acceptedAnswer":{"@type":"Answer","text":"The model estimates that fighter has a 67% chance to win. Numbers pair — if one fighter is 67, the other is 33. Scores above 55 indicate meaningful favorites, below 45 are underdogs, 46-54 is a toss-up."}},{"@type":"Question","name":"What's a good Predictability score?","acceptedAnswer":{"@type":"Answer","text":"Above 70 is Strong — both fighters have enough data, the model's signal is strong, and most factors agree. 55-70 is Solid. Below 40 we filter out of the Picks board because the pick is unreliable."}},{"@type":"Question","name":"How do I find the best BKFC odds?","acceptedAnswer":{"@type":"Answer","text":"Use the line-shopping badges on our bout rows. When we have odds from multiple sportsbooks, we flag the best available moneyline per side (e.g. 'BFO -159' vs consensus -172). Taking the better line is free expected value."}}]}]}</script>
+
+  
+  <link rel="stylesheet" href="../../assets/css/tailwind.css" />
+  <link rel="stylesheet" href="../../assets/css/site.css" />
+</head>
+<body class="h-full text-slate-100 min-h-screen">
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <nav class="glass sticky top-0 z-40 border-b border-white/5" aria-label="Primary">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between gap-2 sm:gap-3">
+      <!-- Brand mark: stylized knuckle glyph in brand gradient + wordmark.
+           Tap target is the full anchor including hidden text. -->
+      <a href="../../" class="brand-mark flex items-center gap-2.5 flex-shrink-0 min-w-0 py-1 -my-1" style="min-height:44px" aria-label="PropsBot Bare Knuckle — home">
+        <svg class="brand-glyph" width="34" height="34" viewBox="0 0 40 40" aria-hidden="true">
+          <defs>
+            <linearGradient id="bm-grad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#ff1552"/>
+              <stop offset="100%" stop-color="#f0c040"/>
+            </linearGradient>
+          </defs>
+          <rect x="1" y="1" width="38" height="38" rx="9" fill="url(#bm-grad)"/>
+          <!-- Bare-knuckle fist silhouette -->
+          <g fill="#070e1a">
+            <path d="M12 14.5c0-1.1.9-2 2-2s2 .9 2 2v5h1v-6.5c0-1.1.9-2 2-2s2 .9 2 2V19h1v-5.8c0-1.1.9-2 2-2s2 .9 2 2V19h1v-4.5c0-1.1.9-2 2-2s2 .9 2 2V22c0 5.5-4.5 10-10 10h-1c-5 0-9-4-9-9v-3.5l-2-1.5c-.9-.7-1-2-.3-2.9.7-.9 2-1 2.9-.3L12 16.3z"/>
+          </g>
+        </svg>
+        <div class="hidden sm:block min-w-0">
+          <div class="text-sm font-black tracking-tight leading-tight truncate" style="letter-spacing:-0.01em">PropsBot <span class="brand-gradient">BKFC</span></div>
+          <div class="text-[9px] text-white/40 mono uppercase tracking-[0.18em]">Bare Knuckle Intelligence</div>
+        </div>
+      </a>
+
+      <!-- League tabs — ALWAYS visible, even on mobile. 44px tall (iOS HIG min). -->
+      <div class="inline-flex items-center rounded-lg border border-white/10 overflow-hidden text-[11px] sm:text-xs font-bold mono uppercase tracking-wider flex-shrink-0" style="min-height:44px">
+        <a href="../../" class="px-3 sm:px-3.5 text-pb-teal bg-pb-teal/10 border-r border-white/10 hover:bg-pb-teal/20 transition inline-flex items-center" style="min-height:44px">BKFC</a>
+        <a href="../../bkb/" class="px-3 sm:px-3.5 text-pb-purple bg-pb-purple/5 hover:bg-pb-purple/15 transition inline-flex items-center" style="min-height:44px">BKB</a>
+      </div>
+
+      <div class="flex items-center gap-1.5 sm:gap-3 md:gap-4 text-xs flex-shrink-0">
+        <!-- Picks + Research shown on tablet/desktop. Mobile uses bottom tab bar. -->
+        <a href="../../picks/" class="hidden sm:inline-flex items-center gap-1.5 px-3 rounded-md bg-pb-teal/10 border border-pb-teal/30 text-pb-teal hover:bg-pb-teal/20 hover:text-white transition font-bold mono uppercase tracking-wider text-xs" style="min-height:44px" aria-label="All edge picks">
+          <span aria-hidden="true">★</span> Picks
+        </a>
+        <a href="../../card/" class="hidden sm:inline-flex items-center gap-1.5 px-3 rounded-md bg-pb-red/10 border border-pb-red/30 text-pb-red hover:bg-pb-red/20 hover:text-white transition font-bold mono uppercase tracking-wider text-xs" style="min-height:44px" aria-label="Current event research">
+          <span class="w-1.5 h-1.5 rounded-full bg-pb-red animate-pulse" aria-hidden="true"></span> Research
+        </a>
+        <a href="../../events/" class="hidden lg:inline text-white/60 hover:text-pb-teal transition">Events</a>
+        <a href="../../fighters/" class="hidden lg:inline text-white/60 hover:text-pb-teal transition">Fighters</a>
+        <a href="../../divisions/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Divisions</a>
+        <a href="../../compare/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Compare</a>
+        <a href="../../accuracy/" class="hidden lg:inline-flex items-center gap-1 text-pb-teal/80 hover:text-pb-teal transition font-semibold" title="Live model vs market accuracy ledger"><span class="w-1.5 h-1.5 rounded-full bg-pb-teal animate-pulse" aria-hidden="true"></span> Accuracy</a>
+        <a href="../../guide/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Guides</a>
+        <a href="../../faq/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">FAQ</a>
+        <!-- Menu button for mobile -->
+        <button id="mobile-menu-btn" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-md border border-white/10 text-white/60 hover:text-pb-teal hover:border-pb-teal/40 transition" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu" onclick="const m=document.getElementById('mobile-menu'); const o=!m.classList.toggle('hidden'); this.setAttribute('aria-expanded', o?'true':'false')">
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 3h12v2H2V3zm0 4h12v2H2V7zm0 4h12v2H2v-2z"/></svg>
+        </button>
+        <a href="https://propsbot.ai" class="hidden sm:inline text-pb-teal hover:text-white transition font-semibold whitespace-nowrap">PropsBot.AI →</a>
+      </div>
+    </div>
+    <!-- Mobile dropdown menu -->
+    <div id="mobile-menu" class="lg:hidden hidden border-t border-white/10 bg-black/40 backdrop-blur" role="region" aria-label="Mobile menu">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-2 text-sm">
+        <a href="../../picks/" class="text-pb-teal hover:text-white transition py-1 font-semibold">★ All Picks — Edge Board</a>
+        <a href="../../events/" class="text-white/80 hover:text-pb-teal transition py-1">Events</a>
+        <a href="../../fighters/" class="text-white/80 hover:text-pb-teal transition py-1">Fighters</a>
+        <a href="../../divisions/" class="text-white/80 hover:text-pb-teal transition py-1">Divisions</a>
+        <a href="../../champions/" class="text-white/80 hover:text-pb-teal transition py-1">Champions</a>
+        <a href="../../compare/" class="text-white/80 hover:text-pb-teal transition py-1">Compare Fighters</a>
+        <a href="../../accuracy/" class="text-white/80 hover:text-pb-teal transition py-1">Model Accuracy</a>
+        <a href="../../guide/" class="text-white/80 hover:text-pb-teal transition py-1">Guides</a>
+        <a href="../../faq/" class="text-white/80 hover:text-pb-teal transition py-1">FAQ</a>
+        <a href="../../about/" class="text-white/80 hover:text-pb-teal transition py-1">About</a>
+        <a href="../../results/" class="text-white/80 hover:text-pb-teal transition py-1">Results</a>
+        <a href="https://propsbot.ai" class="text-pb-teal hover:text-white transition font-semibold py-1 border-t border-white/10 mt-1 pt-3">PropsBot.AI — Player Props →</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main" tabindex="-1">
+
+
+    <article class="guide-article">
+      <header class="max-w-3xl mx-auto px-4 sm:px-6 pt-10 pb-6">
+        <nav class="text-xs text-white/40 mono mb-4">
+          <a href="../../" class="hover:text-pb-teal transition">Home</a>
+          <span class="mx-2">/</span>
+          <a href="../" class="hover:text-pb-teal transition">Guides</a>
+          <span class="mx-2">/</span>
+          <span class="text-white/60">betting-glossary</span>
+        </nav>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pb-teal/10 border border-pb-teal/30 text-pb-teal text-xs font-semibold mono uppercase tracking-wider mb-4">
+          Guide · 5 min read
+        </div>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-3">BKFC Betting Glossary</h1>
+        <div class="author-byline mono text-xs text-white/50 mb-3">By <a href="../../about/#author" class="text-pb-teal hover:text-white">David</a>, PropsBot.AI · Updated <time datetime="2026-04-17">2026-04-17</time></div>
+        <p class="text-white/70 text-lg leading-relaxed">Moneyline, implied probability, vig, edge, CLV, and every other term you need to read our research pages.</p>
+      </header>
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 pb-8 guide-content">
+        
+        <section class="guide-section" id="moneyline">
+          <h2><a href="#moneyline" class="guide-anchor" aria-hidden="true">#</a>Moneyline</h2>
+          <div class="guide-body"><p>The price you pay to bet a fighter to win. American format:</p><ul><li><strong>Negative (-180):</strong> favorite. Risk $180 to win $100.</li><li><strong>Positive (+150):</strong> underdog. Risk $100 to win $150.</li></ul><p>The more negative a favorite's number, the bigger the favorite. -1000 means the book thinks this fighter wins 90%+ of the time.</p></div>
+        </section>
+
+        <section class="guide-section" id="implied-probability">
+          <h2><a href="#implied-probability" class="guide-anchor" aria-hidden="true">#</a>Implied probability</h2>
+          <div class="guide-body"><p>The win-probability embedded in a moneyline. Formulas:</p><ul><li>Favorite: <code>|ml| / (|ml| + 100)</code></li><li>Underdog: <code>100 / (ml + 100)</code></li></ul><p>Example: -180 implies 64.3%. +150 implies 40.0%. Add them up and they exceed 100% because of the vig (see next).</p></div>
+        </section>
+
+        <section class="guide-section" id="vig-juice">
+          <h2><a href="#vig-juice" class="guide-anchor" aria-hidden="true">#</a>Vig / juice</h2>
+          <div class="guide-body"><p>The sportsbook's built-in edge. If two sides of a two-outcome market sum to more than 100% implied probability, the excess is the vig. Typical BKFC markets carry 7-10% vig — higher than mainstream sports because the market is less competitive.</p><p><strong>De-vigging</strong> = normalizing the two sides to sum to 100% so you can see the book's "true" estimate of each fighter's chance. We use de-vigged probabilities when computing edge vs. the model.</p></div>
+        </section>
+
+        <section class="guide-section" id="edge">
+          <h2><a href="#edge" class="guide-anchor" aria-hidden="true">#</a>Edge</h2>
+          <div class="guide-body"><p>The gap between the model's probability and the market's de-vigged probability, expressed in percentage points. A 15-point edge on Fighter A means our model gives them 60% to win while the market gives them 45%.</p><p>Bigger edge = more value IF the model is right. The catch: our model is wrong 40% of the time, so big edges on low-confidence picks are not automatic wins.</p></div>
+        </section>
+
+        <section class="guide-section" id="advantage-score">
+          <h2><a href="#advantage-score" class="guide-anchor" aria-hidden="true">#</a>Advantage Score</h2>
+          <div class="guide-body"><p>Our primary pick display, 0-100 per fighter. Directly equals model probability × 100. A 67 means the model gives this fighter a 67% win chance. The two advantage scores in a bout always sum to 100.</p></div>
+        </section>
+
+        <section class="guide-section" id="predictability">
+          <h2><a href="#predictability" class="guide-anchor" aria-hidden="true">#</a>Predictability</h2>
+          <div class="guide-body"><p>A separate 0-100 trust metric for how much to rely on a given pick. Blends data quality (50%), signal strength (30%), and factor agreement (20%). A 67/33 pick with Predictability 85 is much more bettable than a 67/33 pick with Predictability 25.</p><p>We filter the /picks/ aggregator to Predictability ≥ 40 so the board isn't flooded with noise.</p></div>
+        </section>
+
+        <section class="guide-section" id="closing-line-value-clv">
+          <h2><a href="#closing-line-value-clv" class="guide-anchor" aria-hidden="true">#</a>Closing Line Value (CLV)</h2>
+          <div class="guide-body"><p>The classic pro-bettor metric. If you bet Fighter A at +150, and the line closes at +120 (book moved toward Fighter A), you've captured positive CLV. If it closes at +180, you got negative CLV.</p><p>Over a large sample, CLV is a better predictor of long-term profit than win rate. The book's closing line is the sharpest estimate of true probability. Beating it consistently = real edge.</p><p>We track CLV passively via odds history; once enough events have cycled we'll surface CLV stats per edge type.</p></div>
+        </section>
+
+        <section class="guide-section" id="shrinkage">
+          <h2><a href="#shrinkage" class="guide-anchor" aria-hidden="true">#</a>Shrinkage</h2>
+          <div class="guide-body"><p>A calibration technique. Our model's probabilities tend to over-estimate at the 65-70% range (claims 67%, delivers ~60%). Shrinkage pulls all probs toward 50% by a factor: <code>p' = 0.5 + 0.85 × (p - 0.5)</code>. Pre-shrinkage 67% becomes post-shrinkage ~64%. More honest.</p><p>Visible in the fact that most Advantage Scores cluster in the 35-65 range rather than getting extreme.</p></div>
+        </section>
+
+        <section class="guide-section" id="book-consensus">
+          <h2><a href="#book-consensus" class="guide-anchor" aria-hidden="true">#</a>Book consensus</h2>
+          <div class="guide-body"><p>When we have moneylines from multiple sportsbooks (xbet.ag, BestFightOdds, etc.) for the same bout, we compute the median of each side to get a consensus line. Then we surface the best individual line as a "line-shopping" callout. The best ML beating consensus = free value that nobody's priced in yet.</p></div>
+        </section>
+      </div>
+      <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-8">
+             <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">Frequently Asked</h2>
+             
+        <details class="guide-faq">
+          <summary>What does Advantage Score 67 mean in BKFC?</summary>
+          <div class="guide-faq-body">The model estimates that fighter has a 67% chance to win. Numbers pair — if one fighter is 67, the other is 33. Scores above 55 indicate meaningful favorites, below 45 are underdogs, 46-54 is a toss-up.</div>
+        </details>
+
+        <details class="guide-faq">
+          <summary>What&#39;s a good Predictability score?</summary>
+          <div class="guide-faq-body">Above 70 is Strong — both fighters have enough data, the model&#39;s signal is strong, and most factors agree. 55-70 is Solid. Below 40 we filter out of the Picks board because the pick is unreliable.</div>
+        </details>
+
+        <details class="guide-faq">
+          <summary>How do I find the best BKFC odds?</summary>
+          <div class="guide-faq-body">Use the line-shopping badges on our bout rows. When we have odds from multiple sportsbooks, we flag the best available moneyline per side (e.g. &#39;BFO -159&#39; vs consensus -172). Taking the better line is free expected value.</div>
+        </details>
+           </section>
+      <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-16">
+        <div class="guide-footer-cta">
+          <div>
+            <div class="text-xs mono text-white/40 uppercase tracking-wider mb-1">Put it into practice</div>
+            <div class="text-white font-bold">See every edge across the current card</div>
+          </div>
+          <a href="../../picks/" class="inline-flex items-center gap-1 px-4 py-2 rounded-lg bg-pb-teal/15 border border-pb-teal/35 text-pb-teal font-semibold text-sm hover:bg-pb-teal/25 hover:text-white transition">Open Picks →</a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="border-t border-white/5 py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <!-- Prominent PropsBot.AI promo banner -->
+      <a href="https://propsbot.ai" class="block mb-6 group glass rounded-2xl p-5 border border-pb-teal/30 hover:border-pb-teal/60 transition">
+        <div class="flex items-center justify-between gap-4 flex-wrap">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-pb-red to-pb-gold flex items-center justify-center font-bold mono text-black text-sm flex-shrink-0">PB</div>
+            <div>
+              <div class="text-white font-bold text-sm sm:text-base">Get player props for NBA, NHL, MLB &amp; NFL</div>
+              <div class="text-white/60 text-xs sm:text-sm mt-0.5">PropsBot.AI — data-driven daily player prop picks. 30% ROI across 50k+ bets.</div>
+            </div>
+          </div>
+          <span class="text-pb-teal text-sm mono font-semibold group-hover:translate-x-1 transition flex-shrink-0">Try PropsBot.AI →</span>
+        </div>
+      </a>
+
+      <!-- Newsletter signup removed pending BKFC-specific Elastic Email list
+           setup. Parent-site cross-promo above handles email intent. -->
+
+<div class="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/70">
+        <div class="text-center sm:text-left">
+          Data from <a href="https://www.bkfc.com" class="footer-link text-white/60 hover:text-pb-teal transition">BKFC.com</a> and <a href="https://en.wikipedia.org" class="footer-link text-white/60 hover:text-pb-teal transition">Wikipedia</a>.
+          Not affiliated with Bare Knuckle Fighting Championship. <a href="../../about/" class="footer-link text-white/60 hover:text-pb-teal transition">About</a>
+        </div>
+        <div class="text-center sm:text-right">
+          Built by <a href="https://propsbot.ai" class="footer-link text-pb-teal hover:text-white transition font-semibold">PropsBot.AI</a> · Free betting intelligence tools
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bottom tab bar (mobile only, below lg) -->
+  <nav class="mobile-tab-bar lg:hidden" aria-label="Mobile navigation">
+    <a href="../../" class="mtb-item" data-tab="home">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 2.5L2 9v9h5v-6h6v6h5V9l-8-6.5z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="../../events/" class="mtb-item" data-tab="events">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M3 5h14v2H3V5zm0 4h14v2H3V9zm0 4h14v2H3v-2z"/></svg>
+      <span>Events</span>
+    </a>
+    <a href="../../picks/" class="mtb-item mtb-primary" data-tab="picks">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.5 7.5H22l-6 4.5 2.3 7-6.3-4.5-6.3 4.5 2.3-7-6-4.5h7.5L12 2z"/></svg>
+      <span>Picks</span>
+    </a>
+    <a href="../../card/" class="mtb-item" data-tab="card">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M4 3h12a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm1 3v2h10V6H5zm0 3v2h10V9H5zm0 3v2h6v-2H5z"/></svg>
+      <span>Research</span>
+    </a>
+    <a href="../../fighters/" class="mtb-item" data-tab="fighters">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 10a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0 1.5c-3.5 0-7 1.75-7 5V18h14v-1.5c0-3.25-3.5-5-7-5z"/></svg>
+      <span>Fighters</span>
+    </a>
+  </nav>
+  <script src="../../assets/js/common.js"></script>
+  
+  <script>
+    // Highlight active mobile tab based on current URL
+    (function () {
+      const path = window.location.pathname;
+      document.querySelectorAll('.mtb-item').forEach((el) => {
+        const href = el.getAttribute('href').replace(/^\.\.\/\.\.\/|^\.\.\/|^\//, '/');
+        if (path === href || (href !== '/' && path.startsWith(href))) el.classList.add('active');
+        if (path === '/' && el.dataset.tab === 'home') el.classList.add('active');
+      });
+    })();
+  </script>
+</body>
+</html>

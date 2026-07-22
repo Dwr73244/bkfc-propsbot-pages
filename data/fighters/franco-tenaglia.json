@@ -1,0 +1,40 @@
+{
+  "slug": "franco-tenaglia",
+  "name": "Franco Tenaglia",
+  "nickname": null,
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 5,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 74,
+  "stance": null,
+  "dob": "1996-09-01",
+  "age": 29,
+  "nationality": "Argentina",
+  "hometown": null,
+  "fighting_out_of": "Spain",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1745429524/o/FRANCO_TENAGLIA_400x533.png?1745429524",
+  "social": {
+    "instagram": "https://www.instagram.com/fran_tenaglia/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/franco-tenaglia"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1545,
+  "elo_peak": 1545
+}

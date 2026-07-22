@@ -1,0 +1,205 @@
+{
+  "slug": "byb-33-wolverhampton-brawl",
+  "league": "BKB",
+  "name": "BYB 33: Wolverhampton Brawl",
+  "event_number": 33,
+  "event_type": "Numbered",
+  "date": "2024-11-09T20:00:00Z",
+  "venue": "The Halls Wolverhampton",
+  "city": "Wolverhampton",
+  "state": null,
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Super Cruiserweight",
+      "fighter_a_slug": "marko-martinjak",
+      "fighter_b_slug": "brad-scott",
+      "title_fight": true,
+      "title_name": "BKB Super Cruiserweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "marko-martinjak",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Super Lightweight",
+      "fighter_a_slug": "dan-podmore",
+      "fighter_b_slug": "ryan-barrett",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dan-podmore",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "troy-palmer",
+      "fighter_b_slug": "peter-radford",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "troy-palmer",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "rawand-ouba",
+      "fighter_b_slug": "plamedy-mianteolo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rawand-ouba",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "ty-patterson",
+      "fighter_b_slug": "patrick-nash",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "NC",
+        "round": 3
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "gareth-williams",
+      "fighter_b_slug": "jimmy-millar",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "gareth-williams",
+        "method": "KO",
+        "round": 2
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "aaron-mccallum",
+      "fighter_b_slug": "martin-mcdonough",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "aaron-mccallum",
+        "method": "DQ",
+        "round": 3
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "tyrone-eliffe",
+      "fighter_b_slug": "kevin-greenwood",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kevin-greenwood",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "ike-villanueva",
+      "fighter_b_slug": "kamil-sokolowski",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kamil-sokolowski",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Super Lightweight",
+      "fighter_a_slug": "kallum-skhane",
+      "fighter_b_slug": "ryan-meer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kallum-skhane",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "luke-smith",
+      "fighter_b_slug": "nathan-massey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "luke-smith",
+        "method": "KO",
+        "round": 3
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-33-wolverhampton-brawl"
+  ],
+  "last_updated": "2026-04-17"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "john-garbarino",
+  "name": "John Garbarino",
+  "nickname": "JOHNNY CANOLI",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 4,
+    "losses": 0,
+    "draws": 0,
+    "kos": 2
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 70,
+  "stance": null,
+  "dob": "1995-08",
+  "age": 30,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1767894814/o/KAINE_TOMLINSON_JR_SMALL_AVATAR_400x400.png?1767894814",
+  "social": {
+    "instagram": "https://www.instagram.com/teamgarbarino/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/john-garbarino"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1540,
+  "elo_peak": 1540
+}

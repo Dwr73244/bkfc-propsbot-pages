@@ -1,0 +1,191 @@
+{
+  "slug": "bkfc-fight-night-philly-2025-03-21",
+  "name": "BKFC Fight Night Philly: Pague vs. Angelcor",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2025-03-21T20:00:00Z",
+  "venue": "2300 Arena",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "dustin-pague",
+      "fighter_b_slug": "andrew-angelcor",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dustin-pague",
+        "method": "TKO",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "brandon-conley",
+      "fighter_b_slug": "cody-vidal",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "Draw (majority)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "john-garbarino",
+      "fighter_b_slug": "rayne-wells",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "john-garbarino",
+        "method": "KO",
+        "round": 1,
+        "time": "0:47"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "aj-craig",
+      "fighter_b_slug": "travis-thompson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "aj-craig",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "maurice-horne",
+      "fighter_b_slug": "adam-de-freitas",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "maurice-horne",
+        "method": "KO",
+        "round": 2,
+        "time": "1:08"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "lex-ludlow",
+      "fighter_b_slug": "connor-mckenna",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lex-ludlow",
+        "method": "Decision (split)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "dalvin-blair",
+      "fighter_b_slug": "justin-walters",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dalvin-blair",
+        "method": "KO",
+        "round": 1,
+        "time": "0:04"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "elijah-harris",
+      "fighter_b_slug": "brandon-honsvick",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "elijah-harris",
+        "method": "KO",
+        "round": 1,
+        "time": "0:07"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "pat-carroll",
+      "fighter_b_slug": "alex-davis",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "pat-carroll",
+        "method": "KO",
+        "round": 1,
+        "time": "0:46"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "anthony-pagan",
+      "fighter_b_slug": "colin-reeser",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "anthony-pagan",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:52"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

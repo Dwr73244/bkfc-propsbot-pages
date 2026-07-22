@@ -1,0 +1,39 @@
+{
+  "slug": "matt-guymon",
+  "name": "Matt Guymon",
+  "full_name": null,
+  "nickname": "The Silencer",
+  "division": "Bantamweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 68,
+  "reach_in": 72,
+  "stance": null,
+  "dob": "1988-07",
+  "age": 37,
+  "nationality": "United States",
+  "hometown": "Kansas",
+  "fighting_out_of": "Kansas",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744600010/o/1744600009963_67d3585bcab35a21c3031090_GUYMON_AVATAR_400x533_compressed.png?1744600010",
+  "social": {
+    "instagram": "https://www.instagram.com/matgman/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "American bantamweight from Kansas who began competing as an amateur MMA fighter in 2019, going eight amateur bouts before turning professional. He secured a bare-knuckle win before joining BKFC and has also pursued kickboxing. Known for an aggressive pressure style, he is a motorcycle and Jeep enthusiast outside the cage.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/matt-guymon"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1479,
+  "elo_peak": 1500
+}

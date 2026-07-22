@@ -1,0 +1,208 @@
+{
+  "slug": "bkfc-38",
+  "name": "BKFC 38 Delray Beach: Nguyen vs. Straus",
+  "event_number": 38,
+  "event_type": "Numbered",
+  "date": "2023-04-21T20:00:00Z",
+  "venue": "Delray Beach Tennis Center",
+  "city": "Delray Beach",
+  "state": "FL",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "daniel-straus",
+      "fighter_b_slug": "dat-nguyen",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 6,
+      "result": {
+        "winner_slug": "dat-nguyen",
+        "method": "Decision (unanimous)",
+        "round": 6,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "isaac-doolittle",
+      "fighter_b_slug": "jake-bostwick",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "Draw (majority)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "tyler-randall",
+      "fighter_b_slug": "chancey-wilson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "chancey-wilson",
+        "method": "Decision (split)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "francesco-ricchi",
+      "fighter_b_slug": "erick-lozano",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "erick-lozano",
+        "method": "KO",
+        "round": 1,
+        "time": "0:54"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "mark-johnson",
+      "fighter_b_slug": "rene-rodriguez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rene-rodriguez",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:45"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "gilberto-aguilar",
+      "fighter_b_slug": "justin-sanchez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "justin-sanchez",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "josh-richey",
+      "fighter_b_slug": "gee-perez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "gee-perez",
+        "method": "KO",
+        "round": 2,
+        "time": "0:50"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "chris-sarro",
+      "fighter_b_slug": "stephen-townsel",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "stephen-townsel",
+        "method": "KO",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "trevor-morris",
+      "fighter_b_slug": "howard-davis",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "howard-davis",
+        "method": "TKO (corner stoppage)",
+        "round": 4,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "freddy-masabo",
+      "fighter_b_slug": "bovar-khanakov",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bovar-khanakov",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "philip-carroll",
+      "fighter_b_slug": "chris-garcia",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "chris-garcia",
+        "method": "KO",
+        "round": 3,
+        "time": "0:27"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

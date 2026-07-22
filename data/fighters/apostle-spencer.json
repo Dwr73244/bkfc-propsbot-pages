@@ -1,0 +1,40 @@
+{
+  "slug": "apostle-spencer",
+  "name": "Apostle Spencer",
+  "nickname": null,
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 74,
+  "stance": null,
+  "dob": "1984-02",
+  "age": 42,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1767894814/o/KAINE_TOMLINSON_JR_SMALL_AVATAR_400x400.png?1767894814",
+  "social": {
+    "instagram": "https://www.instagram.com/apostlepspencer/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/apostle-spencer"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1457,
+  "elo_peak": 1500
+}

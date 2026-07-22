@@ -1,0 +1,208 @@
+{
+  "slug": "bkfc-fight-night-albuquerque-2025-02-28",
+  "name": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2025-02-28T20:00:00Z",
+  "venue": "Kiva Auditorium",
+  "city": "Albuquerque",
+  "state": "NM",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "bekhzod-usmonov",
+      "fighter_b_slug": "keith-richardson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bekhzod-usmonov",
+        "method": "KO",
+        "round": 1,
+        "time": "0:55"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "donald-sanchez",
+      "fighter_b_slug": "harrison-aiken",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "donald-sanchez",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "derrick-findley",
+      "fighter_b_slug": "felipe-chavez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "derrick-findley",
+        "method": "KO",
+        "round": 3,
+        "time": "1:59"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "eric-dodson",
+      "fighter_b_slug": "van-vo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "eric-dodson",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:17"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "derek-perez",
+      "fighter_b_slug": "mike-livingston",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "derek-perez",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:58"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "murat-kilimetov",
+      "fighter_b_slug": "lamont-stafford",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "murat-kilimetov",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:01"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "william-albrecht",
+      "fighter_b_slug": "brett-fields",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "william-albrecht",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:35"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "justyn-martinez",
+      "fighter_b_slug": "zay-garcia",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "justyn-martinez",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:40"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "jay-jackson",
+      "fighter_b_slug": "kyle-mcelroy",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jay-jackson",
+        "method": "TKO",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "lorenzo-coca",
+      "fighter_b_slug": "ruben-arroyo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lorenzo-coca",
+        "method": "TKO",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "roderick-stewart",
+      "fighter_b_slug": "bryant-mcclain",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "roderick-stewart",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:16"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

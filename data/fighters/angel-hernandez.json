@@ -1,0 +1,39 @@
+{
+  "slug": "angel-hernandez",
+  "name": "Angel Hernandez",
+  "nickname": "OG",
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 67,
+  "reach_in": 67,
+  "stance": null,
+  "dob": "1985-04",
+  "age": 41,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/towingangel/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/angel-hernandez"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1522,
+  "elo_peak": 1522
+}

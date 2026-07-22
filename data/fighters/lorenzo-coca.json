@@ -1,0 +1,40 @@
+{
+  "slug": "lorenzo-coca",
+  "name": "Lorenzo Coca",
+  "nickname": "THE DISCIPLE",
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 71,
+  "stance": null,
+  "dob": "1985-03",
+  "age": 41,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1746030939/o/COCA_AVATAR_400x533.png?1746030939",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/lorenzo-coca"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1501,
+  "elo_peak": 1501
+}

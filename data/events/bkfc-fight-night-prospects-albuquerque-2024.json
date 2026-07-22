@@ -1,0 +1,191 @@
+{
+  "slug": "bkfc-fight-night-prospects-albuquerque-2024",
+  "name": "BKFC Fight Night Prospects: Albuquerque",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2024-01-27T20:00:00Z",
+  "venue": "Revel Arena",
+  "city": "Albuquerque",
+  "state": "NM",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "donald-sanchez",
+      "fighter_b_slug": "noah-cutter",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "donald-sanchez",
+        "method": "KO",
+        "round": 1,
+        "time": "0:35"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Women's Strawweight",
+      "weight_limit_kg": 52,
+      "fighter_a_slug": "taylor-starling",
+      "fighter_b_slug": "jenny-savage",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "taylor-starling",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "eric-dodson",
+      "fighter_b_slug": "dakota-highpine",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "eric-dodson",
+        "method": "KO",
+        "round": 1,
+        "time": "0:40"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "william-albrecht",
+      "fighter_b_slug": "freddy-sandoval",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "william-albrecht",
+        "method": "KO",
+        "round": 1,
+        "time": "1:59"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "ismail-israilov",
+      "fighter_b_slug": "danasabe-mohammed",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ismail-israilov",
+        "method": "KO",
+        "round": 1,
+        "time": "1:12"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "juan-adams",
+      "fighter_b_slug": "matt-adams",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "juan-adams",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:30"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Women's Strawweight",
+      "weight_limit_kg": 52,
+      "fighter_a_slug": "karla-alvarez",
+      "fighter_b_slug": "brittany-horton",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "karla-alvarez",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:59"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "felipe-chavez",
+      "fighter_b_slug": "michael-manno",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "felipe-chavez",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:27"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "kaine-tomlinson",
+      "fighter_b_slug": "apostle-spencer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kaine-tomlinson",
+        "method": "KO",
+        "round": 1,
+        "time": "0:33"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "zachary-pannell",
+      "fighter_b_slug": "kasey-yates",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "zachary-pannell",
+        "method": "KO",
+        "round": 1,
+        "time": "1:44"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

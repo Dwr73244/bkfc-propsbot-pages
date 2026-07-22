@@ -1,0 +1,205 @@
+{
+  "slug": "byb-36-cardiff-brawl-ii",
+  "league": "BKB",
+  "name": "BYB 36: Cardiff Brawl II",
+  "event_number": 36,
+  "event_type": "Numbered",
+  "date": "2025-02-01T20:00:00Z",
+  "venue": "Utilita Arena Cardiff",
+  "city": "Cardiff",
+  "state": null,
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "barrie-jones",
+      "fighter_b_slug": "gregoris-cisneros",
+      "title_fight": true,
+      "title_name": "BKB Light Heavyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "barrie-jones",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Super Lightweight",
+      "fighter_a_slug": "kallum-skhane",
+      "fighter_b_slug": "joe-fitzpatrick",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kallum-skhane",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Flyweight",
+      "fighter_a_slug": "ashley-brace",
+      "fighter_b_slug": "bianca-daimoni",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bianca-daimoni",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "dorian-darch",
+      "fighter_b_slug": "gary-slator",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dorian-darch",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "alex-wilson",
+      "fighter_b_slug": "jack-marshman",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jack-marshman",
+        "method": "KO",
+        "round": 4
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "ryan-mccann",
+      "fighter_b_slug": "joe-smith",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "joe-smith",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "steven-evans",
+      "fighter_b_slug": "steve-rouke",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "steven-evans",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "jonny-lawson",
+      "fighter_b_slug": "keiron-harding",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "keiron-harding",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "troy-palmer",
+      "fighter_b_slug": "volodymyr-skurtu",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "volodymyr-skurtu",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "ash-williams",
+      "fighter_b_slug": "joe-randall",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ash-williams",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "joe-clarke",
+      "fighter_b_slug": "dan-gittens",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dan-gittens",
+        "method": "KO",
+        "round": 1
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-36-cardiff-brawl-ii"
+  ],
+  "last_updated": "2026-04-17"
+}

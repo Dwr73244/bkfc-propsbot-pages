@@ -1,0 +1,39 @@
+{
+  "slug": "dat-nguyen",
+  "name": "Dat Nguyen",
+  "nickname": "DAT BE DAT",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 4,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1982-10",
+  "age": 43,
+  "nationality": "Viet Nam",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/datbedat/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/datbedat/"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/dat-nguyen"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1519,
+  "elo_peak": 1519
+}

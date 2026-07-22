@@ -1,0 +1,39 @@
+{
+  "slug": "anthony-pagan",
+  "name": "Anthony Pagan",
+  "nickname": null,
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 68,
+  "reach_in": 70,
+  "stance": null,
+  "dob": "2001-07",
+  "age": 24,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/anthony-pagan"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1522,
+  "elo_peak": 1522
+}

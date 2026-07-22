@@ -1,0 +1,43 @@
+{
+  "slug": "deron-winn",
+  "name": "Deron Winn",
+  "full_name": null,
+  "nickname": null,
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 66,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1989-06",
+  "age": 36,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1775252726/o/DERON_WINN_AVATAR_400x533.png",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "Deron Winn is a UFC middleweight veteran and decorated wrestler making his BKFC debut at BKFC 88. A Henry Cejudo training partner and two-time US National Freestyle Wrestling Team member, Winn brings elite athletic pedigree to bare knuckle.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/deron-winn"
+  ],
+  "last_updated": "2026-04-17",
+  "style_tags": [
+    "pressure",
+    "cardio"
+  ],
+  "elo": 1522,
+  "elo_peak": 1522
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "byb-14-carolina-brawl",
+  "league": "BKB",
+  "name": "BYB 14: Carolina Brawl",
+  "event_number": 14,
+  "event_type": "Numbered",
+  "date": "2022-12-09T20:00:00Z",
+  "venue": "Rock Hill Sports & Event Center",
+  "city": "Rock Hill",
+  "state": "South Carolina",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Super Middleweight",
+      "fighter_a_slug": "sam-liera",
+      "fighter_b_slug": "lt-nelson",
+      "title_fight": true,
+      "title_name": "BKB Interim Super Middleweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "sam-liera",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "rodger-hunnel",
+      "fighter_b_slug": "trevor-ollison",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "trevor-ollison",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "brandon-birr",
+      "fighter_b_slug": "kendell-ward",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-birr",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "ryan-jett",
+      "fighter_b_slug": "nathan-mitchell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ryan-jett",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "joshua-oxendine",
+      "fighter_b_slug": "christopher-gonzalez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "joshua-oxendine",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "nicholas-villar",
+      "fighter_b_slug": "andre-ewell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "andre-ewell",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "henry-williams",
+      "fighter_b_slug": "manuel-de-la-torre",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "manuel-de-la-torre",
+        "method": "Decision",
+        "round": 5
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-14-carolina-brawl"
+  ],
+  "last_updated": "2026-04-17"
+}

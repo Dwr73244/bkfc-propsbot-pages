@@ -1,0 +1,40 @@
+{
+  "slug": "felipe-chavez",
+  "name": "Felipe Chavez",
+  "nickname": "Flip",
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 1,
+    "draws": 0,
+    "kos": 2
+  },
+  "mma_record": null,
+  "height_in": 70,
+  "reach_in": 73,
+  "stance": null,
+  "dob": "1983-09-01",
+  "age": 42,
+  "nationality": "United States",
+  "hometown": "Albuquerque, New Mexico",
+  "fighting_out_of": "Albuquerque, New Mexico",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1746030888/o/CHAVEZ_AVATAR_400x533.png?1746030888",
+  "social": {
+    "instagram": "https://www.instagram.com/felipechavez669/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/felipe-chavez"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1519,
+  "elo_peak": 1544
+}

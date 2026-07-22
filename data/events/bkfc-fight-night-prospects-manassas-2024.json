@@ -1,0 +1,191 @@
+{
+  "slug": "bkfc-fight-night-prospects-manassas-2024",
+  "name": "BKFC Fight Night Prospects: Manassas",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2024-02-16T20:00:00Z",
+  "venue": "The Salisbury Center",
+  "city": "Manassas",
+  "state": "VA",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "brandon-shavers",
+      "fighter_b_slug": "stanislav-grosu",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-shavers",
+        "method": "KO (punch)",
+        "round": 4,
+        "time": "1:32"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "cameron-vancamp",
+      "fighter_b_slug": "micah-terrill",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "cameron-vancamp",
+        "method": "KO (punch)",
+        "round": 2,
+        "time": "0:25"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "zach-calmus",
+      "fighter_b_slug": "josh-freeman",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "zach-calmus",
+        "method": "TKO",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "murat-kilimetov",
+      "fighter_b_slug": "tre-cook",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "murat-kilimetov",
+        "method": "KO (punch)",
+        "round": 2,
+        "time": "0:09"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "james-brown",
+      "fighter_b_slug": "bovar-khanakov",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "james-brown",
+        "method": "TKO (doctor stoppage)",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "joseph-ray",
+      "fighter_b_slug": "paul-shough",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "joseph-ray",
+        "method": "KO (punch)",
+        "round": 2,
+        "time": "1:50"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "shawn-brooks",
+      "fighter_b_slug": "jordan-christensen",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "shawn-brooks",
+        "method": "KO (punch)",
+        "round": 3,
+        "time": "0:52"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Women's Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "crystal-van-wyk",
+      "fighter_b_slug": "cristina-crist",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "crystal-van-wyk",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "nathan-rivera",
+      "fighter_b_slug": "dustin-garrett",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "nathan-rivera",
+        "method": "KO (punches)",
+        "round": 1,
+        "time": "1:22"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "cary-caprio",
+      "fighter_b_slug": "mike-livingston",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "cary-caprio",
+        "method": "TKO (doctor stoppage)",
+        "round": 2,
+        "time": "2:00"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

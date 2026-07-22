@@ -1,0 +1,15 @@
+{
+  "event_slug": "bkfc-fight-night-uruguay",
+  "event_date": "2026-07-25",
+  "source": "consensus",
+  "source_url": null,
+  "fetched_at": "2026-07-21T23:34:45.795Z",
+  "book_count": 4,
+  "books": [
+    "bestfightodds",
+    "kalshi",
+    "polymarket",
+    "xbet"
+  ],
+  "bouts": []
+}

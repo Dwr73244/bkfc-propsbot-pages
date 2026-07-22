@@ -1,0 +1,39 @@
+{
+  "slug": "murat-kazgan",
+  "name": "Murat Kazgan",
+  "nickname": "Lord Pitbull",
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1986-01",
+  "age": 40,
+  "nationality": "Turkey",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/muratkazgan/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/murat-kazgan"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1522,
+  "elo_peak": 1522
+}

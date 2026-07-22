@@ -1,0 +1,39 @@
+{
+  "slug": "ruben-arroyo",
+  "name": "Ruben Arroyo",
+  "full_name": null,
+  "nickname": "The Beast",
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 4,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 67,
+  "reach_in": 69.5,
+  "stance": null,
+  "dob": "1987-12",
+  "age": 38,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744598986/o/ruben-arroyo-400x533.png",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/ruben-arroyo"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1455,
+  "elo_peak": 1500
+}

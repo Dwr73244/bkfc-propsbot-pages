@@ -1,0 +1,34 @@
+{
+  "slug": "bkfc-93-hollywood",
+  "name": "bkfc-93-hollywood",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-09-11T00:00:00Z",
+  "venue": "THE HARD ROCK LIVE HOLLYWOOD",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "leonardo-perdomo",
+      "fighter_b_slug": "anthony-garrett",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-93-hollywood"
+  ],
+  "last_updated": "2026-07-15",
+  "needs_card_population": false
+}

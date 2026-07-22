@@ -1,0 +1,38 @@
+{
+  "slug": "cameron-delano",
+  "name": "Cameron Delano",
+  "full_name": null,
+  "nickname": "THE BULL",
+  "division": "Heavyweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 68,
+  "stance": null,
+  "dob": "1997-10",
+  "age": 28,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1748970193/o/CAMERON_DELANO_AVATAR_400x533.png?1748970193",
+  "social": {
+    "instagram": "https://www.instagram.com/camerondelano_official/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "American heavyweight who transitioned to bare-knuckle fighting from professional bull riding. Shed 25 pounds preparing for his BKFC debut and has trained alongside Tony Soto and Harrison Aiken. His profile has drawn attention from BKFC names including Bryce Hall and Mike Perry, and he is 1-0 entering his Blood 4 Blood main event.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/events/blood-4-blood",
+    "https://www.bkfc.com/fighters/cameron-delano"
+  ],
+  "last_updated": "2026-04-19"
+}

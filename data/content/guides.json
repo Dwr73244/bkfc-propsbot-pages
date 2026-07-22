@@ -1,0 +1,226 @@
+{
+  "guides": [
+    {
+      "slug": "rules",
+      "title": "BKFC Rules Explained",
+      "subtitle": "Everything that matters about how bare knuckle fights are scored, stopped, and won.",
+      "description": "Complete guide to BKFC rules: round structure, scoring, toe-line start, knockdown counts, doctor stoppages, weight classes, glove/wrap specs, and how each rule affects betting outcomes.",
+      "canonical": "/guide/rules/",
+      "last_updated": "2026-04-17",
+      "reading_minutes": 7,
+      "sections": [
+        {
+          "h2": "The short version",
+          "body": "<p>BKFC is sanctioned bare knuckle boxing. Fighters wear hand wraps that stop one inch before the knuckles — no gloves. Fights are <strong>5 rounds of 2 minutes</strong> (7 rounds for some title fights). Scored on the 10-point-must system. 10-second knockdown count. Three knockdowns in one round = TKO. Cuts and doctor stoppages end fights a lot more often than in gloved boxing.</p>\n<p>From a betting perspective, the two most important rule differences vs boxing: <strong>shorter rounds</strong> (pacing matters less, first clean shot matters more) and <strong>no gloves</strong> (KO rate ~70% vs ~40% in boxing, cuts are a constant finish threat).</p>"
+        },
+        {
+          "h2": "Round format",
+          "body": "<p>Standard non-title fights: <strong>5 rounds × 2 minutes</strong>. One-minute rest between rounds. Title fights in numbered-event main events: some go 7 rounds, same 2-minute format. BKFC Fight Night cards use 5-round max throughout.</p>\n<p>The shorter rounds are the single biggest rule fact for bettors to internalize. 10 minutes of total fight time (vs 36+ in boxing championship distance) means:</p>\n<ul><li>Less time for a slow starter to mount a comeback.</li><li>Cardio matters less — you can sprint the full 10 minutes.</li><li>Cuts from the opening exchanges carry into every subsequent round.</li><li>Technical advantages compress; one clean shot can swing a decision.</li></ul>"
+        },
+        {
+          "h2": "Toe-line start",
+          "body": "<p>BKFC is the only major combat sport where fighters start each round <strong>toe-to-toe at a center line</strong>, not at opposite corners. Each round begins from essentially punching range.</p>\n<p>This favors pressure fighters and punishes counter-punchers who rely on footwork to bait and evade. Watch the Round-1 exchanges: 60%+ of first-round finishes happen in the first 15 seconds because the toe-line start removes the feeling-out period boxing normally provides.</p>"
+        },
+        {
+          "h2": "Scoring (10-point must)",
+          "body": "<p>Same system as boxing: winner of a round gets 10, loser gets 9, knockdown reduces to 8, two knockdowns to 7. Three judges. Draws, majority decisions, split decisions all possible.</p>\n<p>Scoring criteria in priority order: (1) effective aggression and clean punching, (2) ring generalship, (3) defense. Judges favor the fighter who moves forward and lands — BKFC has an explicit tilt toward aggression that MMA scoring does not.</p>"
+        },
+        {
+          "h2": "Knockdown rules",
+          "body": "<p>Knockdown → 10-second count by the referee. Fighter must rise by 10 and step forward to continue. If they don't or can't, it's a KO.</p>\n<p>Three knockdowns in a single round = automatic TKO (\"three-knockdown rule\"). Unlike boxing where this is sometimes suspended in title fights, BKFC enforces it across all rounds.</p>\n<p>A knockdown where the fighter rises and continues still costs them a point on the scorecard. Repeated knockdowns (non-sequential) are a clear decision-loss signal.</p>"
+        },
+        {
+          "h2": "Doctor stoppages and cuts",
+          "body": "<p>Bare knuckles cause cuts significantly faster than gloves. The ring doctor is involved early and often. Doctor can recommend a stop between rounds; the ref makes the final call.</p>\n<p>Most common cut locations: above the eye (vision-impairing), across the bridge of the nose, inside the mouth. Cut stoppages count as TKO loss for the cut fighter.</p>\n<p><strong>Betting implication:</strong> fighters with a history of cutting easily (scar tissue accumulation) are a durability liability. We track this in our predict model as the \"Cut Susceptibility\" factor — % of past losses that ended by doctor stoppage.</p>"
+        },
+        {
+          "h2": "Hand wraps and knuckles",
+          "body": "<p>Fighters wrap their hands with gauze and tape up to 1 inch from the knuckles. The last inch — the actual striking surface — is bare skin. No padding.</p>\n<p>This causes a second-order effect that rarely gets discussed: <strong>hand durability</strong>. Throwing a hook with bare knuckles against a forehead is the same as punching a wall. Fighters who bust up their hands in Round 2 are fighting at 50% effectiveness for the rest of the bout.</p>\n<p>Older fighters (35+) and fighters with heavy-handed styles (KO hunters) are most at risk for mid-fight hand damage. We factor this into the Age curve in the prediction model.</p>"
+        },
+        {
+          "h2": "What's illegal",
+          "body": "<p>Same basic prohibitions as pro boxing: no headbutts, no elbows, no knees, no kicks, no holding, no hitting a downed opponent, no rabbit punches, no low blows. Clinches are broken by the ref quickly — the toe-line philosophy extends to keeping fighters actively trading.</p>\n<p>Unlike MMA, you cannot shoot a takedown, cannot land ground-and-pound, cannot submit.</p>"
+        },
+        {
+          "h2": "Weight classes",
+          "body": "<p>10 weight classes total: Strawweight (115 lb), Flyweight (125 lb), Bantamweight (135 lb), Featherweight (145 lb), Lightweight (155 lb), Welterweight (165 lb), Middleweight (175 lb), Light Heavyweight (185 lb), Cruiserweight (205 lb), Heavyweight (265 lb). Women's divisions: Straw, Fly, Bantam, Feather.</p>\n<p>Catchweight bouts are allowed — check the bout weight class vs. each fighter's BKFC-listed class. A fighter moving up may be more muscular but less accustomed to the power; moving down risks a tough weight cut.</p>"
+        }
+      ],
+      "faqs": [
+        {"q": "How long is a BKFC fight?", "a": "Standard fights are 5 rounds of 2 minutes each (10 total minutes of action plus 4 one-minute rest breaks). Some title fights go 7 rounds at the same 2-minute format."},
+        {"q": "Are BKFC fighters allowed to use gloves?", "a": "No. Fighters wear hand wraps that stop one inch before the knuckles — the striking surface is bare skin. This is the defining rule of the sport."},
+        {"q": "Why do BKFC fights start at the center of the ring?", "a": "The \"toe-line start\" is unique to BKFC. Both fighters toe up to a line in the center of the ring at the start of each round. This forces immediate engagement and removes the feeling-out period common in boxing."},
+        {"q": "How often do BKFC fights end by KO?", "a": "Roughly 70% of BKFC bouts end inside the distance (KO, TKO, or doctor stoppage). That's dramatically higher than the ~35-40% finish rate in professional boxing, driven by the lack of gloves and the shorter rounds."},
+        {"q": "Can a BKFC fight end because of cuts?", "a": "Yes. Doctor stoppages for cuts are common — they count as a TKO loss. This is why a fighter's \"cut history\" (how often they've been stopped by doctor) is a real predictive signal for future fights."}
+      ]
+    },
+    {
+      "slug": "weight-classes",
+      "title": "BKFC Weight Classes Guide",
+      "subtitle": "All 10 men's + 4 women's divisions, plus what each weight class means for betting outcomes.",
+      "description": "Every BKFC weight class with the limits, champion tracking, characteristic fight patterns (KO rate, decision rate, typical finish method), and betting implications.",
+      "canonical": "/guide/weight-classes/",
+      "last_updated": "2026-04-17",
+      "reading_minutes": 6,
+      "sections": [
+        {
+          "h2": "Men's divisions",
+          "body": "<p>BKFC contests ten men's weight classes, mirroring modern boxing with one key addition: Cruiserweight (205 lb) sits between Light Heavyweight and Heavyweight. This is the division that typically houses former UFC light-heavies and small heavyweights — some of BKFC's most recognizable names fight here.</p>\n<table class=\"w-full text-sm mt-2\"><thead><tr><th class=\"text-left py-1\">Division</th><th class=\"text-left py-1\">Limit</th><th class=\"text-left py-1\">Finish rate</th></tr></thead><tbody>\n<tr><td class=\"py-1\">Flyweight</td><td>125 lb / 56.7 kg</td><td>~65%</td></tr>\n<tr><td class=\"py-1\">Bantamweight</td><td>135 lb / 61.2 kg</td><td>~60%</td></tr>\n<tr><td class=\"py-1\">Featherweight</td><td>145 lb / 65.8 kg</td><td>~65%</td></tr>\n<tr><td class=\"py-1\">Lightweight</td><td>155 lb / 70 kg</td><td>~70%</td></tr>\n<tr><td class=\"py-1\">Welterweight</td><td>165 lb / 75 kg</td><td>~72%</td></tr>\n<tr><td class=\"py-1\">Middleweight</td><td>175 lb / 79 kg</td><td>~75%</td></tr>\n<tr><td class=\"py-1\">Light Heavyweight</td><td>185 lb / 84 kg</td><td>~80%</td></tr>\n<tr><td class=\"py-1\">Cruiserweight</td><td>205 lb / 93 kg</td><td>~82%</td></tr>\n<tr><td class=\"py-1\">Heavyweight</td><td>265 lb / 120 kg</td><td>~85%</td></tr>\n</tbody></table>\n<p class=\"text-xs text-white/50 mt-2\">Finish rates are approximate based on historical BKFC results. They're inputs into our model's weight-class baseline.</p>"
+        },
+        {
+          "h2": "Women's divisions",
+          "body": "<p>Four women's divisions: Strawweight (115 lb), Flyweight (125 lb), Bantamweight (135 lb), Featherweight (145 lb). Historically Strawweight and Flyweight have been the most active, with Bantamweight growing as more roster depth develops.</p>\n<p>Women's fights have roughly the same finish rate as men's at the same weight — but tend toward more decisions than KOs, and fewer doctor stoppages per bout.</p>"
+        },
+        {
+          "h2": "Why division matters for betting",
+          "body": "<p>Three effects compound across weight classes:</p>\n<ol><li><strong>Finish rate rises with weight.</strong> Bigger punchers, smaller margin for error. At Heavyweight, 85% of fights end inside the distance. This pushes \"fight goes distance: NO\" into +EV territory on many heavyweight cards.</li><li><strong>Cut frequency rises with weight.</strong> Heavier gloves — I mean knuckles — open up skin faster. Doctor stoppages are twice as common at Heavyweight as at Bantamweight.</li><li><strong>Style matchups reshape by division.</strong> Pressure fighting dominates at Heavyweight (nowhere to hide in 2-minute rounds with 240 lb guys punching). Technical boxing (jab, footwork) plays better at Bantamweight through Lightweight.</li></ol>"
+        },
+        {
+          "h2": "Catchweights",
+          "body": "<p>BKFC occasionally sanctions catchweight bouts — a weight negotiated between the two fighters outside the standard classes. Read the contracted weight carefully: a fighter who normally campaigns at 175 lb facing someone who normally fights at 185 at a 180-lb catchweight is often giving up power but gaining speed.</p>\n<p>Our model tracks a fighter's standard division separately from the contracted bout weight. When they differ materially (e.g. 10+ lb), it's a signal worth noting.</p>"
+        }
+      ],
+      "faqs": [
+        {"q": "What are all the BKFC weight classes?", "a": "10 men's divisions from Flyweight (125 lb) through Heavyweight (265 lb), and 4 women's divisions (Strawweight through Featherweight). Cruiserweight (205 lb) sits between Light Heavyweight and Heavyweight, which is unusual in modern combat sports."},
+        {"q": "What weight class has the most knockouts?", "a": "Heavyweight, by a wide margin. Roughly 85% of BKFC Heavyweight fights end inside the distance. Cruiserweight and Light Heavyweight are also above 80%. Women's divisions tend to see more decisions."},
+        {"q": "Can BKFC fighters fight at catchweights?", "a": "Yes. Catchweight bouts are negotiated between the fighters' camps and sanctioned by the athletic commission. They're relatively common when one fighter is coming up or down from their normal division."}
+      ]
+    },
+    {
+      "slug": "methodology",
+      "title": "How the PropsBot Model Works",
+      "subtitle": "The 14 factors, their empirical accuracy, and what \"Predictability 68\" actually means.",
+      "description": "Transparent explainer of the PropsBot BKFC prediction model — factor weights, point-in-time backtest methodology, reliability diagram, Brier score, and how Advantage Score + Predictability are computed.",
+      "canonical": "/guide/methodology/",
+      "last_updated": "2026-05-03",
+      "reading_minutes": 8,
+      "sections": [
+        {
+          "h2": "The model in one sentence",
+          "body": "<p><strong>How PropsBot BKFC predicts a fight:</strong></p><ol><li>Score each fighter on 14 factors &mdash; ELO, recent form, KO rate, age, reach, pro boxing background, MMA background, style, activity, cut susceptibility, schedule strength, experience, height, stance.</li><li>Combine via calibrated weighted blend.</li><li>Anchor 55/45 on de-vigged market odds when available.</li><li>Output <strong>Advantage Score</strong> (0&ndash;100, equivalent to <em>Confidence Score</em> on PropsBot.AI) and <strong>Predictability</strong> (0&ndash;100, equivalent to <em>Edge Score</em> on PropsBot.AI).</li></ol><p>It's a <strong>transparent factor-based scoring system</strong> &mdash; not a black-box machine-learned model. The brand-alias parenthetical above is intentional: PropsBot.AI's player-prop product uses <em>Confidence Score</em> + <em>Edge Score</em>, and PropsBot BKFC uses <em>Advantage Score</em> + <em>Predictability</em> for the same two concepts.</p>"
+        },
+        {
+          "h2": "Historical accuracy (point-in-time backtest)",
+          "body": "<p>Over 325 completed bouts from 2023-2025, reconstructing each fighter's state as of the bout date (no post-bout leakage):</p><ul><li><strong>Full-model accuracy: 59.8%</strong> on 127 picks where the model had enough signal to lean. 198 bouts were skipped as toss-ups (45-55% range).</li><li><strong>Brier score: 0.2473</strong> — better than the 0.25 naive-50% baseline.</li><li><strong>Edge vs coin-flip: +9.8 percentage points.</strong></li><li><strong>Baseline comparison:</strong> picking whichever fighter has the better BKFC win rate goes 55-41 (57.3%). We beat that by 2.5pp.</li></ul><p>In combat-sports betting, 58-60% accuracy on model-filtered picks is in the range a competitive professional handicapper operates. We're honest that 40% of our picks lose. Bet accordingly.</p>"
+        },
+        {
+          "h2": "The 14 factors and their weights",
+          "body": "<p>Weights are hand-set informed priors. Every four weeks we recalibrate against new data; factors with small backtest samples (n &lt; 30) keep their prior weight until enough history accumulates to override.</p><div class=\"weight-table\"><div class=\"w-label\">ELO Rating (opponent-quality adjusted)</div><div class=\"w-value\">16%</div><div class=\"w-label\">Recent Form (last 5, recency-weighted)</div><div class=\"w-value\">13%</div><div class=\"w-label\">BKFC Record (Bayesian-smoothed)</div><div class=\"w-value\">11%</div><div class=\"w-label\">KO Rate</div><div class=\"w-value\">11%</div><div class=\"w-label\">Age (decline past 35)</div><div class=\"w-value\">9%</div><div class=\"w-label\">Pro Boxing Background</div><div class=\"w-value\">9%</div><div class=\"w-label\">Reach</div><div class=\"w-value\">8%</div><div class=\"w-label\">MMA Background</div><div class=\"w-value\">7%</div><div class=\"w-label\">Style Matchup</div><div class=\"w-value\">6%</div><div class=\"w-label\">Activity / ring rust</div><div class=\"w-value\">5%</div><div class=\"w-label\">Cut Susceptibility</div><div class=\"w-value\">5%</div><div class=\"w-label\">Strength of Schedule</div><div class=\"w-value\">4%</div><div class=\"w-label\">BKFC Experience</div><div class=\"w-value\">3%</div><div class=\"w-label\">Height</div><div class=\"w-value\">3%</div><div class=\"w-label\">Stance (southpaw edge)</div><div class=\"w-value\">3%</div><div class=\"w-label\">Home Advantage</div><div class=\"w-value\">2%</div></div>"
+        },
+        {
+          "h2": "What Advantage Score means",
+          "body": "<p>Simply the model's probability × 100 for that fighter. An Advantage Score of 67 means the model estimates this fighter wins 67% of the time. The two scores in a bout always sum to 100. Scores above 55 indicate meaningful favorites; 46-54 is a toss-up; below 45 is an underdog.</p>"
+        },
+        {
+          "h2": "What Predictability means",
+          "body": "<p>A 0-100 trust score for the specific pick. It blends:</p><ul><li><strong>50% data quality</strong> (is there enough history on both fighters to be meaningful?)</li><li><strong>30% signal strength</strong> (how far from 50/50 is the model?)</li><li><strong>20% factor agreement</strong> (are most active factors pointing the same direction?)</li></ul><p>Predictability 75+ = strong pick. 55-75 = solid. 40-55 = marginal. Below 40 is filtered from the /picks/ board because the model doesn't trust itself.</p>"
+        },
+        {
+          "h2": "Market-adjusted prior",
+          "body": "<p>When de-vigged moneyline odds exist for a bout, we blend our raw model output 55/45 with the market as a prior. Sharp handicappers anchor to the market and add a data-driven delta — the market has information (injuries, camp news, sharp money) we often lack. Our recommendations are therefore most trustworthy when we agree with the market direction but show a meaningful edge in magnitude.</p>"
+        },
+        {
+          "h2": "Shrinkage calibration",
+          "body": "<p>Reliability-diagram analysis showed our model was ~8pp over-confident in the 65-70% bucket — when it said 67%, the fighter actually won 60% of the time. We apply a shrinkage factor that pulls probabilities toward 50%: <code>p' = 0.5 + 0.85 × (p - 0.5)</code>. This makes high-advantage predictions more honest at the cost of never displaying extreme certainty.</p>"
+        },
+        {
+          "h2": "Honest limitations",
+          "body": "<p>This is a decision aid, not a crystal ball.</p><ul><li><strong>325 training bouts is small.</strong> Most factors have fewer than 30 testable samples. We use hand-priors for factors with thin data rather than overfitting.</li><li><strong>Intangibles aren't captured:</strong> camp news, weight cut struggles, in-the-ring injuries, referee tendencies, crowd impact beyond home-country effect.</li><li><strong>BKFC has a small sample per fighter.</strong> A fighter's first 2-3 bouts tell us very little. The model honestly labels these as Low or Very Low confidence.</li><li><strong>The market knows things we don't.</strong> When we disagree with the market by &gt;15pts, 60% of the time the market ends up right. Size your bets accordingly.</li></ul>"
+        }
+      ],
+      "faqs": [
+        {"q": "How accurate is the PropsBot BKFC model?", "a": "59.8% on 127 point-in-time backtested picks out of 325 total historical bouts. The model skips toss-up bouts (45-55% range) and only commits to picks where it has meaningful signal. Brier score 0.2473 (baseline 0.25). Edge over coin-flip: +9.8 percentage points."},
+        {"q": "What's the difference between Advantage Score and Predictability?", "a": "Advantage Score is the model's probability × 100 for each fighter (the two scores sum to 100). Predictability is how much you should trust that specific pick — a 67/33 prediction with Predictability 80 is far more bettable than the same prediction with Predictability 30."},
+        {"q": "Is PropsBot's model machine-learned?", "a": "No. It's a transparent factor-based scoring system with hand-set weights that get recalibrated against new historical data. We built a pure-JS logistic regression trainer for comparison; on our 325 training bouts it scored 52.9% cross-validation accuracy, below our 59.8% heuristic baseline. LR didn't beat the heuristic so we didn't deploy it. We'll revisit when we have 1000+ training bouts."}
+      ]
+    },
+    {
+      "slug": "responsible-gambling",
+      "title": "Bet Responsibly",
+      "subtitle": "PropsBot is a research tool. It is not an endorsement to bet. Here's what every bettor should know.",
+      "description": "Responsible gambling guidance for BKFC and combat sports bettors. Bankroll, Kelly criterion, when to walk away, problem-gambling resources.",
+      "canonical": "/guide/responsible-gambling/",
+      "last_updated": "2026-04-17",
+      "reading_minutes": 4,
+      "sections": [
+        {
+          "h2": "Read this before you follow any pick",
+          "body": "<p>Our model has been right 59.8% of the time in backtest. That means <strong>40% of the picks we recommend lose.</strong> Losing streaks of 5-7 in a row are statistically expected, not rare.</p><p>Treat every bet as paid entertainment. Only risk money you can lose without changing your life. Never chase losses. Never borrow to bet. If you find yourself doing either, you need to stop today.</p>"
+        },
+        {
+          "h2": "Bankroll basics",
+          "body": "<p>A single bet should be <strong>1-3% of your total gambling bankroll</strong>, never more. That cap is designed so you survive a bad run. Common sports-betting rules of thumb:</p><ul><li><strong>Unit = 1% of bankroll.</strong> A 'one unit bet' is 1% of your total.</li><li><strong>Max exposure: 3 units per bet.</strong> Only on highest-confidence picks (Predictability 80+).</li><li><strong>Daily loss limit: 5 units.</strong> If you hit it, stop betting for the day.</li><li><strong>Session length:</strong> set a time cap before you start. Two hours max.</li></ul>"
+        },
+        {
+          "h2": "Kelly criterion (for the math-inclined)",
+          "body": "<p>Optimal bet size given an edge: <code>f = (bp - q) / b</code> where <code>b</code> = decimal odds - 1, <code>p</code> = true probability, <code>q</code> = 1 - p. Most professionals use <strong>quarter-Kelly</strong> to protect against model error. Full Kelly with an imperfect model like ours is a fast track to ruin.</p><p>Example: model gives fighter 67% (shrinkage-adjusted), moneyline is +150 (decimal 2.5). Full Kelly = (1.5 × 0.67 - 0.33) / 1.5 = 0.45, or 45% of bankroll. <strong>That's insane. Don't do that.</strong> Quarter Kelly = 11% — still too much. Our 1-3% per bet rule caps this automatically.</p>"
+        },
+        {
+          "h2": "Warning signs",
+          "body": "<p>You have a problem if any of these apply:</p><ul><li>You bet with money earmarked for rent, groceries, bills.</li><li>You hide your betting from family or partners.</li><li>You chase losses by doubling up.</li><li>You feel physically anxious when you can't bet.</li><li>You've borrowed or stolen to bet.</li><li>You've lied about how much you've lost.</li></ul><p>If any of these feel familiar, call the <strong>National Problem Gambling Helpline: 1-800-GAMBLER</strong>. In the UK, <strong>GamCare: 0808 8020 133</strong>. Free, confidential, 24/7.</p>"
+        },
+        {
+          "h2": "Our affiliate disclosure",
+          "body": "<p>PropsBot.AI is a free betting-intelligence tool. We do not operate a sportsbook and do not receive commissions from the books we link to (xbet.ag, BestFightOdds). Our odds data is scraped from publicly visible consensus sources for research purposes only. We are not sponsored by any fighter, promotion, or sportsbook. Recommendations reflect our model's output, not a financial relationship.</p>"
+        }
+      ],
+      "faqs": [
+        {"q": "How much should I bet per pick?", "a": "1-3% of your total bankroll per bet, never more. A 'unit' in sports betting parlance is 1% of your bankroll. Save the 3-unit max for picks with Predictability 80+."},
+        {"q": "Where can I get help for a gambling problem?", "a": "Call the National Problem Gambling Helpline at 1-800-GAMBLER in the US, or GamCare at 0808 8020 133 in the UK. Both are free, confidential, 24/7."},
+        {"q": "Is PropsBot.AI sponsored by any sportsbook?", "a": "No. We do not receive commissions from any book and are not sponsored by any fighter or promotion. Odds are scraped from publicly visible consensus sources for research."}
+      ]
+    },
+    {
+      "slug": "betting-glossary",
+      "title": "BKFC Betting Glossary",
+      "subtitle": "Moneyline, implied probability, vig, edge, CLV, and every other term you need to read our research pages.",
+      "description": "Clear definitions of BKFC and combat-sports betting terms: moneyline, implied probability, de-vigging, Closing Line Value, predictability, shrinkage, and how to interpret model-vs-market edges.",
+      "canonical": "/guide/betting-glossary/",
+      "last_updated": "2026-04-17",
+      "reading_minutes": 5,
+      "sections": [
+        {
+          "h2": "Moneyline",
+          "body": "<p>The price you pay to bet a fighter to win. American format:</p><ul><li><strong>Negative (-180):</strong> favorite. Risk $180 to win $100.</li><li><strong>Positive (+150):</strong> underdog. Risk $100 to win $150.</li></ul><p>The more negative a favorite's number, the bigger the favorite. -1000 means the book thinks this fighter wins 90%+ of the time.</p>"
+        },
+        {
+          "h2": "Implied probability",
+          "body": "<p>The win-probability embedded in a moneyline. Formulas:</p><ul><li>Favorite: <code>|ml| / (|ml| + 100)</code></li><li>Underdog: <code>100 / (ml + 100)</code></li></ul><p>Example: -180 implies 64.3%. +150 implies 40.0%. Add them up and they exceed 100% because of the vig (see next).</p>"
+        },
+        {
+          "h2": "Vig / juice",
+          "body": "<p>The sportsbook's built-in edge. If two sides of a two-outcome market sum to more than 100% implied probability, the excess is the vig. Typical BKFC markets carry 7-10% vig — higher than mainstream sports because the market is less competitive.</p><p><strong>De-vigging</strong> = normalizing the two sides to sum to 100% so you can see the book's \"true\" estimate of each fighter's chance. We use de-vigged probabilities when computing edge vs. the model.</p>"
+        },
+        {
+          "h2": "Edge",
+          "body": "<p>The gap between the model's probability and the market's de-vigged probability, expressed in percentage points. A 15-point edge on Fighter A means our model gives them 60% to win while the market gives them 45%.</p><p>Bigger edge = more value IF the model is right. The catch: our model is wrong 40% of the time, so big edges on low-confidence picks are not automatic wins.</p>"
+        },
+        {
+          "h2": "Advantage Score",
+          "body": "<p>Our primary pick display, 0-100 per fighter. Directly equals model probability × 100. A 67 means the model gives this fighter a 67% win chance. The two advantage scores in a bout always sum to 100.</p>"
+        },
+        {
+          "h2": "Predictability",
+          "body": "<p>A separate 0-100 trust metric for how much to rely on a given pick. Blends data quality (50%), signal strength (30%), and factor agreement (20%). A 67/33 pick with Predictability 85 is much more bettable than a 67/33 pick with Predictability 25.</p><p>We filter the /picks/ aggregator to Predictability ≥ 40 so the board isn't flooded with noise.</p>"
+        },
+        {
+          "h2": "Closing Line Value (CLV)",
+          "body": "<p>The classic pro-bettor metric. If you bet Fighter A at +150, and the line closes at +120 (book moved toward Fighter A), you've captured positive CLV. If it closes at +180, you got negative CLV.</p><p>Over a large sample, CLV is a better predictor of long-term profit than win rate. The book's closing line is the sharpest estimate of true probability. Beating it consistently = real edge.</p><p>We track CLV passively via odds history; once enough events have cycled we'll surface CLV stats per edge type.</p>"
+        },
+        {
+          "h2": "Shrinkage",
+          "body": "<p>A calibration technique. Our model's probabilities tend to over-estimate at the 65-70% range (claims 67%, delivers ~60%). Shrinkage pulls all probs toward 50% by a factor: <code>p' = 0.5 + 0.85 × (p - 0.5)</code>. Pre-shrinkage 67% becomes post-shrinkage ~64%. More honest.</p><p>Visible in the fact that most Advantage Scores cluster in the 35-65 range rather than getting extreme.</p>"
+        },
+        {
+          "h2": "Book consensus",
+          "body": "<p>When we have moneylines from multiple sportsbooks (xbet.ag, BestFightOdds, etc.) for the same bout, we compute the median of each side to get a consensus line. Then we surface the best individual line as a \"line-shopping\" callout. The best ML beating consensus = free value that nobody's priced in yet.</p>"
+        }
+      ],
+      "faqs": [
+        {"q": "What does Advantage Score 67 mean in BKFC?", "a": "The model estimates that fighter has a 67% chance to win. Numbers pair — if one fighter is 67, the other is 33. Scores above 55 indicate meaningful favorites, below 45 are underdogs, 46-54 is a toss-up."},
+        {"q": "What's a good Predictability score?", "a": "Above 70 is Strong — both fighters have enough data, the model's signal is strong, and most factors agree. 55-70 is Solid. Below 40 we filter out of the Picks board because the pick is unreliable."},
+        {"q": "How do I find the best BKFC odds?", "a": "Use the line-shopping badges on our bout rows. When we have odds from multiple sportsbooks, we flag the best available moneyline per side (e.g. 'BFO -159' vs consensus -172). Taking the better line is free expected value."}
+      ]
+    }
+  ]
+}

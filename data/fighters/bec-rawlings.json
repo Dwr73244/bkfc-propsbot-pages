@@ -1,0 +1,66 @@
+{
+  "slug": "bec-rawlings",
+  "name": "Bec Rawlings",
+  "nickname": "Rowdy",
+  "division": "Women's Flyweight",
+  "bkfc_record": {
+    "wins": 4,
+    "losses": 3,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": "8-9",
+  "height_in": 66,
+  "reach_in": 64,
+  "stance": null,
+  "dob": "1989-02-01",
+  "age": 37,
+  "nationality": "Australia",
+  "hometown": "Tasmania",
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1747698300/o/BEC_RAWLINGS_400x533.png?1747698300",
+  "social": {
+    "instagram": "https://www.instagram.com/rowdybec/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/rowdybec"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/bec-rawlings",
+    "https://en.wikipedia.org/wiki/Bec_Rawlings",
+    "https://boxrec.com/en/box-pro/851858"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1494,
+  "elo_peak": 1500,
+  "pro_boxing_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": 0,
+    "last_updated": "2026-04-19"
+  },
+  "boxrec_id": 851858,
+  "boxrec_url": "https://boxrec.com/en/box-pro/851858",
+  "pro_boxing_history": [
+    {
+      "num": 1,
+      "result": "L",
+      "record_after": "0-1",
+      "opponent": "Natasha Kurene",
+      "opponent_slug": "australia",
+      "method": "UD",
+      "round": 5,
+      "time": null,
+      "date": null,
+      "location": "The Star Gold Coast, Gold Coast, Queensland, Australia",
+      "notes": null
+    }
+  ]
+}

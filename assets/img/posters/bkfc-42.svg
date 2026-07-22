@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070e1a"/>
+      <stop offset="100%" stop-color="#121c2d"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="15%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#15ffc2" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#15ffc2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="85%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff1552" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ff1552" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff1552"/>
+      <stop offset="100%" stop-color="#f0c040"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)"/>
+  <rect width="1200" height="630" fill="url(#glowB)"/>
+
+  <!-- Top band: brand + date -->
+  <g font-family="'JetBrains Mono', Menlo, monospace">
+    <rect x="48" y="48" width="8" height="8" fill="url(#brand)"/>
+    <text x="64" y="58" font-size="14" font-weight="800" fill="#fff" letter-spacing="3">PROPSBOT · BKFC</text>
+    <text x="1152" y="58" text-anchor="end" font-size="14" font-weight="600" fill="#15ffc2" letter-spacing="2.5">FRIDAY, MAY 12, 2023</text>
+  </g>
+
+  <!-- Title block -->
+  <g font-family="Inter, system-ui, sans-serif">
+    <text x="600" y="156" text-anchor="middle" font-size="56" font-weight="900" fill="#fff" letter-spacing="-1">BKFC 42 Greenville</text>
+    <text x="600" y="210" text-anchor="middle" font-size="30" font-weight="700" fill="rgba(200,215,230,0.8)" letter-spacing="-0.5">Soto vs. Goodjohn</text>
+  </g>
+
+  <!-- A vs B layout -->
+  <g font-family="Inter, system-ui, sans-serif">
+    <!-- Fighter A -->
+    <circle cx="240" cy="400" r="92" fill="none" stroke="#15ffc2" stroke-width="3" stroke-opacity="0.8"/>
+    <circle cx="240" cy="400" r="85" fill="#15ffc2" fill-opacity="0.08"/>
+    <text x="240" y="415" text-anchor="middle" font-size="72" font-weight="900" fill="#15ffc2">T</text>
+    <text x="240" y="530" text-anchor="middle" font-size="30" font-weight="800" fill="#fff">GOODJOHN</text>
+    <text x="240" y="560" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700" fill="rgba(200,215,230,0.7)">0-1</text>
+
+    <!-- VS center -->
+    <text x="600" y="420" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="64" font-weight="900" fill="rgba(255,255,255,0.12)" letter-spacing="12">VS</text>
+    <text x="600" y="475" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#f0c040" letter-spacing="3">LIGHTWEIGHT</text>
+    
+
+    <!-- Fighter B -->
+    <circle cx="960" cy="400" r="92" fill="none" stroke="#ff1552" stroke-width="3" stroke-opacity="0.8"/>
+    <circle cx="960" cy="400" r="85" fill="#ff1552" fill-opacity="0.08"/>
+    <text x="960" y="415" text-anchor="middle" font-size="72" font-weight="900" fill="#ff1552">T</text>
+    <text x="960" y="530" text-anchor="middle" font-size="30" font-weight="800" fill="#fff">SOTO</text>
+    <text x="960" y="560" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700" fill="rgba(200,215,230,0.7)">2-0</text>
+  </g>
+
+  <!-- Footer: venue + URL -->
+  <g font-family="'JetBrains Mono', Menlo, monospace">
+    <text x="600" y="600" text-anchor="middle" font-size="13" font-weight="700" fill="rgba(200,215,230,0.5)" letter-spacing="3">GREENVILLE, UNITED STATES</text>
+  </g>
+</svg>

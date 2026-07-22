@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <title>How the PropsBot Model Works | PropsBot BKFC</title>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preconnect" href="https://bkfc-cdn.gigcasters.com" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../assets/fonts/inter-400.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../assets/fonts/inter-700.woff2" />
+  <link rel="stylesheet" href="../../assets/css/fonts.css" />
+
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <link rel="apple-touch-icon" href="../../assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#070e1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BKFC">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Transparent explainer of the PropsBot BKFC prediction model — factor weights, point-in-time backtest methodology, reliability diagram, Brier score, and how Advantage Score + Predictability are computed." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bkfc.propsbot.ai/guide/methodology/" />
+  <meta name="author" content="PropsBot AI" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://bkfc.propsbot.ai/guide/methodology/" />
+  <meta property="og:title" content="How the PropsBot Model Works" />
+  <meta property="og:description" content="Transparent explainer of the PropsBot BKFC prediction model — factor weights, point-in-time backtest methodology, reliability diagram, Brier score, and how Advantage Score + Predictability are computed." />
+  <meta property="og:image" content="https://propsbot.ai/wp-content/uploads/2024/01/propsbot-og.png" />
+  <meta property="og:site_name" content="PropsBot BKFC" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@PropsBot_AI" />
+  <meta name="twitter:title" content="How the PropsBot Model Works" />
+  <meta name="twitter:description" content="Transparent explainer of the PropsBot BKFC prediction model — factor weights, point-in-time backtest methodology, reliability diagram, Brier score, and how Advantage Score + Predictability are computed." />
+  <meta name="twitter:image" content="https://propsbot.ai/wp-content/uploads/2024/01/propsbot-og.png" />
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://bkfc.propsbot.ai/guide/methodology/#article","headline":"How the PropsBot Model Works","description":"Transparent explainer of the PropsBot BKFC prediction model — factor weights, point-in-time backtest methodology, reliability diagram, Brier score, and how Advantage Score + Predictability are computed.","datePublished":"2026-05-03","dateModified":"2026-05-03","url":"https://bkfc.propsbot.ai/guide/methodology/","mainEntityOfPage":"https://bkfc.propsbot.ai/guide/methodology/","author":{"@id":"https://bkfc.propsbot.ai/about/#author"},"publisher":{"@id":"https://bkfc.propsbot.ai/#publisher"},"isAccessibleForFree":true},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How accurate is the PropsBot BKFC model?","acceptedAnswer":{"@type":"Answer","text":"59.8% on 127 point-in-time backtested picks out of 325 total historical bouts. The model skips toss-up bouts (45-55% range) and only commits to picks where it has meaningful signal. Brier score 0.2473 (baseline 0.25). Edge over coin-flip: +9.8 percentage points."}},{"@type":"Question","name":"What's the difference between Advantage Score and Predictability?","acceptedAnswer":{"@type":"Answer","text":"Advantage Score is the model's probability × 100 for each fighter (the two scores sum to 100). Predictability is how much you should trust that specific pick — a 67/33 prediction with Predictability 80 is far more bettable than the same prediction with Predictability 30."}},{"@type":"Question","name":"Is PropsBot's model machine-learned?","acceptedAnswer":{"@type":"Answer","text":"No. It's a transparent factor-based scoring system with hand-set weights that get recalibrated against new historical data. We built a pure-JS logistic regression trainer for comparison; on our 325 training bouts it scored 52.9% cross-validation accuracy, below our 59.8% heuristic baseline. LR didn't beat the heuristic so we didn't deploy it. We'll revisit when we have 1000+ training bouts."}}]}]}</script>
+
+  
+  <link rel="stylesheet" href="../../assets/css/tailwind.css" />
+  <link rel="stylesheet" href="../../assets/css/site.css" />
+</head>
+<body class="h-full text-slate-100 min-h-screen">
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <nav class="glass sticky top-0 z-40 border-b border-white/5" aria-label="Primary">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between gap-2 sm:gap-3">
+      <!-- Brand mark: stylized knuckle glyph in brand gradient + wordmark.
+           Tap target is the full anchor including hidden text. -->
+      <a href="../../" class="brand-mark flex items-center gap-2.5 flex-shrink-0 min-w-0 py-1 -my-1" style="min-height:44px" aria-label="PropsBot Bare Knuckle — home">
+        <svg class="brand-glyph" width="34" height="34" viewBox="0 0 40 40" aria-hidden="true">
+          <defs>
+            <linearGradient id="bm-grad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#ff1552"/>
+              <stop offset="100%" stop-color="#f0c040"/>
+            </linearGradient>
+          </defs>
+          <rect x="1" y="1" width="38" height="38" rx="9" fill="url(#bm-grad)"/>
+          <!-- Bare-knuckle fist silhouette -->
+          <g fill="#070e1a">
+            <path d="M12 14.5c0-1.1.9-2 2-2s2 .9 2 2v5h1v-6.5c0-1.1.9-2 2-2s2 .9 2 2V19h1v-5.8c0-1.1.9-2 2-2s2 .9 2 2V19h1v-4.5c0-1.1.9-2 2-2s2 .9 2 2V22c0 5.5-4.5 10-10 10h-1c-5 0-9-4-9-9v-3.5l-2-1.5c-.9-.7-1-2-.3-2.9.7-.9 2-1 2.9-.3L12 16.3z"/>
+          </g>
+        </svg>
+        <div class="hidden sm:block min-w-0">
+          <div class="text-sm font-black tracking-tight leading-tight truncate" style="letter-spacing:-0.01em">PropsBot <span class="brand-gradient">BKFC</span></div>
+          <div class="text-[9px] text-white/40 mono uppercase tracking-[0.18em]">Bare Knuckle Intelligence</div>
+        </div>
+      </a>
+
+      <!-- League tabs — ALWAYS visible, even on mobile. 44px tall (iOS HIG min). -->
+      <div class="inline-flex items-center rounded-lg border border-white/10 overflow-hidden text-[11px] sm:text-xs font-bold mono uppercase tracking-wider flex-shrink-0" style="min-height:44px">
+        <a href="../../" class="px-3 sm:px-3.5 text-pb-teal bg-pb-teal/10 border-r border-white/10 hover:bg-pb-teal/20 transition inline-flex items-center" style="min-height:44px">BKFC</a>
+        <a href="../../bkb/" class="px-3 sm:px-3.5 text-pb-purple bg-pb-purple/5 hover:bg-pb-purple/15 transition inline-flex items-center" style="min-height:44px">BKB</a>
+      </div>
+
+      <div class="flex items-center gap-1.5 sm:gap-3 md:gap-4 text-xs flex-shrink-0">
+        <!-- Picks + Research shown on tablet/desktop. Mobile uses bottom tab bar. -->
+        <a href="../../picks/" class="hidden sm:inline-flex items-center gap-1.5 px-3 rounded-md bg-pb-teal/10 border border-pb-teal/30 text-pb-teal hover:bg-pb-teal/20 hover:text-white transition font-bold mono uppercase tracking-wider text-xs" style="min-height:44px" aria-label="All edge picks">
+          <span aria-hidden="true">★</span> Picks
+        </a>
+        <a href="../../card/" class="hidden sm:inline-flex items-center gap-1.5 px-3 rounded-md bg-pb-red/10 border border-pb-red/30 text-pb-red hover:bg-pb-red/20 hover:text-white transition font-bold mono uppercase tracking-wider text-xs" style="min-height:44px" aria-label="Current event research">
+          <span class="w-1.5 h-1.5 rounded-full bg-pb-red animate-pulse" aria-hidden="true"></span> Research
+        </a>
+        <a href="../../events/" class="hidden lg:inline text-white/60 hover:text-pb-teal transition">Events</a>
+        <a href="../../fighters/" class="hidden lg:inline text-white/60 hover:text-pb-teal transition">Fighters</a>
+        <a href="../../divisions/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Divisions</a>
+        <a href="../../compare/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Compare</a>
+        <a href="../../accuracy/" class="hidden lg:inline-flex items-center gap-1 text-pb-teal/80 hover:text-pb-teal transition font-semibold" title="Live model vs market accuracy ledger"><span class="w-1.5 h-1.5 rounded-full bg-pb-teal animate-pulse" aria-hidden="true"></span> Accuracy</a>
+        <a href="../../guide/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Guides</a>
+        <a href="../../faq/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">FAQ</a>
+        <!-- Menu button for mobile -->
+        <button id="mobile-menu-btn" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-md border border-white/10 text-white/60 hover:text-pb-teal hover:border-pb-teal/40 transition" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu" onclick="const m=document.getElementById('mobile-menu'); const o=!m.classList.toggle('hidden'); this.setAttribute('aria-expanded', o?'true':'false')">
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 3h12v2H2V3zm0 4h12v2H2V7zm0 4h12v2H2v-2z"/></svg>
+        </button>
+        <a href="https://propsbot.ai" class="hidden sm:inline text-pb-teal hover:text-white transition font-semibold whitespace-nowrap">PropsBot.AI →</a>
+      </div>
+    </div>
+    <!-- Mobile dropdown menu -->
+    <div id="mobile-menu" class="lg:hidden hidden border-t border-white/10 bg-black/40 backdrop-blur" role="region" aria-label="Mobile menu">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-2 text-sm">
+        <a href="../../picks/" class="text-pb-teal hover:text-white transition py-1 font-semibold">★ All Picks — Edge Board</a>
+        <a href="../../events/" class="text-white/80 hover:text-pb-teal transition py-1">Events</a>
+        <a href="../../fighters/" class="text-white/80 hover:text-pb-teal transition py-1">Fighters</a>
+        <a href="../../divisions/" class="text-white/80 hover:text-pb-teal transition py-1">Divisions</a>
+        <a href="../../champions/" class="text-white/80 hover:text-pb-teal transition py-1">Champions</a>
+        <a href="../../compare/" class="text-white/80 hover:text-pb-teal transition py-1">Compare Fighters</a>
+        <a href="../../accuracy/" class="text-white/80 hover:text-pb-teal transition py-1">Model Accuracy</a>
+        <a href="../../guide/" class="text-white/80 hover:text-pb-teal transition py-1">Guides</a>
+        <a href="../../faq/" class="text-white/80 hover:text-pb-teal transition py-1">FAQ</a>
+        <a href="../../about/" class="text-white/80 hover:text-pb-teal transition py-1">About</a>
+        <a href="../../results/" class="text-white/80 hover:text-pb-teal transition py-1">Results</a>
+        <a href="https://propsbot.ai" class="text-pb-teal hover:text-white transition font-semibold py-1 border-t border-white/10 mt-1 pt-3">PropsBot.AI — Player Props →</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main" tabindex="-1">
+
+
+    <article class="guide-article">
+      <header class="max-w-3xl mx-auto px-4 sm:px-6 pt-10 pb-6">
+        <nav class="text-xs text-white/40 mono mb-4">
+          <a href="../../" class="hover:text-pb-teal transition">Home</a>
+          <span class="mx-2">/</span>
+          <a href="../" class="hover:text-pb-teal transition">Guides</a>
+          <span class="mx-2">/</span>
+          <span class="text-white/60">methodology</span>
+        </nav>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pb-teal/10 border border-pb-teal/30 text-pb-teal text-xs font-semibold mono uppercase tracking-wider mb-4">
+          Guide · 8 min read
+        </div>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-3">How the PropsBot Model Works</h1>
+        <div class="author-byline mono text-xs text-white/50 mb-3">By <a href="../../about/#author" class="text-pb-teal hover:text-white">David</a>, PropsBot.AI · Updated <time datetime="2026-05-03">2026-05-03</time></div>
+        <p class="text-white/70 text-lg leading-relaxed">The 14 factors, their empirical accuracy, and what &quot;Predictability 68&quot; actually means.</p>
+      </header>
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 pb-8 guide-content">
+        
+        <section class="guide-section" id="the-model-in-one-sentence">
+          <h2><a href="#the-model-in-one-sentence" class="guide-anchor" aria-hidden="true">#</a>The model in one sentence</h2>
+          <div class="guide-body"><p><strong>How PropsBot BKFC predicts a fight:</strong></p><ol><li>Score each fighter on 14 factors &mdash; ELO, recent form, KO rate, age, reach, pro boxing background, MMA background, style, activity, cut susceptibility, schedule strength, experience, height, stance.</li><li>Combine via calibrated weighted blend.</li><li>Anchor 55/45 on de-vigged market odds when available.</li><li>Output <strong>Advantage Score</strong> (0&ndash;100, equivalent to <em>Confidence Score</em> on PropsBot.AI) and <strong>Predictability</strong> (0&ndash;100, equivalent to <em>Edge Score</em> on PropsBot.AI).</li></ol><p>It's a <strong>transparent factor-based scoring system</strong> &mdash; not a black-box machine-learned model. The brand-alias parenthetical above is intentional: PropsBot.AI's player-prop product uses <em>Confidence Score</em> + <em>Edge Score</em>, and PropsBot BKFC uses <em>Advantage Score</em> + <em>Predictability</em> for the same two concepts.</p></div>
+        </section>
+
+        <section class="guide-section" id="historical-accuracy-point-in-time-backtest">
+          <h2><a href="#historical-accuracy-point-in-time-backtest" class="guide-anchor" aria-hidden="true">#</a>Historical accuracy (point-in-time backtest)</h2>
+          <div class="guide-body"><p>Over 325 completed bouts from 2023-2025, reconstructing each fighter's state as of the bout date (no post-bout leakage):</p><ul><li><strong>Full-model accuracy: 59.8%</strong> on 127 picks where the model had enough signal to lean. 198 bouts were skipped as toss-ups (45-55% range).</li><li><strong>Brier score: 0.2473</strong> — better than the 0.25 naive-50% baseline.</li><li><strong>Edge vs coin-flip: +9.8 percentage points.</strong></li><li><strong>Baseline comparison:</strong> picking whichever fighter has the better BKFC win rate goes 55-41 (57.3%). We beat that by 2.5pp.</li></ul><p>In combat-sports betting, 58-60% accuracy on model-filtered picks is in the range a competitive professional handicapper operates. We're honest that 40% of our picks lose. Bet accordingly.</p></div>
+        </section>
+
+        <section class="guide-section" id="the-14-factors-and-their-weights">
+          <h2><a href="#the-14-factors-and-their-weights" class="guide-anchor" aria-hidden="true">#</a>The 14 factors and their weights</h2>
+          <div class="guide-body"><p>Weights are hand-set informed priors. Every four weeks we recalibrate against new data; factors with small backtest samples (n &lt; 30) keep their prior weight until enough history accumulates to override.</p><div class="weight-table"><div class="w-label">ELO Rating (opponent-quality adjusted)</div><div class="w-value">16%</div><div class="w-label">Recent Form (last 5, recency-weighted)</div><div class="w-value">13%</div><div class="w-label">BKFC Record (Bayesian-smoothed)</div><div class="w-value">11%</div><div class="w-label">KO Rate</div><div class="w-value">11%</div><div class="w-label">Age (decline past 35)</div><div class="w-value">9%</div><div class="w-label">Pro Boxing Background</div><div class="w-value">9%</div><div class="w-label">Reach</div><div class="w-value">8%</div><div class="w-label">MMA Background</div><div class="w-value">7%</div><div class="w-label">Style Matchup</div><div class="w-value">6%</div><div class="w-label">Activity / ring rust</div><div class="w-value">5%</div><div class="w-label">Cut Susceptibility</div><div class="w-value">5%</div><div class="w-label">Strength of Schedule</div><div class="w-value">4%</div><div class="w-label">BKFC Experience</div><div class="w-value">3%</div><div class="w-label">Height</div><div class="w-value">3%</div><div class="w-label">Stance (southpaw edge)</div><div class="w-value">3%</div><div class="w-label">Home Advantage</div><div class="w-value">2%</div></div></div>
+        </section>
+
+        <section class="guide-section" id="what-advantage-score-means">
+          <h2><a href="#what-advantage-score-means" class="guide-anchor" aria-hidden="true">#</a>What Advantage Score means</h2>
+          <div class="guide-body"><p>Simply the model's probability × 100 for that fighter. An Advantage Score of 67 means the model estimates this fighter wins 67% of the time. The two scores in a bout always sum to 100. Scores above 55 indicate meaningful favorites; 46-54 is a toss-up; below 45 is an underdog.</p></div>
+        </section>
+
+        <section class="guide-section" id="what-predictability-means">
+          <h2><a href="#what-predictability-means" class="guide-anchor" aria-hidden="true">#</a>What Predictability means</h2>
+          <div class="guide-body"><p>A 0-100 trust score for the specific pick. It blends:</p><ul><li><strong>50% data quality</strong> (is there enough history on both fighters to be meaningful?)</li><li><strong>30% signal strength</strong> (how far from 50/50 is the model?)</li><li><strong>20% factor agreement</strong> (are most active factors pointing the same direction?)</li></ul><p>Predictability 75+ = strong pick. 55-75 = solid. 40-55 = marginal. Below 40 is filtered from the /picks/ board because the model doesn't trust itself.</p></div>
+        </section>
+
+        <section class="guide-section" id="market-adjusted-prior">
+          <h2><a href="#market-adjusted-prior" class="guide-anchor" aria-hidden="true">#</a>Market-adjusted prior</h2>
+          <div class="guide-body"><p>When de-vigged moneyline odds exist for a bout, we blend our raw model output 55/45 with the market as a prior. Sharp handicappers anchor to the market and add a data-driven delta — the market has information (injuries, camp news, sharp money) we often lack. Our recommendations are therefore most trustworthy when we agree with the market direction but show a meaningful edge in magnitude.</p></div>
+        </section>
+
+        <section class="guide-section" id="shrinkage-calibration">
+          <h2><a href="#shrinkage-calibration" class="guide-anchor" aria-hidden="true">#</a>Shrinkage calibration</h2>
+          <div class="guide-body"><p>Reliability-diagram analysis showed our model was ~8pp over-confident in the 65-70% bucket — when it said 67%, the fighter actually won 60% of the time. We apply a shrinkage factor that pulls probabilities toward 50%: <code>p' = 0.5 + 0.85 × (p - 0.5)</code>. This makes high-advantage predictions more honest at the cost of never displaying extreme certainty.</p></div>
+        </section>
+
+        <section class="guide-section" id="honest-limitations">
+          <h2><a href="#honest-limitations" class="guide-anchor" aria-hidden="true">#</a>Honest limitations</h2>
+          <div class="guide-body"><p>This is a decision aid, not a crystal ball.</p><ul><li><strong>325 training bouts is small.</strong> Most factors have fewer than 30 testable samples. We use hand-priors for factors with thin data rather than overfitting.</li><li><strong>Intangibles aren't captured:</strong> camp news, weight cut struggles, in-the-ring injuries, referee tendencies, crowd impact beyond home-country effect.</li><li><strong>BKFC has a small sample per fighter.</strong> A fighter's first 2-3 bouts tell us very little. The model honestly labels these as Low or Very Low confidence.</li><li><strong>The market knows things we don't.</strong> When we disagree with the market by &gt;15pts, 60% of the time the market ends up right. Size your bets accordingly.</li></ul></div>
+        </section>
+      </div>
+      <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-8">
+             <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">Frequently Asked</h2>
+             
+        <details class="guide-faq">
+          <summary>How accurate is the PropsBot BKFC model?</summary>
+          <div class="guide-faq-body">59.8% on 127 point-in-time backtested picks out of 325 total historical bouts. The model skips toss-up bouts (45-55% range) and only commits to picks where it has meaningful signal. Brier score 0.2473 (baseline 0.25). Edge over coin-flip: +9.8 percentage points.</div>
+        </details>
+
+        <details class="guide-faq">
+          <summary>What&#39;s the difference between Advantage Score and Predictability?</summary>
+          <div class="guide-faq-body">Advantage Score is the model&#39;s probability × 100 for each fighter (the two scores sum to 100). Predictability is how much you should trust that specific pick — a 67/33 prediction with Predictability 80 is far more bettable than the same prediction with Predictability 30.</div>
+        </details>
+
+        <details class="guide-faq">
+          <summary>Is PropsBot&#39;s model machine-learned?</summary>
+          <div class="guide-faq-body">No. It&#39;s a transparent factor-based scoring system with hand-set weights that get recalibrated against new historical data. We built a pure-JS logistic regression trainer for comparison; on our 325 training bouts it scored 52.9% cross-validation accuracy, below our 59.8% heuristic baseline. LR didn&#39;t beat the heuristic so we didn&#39;t deploy it. We&#39;ll revisit when we have 1000+ training bouts.</div>
+        </details>
+           </section>
+      <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-16">
+        <div class="guide-footer-cta">
+          <div>
+            <div class="text-xs mono text-white/40 uppercase tracking-wider mb-1">Put it into practice</div>
+            <div class="text-white font-bold">See every edge across the current card</div>
+          </div>
+          <a href="../../picks/" class="inline-flex items-center gap-1 px-4 py-2 rounded-lg bg-pb-teal/15 border border-pb-teal/35 text-pb-teal font-semibold text-sm hover:bg-pb-teal/25 hover:text-white transition">Open Picks →</a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="border-t border-white/5 py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <!-- Prominent PropsBot.AI promo banner -->
+      <a href="https://propsbot.ai" class="block mb-6 group glass rounded-2xl p-5 border border-pb-teal/30 hover:border-pb-teal/60 transition">
+        <div class="flex items-center justify-between gap-4 flex-wrap">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-pb-red to-pb-gold flex items-center justify-center font-bold mono text-black text-sm flex-shrink-0">PB</div>
+            <div>
+              <div class="text-white font-bold text-sm sm:text-base">Get player props for NBA, NHL, MLB &amp; NFL</div>
+              <div class="text-white/60 text-xs sm:text-sm mt-0.5">PropsBot.AI — data-driven daily player prop picks. 30% ROI across 50k+ bets.</div>
+            </div>
+          </div>
+          <span class="text-pb-teal text-sm mono font-semibold group-hover:translate-x-1 transition flex-shrink-0">Try PropsBot.AI →</span>
+        </div>
+      </a>
+
+      <!-- Newsletter signup removed pending BKFC-specific Elastic Email list
+           setup. Parent-site cross-promo above handles email intent. -->
+
+<div class="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/70">
+        <div class="text-center sm:text-left">
+          Data from <a href="https://www.bkfc.com" class="footer-link text-white/60 hover:text-pb-teal transition">BKFC.com</a> and <a href="https://en.wikipedia.org" class="footer-link text-white/60 hover:text-pb-teal transition">Wikipedia</a>.
+          Not affiliated with Bare Knuckle Fighting Championship. <a href="../../about/" class="footer-link text-white/60 hover:text-pb-teal transition">About</a>
+        </div>
+        <div class="text-center sm:text-right">
+          Built by <a href="https://propsbot.ai" class="footer-link text-pb-teal hover:text-white transition font-semibold">PropsBot.AI</a> · Free betting intelligence tools
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bottom tab bar (mobile only, below lg) -->
+  <nav class="mobile-tab-bar lg:hidden" aria-label="Mobile navigation">
+    <a href="../../" class="mtb-item" data-tab="home">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 2.5L2 9v9h5v-6h6v6h5V9l-8-6.5z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="../../events/" class="mtb-item" data-tab="events">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M3 5h14v2H3V5zm0 4h14v2H3V9zm0 4h14v2H3v-2z"/></svg>
+      <span>Events</span>
+    </a>
+    <a href="../../picks/" class="mtb-item mtb-primary" data-tab="picks">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.5 7.5H22l-6 4.5 2.3 7-6.3-4.5-6.3 4.5 2.3-7-6-4.5h7.5L12 2z"/></svg>
+      <span>Picks</span>
+    </a>
+    <a href="../../card/" class="mtb-item" data-tab="card">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M4 3h12a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm1 3v2h10V6H5zm0 3v2h10V9H5zm0 3v2h6v-2H5z"/></svg>
+      <span>Research</span>
+    </a>
+    <a href="../../fighters/" class="mtb-item" data-tab="fighters">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 10a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0 1.5c-3.5 0-7 1.75-7 5V18h14v-1.5c0-3.25-3.5-5-7-5z"/></svg>
+      <span>Fighters</span>
+    </a>
+  </nav>
+  <script src="../../assets/js/common.js"></script>
+  
+  <script>
+    // Highlight active mobile tab based on current URL
+    (function () {
+      const path = window.location.pathname;
+      document.querySelectorAll('.mtb-item').forEach((el) => {
+        const href = el.getAttribute('href').replace(/^\.\.\/\.\.\/|^\.\.\/|^\//, '/');
+        if (path === href || (href !== '/' && path.startsWith(href))) el.classList.add('active');
+        if (path === '/' && el.dataset.tab === 'home') el.classList.add('active');
+      });
+    })();
+  </script>
+</body>
+</html>

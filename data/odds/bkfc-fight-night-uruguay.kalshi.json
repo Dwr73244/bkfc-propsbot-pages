@@ -1,0 +1,8 @@
+{
+  "event_slug": "bkfc-fight-night-uruguay",
+  "event_date": "2026-07-25",
+  "source": "kalshi",
+  "source_url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open",
+  "fetched_at": "2026-07-11T00:05:04.108Z",
+  "bouts": []
+}

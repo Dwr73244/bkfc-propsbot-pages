@@ -1,0 +1,44 @@
+{
+  "slug": "steve-pasche",
+  "league": "BKB",
+  "name": "Steve Pasche",
+  "nickname": null,
+  "division": "Welterweight",
+  "bkb_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": 0
+  },
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 72,
+  "reach_in": 72,
+  "stance": null,
+  "dob": "1988-01",
+  "age": 38,
+  "nationality": "France",
+  "hometown": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744598652/o/1744598652336_67bcd7b90992a6718cba2e38_steve_pasche_Website_fighter_avatar_template_compressed.jpg?1744598652",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
+  ],
+  "last_updated": "2026-04-18",
+  "elo": 1480,
+  "elo_peak": 1500
+}

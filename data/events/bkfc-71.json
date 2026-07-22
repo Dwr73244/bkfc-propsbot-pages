@@ -1,0 +1,208 @@
+{
+  "slug": "bkfc-71",
+  "name": "BKFC 71 Dubai Day 1: Trout vs. Trinidad-Snake",
+  "event_number": 71,
+  "event_type": "Numbered",
+  "date": "2025-04-04T20:00:00Z",
+  "venue": "Dubai Tennis Stadium",
+  "city": "Dubai",
+  "state": null,
+  "country": "United Arab Emirates",
+  "country_code": "AE",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "austin-trout",
+      "fighter_b_slug": "carlos-trinidad-snake",
+      "title_fight": true,
+      "title_name": "BKFC Welterweight Championship",
+      "scheduled_rounds": 6,
+      "result": {
+        "winner_slug": "austin-trout",
+        "method": "Decision (split)",
+        "round": 6,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Women's Strawweight",
+      "weight_limit_kg": 52,
+      "fighter_a_slug": "britain-hart",
+      "fighter_b_slug": "tai-emery",
+      "title_fight": true,
+      "title_name": "BKFC Women's Strawweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "britain-hart",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "jonny-tello",
+      "fighter_b_slug": "sabah-homasi",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jonny-tello",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "geronimo-dos-santos",
+      "fighter_b_slug": "aleksei-oleinik",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "geronimo-dos-santos",
+        "method": "KO",
+        "round": 1,
+        "time": "1:49"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "adel-altamimi",
+      "fighter_b_slug": "david-mora",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "adel-altamimi",
+        "method": "KO",
+        "round": 3,
+        "time": "1:28"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "ahmed-khairy",
+      "fighter_b_slug": "leandro-martins",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ahmed-khairy",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:01"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "mladen-iliev",
+      "fighter_b_slug": "aboubkeur-houari",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mladen-iliev",
+        "method": "KO",
+        "round": 2,
+        "time": "0:23"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "mohamed-aly",
+      "fighter_b_slug": "jaskaran-singh",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mohamed-aly",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:59"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "mahmoud-ahmed",
+      "fighter_b_slug": "fuad-tarverdi",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mahmoud-ahmed",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "elnur-suleymanov",
+      "fighter_b_slug": "lucas-sontgen",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "elnur-suleymanov",
+        "method": "KO",
+        "round": 2,
+        "time": "0:14"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "islam-siszbulatow",
+      "fighter_b_slug": "cheng-leang",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "islam-siszbulatow",
+        "method": "KO",
+        "round": 1,
+        "time": "0:40"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "stanoy-tabakov",
+  "name": "Stanoy Tabakov",
+  "nickname": "THE COBRA",
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 2,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 72,
+  "reach_in": 72,
+  "stance": null,
+  "dob": "1981-12",
+  "age": 44,
+  "nationality": "Bulgaria",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755816596/o/DAVID_OSCAR_SMALL_AVATAR_400x400.png?1755816596",
+  "social": {
+    "instagram": "https://www.instagram.com/stanoytabakovmma/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/stanoy-tabakov"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1499,
+  "elo_peak": 1522
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "tony-shields",
+  "name": "Tony Shields",
+  "nickname": "BARE KNUCKLE",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 72,
+  "reach_in": 72,
+  "stance": null,
+  "dob": "1989-01",
+  "age": 37,
+  "nationality": "United Kingdom",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/tonyshields68/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/tony-shields"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1481,
+  "elo_peak": 1500
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "cameron-vancamp",
+  "name": "Cameron VanCamp",
+  "nickname": "JUMPMAN",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 2,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 74,
+  "reach_in": 74,
+  "stance": null,
+  "dob": "1993-04",
+  "age": 33,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/vancamp.cameron/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/cameron-vancamp"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1500,
+  "elo_peak": 1522
+}

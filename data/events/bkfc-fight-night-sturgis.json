@@ -1,0 +1,122 @@
+{
+  "slug": "bkfc-fight-night-sturgis",
+  "name": "bkfc-fight-night-sturgis",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-08-08T00:00:00Z",
+  "venue": "BUFFALO CHIP",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Cruiserweight",
+      "fighter_a_slug": "bryant-acheson",
+      "fighter_b_slug": "mike-jones",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "bear-hill",
+      "fighter_b_slug": "brady-meister",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Women's Bantamweight",
+      "fighter_a_slug": "shyanna-bintliff",
+      "fighter_b_slug": "crystal-pittman",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "zeb-vincent",
+      "fighter_b_slug": "pietie-coxen",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "tyler-randall",
+      "fighter_b_slug": "joshua-oxendine",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "fighter_a_slug": "erick-lozano",
+      "fighter_b_slug": "devon-schwan",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "art-driscoll",
+      "fighter_b_slug": "justin-walters",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "jason-simon",
+      "fighter_b_slug": "jason-sanderson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "traevon-kroger",
+      "fighter_b_slug": "kb-dubeau-staby",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-fight-night-sturgis"
+  ],
+  "last_updated": "2026-07-14",
+  "needs_card_population": false
+}

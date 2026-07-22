@@ -1,0 +1,144 @@
+{
+  "slug": "bkfc-fight-night-uruguay",
+  "name": "bkfc-fight-night-uruguay",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-07-25T00:00:00Z",
+  "venue": "URUGUAY",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "gaston-tonga-reyno",
+      "fighter_b_slug": "josh-krejci",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "guido-ninja-cannetti",
+      "fighter_b_slug": "emiliano-el-toro-nielli",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "javier-torres",
+      "fighter_b_slug": "luis-jimenez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Women's Bantamweight",
+      "fighter_a_slug": "marilyn-contin",
+      "fighter_b_slug": "gisela-luna",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "nicolas-jara",
+      "fighter_b_slug": "ramon-mascarena",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "nicolas-nitro-mujica",
+      "fighter_b_slug": "gonzalo-diaz-arredondo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "franco-perochena",
+      "fighter_b_slug": "harel-nicodella",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Women's Flyweight",
+      "fighter_a_slug": "giuliana-cosnard",
+      "fighter_b_slug": "jacqueline-ayala",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "nicolas-acevedo",
+      "fighter_b_slug": "victor-borda",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "gonzalo-barrera",
+      "fighter_b_slug": "joel-dorado",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 11,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "leandro-torres",
+      "fighter_b_slug": "gonzalo-jara",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-fight-night-uruguay"
+  ],
+  "last_updated": "2026-07-07",
+  "needs_card_population": false
+}

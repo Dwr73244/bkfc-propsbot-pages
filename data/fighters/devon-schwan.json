@@ -1,0 +1,40 @@
+{
+  "slug": "devon-schwan",
+  "name": "Devon Schwan",
+  "full_name": null,
+  "nickname": "DAPPER SCRAPPER",
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 74,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1983-01",
+  "age": 43,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744599573/o/1744599572945_67bcddeb3e982e3e11a869f6_BKFC_-_Small_Website_avatar_Pringle__28July2024_29_compressed.png?1744599573",
+  "social": {
+    "instagram": "https://www.instagram.com/SAVAGEGENTLEMAN_",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-palm-desert",
+    "https://www.bkfc.com/fighters/devon-schwan"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1481,
+  "elo_peak": 1500
+}

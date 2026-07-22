@@ -1,0 +1,43 @@
+{
+  "slug": "rodney-hinton",
+  "name": "Rodney Hinton",
+  "full_name": null,
+  "nickname": "The Animal",
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 71,
+  "reach_in": 77,
+  "stance": null,
+  "dob": "1997-08",
+  "age": 28,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594139/o/RODNEY_HINTON_AVATAR_400x533.png",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/rodney-hinton"
+  ],
+  "last_updated": "2026-04-19",
+  "style_tags": [
+    "pressure",
+    "power"
+  ],
+  "elo": 1522,
+  "elo_peak": 1522
+}

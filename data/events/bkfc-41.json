@@ -1,0 +1,208 @@
+{
+  "slug": "bkfc-41",
+  "name": "BKFC 41 Colorado: Perry vs. Rockhold",
+  "event_number": 41,
+  "event_type": "Numbered",
+  "date": "2023-04-29T20:00:00Z",
+  "venue": "1stBank Center",
+  "city": "Broomfield",
+  "state": "CO",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "luke-rockhold",
+      "fighter_b_slug": "mike-perry",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mike-perry",
+        "method": "TKO (retirement)",
+        "round": 2,
+        "time": "1:15"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 80,
+      "fighter_a_slug": "chad-mendes",
+      "fighter_b_slug": "eddie-alvarez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "eddie-alvarez",
+        "method": "Decision (split)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Women's Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "bec-rawlings",
+      "fighter_b_slug": "christine-ferea",
+      "title_fight": true,
+      "title_name": "BKFC Women's Flyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "christine-ferea",
+        "method": "TKO (doctor stoppage)",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "josh-copeland",
+      "fighter_b_slug": "ben-rothwell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ben-rothwell",
+        "method": "TKO (corner stoppage)",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "daniel-spohn",
+      "fighter_b_slug": "chris-camozzi",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "chris-camozzi",
+        "method": "KO",
+        "round": 1,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 80,
+      "fighter_a_slug": "christian-torres",
+      "fighter_b_slug": "brandon-girtz",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-girtz",
+        "method": "KO",
+        "round": 1,
+        "time": "1:10"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "mike-alvarado",
+      "fighter_b_slug": "james-brown",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "james-brown",
+        "method": "KO",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Women's Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "gabrielle-roman",
+      "fighter_b_slug": "khortni-kamyron",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "Draw (majority)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "jay-jackson",
+      "fighter_b_slug": "marcus-edwards",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "marcus-edwards",
+        "method": "KO",
+        "round": 1,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "matt-maestas",
+      "fighter_b_slug": "dillon-winemiller",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dillon-winemiller",
+        "method": "KO",
+        "round": 1,
+        "time": "0:07"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "jack-willoughby",
+      "fighter_b_slug": "mitch-seybold",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mitch-seybold",
+        "method": "KO",
+        "round": 1,
+        "time": "1:23"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

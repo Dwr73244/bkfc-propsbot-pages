@@ -1,0 +1,40 @@
+{
+  "slug": "bobby-brents",
+  "name": "Bobby Brents",
+  "nickname": "ZOMBIE",
+  "division": "Heavyweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 4,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 74,
+  "stance": null,
+  "dob": "1982-05",
+  "age": 43,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1746043444/o/BOBBY_BRENTS_AVATAR_400x533.png?1746043444",
+  "social": {
+    "instagram": "https://www.instagram.com/bobzombie265/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/bobby.brents.5"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/bobby-brents"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1457,
+  "elo_peak": 1500
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "bkfc-95-newark",
+  "name": "bkfc-95-newark",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-10-17T00:00:00Z",
+  "venue": "THE PRUDENTIAL CENTER",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-95-newark"
+  ],
+  "last_updated": "2026-07-06",
+  "needs_card_population": true
+}

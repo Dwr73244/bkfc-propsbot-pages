@@ -1,0 +1,182 @@
+{
+  "event_slug": "bkfc-fight-night-hollywood",
+  "generated_at": "2026-06-05T22:03:54.340Z",
+  "model_version": "0.1.0",
+  "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "julian-lane",
+      "fighter_b_slug": "bryce-henry",
+      "prediction": {
+        "prob_a": 0.2615,
+        "prob_b": 0.7385,
+        "raw_score": -0.3229,
+        "favorite_slug": "bryce-henry",
+        "confidence": "Low",
+        "advantage_a": 26,
+        "advantage_b": 74,
+        "predictability": 51,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1521,
+            "value_b": 1585,
+            "edge_slug": "bryce-henry",
+            "edge_strength": 0.32,
+            "weight": 0.16,
+            "display": "-64 ELO Henry"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "L-W-W",
+            "value_b": "W-W-W-W",
+            "edge_slug": "bryce-henry",
+            "edge_strength": 0.7,
+            "weight": 0.13,
+            "display": "Henry hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "9-9",
+            "value_b": "6-0",
+            "edge_slug": "bryce-henry",
+            "edge_strength": 0.938,
+            "weight": 0.11,
+            "display": "50% vs 88% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "22%",
+            "value_b": "50%",
+            "edge_slug": "bryce-henry",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "-28 pt KO-rate gap"
+          },
+          {
+            "name": "Reach",
+            "value_a": "70\"",
+            "value_b": "80\"",
+            "edge_slug": "bryce-henry",
+            "edge_strength": 1,
+            "weight": 0.08,
+            "display": "-10\" Henry"
+          },
+          {
+            "name": "Style",
+            "value_a": "pressure / volume",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.06,
+            "display": "No exploitable style mismatch"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1d ago",
+            "value_b": "1d ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "70%",
+            "value_b": "67%",
+            "edge_slug": null,
+            "edge_strength": 0.055,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "18 fights",
+            "value_b": "6 fights",
+            "edge_slug": "julian-lane",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+12 fights Lane"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'9\"",
+            "value_b": "6'3\"",
+            "edge_slug": "bryce-henry",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "-6\" Henry"
+          },
+          {
+            "name": "Home",
+            "value_a": "United States",
+            "value_b": "United States",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Henry 74/26. Edges on elo rating, recent form, bkfc record, ko rate.",
+        "market_adjusted": true
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 299,
+              "implied_prob": 0.251
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -299,
+              "implied_prob": 0.749
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -117,
+              "implied_prob": 0.539
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 377,
+              "implied_prob": 0.21
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 299,
+              "implied_prob": 0.251
+            }
+          ]
+        }
+      ],
+      "edge": {
+        "model_prob_a": 0.2615449791741473,
+        "model_prob_b": 0.7384550208258527,
+        "market_fair_prob_a": 0.21254681647940074,
+        "market_fair_prob_b": 0.7874531835205992,
+        "edge_pct_a": 0.04899816269474658,
+        "edge_pct_b": -0.04899816269474655,
+        "edge_slug": "julian-lane",
+        "edge_pct": 0.04899816269474658
+      }
+    }
+  ]
+}

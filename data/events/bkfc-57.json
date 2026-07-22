@@ -1,0 +1,208 @@
+{
+  "slug": "bkfc-57",
+  "name": "BKFC 57: Palomino vs. Trout",
+  "event_number": 57,
+  "event_type": "Numbered",
+  "date": "2024-02-02T20:00:00Z",
+  "venue": "Seminole Hard Rock Hotel & Casino Hollywood",
+  "city": "Hollywood",
+  "state": "FL",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "austin-trout",
+      "fighter_b_slug": "luis-palomino",
+      "title_fight": true,
+      "title_name": "BKFC Welterweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "austin-trout",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "bryce-henry",
+      "fighter_b_slug": "robbie-peralta",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bryce-henry",
+        "method": "TKO",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "bryan-duran",
+      "fighter_b_slug": "louie-lopez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bryan-duran",
+        "method": "KO",
+        "round": 4,
+        "time": "0:48"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "john-michael-escoboza",
+      "fighter_b_slug": "isaac-doolittle",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "john-michael-escoboza",
+        "method": "KO",
+        "round": 3,
+        "time": "1:58"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "alberto-blas",
+      "fighter_b_slug": "frank-alvarez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "alberto-blas",
+        "method": "KO",
+        "round": 1,
+        "time": "1:00"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "leonardo-perdomo",
+      "fighter_b_slug": "bobby-brents",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "leonardo-perdomo",
+        "method": "KO",
+        "round": 1,
+        "time": "0:33"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "justin-ibarrola",
+      "fighter_b_slug": "landon-williams",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "justin-ibarrola",
+        "method": "KO",
+        "round": 1,
+        "time": "0:15"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "edgard-plazaola",
+      "fighter_b_slug": "darrick-gates",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "edgard-plazaola",
+        "method": "KO",
+        "round": 1,
+        "time": "1:59"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "chris-garcia",
+      "fighter_b_slug": "albert-inclan",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "chris-garcia",
+        "method": "Decision (majority)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "ryan-reber",
+      "fighter_b_slug": "derek-perez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ryan-reber",
+        "method": "TKO",
+        "round": 4,
+        "time": "1:14"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "leo-bercier",
+      "fighter_b_slug": "stephen-townsel",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "leo-bercier",
+        "method": "KO",
+        "round": 4,
+        "time": "2:10"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

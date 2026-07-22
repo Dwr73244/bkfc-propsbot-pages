@@ -1,0 +1,40 @@
+{
+  "slug": "mark-flanagan",
+  "name": "Mark Flanagan",
+  "full_name": "Mark Manning Flanagan",
+  "nickname": "Bam Bam",
+  "division": "Heavyweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 73,
+  "reach_in": 75,
+  "stance": "Orthodox",
+  "dob": "1990-05-30",
+  "age": 35,
+  "nationality": "Australia",
+  "hometown": "Townsville, Queensland",
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1775228842/o/MARK_FLANAGAN_AVATAR_400x533.png?1775228842",
+  "social": {
+    "instagram": "https://www.instagram.com/markbambamflanagan/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "Australian professional cruiserweight boxer from Townsville with a 26-9 record and 19 KOs. Won the Australian cruiserweight title on points and successfully defended it before challenging Denis Lebedev for the WBA Super cruiserweight championship in 2017, losing by unanimous decision. Transitioned to BKFC for his bare-knuckle debut in 2026.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/mark-flanagan",
+    "https://en.wikipedia.org/wiki/Mark_Flanagan_(boxer)"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1478,
+  "elo_peak": 1500
+}

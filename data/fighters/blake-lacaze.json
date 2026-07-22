@@ -1,0 +1,39 @@
+{
+  "slug": "blake-lacaze",
+  "name": "Blake LaCaze",
+  "nickname": "Big Boy",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 5,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 77,
+  "reach_in": 80,
+  "stance": null,
+  "dob": "1995-07-01",
+  "age": 30,
+  "nationality": "United States",
+  "hometown": "West Monroe, Louisiana",
+  "fighting_out_of": "West Monroe, Louisiana",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1747698246/o/BLAKE_LACAZE_400x533.png?1747698246",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/blake-lacaze"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1500,
+  "elo_peak": 1522
+}

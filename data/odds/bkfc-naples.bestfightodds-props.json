@@ -1,0 +1,73 @@
+{
+  "event_slug": "bkfc-naples",
+  "event_date": "2026-07-18",
+  "source": "bestfightodds-props",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4271",
+  "fetched_at": "2026-07-18T23:30:28.309Z",
+  "total_prop_rows": 0,
+  "bouts": [
+    {
+      "fighter_a_slug": "lorenzo-hunt",
+      "fighter_b_slug": "walter-pugliesi",
+      "matchup_id": "44116",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "ernesto-papa",
+      "fighter_b_slug": "jindrich-byrtus",
+      "matchup_id": "44111",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "tomas-melis",
+      "fighter_b_slug": "toni-estorer",
+      "matchup_id": "44113",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "enzo-tobbia",
+      "fighter_b_slug": "danny-christie",
+      "matchup_id": "44117",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "jimmy-sweeney",
+      "fighter_b_slug": "nicholas-vescio",
+      "matchup_id": "44114",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "dominik-herold",
+      "fighter_b_slug": "arbi-chakaev",
+      "matchup_id": "44119",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "gianni-melillo",
+      "fighter_b_slug": "dawid-chylinski",
+      "matchup_id": "44112",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "marco-giustarini",
+      "fighter_b_slug": "dan-chapman",
+      "matchup_id": "44115",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "andrea-bicchi",
+      "fighter_b_slug": "leonardo-damiani",
+      "matchup_id": "44118",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
+}

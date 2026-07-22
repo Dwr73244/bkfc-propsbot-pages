@@ -1,0 +1,39 @@
+{
+  "slug": "dimitri-angelini",
+  "name": "Dimitri Angelini",
+  "nickname": "THE MODERN GLADIATOR",
+  "division": "Catchweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 4,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": null,
+  "age": null,
+  "nationality": "Italy",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/dimitri_angelini_bkfc/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/dimitri-angelini"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1478,
+  "elo_peak": 1500
+}

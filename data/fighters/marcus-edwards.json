@@ -1,0 +1,39 @@
+{
+  "slug": "marcus-edwards",
+  "name": "Marcus Edwards",
+  "nickname": "BAD INTENTIONS",
+  "division": "Light Heavyweight",
+  "bkfc_record": {
+    "wins": 4,
+    "losses": 0,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 76,
+  "stance": null,
+  "dob": "1989-04",
+  "age": 37,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744597618/o/1744597618175_67cf5f3c1b239eb15179a342_MARCUS_EDWARDS_AVATAR_400x533_compressed.png?1744597618",
+  "social": {
+    "instagram": "https://www.instagram.com/marcus_mma/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/marcus.b.edwards.7"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/marcus-edwards"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1523,
+  "elo_peak": 1523
+}

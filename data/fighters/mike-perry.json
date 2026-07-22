@@ -1,0 +1,87 @@
+{
+  "slug": "mike-perry",
+  "name": "Mike Perry",
+  "nickname": "Platinum",
+  "division": "Light Heavyweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "kos": 2
+  },
+  "mma_record": "14-8",
+  "height_in": 70,
+  "reach_in": 71,
+  "stance": "Orthodox",
+  "dob": "1991-09-15",
+  "age": 34,
+  "nationality": "United States",
+  "hometown": "Flint, Michigan",
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/mike-perry",
+    "https://en.wikipedia.org/wiki/Mike_Perry_(fighter)",
+    "https://boxrec.com/en/box-pro/863648"
+  ],
+  "last_updated": "2026-04-19",
+  "style_tags": [
+    "pressure",
+    "power",
+    "ko-hunter"
+  ],
+  "full_name": "Michael Joseph Perry",
+  "elo": 1543,
+  "elo_peak": 1543,
+  "boxing_record": "0-2",
+  "pro_debut_year": 2015,
+  "pro_boxing_record": {
+    "wins": 0,
+    "losses": 2,
+    "draws": 0,
+    "kos": 0,
+    "last_updated": "2026-04-19"
+  },
+  "boxrec_id": 863648,
+  "boxrec_url": "https://boxrec.com/en/box-pro/863648",
+  "pro_boxing_history": [
+    {
+      "num": 2,
+      "result": "L",
+      "record_after": "0-2",
+      "opponent": "Jake Paul",
+      "opponent_slug": "jake-paul",
+      "method": "TKO",
+      "round": 6,
+      "time": "1:12",
+      "date": "2024-07-20",
+      "location": "Amalie Arena, Tampa, Florida, U.S.",
+      "notes": null
+    },
+    {
+      "num": 1,
+      "result": "L",
+      "record_after": "0-1",
+      "opponent": "Kenneth McNeil",
+      "opponent_slug": "kenneth-mcneil",
+      "method": "KO",
+      "round": 4,
+      "time": "0:52",
+      "date": "2015-03-28",
+      "location": "Pensacola Bay Center, Pensacola, Florida, U.S.",
+      "notes": null
+    }
+  ]
+}

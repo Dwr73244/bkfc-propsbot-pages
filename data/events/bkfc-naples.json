@@ -1,0 +1,226 @@
+{
+  "slug": "bkfc-naples",
+  "name": "bkfc-naples",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-07-18T00:00:00Z",
+  "venue": "Arena Flegrea",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Ironweight",
+      "fighter_a_slug": "lorenzo-hunt",
+      "fighter_b_slug": "walter-pugliesi",
+      "title_fight": true,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lorenzo-hunt",
+        "method": "KO",
+        "round": 4,
+        "time": "1:09"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "fighter_a_slug": "ernesto-papa",
+      "fighter_b_slug": "jindrich-byrtus",
+      "title_fight": true,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jindrich-byrtus",
+        "method": "TKO",
+        "round": 1,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "tomas-melis",
+      "fighter_b_slug": "toni-estorer",
+      "title_fight": true,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tomas-melis",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:25"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "enzo-tobbia",
+      "fighter_b_slug": "danny-christie",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "jimmy-sweeney",
+      "fighter_b_slug": "nicholas-vescio",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jimmy-sweeney",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:22"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "fighter_a_slug": "dominik-herold",
+      "fighter_b_slug": "arbi-chakaev",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "arbi-chakaev",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:44"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "gianni-melillo",
+      "fighter_b_slug": "dawid-chylinski",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "gianni-melillo",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:47"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "marco-giustarini",
+      "fighter_b_slug": "dan-chapman",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dan-chapman",
+        "method": "KO",
+        "round": 2,
+        "time": "0:08"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "andrea-bicchi",
+      "fighter_b_slug": "leonardo-damiani",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "leonardo-damiani",
+        "method": "TKO",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "cristian-sabbatini",
+      "fighter_b_slug": "charli-marta",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "cristian-sabbatini",
+        "method": "Unanimous Decision",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "pawel-werszynin",
+      "fighter_b_slug": "ramy-elsayes",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "pawel-werszynin",
+        "method": "KO",
+        "round": 1,
+        "time": "1:04"
+      }
+    },
+    {
+      "order": 12,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "marco-saccaro",
+      "fighter_b_slug": "cristian-brinzan",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "cristian-brinzan",
+        "method": "KO",
+        "round": 1,
+        "time": "1:12"
+      }
+    },
+    {
+      "order": 13,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "antonio-moscatiello",
+      "fighter_b_slug": "guglielmo-gicco",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "guglielmo-gicco",
+        "method": "Unanimous Decision",
+        "round": 3,
+        "time": "2:00"
+      }
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-naples"
+  ],
+  "last_updated": "2026-07-19",
+  "needs_card_population": false
+}

@@ -1,0 +1,59 @@
+{
+  "event_slug": "bkfc-88-denver",
+  "event_date": "2026-04-17",
+  "source": "unibet",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4156",
+  "fetched_at": "2026-04-18T19:12:23.251Z",
+  "bouts": [
+    {
+      "fighter_a_slug": "chris-camozzi",
+      "fighter_b_slug": "esteban-rodriguez",
+      "moneyline_a": -148,
+      "moneyline_b": 106,
+      "implied_prob_a": 0.597,
+      "implied_prob_b": 0.485,
+      "vig": 0.082,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "ramiro-figueroa",
+      "fighter_b_slug": "elvin-brito",
+      "moneyline_a": -265,
+      "moneyline_b": 180,
+      "implied_prob_a": 0.726,
+      "implied_prob_b": 0.357,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "josh-copeland",
+      "fighter_b_slug": "corey-willis",
+      "moneyline_a": -195,
+      "moneyline_b": 138,
+      "implied_prob_a": 0.661,
+      "implied_prob_b": 0.42,
+      "vig": 0.081,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "josh-fremd",
+      "fighter_b_slug": "jared-torgenson",
+      "moneyline_a": -1115,
+      "moneyline_b": 600,
+      "implied_prob_a": 0.918,
+      "implied_prob_b": 0.143,
+      "vig": 0.061,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "andrew-yates",
+      "fighter_b_slug": "rodney-hinton",
+      "moneyline_a": 155,
+      "moneyline_b": -225,
+      "implied_prob_a": 0.392,
+      "implied_prob_b": 0.692,
+      "vig": 0.084,
+      "book_count": 1
+    }
+  ]
+}

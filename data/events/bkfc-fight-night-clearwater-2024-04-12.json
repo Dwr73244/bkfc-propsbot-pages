@@ -1,0 +1,174 @@
+{
+  "slug": "bkfc-fight-night-clearwater-2024-04-12",
+  "name": "BKFC Fight Night Clearwater: Richman vs. Lozano",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2024-04-12T20:00:00Z",
+  "venue": "Bert's Barracuda Harley-Davidson",
+  "city": "Clearwater",
+  "state": "FL",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "mike-richman",
+      "fighter_b_slug": "erick-lozano",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mike-richman",
+        "method": "TKO",
+        "round": 5,
+        "time": "0:53"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "elvin-brito",
+      "fighter_b_slug": "jafar-fortt",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "elvin-brito",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:40"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "tyler-randall",
+      "fighter_b_slug": "jr-ridge",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tyler-randall",
+        "method": "Decision (split)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "abdiel-velazquez",
+      "fighter_b_slug": "travis-thompson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "abdiel-velazquez",
+        "method": "KO",
+        "round": 1,
+        "time": "1:03"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "jay-jackson",
+      "fighter_b_slug": "idris-wasi",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jay-jackson",
+        "method": "TKO (referee stoppage)",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Women's Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "jessica-borga",
+      "fighter_b_slug": "katharina-lehner",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jessica-borga",
+        "method": "KO",
+        "round": 1,
+        "time": "0:41"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "mike-heckert",
+      "fighter_b_slug": "leonel-carrerra",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mike-heckert",
+        "method": "TKO (referee stoppage)",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "angel-hernandez",
+      "fighter_b_slug": "rayne-wells",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "angel-hernandez",
+        "method": "KO",
+        "round": 1,
+        "time": "0:08"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "quentin-gaskins",
+      "fighter_b_slug": "zachary-pannell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "quentin-gaskins",
+        "method": "TKO",
+        "round": 1,
+        "time": "2:00"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

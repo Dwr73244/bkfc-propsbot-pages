@@ -1,0 +1,41 @@
+{
+  "slug": "eric-dodson",
+  "name": "Eric Dodson",
+  "nickname": "Thuggy Bear",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 4,
+    "losses": 2,
+    "draws": 0,
+    "kos": 3
+  },
+  "mma_record": null,
+  "height_in": 66,
+  "reach_in": 67,
+  "stance": null,
+  "dob": "1986-05-01",
+  "age": 39,
+  "nationality": "United States",
+  "hometown": "Albuquerque",
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1746031026/o/DODSON_AVATAR_400x533.png?1746031026",
+  "social": {
+    "instagram": "https://www.instagram.com/x.thuggybear.x/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/eric-dodson"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1561,
+  "elo_peak": 1561
+}

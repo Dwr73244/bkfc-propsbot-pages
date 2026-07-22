@@ -1,0 +1,39 @@
+{
+  "slug": "ryan-mccarthy",
+  "name": "Ryan McCarthy",
+  "nickname": "IRON",
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 74,
+  "stance": null,
+  "dob": "1988-10",
+  "age": 37,
+  "nationality": "United Kingdom",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/Rymac088",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/ryan-mccarthy"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1481,
+  "elo_peak": 1500
+}

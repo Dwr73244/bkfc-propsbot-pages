@@ -1,0 +1,174 @@
+{
+  "slug": "bkfc-42",
+  "name": "BKFC 42 Greenville: Soto vs. Goodjohn",
+  "event_number": 42,
+  "event_type": "Numbered",
+  "date": "2023-05-12T20:00:00Z",
+  "venue": "Bon Secours Wellness Arena",
+  "city": "Greenville",
+  "state": "SC",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "tyler-goodjohn",
+      "fighter_b_slug": "tony-soto",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tony-soto",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "blake-lacaze",
+      "fighter_b_slug": "doug-coltrane",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "doug-coltrane",
+        "method": "KO",
+        "round": 2,
+        "time": "0:34"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "cody-jenkins",
+      "fighter_b_slug": "keith-richardson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "keith-richardson",
+        "method": "KO",
+        "round": 1,
+        "time": "1:41"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Women's Strawweight",
+      "weight_limit_kg": 52,
+      "fighter_a_slug": "andy-nguyen",
+      "fighter_b_slug": "sydney-smith",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "sydney-smith",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "trevor-loken",
+      "fighter_b_slug": "brandon-allen",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-allen",
+        "method": "KO",
+        "round": 1,
+        "time": "1:29"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "wade-johnson",
+      "fighter_b_slug": "dustin-pague",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dustin-pague",
+        "method": "TKO",
+        "round": 2,
+        "time": "1:38"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "lj-hermreck",
+      "fighter_b_slug": "trukon-carson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "trukon-carson",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:16"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "dustin-long",
+      "fighter_b_slug": "jonathan-miller",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jonathan-miller",
+        "method": "TKO",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "glendel-futrell",
+      "fighter_b_slug": "samuel-samples",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "samuel-samples",
+        "method": "TKO (corner stoppage)",
+        "round": 2,
+        "time": "2:00"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

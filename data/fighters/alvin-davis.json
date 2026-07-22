@@ -1,0 +1,39 @@
+{
+  "slug": "alvin-davis",
+  "name": "Alvin Davis",
+  "nickname": null,
+  "division": "Light Heavyweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 71,
+  "reach_in": 72,
+  "stance": null,
+  "dob": "1986-03",
+  "age": 40,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744597440/o/1744597439909_67bcdf3c3ccada6a40ba563a_BKFC_-_Website_avatar_Alvin_Davis__28Feb2024_29_compressed.png?1744597440",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/alvin-davis"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1478,
+  "elo_peak": 1500
+}

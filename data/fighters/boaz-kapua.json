@@ -1,0 +1,39 @@
+{
+  "slug": "boaz-kapua",
+  "name": "Boaz Kapua",
+  "full_name": null,
+  "nickname": "Al-Ahad",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 72,
+  "reach_in": 73,
+  "stance": null,
+  "dob": "2005-03",
+  "age": null,
+  "nationality": "Australia",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1776111608/o/BOAZ_KAPUA_AVATAR_400x533.png?1776111608",
+  "social": {
+    "instagram": "https://www.instagram.com/theonlyboaz/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/boaz-kapua"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1522,
+  "elo_peak": 1522
+}

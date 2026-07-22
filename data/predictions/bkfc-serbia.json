@@ -1,0 +1,137 @@
+{
+  "event_slug": "bkfc-serbia",
+  "generated_at": "2026-07-21T23:34:45.869Z",
+  "model_version": "0.1.0",
+  "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "agi-faulkner",
+      "fighter_b_slug": "dilan-prasovic",
+      "prediction": {
+        "prob_a": 0.2478,
+        "prob_b": 0.7522,
+        "raw_score": -0.4271,
+        "favorite_slug": "dilan-prasovic",
+        "confidence": "Very Low",
+        "advantage_a": 25,
+        "advantage_b": 75,
+        "predictability": 39,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "W",
+            "edge_slug": "dilan-prasovic",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Prasovic hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "2-0",
+            "edge_slug": "dilan-prasovic",
+            "edge_strength": 0.625,
+            "weight": 0.11,
+            "display": "50% vs 75% win rate"
+          },
+          {
+            "name": "Age",
+            "value_a": 37,
+            "value_b": 30,
+            "edge_slug": "dilan-prasovic",
+            "edge_strength": 0.6,
+            "weight": 0.09,
+            "display": "37 vs 30"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "3mo ago",
+            "edge_slug": "dilan-prasovic",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Prasovic more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "0%",
+            "edge_slug": "agi-faulkner",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Faulkner tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "2 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'11\"",
+            "value_b": "6'3\"",
+            "edge_slug": "dilan-prasovic",
+            "edge_strength": 0.8,
+            "weight": 0.03,
+            "display": "-4\" Prasovic"
+          }
+        ],
+        "summary": "Model leans Prasovic 75/25. Edges on recent form, bkfc record, age, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -567,
+              "implied_prob": 0.85
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -158,
+              "implied_prob": 0.612
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 320,
+              "implied_prob": 0.238
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "crystal-pittman",
+  "name": "Crystal Pittman",
+  "nickname": "THE RUGGED BEAUTY",
+  "division": "Women's Bantamweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 4,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 66,
+  "stance": null,
+  "dob": "1986-08",
+  "age": 39,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594853/o/1744594853040_67d35943272b6a0321b485e1_PITTMAN_AVATAR_400x533_compressed.png?1744594853",
+  "social": {
+    "instagram": "https://www.instagram.com/the_rugged_beauty/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/crystal-pittman"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1523,
+  "elo_peak": 1523
+}

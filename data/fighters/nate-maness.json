@@ -1,0 +1,39 @@
+{
+  "slug": "nate-maness",
+  "name": "Nate Maness",
+  "full_name": null,
+  "nickname": "MAYHEM",
+  "division": "Bantamweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": "16-3",
+  "height_in": 70,
+  "reach_in": 72,
+  "stance": null,
+  "dob": "1991-06-27",
+  "age": 34,
+  "nationality": "United States",
+  "hometown": "Henderson, Kentucky",
+  "fighting_out_of": "Kentucky",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/natemayhem1/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "American mixed martial artist who turned pro in 2013 and competed in the UFC from 2020 to 2024, earning three Performance of the Night bonuses across flyweight through featherweight. Compiled a 16-3 MMA record with notable wins over Johnny Munoz and Jimmy Flick. Released by the UFC in June 2024 and signed with BKFC in September 2024, opening his bare-knuckle career 2-0 with a title shot against Jamel Herring scheduled for May 2026.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-palm-desert",
+    "https://www.bkfc.com/fighters/nate-maness",
+    "https://en.wikipedia.org/wiki/Nate_Maness"
+  ],
+  "last_updated": "2026-04-19"
+}

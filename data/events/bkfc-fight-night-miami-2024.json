@@ -1,0 +1,174 @@
+{
+  "slug": "bkfc-fight-night-miami-2024",
+  "name": "BKFC Fight Night Miami: Davis vs. Wilson",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2024-03-15T20:00:00Z",
+  "venue": "Dolphin Mall",
+  "city": "Miami",
+  "state": "FL",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "howard-davis",
+      "fighter_b_slug": "sean-wilson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "howard-davis",
+        "method": "TKO (punches)",
+        "round": 2,
+        "time": "1:34"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Women's Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "rosa-rodriguez",
+      "fighter_b_slug": "monica-franco",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rosa-rodriguez",
+        "method": "TKO (referee stoppage)",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "brandon-meyer",
+      "fighter_b_slug": "famez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-meyer",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "markus-suarez",
+      "fighter_b_slug": "marcus-williamson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "markus-suarez",
+        "method": "KO (punches)",
+        "round": 1,
+        "time": "0:28"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "rohan-prado",
+      "fighter_b_slug": "ray-pell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rohan-prado",
+        "method": "TKO (punches)",
+        "round": 1,
+        "time": "0:30"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "eduardo-concepcion",
+      "fighter_b_slug": "alvin-davis",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "eduardo-concepcion",
+        "method": "KO (punch)",
+        "round": 1,
+        "time": "1:34"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "wayna-reid",
+      "fighter_b_slug": "jim-pulgar",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "wayna-reid",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "dameko-labon",
+      "fighter_b_slug": "jorge-bargallo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dameko-labon",
+        "method": "TKO (punches)",
+        "round": 1,
+        "time": "1:44"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "julio-perez",
+      "fighter_b_slug": "korey-moegenburg",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "julio-perez",
+        "method": "TKO (punches)",
+        "round": 1,
+        "time": "0:30"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

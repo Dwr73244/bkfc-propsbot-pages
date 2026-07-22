@@ -1,0 +1,225 @@
+{
+  "slug": "bkfc-knucklemania-3",
+  "name": "BKFC Knucklemania III",
+  "event_number": null,
+  "event_type": "Special",
+  "date": "2023-02-17T20:00:00Z",
+  "venue": "Tingley Coliseum",
+  "city": "Albuquerque",
+  "state": "NM",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "mike-richman",
+      "fighter_b_slug": "lorenzo-hunt",
+      "title_fight": true,
+      "title_name": "BKFC Light Heavyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lorenzo-hunt",
+        "method": "KO (punch)",
+        "round": 1,
+        "time": "1:50"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "diego-sanchez",
+      "fighter_b_slug": "austin-trout",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "austin-trout",
+        "method": "TKO (doctor stoppage)",
+        "round": 4,
+        "time": "1:44"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "jarod-grant",
+      "fighter_b_slug": "john-dodson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "john-dodson",
+        "method": "KO (punches)",
+        "round": 1,
+        "time": "1:41"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "greg-hardy",
+      "fighter_b_slug": "josh-watson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "josh-watson",
+        "method": "KO (punch)",
+        "round": 2,
+        "time": "0:19"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Women's Strawweight",
+      "weight_limit_kg": 52,
+      "fighter_a_slug": "charisa-sigala",
+      "fighter_b_slug": "jayme-hinshaw",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jayme-hinshaw",
+        "method": "TKO (leg injury)",
+        "round": 1,
+        "time": "0:38"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "noah-cutter",
+      "fighter_b_slug": "will-santiago",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "will-santiago",
+        "method": "TKO (doctor stoppage)",
+        "round": 1,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "daniel-van-sickle",
+      "fighter_b_slug": "gaston-reyno",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "gaston-reyno",
+        "method": "TKO (doctor stoppage)",
+        "round": 1,
+        "time": "1:26"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "christian-torres",
+      "fighter_b_slug": "joshua-moreno",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "joshua-moreno",
+        "method": "TKO (uppercut)",
+        "round": 2,
+        "time": "1:02"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "chevvy-bridges",
+      "fighter_b_slug": "kevin-croom",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kevin-croom",
+        "method": "KO (punches)",
+        "round": 1,
+        "time": "1:11"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "gene-perez",
+      "fighter_b_slug": "eric-dodson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "eric-dodson",
+        "method": "KO",
+        "round": 1,
+        "time": "1:32"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "lardy-navarro",
+      "fighter_b_slug": "nick-gonzalez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "nick-gonzalez",
+        "method": "KO",
+        "round": 1,
+        "time": "0:41"
+      }
+    },
+    {
+      "order": 12,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "anthony-sanchez",
+      "fighter_b_slug": "derek-perez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "derek-perez",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

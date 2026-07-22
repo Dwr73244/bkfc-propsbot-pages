@@ -1,0 +1,52 @@
+{
+  "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
+  "event_date": "2026-04-24",
+  "source": "bestfightodds-props",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4162",
+  "fetched_at": "2026-04-25T23:08:02.718Z",
+  "total_prop_rows": 0,
+  "bouts": [
+    {
+      "fighter_a_slug": "quentin-gaskins",
+      "fighter_b_slug": "matt-guymon",
+      "matchup_id": "43069",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "royal-ryan-reber",
+      "fighter_b_slug": "joshua-oxendine",
+      "matchup_id": "43067",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "crystal-van-wyk",
+      "fighter_b_slug": "kat-paprocki",
+      "matchup_id": "43065",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "mike-heckert",
+      "fighter_b_slug": "justin-walters",
+      "matchup_id": "43068",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "brandon-allen",
+      "fighter_b_slug": "lukas-jones",
+      "matchup_id": "43066",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "frankie-solomon",
+      "fighter_b_slug": "rickie-mcconnico",
+      "matchup_id": "43064",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
+}

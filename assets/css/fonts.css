@@ -1,0 +1,56 @@
+/* Self-hosted fonts — Phase 38b (CLS fix).
+   Served from /assets/fonts/ to eliminate fonts.googleapis.com render-block
+   and the 0.198 CLS spike caused by font-swap reflow on fighter pages.
+
+   Inter 400 uses `font-display: optional` + metric overrides matched to
+   Arial, so if the font hasn't arrived within ~100ms the browser keeps
+   the fallback and does NOT reflow — zero CLS.
+
+   JetBrains Mono uses `font-display: swap` because monospace UI elements
+   (small tables, badges) are cheap to reflow and we want the real font.
+
+   Only weights 400 and 700 are self-hosted. Weights 500/600/800/900 fall
+   back to synthetic bolding of the nearest available weight — visually
+   close enough for the rare elements that use them (headings, chips). */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: optional;
+  src: url('../fonts/inter-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  size-adjust: 106%;
+  ascent-override: 91%;
+  descent-override: 23%;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  src: url('../fonts/inter-700.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  size-adjust: 106%;
+  ascent-override: 91%;
+  descent-override: 23%;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono-700.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

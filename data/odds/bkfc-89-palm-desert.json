@@ -1,0 +1,89 @@
+{
+  "event_slug": "bkfc-89-palm-desert",
+  "event_date": "2026-05-22",
+  "source": "consensus",
+  "source_url": null,
+  "fetched_at": "2026-07-21T23:34:45.794Z",
+  "book_count": 5,
+  "books": [
+    "bestfightodds",
+    "kalshi",
+    "polymarket",
+    "unibet",
+    "xbet"
+  ],
+  "bouts": [
+    {
+      "fighter_a_slug": "cody-vidal",
+      "fighter_b_slug": "jomi-escoboza",
+      "moneyline_a": 143,
+      "moneyline_b": -200,
+      "implied_prob_a": 0.412,
+      "implied_prob_b": 0.667,
+      "vig": 0.078,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          143,
+          143
+        ],
+        "b": [
+          -200,
+          -200
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "chase-gormley",
+      "fighter_b_slug": "levi-costa",
+      "moneyline_a": 120,
+      "moneyline_b": -167,
+      "implied_prob_a": 0.455,
+      "implied_prob_b": 0.625,
+      "vig": 0.08,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          120,
+          120
+        ],
+        "b": [
+          -167,
+          -167
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "evgenii-kurdanov",
+      "fighter_b_slug": "eric-lopez",
+      "moneyline_a": -770,
+      "moneyline_b": 475,
+      "implied_prob_a": 0.885,
+      "implied_prob_b": 0.174,
+      "vig": 0.059,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -770,
+          -770
+        ],
+        "b": [
+          475,
+          475
+        ]
+      }
+    }
+  ]
+}

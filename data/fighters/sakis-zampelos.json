@@ -1,0 +1,39 @@
+{
+  "slug": "sakis-zampelos",
+  "name": "Sakis Zampelos",
+  "nickname": null,
+  "division": "Light Heavyweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 71,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1993-10",
+  "age": 32,
+  "nationality": "Greece",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744597924/o/1744597924399_67bcdf1fac5578992f49af2f_BKFC_-_Website_Sakis_Zampelos_avatar_template_compressed.jpg?1744597924",
+  "social": {
+    "instagram": "https://www.instagram.com/sakis_zampelos/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/sakis-zampelos"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1478,
+  "elo_peak": 1500
+}

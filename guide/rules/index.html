@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <title>BKFC Rules Explained | PropsBot BKFC</title>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preconnect" href="https://bkfc-cdn.gigcasters.com" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../assets/fonts/inter-400.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../assets/fonts/inter-700.woff2" />
+  <link rel="stylesheet" href="../../assets/css/fonts.css" />
+
+  <link rel="manifest" href="../../manifest.webmanifest">
+  <link rel="apple-touch-icon" href="../../assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#070e1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BKFC">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Complete guide to BKFC rules: round structure, scoring, toe-line start, knockdown counts, doctor stoppages, weight classes, glove/wrap specs, and how each rule affects betting outcomes." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bkfc.propsbot.ai/guide/rules/" />
+  <meta name="author" content="PropsBot AI" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://bkfc.propsbot.ai/guide/rules/" />
+  <meta property="og:title" content="BKFC Rules Explained" />
+  <meta property="og:description" content="Complete guide to BKFC rules: round structure, scoring, toe-line start, knockdown counts, doctor stoppages, weight classes, glove/wrap specs, and how each rule affects betting outcomes." />
+  <meta property="og:image" content="https://propsbot.ai/wp-content/uploads/2024/01/propsbot-og.png" />
+  <meta property="og:site_name" content="PropsBot BKFC" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@PropsBot_AI" />
+  <meta name="twitter:title" content="BKFC Rules Explained" />
+  <meta name="twitter:description" content="Complete guide to BKFC rules: round structure, scoring, toe-line start, knockdown counts, doctor stoppages, weight classes, glove/wrap specs, and how each rule affects betting outcomes." />
+  <meta name="twitter:image" content="https://propsbot.ai/wp-content/uploads/2024/01/propsbot-og.png" />
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://bkfc.propsbot.ai/guide/rules/#article","headline":"BKFC Rules Explained","description":"Complete guide to BKFC rules: round structure, scoring, toe-line start, knockdown counts, doctor stoppages, weight classes, glove/wrap specs, and how each rule affects betting outcomes.","datePublished":"2026-04-17","dateModified":"2026-04-17","url":"https://bkfc.propsbot.ai/guide/rules/","mainEntityOfPage":"https://bkfc.propsbot.ai/guide/rules/","author":{"@id":"https://bkfc.propsbot.ai/about/#author"},"publisher":{"@id":"https://bkfc.propsbot.ai/#publisher"},"isAccessibleForFree":true},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long is a BKFC fight?","acceptedAnswer":{"@type":"Answer","text":"Standard fights are 5 rounds of 2 minutes each (10 total minutes of action plus 4 one-minute rest breaks). Some title fights go 7 rounds at the same 2-minute format."}},{"@type":"Question","name":"Are BKFC fighters allowed to use gloves?","acceptedAnswer":{"@type":"Answer","text":"No. Fighters wear hand wraps that stop one inch before the knuckles — the striking surface is bare skin. This is the defining rule of the sport."}},{"@type":"Question","name":"Why do BKFC fights start at the center of the ring?","acceptedAnswer":{"@type":"Answer","text":"The \"toe-line start\" is unique to BKFC. Both fighters toe up to a line in the center of the ring at the start of each round. This forces immediate engagement and removes the feeling-out period common in boxing."}},{"@type":"Question","name":"How often do BKFC fights end by KO?","acceptedAnswer":{"@type":"Answer","text":"Roughly 70% of BKFC bouts end inside the distance (KO, TKO, or doctor stoppage). That's dramatically higher than the ~35-40% finish rate in professional boxing, driven by the lack of gloves and the shorter rounds."}},{"@type":"Question","name":"Can a BKFC fight end because of cuts?","acceptedAnswer":{"@type":"Answer","text":"Yes. Doctor stoppages for cuts are common — they count as a TKO loss. This is why a fighter's \"cut history\" (how often they've been stopped by doctor) is a real predictive signal for future fights."}}]}]}</script>
+
+  
+  <link rel="stylesheet" href="../../assets/css/tailwind.css" />
+  <link rel="stylesheet" href="../../assets/css/site.css" />
+</head>
+<body class="h-full text-slate-100 min-h-screen">
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <nav class="glass sticky top-0 z-40 border-b border-white/5" aria-label="Primary">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between gap-2 sm:gap-3">
+      <!-- Brand mark: stylized knuckle glyph in brand gradient + wordmark.
+           Tap target is the full anchor including hidden text. -->
+      <a href="../../" class="brand-mark flex items-center gap-2.5 flex-shrink-0 min-w-0 py-1 -my-1" style="min-height:44px" aria-label="PropsBot Bare Knuckle — home">
+        <svg class="brand-glyph" width="34" height="34" viewBox="0 0 40 40" aria-hidden="true">
+          <defs>
+            <linearGradient id="bm-grad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#ff1552"/>
+              <stop offset="100%" stop-color="#f0c040"/>
+            </linearGradient>
+          </defs>
+          <rect x="1" y="1" width="38" height="38" rx="9" fill="url(#bm-grad)"/>
+          <!-- Bare-knuckle fist silhouette -->
+          <g fill="#070e1a">
+            <path d="M12 14.5c0-1.1.9-2 2-2s2 .9 2 2v5h1v-6.5c0-1.1.9-2 2-2s2 .9 2 2V19h1v-5.8c0-1.1.9-2 2-2s2 .9 2 2V19h1v-4.5c0-1.1.9-2 2-2s2 .9 2 2V22c0 5.5-4.5 10-10 10h-1c-5 0-9-4-9-9v-3.5l-2-1.5c-.9-.7-1-2-.3-2.9.7-.9 2-1 2.9-.3L12 16.3z"/>
+          </g>
+        </svg>
+        <div class="hidden sm:block min-w-0">
+          <div class="text-sm font-black tracking-tight leading-tight truncate" style="letter-spacing:-0.01em">PropsBot <span class="brand-gradient">BKFC</span></div>
+          <div class="text-[9px] text-white/40 mono uppercase tracking-[0.18em]">Bare Knuckle Intelligence</div>
+        </div>
+      </a>
+
+      <!-- League tabs — ALWAYS visible, even on mobile. 44px tall (iOS HIG min). -->
+      <div class="inline-flex items-center rounded-lg border border-white/10 overflow-hidden text-[11px] sm:text-xs font-bold mono uppercase tracking-wider flex-shrink-0" style="min-height:44px">
+        <a href="../../" class="px-3 sm:px-3.5 text-pb-teal bg-pb-teal/10 border-r border-white/10 hover:bg-pb-teal/20 transition inline-flex items-center" style="min-height:44px">BKFC</a>
+        <a href="../../bkb/" class="px-3 sm:px-3.5 text-pb-purple bg-pb-purple/5 hover:bg-pb-purple/15 transition inline-flex items-center" style="min-height:44px">BKB</a>
+      </div>
+
+      <div class="flex items-center gap-1.5 sm:gap-3 md:gap-4 text-xs flex-shrink-0">
+        <!-- Picks + Research shown on tablet/desktop. Mobile uses bottom tab bar. -->
+        <a href="../../picks/" class="hidden sm:inline-flex items-center gap-1.5 px-3 rounded-md bg-pb-teal/10 border border-pb-teal/30 text-pb-teal hover:bg-pb-teal/20 hover:text-white transition font-bold mono uppercase tracking-wider text-xs" style="min-height:44px" aria-label="All edge picks">
+          <span aria-hidden="true">★</span> Picks
+        </a>
+        <a href="../../card/" class="hidden sm:inline-flex items-center gap-1.5 px-3 rounded-md bg-pb-red/10 border border-pb-red/30 text-pb-red hover:bg-pb-red/20 hover:text-white transition font-bold mono uppercase tracking-wider text-xs" style="min-height:44px" aria-label="Current event research">
+          <span class="w-1.5 h-1.5 rounded-full bg-pb-red animate-pulse" aria-hidden="true"></span> Research
+        </a>
+        <a href="../../events/" class="hidden lg:inline text-white/60 hover:text-pb-teal transition">Events</a>
+        <a href="../../fighters/" class="hidden lg:inline text-white/60 hover:text-pb-teal transition">Fighters</a>
+        <a href="../../divisions/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Divisions</a>
+        <a href="../../compare/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Compare</a>
+        <a href="../../accuracy/" class="hidden lg:inline-flex items-center gap-1 text-pb-teal/80 hover:text-pb-teal transition font-semibold" title="Live model vs market accuracy ledger"><span class="w-1.5 h-1.5 rounded-full bg-pb-teal animate-pulse" aria-hidden="true"></span> Accuracy</a>
+        <a href="../../guide/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Guides</a>
+        <a href="../../faq/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">FAQ</a>
+        <!-- Menu button for mobile -->
+        <button id="mobile-menu-btn" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-md border border-white/10 text-white/60 hover:text-pb-teal hover:border-pb-teal/40 transition" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu" onclick="const m=document.getElementById('mobile-menu'); const o=!m.classList.toggle('hidden'); this.setAttribute('aria-expanded', o?'true':'false')">
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 3h12v2H2V3zm0 4h12v2H2V7zm0 4h12v2H2v-2z"/></svg>
+        </button>
+        <a href="https://propsbot.ai" class="hidden sm:inline text-pb-teal hover:text-white transition font-semibold whitespace-nowrap">PropsBot.AI →</a>
+      </div>
+    </div>
+    <!-- Mobile dropdown menu -->
+    <div id="mobile-menu" class="lg:hidden hidden border-t border-white/10 bg-black/40 backdrop-blur" role="region" aria-label="Mobile menu">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-2 text-sm">
+        <a href="../../picks/" class="text-pb-teal hover:text-white transition py-1 font-semibold">★ All Picks — Edge Board</a>
+        <a href="../../events/" class="text-white/80 hover:text-pb-teal transition py-1">Events</a>
+        <a href="../../fighters/" class="text-white/80 hover:text-pb-teal transition py-1">Fighters</a>
+        <a href="../../divisions/" class="text-white/80 hover:text-pb-teal transition py-1">Divisions</a>
+        <a href="../../champions/" class="text-white/80 hover:text-pb-teal transition py-1">Champions</a>
+        <a href="../../compare/" class="text-white/80 hover:text-pb-teal transition py-1">Compare Fighters</a>
+        <a href="../../accuracy/" class="text-white/80 hover:text-pb-teal transition py-1">Model Accuracy</a>
+        <a href="../../guide/" class="text-white/80 hover:text-pb-teal transition py-1">Guides</a>
+        <a href="../../faq/" class="text-white/80 hover:text-pb-teal transition py-1">FAQ</a>
+        <a href="../../about/" class="text-white/80 hover:text-pb-teal transition py-1">About</a>
+        <a href="../../results/" class="text-white/80 hover:text-pb-teal transition py-1">Results</a>
+        <a href="https://propsbot.ai" class="text-pb-teal hover:text-white transition font-semibold py-1 border-t border-white/10 mt-1 pt-3">PropsBot.AI — Player Props →</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main" tabindex="-1">
+
+
+    <article class="guide-article">
+      <header class="max-w-3xl mx-auto px-4 sm:px-6 pt-10 pb-6">
+        <nav class="text-xs text-white/40 mono mb-4">
+          <a href="../../" class="hover:text-pb-teal transition">Home</a>
+          <span class="mx-2">/</span>
+          <a href="../" class="hover:text-pb-teal transition">Guides</a>
+          <span class="mx-2">/</span>
+          <span class="text-white/60">rules</span>
+        </nav>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pb-teal/10 border border-pb-teal/30 text-pb-teal text-xs font-semibold mono uppercase tracking-wider mb-4">
+          Guide · 7 min read
+        </div>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-3">BKFC Rules Explained</h1>
+        <div class="author-byline mono text-xs text-white/50 mb-3">By <a href="../../about/#author" class="text-pb-teal hover:text-white">David</a>, PropsBot.AI · Updated <time datetime="2026-04-17">2026-04-17</time></div>
+        <p class="text-white/70 text-lg leading-relaxed">Everything that matters about how bare knuckle fights are scored, stopped, and won.</p>
+      </header>
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 pb-8 guide-content">
+        
+        <section class="guide-section" id="the-short-version">
+          <h2><a href="#the-short-version" class="guide-anchor" aria-hidden="true">#</a>The short version</h2>
+          <div class="guide-body"><p>BKFC is sanctioned bare knuckle boxing. Fighters wear hand wraps that stop one inch before the knuckles — no gloves. Fights are <strong>5 rounds of 2 minutes</strong> (7 rounds for some title fights). Scored on the 10-point-must system. 10-second knockdown count. Three knockdowns in one round = TKO. Cuts and doctor stoppages end fights a lot more often than in gloved boxing.</p>
+<p>From a betting perspective, the two most important rule differences vs boxing: <strong>shorter rounds</strong> (pacing matters less, first clean shot matters more) and <strong>no gloves</strong> (KO rate ~70% vs ~40% in boxing, cuts are a constant finish threat).</p></div>
+        </section>
+
+        <section class="guide-section" id="round-format">
+          <h2><a href="#round-format" class="guide-anchor" aria-hidden="true">#</a>Round format</h2>
+          <div class="guide-body"><p>Standard non-title fights: <strong>5 rounds × 2 minutes</strong>. One-minute rest between rounds. Title fights in numbered-event main events: some go 7 rounds, same 2-minute format. BKFC Fight Night cards use 5-round max throughout.</p>
+<p>The shorter rounds are the single biggest rule fact for bettors to internalize. 10 minutes of total fight time (vs 36+ in boxing championship distance) means:</p>
+<ul><li>Less time for a slow starter to mount a comeback.</li><li>Cardio matters less — you can sprint the full 10 minutes.</li><li>Cuts from the opening exchanges carry into every subsequent round.</li><li>Technical advantages compress; one clean shot can swing a decision.</li></ul></div>
+        </section>
+
+        <section class="guide-section" id="toe-line-start">
+          <h2><a href="#toe-line-start" class="guide-anchor" aria-hidden="true">#</a>Toe-line start</h2>
+          <div class="guide-body"><p>BKFC is the only major combat sport where fighters start each round <strong>toe-to-toe at a center line</strong>, not at opposite corners. Each round begins from essentially punching range.</p>
+<p>This favors pressure fighters and punishes counter-punchers who rely on footwork to bait and evade. Watch the Round-1 exchanges: 60%+ of first-round finishes happen in the first 15 seconds because the toe-line start removes the feeling-out period boxing normally provides.</p></div>
+        </section>
+
+        <section class="guide-section" id="scoring-10-point-must">
+          <h2><a href="#scoring-10-point-must" class="guide-anchor" aria-hidden="true">#</a>Scoring (10-point must)</h2>
+          <div class="guide-body"><p>Same system as boxing: winner of a round gets 10, loser gets 9, knockdown reduces to 8, two knockdowns to 7. Three judges. Draws, majority decisions, split decisions all possible.</p>
+<p>Scoring criteria in priority order: (1) effective aggression and clean punching, (2) ring generalship, (3) defense. Judges favor the fighter who moves forward and lands — BKFC has an explicit tilt toward aggression that MMA scoring does not.</p></div>
+        </section>
+
+        <section class="guide-section" id="knockdown-rules">
+          <h2><a href="#knockdown-rules" class="guide-anchor" aria-hidden="true">#</a>Knockdown rules</h2>
+          <div class="guide-body"><p>Knockdown → 10-second count by the referee. Fighter must rise by 10 and step forward to continue. If they don't or can't, it's a KO.</p>
+<p>Three knockdowns in a single round = automatic TKO ("three-knockdown rule"). Unlike boxing where this is sometimes suspended in title fights, BKFC enforces it across all rounds.</p>
+<p>A knockdown where the fighter rises and continues still costs them a point on the scorecard. Repeated knockdowns (non-sequential) are a clear decision-loss signal.</p></div>
+        </section>
+
+        <section class="guide-section" id="doctor-stoppages-and-cuts">
+          <h2><a href="#doctor-stoppages-and-cuts" class="guide-anchor" aria-hidden="true">#</a>Doctor stoppages and cuts</h2>
+          <div class="guide-body"><p>Bare knuckles cause cuts significantly faster than gloves. The ring doctor is involved early and often. Doctor can recommend a stop between rounds; the ref makes the final call.</p>
+<p>Most common cut locations: above the eye (vision-impairing), across the bridge of the nose, inside the mouth. Cut stoppages count as TKO loss for the cut fighter.</p>
+<p><strong>Betting implication:</strong> fighters with a history of cutting easily (scar tissue accumulation) are a durability liability. We track this in our predict model as the "Cut Susceptibility" factor — % of past losses that ended by doctor stoppage.</p></div>
+        </section>
+
+        <section class="guide-section" id="hand-wraps-and-knuckles">
+          <h2><a href="#hand-wraps-and-knuckles" class="guide-anchor" aria-hidden="true">#</a>Hand wraps and knuckles</h2>
+          <div class="guide-body"><p>Fighters wrap their hands with gauze and tape up to 1 inch from the knuckles. The last inch — the actual striking surface — is bare skin. No padding.</p>
+<p>This causes a second-order effect that rarely gets discussed: <strong>hand durability</strong>. Throwing a hook with bare knuckles against a forehead is the same as punching a wall. Fighters who bust up their hands in Round 2 are fighting at 50% effectiveness for the rest of the bout.</p>
+<p>Older fighters (35+) and fighters with heavy-handed styles (KO hunters) are most at risk for mid-fight hand damage. We factor this into the Age curve in the prediction model.</p></div>
+        </section>
+
+        <section class="guide-section" id="what-s-illegal">
+          <h2><a href="#what-s-illegal" class="guide-anchor" aria-hidden="true">#</a>What&#39;s illegal</h2>
+          <div class="guide-body"><p>Same basic prohibitions as pro boxing: no headbutts, no elbows, no knees, no kicks, no holding, no hitting a downed opponent, no rabbit punches, no low blows. Clinches are broken by the ref quickly — the toe-line philosophy extends to keeping fighters actively trading.</p>
+<p>Unlike MMA, you cannot shoot a takedown, cannot land ground-and-pound, cannot submit.</p></div>
+        </section>
+
+        <section class="guide-section" id="weight-classes">
+          <h2><a href="#weight-classes" class="guide-anchor" aria-hidden="true">#</a>Weight classes</h2>
+          <div class="guide-body"><p>10 weight classes total: Strawweight (115 lb), Flyweight (125 lb), Bantamweight (135 lb), Featherweight (145 lb), Lightweight (155 lb), Welterweight (165 lb), Middleweight (175 lb), Light Heavyweight (185 lb), Cruiserweight (205 lb), Heavyweight (265 lb). Women's divisions: Straw, Fly, Bantam, Feather.</p>
+<p>Catchweight bouts are allowed — check the bout weight class vs. each fighter's BKFC-listed class. A fighter moving up may be more muscular but less accustomed to the power; moving down risks a tough weight cut.</p></div>
+        </section>
+      </div>
+      <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-8">
+             <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">Frequently Asked</h2>
+             
+        <details class="guide-faq">
+          <summary>How long is a BKFC fight?</summary>
+          <div class="guide-faq-body">Standard fights are 5 rounds of 2 minutes each (10 total minutes of action plus 4 one-minute rest breaks). Some title fights go 7 rounds at the same 2-minute format.</div>
+        </details>
+
+        <details class="guide-faq">
+          <summary>Are BKFC fighters allowed to use gloves?</summary>
+          <div class="guide-faq-body">No. Fighters wear hand wraps that stop one inch before the knuckles — the striking surface is bare skin. This is the defining rule of the sport.</div>
+        </details>
+
+        <details class="guide-faq">
+          <summary>Why do BKFC fights start at the center of the ring?</summary>
+          <div class="guide-faq-body">The &quot;toe-line start&quot; is unique to BKFC. Both fighters toe up to a line in the center of the ring at the start of each round. This forces immediate engagement and removes the feeling-out period common in boxing.</div>
+        </details>
+
+        <details class="guide-faq">
+          <summary>How often do BKFC fights end by KO?</summary>
+          <div class="guide-faq-body">Roughly 70% of BKFC bouts end inside the distance (KO, TKO, or doctor stoppage). That&#39;s dramatically higher than the ~35-40% finish rate in professional boxing, driven by the lack of gloves and the shorter rounds.</div>
+        </details>
+
+        <details class="guide-faq">
+          <summary>Can a BKFC fight end because of cuts?</summary>
+          <div class="guide-faq-body">Yes. Doctor stoppages for cuts are common — they count as a TKO loss. This is why a fighter&#39;s &quot;cut history&quot; (how often they&#39;ve been stopped by doctor) is a real predictive signal for future fights.</div>
+        </details>
+           </section>
+      <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-16">
+        <div class="guide-footer-cta">
+          <div>
+            <div class="text-xs mono text-white/40 uppercase tracking-wider mb-1">Put it into practice</div>
+            <div class="text-white font-bold">See every edge across the current card</div>
+          </div>
+          <a href="../../picks/" class="inline-flex items-center gap-1 px-4 py-2 rounded-lg bg-pb-teal/15 border border-pb-teal/35 text-pb-teal font-semibold text-sm hover:bg-pb-teal/25 hover:text-white transition">Open Picks →</a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="border-t border-white/5 py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <!-- Prominent PropsBot.AI promo banner -->
+      <a href="https://propsbot.ai" class="block mb-6 group glass rounded-2xl p-5 border border-pb-teal/30 hover:border-pb-teal/60 transition">
+        <div class="flex items-center justify-between gap-4 flex-wrap">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-pb-red to-pb-gold flex items-center justify-center font-bold mono text-black text-sm flex-shrink-0">PB</div>
+            <div>
+              <div class="text-white font-bold text-sm sm:text-base">Get player props for NBA, NHL, MLB &amp; NFL</div>
+              <div class="text-white/60 text-xs sm:text-sm mt-0.5">PropsBot.AI — data-driven daily player prop picks. 30% ROI across 50k+ bets.</div>
+            </div>
+          </div>
+          <span class="text-pb-teal text-sm mono font-semibold group-hover:translate-x-1 transition flex-shrink-0">Try PropsBot.AI →</span>
+        </div>
+      </a>
+
+      <!-- Newsletter signup removed pending BKFC-specific Elastic Email list
+           setup. Parent-site cross-promo above handles email intent. -->
+
+<div class="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/70">
+        <div class="text-center sm:text-left">
+          Data from <a href="https://www.bkfc.com" class="footer-link text-white/60 hover:text-pb-teal transition">BKFC.com</a> and <a href="https://en.wikipedia.org" class="footer-link text-white/60 hover:text-pb-teal transition">Wikipedia</a>.
+          Not affiliated with Bare Knuckle Fighting Championship. <a href="../../about/" class="footer-link text-white/60 hover:text-pb-teal transition">About</a>
+        </div>
+        <div class="text-center sm:text-right">
+          Built by <a href="https://propsbot.ai" class="footer-link text-pb-teal hover:text-white transition font-semibold">PropsBot.AI</a> · Free betting intelligence tools
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bottom tab bar (mobile only, below lg) -->
+  <nav class="mobile-tab-bar lg:hidden" aria-label="Mobile navigation">
+    <a href="../../" class="mtb-item" data-tab="home">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 2.5L2 9v9h5v-6h6v6h5V9l-8-6.5z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="../../events/" class="mtb-item" data-tab="events">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M3 5h14v2H3V5zm0 4h14v2H3V9zm0 4h14v2H3v-2z"/></svg>
+      <span>Events</span>
+    </a>
+    <a href="../../picks/" class="mtb-item mtb-primary" data-tab="picks">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.5 7.5H22l-6 4.5 2.3 7-6.3-4.5-6.3 4.5 2.3-7-6-4.5h7.5L12 2z"/></svg>
+      <span>Picks</span>
+    </a>
+    <a href="../../card/" class="mtb-item" data-tab="card">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M4 3h12a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm1 3v2h10V6H5zm0 3v2h10V9H5zm0 3v2h6v-2H5z"/></svg>
+      <span>Research</span>
+    </a>
+    <a href="../../fighters/" class="mtb-item" data-tab="fighters">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 10a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0 1.5c-3.5 0-7 1.75-7 5V18h14v-1.5c0-3.25-3.5-5-7-5z"/></svg>
+      <span>Fighters</span>
+    </a>
+  </nav>
+  <script src="../../assets/js/common.js"></script>
+  
+  <script>
+    // Highlight active mobile tab based on current URL
+    (function () {
+      const path = window.location.pathname;
+      document.querySelectorAll('.mtb-item').forEach((el) => {
+        const href = el.getAttribute('href').replace(/^\.\.\/\.\.\/|^\.\.\/|^\//, '/');
+        if (path === href || (href !== '/' && path.startsWith(href))) el.classList.add('active');
+        if (path === '/' && el.dataset.tab === 'home') el.classList.add('active');
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+{
+  "slug": "bkfc-40",
+  "name": "BKFC 40 Leeds: Holmes vs. Christie",
+  "event_number": 40,
+  "event_type": "Numbered",
+  "date": "2023-04-22T20:00:00Z",
+  "venue": "Planet Ice Leeds",
+  "city": "Leeds",
+  "state": null,
+  "country": "England",
+  "country_code": "GB",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "anthony-holmes",
+      "fighter_b_slug": "danny-christie",
+      "title_fight": true,
+      "title_name": "BKFC UK Light Heavyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "danny-christie",
+        "method": "KO",
+        "round": 4,
+        "time": null
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "luke-nevin",
+      "fighter_b_slug": "franco-tenaglia",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "franco-tenaglia",
+        "method": "KO",
+        "round": 4,
+        "time": null
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "axel-birbes",
+      "fighter_b_slug": "rico-franco",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rico-franco",
+        "method": "KO",
+        "round": 2,
+        "time": "1:07"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "robbie-kennedy",
+      "fighter_b_slug": "conor-cooke",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "conor-cooke",
+        "method": "KO",
+        "round": 4,
+        "time": "1:56"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "damian-gorski",
+      "fighter_b_slug": "tom-scott",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tom-scott",
+        "method": "KO",
+        "round": 4,
+        "time": "1:44"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "will-cairns",
+      "fighter_b_slug": "jonny-graham",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jonny-graham",
+        "method": "KO",
+        "round": 1,
+        "time": "1:33"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "lee-browne",
+      "fighter_b_slug": "dawid-oskar",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dawid-oskar",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Catchweight",
+      "weight_limit_kg": 73,
+      "fighter_a_slug": "marius-radol",
+      "fighter_b_slug": "morgan-starkey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "morgan-starkey",
+        "method": "KO",
+        "round": 1,
+        "time": "0:23"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "ashley-griffiths",
+      "fighter_b_slug": "bart-krol",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bart-krol",
+        "method": "KO",
+        "round": 1,
+        "time": "1:04"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "wain-morgan",
+      "fighter_b_slug": "rob-cunningham",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rob-cunningham",
+        "method": "KO",
+        "round": 2,
+        "time": "1:03"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "naff-higson",
+      "fighter_b_slug": "arron-blakey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "arron-blakey",
+        "method": "KO",
+        "round": 1,
+        "time": "0:50"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

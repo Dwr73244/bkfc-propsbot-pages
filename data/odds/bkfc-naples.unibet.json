@@ -1,0 +1,99 @@
+{
+  "event_slug": "bkfc-naples",
+  "event_date": "2026-07-18",
+  "source": "unibet",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4271",
+  "fetched_at": "2026-07-18T19:14:53.698Z",
+  "bouts": [
+    {
+      "fighter_a_slug": "lorenzo-hunt",
+      "fighter_b_slug": "walter-pugliesi",
+      "moneyline_a": -240,
+      "moneyline_b": 175,
+      "implied_prob_a": 0.706,
+      "implied_prob_b": 0.364,
+      "vig": 0.07,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "ernesto-papa",
+      "fighter_b_slug": "jindrich-byrtus",
+      "moneyline_a": 106,
+      "moneyline_b": -148,
+      "implied_prob_a": 0.485,
+      "implied_prob_b": 0.597,
+      "vig": 0.082,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "tomas-melis",
+      "fighter_b_slug": "toni-estorer",
+      "moneyline_a": -159,
+      "moneyline_b": 115,
+      "implied_prob_a": 0.614,
+      "implied_prob_b": 0.465,
+      "vig": 0.079,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "enzo-tobbia",
+      "fighter_b_slug": "danny-christie",
+      "moneyline_a": 150,
+      "moneyline_b": -215,
+      "implied_prob_a": 0.4,
+      "implied_prob_b": 0.683,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "jimmy-sweeney",
+      "fighter_b_slug": "nicholas-vescio",
+      "moneyline_a": -305,
+      "moneyline_b": 205,
+      "implied_prob_a": 0.753,
+      "implied_prob_b": 0.328,
+      "vig": 0.081,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "dominik-herold",
+      "fighter_b_slug": "arbi-chakaev",
+      "moneyline_a": -360,
+      "moneyline_b": 235,
+      "implied_prob_a": 0.783,
+      "implied_prob_b": 0.299,
+      "vig": 0.081,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "gianni-melillo",
+      "fighter_b_slug": "dawid-chylinski",
+      "moneyline_a": -118,
+      "moneyline_b": -118,
+      "implied_prob_a": 0.541,
+      "implied_prob_b": 0.541,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "marco-giustarini",
+      "fighter_b_slug": "dan-chapman",
+      "moneyline_a": 320,
+      "moneyline_b": -500,
+      "implied_prob_a": 0.238,
+      "implied_prob_b": 0.833,
+      "vig": 0.071,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "andrea-bicchi",
+      "fighter_b_slug": "leonardo-damiani",
+      "moneyline_a": 150,
+      "moneyline_b": -215,
+      "implied_prob_a": 0.4,
+      "implied_prob_b": 0.683,
+      "vig": 0.083,
+      "book_count": 1
+    }
+  ]
+}

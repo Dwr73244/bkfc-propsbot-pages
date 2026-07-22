@@ -1,0 +1,205 @@
+{
+  "slug": "byb-32-leeds-brawl",
+  "league": "BKB",
+  "name": "BYB 32: Leeds Brawl",
+  "event_number": 32,
+  "event_type": "Numbered",
+  "date": "2024-10-12T20:00:00Z",
+  "venue": "First Direct Arena",
+  "city": "Leeds",
+  "state": null,
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Super Lightweight",
+      "fighter_a_slug": "harry-gigliotti",
+      "fighter_b_slug": "joe-fitzpatrick",
+      "title_fight": true,
+      "title_name": "BKB Super Lightweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "harry-gigliotti",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Super Welterweight",
+      "fighter_a_slug": "liam-rees",
+      "fighter_b_slug": "scott-mchugh",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "liam-rees",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Super Middleweight",
+      "fighter_a_slug": "mark-tiffin",
+      "fighter_b_slug": "paul-hilz",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mark-tiffin",
+        "method": "DQ",
+        "round": 1
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "dean-smith",
+      "fighter_b_slug": "reece-murray",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dean-smith",
+        "method": "DQ",
+        "round": 1
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Flyweight",
+      "fighter_a_slug": "jaica-pavilus",
+      "fighter_b_slug": "jacqueline-ayala",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jacqueline-ayala",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "dean-paterson",
+      "fighter_b_slug": "david-winiarski",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "david-winiarski",
+        "method": "DQ",
+        "round": 4
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "matthew-morton",
+      "fighter_b_slug": "alex-wilson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "alex-wilson",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "cyrus-rafi",
+      "fighter_b_slug": "seamus-devlin",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "seamus-devlin",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "salim-jamshidi",
+      "fighter_b_slug": "marcin-kosiak",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "marcin-kosiak",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "aaron-sinclair",
+      "fighter_b_slug": "harvey-dossett",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "harvey-dossett",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "rolando-dy",
+      "fighter_b_slug": "hayden-sherriff",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rolando-dy",
+        "method": "TKO",
+        "round": 2
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-32-leeds-brawl"
+  ],
+  "last_updated": "2026-04-17"
+}

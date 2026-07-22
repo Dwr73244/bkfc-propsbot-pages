@@ -1,0 +1,185 @@
+{
+  "slug": "ashley-brace",
+  "league": "BKB",
+  "name": "Ashley Brace",
+  "nickname": null,
+  "division": "Flyweight",
+  "bkb_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": 0
+  },
+  "bkfc_record": null,
+  "mma_record": null,
+  "height_in": 62,
+  "reach_in": null,
+  "stance": "Orthodox",
+  "dob": "1991-03-09",
+  "age": null,
+  "nationality": null,
+  "hometown": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://boxrec.com/en/box-pro/729344",
+    "https://en.wikipedia.org/wiki/Ashley_Brace"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1481,
+  "elo_peak": 1500,
+  "pro_boxing_record": {
+    "wins": 8,
+    "losses": 0,
+    "draws": 1,
+    "kos": 3,
+    "last_updated": "2026-04-19"
+  },
+  "boxrec_id": 729344,
+  "boxrec_url": "https://boxrec.com/en/box-pro/729344",
+  "pro_boxing_history": [
+    {
+      "num": 9,
+      "result": "W",
+      "record_after": "8-0-1",
+      "opponent": "Xenia Jorneac",
+      "opponent_slug": "xenia-jorneac",
+      "method": "UD",
+      "round": 10,
+      "time": null,
+      "date": null,
+      "location": "Ice Arena Wales, Cardiff, Wales",
+      "notes": "Won vacant European female super-flyweight title"
+    },
+    {
+      "num": 8,
+      "result": "D",
+      "record_after": "7-0-1",
+      "opponent": "Melania Sorroche",
+      "opponent_slug": "melania-sorroche",
+      "method": "SD",
+      "round": 10,
+      "time": null,
+      "date": null,
+      "location": "Merthyr Leisure Centre, Merthyr Tydfil, Wales",
+      "notes": "For vacant European female bantamweight title"
+    },
+    {
+      "num": 7,
+      "result": "W",
+      "record_after": "7-0",
+      "opponent": "Nevenka Mikulic",
+      "opponent_slug": "nevenka-mikulic",
+      "method": "PTS",
+      "round": 6,
+      "time": null,
+      "date": null,
+      "location": "Cardiff International Arena, Cardiff, Wales",
+      "notes": null
+    },
+    {
+      "num": 6,
+      "result": "W",
+      "record_after": "6-0",
+      "opponent": "Alexandra Vlajk",
+      "opponent_slug": "alexandra-vlajk",
+      "method": "TKO",
+      "round": 9,
+      "time": "0:56",
+      "date": null,
+      "location": "Leisure Centre Ebbw Vale, Wales",
+      "notes": "Won vacant WBC International female bantamweight title"
+    },
+    {
+      "num": 5,
+      "result": "W",
+      "record_after": "5-0",
+      "opponent": "Galina Koleva Ivanova",
+      "opponent_slug": "galina-koleva-ivanova",
+      "method": "PTS",
+      "round": 6,
+      "time": null,
+      "date": null,
+      "location": "Rhondda Fach Sports Centre, Tylorstown, Wales",
+      "notes": null
+    },
+    {
+      "num": 4,
+      "result": "W",
+      "record_after": "4-0",
+      "opponent": "Klaudia Ferenczi",
+      "opponent_slug": "klaudia-ferenczi",
+      "method": "TKO",
+      "round": 5,
+      "time": "1:59",
+      "date": null,
+      "location": "Merthyr Leisure Centre, Merthyr Tydfil, Wales",
+      "notes": null
+    },
+    {
+      "num": 3,
+      "result": "W",
+      "record_after": "3-0",
+      "opponent": "Gabriella Mezei",
+      "opponent_slug": "gabriella-mezei",
+      "method": "KO",
+      "round": 3,
+      "time": "1:22",
+      "date": null,
+      "location": "Newport Centre, Newport, Wales",
+      "notes": null
+    },
+    {
+      "num": 2,
+      "result": "W",
+      "record_after": "2-0",
+      "opponent": "Petra Castkova",
+      "opponent_slug": "petra-castkova",
+      "method": "PTS",
+      "round": 6,
+      "time": null,
+      "date": null,
+      "location": "Royal Lancaster Hotel, Bayswater, England",
+      "notes": null
+    },
+    {
+      "num": 1,
+      "result": "W",
+      "record_after": "1-0",
+      "opponent": "Bojana Libiszewska",
+      "opponent_slug": "bojana-libiszewska",
+      "method": "PTS",
+      "round": 4,
+      "time": null,
+      "date": null,
+      "location": "Newport Centre, Newport, Wales",
+      "notes": null
+    }
+  ],
+  "title_history": [
+    {
+      "title": "European female super-flyweight",
+      "sport": "Pro Boxing",
+      "won_date": null,
+      "lost_date": null,
+      "status": "held-or-vacated"
+    },
+    {
+      "title": "WBC International female bantamweight",
+      "sport": "Pro Boxing",
+      "won_date": null,
+      "lost_date": null,
+      "status": "held-or-vacated"
+    }
+  ]
+}

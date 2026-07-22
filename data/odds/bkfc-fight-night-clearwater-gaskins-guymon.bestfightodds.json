@@ -1,0 +1,69 @@
+{
+  "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
+  "event_date": "2026-04-24",
+  "source": "bestfightodds",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4162",
+  "fetched_at": "2026-04-25T08:09:12.279Z",
+  "bouts": [
+    {
+      "fighter_a_slug": "quentin-gaskins",
+      "fighter_b_slug": "matt-guymon",
+      "moneyline_a": -315,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.759,
+      "implied_prob_b": 0.313,
+      "vig": 0.072,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "royal-ryan-reber",
+      "fighter_b_slug": "joshua-oxendine",
+      "moneyline_a": -129,
+      "moneyline_b": -108,
+      "implied_prob_a": 0.563,
+      "implied_prob_b": 0.519,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "crystal-van-wyk",
+      "fighter_b_slug": "kat-paprocki",
+      "moneyline_a": 180,
+      "moneyline_b": -265,
+      "implied_prob_a": 0.357,
+      "implied_prob_b": 0.726,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "mike-heckert",
+      "fighter_b_slug": "justin-walters",
+      "moneyline_a": -345,
+      "moneyline_b": 230,
+      "implied_prob_a": 0.775,
+      "implied_prob_b": 0.303,
+      "vig": 0.078,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "brandon-allen",
+      "fighter_b_slug": "lukas-jones",
+      "moneyline_a": -360,
+      "moneyline_b": 240,
+      "implied_prob_a": 0.783,
+      "implied_prob_b": 0.294,
+      "vig": 0.077,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "frankie-solomon",
+      "fighter_b_slug": "rickie-mcconnico",
+      "moneyline_a": -159,
+      "moneyline_b": 115,
+      "implied_prob_a": 0.614,
+      "implied_prob_b": 0.465,
+      "vig": 0.079,
+      "book_count": 1
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "slug": "byb-30-cardiff-brawl",
+  "league": "BKB",
+  "name": "BYB 30: Cardiff Brawl",
+  "event_number": 30,
+  "event_type": "Numbered",
+  "date": "2024-08-17T20:00:00Z",
+  "venue": "Utilita Arena Cardiff",
+  "city": "Cardiff",
+  "state": null,
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "lt-nelson",
+      "fighter_b_slug": "barrie-jones",
+      "title_fight": true,
+      "title_name": "Police Gazette World Diamond Middleweight",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lt-nelson",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "daniel-lerwell",
+      "fighter_b_slug": "david-calveley",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "daniel-lerwell",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "gareth-williams",
+      "fighter_b_slug": "nathan-massey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "gareth-williams",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "dorian-darch",
+      "fighter_b_slug": "volodymyr-skurtu",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "volodymyr-skurtu",
+        "method": "DQ",
+        "round": 1
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "jonny-jones",
+      "fighter_b_slug": "joe-fitzpatrick",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "joe-fitzpatrick",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "jack-marshman",
+      "fighter_b_slug": "carl-craig",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jack-marshman",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "martin-reffell",
+      "fighter_b_slug": "ryan-mccann",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "martin-reffell",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "corey-healey",
+      "fighter_b_slug": "martin-mcdonough",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "martin-mcdonough",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "tony-barratt",
+      "fighter_b_slug": "dan-matthews",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dan-matthews",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "stephen-galloway",
+      "fighter_b_slug": "troy-palmer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "troy-palmer",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "jonny-lawson",
+      "fighter_b_slug": "paul-hilz",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "paul-hilz",
+        "method": "Decision",
+        "round": 5
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-30-cardiff-brawl"
+  ],
+  "last_updated": "2026-04-17"
+}

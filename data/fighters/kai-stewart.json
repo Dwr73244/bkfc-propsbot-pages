@@ -1,0 +1,44 @@
+{
+  "slug": "kai-stewart",
+  "name": "Kai Stewart",
+  "nickname": "KING",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 9,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 70,
+  "stance": null,
+  "dob": "2000-06",
+  "age": 25,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744598877/o/1744598877863_67bcde4bea8a283be851e536_BKFC_-_Small_Website_avatar_Louie_Lopez__28Oct2024_29_compressed.webp?1744598877",
+  "social": {
+    "instagram": "https://www.instagram.com/kaihb145/?hl=en",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/kai-stewart"
+  ],
+  "last_updated": "2026-04-19",
+  "style_tags": [
+    "volume",
+    "cardio"
+  ],
+  "elo": 1547,
+  "elo_peak": 1547
+}

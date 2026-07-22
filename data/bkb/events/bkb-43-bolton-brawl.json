@@ -1,0 +1,205 @@
+{
+  "slug": "bkb-43-bolton-brawl",
+  "league": "BKB",
+  "name": "BKB 43: Bolton Brawl",
+  "event_number": 43,
+  "event_type": "Numbered",
+  "date": "2025-07-05T20:00:00Z",
+  "venue": "University of Bolton Stadium",
+  "city": "Bolton",
+  "state": null,
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Super Lightweight",
+      "fighter_a_slug": "harry-gigliotti",
+      "fighter_b_slug": "kallum-skhane",
+      "title_fight": true,
+      "title_name": "BKB Super Lightweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "harry-gigliotti",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "scott-mchugh",
+      "fighter_b_slug": "liam-howell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "scott-mchugh",
+        "method": "KO",
+        "round": 2
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "dan-mcgraffin",
+      "fighter_b_slug": "robert-koky",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "robert-koky",
+        "method": "DQ",
+        "round": 1
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "dan-gittens",
+      "fighter_b_slug": "harvey-dossett",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dan-gittens",
+        "method": "KO",
+        "round": 2
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "aaron-mccallum",
+      "fighter_b_slug": "luke-smith",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "aaron-mccallum",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "alex-wilson",
+      "fighter_b_slug": "braidie-harkett",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "alex-wilson",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "reece-murray",
+      "fighter_b_slug": "joe-morgan",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "joe-morgan",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "dorian-darch",
+      "fighter_b_slug": "tyrone-eliffe",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tyrone-eliffe",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "david-winiarski",
+      "fighter_b_slug": "bogdan-suru",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "david-winiarski",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "troy-palmer",
+      "fighter_b_slug": "gareth-heyes",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "troy-palmer",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "hayden-sherriff",
+      "fighter_b_slug": "liam-mcelhinney",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "liam-mcelhinney",
+        "method": "TKO",
+        "round": 1
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/bkb-43-bolton-brawl"
+  ],
+  "last_updated": "2026-04-17"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "jarod-grant",
+  "league": "BKB",
+  "name": "Jarod Grant",
+  "nickname": null,
+  "division": "Lightweight",
+  "bkb_record": {
+    "wins": 3,
+    "losses": 0,
+    "draws": 0,
+    "kos": 2
+  },
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 68,
+  "stance": null,
+  "dob": null,
+  "age": null,
+  "nationality": "United States",
+  "hometown": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594446/o/1744594446061_67bce01e9f76a4290be013ea_j-bourdeaux_avatar_compressed.png?1744594446",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
+  ],
+  "last_updated": "2026-04-18",
+  "elo": 1564,
+  "elo_peak": 1564
+}

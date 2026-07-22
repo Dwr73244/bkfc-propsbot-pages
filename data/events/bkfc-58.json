@@ -1,0 +1,225 @@
+{
+  "slug": "bkfc-58",
+  "name": "BKFC 58 Bulgaria: Markulev vs. Kolev",
+  "event_number": 58,
+  "event_type": "Numbered",
+  "date": "2024-03-22T20:00:00Z",
+  "venue": "Arena Sofia",
+  "city": "Sofia",
+  "state": null,
+  "country": "Bulgaria",
+  "country_code": "BG",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "toni-markulev",
+      "fighter_b_slug": "kaloyen-kolev",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "toni-markulev",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "vaso-bakocevic",
+      "fighter_b_slug": "ramadan-nooman",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "vaso-bakocevic",
+        "method": "Decision (majority)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "zohrab-azimov",
+      "fighter_b_slug": "veselin-ivanov",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "Draw (split)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "yunus-batan",
+      "fighter_b_slug": "zhivko-stoimenov",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "yunus-batan",
+        "method": "TKO",
+        "round": 4,
+        "time": "0:21"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "dominik-estorer",
+      "fighter_b_slug": "steve-pasche",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dominik-estorer",
+        "method": "KO",
+        "round": 1,
+        "time": "1:59"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "mehdi-barghi",
+      "fighter_b_slug": "nikolai-alexiev",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mehdi-barghi",
+        "method": "KO",
+        "round": 1,
+        "time": "1:47"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "stanoy-tabakov",
+      "fighter_b_slug": "petr-beranek",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "stanoy-tabakov",
+        "method": "KO",
+        "round": 1,
+        "time": "1:24"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "angel-petkov",
+      "fighter_b_slug": "felipe-maia",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "angel-petkov",
+        "method": "Decision (majority)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "iliyan-adrianov",
+      "fighter_b_slug": "tomas-vojtela",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "iliyan-adrianov",
+        "method": "KO",
+        "round": 1,
+        "time": "1:38"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Women's Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "nicole-schaefer",
+      "fighter_b_slug": "daniela-graf",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "nicole-schaefer",
+        "method": "TKO (retirement)",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "ruslan-tokhtarov",
+      "fighter_b_slug": "zdrovko-dimitrov",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ruslan-tokhtarov",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 12,
+      "card_position": "Prelim",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "emil-enchev",
+      "fighter_b_slug": "sakis-zampelos",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "emil-enchev",
+        "method": "KO",
+        "round": 1,
+        "time": "0:38"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

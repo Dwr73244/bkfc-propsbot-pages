@@ -1,0 +1,44 @@
+{
+  "slug": "joshua-oxendine",
+  "league": "BKB",
+  "name": "Joshua Oxendine",
+  "nickname": null,
+  "division": "Welterweight",
+  "bkb_record": {
+    "wins": 2,
+    "losses": 4,
+    "draws": 0,
+    "kos": 2
+  },
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 70,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1994-03-01",
+  "age": 32,
+  "nationality": "United States",
+  "hometown": "Pembroke, North Carolina",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1769451462/o/JOSHUA_OXENDINE_AVATAR_400x533.png",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
+  ],
+  "last_updated": "2026-04-18",
+  "elo": 1464,
+  "elo_peak": 1522
+}

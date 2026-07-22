@@ -1,0 +1,40 @@
+{
+  "slug": "bekhzod-usmonov",
+  "name": "Bekhzod Usmonov",
+  "nickname": "LION",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 67,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1995-08",
+  "age": 30,
+  "nationality": "Tajikistan",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/bekhzod__usmonov/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/bekhzod-usmonov"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1509,
+  "elo_peak": 1509
+}

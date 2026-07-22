@@ -1,0 +1,175 @@
+{
+  "slug": "bkb-39-brawl-at-the-beach",
+  "league": "BKB",
+  "name": "BKB 39: Brawl at the Beach",
+  "event_number": 39,
+  "event_type": "Numbered",
+  "date": "2025-04-04T20:00:00Z",
+  "venue": "Myrtle Beach Convention Center",
+  "city": "Myrtle Beach",
+  "state": "South Carolina",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Cruiserweight",
+      "fighter_a_slug": "cub-hawkins",
+      "fighter_b_slug": "jack-marshman",
+      "title_fight": true,
+      "title_name": "BKB Cruiserweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "cub-hawkins",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "joshua-oxendine",
+      "fighter_b_slug": "estevan-partida",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "estevan-partida",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "andy-nguyen",
+      "fighter_b_slug": "erisnelsy-torres-castillo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "erisnelsy-torres-castillo",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "maurice-morris",
+      "fighter_b_slug": "dan-vinni",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "maurice-morris",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "marlon-moncada",
+      "fighter_b_slug": "isaiah-williams",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "marlon-moncada",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "ricky-luckadoo",
+      "fighter_b_slug": "rasheam-steele",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ricky-luckadoo",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "dewitt-dixon",
+      "fighter_b_slug": "jarome-hatch",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jarome-hatch",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "eduardo-perez",
+      "fighter_b_slug": "romain-courcier",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "eduardo-perez",
+        "method": "KO",
+        "round": 3
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Flyweight",
+      "fighter_a_slug": "shyanna-bintliff",
+      "fighter_b_slug": "aquasha-rapley",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "shyanna-bintliff",
+        "method": "TKO",
+        "round": 4
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/bkb-39-brawl-at-the-beach"
+  ],
+  "last_updated": "2026-04-17"
+}

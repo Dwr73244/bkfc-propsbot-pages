@@ -1,0 +1,111 @@
+{
+  "slug": "bkfc-fight-night-mohegan-sun-2",
+  "name": "bkfc-fight-night-mohegan-sun-2",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-08-21T00:00:00Z",
+  "venue": "MOHEGAN SUN",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "bryce-henry",
+      "fighter_b_slug": "carlos-trinidad",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "cody-vidal",
+      "fighter_b_slug": "joseph-creer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "lardy-navarro",
+      "fighter_b_slug": "robert-fichtner",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "nate-ghareeb",
+      "fighter_b_slug": "nash-diederichs",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "jared-lennon",
+      "fighter_b_slug": "dominick-carey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "joey-gambino",
+      "fighter_b_slug": "tommy-strydom",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "chris-perreault",
+      "fighter_b_slug": "joe-powers",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Women's Bantamweight",
+      "fighter_a_slug": "alexandra-ballou",
+      "fighter_b_slug": "sophia-hayes",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-2"
+  ],
+  "last_updated": "2026-07-14",
+  "needs_card_population": false
+}

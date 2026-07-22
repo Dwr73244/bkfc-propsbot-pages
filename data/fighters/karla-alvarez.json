@@ -1,0 +1,39 @@
+{
+  "slug": "karla-alvarez",
+  "name": "Karla Alvarez",
+  "nickname": "GOD'S CHILD",
+  "division": "Women's Strawweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 65,
+  "reach_in": 66,
+  "stance": null,
+  "dob": "1988-11",
+  "age": 37,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/karlaalvarez_1/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/karla-alvarez"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1522,
+  "elo_peak": 1522
+}

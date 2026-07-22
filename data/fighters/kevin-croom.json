@@ -1,0 +1,39 @@
+{
+  "slug": "kevin-croom",
+  "name": "Kevin Croom",
+  "nickname": "Crash",
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 71,
+  "reach_in": 73,
+  "stance": null,
+  "dob": "1987-07",
+  "age": 38,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/kevincroom_ufc/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/kevin.croom.395"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/kevin-croom"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1522,
+  "elo_peak": 1522
+}

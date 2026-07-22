@@ -1,0 +1,225 @@
+{
+  "slug": "bkfc-fight-night-manchester-2025-03-29",
+  "name": "BKFC Fight Night Manchester: Chipchase vs. Fox",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2025-03-29T20:00:00Z",
+  "venue": "Planet Ice",
+  "city": "Altrincham",
+  "state": null,
+  "country": "England",
+  "country_code": "GB",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "gary-fox",
+      "fighter_b_slug": "jonno-chipchase",
+      "title_fight": true,
+      "title_name": "BKFC UK Featherweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "gary-fox",
+        "method": "TKO",
+        "round": 1,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "jack-cullen",
+      "fighter_b_slug": "jakub-kosicki",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jack-cullen",
+        "method": "TKO (doctor stoppage)",
+        "round": 1,
+        "time": "1:24"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "conor-cooke",
+      "fighter_b_slug": "stevie-taylor",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "conor-cooke",
+        "method": "KO",
+        "round": 1,
+        "time": "1:01"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "gaz-corran",
+      "fighter_b_slug": "dawid-chylinski",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "gaz-corran",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:20"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "matty-hodgson",
+      "fighter_b_slug": "danny-moir",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "matty-hodgson",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:30"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "bartlomiej-krol",
+      "fighter_b_slug": "simeon-otley",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bartlomiej-krol",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "dec-spelman",
+      "fighter_b_slug": "tomas-lejsek",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dec-spelman",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "dawid-oscar",
+      "fighter_b_slug": "stanoy-tabakov",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dawid-oscar",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:26"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "danny-mitchell",
+      "fighter_b_slug": "benjamin-lowe",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "danny-mitchell",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "leigh-cohoon",
+      "fighter_b_slug": "jimmy-mccrory",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "leigh-cohoon",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:53"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "liam-dooley",
+      "fighter_b_slug": "david-round",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "liam-dooley",
+        "method": "KO",
+        "round": 1,
+        "time": "0:14"
+      }
+    },
+    {
+      "order": 12,
+      "card_position": "Prelim",
+      "weight_class": "Women's Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "sinead-ni-nuallain",
+      "fighter_b_slug": "mathilda-wilson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "sinead-ni-nuallain",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

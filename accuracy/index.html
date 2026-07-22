@@ -1,0 +1,2857 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <title>PropsBot BKFC Model Accuracy — Live Results Ledger</title>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preconnect" href="https://bkfc-cdn.gigcasters.com" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../assets/fonts/inter-400.woff2" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../assets/fonts/inter-700.woff2" />
+  <link rel="stylesheet" href="../assets/css/fonts.css" />
+
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="apple-touch-icon" href="../assets/img/icons/apple-touch-icon.png">
+  <meta name="theme-color" content="#070e1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BKFC">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Running ledger of our BKFC prediction accuracy on live events. Model accuracy, market accuracy, head-to-head results, CLV capture. Updated after every event." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://bkfc.propsbot.ai/accuracy/" />
+  <meta name="author" content="PropsBot AI" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bkfc.propsbot.ai/accuracy/" />
+  <meta property="og:title" content="PropsBot BKFC Model Accuracy Ledger" />
+  <meta property="og:description" content="Running ledger of our BKFC prediction accuracy on live events. Model accuracy, market accuracy, head-to-head results, CLV capture. Updated after every event." />
+  <meta property="og:image" content="https://propsbot.ai/wp-content/uploads/2024/01/propsbot-og.png" />
+  <meta property="og:site_name" content="PropsBot BKFC" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@PropsBot_AI" />
+  <meta name="twitter:title" content="PropsBot BKFC Model Accuracy Ledger" />
+  <meta name="twitter:description" content="Running ledger of our BKFC prediction accuracy on live events. Model accuracy, market accuracy, head-to-head results, CLV capture. Updated after every event." />
+  <meta name="twitter:image" content="https://propsbot.ai/wp-content/uploads/2024/01/propsbot-og.png" />
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"PropsBot BKFC Model Accuracy","description":"Running ledger of our BKFC prediction accuracy on live events. Per-bout model picks, market picks, actual results, and CLV capture.","url":"https://bkfc.propsbot.ai/accuracy/","license":"https://creativecommons.org/licenses/by/4.0/","creator":{"@id":"https://bkfc.propsbot.ai/#publisher"},"author":{"@id":"https://bkfc.propsbot.ai/about/#author"},"publisher":{"@id":"https://bkfc.propsbot.ai/#publisher"},"dateModified":"2026-07-21T12:42:57.357Z","temporalCoverage":"2026-04/..","variableMeasured":["Model pick","Actual winner","Confidence tier","Predictability","Edge","CLV"],"distribution":[{"@type":"DataDownload","encodingFormat":"application/x-ndjson","contentUrl":"https://bkfc.propsbot.ai/data/reconciliation.jsonl"}]}</script>
+
+  
+  <link rel="stylesheet" href="../assets/css/tailwind.css" />
+  <link rel="stylesheet" href="../assets/css/site.css" />
+</head>
+<body class="h-full text-slate-100 min-h-screen">
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <nav class="glass sticky top-0 z-40 border-b border-white/5" aria-label="Primary">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between gap-2 sm:gap-3">
+      <!-- Brand mark: stylized knuckle glyph in brand gradient + wordmark.
+           Tap target is the full anchor including hidden text. -->
+      <a href="../" class="brand-mark flex items-center gap-2.5 flex-shrink-0 min-w-0 py-1 -my-1" style="min-height:44px" aria-label="PropsBot Bare Knuckle — home">
+        <svg class="brand-glyph" width="34" height="34" viewBox="0 0 40 40" aria-hidden="true">
+          <defs>
+            <linearGradient id="bm-grad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#ff1552"/>
+              <stop offset="100%" stop-color="#f0c040"/>
+            </linearGradient>
+          </defs>
+          <rect x="1" y="1" width="38" height="38" rx="9" fill="url(#bm-grad)"/>
+          <!-- Bare-knuckle fist silhouette -->
+          <g fill="#070e1a">
+            <path d="M12 14.5c0-1.1.9-2 2-2s2 .9 2 2v5h1v-6.5c0-1.1.9-2 2-2s2 .9 2 2V19h1v-5.8c0-1.1.9-2 2-2s2 .9 2 2V19h1v-4.5c0-1.1.9-2 2-2s2 .9 2 2V22c0 5.5-4.5 10-10 10h-1c-5 0-9-4-9-9v-3.5l-2-1.5c-.9-.7-1-2-.3-2.9.7-.9 2-1 2.9-.3L12 16.3z"/>
+          </g>
+        </svg>
+        <div class="hidden sm:block min-w-0">
+          <div class="text-sm font-black tracking-tight leading-tight truncate" style="letter-spacing:-0.01em">PropsBot <span class="brand-gradient">BKFC</span></div>
+          <div class="text-[9px] text-white/40 mono uppercase tracking-[0.18em]">Bare Knuckle Intelligence</div>
+        </div>
+      </a>
+
+      <!-- League tabs — ALWAYS visible, even on mobile. 44px tall (iOS HIG min). -->
+      <div class="inline-flex items-center rounded-lg border border-white/10 overflow-hidden text-[11px] sm:text-xs font-bold mono uppercase tracking-wider flex-shrink-0" style="min-height:44px">
+        <a href="../" class="px-3 sm:px-3.5 text-pb-teal bg-pb-teal/10 border-r border-white/10 hover:bg-pb-teal/20 transition inline-flex items-center" style="min-height:44px">BKFC</a>
+        <a href="../bkb/" class="px-3 sm:px-3.5 text-pb-purple bg-pb-purple/5 hover:bg-pb-purple/15 transition inline-flex items-center" style="min-height:44px">BKB</a>
+      </div>
+
+      <div class="flex items-center gap-1.5 sm:gap-3 md:gap-4 text-xs flex-shrink-0">
+        <!-- Picks + Research shown on tablet/desktop. Mobile uses bottom tab bar. -->
+        <a href="../picks/" class="hidden sm:inline-flex items-center gap-1.5 px-3 rounded-md bg-pb-teal/10 border border-pb-teal/30 text-pb-teal hover:bg-pb-teal/20 hover:text-white transition font-bold mono uppercase tracking-wider text-xs" style="min-height:44px" aria-label="All edge picks">
+          <span aria-hidden="true">★</span> Picks
+        </a>
+        <a href="../card/" class="hidden sm:inline-flex items-center gap-1.5 px-3 rounded-md bg-pb-red/10 border border-pb-red/30 text-pb-red hover:bg-pb-red/20 hover:text-white transition font-bold mono uppercase tracking-wider text-xs" style="min-height:44px" aria-label="Current event research">
+          <span class="w-1.5 h-1.5 rounded-full bg-pb-red animate-pulse" aria-hidden="true"></span> Research
+        </a>
+        <a href="../events/" class="hidden lg:inline text-white/60 hover:text-pb-teal transition">Events</a>
+        <a href="../fighters/" class="hidden lg:inline text-white/60 hover:text-pb-teal transition">Fighters</a>
+        <a href="../divisions/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Divisions</a>
+        <a href="../compare/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Compare</a>
+        <a href="../accuracy/" class="hidden lg:inline-flex items-center gap-1 text-pb-teal/80 hover:text-pb-teal transition font-semibold" title="Live model vs market accuracy ledger"><span class="w-1.5 h-1.5 rounded-full bg-pb-teal animate-pulse" aria-hidden="true"></span> Accuracy</a>
+        <a href="../guide/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">Guides</a>
+        <a href="../faq/" class="hidden xl:inline text-white/60 hover:text-pb-teal transition">FAQ</a>
+        <!-- Menu button for mobile -->
+        <button id="mobile-menu-btn" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-md border border-white/10 text-white/60 hover:text-pb-teal hover:border-pb-teal/40 transition" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu" onclick="const m=document.getElementById('mobile-menu'); const o=!m.classList.toggle('hidden'); this.setAttribute('aria-expanded', o?'true':'false')">
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 3h12v2H2V3zm0 4h12v2H2V7zm0 4h12v2H2v-2z"/></svg>
+        </button>
+        <a href="https://propsbot.ai" class="hidden sm:inline text-pb-teal hover:text-white transition font-semibold whitespace-nowrap">PropsBot.AI →</a>
+      </div>
+    </div>
+    <!-- Mobile dropdown menu -->
+    <div id="mobile-menu" class="lg:hidden hidden border-t border-white/10 bg-black/40 backdrop-blur" role="region" aria-label="Mobile menu">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-2 text-sm">
+        <a href="../picks/" class="text-pb-teal hover:text-white transition py-1 font-semibold">★ All Picks — Edge Board</a>
+        <a href="../events/" class="text-white/80 hover:text-pb-teal transition py-1">Events</a>
+        <a href="../fighters/" class="text-white/80 hover:text-pb-teal transition py-1">Fighters</a>
+        <a href="../divisions/" class="text-white/80 hover:text-pb-teal transition py-1">Divisions</a>
+        <a href="../champions/" class="text-white/80 hover:text-pb-teal transition py-1">Champions</a>
+        <a href="../compare/" class="text-white/80 hover:text-pb-teal transition py-1">Compare Fighters</a>
+        <a href="../accuracy/" class="text-white/80 hover:text-pb-teal transition py-1">Model Accuracy</a>
+        <a href="../guide/" class="text-white/80 hover:text-pb-teal transition py-1">Guides</a>
+        <a href="../faq/" class="text-white/80 hover:text-pb-teal transition py-1">FAQ</a>
+        <a href="../about/" class="text-white/80 hover:text-pb-teal transition py-1">About</a>
+        <a href="../results/" class="text-white/80 hover:text-pb-teal transition py-1">Results</a>
+        <a href="https://propsbot.ai" class="text-pb-teal hover:text-white transition font-semibold py-1 border-t border-white/10 mt-1 pt-3">PropsBot.AI — Player Props →</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main" tabindex="-1">
+
+
+    <header class="max-w-4xl mx-auto px-4 sm:px-6 pt-10 pb-6 research-hero relative">
+      <nav class="text-xs text-white/40 mono mb-4 relative z-10">
+        <a href="../" class="hover:text-pb-teal transition">Home</a>
+        <span class="mx-2">/</span>
+        <span class="text-white/60">Model accuracy</span>
+      </nav>
+      <div class="relative z-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pb-teal/10 border border-pb-teal/30 text-pb-teal text-xs font-semibold mono uppercase tracking-wider mb-4">
+          <span class="pulse-dot"></span> Live Accuracy
+        </div>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">Model vs Market, Real Picks, Real Outcomes</h1>
+        <div class="author-byline mono text-xs text-white/50 mb-3">By <a href="../about/#author" class="text-pb-teal hover:text-white">David</a>, PropsBot.AI · Updated <time datetime="2026-07-21">2026-07-21</time></div>
+        <p class="text-white/85 text-base mt-3 max-w-2xl leading-relaxed"><strong class="text-white">PropsBot BKFC's prediction model has hit 73.1% accuracy across 52 live-logged BKFC picks (as of July 2026), outperforming the closing market line.</strong> Every prediction is time-stamped before the fight — no cherry-picking, no revisions.</p>
+        <p class="text-white/65 text-sm mt-3 max-w-2xl">We log every live prediction against its actual result. This page updates automatically after each event — a public ledger of the model's real-world performance.</p>
+      </div>
+    </header>
+
+    
+      <section class="max-w-4xl mx-auto px-4 sm:px-6 py-6">
+        <div class="cred-stats">
+          <div class="cred-stat">
+            <div class="cred-value">73.1<span class="pp">%</span></div>
+            <div class="cred-label">Model accuracy</div>
+            <div class="cred-sub">52 live picks</div>
+          </div>
+          <div class="cred-stat">
+            <div class="cred-value">79.3<span class="pp">%</span></div>
+            <div class="cred-label">Market accuracy</div>
+            <div class="cred-sub">29 de-vigged ref picks</div>
+          </div>
+          <div class="cred-stat">
+            <div class="cred-value">0.0<span class="pp">pp</span></div>
+            <div class="cred-label">Avg CLV</div>
+            <div class="cred-sub">2/5 bouts captured positive CLV</div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="max-w-4xl mx-auto px-4 sm:px-6 pb-6">
+        <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">Head-to-Head · 29 co-logged picks</h2>
+        <div class="glass rounded-2xl p-5">
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+            <div>
+              <div class="text-2xl font-black mono text-pb-teal">21</div>
+              <div class="text-xs mono text-white/50 uppercase mt-1">Both right</div>
+            </div>
+            <div>
+              <div class="text-2xl font-black mono text-pb-teal">3</div>
+              <div class="text-xs mono text-white/50 uppercase mt-1">Model only</div>
+            </div>
+            <div>
+              <div class="text-2xl font-black mono text-pb-red">2</div>
+              <div class="text-xs mono text-white/50 uppercase mt-1">Market only</div>
+            </div>
+            <div>
+              <div class="text-2xl font-black mono text-white/50">3</div>
+              <div class="text-xs mono text-white/50 uppercase mt-1">Both wrong</div>
+            </div>
+          </div>
+          <p class="text-xs text-white/50 mono mt-4 text-center">
+            <strong class="text-pb-teal">Model beats market on contested picks 3-2.</strong>
+          </p>
+        </div>
+      </section>
+      
+
+      <section class="max-w-4xl mx-auto px-4 sm:px-6 pb-6">
+        <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">Accuracy by Confidence Tier</h2>
+        <div class="glass rounded-2xl p-5">
+          <div class="grid sm:grid-cols-4 gap-3">
+            
+              <div>
+                <div class="text-xs mono text-white/50 uppercase mb-1">High</div>
+                <div class="font-mono"><span class="text-2xl font-black text-white">100%</span> <span class="text-xs text-white/40">(2/2)</span></div>
+              </div>
+            
+              <div>
+                <div class="text-xs mono text-white/50 uppercase mb-1">Medium</div>
+                <div class="font-mono"><span class="text-2xl font-black text-white">60%</span> <span class="text-xs text-white/40">(3/5)</span></div>
+              </div>
+            
+              <div>
+                <div class="text-xs mono text-white/50 uppercase mb-1">Low</div>
+                <div class="font-mono"><span class="text-2xl font-black text-white">71%</span> <span class="text-xs text-white/40">(12/17)</span></div>
+              </div>
+            
+              <div>
+                <div class="text-xs mono text-white/50 uppercase mb-1">Very Low</div>
+                <div class="font-mono"><span class="text-2xl font-black text-white">75%</span> <span class="text-xs text-white/40">(21/28)</span></div>
+              </div>
+            
+          </div>
+          <p class="text-[10px] mono text-white/40 mt-4">Higher-confidence picks should hit more often. If High ≤ Medium ≤ Low, the model's self-calibration is broken — alert.</p>
+        </div>
+      </section>
+
+      <section class="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
+        <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">Recent Events — click to expand</h2>
+        <div class="space-y-2">
+          
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">bkfc-naples</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Jul 17, 2026</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">12</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-teal">8/12</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">6/12</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Antonio Moscatiello</strong> vs <strong>Guglielmo Gicco</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Guglielmo Gicco</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Guglielmo Gicco</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Marco Saccaro</strong> vs <strong>Cristian Brinzan</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Cristian Brinzan</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Cristian Brinzan</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Pawel Werszynin</strong> vs <strong>Ramy Elsayes</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Ramy Elsayes</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Pawel Werszynin</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Cristian Sabbatini</strong> vs <strong>Charli Marta</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Charli Marta</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Cristian Sabbatini</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Andrea Bicchi</strong> vs <strong>Leonardo Damiani</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Leonardo Damiani</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 56%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Leonardo Damiani</span>
+                            <span class="accuracy-bout-sub mono">TKO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Marco  Giustarini</strong> vs <strong>Dan Chapman</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Dan Chapman</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 62%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Dan Chapman</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Gianni Melillo</strong> vs <strong>Dawid Chylinski</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Dawid Chylinski</span>
+                            <span class="accuracy-bout-sub mono">Low · 51%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Gianni Melillo</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Dominik Herold</strong> vs <strong>Arbi Chakaev</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Dominik Herold</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 68%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Arbi Chakaev</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Jimmy Sweeney</strong> vs <strong>Nicholas Vescio</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Jimmy Sweeney</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 59%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Jimmy Sweeney</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Tomas Melis</strong> vs <strong>Toni Estorer</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Tomas Melis</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Tomas Melis</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Ernesto Papa</strong> vs <strong>Jindrich Byrtus</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Jindrich Byrtus</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 55%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Jindrich Byrtus</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Lorenzo Hunt</strong> vs <strong>Walter Pugliesi</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Lorenzo Hunt</span>
+                            <span class="accuracy-bout-sub mono">Low · 71%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Lorenzo Hunt</span>
+                            <span class="accuracy-bout-sub mono">KO · R4</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/bkfc-naples/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">BKFC Fight Night Hollywood: Lane vs. Henry</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Jun 4, 2026</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">1</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-teal">1/1</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">1/1</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Julian Lane</strong> vs <strong>Bryce Henry</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Bryce Henry</span>
+                            <span class="accuracy-bout-sub mono">Low · 67%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Bryce Henry</span>
+                            <span class="accuracy-bout-sub mono">Disqualification · R4</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/bkfc-fight-night-hollywood/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">BKFC 90 Birmingham: Tierney vs. Franco</span>
+                    </div>
+                    <div class="accuracy-event-date mono">May 30, 2026</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">7</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-teal">6/7</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">6/7</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Tommy Hawthorn</strong> vs <strong>Will Smith</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Tommy Hawthorn</span>
+                            <span class="accuracy-bout-sub mono">Low · 59%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Tommy Hawthorn</span>
+                            <span class="accuracy-bout-sub mono">TKO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Paul O&#39;Sullivan</strong> vs <strong>Paul Hilz</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Paul O&#39;Sullivan</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 59%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Paul O&#39;Sullivan</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>George Thorpe</strong> vs <strong>Leigh Cohoon</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">George Thorpe</span>
+                            <span class="accuracy-bout-sub mono">Medium · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">George Thorpe</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Nathan Leeson</strong> vs <strong>Stevie Devenport</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Nathan Leeson</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 51%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Nathan Leeson</span>
+                            <span class="accuracy-bout-sub mono">TKO · R4</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Jonno Chipchase</strong> vs <strong>Brian Hyslop</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Jonno Chipchase</span>
+                            <span class="accuracy-bout-sub mono">Low · 54%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Brian Hyslop</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>John Phillips</strong> vs <strong>Ryan Barrett</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">John Phillips</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 74%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">John Phillips</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Connor Tierney</strong> vs <strong>Rico Franco</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Rico Franco</span>
+                            <span class="accuracy-bout-sub mono">Low · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Rico Franco</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/bkfc-90-birmingham/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">BKFC 89 Palm Desert: Herring vs. Maness</span>
+                    </div>
+                    <div class="accuracy-event-date mono">May 23, 2026</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">5</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-teal">3/5</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">1/5</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Iman Williams</strong> vs <strong>Cody Kerr</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Iman Williams</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 73%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Iman Williams</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Keith Richardson</strong> vs <strong>Devon Schwan</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Keith Richardson</span>
+                            <span class="accuracy-bout-sub mono">Low · 62%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Keith Richardson</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Evgenii Kurdanov</strong> vs <strong>Eric Lopez</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Evgenii Kurdanov</span>
+                            <span class="accuracy-bout-sub mono">Low · 80%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Evgenii Kurdanov</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>David Diaz</strong> vs <strong>Anthony Sanchez</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">David Diaz</span>
+                            <span class="accuracy-bout-sub mono">Low · 71%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Anthony Sanchez</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Cody Vidal</strong> vs <strong>Jomi Escoboza</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Jomi Escoboza</span>
+                            <span class="accuracy-bout-sub mono">Medium · 65%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Cody Vidal</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/bkfc-89-palm-desert/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">BLOOD 4 BLOOD</span>
+                    </div>
+                    <div class="accuracy-event-date mono">May 6, 2026</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">1</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-teal">1/1</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">1/1</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Jake Bostwick</strong> vs <strong>Roderick Stewart</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Jake Bostwick</span>
+                            <span class="accuracy-bout-sub mono">Low · 60%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Jake Bostwick</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/blood-4-blood-daytona/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">BKFC Fight Night Clearwater: Gaskins vs Guymon</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Apr 24, 2026</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">7</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-teal">5/7</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">5/7</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Thomas Jungles</strong> vs <strong>Anthony Grubbs</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Anthony Grubbs</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Anthony Grubbs</span>
+                            <span class="accuracy-bout-sub mono">KO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Terry Williams</strong> vs <strong>Bolo Carthon</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Bolo Carthon</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Terry Williams</span>
+                            <span class="accuracy-bout-sub mono">KO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Frankie Solomon</strong> vs <strong>Rickie McConnico</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Frankie Solomon</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 53%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Frankie Solomon</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Brandon Allen</strong> vs <strong>Lukas Jones</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Brandon Allen</span>
+                            <span class="accuracy-bout-sub mono">Low · 66%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Brandon Allen</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Mike Heckert</strong> vs <strong>Justin Walters</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Mike Heckert</span>
+                            <span class="accuracy-bout-sub mono">Low · 68%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Mike Heckert</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Royal Ryan Reber</strong> vs <strong>Joshua Oxendine</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Joshua Oxendine</span>
+                            <span class="accuracy-bout-sub mono">Medium · 55%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Royal Ryan Reber</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Quentin Gaskins</strong> vs <strong>Matt Guymon</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Quentin Gaskins</span>
+                            <span class="accuracy-bout-sub mono">Low · 63%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Quentin Gaskins</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/bkfc-fight-night-clearwater-gaskins-guymon/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">BKFC Fight Night Australia: Hepi vs Wiśniewski 2</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Apr 18, 2026</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">10</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-teal">6/10</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">0/10</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Darcy Braine</strong> vs <strong>Ritchie Fa&#39;oso</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Darcy Braine</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 61%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Darcy Braine</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Sebastian Temesi</strong> vs <strong>Alvin Kanehailua</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Alvin Kanehailua</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Sebastian Temesi</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Chris Drummond</strong> vs <strong>Asher Jack</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Asher Jack</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 51%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Asher Jack</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Patrick Tolone</strong> vs <strong>Fetongi Tuinauvai</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Patrick Tolone</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 65%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Fetongi Tuinauvai</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Cooper Clarke</strong> vs <strong>Ryan Winnett</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Cooper Clarke</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 55%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Ryan Winnett</span>
+                            <span class="accuracy-bout-sub mono">TKO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Luke Bampton</strong> vs <strong>Hunter Ioane</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Hunter Ioane</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 58%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Hunter Ioane</span>
+                            <span class="accuracy-bout-sub mono">KO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Brayden Marzona</strong> vs <strong>Boaz Kapua</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Boaz Kapua</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 56%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Boaz Kapua</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Josh Kuhne</strong> vs <strong>Mick Whitehead</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Josh Kuhne</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 59%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Josh Kuhne</span>
+                            <span class="accuracy-bout-sub mono">TKO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Mark Flanagan</strong> vs <strong>Dilan Prasovic</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Dilan Prasovic</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 55%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Dilan Prasovic</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Haze Hepi</strong> vs <strong>Krzysztof Wiśniewski</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Krzysztof Wiśniewski</span>
+                            <span class="accuracy-bout-sub mono">Low · 53%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Haze Hepi</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/bkfc-fight-night-australia-townsville/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">BKFC 88 Denver: Camozzi vs. Rodriguez</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Apr 17, 2026</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">9</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-teal">8/9</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">3/9</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Matt Maestas</strong> vs <strong>Ruben Arroyo</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Matt Maestas</span>
+                            <span class="accuracy-bout-sub mono">Medium · 65%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Matt Maestas</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Angelo Trujillo</strong> vs <strong>Anthony Yost</strong></span>
+                          <span class="result-loss">✗</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Angelo Trujillo</span>
+                            <span class="accuracy-bout-sub mono">Low · 55%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Anthony Yost</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Octavion Turner</strong> vs <strong>Joby Steffensmeier</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Octavion Turner</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 56%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Octavion Turner</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Deron Winn</strong> vs <strong>Erick Lozano</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Deron Winn</span>
+                            <span class="accuracy-bout-sub mono">Low · 56%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Deron Winn</span>
+                            <span class="accuracy-bout-sub mono">TKO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Andrew Yates</strong> vs <strong>Rodney Hinton</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Rodney Hinton</span>
+                            <span class="accuracy-bout-sub mono">Low · 61%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Rodney Hinton</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Josh Fremd</strong> vs <strong>Jared Torgenson</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Josh Fremd</span>
+                            <span class="accuracy-bout-sub mono">Very Low · 70%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Josh Fremd</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Josh Copeland</strong> vs <strong>Corey Willis</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Corey Willis</span>
+                            <span class="accuracy-bout-sub mono">Medium · 50%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Corey Willis</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Ramiro Figueroa</strong> vs <strong>Elvin Brito</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Ramiro Figueroa</span>
+                            <span class="accuracy-bout-sub mono">High · 65%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Ramiro Figueroa</span>
+                            <span class="accuracy-bout-sub mono">Unanimous Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Chris Camozzi</strong> vs <strong>Esteban Rodriguez</strong></span>
+                          <span class="result-win">✓</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value">Esteban Rodriguez</span>
+                            <span class="accuracy-bout-sub mono">High · 54%</span>
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Esteban Rodriguez</span>
+                            <span class="accuracy-bout-sub mono">KO · R4</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/bkfc-88-denver/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkb">BKB</span>
+                      <span class="accuracy-event-name">BKB 44: Denver Brawl V</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Aug 16, 2025</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">9</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-red/80">0/9</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">0/9</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Matthew Maestas</strong> vs <strong>Austin Spivey</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Austin Spivey</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Miranda Barber</strong> vs <strong>Kat Connor</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Kat Connor</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Zion Tomlinson</strong> vs <strong>Bubba McDaniel</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Zion Tomlinson</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Brandon Desrosier</strong> vs <strong>George Martinez</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">George Martinez</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Michael Santos</strong> vs <strong>Tommy Turner</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Michael Santos</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Julian Fernandez</strong> vs <strong>Kevin Greenwood</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Julian Fernandez</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Alberto Blas</strong> vs <strong>Ruel Panales</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Alberto Blas</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Henry Williams</strong> vs <strong>Javon Wright</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Henry Williams</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Paty Juarez</strong> vs <strong>Khortni Kamyron</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Paty Juarez</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../bkb/events/bkb-44-denver-brawl-v/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkb">BKB</span>
+                      <span class="accuracy-event-name">BKB 43: Bolton Brawl</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Jul 5, 2025</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">11</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-red/80">0/11</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">0/11</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Hayden Sherriff</strong> vs <strong>Liam McElhinney</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Liam McElhinney</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Troy Palmer</strong> vs <strong>Gareth Heyes</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Troy Palmer</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>David Winiarski</strong> vs <strong>Bogdan Suru</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">David Winiarski</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Dorian Darch</strong> vs <strong>Tyrone Eliffe</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Tyrone Eliffe</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Reece Murray</strong> vs <strong>Joe Morgan</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Joe Morgan</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Alex Wilson</strong> vs <strong>Braidie Harkett</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Alex Wilson</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Aaron McCallum</strong> vs <strong>Luke Smith</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Aaron McCallum</span>
+                            <span class="accuracy-bout-sub mono">TKO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Dan Gittens</strong> vs <strong>Harvey Dossett</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Dan Gittens</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Dan McGraffin</strong> vs <strong>Robert Koky</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Robert Koky</span>
+                            <span class="accuracy-bout-sub mono">DQ · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Scott McHugh</strong> vs <strong>Liam Howell</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Scott McHugh</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Harry Gigliotti</strong> vs <strong>Kallum Skhane</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Harry Gigliotti</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../bkb/events/bkb-43-bolton-brawl/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkb">BKB</span>
+                      <span class="accuracy-event-name">BKB 42: Music City Brawl</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Jun 21, 2025</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">8</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-red/80">0/8</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">0/8</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Caleb Austin</strong> vs <strong>Nate Williams</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Caleb Austin</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Luis Guerrero</strong> vs <strong>Luis Morales</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Luis Guerrero</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Jarome Hatch</strong> vs <strong>Cody Terry East</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Jarome Hatch</span>
+                            <span class="accuracy-bout-sub mono">Decision · R4</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Marko Martinjak</strong> vs <strong>Maurice Morris</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Marko Martinjak</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Ike Villanueva</strong> vs <strong>Eric Olsen</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Ike Villanueva</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Jamie Driver</strong> vs <strong>Helen Peralta</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Jamie Driver</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Javon Wright</strong> vs <strong>Carlos Guerra</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Javon Wright</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>LT Nelson</strong> vs <strong>Sam Liera</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">LT Nelson</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../bkb/events/bkb-42-music-city-brawl/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkb">BKB</span>
+                      <span class="accuracy-event-name">BKB 41: Brawl in Duval II</span>
+                    </div>
+                    <div class="accuracy-event-date mono">May 31, 2025</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">8</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-red/80">0/8</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">0/8</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Jose Fernandez</strong> vs <strong>Jordan Nash</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Jose Fernandez</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Tommy Aaron</strong> vs <strong>Ryan Jett</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Tommy Aaron</span>
+                            <span class="accuracy-bout-sub mono">KO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Joshua Sikes</strong> vs <strong>Rusty Crowder</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Joshua Sikes</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Lailane Mota</strong> vs <strong>Monica Medina</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Lailane Mota</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>DJ Linderman</strong> vs <strong>Jamal Woods</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">DJ Linderman</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Yampier Ramirez</strong> vs <strong>Brandon Birr</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Yampier Ramirez</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Robert Duran Jr</strong> vs <strong>Rolando Dy</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Rolando Dy</span>
+                            <span class="accuracy-bout-sub mono">TKO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Jarod Grant</strong> vs <strong>Jorge Bargallo</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Jarod Grant</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../bkb/events/bkb-41-brawl-in-duval-ii/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkb">BKB</span>
+                      <span class="accuracy-event-name">BKB 40: Cardiff Brawl III</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Apr 19, 2025</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">11</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-red/80">0/11</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">0/11</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Geraint Goodridge</strong> vs <strong>Frankie Curry</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Geraint Goodridge</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Nicky Potts</strong> vs <strong>Will Dermietzel</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Will Dermietzel</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Anthony Scotford</strong> vs <strong>Aaron Ashton</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Anthony Scotford</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Dorian Darch</strong> vs <strong>Tony Barratt</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Dorian Darch</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Daniel Lerwell</strong> vs <strong>Danny Worsfold</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Daniel Lerwell</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Martin McDonough</strong> vs <strong>Marcin Kosiak</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Martin McDonough</span>
+                            <span class="accuracy-bout-sub mono">TKO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Ash Williams</strong> vs <strong>Callum Nulty</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Ash Williams</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Keiron Harding</strong> vs <strong>Robert Koky</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Keiron Harding</span>
+                            <span class="accuracy-bout-sub mono">KO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Tyler Goodjohn</strong> vs <strong>Joe Smith</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Tyler Goodjohn</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Dan Podmore</strong> vs <strong>Emil Markic</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Dan Podmore</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Liam Rees</strong> vs <strong>Martin Reffell</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Liam Rees</span>
+                            <span class="accuracy-bout-sub mono">Decision · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../bkb/events/bkb-40-cardiff-brawl-iii/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">BKFC 72 Dubai Day 2: Stewart vs. Strydom</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Apr 5, 2025</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">7</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-red/80">0/7</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">0/7</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Hasan Yousefi</strong> vs <strong>Guto Inocente</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Hasan Yousefi</span>
+                            <span class="accuracy-bout-sub mono">Decision (unanimous) · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Aaron Chalmers</strong> vs <strong>Chas Symonds</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Aaron Chalmers</span>
+                            <span class="accuracy-bout-sub mono">TKO (left hook) · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>John Phillips</strong> vs <strong>Fabio Maldonado</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">John Phillips</span>
+                            <span class="accuracy-bout-sub mono">KO (punch) · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Vlad Tuinov</strong> vs <strong>Sabri Ben Henia</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Vlad Tuinov</span>
+                            <span class="accuracy-bout-sub mono">TKO (punches) · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Nico Gaffie</strong> vs <strong>Brandon Allen</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Nico Gaffie</span>
+                            <span class="accuracy-bout-sub mono">TKO · R4</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Jessica Borga</strong> vs <strong>Hannah Rankin</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Jessica Borga</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Kai Stewart</strong> vs <strong>Tommy Strydom</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Kai Stewart</span>
+                            <span class="accuracy-bout-sub mono">Decision (unanimous) · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/bkfc-72/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+              <details class="accuracy-event glass rounded-xl border border-white/5">
+                <summary class="accuracy-event-summary">
+                  <div class="accuracy-event-head">
+                    <div class="accuracy-event-title">
+                      <span class="league-tag bkfc">BKFC</span>
+                      <span class="accuracy-event-name">BKFC 71 Dubai Day 1: Trout vs. Trinidad-Snake</span>
+                    </div>
+                    <div class="accuracy-event-date mono">Apr 4, 2025</div>
+                  </div>
+                  <div class="accuracy-event-stats">
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Bouts</span>
+                      <span class="accuracy-stat-value">11</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Model</span>
+                      <span class="accuracy-stat-value text-pb-red/80">0/11</span>
+                    </div>
+                    <div class="accuracy-stat">
+                      <span class="accuracy-stat-label">Market</span>
+                      <span class="accuracy-stat-value text-white/70">0/11</span>
+                    </div>
+                    <span class="accuracy-chevron" aria-hidden="true">▾</span>
+                  </div>
+                </summary>
+                <div class="accuracy-event-body">
+                  
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Islam Siszbulatow</strong> vs <strong>Cheng Leang</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Islam Siszbulatow</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Elnur Suleymanov</strong> vs <strong>Lucas Sontgen</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Elnur Suleymanov</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Mahmoud Ahmed</strong> vs <strong>Fuad Tarverdi</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Mahmoud Ahmed</span>
+                            <span class="accuracy-bout-sub mono">Decision (unanimous) · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Mohamed Aly</strong> vs <strong>Jaskaran Singh</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Mohamed Aly</span>
+                            <span class="accuracy-bout-sub mono">TKO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Mladen Iliev</strong> vs <strong>Aboubkeur Houari</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Mladen Iliev</span>
+                            <span class="accuracy-bout-sub mono">KO · R2</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Ahmed Khairy</strong> vs <strong>Leandro Martins</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Ahmed Khairy</span>
+                            <span class="accuracy-bout-sub mono">TKO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Adel Altamimi</strong> vs <strong>David Mora</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Adel Altamimi</span>
+                            <span class="accuracy-bout-sub mono">KO · R3</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Geronimo dos Santos</strong> vs <strong>Aleksei Oleinik</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Geronimo dos Santos</span>
+                            <span class="accuracy-bout-sub mono">KO · R1</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Jonny Tello</strong> vs <strong>Sabah Homasi</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Jonny Tello</span>
+                            <span class="accuracy-bout-sub mono">Decision (unanimous) · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Britain Hart</strong> vs <strong>Tai Emery</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Britain Hart</span>
+                            <span class="accuracy-bout-sub mono">Decision (unanimous) · R5</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accuracy-bout">
+                        <div class="accuracy-bout-head">
+                          <span class="accuracy-bout-matchup"><strong>Austin Trout</strong> vs <strong>Carlos Trinidad-Snake</strong></span>
+                          <span class="result-none">—</span>
+                        </div>
+                        <div class="accuracy-bout-grid">
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Our pick</span>
+                            <span class="accuracy-bout-value"><em class="text-white/40">No pick</em></span>
+                            
+                          </div>
+                          <div class="accuracy-bout-col">
+                            <span class="accuracy-bout-label">Winner</span>
+                            <span class="accuracy-bout-value">Austin Trout</span>
+                            <span class="accuracy-bout-sub mono">Decision (split) · R6</span>
+                          </div>
+                        </div>
+                      </div>
+                  <a href="../events/bkfc-71/" class="accuracy-event-link">Full event page →</a>
+                </div>
+              </details>
+        </div>
+      </section>
+
+      <section class="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
+        <div class="methodology">
+          <h3>How this page stays honest</h3>
+          <p>Every completed bout gets logged to <code>data/reconciliation.jsonl</code> via <code>scripts/reconcile.mjs</code> within hours of the event ending. The log captures the prediction snapshot (Advantage Score, Predictability, confidence tier) as of the last pre-fight odds refresh, plus the actual winner/method/round from authoritative sources, plus CLV (opening line vs closing line movement toward our pick).</p>
+          <p>The numbers above are computed fresh on every site build from that append-only log. We don't edit past records. If the model is wrong, the loss shows up here immediately.</p>
+          <p>Compare these live numbers to our <a href="../guide/methodology/">backtest accuracy</a> (59.8% on 325 historical bouts). If the two diverge materially — live accuracy significantly below backtest — we'd recalibrate weights.</p>
+        </div>
+      </section>
+    
+  </main>
+  <footer class="border-t border-white/5 py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <!-- Prominent PropsBot.AI promo banner -->
+      <a href="https://propsbot.ai" class="block mb-6 group glass rounded-2xl p-5 border border-pb-teal/30 hover:border-pb-teal/60 transition">
+        <div class="flex items-center justify-between gap-4 flex-wrap">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-pb-red to-pb-gold flex items-center justify-center font-bold mono text-black text-sm flex-shrink-0">PB</div>
+            <div>
+              <div class="text-white font-bold text-sm sm:text-base">Get player props for NBA, NHL, MLB &amp; NFL</div>
+              <div class="text-white/60 text-xs sm:text-sm mt-0.5">PropsBot.AI — data-driven daily player prop picks. 30% ROI across 50k+ bets.</div>
+            </div>
+          </div>
+          <span class="text-pb-teal text-sm mono font-semibold group-hover:translate-x-1 transition flex-shrink-0">Try PropsBot.AI →</span>
+        </div>
+      </a>
+
+      <!-- Newsletter signup removed pending BKFC-specific Elastic Email list
+           setup. Parent-site cross-promo above handles email intent. -->
+
+<div class="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/70">
+        <div class="text-center sm:text-left">
+          Data from <a href="https://www.bkfc.com" class="footer-link text-white/60 hover:text-pb-teal transition">BKFC.com</a> and <a href="https://en.wikipedia.org" class="footer-link text-white/60 hover:text-pb-teal transition">Wikipedia</a>.
+          Not affiliated with Bare Knuckle Fighting Championship. <a href="../about/" class="footer-link text-white/60 hover:text-pb-teal transition">About</a>
+        </div>
+        <div class="text-center sm:text-right">
+          Built by <a href="https://propsbot.ai" class="footer-link text-pb-teal hover:text-white transition font-semibold">PropsBot.AI</a> · Free betting intelligence tools
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bottom tab bar (mobile only, below lg) -->
+  <nav class="mobile-tab-bar lg:hidden" aria-label="Mobile navigation">
+    <a href="../" class="mtb-item" data-tab="home">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 2.5L2 9v9h5v-6h6v6h5V9l-8-6.5z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="../events/" class="mtb-item" data-tab="events">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M3 5h14v2H3V5zm0 4h14v2H3V9zm0 4h14v2H3v-2z"/></svg>
+      <span>Events</span>
+    </a>
+    <a href="../picks/" class="mtb-item mtb-primary" data-tab="picks">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.5 7.5H22l-6 4.5 2.3 7-6.3-4.5-6.3 4.5 2.3-7-6-4.5h7.5L12 2z"/></svg>
+      <span>Picks</span>
+    </a>
+    <a href="../card/" class="mtb-item" data-tab="card">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M4 3h12a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm1 3v2h10V6H5zm0 3v2h10V9H5zm0 3v2h6v-2H5z"/></svg>
+      <span>Research</span>
+    </a>
+    <a href="../fighters/" class="mtb-item" data-tab="fighters">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 10a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0 1.5c-3.5 0-7 1.75-7 5V18h14v-1.5c0-3.25-3.5-5-7-5z"/></svg>
+      <span>Fighters</span>
+    </a>
+  </nav>
+  <script src="../assets/js/common.js"></script>
+  
+  <script>
+    // Highlight active mobile tab based on current URL
+    (function () {
+      const path = window.location.pathname;
+      document.querySelectorAll('.mtb-item').forEach((el) => {
+        const href = el.getAttribute('href').replace(/^\.\.\/\.\.\/|^\.\.\/|^\//, '/');
+        if (path === href || (href !== '/' && path.startsWith(href))) el.classList.add('active');
+        if (path === '/' && el.dataset.tab === 'home') el.classList.add('active');
+      });
+    })();
+  </script>
+</body>
+</html>

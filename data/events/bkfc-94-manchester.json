@@ -1,0 +1,22 @@
+{
+  "slug": "bkfc-94-manchester",
+  "name": "bkfc-94-manchester",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-09-26T00:00:00Z",
+  "venue": "AO Arena",
+  "city": null,
+  "state": null,
+  "country": "United Kingdom",
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-94-manchester"
+  ],
+  "last_updated": "2026-07-06",
+  "needs_card_population": true
+}

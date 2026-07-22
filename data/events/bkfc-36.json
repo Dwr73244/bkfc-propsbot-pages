@@ -1,0 +1,225 @@
+{
+  "slug": "bkfc-36",
+  "name": "BKFC 36 New Orleans: Adams vs. Belcher",
+  "event_number": 36,
+  "event_type": "Numbered",
+  "date": "2023-02-24T20:00:00Z",
+  "venue": "Pontchartrain Center",
+  "city": "Kenner",
+  "state": "LA",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "arnold-adams",
+      "fighter_b_slug": "alan-belcher",
+      "title_fight": true,
+      "title_name": "BKFC Heavyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "alan-belcher",
+        "method": "KO (punch)",
+        "round": 3,
+        "time": "0:55"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "bobby-taylor",
+      "fighter_b_slug": "james-lilley",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "james-lilley",
+        "method": "TKO (doctor stoppage)",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Catchweight",
+      "weight_limit_kg": 77,
+      "fighter_a_slug": "brad-kelly",
+      "fighter_b_slug": "kaleb-harris",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kaleb-harris",
+        "method": "KO",
+        "round": 1,
+        "time": "0:39"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "joseph-creer",
+      "fighter_b_slug": "duke-sensley",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "duke-sensley",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "stephon-reese",
+      "fighter_b_slug": "dennis-labruzza",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dennis-labruzza",
+        "method": "KO",
+        "round": 2,
+        "time": "1:24"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "dillion-winemiller",
+      "fighter_b_slug": "tony-jenkins",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tony-jenkins",
+        "method": "TKO (referee stoppage)",
+        "round": 3,
+        "time": "1:25"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "brandon-shavers",
+      "fighter_b_slug": "bryce-henry",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bryce-henry",
+        "method": "KO",
+        "round": 4,
+        "time": "1:53"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "david-bosnick",
+      "fighter_b_slug": "andrew-angelcor",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "Draw (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "cody-schieve",
+      "fighter_b_slug": "tyler-sammis",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tyler-sammis",
+        "method": "KO",
+        "round": 1,
+        "time": "1:32"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "joseph-brett-williams",
+      "fighter_b_slug": "blake-lacaze",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "blake-lacaze",
+        "method": "TKO (corner stoppage)",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "cody-mitchell",
+      "fighter_b_slug": "brandon-meneses",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "Draw (majority)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 12,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "frankie-shughart",
+      "fighter_b_slug": "michael-manno",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "michael-manno",
+        "method": "KO",
+        "round": 1,
+        "time": "0:25"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

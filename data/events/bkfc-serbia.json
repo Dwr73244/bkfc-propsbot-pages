@@ -1,0 +1,34 @@
+{
+  "slug": "bkfc-serbia",
+  "name": "bkfc-serbia",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-10-17T00:00:00Z",
+  "venue": "SERBIA",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "agi-faulkner",
+      "fighter_b_slug": "dilan-prasovic",
+      "title_fight": true,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-serbia"
+  ],
+  "last_updated": "2026-07-17",
+  "needs_card_population": false
+}

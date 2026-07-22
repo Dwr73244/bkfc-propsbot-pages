@@ -1,0 +1,2722 @@
+/* ===== Accessibility primitives (WCAG 2.1 AA) ===== */
+:focus-visible {
+  outline: 2px solid #15ffc2;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+.fight-card:focus-visible,
+.mobile-tab-bar .mtb-item:focus-visible,
+a.brand-mark:focus-visible,
+.edge-card:focus-visible {
+  outline-offset: 4px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #15ffc2;
+  color: #070e1a;
+  padding: 0.6rem 1rem;
+  font-weight: 700;
+  z-index: 100;
+  border-radius: 0 0 0.4rem 0;
+}
+.skip-link:focus {
+  left: 0;
+  top: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .pulse-dot { animation: none; opacity: 1; }
+}
+
+:root {
+  --teal: #15ffc2;
+  --red: #ff1552;
+  --gold: #f0c040;
+  --blue: #22a9ec;
+  --purple: #AB8FFF;
+  --bg: #070e1a;
+  --glass: rgba(18,28,45,0.92);
+  --card-border: rgba(100,200,220,0.07);
+  --text-primary: #eef2f7;
+  --text-secondary: rgba(200,215,230,0.75);
+  --text-muted: rgba(150,180,210,0.3);
+}
+html, body { background: var(--bg); font-family: 'Inter', sans-serif; }
+body {
+  background-image:
+    radial-gradient(ellipse at top left, rgba(255,21,82,0.08), transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(21,255,194,0.06), transparent 50%);
+  min-height: 100vh;
+}
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.mono { font-family: 'JetBrains Mono', monospace; }
+.brand-gradient {
+  background: linear-gradient(135deg, #ff1552 0%, #f0c040 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fight-card {
+  transition: transform 0.2s, border-color 0.2s;
+}
+.fight-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,21,82,0.3);
+}
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.status-upcoming {
+  background: rgba(21,255,194,0.1);
+  color: #15ffc2;
+  border: 1px solid rgba(21,255,194,0.25);
+}
+.status-finished {
+  background: rgba(150,180,210,0.08);
+  color: rgba(200,215,230,0.75);
+  border: 1px solid rgba(150,180,210,0.15);
+}
+.status-title {
+  background: rgba(240,192,64,0.12);
+  color: #f0c040;
+  border: 1px solid rgba(240,192,64,0.35);
+}
+.pulse-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: #15ffc2;
+  animation: pulse 1.6s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+.bout-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+.bout-fighter {
+  min-width: 0;
+}
+.bout-fighter .name {
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+.bout-fighter .meta {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+.bout-vs {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+}
+.bout-fighter-b { text-align: right; }
+@media (max-width: 600px) {
+  .bout-row {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 0.4rem;
+  }
+  .bout-fighter-b { text-align: center; }
+  .bout-vs { order: 1; }
+}
+.fighter-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255,255,255,0.15);
+  transition: color 0.15s, border-color 0.15s;
+}
+.fighter-link:hover {
+  color: #15ffc2;
+  border-color: rgba(21,255,194,0.5);
+}
+
+/* ========= Colored W-L-D record display (Sherdog/Tapology pattern) ========= */
+.record-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.05rem;
+}
+.record-w { color: #15ffc2; }
+.record-l { color: #ff1552; }
+.record-d { color: rgba(200,215,230,0.55); }
+.record-sep { color: rgba(200,215,230,0.35); margin: 0 0.05rem; }
+.record-ko {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: #f0c040;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-left: 0.4rem;
+  padding: 0.08rem 0.35rem;
+  background: rgba(240,192,64,0.1);
+  border: 1px solid rgba(240,192,64,0.28);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+/* Nationality pill — 2-letter ISO country code rendered as a small muted
+   badge. Replaces emoji flags (🇺🇸) because Windows default fonts don't
+   include country-flag glyphs and fell back to glued regional-indicator
+   text ("us"). A styled text pill is portable across every OS. */
+.nat-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.75rem;
+  padding: 0.1rem 0.38rem;
+  margin-right: 0.5rem;
+  background: rgba(200,215,230,0.1);
+  border: 1px solid rgba(200,215,230,0.2);
+  border-radius: 0.25rem;
+  color: rgba(200,215,230,0.78);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  vertical-align: 0.18em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.adv-side-b .adv-name .nat-pill,
+.fighter-col-b .nat-pill { margin-right: 0; margin-left: 0.5rem; }
+/* Legacy .flag — suppress margin if it slips through anywhere */
+.flag { margin: 0 0.4rem 0 0; }
+
+/* Recent form sparkline — 5 colored squares, last 5 W/L */
+.form-spark {
+  display: inline-flex;
+  gap: 0.2rem;
+  align-items: center;
+}
+.form-sq {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 0.25rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 800;
+  border: 1px solid transparent;
+}
+.form-sq.form-w {
+  background: rgba(21,255,194,0.14);
+  color: #15ffc2;
+  border-color: rgba(21,255,194,0.35);
+}
+.form-sq.form-l {
+  background: rgba(255,21,82,0.14);
+  color: #ff1552;
+  border-color: rgba(255,21,82,0.35);
+}
+.form-sq.form-d {
+  background: rgba(200,215,230,0.08);
+  color: rgba(200,215,230,0.7);
+  border-color: rgba(200,215,230,0.18);
+}
+
+/* ELO rating tile — fighter profile accent */
+.elo-tile {
+  background: linear-gradient(180deg, rgba(21,255,194,0.08), rgba(21,255,194,0.02)) !important;
+  border-color: rgba(21,255,194,0.25) !important;
+}
+
+/* ========= Guide (long-form content) pages ========= */
+.guide-article { line-height: 1.65; }
+.guide-content .guide-section + .guide-section { margin-top: 2rem; }
+.guide-content h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+.guide-body p {
+  color: rgba(200,215,230,0.9);
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+.guide-body ul, .guide-body ol {
+  color: rgba(200,215,230,0.9);
+  padding-left: 1.25rem;
+  margin: 0.75rem 0;
+  list-style: disc outside;
+}
+.guide-body ol { list-style: decimal outside; }
+.guide-body li { margin-bottom: 0.45rem; }
+.guide-body strong { color: #fff; font-weight: 700; }
+.guide-body code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9em;
+  background: rgba(100,200,220,0.08);
+  padding: 0.1em 0.4em;
+  border-radius: 0.3rem;
+  color: #15ffc2;
+}
+.guide-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  font-size: 0.9rem;
+}
+.guide-body table th,
+.guide-body table td {
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid rgba(100,200,220,0.08);
+  text-align: left;
+}
+.guide-body table th {
+  color: rgba(200,215,230,0.55);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+.guide-faq {
+  background: var(--glass);
+  border: 1px solid var(--card-border);
+  border-radius: 0.75rem;
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.guide-faq > summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.guide-faq > summary::-webkit-details-marker { display: none; }
+.guide-faq > summary::after { content: '+'; color: #15ffc2; font-size: 1.2rem; font-weight: 400; }
+.guide-faq[open] > summary::after { content: '−'; }
+.guide-faq-body {
+  margin-top: 0.75rem;
+  color: rgba(200,215,230,0.85);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.guide-footer-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.2rem 1.4rem;
+  background: rgba(21,255,194,0.04);
+  border: 1px solid rgba(21,255,194,0.18);
+  border-radius: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Brand mark — stylized knuckle glyph */
+.brand-mark {
+  text-decoration: none;
+  transition: transform 0.18s;
+}
+.brand-mark:hover { transform: scale(1.02); }
+.brand-glyph {
+  filter: drop-shadow(0 4px 12px rgba(255,21,82,0.28));
+  flex-shrink: 0;
+}
+.brand-mark:hover .brand-glyph {
+  filter: drop-shadow(0 4px 18px rgba(240,192,64,0.5));
+}
+
+/* Sticky in-article betting bar (event pages only) */
+.sticky-bet-bar {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%) translateY(120%);
+  bottom: calc(70px + env(safe-area-inset-bottom, 0px));
+  width: calc(100% - 1.5rem);
+  max-width: 640px;
+  z-index: 40;
+  padding: 0.6rem 0.9rem;
+  background: rgba(7,14,26,0.96);
+  border: 1px solid rgba(21,255,194,0.28);
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5), 0 0 20px rgba(21,255,194,0.08);
+  backdrop-filter: blur(14px);
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.25, 1), opacity 0.25s;
+  opacity: 0;
+  pointer-events: none;
+}
+.sticky-bet-bar.visible {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+@media (min-width: 1024px) {
+  .sticky-bet-bar {
+    bottom: 1rem;
+    max-width: 520px;
+  }
+}
+.sbb-content {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 0.85rem;
+}
+.sbb-bout {
+  min-width: 0;
+}
+.sbb-fighters {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.sbb-lines {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #15ffc2;
+}
+.sbb-sep { color: rgba(255,255,255,0.2); }
+.sbb-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 0.4rem;
+  background: rgba(21,255,194,0.15);
+  border: 1px solid rgba(21,255,194,0.35);
+  color: #15ffc2;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.sbb-cta:hover {
+  background: rgba(21,255,194,0.25);
+  color: #fff;
+}
+@media (max-width: 500px) {
+  .sbb-content { grid-template-columns: 1fr auto; gap: 0.6rem; }
+  .sbb-lines { grid-column: 1 / 3; grid-row: 2; justify-content: flex-start; margin-top: 0.2rem; }
+  .sbb-cta { grid-column: 2; grid-row: 1; }
+}
+
+/* Best-odds badge per bout side */
+.best-odds {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-top: 0.35rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 0.25rem;
+  background: rgba(240,192,64,0.08);
+  border: 1px solid rgba(240,192,64,0.25);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #f0c040;
+  white-space: nowrap;
+}
+
+/* ========= Mobile bottom tab bar ========= */
+.mobile-tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 45;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 0.35rem 0.25rem calc(0.35rem + env(safe-area-inset-bottom, 0px));
+  background: rgba(7,14,26,0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid rgba(100,200,220,0.18);
+  box-shadow: 0 -4px 16px rgba(0,0,0,0.5);
+}
+.mobile-tab-bar .mtb-item {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  min-height: 52px;
+  padding: 0.35rem 0.1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: rgba(200,215,230,0.75);
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: color 0.15s, background 0.15s;
+}
+.mobile-tab-bar .mtb-item svg {
+  opacity: 0.8;
+}
+.mobile-tab-bar .mtb-item.active {
+  color: #15ffc2;
+  background: rgba(21,255,194,0.07);
+}
+.mobile-tab-bar .mtb-primary {
+  color: #ff1552;
+}
+.mobile-tab-bar .mtb-primary svg {
+  filter: drop-shadow(0 0 8px rgba(255,21,82,0.4));
+}
+.mobile-tab-bar .mtb-primary.active {
+  color: #ff1552;
+  background: rgba(255,21,82,0.1);
+}
+/* Body padding so content doesn't sit under the tab bar (mobile bar is 64px tall).
+   The bar's background is semi-transparent, so content bleeds through for
+   ~20px above the bar — account for that visual occlusion with extra bottom
+   padding (64px bar + 24px breathing room + safe-area on notched iPhones). */
+@media (max-width: 1023px) {
+  body { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px)); }
+}
+
+/* Pad inline footer links so each one hits the 44px tap target.
+   Applied to .footer-link on mobile via display: inline-block + padding. */
+.footer-link {
+  display: inline-block;
+  padding: 0.4rem 0.1rem;
+  min-height: 1.5rem;
+}
+
+/* ========= Edge scatter plot (picks page) ========= */
+.edge-scatter-wrap {
+  overflow-x: auto;
+  margin: 0 -0.5rem;
+}
+.edge-scatter {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 520px;
+  height: auto;
+}
+/* On mobile, drop the 520px floor so the SVG scales to parent width instead
+   of bleeding out of the card. viewBox + preserveAspectRatio handles the
+   rescale cleanly; axis labels stay legible at ~340px. */
+@media (max-width: 640px) {
+  .edge-scatter-wrap { margin: 0; overflow: hidden; }
+  .edge-scatter { min-width: 0; }
+}
+.edge-scatter .scatter-dot {
+  cursor: pointer;
+  transition: filter 0.15s;
+}
+.edge-scatter .scatter-dot:hover circle {
+  filter: drop-shadow(0 0 6px currentColor) brightness(1.3);
+}
+
+/* ========= Win-by-method donut (fighter profile) ========= */
+.method-donut-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 100%;
+}
+.method-donut {
+  position: relative;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  /* Mask out the center to create the ring */
+}
+.method-donut::after {
+  content: '';
+  position: absolute;
+  inset: 18%;
+  border-radius: 50%;
+  background: var(--glass);
+}
+.method-donut-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.method-donut-total {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 900;
+  font-size: 1.35rem;
+  color: #fff;
+  line-height: 1;
+}
+.method-donut-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(200,215,230,0.5);
+  margin-top: 0.15rem;
+}
+.method-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+}
+.method-legend .leg {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: rgba(200,215,230,0.85);
+}
+.method-legend .leg-sw {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 0.15rem;
+  flex-shrink: 0;
+}
+
+/* ========= Event split hero (A vs B) ========= */
+.event-hero {
+  position: relative;
+  border-radius: 1.5rem;
+  background: linear-gradient(180deg, rgba(18,28,45,0.6), rgba(7,14,26,0.4));
+  border: 1px solid rgba(100,200,220,0.08);
+  padding: 1.5rem;
+  overflow: hidden;
+}
+.event-hero-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 15% 50%, rgba(21,255,194,0.14), transparent 45%),
+    radial-gradient(ellipse at 85% 50%, rgba(255,21,82,0.14), transparent 45%);
+  z-index: 0;
+}
+.event-hero > * { position: relative; z-index: 1; }
+.event-hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.event-hero-info {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(100,200,220,0.08);
+}
+.event-split-hero {
+  display: grid;
+  /* Fixed-width side columns (220px) + flexible center for the title.
+     Previously `1fr auto 1fr` let the center auto-size expand to the full
+     width of a long H1, starving the side columns and causing fighter
+     names to wrap one character per line. Fixed side widths guarantee
+     the names have room. */
+  grid-template-columns: 220px 1fr 220px;
+  align-items: center;
+  gap: 1.25rem;
+}
+.split-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  min-width: 0;
+  width: 220px;
+}
+.split-side .hero-cutout {
+  width: 140px;
+  height: 180px;
+  border-radius: 0.85rem;
+  border-width: 2px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+}
+.split-side-a .hero-cutout { border-color: rgba(21,255,194,0.45); box-shadow: 0 8px 40px rgba(21,255,194,0.18); }
+.split-side-b .hero-cutout { border-color: rgba(255,21,82,0.45); box-shadow: 0 8px 40px rgba(255,21,82,0.18); }
+.split-name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.1;
+  max-width: 100%;
+  /* `overflow-wrap: break-word` only breaks a word when it's longer than
+     the container — never between every character. `anywhere` was the
+     previous value and caused "K r z y s z t o f" on narrow viewports. */
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
+}
+.split-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: rgba(200,215,230,0.7);
+  text-align: center;
+}
+.split-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  text-align: center;
+  min-width: 0;
+}
+.split-center .split-vs {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 900;
+  font-size: 1.05rem;
+  letter-spacing: 0.25em;
+  color: rgba(150,180,210,0.4);
+  padding: 0.25rem 0.75rem;
+  border: 1px solid rgba(150,180,210,0.15);
+  border-radius: 0.4rem;
+}
+.split-center .split-h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: clamp(1.5rem, 3.6vw, 2.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: #fff;
+  margin: 0.2rem 0 0.3rem;
+  max-width: 100%;
+}
+.split-center .event-hero-title-line {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.split-center .split-weight {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #15ffc2;
+}
+
+/* Shrink side columns on narrow desktop / tablet so the center title has
+   room without eating the sides. 900px is where a 220+220+title doesn't
+   fit comfortably. */
+@media (max-width: 900px) {
+  .event-split-hero { grid-template-columns: 180px 1fr 180px; }
+  .split-side { width: 180px; }
+  .split-side .hero-cutout { width: 120px; height: 150px; }
+  .split-name { font-size: 1.1rem; }
+}
+
+@media (max-width: 720px) {
+  .event-hero { padding: 1.1rem 0.9rem; border-radius: 1rem; }
+  .event-split-hero {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.85rem;
+    row-gap: 1rem;
+  }
+  .split-side-a { grid-column: 1; grid-row: 1; width: auto; }
+  .split-side-b { grid-column: 2; grid-row: 1; width: auto; }
+  .split-side { width: auto; }
+  .split-center { grid-column: 1 / 3; grid-row: 2; padding: 0; }
+  .split-side .hero-cutout { width: 110px; height: 140px; }
+  .split-name { font-size: 1rem; max-width: 100%; }
+  .split-meta { font-size: 0.7rem; }
+  .split-center .split-vs { font-size: 0.8rem; padding: 0.2rem 0.5rem; }
+  .split-center .split-h1 { font-size: clamp(1.3rem, 6vw, 1.8rem); }
+}
+@media (max-width: 400px) {
+  .split-side .hero-cutout { width: 95px; height: 120px; }
+}
+
+/* Model-attribution pill — sticky header credibility signal */
+.model-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(21,255,194,0.06);
+  border: 1px solid rgba(21,255,194,0.22);
+  color: rgba(200,215,230,0.8);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* Main Card / Prelims tier dividers on event pages */
+.card-tier-divider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0.25rem;
+  margin: 1rem 0 0.4rem;
+  border-top: 1px solid rgba(100,200,220,0.08);
+}
+.card-tier-divider:first-child {
+  margin-top: 0;
+  border-top: none;
+  padding-top: 0;
+}
+.card-tier-divider .tier-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #15ffc2;
+}
+.card-tier-divider .tier-count {
+  font-size: 0.7rem;
+  color: rgba(200,215,230,0.45);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ========= Mobile tap target improvements ========= */
+
+/* Breadcrumb nav links — bump tap target on mobile */
+@media (max-width: 640px) {
+  nav.text-xs a,
+  nav[class*="mono mb-4"] a {
+    display: inline-block;
+    padding: 0.4rem 0.15rem;
+    min-height: 36px;
+    line-height: 1.6;
+  }
+}
+
+/* Research bout "#N" anchor link */
+.research-bout-header a[href^="#fight-"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  min-height: 36px;
+  padding: 0 0.5rem;
+  border-radius: 0.35rem;
+  border: 1px solid rgba(100,200,220,0.08);
+  transition: all 0.15s;
+}
+.research-bout-header a[href^="#fight-"]:hover {
+  background: rgba(21,255,194,0.06);
+  border-color: rgba(21,255,194,0.25);
+  color: #15ffc2;
+}
+
+/* Footer links bigger on mobile */
+@media (max-width: 640px) {
+  footer a {
+    padding: 0.2rem 0;
+    display: inline-block;
+  }
+}
+
+/* ========= Research view ========= */
+
+.research-hero {
+  position: relative;
+  overflow: hidden;
+}
+.research-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(255,21,82,0.12), transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(21,255,194,0.1), transparent 50%);
+  pointer-events: none;
+}
+
+/* Sticky event summary bar — fully opaque so content below can't bleed
+   through when scrolled. z-index above bout cards. */
+.event-strip {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: #070e1a;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(100,200,220,0.12);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+@media (min-width: 1024px) {
+  .event-strip { top: 0; }
+}
+
+/* Top edges hero grid */
+.edge-spotlight {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+@media (max-width: 820px) {
+  .edge-spotlight { grid-template-columns: 1fr; }
+}
+.edge-card {
+  position: relative;
+  display: block;
+  padding: 1.1rem 1.2rem;
+  border-radius: 1rem;
+  background: linear-gradient(180deg, rgba(21,255,194,0.06), rgba(21,255,194,0.02));
+  border: 1px solid rgba(21,255,194,0.2);
+  text-decoration: none;
+  transition: transform 0.18s, border-color 0.18s, background 0.18s;
+  min-height: 150px;
+}
+.edge-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(21,255,194,0.45);
+  background: linear-gradient(180deg, rgba(21,255,194,0.1), rgba(21,255,194,0.03));
+}
+.edge-card[data-conf="Low"],
+.edge-card[data-conf="Very Low"] {
+  background: linear-gradient(180deg, rgba(240,192,64,0.04), rgba(240,192,64,0.01));
+  border-color: rgba(240,192,64,0.18);
+}
+.edge-card[data-conf="Low"]:hover,
+.edge-card[data-conf="Very Low"]:hover {
+  border-color: rgba(240,192,64,0.4);
+}
+.edge-rank {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.9rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.3);
+  text-transform: uppercase;
+}
+.edge-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: rgba(200,215,230,0.55);
+  text-transform: uppercase;
+  margin-bottom: 0.45rem;
+}
+.edge-fighter {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.1;
+  margin-bottom: 0.4rem;
+}
+.edge-spread {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: rgba(200,215,230,0.75);
+  margin-bottom: 0.6rem;
+}
+.edge-magnitude {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 800;
+  color: #15ffc2;
+  font-size: 1.15rem;
+}
+.edge-card[data-conf="Low"] .edge-magnitude,
+.edge-card[data-conf="Very Low"] .edge-magnitude {
+  color: #f0c040;
+}
+.edge-magnitude .pt-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.7);
+  letter-spacing: 0.1em;
+}
+.edge-conf {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 0.9rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: rgba(200,215,230,0.75);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ========= Advantage Score badges + Predictability meter ========= */
+
+.adv-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.85rem;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.adv-row .adv-side {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+}
+.adv-row .adv-side-b {
+  flex-direction: row-reverse;
+}
+.adv-row .adv-fighter {
+  min-width: 0;
+  flex: 1;
+}
+.adv-row .adv-name {
+  font-weight: 800;
+  color: #fff;
+  font-size: 1.05rem;
+  line-height: 1.15;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.adv-row .adv-side-b .adv-name { text-align: right; }
+.adv-row .adv-name a {
+  color: inherit;
+  text-decoration: none;
+}
+.adv-row .adv-name a:hover { color: #15ffc2; }
+.adv-row .adv-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: rgba(200,215,230,0.6);
+  margin-top: 0.1rem;
+}
+.adv-row .adv-side-b .adv-meta { text-align: right; }
+
+.adv-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 900;
+  font-size: 1.4rem;
+  line-height: 1;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.adv-badge .adv-sub {
+  position: absolute;
+  bottom: -1.1rem;
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+.adv-badge.favorite {
+  background: radial-gradient(circle, rgba(21,255,194,0.18), rgba(21,255,194,0.04) 80%);
+  border-color: rgba(21,255,194,0.65);
+  color: #15ffc2;
+  box-shadow: 0 0 24px rgba(21,255,194,0.22);
+}
+.adv-badge.underdog {
+  background: rgba(255,255,255,0.02);
+  border-color: rgba(200,215,230,0.18);
+  color: rgba(200,215,230,0.65);
+}
+.adv-badge.toss-up {
+  border-color: rgba(240,192,64,0.45);
+  color: #f0c040;
+  background: rgba(240,192,64,0.05);
+}
+.adv-vs {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: rgba(150,180,210,0.25);
+  letter-spacing: 0.2em;
+  font-weight: 700;
+}
+/* Mobile: collapse entire adv-row to a SINGLE column so each fighter
+   gets the full width of the bout card. VS token sits between them as
+   its own row. This is the only layout that gives "Esteban Rodriguez"
+   enough room to render without breaking. */
+@media (max-width: 640px) {
+  .adv-row {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto auto;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .adv-row .adv-side-a { order: 1; }
+  .adv-row .adv-vs { order: 2; justify-self: center; margin: 0 !important; padding: 0.25rem 0 !important; }
+  .adv-row .adv-side-b { order: 3; }
+  /* Each side is a full-width horizontal row: [avatar] [ADV badge] [name/record]. */
+  .adv-row .adv-side,
+  .adv-row .adv-side-a {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 0.7rem !important;
+    text-align: left !important;
+    width: 100%;
+  }
+  .adv-row .adv-side-b {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 0.7rem !important;
+    text-align: left !important;
+    width: 100%;
+  }
+  .adv-row .adv-fighter { flex: 1; min-width: 0; text-align: left !important; }
+  .adv-row .adv-name,
+  .adv-row .adv-name a,
+  .adv-row .adv-side-a .adv-name,
+  .adv-row .adv-side-b .adv-name {
+    font-size: 0.95rem !important;
+    font-weight: 800;
+    line-height: 1.2;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+    text-align: left !important;
+  }
+  .adv-row .adv-name a { display: inline; }
+  /* Nat-pill is compact and stable on mobile — keep visible.
+     Legacy emoji .flag suppressed on mobile because Safari's flag-glyph
+     wrap bug was the original Phase 28-29 trigger; pills don't have the
+     issue but keep the hide rule defensive in case any stray rendering
+     still goes through .flag. */
+  .adv-row .adv-name .flag,
+  .adv-row .adv-side-a .adv-name .flag,
+  .adv-row .adv-side-b .adv-name .flag {
+    display: none !important;
+  }
+  /* Mobile: compact the nat-pill slightly so it doesn't crowd names */
+  .adv-row .nat-pill {
+    min-width: 1.5rem;
+    padding: 0.05rem 0.3rem;
+    font-size: 0.55em;
+    margin-right: 0.4rem;
+  }
+  .adv-row .adv-meta {
+    font-size: 0.72rem;
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    text-align: left !important;
+    margin-top: 0.2rem;
+  }
+  .adv-badge { width: 52px; height: 52px; font-size: 1.1rem; border-width: 1.5px; flex-shrink: 0; }
+  /* Avatar sizes on mobile — room for full-width name row means we can keep them readable */
+  .adv-row .fighter-avatar {
+    width: 44px !important;
+    height: 44px !important;
+    flex-shrink: 0;
+  }
+  .adv-vs {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem !important;
+    letter-spacing: 0.25em !important;
+    color: rgba(200,215,230,0.3);
+    background: linear-gradient(90deg, transparent, rgba(100,200,220,0.06), transparent);
+    padding: 0.25rem 0.75rem !important;
+    border-radius: 99px;
+  }
+}
+
+/* /card/ compact bout list — one row per bout with position/matchup/
+   advantage. Clicking goes to the deep-link on the research page. */
+.card-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.card-row {
+  display: grid;
+  grid-template-columns: 7rem 1fr auto;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.75rem 1rem;
+  background: var(--glass);
+  border: 1px solid rgba(100,200,220,0.06);
+  border-radius: 0.7rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+.card-row:hover {
+  border-color: rgba(21,255,194,0.22);
+  background: rgba(21,255,194,0.03);
+}
+.card-row-main {
+  border-color: rgba(255,21,82,0.22);
+  background: linear-gradient(135deg, rgba(255,21,82,0.04), rgba(7,14,26,0.6));
+}
+.card-row-pos {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #15ffc2;
+  font-weight: 700;
+}
+.card-row-main .card-row-pos { color: #ff1552; }
+.card-row-match {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 0;
+  font-size: 0.95rem;
+  color: #fff;
+  font-weight: 600;
+}
+.card-row-a, .card-row-b {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+.card-row-b { color: rgba(200,215,230,0.8); }
+.card-row-vs {
+  color: rgba(200,215,230,0.35);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.card-row-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+  font-size: 0.65rem;
+  color: rgba(200,215,230,0.6);
+  text-align: right;
+  white-space: nowrap;
+}
+.card-row-adv {
+  color: #15ffc2;
+  font-weight: 700;
+  background: rgba(21,255,194,0.1);
+  padding: 0.1rem 0.45rem;
+  border-radius: 99px;
+  font-size: 0.6rem;
+}
+@media (max-width: 640px) {
+  .card-row {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 0.25rem 0.7rem;
+    padding: 0.65rem 0.85rem;
+  }
+  .card-row-pos { grid-column: 1 / 2; grid-row: 1; }
+  .card-row-meta { grid-column: 2 / 3; grid-row: 1 / 3; }
+  .card-row-match { grid-column: 1 / 2; grid-row: 2; font-size: 0.85rem; }
+  .card-row-vs { font-size: 0.55rem; }
+}
+
+/* Pre-market favorites fallback on /picks/ — rendered when no edges
+   have been computed yet (odds haven't been posted by sportsbooks).
+   Shows one card per upcoming event with model-only favored picks
+   so the page never feels dead, even 30+ days out from the next card. */
+.premarket-event {
+  background: linear-gradient(135deg, rgba(21,255,194,0.04), rgba(7,14,26,0.7));
+}
+.premarket-event-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(100,200,220,0.08);
+}
+.premarket-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.premarket-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  background: rgba(7,14,26,0.4);
+  border: 1px solid transparent;
+  transition: background 0.15s, border-color 0.15s;
+  color: inherit;
+  font-size: 0.85rem;
+}
+.premarket-row:hover {
+  background: rgba(21,255,194,0.05);
+  border-color: rgba(21,255,194,0.2);
+}
+.premarket-fav {
+  color: #fff;
+  font-weight: 700;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.premarket-vs {
+  color: rgba(200,215,230,0.35);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.premarket-dog {
+  color: rgba(200,215,230,0.65);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.premarket-adv {
+  color: #15ffc2;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+  background: rgba(21,255,194,0.08);
+  padding: 0.2rem 0.5rem;
+  border-radius: 99px;
+  border: 1px solid rgba(21,255,194,0.22);
+}
+@media (max-width: 640px) {
+  .premarket-row {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 0.25rem 0.5rem;
+  }
+  .premarket-fav { grid-column: 1 / 2; grid-row: 1; }
+  .premarket-adv { grid-column: 2 / 3; grid-row: 1 / 3; align-self: center; }
+  .premarket-vs { display: none; }
+  .premarket-dog { grid-column: 1 / 2; grid-row: 2; font-size: 0.75rem; }
+}
+
+/* Weigh-in chip — surfaces day-of scale result per bout. Teal when both
+   made weight, gold when one missed, red when both missed. Rendered on
+   event + research pages from data/weigh-ins/<slug>.json. */
+.weigh-in-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 99px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.weigh-in-chip.made {
+  background: rgba(21,255,194,0.1);
+  color: #15ffc2;
+  border: 1px solid rgba(21,255,194,0.28);
+}
+.weigh-in-chip.missed {
+  background: rgba(240,192,64,0.1);
+  color: #f0c040;
+  border: 1px solid rgba(240,192,64,0.32);
+}
+.weigh-in-chip.both-missed {
+  background: rgba(255,21,82,0.1);
+  color: #ff1552;
+  border: 1px solid rgba(255,21,82,0.32);
+}
+.weigh-in-line { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+/* Author card on /about/ — identity block for E-E-A-T. Schema.org Person
+   is attached via itemprop attributes; this styling just makes it visually
+   scannable and shareable. */
+.author-card {
+  margin: 1.25rem 0 1.5rem;
+  padding: 1.1rem 1.25rem;
+  background: linear-gradient(135deg, rgba(21,255,194,0.06), rgba(240,192,64,0.04));
+  border: 1px solid rgba(21,255,194,0.22);
+  border-radius: 0.85rem;
+}
+.author-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 0.65rem;
+}
+.author-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #15ffc2, #f0c040);
+  color: #070e1a;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 900;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.author-meta { min-width: 0; }
+.author-name {
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+.author-title {
+  color: rgba(200,215,230,0.75);
+  font-size: 0.8rem;
+  font-family: 'JetBrains Mono', monospace;
+  margin-top: 0.1rem;
+}
+.author-bio {
+  color: rgba(200,215,230,0.9);
+  font-size: 0.9rem !important;
+  line-height: 1.55;
+  margin: 0.25rem 0 0.75rem !important;
+}
+.author-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+}
+.author-links a {
+  color: #15ffc2;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(21,255,194,0.4);
+  transition: color 0.15s, border-color 0.15s;
+}
+.author-links a:hover { color: #fff; border-color: #fff; }
+.author-sep { color: rgba(200,215,230,0.3); }
+
+/* Result banner — rendered on completed research bouts in place of the
+   pre-fight probability stack + edge readout. Shows winner, method, round,
+   and a retrospective check of whether our pre-fight model pick was right. */
+.result-banner {
+  margin: 1rem 0 0.5rem;
+  padding: 0.85rem 1.1rem;
+  background: linear-gradient(90deg, rgba(21,255,194,0.08), rgba(21,255,194,0.02));
+  border: 1px solid rgba(21,255,194,0.22);
+  border-radius: 0.7rem;
+}
+.result-banner .result-headline {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+/* Inline jargon touchpoints — ADV badge, Predictability label, Edge.
+   Dotted underline + cursor:help signals "click for definition"; the link
+   points at the betting glossary anchor for that term. `title=""` provides
+   the tooltip on hover (desktop) and long-press (mobile). */
+.jargon-link {
+  text-decoration: none;
+  position: relative;
+  cursor: help;
+}
+a.jargon-link.label,
+.pred-meter a.jargon-link.label {
+  border-bottom: 1px dotted rgba(200,215,230,0.35);
+  padding-bottom: 1px;
+  transition: color 0.15s, border-color 0.15s;
+}
+a.jargon-link.label:hover {
+  color: #15ffc2;
+  border-bottom-color: #15ffc2;
+}
+a.adv-badge.jargon-link { text-decoration: none; color: inherit; }
+a.adv-badge.jargon-link:hover { filter: brightness(1.15); }
+a.jargon-link[href*="glossary"]:not(.label):not(.adv-badge) {
+  color: inherit;
+  border-bottom: 1px dotted rgba(200,215,230,0.72);
+}
+a.jargon-link[href*="glossary"]:not(.label):not(.adv-badge):hover {
+  color: #15ffc2;
+  border-bottom-color: #15ffc2;
+}
+
+/* Guide section heading anchor (#) — hidden until hover on desktop. */
+.guide-section { scroll-margin-top: 100px; }
+.guide-section h2 .guide-anchor {
+  opacity: 0;
+  margin-right: 0.35rem;
+  color: rgba(100,200,220,0.5);
+  text-decoration: none;
+  transition: opacity 0.15s;
+  font-weight: 400;
+}
+.guide-section:hover h2 .guide-anchor,
+.guide-section:target h2 .guide-anchor { opacity: 1; }
+.guide-section:target h2 { color: #15ffc2; }
+
+/* Predictability meter */
+.pred-meter {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: rgba(200,215,230,0.55);
+  margin-bottom: 0.75rem;
+}
+.pred-meter .label {
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(200,215,230,0.72);
+  flex-shrink: 0;
+}
+.pred-meter .track {
+  flex: 1;
+  height: 4px;
+  background: rgba(100,200,220,0.05);
+  border-radius: 2px;
+  overflow: hidden;
+  min-width: 60px;
+}
+.pred-meter .fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff1552 0%, #f0c040 50%, #15ffc2 85%);
+  border-radius: 2px;
+  transition: width 0.8s ease;
+}
+.pred-meter .pred-value {
+  font-weight: 700;
+  color: #fff;
+  min-width: 2.5rem;
+  text-align: right;
+}
+.pred-meter .pred-conf {
+  color: rgba(200,215,230,0.55);
+  font-size: 0.65rem;
+  white-space: nowrap;
+}
+
+/* Limited-signal variant — shown when both fighters have <2 BKFC fights.
+   Replaces the 0-100 precision score with an honest warning chip. */
+.pred-meter.pred-meter-nodata {
+  border: 1px dashed rgba(240, 192, 64, 0.3);
+  background: rgba(240, 192, 64, 0.05);
+  border-radius: 0.4rem;
+  padding: 0.35rem 0.65rem;
+}
+.pred-meter .pred-conf-warning {
+  color: #f0c040;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+@media (max-width: 640px) {
+  .pred-meter .pred-conf { font-size: 0.62rem; }
+  /* Give the Predictability meter breathing room below the now-stacked
+     .adv-row on mobile — the single-column grid above ends tight against
+     fighter B's record line, so we need a proper gap before the meter. */
+  .pred-meter { margin-top: 1rem; }
+}
+
+/* Per-bout research card */
+.research-bout {
+  position: relative;
+  background: var(--glass);
+  border: 1px solid var(--card-border);
+  border-radius: 1.25rem;
+  padding: 1.4rem 1.5rem;
+  scroll-margin-top: 120px;
+}
+@media (max-width: 600px) {
+  .research-bout { padding: 1.2rem 0.9rem; }
+  .research-bout-header { padding-bottom: 0.85rem; margin-bottom: 1rem; }
+  .fighters-summary { margin-bottom: 1rem; }
+  .fighter-col .fname { font-size: 1.15rem; }
+  .fighter-col .fmeta { font-size: 0.72rem; }
+  .prob-row { grid-template-columns: 3rem 1fr; gap: 0.5rem; }
+  .prob-row .prob-label { font-size: 0.6rem; }
+  .prob-bar { height: 1.9rem; }
+  .prob-bar .seg { font-size: 0.68rem; padding: 0 0.4rem; }
+  .edge-readout { padding: 0.7rem 0.8rem; gap: 0.5rem; }
+  .edge-readout .headline { font-size: 0.8rem; line-height: 1.35; }
+  .consider { padding: 0.85rem 0.95rem; }
+}
+.research-bout-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(100,200,220,0.08);
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+.research-bout-header .pos-chip {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(200,215,230,0.55);
+}
+.research-bout-header .weight-chip {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: #15ffc2;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+/* Two-fighter top row */
+.fighters-summary {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.fighter-col {
+  min-width: 0;
+}
+.fighter-col-a { text-align: left; }
+.fighter-col-b { text-align: right; }
+.fighter-col .fname {
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #fff;
+}
+.fighter-col .fname a {
+  color: inherit;
+  text-decoration: none;
+}
+.fighter-col .fname a:hover { color: #15ffc2; }
+.fighter-col .fmeta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: rgba(200,215,230,0.65);
+  margin-top: 0.15rem;
+}
+.fighter-col .frecord {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: #15ffc2;
+  font-weight: 700;
+  margin-top: 0.2rem;
+}
+.vs-token {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: rgba(150,180,210,0.3);
+  letter-spacing: 0.15em;
+  padding: 0 0.35rem;
+}
+@media (max-width: 600px) {
+  .fighters-summary {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+  .fighter-col-b { text-align: left; }
+  .vs-token { display: none; }
+}
+
+/* Probability stack (model + market bars) */
+.prob-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.prob-row {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  align-items: center;
+  gap: 0.75rem;
+}
+.prob-row .prob-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: rgba(200,215,230,0.45);
+  text-transform: uppercase;
+}
+.prob-bar {
+  display: flex;
+  height: 2.1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: rgba(100,200,220,0.05);
+  border: 1px solid rgba(100,200,220,0.06);
+}
+.prob-bar .seg {
+  display: flex;
+  align-items: center;
+  padding: 0 0.6rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  transition: width 0.6s ease;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.prob-bar .seg-a {
+  background: linear-gradient(90deg, rgba(21,255,194,0.4), rgba(21,255,194,0.18));
+  border-right: 1px solid rgba(21,255,194,0.25);
+  justify-content: flex-start;
+}
+.prob-bar .seg-b {
+  background: linear-gradient(270deg, rgba(255,21,82,0.35), rgba(255,21,82,0.15));
+  justify-content: flex-end;
+}
+.prob-bar.market .seg-a {
+  background: linear-gradient(90deg, rgba(200,215,230,0.22), rgba(200,215,230,0.08));
+  border-right: 1px solid rgba(200,215,230,0.15);
+}
+.prob-bar.market .seg-b {
+  background: linear-gradient(270deg, rgba(200,215,230,0.2), rgba(200,215,230,0.06));
+}
+.prob-bar .seg .moneyline {
+  margin-left: 0.4rem;
+  color: rgba(255,255,255,0.55);
+  font-size: 0.65rem;
+}
+.prob-bar .seg-b .moneyline {
+  margin-left: 0;
+  margin-right: 0.4rem;
+}
+
+/* Edge readout */
+.edge-readout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 0.65rem;
+  background: rgba(21,255,194,0.06);
+  border: 1px solid rgba(21,255,194,0.2);
+  flex-wrap: wrap;
+}
+.edge-readout[data-side="none"] {
+  background: rgba(100,200,220,0.04);
+  border-color: rgba(100,200,220,0.1);
+}
+.edge-readout[data-conf="Low"],
+.edge-readout[data-conf="Very Low"] {
+  background: rgba(240,192,64,0.05);
+  border-color: rgba(240,192,64,0.2);
+}
+.edge-readout .star {
+  color: #15ffc2;
+  font-size: 1rem;
+}
+.edge-readout[data-conf="Low"] .star,
+.edge-readout[data-conf="Very Low"] .star {
+  color: #f0c040;
+}
+.edge-readout .headline {
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.edge-readout .conf {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  color: rgba(200,215,230,0.55);
+  text-transform: uppercase;
+}
+
+/* Factor breakdown accordion */
+.factor-accordion {
+  margin-top: 1rem;
+}
+.factor-accordion > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.85rem 1rem;
+  background: rgba(100,200,220,0.03);
+  border: 1px solid rgba(100,200,220,0.06);
+  border-radius: 0.55rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #15ffc2;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.15s;
+  min-height: 44px; /* Apple HIG touch target minimum */
+}
+@media (max-width: 600px) {
+  .factor-accordion > summary {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}
+.factor-accordion > summary::-webkit-details-marker { display: none; }
+.factor-accordion > summary::after {
+  content: '+';
+  font-size: 1rem;
+  color: rgba(255,255,255,0.5);
+  transition: transform 0.2s;
+}
+.factor-accordion[open] > summary::after {
+  content: '−';
+}
+.factor-accordion > summary:hover {
+  background: rgba(100,200,220,0.06);
+}
+.factor-accordion-body {
+  padding: 1.25rem 0.5rem 0.5rem;
+}
+
+/* Tale of the tape */
+.tot-table {
+  display: grid;
+  grid-template-columns: 1fr 9rem 1fr;
+  gap: 0.35rem 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+}
+@media (max-width: 600px) {
+  .tot-table {
+    grid-template-columns: 1fr 6rem 1fr;
+    font-size: 0.78rem;
+  }
+}
+.tot-row {
+  display: contents;
+}
+.tot-value {
+  padding: 0.65rem 0.75rem;
+  border-radius: 0.4rem;
+  background: rgba(100,200,220,0.04);
+  color: rgba(200,215,230,0.85);
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid transparent;
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tot-value.a { justify-content: flex-end; }
+.tot-value.b { justify-content: flex-start; }
+@media (max-width: 600px) {
+  .tot-value { padding: 0.55rem 0.5rem; }
+}
+.tot-value.edge {
+  background: rgba(21,255,194,0.1);
+  color: #15ffc2;
+  border-color: rgba(21,255,194,0.3);
+}
+.tot-value.a { text-align: right; }
+.tot-value.b { text-align: left; }
+.tot-label {
+  align-self: center;
+  text-align: center;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(200,215,230,0.72);
+  font-weight: 700;
+}
+
+/* Considerations list */
+.consider {
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem;
+  border-radius: 0.7rem;
+  background: rgba(100,200,220,0.03);
+  border-left: 3px solid rgba(21,255,194,0.5);
+}
+.consider h4 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(200,215,230,0.55);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.consider p {
+  font-size: 0.85rem;
+  color: rgba(200,215,230,0.8);
+  line-height: 1.55;
+  margin: 0.3rem 0;
+}
+
+/* Methodology footer */
+.methodology {
+  padding: 2rem 2.2rem;
+  background: rgba(100,200,220,0.02);
+  border: 1px solid rgba(100,200,220,0.07);
+  border-radius: 1rem;
+  font-size: 0.88rem;
+  color: rgba(200,215,230,0.75);
+  line-height: 1.6;
+}
+.methodology h3 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #15ffc2;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.methodology .weight-table {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.35rem 1rem;
+  margin: 0.8rem 0 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  max-width: 26rem;
+}
+.methodology .weight-table .w-label { color: rgba(200,215,230,0.7); }
+.methodology .weight-table .w-value { color: #15ffc2; font-weight: 700; }
+.methodology .warning {
+  margin-top: 1rem;
+  padding: 0.7rem 0.85rem;
+  background: rgba(240,192,64,0.06);
+  border-left: 2px solid #f0c040;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  color: rgba(240,192,64,0.9);
+}
+.cred-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.85rem;
+  margin: 1rem 0 1.5rem;
+}
+@media (max-width: 600px) {
+  .cred-stats { grid-template-columns: 1fr; }
+}
+.cred-stat {
+  padding: 1rem 1.1rem;
+  border-radius: 0.75rem;
+  background: rgba(21,255,194,0.05);
+  border: 1px solid rgba(21,255,194,0.15);
+}
+.cred-stat .cred-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #15ffc2;
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+.cred-stat .cred-value .pp {
+  font-size: 0.9rem;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.cred-stat .cred-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+.cred-stat .cred-sub {
+  font-size: 0.7rem;
+  color: rgba(200,215,230,0.55);
+}
+
+/* Picks table — cross-event edge aggregator */
+.picks-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.picks-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  background: var(--glass);
+  border: 1px solid var(--card-border);
+  border-radius: 0.85rem;
+  text-decoration: none;
+  transition: transform 0.15s, border-color 0.15s;
+}
+.picks-row:hover {
+  transform: translateX(4px);
+  border-color: rgba(21,255,194,0.35);
+}
+.picks-fighter { min-width: 0; }
+.picks-name {
+  font-weight: 800;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.15;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.picks-event {
+  font-size: 0.7rem;
+  color: rgba(200,215,230,0.55);
+  margin-top: 0.15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.picks-adv, .picks-edge, .picks-pred {
+  text-align: center;
+  min-width: 58px;
+}
+.picks-adv-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #15ffc2;
+  line-height: 1;
+}
+.picks-adv-label, .picks-edge-label, .picks-pred-label {
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(200,215,230,0.72);
+  margin-top: 0.3rem;
+}
+.picks-edge-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.picks-ml {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: rgba(200,215,230,0.85);
+  min-width: 48px;
+  text-align: center;
+}
+.picks-pred-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(200,215,230,0.8);
+  line-height: 1;
+}
+@media (max-width: 700px) {
+  .picks-row {
+    grid-template-columns: 1fr auto auto;
+    gap: 0.6rem;
+    padding: 0.85rem 0.9rem;
+  }
+  .picks-name { font-size: 0.9rem; }
+  .picks-adv-value { font-size: 1.2rem; }
+  .picks-edge-value { font-size: 1rem; }
+  .picks-ml, .picks-pred { display: none; }
+}
+
+/* /accuracy/ — collapsible event accordion. Each summary = one event; when
+   expanded, shows every bout with our pick, confidence tier/%, and the
+   actual winner. ✓ = we got it right, ✗ = wrong. */
+.accuracy-event { overflow: hidden; transition: border-color 0.15s; }
+.accuracy-event[open] { border-color: rgba(100,200,220,0.25); }
+.accuracy-event-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+.accuracy-event-summary::-webkit-details-marker { display: none; }
+.accuracy-event-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+  flex: 1;
+}
+.accuracy-event-title { display: inline-flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.accuracy-event-name { color: #fff; font-weight: 700; font-size: 0.95rem; line-height: 1.25; }
+.accuracy-event-date { color: rgba(200,215,230,0.45); font-size: 0.7rem; }
+.accuracy-event-stats {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
+  font-family: 'JetBrains Mono', monospace;
+  flex-shrink: 0;
+}
+.accuracy-stat { display: inline-flex; flex-direction: column; align-items: flex-end; gap: 0.1rem; }
+.accuracy-stat-label {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(200,215,230,0.72);
+}
+.accuracy-stat-value { font-size: 0.9rem; font-weight: 700; }
+.accuracy-chevron {
+  color: rgba(200,215,230,0.72);
+  transition: transform 0.2s;
+  margin-left: 0.3rem;
+}
+.accuracy-event[open] .accuracy-chevron { transform: rotate(180deg); }
+.league-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.5rem;
+  border-radius: 99px;
+  font-size: 0.55rem;
+  font-weight: 800;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.12em;
+}
+.league-tag.bkfc { background: rgba(21,255,194,0.12); color: #15ffc2; border: 1px solid rgba(21,255,194,0.3); }
+.league-tag.bkb { background: rgba(171,143,255,0.12); color: #AB8FFF; border: 1px solid rgba(171,143,255,0.3); }
+
+.accuracy-event-body {
+  padding: 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  border-top: 1px solid rgba(100,200,220,0.08);
+  padding-top: 0.85rem;
+}
+.accuracy-bout {
+  padding: 0.65rem 0.85rem;
+  background: rgba(7,14,26,0.55);
+  border: 1px solid rgba(255,255,255,0.04);
+  border-radius: 0.55rem;
+}
+.accuracy-bout-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+.accuracy-bout-matchup { color: rgba(255,255,255,0.9); min-width: 0; }
+.result-win { color: #15ffc2; font-weight: 800; font-size: 1.1rem; }
+.result-loss { color: #ff5577; font-weight: 800; font-size: 1.1rem; }
+.result-none { color: rgba(200,215,230,0.35); }
+
+.accuracy-bout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.accuracy-bout-col { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+.accuracy-bout-label {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(200,215,230,0.72);
+  font-family: 'JetBrains Mono', monospace;
+}
+.accuracy-bout-value { color: #fff; font-weight: 600; font-size: 0.85rem; line-height: 1.2; }
+.accuracy-bout-sub { color: rgba(200,215,230,0.5); font-size: 0.68rem; }
+
+.accuracy-event-link {
+  align-self: flex-end;
+  color: #15ffc2;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding-top: 0.35rem;
+}
+.accuracy-event-link:hover { color: #fff; }
+
+@media (max-width: 640px) {
+  .accuracy-event-summary { padding: 0.7rem 0.85rem; gap: 0.6rem; }
+  .accuracy-event-name { font-size: 0.88rem; }
+  .accuracy-event-stats { gap: 0.65rem; width: 100%; justify-content: flex-end; }
+  .accuracy-bout-grid { grid-template-columns: 1fr; gap: 0.6rem; }
+}
+
+/* Suggested-stake chip injected by the bankroll helper on /picks/.
+   Sits to the right of the row; compact and calm visually so it doesn't
+   dominate the model-first metrics. Hidden on very narrow mobile because
+   the row's already tight. */
+.picks-stake {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.6rem;
+  background: rgba(21,255,194,0.08);
+  border: 1px solid rgba(21,255,194,0.22);
+  min-width: 72px;
+}
+.picks-stake-value {
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: #15ffc2;
+  line-height: 1;
+}
+.picks-stake-label {
+  font-size: 0.55rem;
+  color: rgba(21,255,194,0.65);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+@media (max-width: 700px) {
+  .picks-stake { padding: 0.35rem 0.55rem; min-width: 58px; }
+  .picks-stake-value { font-size: 0.85rem; }
+  .picks-stake-label { font-size: 0.5rem; }
+}
+
+/* Prop markets */
+.prop-accordion > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.55rem 0.85rem;
+  background: rgba(171,143,255,0.05);
+  border: 1px solid rgba(171,143,255,0.18);
+  border-radius: 0.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #AB8FFF;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.prop-accordion > summary::-webkit-details-marker { display: none; }
+.prop-accordion > summary::after { content: '+'; font-size: 1rem; color: rgba(171,143,255,0.7); }
+.prop-accordion[open] > summary::after { content: '−'; }
+.prop-accordion-body { padding: 1rem 0.3rem 0.2rem; }
+.prop-market { margin-bottom: 0.85rem; }
+.prop-market-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(200,215,230,0.55);
+  margin-bottom: 0.45rem;
+}
+.prop-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 0.45rem;
+}
+.prop-tile {
+  padding: 0.55rem 0.65rem;
+  border-radius: 0.4rem;
+  background: rgba(171,143,255,0.04);
+  border: 1px solid rgba(171,143,255,0.15);
+  text-align: center;
+}
+.prop-outcome {
+  font-size: 0.68rem;
+  color: rgba(200,215,230,0.7);
+  margin-bottom: 0.15rem;
+}
+.prop-ml {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* ========= Fighter avatars (headshots) ========= */
+/* Renders BKFC CDN headshots across event/research/profile/directory/picks
+   pages. Fallback tile uses the BK brand red→gold gradient with a white
+   monogram. The .favorite modifier adds the teal glow used on the winning
+   side of advantage rows and on every picks-row fighter. */
+
+.fighter-avatar {
+  display: inline-block;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, rgba(255,79,79,0.85) 0%, rgba(240,192,64,0.85) 100%);
+  border: 1.5px solid rgba(200,215,230,0.22);
+  object-fit: cover;
+  object-position: center top;
+  color: #fff;
+  font-weight: 900;
+  font-family: 'JetBrains Mono', monospace;
+  overflow: hidden;
+  vertical-align: middle;
+  line-height: 1;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+div.fighter-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+img.fighter-avatar {
+  display: block;
+}
+.fighter-avatar.fallback {
+  background: linear-gradient(135deg, #ff4f4f 0%, #f0c040 100%);
+}
+.fighter-avatar.fallback span {
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+.fighter-avatar.xs {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  border-width: 1px;
+}
+.fighter-avatar.sm {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 0.95rem;
+}
+.fighter-avatar.md {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+.fighter-avatar.lg {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+}
+.fighter-avatar.xl {
+  width: 120px;
+  height: 120px;
+  border-radius: 0.75rem;
+  font-size: 2.75rem;
+  border-width: 2px;
+}
+
+.fighter-avatar.favorite {
+  border-color: rgba(21,255,194,0.65);
+  box-shadow: 0 0 14px rgba(21,255,194,0.22);
+}
+
+/* Shrink avatars on very small phones so adv-row stays on one line. */
+@media (max-width: 600px) {
+  .fighter-avatar.md { width: 36px; height: 36px; font-size: 0.9rem; }
+  .fighter-avatar.lg { width: 44px; height: 44px; font-size: 1rem; }
+  .fighter-avatar.xl { width: 96px; height: 96px; font-size: 2.25rem; }
+}
+
+/* Picks-row layout gets an extra leading column for the fighter avatar. */
+.picks-row {
+  grid-template-columns: auto 1fr auto auto auto auto;
+}
+@media (max-width: 700px) {
+  .picks-row {
+    grid-template-columns: auto 1fr auto auto;
+  }
+  .fighter-avatar.sm { width: 34px; height: 34px; font-size: 0.85rem; }
+}
+
+/* Line movement sparkline */
+.line-mvmt {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(7,14,26,0.4);
+  border: 1px solid rgba(100,200,220,0.06);
+  border-radius: 0.5rem;
+}
+.line-mvmt-label {
+  font-family: 'JetBrains Mono';
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(200,215,230,0.5);
+  margin-bottom: 0.35rem;
+}
+.line-mvmt svg { display: block; }
+.line-mvmt-endpoints {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'JetBrains Mono';
+  font-size: 0.6rem;
+  color: rgba(200,215,230,0.7);
+  margin-top: 0.25rem;
+}
+
+/* -- Fighter factor radar -------------------------------------------------- */
+/* Centered SVG radar chart rendered into fighter profiles. 8 axes,
+   per-division percentile. Pure static SVG, no JS. */
+.fighter-radar {
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+.fighter-radar svg {
+  display: block;
+  margin: 0 auto;
+  overflow: visible;
+}
+.radar-label {
+  font-family: 'JetBrains Mono';
+  font-size: 9px;
+  fill: rgba(200,215,230,0.75);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.radar-label-raw {
+  font-size: 8px;
+  fill: rgba(200,215,230,0.45);
+  text-transform: none;
+  letter-spacing: 0;
+}
+.radar-shape {
+  fill: rgba(21,255,194,0.2);
+  stroke: #15ffc2;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+.radar-median {
+  stroke: rgba(200,215,230,0.25);
+}
+.radar-caption {
+  font-family: 'JetBrains Mono';
+  font-size: 0.6rem;
+  color: rgba(200,215,230,0.5);
+  margin-top: 0.5rem;
+}
+
+/* -- Newsletter signup ---------------------------------------------------- */
+/* Listmonk-compatible signup block. Used prominently on /picks/ and as a
+   compact row in the footer. Glass card with teal accent, horizontal form
+   on desktop, stacked on mobile. */
+.newsletter-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.newsletter-card .newsletter-copy {
+  min-width: 0;
+}
+.newsletter-card--compact {
+  gap: 0.75rem;
+}
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+@media (min-width: 640px) {
+  .newsletter-form {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+}
+.newsletter-form input[type="email"] {
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-primary);
+  background: rgba(7, 14, 26, 0.55);
+  border: 1px solid rgba(100, 200, 220, 0.18);
+  border-radius: 0.75rem;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: border-color 0.15s, background 0.15s;
+  outline: none;
+}
+.newsletter-form input[type="email"]::placeholder {
+  color: rgba(200, 215, 230, 0.4);
+}
+.newsletter-form input[type="email"]:focus {
+  border-color: rgba(21, 255, 194, 0.55);
+  background: rgba(7, 14, 26, 0.75);
+  box-shadow: 0 0 0 3px rgba(21, 255, 194, 0.12);
+}
+.newsletter-form button[type="submit"] {
+  flex: 0 0 auto;
+  padding: 0.75rem 1.4rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #070e1a;
+  background: var(--teal);
+  border: 1px solid var(--teal);
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+  min-height: 44px;
+}
+.newsletter-form button[type="submit"]:hover {
+  background: #3dffce;
+  box-shadow: 0 0 16px rgba(21, 255, 194, 0.35);
+}
+.newsletter-form button[type="submit"]:active {
+  transform: translateY(1px);
+}
+.newsletter-form button[type="submit"]:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.newsletter-success {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--teal);
+  background: rgba(21, 255, 194, 0.08);
+  border: 1px solid rgba(21, 255, 194, 0.25);
+  border-radius: 0.75rem;
+}
+.newsletter-success .nl-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: var(--teal);
+  box-shadow: 0 0 8px rgba(21, 255, 194, 0.7);
+  animation: pulse 1.6s infinite;
+  flex-shrink: 0;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* -----------------------------------------------------------------------
+   Phase 43 — Pro Boxing Career block (fighter page) and Common Opponents
+   block (compare page). Wikipedia-sourced fight-by-fight history.
+----------------------------------------------------------------------- */
+.pro-boxing-section .title-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #f0c040;
+  background: rgba(240, 192, 64, 0.08);
+  border: 1px solid rgba(240, 192, 64, 0.35);
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+.pro-boxing-section .title-pill-icon {
+  color: #f0c040;
+  font-size: 0.8rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.pro-boxing-section .title-pill-range {
+  color: rgba(240, 192, 64, 0.65);
+  font-weight: 500;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  margin-left: 0.3rem;
+  font-size: 0.68rem;
+}
+.pro-boxing-table-scroll {
+  overflow-x: auto;
+}
+.pro-boxing-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  min-width: 560px;
+}
+.pro-boxing-table thead th {
+  text-align: left;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 600;
+  padding: 0.4rem 0.55rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+.pro-boxing-table tbody td {
+  padding: 0.45rem 0.55rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.85);
+  vertical-align: top;
+}
+.pro-boxing-table tbody tr:nth-child(2n) td {
+  background: rgba(255, 255, 255, 0.02);
+}
+.pro-boxing-table td.num,
+.pro-boxing-table td.rec,
+.pro-boxing-table td.method,
+.pro-boxing-table td.rt,
+.pro-boxing-table td.date {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+.pro-boxing-table td.num {
+  color: rgba(255, 255, 255, 0.45);
+  width: 2rem;
+}
+.pro-boxing-table td.opp {
+  font-weight: 600;
+}
+.pro-boxing-table td.opp .fighter-link {
+  color: var(--teal, #15ffc2);
+}
+.pro-boxing-table tbody tr.hidden-row {
+  display: none;
+}
+.pro-boxing-wrap .show-all:checked ~ .pro-boxing-table-scroll .pro-boxing-table tbody tr.hidden-row {
+  display: table-row;
+}
+.pb-toggle {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 0.72rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: var(--teal, #15ffc2);
+  padding: 0.3rem 0.7rem;
+  border: 1px solid rgba(21, 255, 194, 0.3);
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  user-select: none;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+.pb-toggle:hover {
+  background: rgba(21, 255, 194, 0.08);
+  border-color: rgba(21, 255, 194, 0.6);
+}
+.pb-toggle .pb-toggle-less {
+  display: none;
+}
+.show-all:checked ~ .pb-toggle .pb-toggle-more,
+.pro-boxing-wrap .show-all:checked ~ .pb-toggle .pb-toggle-more {
+  display: none;
+}
+.show-all:checked ~ .pb-toggle .pb-toggle-less,
+.pro-boxing-wrap .show-all:checked ~ .pb-toggle .pb-toggle-less {
+  display: inline;
+}
+@media (max-width: 640px) {
+  .pro-boxing-table td.date,
+  .pro-boxing-table th.date {
+    display: none;
+  }
+}
+
+/* Compare page — Common Opponents module */
+.common-opponent-block .common-opp-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.55rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+}
+.common-opponent-block .common-opp-row:first-of-type {
+  border-top: 0;
+}
+.common-opponent-block .common-opp-name {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;
+}
+.common-opponent-block .common-opp-detail {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.72rem;
+}

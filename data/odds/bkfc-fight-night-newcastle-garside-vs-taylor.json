@@ -1,0 +1,15 @@
+{
+  "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+  "event_date": "2026-08-01",
+  "source": "consensus",
+  "source_url": null,
+  "fetched_at": "2026-07-21T23:34:45.794Z",
+  "book_count": 4,
+  "books": [
+    "bestfightodds",
+    "kalshi",
+    "polymarket",
+    "xbet"
+  ],
+  "bouts": []
+}

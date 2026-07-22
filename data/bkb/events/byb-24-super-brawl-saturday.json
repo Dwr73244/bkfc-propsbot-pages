@@ -1,0 +1,160 @@
+{
+  "slug": "byb-24-super-brawl-saturday",
+  "league": "BKB",
+  "name": "BYB 24: Super Brawl Saturday",
+  "event_number": 24,
+  "event_type": "Numbered",
+  "date": "2024-02-10T20:00:00Z",
+  "venue": "Mississippi Coast Coliseum",
+  "city": "Biloxi",
+  "state": "Mississippi",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "ike-villanueva",
+      "fighter_b_slug": "dj-linderman",
+      "title_fight": true,
+      "title_name": "BKB Heavyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ike-villanueva",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "jeremiah-potts",
+      "fighter_b_slug": "christopher-gonzalez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "christopher-gonzalez",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "brandon-desrosier",
+      "fighter_b_slug": "kendell-ward",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-desrosier",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Flyweight",
+      "fighter_a_slug": "cecilia-ulloa",
+      "fighter_b_slug": "jessica-mouneimne",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "cecilia-ulloa",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "kylle-mcmillan",
+      "fighter_b_slug": "stevo-morris",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kylle-mcmillan",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Flyweight",
+      "fighter_a_slug": "helen-peralta",
+      "fighter_b_slug": "lailane-mota",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "NC",
+        "round": 2
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "joshua-oxendine",
+      "fighter_b_slug": "oleksandr-sitarchuck",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "joshua-oxendine",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "brandon-birr",
+      "fighter_b_slug": "harold-mcqueen",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "harold-mcqueen",
+        "method": "TKO",
+        "round": 2
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-24-super-brawl-saturday"
+  ],
+  "last_updated": "2026-04-17"
+}

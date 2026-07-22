@@ -1,0 +1,45 @@
+{
+  "slug": "thiago-alves",
+  "name": "Thiago Alves",
+  "nickname": "Pitbull",
+  "division": "Light Heavyweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": "23-15",
+  "height_in": 70,
+  "reach_in": 70,
+  "stance": "Orthodox",
+  "dob": "1983-10-01",
+  "age": 42,
+  "nationality": "Brazil",
+  "hometown": "Fortaleza",
+  "fighting_out_of": "Florida",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744596367/o/1744596367652_67d1d2e054dfa5528e777e41_thiago-alves-400x533_compressed.png",
+  "social": {
+    "instagram": "https://www.instagram.com/thiagoalvesatt/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/thiago-alves",
+    "https://en.wikipedia.org/wiki/Thiago_Alves_(fighter)"
+  ],
+  "last_updated": "2026-04-17",
+  "style_tags": [
+    "pressure",
+    "power"
+  ],
+  "full_name": "Thiago Alves Araujo",
+  "elo": 1479,
+  "elo_peak": 1500
+}

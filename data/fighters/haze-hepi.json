@@ -1,0 +1,39 @@
+{
+  "slug": "haze-hepi",
+  "name": "Haze Hepi",
+  "full_name": null,
+  "nickname": "The Huntsman",
+  "division": "Heavyweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 75,
+  "reach_in": 81,
+  "stance": null,
+  "dob": "1991-03",
+  "age": null,
+  "nationality": "Australia",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1756394474/o/HAZE_HEPI_AVATAR_400x533.png?1756394474",
+  "social": {
+    "instagram": "https://www.instagram.com/hazethehuntsman",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/haze-hepi"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1526,
+  "elo_peak": 1526
+}

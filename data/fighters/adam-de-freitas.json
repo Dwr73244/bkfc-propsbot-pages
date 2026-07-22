@@ -1,0 +1,40 @@
+{
+  "slug": "adam-de-freitas",
+  "name": "Adam De Freitas",
+  "nickname": "CLOONEY",
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 3,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 72,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1988-02",
+  "age": 38,
+  "nationality": "Canada",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1746031063/o/FREITAS_AVATAR_400x533.png?1746031063",
+  "social": {
+    "instagram": "https://www.instagram.com/adamdef/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/adam-de-freitas"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1457,
+  "elo_peak": 1500
+}

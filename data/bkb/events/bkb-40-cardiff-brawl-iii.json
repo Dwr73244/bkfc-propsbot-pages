@@ -1,0 +1,205 @@
+{
+  "slug": "bkb-40-cardiff-brawl-iii",
+  "league": "BKB",
+  "name": "BKB 40: Cardiff Brawl III",
+  "event_number": 40,
+  "event_type": "Numbered",
+  "date": "2025-04-19T20:00:00Z",
+  "venue": "Utilita Arena Cardiff",
+  "city": "Cardiff",
+  "state": null,
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Super Welterweight",
+      "fighter_a_slug": "liam-rees",
+      "fighter_b_slug": "martin-reffell",
+      "title_fight": true,
+      "title_name": "BKB Super Welterweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "liam-rees",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Super Lightweight",
+      "fighter_a_slug": "dan-podmore",
+      "fighter_b_slug": "emil-markic",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dan-podmore",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "tyler-goodjohn",
+      "fighter_b_slug": "joe-smith",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tyler-goodjohn",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "keiron-harding",
+      "fighter_b_slug": "robert-koky",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "keiron-harding",
+        "method": "KO",
+        "round": 3
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "ash-williams",
+      "fighter_b_slug": "callum-nulty",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ash-williams",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "martin-mcdonough",
+      "fighter_b_slug": "marcin-kosiak",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "martin-mcdonough",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "daniel-lerwell",
+      "fighter_b_slug": "danny-worsfold",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "daniel-lerwell",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "dorian-darch",
+      "fighter_b_slug": "tony-barratt",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dorian-darch",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "anthony-scotford",
+      "fighter_b_slug": "aaron-ashton",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "anthony-scotford",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "nicky-potts",
+      "fighter_b_slug": "will-dermietzel",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "will-dermietzel",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "geraint-goodridge",
+      "fighter_b_slug": "frankie-curry",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "geraint-goodridge",
+        "method": "TKO",
+        "round": 1
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/bkb-40-cardiff-brawl-iii"
+  ],
+  "last_updated": "2026-04-17"
+}

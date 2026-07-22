@@ -1,0 +1,42 @@
+{
+  "slug": "brandon-shavers",
+  "league": "BKB",
+  "name": "Brandon Shavers",
+  "nickname": null,
+  "division": "Super Middleweight",
+  "bkb_record": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "kos": 0
+  },
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 79,
+  "stance": null,
+  "dob": "1994-10-01",
+  "age": 31,
+  "nationality": "United States",
+  "hometown": "Louisiana",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744595229/o/1744595229194_67f93a6e5fa85bdd9ad9e2dd_BRANDON_SHAVERS_400x533_compressed.png?1744595229",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
+  ],
+  "last_updated": "2026-04-18"
+}

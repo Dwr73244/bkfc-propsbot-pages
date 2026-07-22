@@ -1,0 +1,39 @@
+{
+  "slug": "victor-rosas",
+  "name": "Victor Rosas",
+  "nickname": "THE ART OF VIOLENCE",
+  "division": "Bantamweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 67,
+  "reach_in": 69,
+  "stance": null,
+  "dob": "1988-09",
+  "age": 37,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/vr7sd/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/victor-rosas"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1476,
+  "elo_peak": 1500
+}

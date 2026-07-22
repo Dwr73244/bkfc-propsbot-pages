@@ -1,0 +1,39 @@
+{
+  "slug": "tyler-tremblett",
+  "name": "Tyler Tremblett",
+  "nickname": "BIG NASTY",
+  "division": "Heavyweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 75,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1992-03",
+  "age": 34,
+  "nationality": "Canada",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/tremblett24/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/tyler-tremblett"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1522,
+  "elo_peak": 1522
+}

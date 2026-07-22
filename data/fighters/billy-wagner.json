@@ -1,0 +1,39 @@
+{
+  "slug": "billy-wagner",
+  "name": "Billy Wagner",
+  "nickname": null,
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 6,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1993-02",
+  "age": 33,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/billy-wagner"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1479,
+  "elo_peak": 1500
+}

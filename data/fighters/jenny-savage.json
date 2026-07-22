@@ -1,0 +1,39 @@
+{
+  "slug": "jenny-savage",
+  "name": "Jenny Savage",
+  "nickname": "THE TENNESSEE GANGSTER",
+  "division": "Women's Strawweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 4,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1993-04",
+  "age": 33,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/thetennesseegangster/?img_index=1",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/jenny.savage.3367"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/jenny-savage"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1480,
+  "elo_peak": 1500
+}

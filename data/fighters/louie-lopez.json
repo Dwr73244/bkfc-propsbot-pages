@@ -1,0 +1,41 @@
+{
+  "slug": "louie-lopez",
+  "name": "Louie Lopez",
+  "nickname": "El Loco",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 4,
+    "losses": 5,
+    "draws": 0,
+    "kos": 0
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 71,
+  "stance": null,
+  "dob": "1991-10-01",
+  "age": 34,
+  "nationality": "United States",
+  "hometown": "Montana",
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744598878/o/1744598878743_67bcde4bea8a283be851e539_BKFC_-_Website_avatar_Louie_Lopez__28Oct2024_29_compressed.webp",
+  "social": {
+    "instagram": "https://www.instagram.com/louie_lopez_athlete_/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/louie-lopez"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1421,
+  "elo_peak": 1500
+}

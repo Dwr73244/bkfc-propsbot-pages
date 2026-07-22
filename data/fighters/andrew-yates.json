@@ -1,0 +1,39 @@
+{
+  "slug": "andrew-yates",
+  "name": "Andrew Yates",
+  "full_name": null,
+  "nickname": "Golden Child",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 70,
+  "reach_in": 73,
+  "stance": null,
+  "dob": "1989-03",
+  "age": 37,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744599022/o/ANDREW_YATES_400x533.png",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/andrew-yates"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1478,
+  "elo_peak": 1500
+}

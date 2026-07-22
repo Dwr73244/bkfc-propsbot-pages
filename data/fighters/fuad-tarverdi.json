@@ -1,0 +1,39 @@
+{
+  "slug": "fuad-tarverdi",
+  "name": "Fuad Tarverdi",
+  "nickname": "THE FLASH",
+  "division": "Bantamweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 67,
+  "reach_in": null,
+  "stance": null,
+  "dob": null,
+  "age": null,
+  "nationality": "Azerbaijan",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744599894/o/1744599894548_67cf0d0cc77f3b9b83b788b1_BKFC_-_Website_avatar_Tarverdi_%28Feb2025%29_compressed.webp?1744599894",
+  "social": {
+    "instagram": "https://www.instagram.com/TARVERDI.FUAD",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/fuad-tarverdi"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1481,
+  "elo_peak": 1500
+}

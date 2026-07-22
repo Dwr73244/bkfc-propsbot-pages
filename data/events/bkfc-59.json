@@ -1,0 +1,191 @@
+{
+  "slug": "bkfc-59",
+  "name": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+  "event_number": 59,
+  "event_type": "Numbered",
+  "date": "2024-03-29T20:00:00Z",
+  "venue": "Tingley Coliseum",
+  "city": "Albuquerque",
+  "state": "NM",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "john-dodson",
+      "fighter_b_slug": "dagoberto-aguero",
+      "title_fight": true,
+      "title_name": "BKFC Flyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "Draw (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "donald-sanchez",
+      "fighter_b_slug": "dallas-davison",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "donald-sanchez",
+        "method": "KO",
+        "round": 3,
+        "time": "1:19"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "nick-kohring",
+      "fighter_b_slug": "kyle-mcelroy",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "nick-kohring",
+        "method": "KO",
+        "round": 1,
+        "time": "0:30"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "ruben-warr",
+      "fighter_b_slug": "lorenzo-coca",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ruben-warr",
+        "method": "KO",
+        "round": 1,
+        "time": "1:46"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "keith-richardson",
+      "fighter_b_slug": "frank-lester",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "keith-richardson",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:57"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "marc-entenberg",
+      "fighter_b_slug": "van-vo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "marc-entenberg",
+        "method": "Decision (majority)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "justin-street",
+      "fighter_b_slug": "anthony-sanchez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "justin-street",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "felipe-chavez",
+      "fighter_b_slug": "leandro-torres",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "felipe-chavez",
+        "method": "KO",
+        "round": 1,
+        "time": "0:58"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "manuel-otero",
+      "fighter_b_slug": "michael-furnier",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "manuel-otero",
+        "method": "KO",
+        "round": 2,
+        "time": "0:42"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "austin-lewis",
+      "fighter_b_slug": "josh-richey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "austin-lewis",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

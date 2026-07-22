@@ -1,0 +1,41 @@
+{
+  "slug": "dan-gittens",
+  "league": "BKB",
+  "name": "Dan Gittens",
+  "nickname": null,
+  "division": "Middleweight",
+  "bkb_record": {
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "kos": 2
+  },
+  "bkfc_record": null,
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": null,
+  "age": null,
+  "nationality": "United Kingdom",
+  "hometown": "Harlow, Essex",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "British bare-knuckle boxer from Harlow, Essex, known for finishing power - every pro win has come by knockout inside three rounds. Holds an unbeaten BKB record including wins over Harvey Dossett (2nd-round KO) and Joe Clarke (1st-round KO). Scheduled to challenge for the BKB Welterweight title against Javon Wright at BKB 54 in Manchester on May 16, 2026.",
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/brawlers/dan-gittens",
+    "https://bareknuckleheroes.com/bkb-54-mayhem-in-manchester-fight-card-announced/"
+  ],
+  "last_updated": "2026-04-18",
+  "elo": 1543,
+  "elo_peak": 1543
+}

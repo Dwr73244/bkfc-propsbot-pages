@@ -1,0 +1,107 @@
+{
+  "slug": "bkb-53-the-harder-they-fall",
+  "league": "BKB",
+  "name": "BKB 53: The Harder They Fall",
+  "event_number": 53,
+  "event_type": "Numbered",
+  "date": "2026-04-17T23:00:00Z",
+  "venue": "Seneca Niagara Event Center",
+  "city": "Niagara Falls",
+  "state": "New York",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "lt-nelson",
+      "fighter_b_slug": "mark-tiffin",
+      "title_fight": true,
+      "title_name": "BKB Middleweight Championship",
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "jarod-grant",
+      "fighter_b_slug": "jon-barnard",
+      "title_fight": true,
+      "title_name": "BKB Lightweight Championship",
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "claudia-zamora",
+      "fighter_b_slug": "viviane-pereira",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "robert-duran-jr",
+      "fighter_b_slug": "austin-spivey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Super Middleweight",
+      "fighter_a_slug": "jose-fernandez",
+      "fighter_b_slug": "brandon-shavers",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Super Welterweight",
+      "fighter_a_slug": "joshua-sikes",
+      "fighter_b_slug": "darrian-leu-pierre",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/schedule",
+    "https://www.ticketmaster.com/bkb-53-the-harder-they-fall-niagara-falls-new-york-04-17-2026/event/0000644BD0E0C2D5"
+  ],
+  "last_updated": "2026-04-17"
+}

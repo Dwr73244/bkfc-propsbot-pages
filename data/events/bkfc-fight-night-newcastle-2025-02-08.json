@@ -1,0 +1,242 @@
+{
+  "slug": "bkfc-fight-night-newcastle-2025-02-08",
+  "name": "BKFC Fight Night Newcastle: Thompson vs. Boardman",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2025-02-08T20:00:00Z",
+  "venue": "Walker Activity Dome",
+  "city": "Newcastle upon Tyne",
+  "state": null,
+  "country": "England",
+  "country_code": "GB",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "karl-thompson",
+      "fighter_b_slug": "rob-boardman",
+      "title_fight": true,
+      "title_name": "BKFC UK Cruiserweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "karl-thompson",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:46"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "pic-jardine",
+      "fighter_b_slug": "tony-shields",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "pic-jardine",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "lewis-keen",
+      "fighter_b_slug": "ryan-mccarthy",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lewis-keen",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "paul-cook",
+      "fighter_b_slug": "adam-grogan",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "paul-cook",
+        "method": "TKO",
+        "round": 4,
+        "time": "0:25"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "travis-dickinson",
+      "fighter_b_slug": "rowan-gregory",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "travis-dickinson",
+        "method": "TKO",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "joe-lister",
+      "fighter_b_slug": "john-ferguson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "joe-lister",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:48"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "lewis-garside",
+      "fighter_b_slug": "bartek-kanabey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lewis-garside",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "brandon-comby",
+      "fighter_b_slug": "ryan-carmichael",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-comby",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "mikey-henderson",
+      "fighter_b_slug": "liam-hutchinson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mikey-henderson",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "leigh-cohoon",
+      "fighter_b_slug": "mpampis-klados",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "leigh-cohoon",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:33"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "james-walker",
+      "fighter_b_slug": "jan-sulecki",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "james-walker",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 12,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "oscar-smykiel",
+      "fighter_b_slug": "alan-comby",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "oscar-smykiel",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:49"
+      }
+    },
+    {
+      "order": 13,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "weight_limit_kg": 66,
+      "fighter_a_slug": "tommy-strydom",
+      "fighter_b_slug": "john-spencer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tommy-strydom",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:18"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

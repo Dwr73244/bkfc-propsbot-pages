@@ -1,0 +1,220 @@
+{
+  "slug": "byb-12-london-brawl",
+  "league": "BKB",
+  "name": "BYB 12: London Brawl",
+  "event_number": 12,
+  "event_type": "Numbered",
+  "date": "2022-10-16T20:00:00Z",
+  "venue": "Indigo at The O2",
+  "city": "London",
+  "state": null,
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "seth-shaffer",
+      "fighter_b_slug": "carlos-guerra",
+      "title_fight": true,
+      "title_name": "Police Gazette Diamond Welterweight",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "seth-shaffer",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Super Welterweight",
+      "fighter_a_slug": "jozette-cotton",
+      "fighter_b_slug": "miranda-barber",
+      "title_fight": true,
+      "title_name": "Police Gazette Diamond Super Welterweight (Women)",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jozette-cotton",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "robert-serna",
+      "fighter_b_slug": "jack-mclean",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "robert-serna",
+        "method": "KO",
+        "round": 2
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "brandon-johnson",
+      "fighter_b_slug": "leo-pla",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "leo-pla",
+        "method": "TKO",
+        "round": 4
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "eric-olsen",
+      "fighter_b_slug": "szymon-szynkiewicz",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "szymon-szynkiewicz",
+        "method": "DQ",
+        "round": 3
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "jd-burns",
+      "fighter_b_slug": "ionel-levitchi",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ionel-levitchi",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "lt-nelson",
+      "fighter_b_slug": "nathan-decastro",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "lt-nelson",
+        "method": "TKO",
+        "round": 3
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Flyweight",
+      "fighter_a_slug": "jamie-driver",
+      "fighter_b_slug": "sonya-dreiling",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jamie-driver",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "stuart-maddox",
+      "fighter_b_slug": "darren-godfrey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "stuart-maddox",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "matty-moore",
+      "fighter_b_slug": "sam-wells",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "matty-moore",
+        "method": "TKO",
+        "round": 2
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "harvey-dossett",
+      "fighter_b_slug": "jonny-jones",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jonny-jones",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 12,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "stanlee-wilson",
+      "fighter_b_slug": "jody-meikle",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jody-meikle",
+        "method": "Decision",
+        "round": 5
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-12-london-brawl"
+  ],
+  "last_updated": "2026-04-17"
+}

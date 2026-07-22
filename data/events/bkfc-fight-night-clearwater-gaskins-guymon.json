@@ -1,0 +1,179 @@
+{
+  "slug": "bkfc-fight-night-clearwater-gaskins-guymon",
+  "name": "BKFC Fight Night Clearwater: Gaskins vs Guymon",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2026-04-24T20:00:00-04:00",
+  "venue": "The OCC Road House",
+  "city": "Clearwater",
+  "state": "FL",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "BKFC+",
+    "Fubo Sports"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "quentin-gaskins",
+      "fighter_b_slug": "matt-guymon",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "quentin-gaskins",
+        "method": "KO",
+        "round": 2,
+        "time": "3:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "royal-ryan-reber",
+      "fighter_b_slug": "joshua-oxendine",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "royal-ryan-reber",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Strawweight",
+      "fighter_a_slug": "crystal-van-wyk",
+      "fighter_b_slug": "kat-paprocki",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "tony-murphy",
+      "fighter_b_slug": "justin-williams",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "mike-heckert",
+      "fighter_b_slug": "justin-walters",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mike-heckert",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:18"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "brandon-allen",
+      "fighter_b_slug": "lukas-jones",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-allen",
+        "method": "KO",
+        "round": 1,
+        "time": "1:58"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "frankie-solomon",
+      "fighter_b_slug": "rickie-mcconnico",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "frankie-solomon",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "jason-dinunzio",
+      "fighter_b_slug": "israel-rodriguez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "terry-williams",
+      "fighter_b_slug": "bolo-carthon",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "terry-williams",
+        "method": "KO",
+        "round": 3,
+        "time": "1:23"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Flyweight",
+      "fighter_a_slug": "chachi-versace",
+      "fighter_b_slug": "gabriel-hernandez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "thomas-jungles",
+      "fighter_b_slug": "anthony-grubbs",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "anthony-grubbs",
+        "method": "KO",
+        "round": 3,
+        "time": "0:25"
+      }
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-clearwater"
+  ],
+  "last_updated": "2026-04-25"
+}

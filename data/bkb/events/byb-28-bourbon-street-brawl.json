@@ -1,0 +1,160 @@
+{
+  "slug": "byb-28-bourbon-street-brawl",
+  "league": "BKB",
+  "name": "BYB 28: Bourbon Street Brawl",
+  "event_number": 28,
+  "event_type": "Numbered",
+  "date": "2024-06-14T20:00:00Z",
+  "venue": "UNO Lakefront Arena",
+  "city": "New Orleans",
+  "state": "Louisiana",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "FITE TV",
+    "BKB TV"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "gustavo-trujillo",
+      "fighter_b_slug": "ike-villanueva",
+      "title_fight": true,
+      "title_name": "BKB Heavyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "gustavo-trujillo",
+        "method": "Decision",
+        "round": 5
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Flyweight",
+      "fighter_a_slug": "monica-medina",
+      "fighter_b_slug": "helen-peralta",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "helen-peralta",
+        "method": "KO",
+        "round": 1
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "scott-oshaughnessy",
+      "fighter_b_slug": "chad-kelly",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "NC",
+        "round": 2
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "logan-speyrer",
+      "fighter_b_slug": "oleksandr-sitarchuck",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "logan-speyrer",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "james-connelly",
+      "fighter_b_slug": "mark-tiffin",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "james-connelly",
+        "method": "KO",
+        "round": 2
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "Prelim",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "dylan-rush",
+      "fighter_b_slug": "jay-fish",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dylan-rush",
+        "method": "Forfeit",
+        "round": 1
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "jd-burns",
+      "fighter_b_slug": "rome-lindsay",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rome-lindsay",
+        "method": "TKO",
+        "round": 1
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "jonathan-cage-noah",
+      "fighter_b_slug": "adam-nash",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "adam-nash",
+        "method": "TKO",
+        "round": 1
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "FITE TV",
+        "url": "https://www.fite.tv",
+        "type": "PPV"
+      },
+      {
+        "platform": "BKB TV",
+        "url": "https://www.bkb.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": null
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://www.bkbbareknuckle.com/fight-results/byb-28-bourbon-street-brawl"
+  ],
+  "last_updated": "2026-04-17"
+}

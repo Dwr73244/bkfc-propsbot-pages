@@ -1,0 +1,183 @@
+{
+  "slug": "bkfc-fight-night-australia-townsville",
+  "name": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
+  "event_number": null,
+  "event_type": "FightNight",
+  "date": "2026-04-18T19:00:00+10:00",
+  "venue": "Townsville Entertainment and Convention Centre",
+  "city": "Townsville",
+  "state": "QLD",
+  "country": "Australia",
+  "country_code": "AU",
+  "broadcast": [
+    "BKFC+",
+    "Fubo Sports"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "haze-hepi",
+      "fighter_b_slug": "krzysztof-wisniewski",
+      "title_fight": true,
+      "title_name": "BKFC Heavyweight Championship (Oceania)",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "haze-hepi",
+        "method": "KO",
+        "round": 2,
+        "time": "1:44"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "mark-flanagan",
+      "fighter_b_slug": "dilan-prasovic",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "dilan-prasovic",
+        "method": "TKO",
+        "round": 1,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "josh-kuhne",
+      "fighter_b_slug": "mick-whitehead",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "josh-kuhne",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:51"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "brayden-marzona",
+      "fighter_b_slug": "boaz-kapua",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "boaz-kapua",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:03"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "luke-bampton",
+      "fighter_b_slug": "hunter-ioane",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "hunter-ioane",
+        "method": "KO",
+        "round": 3,
+        "time": "1:13"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "cooper-clarke",
+      "fighter_b_slug": "ryan-winnett",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ryan-winnett",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:45"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "patrick-tolone",
+      "fighter_b_slug": "fetongi-tuinauvai",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "fetongi-tuinauvai",
+        "method": "KO",
+        "round": 1,
+        "time": "0:30"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "chris-drummond",
+      "fighter_b_slug": "asher-jack",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "asher-jack",
+        "method": "TKO",
+        "round": 2,
+        "time": "1:09"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "sebastian-temesi",
+      "fighter_b_slug": "alvin-kanehailua",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "sebastian-temesi",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:13"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "darcy-braine",
+      "fighter_b_slug": "ritchie-faoso",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "darcy-braine",
+        "method": "Unanimous Decision",
+        "round": 3,
+        "time": "2:00"
+      }
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-australia-2"
+  ],
+  "last_updated": "2026-04-20"
+}

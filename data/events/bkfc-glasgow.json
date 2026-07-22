@@ -1,0 +1,22 @@
+{
+  "slug": "bkfc-glasgow",
+  "name": "bkfc-glasgow",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-11-07T00:00:00Z",
+  "venue": "OVO HYDRO",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-glasgow"
+  ],
+  "last_updated": "2026-07-06",
+  "needs_card_population": true
+}

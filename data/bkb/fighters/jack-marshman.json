@@ -1,0 +1,40 @@
+{
+  "slug": "jack-marshman",
+  "league": "BKB",
+  "name": "Jack Marshman",
+  "nickname": null,
+  "division": "Cruiserweight",
+  "bkb_record": {
+    "wins": 2,
+    "losses": 1,
+    "draws": 0,
+    "kos": 2
+  },
+  "bkfc_record": null,
+  "mma_record": null,
+  "height_in": 72,
+  "reach_in": 73,
+  "stance": null,
+  "dob": "1989-12-19",
+  "age": 37,
+  "nationality": null,
+  "hometown": "Abertillery , Wales",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "Jack Marshman (born 19 December 1989) is a retired Welsh professional mixed martial artist who competed in the Middleweight division. A professional competitor since 2010, he has competed for Ultimate Fighting Championship (UFC), BAMMA and Cage Warriors. He is the former BAMMA Lonsdale Middleweight Champion and former Cage Warriors Middleweight Champion.",
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://en.wikipedia.org/wiki/Jack_Marshman"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1521,
+  "elo_peak": 1544
+}

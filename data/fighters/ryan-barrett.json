@@ -1,0 +1,43 @@
+{
+  "slug": "ryan-barrett",
+  "name": "Ryan Barrett",
+  "full_name": null,
+  "nickname": "Mr Attitude",
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": "Southpaw",
+  "dob": "1982-12-27",
+  "age": 43,
+  "nationality": "United Kingdom",
+  "hometown": "Thamesmead, London, England",
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1775759000/o/RYAN_BARRATT_AVATAR_400x533.png?1775759000",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "English retired professional boxer from Thamesmead, London, with a 30-11-3 pro record across 44 bouts. Turned pro in June 2002, capturing the English super featherweight title in 2008 and the WBU welterweight belt in 2013. Notably lost to Amir Khan by third-round TKO in 2006. Retired in 2014 and transitioned to bare-knuckle boxing in 2026.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs-franco",
+    "https://www.bkfc.com/fighters/ryan-barrett",
+    "https://en.wikipedia.org/wiki/Ryan_Barrett"
+  ],
+  "last_updated": "2026-04-18",
+  "elo": 1475,
+  "elo_peak": 1500,
+  "record_source": "tracked-events",
+  "record_verified": "2026-07-07"
+}

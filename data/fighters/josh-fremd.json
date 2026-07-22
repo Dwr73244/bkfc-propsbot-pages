@@ -1,0 +1,43 @@
+{
+  "slug": "josh-fremd",
+  "name": "Josh Fremd",
+  "full_name": null,
+  "nickname": "Big Yinz",
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 75,
+  "reach_in": 78,
+  "stance": null,
+  "dob": "1993-11",
+  "age": 32,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1775252547/o/JOSH_FREMD_AVATAR_400x533.png",
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "Josh Fremd is a former UFC middleweight making his BKFC debut at BKFC 88 Denver. A Pennsylvania-based pro with strong boxing fundamentals, Fremd enters cruiserweight with a major experience edge.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/josh-fremd"
+  ],
+  "last_updated": "2026-04-17",
+  "style_tags": [
+    "counter",
+    "volume"
+  ],
+  "elo": 1522,
+  "elo_peak": 1522
+}

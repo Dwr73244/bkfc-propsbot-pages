@@ -1,0 +1,39 @@
+{
+  "slug": "leandro-martins",
+  "name": "Leandro Martins",
+  "nickname": null,
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 72,
+  "stance": null,
+  "dob": null,
+  "age": null,
+  "nationality": null,
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594237/o/1744594236898_67c812ccc94defbdf1081950_BKFC_-_Website_avatar_Martins__28Feb2025_29_compressed.webp?1744594237",
+  "social": {
+    "instagram": "https://www.instagram.com/LEANDROLIVEIRABJJ",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/leandro-martins"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1478,
+  "elo_peak": 1500
+}

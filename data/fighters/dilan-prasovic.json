@@ -1,0 +1,40 @@
+{
+  "slug": "dilan-prasovic",
+  "name": "Dilan Prasovic",
+  "full_name": "Dilan Prašović",
+  "nickname": null,
+  "division": "Heavyweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 75,
+  "reach_in": 76,
+  "stance": "Orthodox",
+  "dob": "1995-12-01",
+  "age": 30,
+  "nationality": "Montenegro",
+  "hometown": "Kotor, Montenegro",
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755538838/o/DILAN_PRASOVIC_AVATAR_400x533.png?1755538838",
+  "social": {
+    "instagram": "https://www.instagram.com/dprasovic/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "Montenegrin professional boxer from Kotor with a 17-4 pro record and 14 KOs. Compiled over 100 amateur bouts before turning pro in 2014, winning the vacant WBO Youth cruiserweight title in 2018. Challenged Lawrence Okolie for the WBO cruiserweight world title in September 2021. Later captured the WBU bridgerweight title before transitioning to bare-knuckle competition.",
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/dilan-prasovic",
+    "https://en.wikipedia.org/wiki/Dilan_Pra%C5%A1ovi%C4%87"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1522,
+  "elo_peak": 1522
+}

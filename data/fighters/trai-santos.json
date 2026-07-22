@@ -1,0 +1,40 @@
+{
+  "slug": "trai-santos",
+  "name": "Trai Santos",
+  "nickname": null,
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 2,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 70,
+  "reach_in": 70,
+  "stance": "Southpaw",
+  "dob": "1992-05-01",
+  "age": 33,
+  "nationality": "United States",
+  "hometown": "Wichita, Kansas",
+  "fighting_out_of": "Wichita, Kansas",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1745245417/o/TRAI_SANTOS_400x533.png",
+  "social": {
+    "instagram": "https://www.instagram.com/trai_santos_mma/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/trai-santos"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1457,
+  "elo_peak": 1500
+}

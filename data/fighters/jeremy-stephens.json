@@ -1,0 +1,78 @@
+{
+  "slug": "jeremy-stephens",
+  "name": "Jeremy Stephens",
+  "nickname": "LIL HEATHEN",
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": 71,
+  "stance": null,
+  "dob": "1986-05-26",
+  "age": 39,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/lilheathenmma/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/jeremy-stephens",
+    "https://boxrec.com/en/box-pro/924832",
+    "https://en.wikipedia.org/wiki/Jeremy_Stephens"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1523,
+  "elo_peak": 1523,
+  "pro_boxing_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 1,
+    "kos": 0,
+    "last_updated": "2026-04-19"
+  },
+  "boxrec_id": 924832,
+  "boxrec_url": "https://boxrec.com/en/box-pro/924832",
+  "pro_boxing_history": [
+    {
+      "num": 2,
+      "result": "L",
+      "record_after": "0-1-1",
+      "opponent": "Chris Avila",
+      "opponent_slug": "chris-avila",
+      "method": "UD",
+      "round": 6,
+      "time": null,
+      "date": "2023-08-05",
+      "location": "American Airlines Center, Dallas, Texas, U.S.",
+      "notes": null
+    },
+    {
+      "num": 1,
+      "result": "D",
+      "record_after": "0-0-1",
+      "opponent": "José Aldo",
+      "opponent_slug": "jos-aldo",
+      "method": "MD",
+      "round": 6,
+      "time": null,
+      "date": "2023-04-01",
+      "location": "Fiserv Forum, Milwaukee, Wisconsin, U.S.",
+      "notes": null
+    }
+  ]
+}

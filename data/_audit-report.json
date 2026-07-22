@@ -1,0 +1,3383 @@
+{
+  "checked": 42,
+  "unchanged": [
+    {
+      "slug": "john-phillips",
+      "stored": "1-0-0",
+      "decision": "official"
+    },
+    {
+      "slug": "ryan-barrett",
+      "stored": "0-0-0",
+      "decision": "official"
+    },
+    {
+      "slug": "kratos",
+      "stored": "0-0-0",
+      "decision": "official"
+    },
+    {
+      "slug": "haze-hepi",
+      "stored": "3-1-0",
+      "decision": "official"
+    },
+    {
+      "slug": "karl-thompson",
+      "stored": "4-1-0",
+      "decision": "official"
+    },
+    {
+      "slug": "krzysztof-wisniewski",
+      "stored": "3-0-0",
+      "decision": "official"
+    }
+  ],
+  "updated": [
+    {
+      "slug": "jamel-herring",
+      "stored": "0-0-0",
+      "official": "1-0-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "nate-maness",
+      "stored": "0-0-0",
+      "official": "2-0-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "cody-vidal",
+      "stored": "0-1-1",
+      "official": "3-1-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "jomi-escoboza",
+      "stored": "0-0-0",
+      "official": "10-2-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "chase-gormley",
+      "stored": "0-1-0",
+      "official": "1-1-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "levi-costa",
+      "stored": "0-0-0",
+      "official": "2-3-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "connor-tierney",
+      "stored": "0-1-0",
+      "official": "9-2-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "rico-franco",
+      "stored": "2-0-0",
+      "official": "10-3-0",
+      "decision": "official",
+      "kos": 2
+    },
+    {
+      "slug": "jonno-chipchase",
+      "stored": "1-1-0",
+      "official": "3-2-0",
+      "decision": "official",
+      "kos": 1
+    },
+    {
+      "slug": "brian-hyslop",
+      "stored": "0-0-0",
+      "official": "1-1-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "quentin-gaskins",
+      "stored": "1-0-0",
+      "official": "2-1-0",
+      "decision": "official",
+      "kos": 1
+    },
+    {
+      "slug": "matt-guymon",
+      "stored": "0-0-0",
+      "official": "2-2-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "royal-ryan-reber",
+      "stored": "0-0-0",
+      "official": "7-2-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "joshua-oxendine",
+      "stored": "0-0-0",
+      "official": "1-0-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "julian-lane",
+      "stored": "2-0-0",
+      "official": "9-9-0",
+      "decision": "official",
+      "kos": 2
+    },
+    {
+      "slug": "bryce-henry",
+      "stored": "3-0-0",
+      "official": "6-0-0",
+      "decision": "official",
+      "kos": 3
+    },
+    {
+      "slug": "alex-the-terrible",
+      "stored": "0-0-0",
+      "official": "1-0-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "cameron-delano",
+      "stored": "0-0-0",
+      "official": "1-0-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "jake-bostwick",
+      "stored": "0-0-1",
+      "official": "4-2-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "roderick-stewart",
+      "stored": "1-0-0",
+      "official": "2-3-0",
+      "decision": "official",
+      "kos": 1
+    },
+    {
+      "slug": "brock-walker",
+      "stored": "0-0-0",
+      "official": "1-1-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "taylor-starling",
+      "stored": "1-2-0",
+      "official": "5-4-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "marisol-ruelas",
+      "stored": "0-0-0",
+      "official": "0-2-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "andrew-yates",
+      "stored": "3-1-0",
+      "official": "3-2-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "austin-trout",
+      "stored": "3-0-0",
+      "official": "5-0-0",
+      "decision": "official",
+      "kos": 1
+    },
+    {
+      "slug": "ben-rothwell",
+      "stored": "3-0-0",
+      "official": "4-1-0",
+      "decision": "official",
+      "kos": 3
+    },
+    {
+      "slug": "chris-camozzi",
+      "stored": "4-2-0",
+      "official": "4-3-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "donald-sanchez",
+      "stored": "3-0-0",
+      "official": "5-2-0",
+      "decision": "official",
+      "kos": 2
+    },
+    {
+      "slug": "elvin-brito",
+      "stored": "7-6-0",
+      "official": "7-7-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "eric-dodson",
+      "stored": "3-0-0",
+      "official": "4-2-0",
+      "decision": "official",
+      "kos": 3
+    },
+    {
+      "slug": "erick-lozano",
+      "stored": "3-5-0",
+      "official": "3-6-0",
+      "decision": "official",
+      "kos": null
+    },
+    {
+      "slug": "esteban-rodriguez",
+      "stored": "5-1-0",
+      "official": "6-1-0",
+      "decision": "official",
+      "kos": 5
+    },
+    {
+      "slug": "james-brown",
+      "stored": "3-0-0",
+      "official": "5-1-0",
+      "decision": "official",
+      "kos": 2
+    },
+    {
+      "slug": "keith-richardson",
+      "stored": "4-1-0",
+      "official": "5-2-0",
+      "decision": "official",
+      "kos": 3
+    },
+    {
+      "slug": "ramiro-figueroa",
+      "stored": "4-1-0",
+      "official": "5-1-0",
+      "decision": "official",
+      "kos": null
+    }
+  ],
+  "derivedFloorApplied": [],
+  "failed": [
+    {
+      "slug": "jay-jackson",
+      "reason": "no bkfc.com source URL",
+      "stored": "3-1-0"
+    }
+  ],
+  "phase42d": {
+    "startedAt": "2026-04-19T16:20:26.398Z",
+    "finishedAt": "2026-04-19T16:36:43.135Z",
+    "target_count": 473,
+    "excluded_prior": 42,
+    "skipped_no_bkfc_url": 80,
+    "checked": 473,
+    "unchanged": [
+      {
+        "slug": "aboubkeur-houari",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "adel-altamimi",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "ahmed-khairy",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "alan-comby",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "alvin-davis",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "andrew-potter",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "angel-hernandez",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "anthony-grubbs",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "anthony-pagan",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "apostle-spencer",
+        "stored": "0-2-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "arron-blakey",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "axel-birbes",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "bakhtyor-kudratov",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "bekhzod-usmonov",
+        "stored": "1-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "brandon-comby",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "brittany-horton",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "cedric-severac",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "cheng-leang",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "colin-reeser",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "dalton-shtybel",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "daniel-straus",
+        "stored": "0-2-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "daniela-graf",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "deron-winn",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "diego-sanchez",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "dustin-garrett",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "dustin-long",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "elnur-suleymanov",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "emil-enchev",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "eric-soto",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "ethan-trout",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "fabio-maldonado",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "frank-lester",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "frankie-solomon",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "freddy-sandoval",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "fuad-tarverdi",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "gabriel-hernandez",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "gaz-corran",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "geronimo-dos-santos",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "grady-wall",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "guto-inocente",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "iliyan-adrianov",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "ismail-israilov",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "itso-babulaidze",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jack-willoughby",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jake-craig",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jakub-kosicki",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jamie-hendry",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jaquis-williams",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jared-torgenson",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jaskaran-singh",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jason-kelly",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "joby-steffensmeier",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "joey-dawejko",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jordan-weeks",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "jorge-bargallo",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "josh-freeman",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "josh-fremd",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "justin-scoggins",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "justin-walters",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "justin-williams",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "katharina-lehner",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "kyle-wright",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "leandro-martins",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "logan-tucker",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "lorenzo-coca",
+        "stored": "1-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "lucas-sontgen",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "lukas-jones",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "luke-rockhold",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "manuel-otero",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "marcus-brimage",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "marcus-williamson",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "matt-adams",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "mehdi-barghi",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "micah-terrill",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "mike-alvarado",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "mike-andaya",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "mike-wilkinson",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "mohamed-aly",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "naff-higson",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "nathan-hind",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "nathan-leeson",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "nick-burgos",
+        "stored": "0-2-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "nick-gonzalez",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "nick-kohring",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "noah-aldana",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "noah-norman",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "paul-hilz",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "ramadan-nooman",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "ricardo-talavera-jr",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "robbie-kennedy",
+        "stored": "1-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "rohan-prado",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "ryan-carmichael",
+        "stored": "1-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "sabri-ben-henia",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "sakis-zampelos",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "shawn-brooks",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "spencer-meehan",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "stan-surmacz",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "stephen-stengel",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "stevie-devenport",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "terry-williams",
+        "stored": "0-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "todd-duffee",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "tomas-lejsek",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "tommy-aaron",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "toni-markulev",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "trai-santos",
+        "stored": "0-2-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "tre-cook",
+        "stored": "0-1-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "tyler-sammis",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "tyler-tremblett",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      },
+      {
+        "slug": "will-worley",
+        "stored": "1-0-0",
+        "action": "unchanged"
+      }
+    ],
+    "updated": [
+      {
+        "slug": "aaron-chalmers",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "abdiel-velazquez",
+        "stored": "1-1-0",
+        "official": "4-5-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "adam-de-freitas",
+        "stored": "0-2-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "adam-grogan",
+        "stored": "0-1-0",
+        "official": "2-5-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "aj-craig",
+        "stored": "1-0-0",
+        "official": "2-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "alan-belcher",
+        "stored": "1-0-0",
+        "official": "4-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "albert-inclan",
+        "stored": "1-1-0",
+        "official": "1-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "alberto-blas",
+        "stored": "1-0-0",
+        "official": "6-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "alex-davis",
+        "stored": "0-1-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "alfredo-angulo",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "alonzo-martinez",
+        "stored": "1-0-0",
+        "official": "4-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "alvin-kanehailua",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "andrew-angelcor",
+        "stored": "0-1-1",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "andrew-strode",
+        "stored": "1-0-0",
+        "official": "4-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "andy-nguyen",
+        "stored": "1-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "angel-petkov",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "angelo-trujillo",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "anthony-foye",
+        "stored": "1-2-0",
+        "official": "1-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "anthony-holmes",
+        "stored": "0-1-0",
+        "official": "5-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "anthony-sanchez",
+        "stored": "0-2-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "anthony-yost",
+        "stored": "1-2-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "art-driscoll",
+        "stored": "0-1-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "asher-jack",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "austin-lewis",
+        "stored": "1-0-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "bartek-kanabey",
+        "stored": "1-1-0",
+        "official": "4-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "bartlomiej-krol",
+        "stored": "1-0-0",
+        "official": "5-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "bear-hill",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "bec-rawlings",
+        "stored": "1-1-0",
+        "official": "4-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "ben-bonner",
+        "stored": "1-0-0",
+        "official": "5-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "benjamin-lowe",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "billy-wagner",
+        "stored": "0-1-0",
+        "official": "6-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "blake-lacaze",
+        "stored": "1-1-0",
+        "official": "1-5-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "boaz-kapua",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "bobby-brents",
+        "stored": "0-2-0",
+        "official": "2-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "bobby-taylor",
+        "stored": "0-1-0",
+        "official": "6-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "bovar-khanakov",
+        "stored": "1-1-0",
+        "official": "5-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "brandon-allen",
+        "stored": "1-1-0",
+        "official": "5-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "brandon-bushaw",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "brandon-conley",
+        "stored": "0-0-1",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "brandon-girtz",
+        "stored": "1-0-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "brandon-honsvick",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "brandon-meneses",
+        "stored": "0-0-1",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "brandon-meyer",
+        "stored": "2-1-0",
+        "official": "3-4-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "brandon-shavers",
+        "stored": "1-1-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "brayden-marzona",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "brennan-ward",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "brett-fields",
+        "stored": "0-1-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "brian-jackson",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "brian-maxwell",
+        "stored": "1-0-0",
+        "official": "1-9-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "britain-hart",
+        "stored": "2-0-0",
+        "official": "10-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "bryan-duran",
+        "stored": "1-0-0",
+        "official": "8-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "bryan-mcdowell",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "bryant-mcclain",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "caleb-joseph-avila",
+        "stored": "1-0-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "cameron-vancamp",
+        "stored": "1-1-0",
+        "official": "3-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "cary-caprio",
+        "stored": "1-0-0",
+        "official": "2-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "chachi-versace",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "chad-lucanas",
+        "stored": "1-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "chad-mendes",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "chancey-wilson",
+        "stored": "1-0-0",
+        "official": "3-6-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "charisa-sigala",
+        "stored": "0-1-0",
+        "official": "1-5-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "chevvy-bridges",
+        "stored": "0-1-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "chris-drummond",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "chris-garcia",
+        "stored": "2-1-0",
+        "official": "6-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "chris-sarro",
+        "stored": "0-2-0",
+        "official": "2-7-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "christian-torres",
+        "stored": "0-2-0",
+        "official": "2-6-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "christine-ferea",
+        "stored": "1-0-0",
+        "official": "11-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "cody-jenkins",
+        "stored": "0-2-0",
+        "official": "1-5-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "cody-mitchell",
+        "stored": "0-0-1",
+        "official": "0-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "cody-russell",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "cody-schieve",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "connor-mckenna",
+        "stored": "0-2-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "conor-cooke",
+        "stored": "2-1-0",
+        "official": "6-1-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "cooper-clarke",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "corey-harrison",
+        "stored": "0-1-0",
+        "official": "1-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "corey-roberts",
+        "stored": "1-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "corey-willis",
+        "stored": "2-1-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "cristina-crist",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "crystal-pittman",
+        "stored": "1-0-0",
+        "official": "3-4-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "crystal-van-wyk",
+        "stored": "1-0-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "dagoberto-aguero",
+        "stored": "0-0-1",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dakota-cochrane",
+        "stored": "2-0-0",
+        "official": "7-3-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "dakota-highpine",
+        "stored": "0-1-0",
+        "official": "1-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dallas-davison",
+        "stored": "0-2-0",
+        "official": "5-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dalvin-blair",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "damian-gorski",
+        "stored": "0-1-0",
+        "official": "1-6-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dan-godoy",
+        "stored": "0-1-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "danasabe-mohammed",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "daniel-alvarez",
+        "stored": "1-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "danny-christie",
+        "stored": "2-0-0",
+        "official": "5-3-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "danny-mcintosh",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "danny-mitchell",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "danny-moir",
+        "stored": "0-1-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "darcy-braine",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "darren-godfrey",
+        "stored": "0-1-0",
+        "official": "0-5-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "darren-hendry",
+        "stored": "1-0-0",
+        "official": "5-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "darren-whitney",
+        "stored": "0-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dat-nguyen",
+        "stored": "1-0-0",
+        "official": "4-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "david-bosnick",
+        "stored": "0-0-1",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "david-diaz",
+        "stored": "0-0-1",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "david-mora",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "david-round",
+        "stored": "1-2-0",
+        "official": "3-4-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "david-simpson",
+        "stored": "0-1-0",
+        "official": "3-5-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dawid-chylinski",
+        "stored": "0-1-0",
+        "official": "4-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dec-spelman",
+        "stored": "1-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dennis-labruzza",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "derek-perez",
+        "stored": "2-1-0",
+        "official": "4-5-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "derrick-findley",
+        "stored": "1-0-0",
+        "official": "3-4-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "devin-gibson",
+        "stored": "0-1-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "devon-schwan",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dilan-prasovic",
+        "stored": "0-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dillon-winemiller",
+        "stored": "1-0-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "dimitri-angelini",
+        "stored": "0-1-0",
+        "official": "0-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "drew-stuve",
+        "stored": "1-0-0",
+        "official": "4-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "duke-sensley",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "dustin-pague",
+        "stored": "2-0-0",
+        "official": "6-2-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "eddie-alvarez",
+        "stored": "1-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "edgard-plazaola",
+        "stored": "2-0-0",
+        "official": "6-0-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "eduardo-concepcion",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "elijah-harris",
+        "stored": "1-0-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "ellis-shepherd",
+        "stored": "1-0-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "evgenii-kurdanov",
+        "stored": "0-0-0",
+        "official": "5-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "famez",
+        "stored": "0-1-0",
+        "official": "4-6-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "felipe-chavez",
+        "stored": "2-1-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "felipe-maia",
+        "stored": "0-1-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "fernando-gonzalez",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "fetongi-tuinauvai",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "francesco-ricchi",
+        "stored": "0-1-0",
+        "official": "7-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "franco-tenaglia",
+        "stored": "2-0-0",
+        "official": "5-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "frankie-shughart",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "freddy-masabo",
+        "stored": "0-1-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "gabriel-mota",
+        "stored": "0-2-0",
+        "official": "2-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "gabrielle-roman",
+        "stored": "0-1-1",
+        "official": "2-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "gary-fox",
+        "stored": "1-2-0",
+        "official": "4-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "gaston-reyno",
+        "stored": "1-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "gee-perez",
+        "stored": "1-0-0",
+        "official": "6-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "gene-perez",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "george-thorpe",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "gilberto-aguilar",
+        "stored": "0-1-0",
+        "official": "0-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "glendel-futrell",
+        "stored": "0-1-0",
+        "official": "0-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "hannah-rankin",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "harrison-aiken",
+        "stored": "0-1-0",
+        "official": "3-5-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "howard-davis",
+        "stored": "2-1-0",
+        "official": "8-4-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "hunter-ioane",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "idrees-wasi",
+        "stored": "0-1-0",
+        "official": "1-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "iman-williams",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "isaac-doolittle",
+        "stored": "0-1-1",
+        "official": "4-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "israel-rodriguez",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jack-cullen",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "jack-draper",
+        "stored": "0-1-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jack-grady",
+        "stored": "0-1-0",
+        "official": "1-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jacob-kreitel",
+        "stored": "0-1-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jade-masson-wong",
+        "stored": "2-0-0",
+        "official": "4-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "jake-lindsey",
+        "stored": "1-0-0",
+        "official": "5-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "james-dennis",
+        "stored": "0-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "james-lilley",
+        "stored": "1-1-0",
+        "official": "10-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "james-walker",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jamie-oldfield",
+        "stored": "0-1-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jan-sulecki",
+        "stored": "0-1-0",
+        "official": "2-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jared-lennon",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "jarod-grant",
+        "stored": "0-1-0",
+        "official": "8-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jason-dinunzio",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jayme-hinshaw",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "jeff-souder",
+        "stored": "1-0-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jenny-savage",
+        "stored": "0-1-0",
+        "official": "3-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jeremy-sauceda",
+        "stored": "1-1-0",
+        "official": "3-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "jeremy-smith",
+        "stored": "0-1-0",
+        "official": "4-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jeremy-stephens",
+        "stored": "1-0-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "jessica-borga",
+        "stored": "2-0-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "jim-pulgar",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jimmie-rivera",
+        "stored": "2-0-0",
+        "official": "3-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jimmy-mccrory",
+        "stored": "0-1-0",
+        "official": "0-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jimmy-millar",
+        "stored": "1-0-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "joe-lister",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "john-dodson",
+        "stored": "1-0-1",
+        "official": "4-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "john-ferguson",
+        "stored": "0-1-0",
+        "official": "1-5-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "john-garbarino",
+        "stored": "2-0-0",
+        "official": "4-0-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "john-spencer",
+        "stored": "0-1-0",
+        "official": "0-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jonathan-miller",
+        "stored": "1-0-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "jonny-graham",
+        "stored": "1-0-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "jonny-tello",
+        "stored": "1-0-0",
+        "official": "3-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "jordan-christensen",
+        "stored": "0-2-0",
+        "official": "3-7-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "joseph-creer",
+        "stored": "0-1-0",
+        "official": "6-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "josh-copeland",
+        "stored": "2-2-0",
+        "official": "2-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "josh-krejci",
+        "stored": "0-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "josh-kuhne",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "josh-richey",
+        "stored": "0-2-0",
+        "official": "0-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "josh-watson",
+        "stored": "1-0-0",
+        "official": "4-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "joshua-moreno",
+        "stored": "1-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "jr-ridge",
+        "stored": "0-1-0",
+        "official": "3-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "juan-adams",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "juan-figuerva",
+        "stored": "0-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "julio-perez-rodriguez",
+        "stored": "1-0-0",
+        "official": "3-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "justin-street",
+        "stored": "2-0-0",
+        "official": "3-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "justyn-martinez",
+        "stored": "2-0-0",
+        "official": "2-6-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "kai-stewart",
+        "stored": "2-0-0",
+        "official": "9-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "karla-alvarez",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "kasey-yates",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "kasim-ruffin",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "kat-paprocki",
+        "stored": "0-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "kevin-croom",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "khortni-kamyron",
+        "stored": "0-0-1",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "kyle-cassidy",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "kyle-mcelroy",
+        "stored": "0-2-0",
+        "official": "2-6-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "lamont-stafford",
+        "stored": "0-1-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "landon-williams",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "lardy-navarro",
+        "stored": "0-1-0",
+        "official": "4-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "leandro-torres",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "lee-browne",
+        "stored": "0-2-0",
+        "official": "3-5-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "leigh-cohoon",
+        "stored": "2-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "leo-bercier",
+        "stored": "1-0-0",
+        "official": "6-5-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "leonardo-perdomo",
+        "stored": "2-0-0",
+        "official": "11-0-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "lewis-garside",
+        "stored": "1-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "lewis-glover",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "lewis-keen",
+        "stored": "1-0-0",
+        "official": "5-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "lewis-rumsey",
+        "stored": "0-1-0",
+        "official": "2-5-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "lex-ludlow",
+        "stored": "1-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "liam-dooley",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "liam-hutchinson",
+        "stored": "0-1-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "lj-hermreck",
+        "stored": "0-1-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "louie-lopez",
+        "stored": "0-4-0",
+        "official": "4-5-0",
+        "action": "updated",
+        "kos": 0
+      },
+      {
+        "slug": "luis-palomino",
+        "stored": "1-1-0",
+        "official": "10-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "luis-villasenor",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "luke-bampton",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "luke-brassfield",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "luke-nevin",
+        "stored": "0-1-0",
+        "official": "3-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "mahmoud-ahmed",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "marc-entenberg",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "marcus-edwards",
+        "stored": "1-0-0",
+        "official": "4-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "marcus-pond",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "mark-flanagan",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "mark-johnson",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "markus-suarez",
+        "stored": "1-0-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "mason-shaw",
+        "stored": "1-0-0",
+        "official": "8-7-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "mathilda-wilson",
+        "stored": "0-1-0",
+        "official": "3-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "matt-maestas",
+        "stored": "1-3-0",
+        "official": "2-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "matthew-socholotiuk",
+        "stored": "1-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "matty-hodgson",
+        "stored": "2-0-0",
+        "official": "7-5-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "maurice-horne",
+        "stored": "1-0-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "michael-furnier",
+        "stored": "0-1-0",
+        "official": "0-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "michael-manno",
+        "stored": "1-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "mick-terrill",
+        "stored": "1-1-0",
+        "official": "10-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "mick-whitehead",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "mike-heckert",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "mike-richman",
+        "stored": "1-1-0",
+        "official": "8-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "mikey-henderson",
+        "stored": "1-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "mitch-seybold",
+        "stored": "1-0-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "mladen-iliev",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "monica-franco",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "morgan-starkey",
+        "stored": "1-0-0",
+        "official": "2-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "mpampis-klados",
+        "stored": "0-1-0",
+        "official": "0-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "murat-kazgan",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "murat-kilimetov",
+        "stored": "2-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "natalie-gage",
+        "stored": "0-1-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "nathan-rivera",
+        "stored": "1-0-0",
+        "official": "5-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "nicholas-blume",
+        "stored": "0-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "nico-gaffie",
+        "stored": "1-0-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "nicole-schaefer",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "noah-cutter",
+        "stored": "0-3-0",
+        "official": "3-7-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "octavion-turner",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "parker-porter",
+        "stored": "1-0-0",
+        "official": "4-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "pat-brady",
+        "stored": "2-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "pat-carroll",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "pat-casey",
+        "stored": "0-1-0",
+        "official": "4-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "pat-sullivan",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "patrick-tolone",
+        "stored": "0-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "paul-cook",
+        "stored": "1-0-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "paul-osullivan",
+        "stored": "0-0-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "paul-teague",
+        "stored": "0-1-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "peter-peraza",
+        "stored": "1-0-0",
+        "official": "4-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "petr-beranek",
+        "stored": "0-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "phil-caracappa",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "pic-jardine",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "quartus-stitt",
+        "stored": "0-1-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "ray-pell",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "ray-putterill",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "rayne-wells",
+        "stored": "0-2-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "reuben-roundstone",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "richard-brooks",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "rick-hawn",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "rico-disciullo",
+        "stored": "1-0-0",
+        "official": "4-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "ritchie-faoso",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "rob-boardman",
+        "stored": "1-1-0",
+        "official": "6-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "rob-cunningham",
+        "stored": "1-0-0",
+        "official": "2-5-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "robbie-brown",
+        "stored": "0-1-0",
+        "official": "3-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "robbie-peralta",
+        "stored": "1-1-0",
+        "official": "4-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "robert-armas",
+        "stored": "2-0-0",
+        "official": "5-5-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "robert-desharnais",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "rodney-hinton",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "rodney-thomas",
+        "stored": "1-0-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "rowan-gregory",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "ruben-arroyo",
+        "stored": "0-3-0",
+        "official": "0-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "ruben-warr",
+        "stored": "1-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "ruslan-tokhtarov",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "ryan-braun",
+        "stored": "1-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "ryan-mccarthy",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "ryan-petersen",
+        "stored": "1-0-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "ryan-winnett",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "sabah-homasi",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "sam-polk",
+        "stored": "1-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "samuel-samples",
+        "stored": "1-0-0",
+        "official": "2-4-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "sarah-click",
+        "stored": "1-0-0",
+        "official": "0-4-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "sawyer-depee",
+        "stored": "1-0-0",
+        "official": "5-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "scott-roberts",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "sebastian-temesi",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "shane-jordan",
+        "stored": "0-0-1",
+        "official": "0-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "sonny-smith",
+        "stored": "0-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "stanislav-grosu",
+        "stored": "1-1-0",
+        "official": "4-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "stanoy-tabakov",
+        "stored": "1-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "stephon-reese",
+        "stored": "0-1-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "steve-banks",
+        "stored": "1-0-0",
+        "official": "4-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "steve-herelius",
+        "stored": "0-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "steve-pasche",
+        "stored": "0-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "steven-sainsbury",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "stevie-taylor",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "stevo-morris",
+        "stored": "0-1-0",
+        "official": "2-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "sydney-smith",
+        "stored": "1-1-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "tai-emery",
+        "stored": "0-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "tj-benson",
+        "stored": "0-1-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "toby-bindon",
+        "stored": "1-0-0",
+        "official": "2-4-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "tom-scott",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "tomar-washington",
+        "stored": "0-1-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "tomas-vojtela",
+        "stored": "0-1-0",
+        "official": "4-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "tommy-hawthorn",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "tommy-strydom",
+        "stored": "2-1-0",
+        "official": "4-2-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "tony-jenkins",
+        "stored": "1-0-0",
+        "official": "3-0-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "tony-murphy",
+        "stored": "0-0-0",
+        "official": "2-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "tony-shields",
+        "stored": "0-1-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "tony-soto",
+        "stored": "2-0-0",
+        "official": "6-3-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "travis-dickinson",
+        "stored": "1-0-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "travis-thompson",
+        "stored": "1-2-0",
+        "official": "6-8-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "trevor-loken",
+        "stored": "1-1-0",
+        "official": "1-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "trevor-morris",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "trukon-carson",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "tyler-goodjohn",
+        "stored": "0-1-0",
+        "official": "5-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "tyler-randall",
+        "stored": "1-2-0",
+        "official": "4-4-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "tylor-sijohn",
+        "stored": "0-1-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "van-vo",
+        "stored": "0-2-0",
+        "official": "1-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "vaso-bakocevic",
+        "stored": "1-0-0",
+        "official": "6-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "veselin-ivanov",
+        "stored": "0-0-1",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "victor-flor",
+        "stored": "0-0-0",
+        "official": "0-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "victor-rosas",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "vincent-familari",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "wain-morgan",
+        "stored": "0-1-0",
+        "official": "0-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "wayna-reid",
+        "stored": "1-0-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "will-cairns",
+        "stored": "0-2-0",
+        "official": "3-14-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "will-santiago",
+        "stored": "1-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "will-smith",
+        "stored": "0-0-0",
+        "official": "1-0-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "william-albrecht",
+        "stored": "2-0-0",
+        "official": "3-1-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "yorgan-de-castro",
+        "stored": "1-0-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "yosdenis-cedeno",
+        "stored": "0-1-0",
+        "official": "2-2-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "yunus-batan",
+        "stored": "1-0-0",
+        "official": "2-1-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "zach-calmus",
+        "stored": "2-1-0",
+        "official": "5-5-0",
+        "action": "updated",
+        "kos": 2
+      },
+      {
+        "slug": "zachary-pannell",
+        "stored": "1-2-0",
+        "official": "1-5-0",
+        "action": "updated",
+        "kos": 1
+      },
+      {
+        "slug": "zay-garcia",
+        "stored": "0-1-0",
+        "official": "0-3-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "zedekiah-montanez",
+        "stored": "0-1-0",
+        "official": "1-1-0",
+        "action": "updated",
+        "kos": null
+      },
+      {
+        "slug": "zohrab-azimov",
+        "stored": "0-0-1",
+        "official": "0-0-0",
+        "action": "updated",
+        "kos": null
+      }
+    ],
+    "failed": [
+      {
+        "slug": "bolo-carthon",
+        "reason": "HTTP 404",
+        "stored": "0-0-0"
+      },
+      {
+        "slug": "daniel-spohn",
+        "reason": "HTTP 404",
+        "stored": "0-1-0"
+      },
+      {
+        "slug": "lorenzo-hunt",
+        "reason": "HTTP 404",
+        "stored": "1-1-0"
+      },
+      {
+        "slug": "mike-perry",
+        "reason": "HTTP 404",
+        "stored": "2-0-0"
+      },
+      {
+        "slug": "rickie-mcconnico",
+        "reason": "HTTP 404",
+        "stored": "0-0-0"
+      },
+      {
+        "slug": "thiago-alves",
+        "reason": "HTTP 404",
+        "stored": "0-1-0"
+      },
+      {
+        "slug": "thomas-jungles",
+        "reason": "HTTP 404",
+        "stored": "0-0-0"
+      }
+    ]
+  }
+}

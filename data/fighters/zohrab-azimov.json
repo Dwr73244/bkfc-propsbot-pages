@@ -1,0 +1,37 @@
+{
+  "slug": "zohrab-azimov",
+  "name": "Zohrab Azimov",
+  "nickname": "THE LEGEND",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 69,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1996-08",
+  "age": 29,
+  "nationality": "Azerbaijan",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744599314/o/1744599314354_67bcde300e25f77aa24b4dc9_BKFC_-_Website_Zohrab_Azimov_avatar_template_compressed.jpg?1744599314",
+  "social": {
+    "instagram": "https://www.instagram.com/zohrab_legend_azimov/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/zohrab-azimov"
+  ],
+  "last_updated": "2026-04-19"
+}

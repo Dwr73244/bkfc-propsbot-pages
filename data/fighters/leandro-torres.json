@@ -1,0 +1,39 @@
+{
+  "slug": "leandro-torres",
+  "name": "Leandro Torres",
+  "nickname": "THE END",
+  "division": "Welterweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 68,
+  "reach_in": 70,
+  "stance": null,
+  "dob": "1982-04",
+  "age": 44,
+  "nationality": "Argentina",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1746030876/o/CHAVEZ_SMALL_AVATAR_400x400.png?1746030876",
+  "social": {
+    "instagram": "https://www.instagram.com/leandrotorres_the_end/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/leandro-torres"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1479,
+  "elo_peak": 1500
+}

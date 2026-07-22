@@ -1,0 +1,209 @@
+{
+  "slug": "bkfc-88-denver",
+  "name": "BKFC 88 Denver: Camozzi vs. Rodriguez",
+  "event_number": 88,
+  "event_type": "Numbered",
+  "date": "2026-04-17T20:00:00-06:00",
+  "venue": "CoBank Arena at the National Western Center",
+  "city": "Denver",
+  "state": "CO",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [
+    "BKFC+",
+    "Fubo Sports"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "chris-camozzi",
+      "fighter_b_slug": "esteban-rodriguez",
+      "title_fight": true,
+      "title_name": "Interim BKFC Cruiserweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "esteban-rodriguez",
+        "method": "KO",
+        "round": 4,
+        "time": "1:43"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "ramiro-figueroa",
+      "fighter_b_slug": "elvin-brito",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ramiro-figueroa",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "josh-copeland",
+      "fighter_b_slug": "corey-willis",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "corey-willis",
+        "method": "TKO",
+        "round": 2,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "josh-fremd",
+      "fighter_b_slug": "jared-torgenson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "josh-fremd",
+        "method": "KO",
+        "round": 1,
+        "time": "1:32"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "andrew-yates",
+      "fighter_b_slug": "rodney-hinton",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "rodney-hinton",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:22"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "deron-winn",
+      "fighter_b_slug": "erick-lozano",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "deron-winn",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:47"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61.2,
+      "fighter_a_slug": "noah-aldana",
+      "fighter_b_slug": "nick-burgos",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "Prelim",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 56.7,
+      "fighter_a_slug": "octavion-turner",
+      "fighter_b_slug": "joby-steffensmeier",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "octavion-turner",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "Prelim",
+      "weight_class": "Flyweight",
+      "weight_limit_kg": 56.7,
+      "fighter_a_slug": "angelo-trujillo",
+      "fighter_b_slug": "anthony-yost",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "anthony-yost",
+        "method": "Unanimous Decision",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "matt-maestas",
+      "fighter_b_slug": "ruben-arroyo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "matt-maestas",
+        "method": "TKO",
+        "round": 2,
+        "time": "1:54"
+      }
+    }
+  ],
+  "watch": {
+    "streams": [
+      {
+        "platform": "BKFC+",
+        "url": "https://watch.bkfc.com",
+        "type": "Subscription"
+      },
+      {
+        "platform": "Fubo Sports",
+        "url": "https://www.fubo.tv",
+        "type": "Subscription"
+      }
+    ],
+    "start_times": {
+      "ET": "2026-04-17T22:00:00-04:00",
+      "PT": "2026-04-17T19:00:00-07:00",
+      "GMT": "2026-04-18T02:00:00Z"
+    }
+  },
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-denver",
+    "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.si.com/fannation/boxing/bkfc-88-preview-start-time-fight-card-how-to-watch-live-stream"
+  ],
+  "last_updated": "2026-04-18"
+}

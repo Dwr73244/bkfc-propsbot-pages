@@ -1,0 +1,39 @@
+{
+  "slug": "zedekiah-montanez",
+  "name": "Zedekiah Montanez",
+  "nickname": "KING",
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 68,
+  "stance": null,
+  "dob": "1992-05",
+  "age": 33,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744596854/o/1744596853772_67cf5c0f06426887015cd9ea_BRANDON_MEYER_SMALL_AVATAR_400x400_compressed.png?1744596854",
+  "social": {
+    "instagram": "https://www.instagram.com/zedekiahmma",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/zedekiah-montanez"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1478,
+  "elo_peak": 1500
+}

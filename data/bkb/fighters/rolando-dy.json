@@ -1,0 +1,41 @@
+{
+  "slug": "rolando-dy",
+  "league": "BKB",
+  "name": "Rolando Dy",
+  "nickname": "Dy Incredible",
+  "division": "Welterweight",
+  "bkb_record": {
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "kos": 2
+  },
+  "bkfc_record": null,
+  "mma_record": "15-13-1",
+  "height_in": 69,
+  "reach_in": 69,
+  "stance": "Orthodox",
+  "dob": "1991-08-11",
+  "age": 34,
+  "nationality": "Philippines",
+  "hometown": "Parañaque, Philippines",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": null,
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": "Filipino combat sports athlete who made his UFC debut in 2017 and went 1-3 in the promotion before release. Captured the Abu Dhabi Warriors featherweight title in 2019 and competed in Brave Combat Federation through 2022. Transitioned to bare-knuckle boxing and became the first BKB world champion from the Philippines, defeating Liam Rees for the BKB World Super Welterweight Championship in December 2025.",
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://en.wikipedia.org/wiki/Rolando_Dy",
+    "https://www.bkbbareknuckle.com/brawlers/rolando-dy"
+  ],
+  "last_updated": "2026-04-18",
+  "elo": 1543,
+  "elo_peak": 1543
+}

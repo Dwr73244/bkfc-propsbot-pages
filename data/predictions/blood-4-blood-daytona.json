@@ -1,0 +1,470 @@
+{
+  "event_slug": "blood-4-blood-daytona",
+  "generated_at": "2026-05-07T22:37:07.119Z",
+  "model_version": "0.1.0",
+  "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "alex-the-terrible",
+      "fighter_b_slug": "cameron-delano",
+      "prediction": {
+        "prob_a": 0.4249,
+        "prob_b": 0.5751,
+        "raw_score": -0.1164,
+        "favorite_slug": "cameron-delano",
+        "confidence": "Low",
+        "advantage_a": 42,
+        "advantage_b": 58,
+        "predictability": 45,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "1-0",
+            "value_b": "1-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.11,
+            "display": "67% vs 67% win rate"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "1 fights",
+            "value_b": "1 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Home",
+            "value_a": "Ukraine",
+            "value_b": "United States",
+            "edge_slug": "cameron-delano",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "Delano fights at home"
+          }
+        ],
+        "summary": "Model leans Delano 58/42. Edges on home.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -567,
+              "implied_prob": 0.85
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -158,
+              "implied_prob": 0.612
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 320,
+              "implied_prob": 0.238
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 2,
+      "fighter_a_slug": "jake-bostwick",
+      "fighter_b_slug": "roderick-stewart",
+      "prediction": {
+        "prob_a": 0.6937,
+        "prob_b": 0.3063,
+        "raw_score": 0.2393,
+        "favorite_slug": "jake-bostwick",
+        "confidence": "Low",
+        "advantage_a": 69,
+        "advantage_b": 31,
+        "predictability": 44,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1528,
+            "value_b": 1494,
+            "edge_slug": "jake-bostwick",
+            "edge_strength": 0.17,
+            "weight": 0.16,
+            "display": "+34 ELO Bostwick"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "L-W",
+            "edge_slug": "jake-bostwick",
+            "edge_strength": 0.973,
+            "weight": 0.13,
+            "display": "Bostwick hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "4-2",
+            "value_b": "2-3",
+            "edge_slug": "jake-bostwick",
+            "edge_strength": 0.491,
+            "weight": 0.11,
+            "display": "63% vs 43% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "50%",
+            "edge_slug": "roderick-stewart",
+            "edge_strength": 0.225,
+            "weight": 0.11,
+            "display": "-15 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 36,
+            "value_b": 31,
+            "edge_slug": "roderick-stewart",
+            "edge_strength": 0.6,
+            "weight": 0.09,
+            "display": "36 vs 31"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "18-10",
+            "value_b": "—",
+            "edge_slug": "jake-bostwick",
+            "edge_strength": 1,
+            "weight": 0.08,
+            "display": "Bostwick deeper background"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1d ago",
+            "value_b": "1d ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "53%",
+            "value_b": "33%",
+            "edge_slug": "jake-bostwick",
+            "edge_strength": 0.4,
+            "weight": 0.04,
+            "display": "Bostwick tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "6 fights",
+            "value_b": "5 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Home",
+            "value_a": "United Kingdom",
+            "value_b": "United States",
+            "edge_slug": "roderick-stewart",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "Stewart fights at home"
+          }
+        ],
+        "summary": "Model leans Bostwick 69/31. Edges on recent form, bkfc record, mma background, opponent quality.",
+        "market_adjusted": true
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -567,
+              "implied_prob": 0.85
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -158,
+              "implied_prob": 0.612
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 320,
+              "implied_prob": 0.238
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            }
+          ]
+        }
+      ],
+      "edge": {
+        "model_prob_a": 0.6936956573097368,
+        "model_prob_b": 0.3063043426902632,
+        "market_fair_prob_a": 0.7462406015037594,
+        "market_fair_prob_b": 0.25375939849624063,
+        "edge_pct_a": -0.05254494419402256,
+        "edge_pct_b": 0.05254494419402256,
+        "edge_slug": "roderick-stewart",
+        "edge_pct": 0.05254494419402256
+      }
+    },
+    {
+      "order": 3,
+      "fighter_a_slug": "kratos",
+      "fighter_b_slug": "brock-walker",
+      "prediction": {
+        "prob_a": 0.4249,
+        "prob_b": 0.5751,
+        "raw_score": -0.1164,
+        "favorite_slug": "brock-walker",
+        "confidence": "Very Low",
+        "advantage_a": 42,
+        "advantage_b": 58,
+        "predictability": 32,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "1-1",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.11,
+            "display": "50% vs 50% win rate"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "2 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Home",
+            "value_a": "—",
+            "value_b": "United States",
+            "edge_slug": "brock-walker",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "Walker fights at home"
+          }
+        ],
+        "summary": "Model leans Walker 58/42. Edges on home.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 614,
+              "implied_prob": 0.14
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -614,
+              "implied_prob": 0.86
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -163,
+              "implied_prob": 0.619
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 315,
+              "implied_prob": 0.241
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 614,
+              "implied_prob": 0.14
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 4,
+      "fighter_a_slug": "taylor-starling",
+      "fighter_b_slug": "marisol-ruelas",
+      "prediction": {
+        "prob_a": 0.6257,
+        "prob_b": 0.3743,
+        "raw_score": 0.1976,
+        "favorite_slug": "taylor-starling",
+        "confidence": "Low",
+        "advantage_a": 63,
+        "advantage_b": 37,
+        "predictability": 44,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "L-W-L",
+            "value_b": "—",
+            "edge_slug": "marisol-ruelas",
+            "edge_strength": 0.305,
+            "weight": 0.13,
+            "display": "Ruelas hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "5-4",
+            "value_b": "0-2",
+            "edge_slug": "taylor-starling",
+            "edge_strength": 0.739,
+            "weight": 0.11,
+            "display": "55% vs 25% win rate"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.3y ago",
+            "value_b": "—",
+            "edge_slug": "taylor-starling",
+            "edge_strength": 0.3,
+            "weight": 0.05,
+            "display": "Starling more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/2 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "42%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.167,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "9 fights",
+            "value_b": "2 fights",
+            "edge_slug": "taylor-starling",
+            "edge_strength": 0.875,
+            "weight": 0.03,
+            "display": "+7 fights Starling"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'7\"",
+            "value_b": "5'5\"",
+            "edge_slug": "taylor-starling",
+            "edge_strength": 0.4,
+            "weight": 0.03,
+            "display": "+2\" Starling"
+          },
+          {
+            "name": "Home",
+            "value_a": "United States",
+            "value_b": "United States",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Both at home"
+          }
+        ],
+        "summary": "Model leans Starling 63/37. Edges on bkfc record, activity, bkfc experience, height.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 122,
+              "implied_prob": 0.45
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -122,
+              "implied_prob": 0.55
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 153,
+              "implied_prob": 0.396
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 549,
+              "implied_prob": 0.154
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 122,
+              "implied_prob": 0.45
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
+}

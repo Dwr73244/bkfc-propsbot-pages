@@ -1,0 +1,39 @@
+{
+  "slug": "crystal-van-wyk",
+  "name": "Crystal van Wyk",
+  "nickname": "The Lovely",
+  "division": "Women's Flyweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 2,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": 62,
+  "reach_in": 63,
+  "stance": null,
+  "dob": "1987-05-01",
+  "age": 38,
+  "nationality": "South Africa",
+  "hometown": null,
+  "fighting_out_of": "North Carolina",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1763398779/o/CRYSTAL_VAN_WYK_AVATAR_400x533.png?1763398779",
+  "social": {
+    "instagram": "https://www.instagram.com/crystal_van_wyk/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/crystal.h.vanwyk"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/crystal-van-wyk"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1519,
+  "elo_peak": 1519
+}

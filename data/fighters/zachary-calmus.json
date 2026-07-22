@@ -1,0 +1,44 @@
+{
+  "slug": "zachary-calmus",
+  "name": "Zachary Calmus",
+  "nickname": "Shark Attack",
+  "division": "Heavyweight",
+  "bkfc_record": {
+    "wins": 5,
+    "losses": 5,
+    "draws": 0,
+    "kos": 2
+  },
+  "mma_record": null,
+  "height_in": 72,
+  "reach_in": 76,
+  "stance": null,
+  "dob": "1992-01-01",
+  "age": 34,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": "New England",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1751491690/o/ZACH_CALMUS_AVATAR_400x533.png",
+  "social": {
+    "instagram": "https://www.instagram.com/zachcalmustheshark/",
+    "twitter": null,
+    "facebook": "Zach Calmus"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/zach-calmus"
+  ],
+  "alt_slugs": [
+    "zach-calmus"
+  ],
+  "last_updated": "2026-05-03",
+  "elo": 1522,
+  "elo_peak": 1522
+}

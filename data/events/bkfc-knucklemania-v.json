@@ -1,0 +1,225 @@
+{
+  "slug": "bkfc-knucklemania-v",
+  "name": "BKFC Knucklemania V",
+  "event_number": null,
+  "event_type": "Special",
+  "date": "2025-01-25T20:00:00Z",
+  "venue": "Wells Fargo Center",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "jeremy-stephens",
+      "fighter_b_slug": "eddie-alvarez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "jeremy-stephens",
+        "method": "TKO (corner stoppage)",
+        "round": 3,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "ben-rothwell",
+      "fighter_b_slug": "mick-terrill",
+      "title_fight": true,
+      "title_name": "BKFC World Heavyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ben-rothwell",
+        "method": "KO",
+        "round": 1,
+        "time": "0:36"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Women's Flyweight",
+      "weight_limit_kg": 57,
+      "fighter_a_slug": "bec-rawlings",
+      "fighter_b_slug": "taylor-starling",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "bec-rawlings",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "pat-brady",
+      "fighter_b_slug": "zach-calmus",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "pat-brady",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:53"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "john-garbarino",
+      "fighter_b_slug": "apostle-spencer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "john-garbarino",
+        "method": "KO",
+        "round": 1,
+        "time": "0:59"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "weight_limit_kg": 75,
+      "fighter_a_slug": "kaine-tomlinson",
+      "fighter_b_slug": "pat-sullivan",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "kaine-tomlinson",
+        "method": "KO",
+        "round": 1,
+        "time": "0:37"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "steve-banks",
+      "fighter_b_slug": "joey-dawejko",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "steve-banks",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:54"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "brandon-meyer",
+      "fighter_b_slug": "zedekiah-montanez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "brandon-meyer",
+        "method": "KO",
+        "round": 2,
+        "time": "0:39"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "travis-thompson",
+      "fighter_b_slug": "zachary-pannell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "travis-thompson",
+        "method": "KO",
+        "round": 2,
+        "time": "0:41"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "phil-caracappa",
+      "fighter_b_slug": "noah-norman",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "phil-caracappa",
+        "method": "DQ",
+        "round": 4,
+        "time": "0:40"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "cody-russell",
+      "fighter_b_slug": "logan-tucker",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "cody-russell",
+        "method": "KO",
+        "round": 3,
+        "time": "0:48"
+      }
+    },
+    {
+      "order": 12,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "itso-babulaidze",
+      "fighter_b_slug": "bryan-mcdowell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "itso-babulaidze",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

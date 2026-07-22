@@ -1,0 +1,225 @@
+{
+  "slug": "bkfc-knucklemania-iv",
+  "name": "BKFC Knucklemania IV",
+  "event_number": null,
+  "event_type": "Special",
+  "date": "2024-04-27T20:00:00Z",
+  "venue": "Peacock Theater",
+  "city": "Los Angeles",
+  "state": "CA",
+  "country": "United States",
+  "country_code": "US",
+  "broadcast": [],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Light Heavyweight",
+      "weight_limit_kg": 84,
+      "fighter_a_slug": "mike-perry",
+      "fighter_b_slug": "thiago-alves",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mike-perry",
+        "method": "TKO (punches)",
+        "round": 1,
+        "time": "1:00"
+      }
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "mick-terrill",
+      "fighter_b_slug": "lorenzo-hunt",
+      "title_fight": true,
+      "title_name": "BKFC World Heavyweight Championship",
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "mick-terrill",
+        "method": "TKO (injury)",
+        "round": 1,
+        "time": "1:48"
+      }
+    },
+    {
+      "order": 3,
+      "card_position": "Featured",
+      "weight_class": "Heavyweight",
+      "weight_limit_kg": 120,
+      "fighter_a_slug": "ben-rothwell",
+      "fighter_b_slug": "todd-duffee",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "ben-rothwell",
+        "method": "TKO (injury)",
+        "round": 1,
+        "time": "0:43"
+      }
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "alfredo-angulo",
+      "fighter_b_slug": "jeremiah-riggs",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "alfredo-angulo",
+        "method": "KO (punches)",
+        "round": 1,
+        "time": "1:07"
+      }
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "julian-lane",
+      "fighter_b_slug": "evgeny-kurdanov",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "julian-lane",
+        "method": "TKO (doctor stoppage)",
+        "round": 1,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Women's Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "crystal-pittman",
+      "fighter_b_slug": "sydney-smith",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "crystal-pittman",
+        "method": "TKO (punches)",
+        "round": 1,
+        "time": "0:48"
+      }
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "david-diaz",
+      "fighter_b_slug": "shane-jordan",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": null,
+        "method": "Draw (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "andrew-angelicor",
+      "fighter_b_slug": "ruben-warr",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "andrew-angelicor",
+        "method": "Decision (split)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "weight_limit_kg": 61,
+      "fighter_a_slug": "daniel-alvarez",
+      "fighter_b_slug": "victor-rosas",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "daniel-alvarez",
+        "method": "TKO (doctor stoppage)",
+        "round": 4,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 10,
+      "card_position": "Prelim",
+      "weight_class": "Middleweight",
+      "weight_limit_kg": 79,
+      "fighter_a_slug": "vincent-familari",
+      "fighter_b_slug": "fernando-gonzalez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "vincent-familari",
+        "method": "Decision (unanimous)",
+        "round": 5,
+        "time": "2:00"
+      }
+    },
+    {
+      "order": 11,
+      "card_position": "Prelim",
+      "weight_class": "Lightweight",
+      "weight_limit_kg": 70,
+      "fighter_a_slug": "tommy-aaron",
+      "fighter_b_slug": "richard-brooks",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "tommy-aaron",
+        "method": "TKO (punches)",
+        "round": 2,
+        "time": "1:14"
+      }
+    },
+    {
+      "order": 12,
+      "card_position": "Prelim",
+      "weight_class": "Cruiserweight",
+      "weight_limit_kg": 93,
+      "fighter_a_slug": "keith-richardson",
+      "fighter_b_slug": "cody-vidal",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": {
+        "winner_slug": "keith-richardson",
+        "method": "TKO (doctor stoppage)",
+        "round": 2,
+        "time": "2:00"
+      }
+    }
+  ],
+  "watch": null,
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
+  ],
+  "last_updated": "2026-04-17"
+}

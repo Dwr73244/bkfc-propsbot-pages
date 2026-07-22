@@ -1,0 +1,39 @@
+{
+  "slug": "katharina-lehner",
+  "name": "Katharina Lehner",
+  "nickname": "GERMAN GYPSY",
+  "division": "Women's Featherweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 67,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1990-04",
+  "age": 36,
+  "nationality": "Germany",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/katharinalehner/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/katharina-lehner"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1478,
+  "elo_peak": 1500
+}

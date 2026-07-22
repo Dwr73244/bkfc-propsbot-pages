@@ -1,0 +1,39 @@
+{
+  "slug": "eduardo-concepcion",
+  "name": "Eduardo Concepcion",
+  "nickname": null,
+  "division": "Light Heavyweight",
+  "bkfc_record": {
+    "wins": 2,
+    "losses": 1,
+    "draws": 0,
+    "kos": 1
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1990-03",
+  "age": 36,
+  "nationality": "Cuba",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744597443/o/1744597443003_67bcdf3b3ccada6a40ba562b_BKFC_-_Small_Website_avatar_Alvin_Davis__28Mar2024_29_compressed.png?1744597443",
+  "social": {
+    "instagram": "https://www.instagram.com/eduardoconcepcion_/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/eduardo-concepcion"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1522,
+  "elo_peak": 1522
+}

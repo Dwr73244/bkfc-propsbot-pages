@@ -1,0 +1,53 @@
+{
+  "slug": "luke-rockhold",
+  "name": "Luke Rockhold",
+  "nickname": null,
+  "division": "Light Heavyweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": 0
+  },
+  "mma_record": "16-6",
+  "height_in": 75,
+  "reach_in": 77,
+  "stance": "Southpaw",
+  "dob": "1984-10-01",
+  "age": 41,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1745345638/o/LUKE_ROCKHOLD_400x533.png?1745345638",
+  "social": {
+    "instagram": "https://www.instagram.com/lukerockhold/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/rockholdmma"
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/luke-rockhold",
+    "https://en.wikipedia.org/wiki/Luke_Rockhold"
+  ],
+  "last_updated": "2026-04-19",
+  "style_tags": [
+    "counter"
+  ],
+  "full_name": "Luke Skyler Rockhold",
+  "elo": 1478,
+  "elo_peak": 1500,
+  "boxing_record": "0-1",
+  "pro_debut_year": 2025,
+  "pro_boxing_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": 0,
+    "last_updated": "2026-04-19"
+  }
+}

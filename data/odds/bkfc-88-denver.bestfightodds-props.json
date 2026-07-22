@@ -1,0 +1,45 @@
+{
+  "event_slug": "bkfc-88-denver",
+  "event_date": "2026-04-17",
+  "source": "bestfightodds-props",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4156",
+  "fetched_at": "2026-04-19T00:02:43.833Z",
+  "total_prop_rows": 0,
+  "bouts": [
+    {
+      "fighter_a_slug": "chris-camozzi",
+      "fighter_b_slug": "esteban-rodriguez",
+      "matchup_id": "43007",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "ramiro-figueroa",
+      "fighter_b_slug": "elvin-brito",
+      "matchup_id": "43005",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "josh-copeland",
+      "fighter_b_slug": "corey-willis",
+      "matchup_id": "43006",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "josh-fremd",
+      "fighter_b_slug": "jared-torgenson",
+      "matchup_id": "43008",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "andrew-yates",
+      "fighter_b_slug": "rodney-hinton",
+      "matchup_id": "43004",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
+}

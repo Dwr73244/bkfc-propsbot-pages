@@ -1,0 +1,41 @@
+{
+  "slug": "ernesto-papa",
+  "name": "Ernesto Papa",
+  "full_name": null,
+  "nickname": "BIG 20",
+  "division": "Cruiserweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 72,
+  "reach_in": 77,
+  "stance": null,
+  "dob": "1983-03",
+  "age": 43,
+  "nationality": "Italy",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1745594025/o/ERNESTO_PAPA_AVATAR_400x533.png?1745594025",
+  "social": {
+    "instagram": "https://www.instagram.com/PAPA_BKB_BIG_20_",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/ernesto-papa"
+  ],
+  "last_updated": "2026-04-17",
+  "elo": 1474,
+  "elo_peak": 1500,
+  "record_source": "tracked-events",
+  "record_verified": "2026-07-19"
+}

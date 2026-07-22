@@ -1,0 +1,37 @@
+{
+  "slug": "david-bosnick",
+  "name": "David Bosnick",
+  "nickname": "The Boss",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 70,
+  "reach_in": null,
+  "stance": null,
+  "dob": "1990-09",
+  "age": 35,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": null,
+  "social": {
+    "instagram": "https://www.instagram.com/david_bosnick/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/david-bosnick"
+  ],
+  "last_updated": "2026-04-19"
+}

@@ -1,0 +1,6 @@
+{
+  "_comment": "Maps BKFC event slugs to BestFightOdds numeric event IDs. BFO only lists the nearest upcoming BKFC event on its homepage, so scrapers would otherwise always resolve to that one event. When a new BKFC/BKB event is posted on BFO, add its ID here. If a slug is absent, the scraper falls back to the homepage-first-match heuristic.",
+  "bfo": {
+    "bkfc-88-denver": 4156
+  }
+}

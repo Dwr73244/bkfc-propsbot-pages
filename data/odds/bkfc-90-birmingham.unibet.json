@@ -1,0 +1,79 @@
+{
+  "event_slug": "bkfc-90-birmingham",
+  "event_date": "2026-05-30",
+  "source": "unibet",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4210",
+  "fetched_at": "2026-05-30T19:50:27.786Z",
+  "bouts": [
+    {
+      "fighter_a_slug": "connor-tierney",
+      "fighter_b_slug": "rico-franco",
+      "moneyline_a": -150,
+      "moneyline_b": 112,
+      "implied_prob_a": 0.6,
+      "implied_prob_b": 0.472,
+      "vig": 0.072,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "john-phillips",
+      "fighter_b_slug": "ryan-barrett",
+      "moneyline_a": -385,
+      "moneyline_b": 255,
+      "implied_prob_a": 0.794,
+      "implied_prob_b": 0.282,
+      "vig": 0.076,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "jonno-chipchase",
+      "fighter_b_slug": "brian-hyslop",
+      "moneyline_a": -104,
+      "moneyline_b": -134,
+      "implied_prob_a": 0.51,
+      "implied_prob_b": 0.573,
+      "vig": 0.082,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "nathan-leeson",
+      "fighter_b_slug": "stevie-devenport",
+      "moneyline_a": -129,
+      "moneyline_b": -108,
+      "implied_prob_a": 0.563,
+      "implied_prob_b": 0.519,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "george-thorpe",
+      "fighter_b_slug": "leigh-cohoon",
+      "moneyline_a": -143,
+      "moneyline_b": 104,
+      "implied_prob_a": 0.588,
+      "implied_prob_b": 0.49,
+      "vig": 0.079,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "paul-osullivan",
+      "fighter_b_slug": "paul-hilz",
+      "moneyline_a": -225,
+      "moneyline_b": 155,
+      "implied_prob_a": 0.692,
+      "implied_prob_b": 0.392,
+      "vig": 0.084,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "tommy-hawthorn",
+      "fighter_b_slug": "will-smith",
+      "moneyline_a": -245,
+      "moneyline_b": 170,
+      "implied_prob_a": 0.71,
+      "implied_prob_b": 0.37,
+      "vig": 0.081,
+      "book_count": 1
+    }
+  ]
+}

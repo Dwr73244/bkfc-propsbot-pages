@@ -1,0 +1,40 @@
+{
+  "slug": "noah-cutter",
+  "name": "Noah Cutter",
+  "nickname": null,
+  "division": "Middleweight",
+  "bkfc_record": {
+    "wins": 3,
+    "losses": 7,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 73,
+  "reach_in": 74,
+  "stance": null,
+  "dob": "1989-07-01",
+  "age": 36,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": "Florida",
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1751473499/o/NOAH_CUTTER_400x533.png?1751473499",
+  "social": {
+    "instagram": "https://www.instagram.com/noahscutter/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
+    "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
+    "https://www.bkfc.com/fighters/noah-cutter"
+  ],
+  "last_updated": "2026-04-19",
+  "elo": 1438,
+  "elo_peak": 1500
+}
