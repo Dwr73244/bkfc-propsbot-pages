@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
-  "generated_at": "2026-07-22T12:44:54.994Z",
+  "generated_at": "2026-07-23T10:28:02.975Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -56,7 +56,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "1.4y ago",
+            "value_a": "1.5y ago",
             "value_b": "—",
             "edge_slug": "lewis-garside",
             "edge_strength": 0.3,
@@ -212,7 +212,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "1.4y ago",
+            "value_a": "1.5y ago",
             "value_b": "2.3y ago",
             "edge_slug": "lewis-keen",
             "edge_strength": 0.7,
@@ -368,8 +368,8 @@
           },
           {
             "name": "Activity",
-            "value_a": "1.4y ago",
-            "value_b": "1.4y ago",
+            "value_a": "1.5y ago",
+            "value_b": "1.5y ago",
             "edge_slug": null,
             "edge_strength": 0,
             "weight": 0.05,
@@ -488,7 +488,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "1.4y ago",
+            "value_a": "1.5y ago",
             "value_b": "—",
             "edge_slug": "james-walker",
             "edge_strength": 0.3,
@@ -599,7 +599,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "1.4y ago",
+            "value_a": "1.5y ago",
             "value_b": "—",
             "edge_slug": "john-ferguson",
             "edge_strength": 0.3,
