@@ -101,11 +101,33 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "brandon-bushaw",
+      "fighter_b_slug": "matt-denning",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "isaiah-williams",
+      "fighter_b_slug": "nate-larocco",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-2"
   ],
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-23",
   "needs_card_population": false
 }

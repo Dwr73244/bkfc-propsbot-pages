@@ -79,11 +79,55 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "joe-lauzon",
+      "fighter_b_slug": "stash-kuykendall",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "charles-rosa",
+      "fighter_b_slug": "charon-spain",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Strawweight",
+      "fighter_a_slug": "taylor-starling",
+      "fighter_b_slug": "kat-paprocki",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Ironweight",
+      "fighter_a_slug": "guilherme-viana",
+      "fighter_b_slug": "robinson-perez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-92"
   ],
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-23",
   "needs_card_population": false
 }

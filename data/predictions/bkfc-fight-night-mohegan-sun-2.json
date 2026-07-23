@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-mohegan-sun-2",
-  "generated_at": "2026-07-23T10:28:02.970Z",
+  "generated_at": "2026-07-23T12:47:10.763Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -65,7 +65,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "48d ago",
+            "value_a": "49d ago",
             "value_b": "—",
             "edge_slug": "bryce-henry",
             "edge_strength": 1,
@@ -967,6 +967,201 @@
               "outcome": "Decision",
               "moneyline": 122,
               "implied_prob": 0.45
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 9,
+      "fighter_a_slug": "brandon-bushaw",
+      "fighter_b_slug": "matt-denning",
+      "prediction": {
+        "prob_a": 0.5973,
+        "prob_b": 0.4027,
+        "raw_score": 0.1517,
+        "favorite_slug": "brandon-bushaw",
+        "confidence": "Very Low",
+        "advantage_a": 60,
+        "advantage_b": 40,
+        "predictability": 27,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "—",
+            "edge_slug": "brandon-bushaw",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Bushaw hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-1",
+            "value_b": "0-0",
+            "edge_slug": "brandon-bushaw",
+            "edge_strength": 0.25,
+            "weight": 0.11,
+            "display": "60% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "50%",
+            "value_b": "—",
+            "edge_slug": "brandon-bushaw",
+            "edge_strength": 0.225,
+            "weight": 0.11,
+            "display": "15 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "3.5y ago",
+            "value_b": "—",
+            "edge_slug": "matt-denning",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Denning more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "0%",
+            "value_b": "—",
+            "edge_slug": "matt-denning",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Denning tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "0 fights",
+            "edge_slug": "brandon-bushaw",
+            "edge_strength": 0.375,
+            "weight": 0.03,
+            "display": "+3 fights Bushaw"
+          }
+        ],
+        "summary": "Model leans Bushaw 60/40. Edges on recent form, bkfc record, ko rate, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 270,
+              "implied_prob": 0.27
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -270,
+              "implied_prob": 0.73
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -111,
+              "implied_prob": 0.526
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 389,
+              "implied_prob": 0.204
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 270,
+              "implied_prob": 0.27
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 10,
+      "fighter_a_slug": "isaiah-williams",
+      "fighter_b_slug": "nate-larocco",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "nate-larocco",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 257,
+              "implied_prob": 0.28
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -257,
+              "implied_prob": 0.72
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -108,
+              "implied_prob": 0.518
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 396,
+              "implied_prob": 0.202
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 257,
+              "implied_prob": 0.28
             }
           ]
         }
