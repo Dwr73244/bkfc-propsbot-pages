@@ -3,13 +3,135 @@
   "event_date": "2026-07-25",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-07-23T11:27:57.747Z",
-  "book_count": 4,
+  "fetched_at": "2026-07-24T09:26:57.581Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "guido-ninja-cannetti",
+      "fighter_b_slug": "emiliano-el-toro-nielli",
+      "moneyline_a": -210,
+      "moneyline_b": 145,
+      "implied_prob_a": 0.677,
+      "implied_prob_b": 0.408,
+      "vig": 0.086,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -210,
+          -210
+        ],
+        "b": [
+          145,
+          145
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "javier-torres",
+      "fighter_b_slug": "luis-jimenez",
+      "moneyline_a": -245,
+      "moneyline_b": 170,
+      "implied_prob_a": 0.71,
+      "implied_prob_b": 0.37,
+      "vig": 0.081,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -245,
+          -245
+        ],
+        "b": [
+          170,
+          170
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "marilyn-contin",
+      "fighter_b_slug": "gisela-luna",
+      "moneyline_a": 115,
+      "moneyline_b": -159,
+      "implied_prob_a": 0.465,
+      "implied_prob_b": 0.614,
+      "vig": 0.079,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          115,
+          115
+        ],
+        "b": [
+          -159,
+          -159
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "nicolas-nitro-mujica",
+      "fighter_b_slug": "gonzalo-diaz-arredondo",
+      "moneyline_a": 123,
+      "moneyline_b": -175,
+      "implied_prob_a": 0.448,
+      "implied_prob_b": 0.636,
+      "vig": 0.085,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          123,
+          123
+        ],
+        "b": [
+          -175,
+          -175
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "franco-perochena",
+      "fighter_b_slug": "harel-nicodella",
+      "moneyline_a": 170,
+      "moneyline_b": -245,
+      "implied_prob_a": 0.37,
+      "implied_prob_b": 0.71,
+      "vig": 0.081,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          170,
+          170
+        ],
+        "b": [
+          -245,
+          -245
+        ]
+      }
+    }
+  ]
 }

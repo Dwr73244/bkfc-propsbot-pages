@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-uruguay",
-  "generated_at": "2026-07-23T12:47:10.769Z",
+  "generated_at": "2026-07-24T10:14:59.890Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -120,14 +120,14 @@
       "fighter_a_slug": "guido-ninja-cannetti",
       "fighter_b_slug": "emiliano-el-toro-nielli",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.5558,
+        "prob_b": 0.4442,
         "raw_score": 0,
-        "favorite_slug": "emiliano-el-toro-nielli",
+        "favorite_slug": "guido-ninja-cannetti",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 56,
+        "advantage_b": 44,
+        "predictability": 21,
         "factors": [
           {
             "name": "BKFC Record",
@@ -149,7 +149,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -188,21 +188,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.555783410138249,
+        "model_prob_b": 0.44421658986175105,
+        "market_fair_prob_a": 0.6239631336405531,
+        "market_fair_prob_b": 0.376036866359447,
+        "edge_pct_a": -0.06817972350230417,
+        "edge_pct_b": 0.06817972350230406,
+        "edge_slug": "emiliano-el-toro-nielli",
+        "edge_pct": 0.06817972350230417
+      }
     },
     {
       "order": 3,
       "fighter_a_slug": "javier-torres",
       "fighter_b_slug": "luis-jimenez",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.5708,
+        "prob_b": 0.4292,
         "raw_score": 0,
-        "favorite_slug": "luis-jimenez",
+        "favorite_slug": "javier-torres",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 57,
+        "advantage_b": 43,
+        "predictability": 22,
         "factors": [
           {
             "name": "BKFC Record",
@@ -224,7 +233,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -263,21 +272,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.5708333333333333,
+        "model_prob_b": 0.4291666666666667,
+        "market_fair_prob_a": 0.6574074074074073,
+        "market_fair_prob_b": 0.34259259259259256,
+        "edge_pct_a": -0.08657407407407403,
+        "edge_pct_b": 0.08657407407407414,
+        "edge_slug": "luis-jimenez",
+        "edge_pct": 0.08657407407407403
+      }
     },
     {
       "order": 4,
       "fighter_a_slug": "marilyn-contin",
       "fighter_b_slug": "gisela-luna",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.4689,
+        "prob_b": 0.5311,
         "raw_score": 0,
         "favorite_slug": "gisela-luna",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 47,
+        "advantage_b": 53,
+        "predictability": 19,
         "factors": [
           {
             "name": "BKFC Record",
@@ -299,7 +317,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -338,7 +356,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.46892956441149214,
+        "model_prob_b": 0.5310704355885079,
+        "market_fair_prob_a": 0.4309545875810936,
+        "market_fair_prob_b": 0.5690454124189064,
+        "edge_pct_a": 0.03797497683039852,
+        "edge_pct_b": -0.03797497683039852,
+        "edge_slug": "marilyn-contin",
+        "edge_pct": 0.03797497683039852
+      }
     },
     {
       "order": 5,
@@ -420,14 +447,14 @@
       "fighter_a_slug": "nicolas-nitro-mujica",
       "fighter_b_slug": "gonzalo-diaz-arredondo",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.461,
+        "prob_b": 0.539,
         "raw_score": 0,
         "favorite_slug": "gonzalo-diaz-arredondo",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 46,
+        "advantage_b": 54,
+        "predictability": 20,
         "factors": [
           {
             "name": "BKFC Record",
@@ -449,7 +476,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -488,21 +515,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.4609778597785978,
+        "model_prob_b": 0.5390221402214022,
+        "market_fair_prob_a": 0.41328413284132837,
+        "market_fair_prob_b": 0.5867158671586715,
+        "edge_pct_a": 0.04769372693726942,
+        "edge_pct_b": -0.047693726937269365,
+        "edge_slug": "nicolas-nitro-mujica",
+        "edge_pct": 0.04769372693726942
+      }
     },
     {
       "order": 7,
       "fighter_a_slug": "franco-perochena",
       "fighter_b_slug": "harel-nicodella",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.4292,
+        "prob_b": 0.5708,
         "raw_score": 0,
         "favorite_slug": "harel-nicodella",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 43,
+        "advantage_b": 57,
+        "predictability": 22,
         "factors": [
           {
             "name": "BKFC Record",
@@ -524,7 +560,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -563,7 +599,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.4291666666666667,
+        "model_prob_b": 0.5708333333333333,
+        "market_fair_prob_a": 0.34259259259259256,
+        "market_fair_prob_b": 0.6574074074074073,
+        "edge_pct_a": 0.08657407407407414,
+        "edge_pct_b": -0.08657407407407403,
+        "edge_slug": "franco-perochena",
+        "edge_pct": 0.08657407407407414
+      }
     },
     {
       "order": 8,

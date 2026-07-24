@@ -1,9 +1,9 @@
 {
   "event_slug": "bkfc-fight-night-uruguay",
   "event_date": "2026-07-25",
-  "source": "bestfightodds",
+  "source": "unibet",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4282",
-  "fetched_at": "2026-07-23T15:33:35.812Z",
+  "fetched_at": "2026-07-23T15:33:35.814Z",
   "bouts": [
     {
       "fighter_a_slug": "guido-ninja-cannetti",
