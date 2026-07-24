@@ -24,11 +24,33 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "aleksandar-konovalov",
+      "fighter_b_slug": "eddy-ruiz",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "stefan-dobrijevic",
+      "fighter_b_slug": "stefan-negucic",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-serbia"
   ],
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-07-24",
   "needs_card_population": false
 }

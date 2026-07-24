@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-serbia",
-  "generated_at": "2026-07-24T10:14:59.893Z",
+  "generated_at": "2026-07-24T12:43:06.796Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -127,6 +127,156 @@
               "outcome": "Decision",
               "moneyline": 567,
               "implied_prob": 0.15
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 2,
+      "fighter_a_slug": "aleksandar-konovalov",
+      "fighter_b_slug": "eddy-ruiz",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "eddy-ruiz",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 300,
+              "implied_prob": 0.25
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -300,
+              "implied_prob": 0.75
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -117,
+              "implied_prob": 0.54
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 376,
+              "implied_prob": 0.21
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 300,
+              "implied_prob": 0.25
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 3,
+      "fighter_a_slug": "stefan-dobrijevic",
+      "fighter_b_slug": "stefan-negucic",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "stefan-negucic",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 300,
+              "implied_prob": 0.25
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -300,
+              "implied_prob": 0.75
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -117,
+              "implied_prob": 0.54
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 376,
+              "implied_prob": 0.21
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 300,
+              "implied_prob": 0.25
             }
           ]
         }
