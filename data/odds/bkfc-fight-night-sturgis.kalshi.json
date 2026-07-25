@@ -1,0 +1,8 @@
+{
+  "event_slug": "bkfc-fight-night-sturgis",
+  "event_date": "2026-08-08",
+  "source": "kalshi",
+  "source_url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open",
+  "fetched_at": "2026-07-25T03:28:51.810Z",
+  "bouts": []
+}

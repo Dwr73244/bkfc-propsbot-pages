@@ -3,7 +3,7 @@
   "event_date": "2026-07-25",
   "source": "bestfightodds",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4282",
-  "fetched_at": "2026-07-23T15:33:35.812Z",
+  "fetched_at": "2026-07-25T06:02:29.092Z",
   "bouts": [
     {
       "fighter_a_slug": "guido-ninja-cannetti",
@@ -38,11 +38,11 @@
     {
       "fighter_a_slug": "nicolas-nitro-mujica",
       "fighter_b_slug": "gonzalo-diaz-arredondo",
-      "moneyline_a": 123,
-      "moneyline_b": -175,
-      "implied_prob_a": 0.448,
-      "implied_prob_b": 0.636,
-      "vig": 0.085,
+      "moneyline_a": 117,
+      "moneyline_b": -162,
+      "implied_prob_a": 0.461,
+      "implied_prob_b": 0.618,
+      "vig": 0.079,
       "book_count": 1
     },
     {

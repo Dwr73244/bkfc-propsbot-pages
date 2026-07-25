@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-uruguay",
-  "generated_at": "2026-07-24T12:43:06.795Z",
+  "generated_at": "2026-07-25T09:52:10.107Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -447,14 +447,14 @@
       "fighter_a_slug": "nicolas-nitro-mujica",
       "fighter_b_slug": "gonzalo-diaz-arredondo",
       "prediction": {
-        "prob_a": 0.461,
-        "prob_b": 0.539,
+        "prob_a": 0.4673,
+        "prob_b": 0.5327,
         "raw_score": 0,
         "favorite_slug": "gonzalo-diaz-arredondo",
         "confidence": "Very Low",
-        "advantage_a": 46,
-        "advantage_b": 54,
-        "predictability": 20,
+        "advantage_a": 47,
+        "advantage_b": 53,
+        "predictability": 19,
         "factors": [
           {
             "name": "BKFC Record",
@@ -516,14 +516,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.4609778597785978,
-        "model_prob_b": 0.5390221402214022,
-        "market_fair_prob_a": 0.41328413284132837,
-        "market_fair_prob_b": 0.5867158671586715,
-        "edge_pct_a": 0.04769372693726942,
-        "edge_pct_b": -0.047693726937269365,
+        "model_prob_a": 0.4672613531047266,
+        "model_prob_b": 0.5327386468952734,
+        "market_fair_prob_a": 0.4272474513438369,
+        "market_fair_prob_b": 0.5727525486561631,
+        "edge_pct_a": 0.0400139017608897,
+        "edge_pct_b": -0.0400139017608897,
         "edge_slug": "nicolas-nitro-mujica",
-        "edge_pct": 0.04769372693726942
+        "edge_pct": 0.0400139017608897
       }
     },
     {
