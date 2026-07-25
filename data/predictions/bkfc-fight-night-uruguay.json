@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-uruguay",
-  "generated_at": "2026-07-25T09:52:10.107Z",
+  "generated_at": "2026-07-25T12:08:33.172Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -288,13 +288,13 @@
       "fighter_a_slug": "marilyn-contin",
       "fighter_b_slug": "gisela-luna",
       "prediction": {
-        "prob_a": 0.4689,
-        "prob_b": 0.5311,
+        "prob_a": 0.4818,
+        "prob_b": 0.5182,
         "raw_score": 0,
         "favorite_slug": "gisela-luna",
         "confidence": "Very Low",
-        "advantage_a": 47,
-        "advantage_b": 53,
+        "advantage_a": 48,
+        "advantage_b": 52,
         "predictability": 19,
         "factors": [
           {
@@ -357,14 +357,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.46892956441149214,
-        "model_prob_b": 0.5310704355885079,
-        "market_fair_prob_a": 0.4309545875810936,
-        "market_fair_prob_b": 0.5690454124189064,
-        "edge_pct_a": 0.03797497683039852,
-        "edge_pct_b": -0.03797497683039852,
+        "model_prob_a": 0.48182451253481895,
+        "model_prob_b": 0.518175487465181,
+        "market_fair_prob_a": 0.4596100278551532,
+        "market_fair_prob_b": 0.5403899721448467,
+        "edge_pct_a": 0.022214484679665747,
+        "edge_pct_b": -0.02221448467966569,
         "edge_slug": "marilyn-contin",
-        "edge_pct": 0.03797497683039852
+        "edge_pct": 0.022214484679665747
       }
     },
     {
@@ -447,13 +447,13 @@
       "fighter_a_slug": "nicolas-nitro-mujica",
       "fighter_b_slug": "gonzalo-diaz-arredondo",
       "prediction": {
-        "prob_a": 0.4673,
-        "prob_b": 0.5327,
+        "prob_a": 0.4757,
+        "prob_b": 0.5243,
         "raw_score": 0,
         "favorite_slug": "gonzalo-diaz-arredondo",
         "confidence": "Very Low",
-        "advantage_a": 47,
-        "advantage_b": 53,
+        "advantage_a": 48,
+        "advantage_b": 52,
         "predictability": 19,
         "factors": [
           {
@@ -516,14 +516,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.4672613531047266,
-        "model_prob_b": 0.5327386468952734,
-        "market_fair_prob_a": 0.4272474513438369,
-        "market_fair_prob_b": 0.5727525486561631,
-        "edge_pct_a": 0.0400139017608897,
-        "edge_pct_b": -0.0400139017608897,
+        "model_prob_a": 0.4756925207756233,
+        "model_prob_b": 0.5243074792243767,
+        "market_fair_prob_a": 0.44598337950138506,
+        "market_fair_prob_b": 0.554016620498615,
+        "edge_pct_a": 0.029709141274238238,
+        "edge_pct_b": -0.029709141274238293,
         "edge_slug": "nicolas-nitro-mujica",
-        "edge_pct": 0.0400139017608897
+        "edge_pct": 0.029709141274238238
       }
     },
     {

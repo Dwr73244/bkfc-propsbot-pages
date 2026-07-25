@@ -3,7 +3,7 @@
   "event_date": "2026-07-25",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-07-25T08:32:15.417Z",
+  "fetched_at": "2026-07-25T12:06:09.823Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -64,11 +64,11 @@
     {
       "fighter_a_slug": "marilyn-contin",
       "fighter_b_slug": "gisela-luna",
-      "moneyline_a": 115,
-      "moneyline_b": -159,
-      "implied_prob_a": 0.465,
-      "implied_prob_b": 0.614,
-      "vig": 0.079,
+      "moneyline_a": 102,
+      "moneyline_b": -139,
+      "implied_prob_a": 0.495,
+      "implied_prob_b": 0.582,
+      "vig": 0.077,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -76,23 +76,23 @@
       ],
       "line_range": {
         "a": [
-          115,
-          115
+          102,
+          102
         ],
         "b": [
-          -159,
-          -159
+          -139,
+          -139
         ]
       }
     },
     {
       "fighter_a_slug": "nicolas-nitro-mujica",
       "fighter_b_slug": "gonzalo-diaz-arredondo",
-      "moneyline_a": 117,
-      "moneyline_b": -162,
-      "implied_prob_a": 0.461,
-      "implied_prob_b": 0.618,
-      "vig": 0.079,
+      "moneyline_a": 107,
+      "moneyline_b": -150,
+      "implied_prob_a": 0.483,
+      "implied_prob_b": 0.6,
+      "vig": 0.083,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -100,12 +100,12 @@
       ],
       "line_range": {
         "a": [
-          117,
-          117
+          107,
+          107
         ],
         "b": [
-          -162,
-          -162
+          -150,
+          -150
         ]
       }
     },
