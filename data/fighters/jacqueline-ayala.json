@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Women's Flyweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -35,5 +35,7 @@
   ],
   "last_updated": "2026-04-17",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "record_source": "tracked-events",
+  "record_verified": "2026-07-26"
 }

@@ -5,10 +5,10 @@
   "nickname": null,
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
-    "kos": null
+    "kos": 1
   },
   "mma_record": null,
   "height_in": null,
@@ -36,5 +36,7 @@
   "last_updated": "2026-07-06",
   "stub": true,
   "elo": 1521,
-  "elo_peak": 1521
+  "elo_peak": 1521,
+  "record_source": "tracked-events",
+  "record_verified": "2026-07-26"
 }
