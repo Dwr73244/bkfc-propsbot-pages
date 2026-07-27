@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-mohegan-sun-2",
-  "generated_at": "2026-07-26T12:13:46.037Z",
+  "generated_at": "2026-07-27T11:25:34.318Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -65,7 +65,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "52d ago",
+            "value_a": "53d ago",
             "value_b": "—",
             "edge_slug": "bryce-henry",
             "edge_strength": 1,
@@ -507,14 +507,14 @@
       "fighter_a_slug": "jared-lennon",
       "fighter_b_slug": "dominick-carey",
       "prediction": {
-        "prob_a": 0.7285,
-        "prob_b": 0.2715,
-        "raw_score": 0.3795,
+        "prob_a": 0.7132,
+        "prob_b": 0.2868,
+        "raw_score": 0.3504,
         "favorite_slug": "jared-lennon",
         "confidence": "Very Low",
-        "advantage_a": 73,
-        "advantage_b": 27,
-        "predictability": 38,
+        "advantage_a": 71,
+        "advantage_b": 29,
+        "predictability": 36,
         "factors": [
           {
             "name": "Recent Form",
@@ -565,10 +565,10 @@
             "name": "Activity",
             "value_a": "1.5y ago",
             "value_b": "—",
-            "edge_slug": "jared-lennon",
-            "edge_strength": 0.3,
+            "edge_slug": null,
+            "edge_strength": 0.1,
             "weight": 0.05,
-            "display": "Lennon more active"
+            "display": "Similar activity"
           },
           {
             "name": "Cut History",
@@ -607,7 +607,7 @@
             "display": "+1\" Lennon"
           }
         ],
-        "summary": "Model leans Lennon 73/27. Edges on recent form, ko rate, reach, activity.",
+        "summary": "Model leans Lennon 71/29. Edges on recent form, ko rate, reach.",
         "market_adjusted": false
       },
       "prop_markets": [
