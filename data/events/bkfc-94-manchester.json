@@ -13,10 +13,22 @@
     "BKFC+"
   ],
   "poster_url": null,
-  "bouts": [],
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Cruiserweight",
+      "fighter_a_slug": "darren-till",
+      "fighter_b_slug": "yoel-romero",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-94-manchester"
   ],
-  "last_updated": "2026-07-06",
-  "needs_card_population": true
+  "last_updated": "2026-07-28",
+  "needs_card_population": false
 }

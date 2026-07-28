@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
-  "generated_at": "2026-07-28T10:39:36.820Z",
+  "generated_at": "2026-07-28T13:00:29.260Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1417,6 +1417,144 @@
               "outcome": "Decision",
               "moneyline": 400,
               "implied_prob": 0.2
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 15,
+      "fighter_a_slug": "lewis-keen",
+      "fighter_b_slug": "stew-martin",
+      "prediction": {
+        "prob_a": 0.7847,
+        "prob_b": 0.2153,
+        "raw_score": 0.4975,
+        "favorite_slug": "lewis-keen",
+        "confidence": "Low",
+        "advantage_a": 78,
+        "advantage_b": 22,
+        "predictability": 57,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "—",
+            "edge_slug": "lewis-keen",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Keen hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "5-1",
+            "value_b": "0-0",
+            "edge_slug": "lewis-keen",
+            "edge_strength": 0.625,
+            "weight": 0.11,
+            "display": "75% vs 50% win rate"
+          },
+          {
+            "name": "Age",
+            "value_a": 27,
+            "value_b": 40,
+            "edge_slug": "lewis-keen",
+            "edge_strength": 1,
+            "weight": 0.09,
+            "display": "27 vs 40"
+          },
+          {
+            "name": "Reach",
+            "value_a": "70\"",
+            "value_b": "68\"",
+            "edge_slug": "lewis-keen",
+            "edge_strength": 0.333,
+            "weight": 0.08,
+            "display": "+2\" Keen"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.5y ago",
+            "value_b": "—",
+            "edge_slug": "lewis-keen",
+            "edge_strength": 0.3,
+            "weight": 0.05,
+            "display": "Keen more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "55%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.103,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "6 fights",
+            "value_b": "0 fights",
+            "edge_slug": "lewis-keen",
+            "edge_strength": 0.75,
+            "weight": 0.03,
+            "display": "+6 fights Keen"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'9\"",
+            "value_b": "5'9\"",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "0\" even"
+          }
+        ],
+        "summary": "Model leans Keen 78/22. Edges on recent form, bkfc record, age, reach.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 252,
+              "implied_prob": 0.284
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -252,
+              "implied_prob": 0.716
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -106,
+              "implied_prob": 0.516
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 399,
+              "implied_prob": 0.2
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 252,
+              "implied_prob": 0.284
             }
           ]
         }
