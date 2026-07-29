@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-92",
-  "generated_at": "2026-07-29T10:43:49.610Z",
+  "generated_at": "2026-07-29T13:06:52.463Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1090,6 +1090,219 @@
               "outcome": "Decision",
               "moneyline": 233,
               "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 11,
+      "fighter_a_slug": "christine-ferea",
+      "fighter_b_slug": "sofia-landi",
+      "prediction": {
+        "prob_a": 0.6747,
+        "prob_b": 0.3253,
+        "raw_score": 0.2807,
+        "favorite_slug": "christine-ferea",
+        "confidence": "Low",
+        "advantage_a": 67,
+        "advantage_b": 33,
+        "predictability": 44,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "—",
+            "edge_slug": "christine-ferea",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Ferea hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "11-1",
+            "value_b": "0-0",
+            "edge_slug": "christine-ferea",
+            "edge_strength": 0.893,
+            "weight": 0.11,
+            "display": "86% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "9%",
+            "value_b": "—",
+            "edge_slug": "sofia-landi",
+            "edge_strength": 0.389,
+            "weight": 0.11,
+            "display": "-26 pt KO-rate gap"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "1-2",
+            "value_b": "—",
+            "edge_slug": "christine-ferea",
+            "edge_strength": 0.755,
+            "weight": 0.08,
+            "display": "Ferea deeper background"
+          },
+          {
+            "name": "Style",
+            "value_a": "ko-hunter / power",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.06,
+            "display": "No exploitable style mismatch"
+          },
+          {
+            "name": "Activity",
+            "value_a": "3.3y ago",
+            "value_b": "—",
+            "edge_slug": "sofia-landi",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Landi more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "57%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.143,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "12 fights",
+            "value_b": "0 fights",
+            "edge_slug": "christine-ferea",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+12 fights Ferea"
+          }
+        ],
+        "summary": "Model leans Ferea 67/33. Edges on recent form, bkfc record, mma background, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 119,
+              "implied_prob": 0.456
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -119,
+              "implied_prob": 0.544
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 155,
+              "implied_prob": 0.392
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 556,
+              "implied_prob": 0.152
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 119,
+              "implied_prob": 0.456
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 12,
+      "fighter_a_slug": "jake-pilla",
+      "fighter_b_slug": "angelo-colon",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "angelo-colon",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 194,
+              "implied_prob": 0.34
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -194,
+              "implied_prob": 0.66
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 110,
+              "implied_prob": 0.475
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 441,
+              "implied_prob": 0.185
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 194,
+              "implied_prob": 0.34
             }
           ]
         }
