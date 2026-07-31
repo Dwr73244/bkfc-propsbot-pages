@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
-  "generated_at": "2026-07-31T10:37:25.418Z",
+  "generated_at": "2026-07-31T13:04:52.726Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1618,6 +1618,81 @@
               "outcome": "Decision",
               "moneyline": 252,
               "implied_prob": 0.284
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 16,
+      "fighter_a_slug": "dylan-yendall",
+      "fighter_b_slug": "harry-bray",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "harry-bray",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 400,
+              "implied_prob": 0.2
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -400,
+              "implied_prob": 0.8
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -136,
+              "implied_prob": 0.576
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 346,
+              "implied_prob": 0.224
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 400,
+              "implied_prob": 0.2
             }
           ]
         }

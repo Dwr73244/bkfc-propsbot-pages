@@ -178,11 +178,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 16,
+      "card_position": "Prelim",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "dylan-yendall",
+      "fighter_b_slug": "harry-bray",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-newcastle-garside-vs-taylor"
   ],
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-31",
   "needs_card_population": false
 }
