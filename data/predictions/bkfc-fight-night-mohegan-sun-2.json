@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-mohegan-sun-2",
-  "generated_at": "2026-07-31T18:55:20.612Z",
+  "generated_at": "2026-07-31T20:28:03.535Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "bryce-henry",
       "fighter_b_slug": "carlos-trinidad",
       "prediction": {
-        "prob_a": 0.792,
-        "prob_b": 0.208,
-        "raw_score": 0.5142,
+        "prob_a": 0.7026,
+        "prob_b": 0.2974,
+        "raw_score": 0.3306,
         "favorite_slug": "bryce-henry",
         "confidence": "Low",
-        "advantage_a": 79,
-        "advantage_b": 21,
-        "predictability": 58,
+        "advantage_a": 70,
+        "advantage_b": 30,
+        "predictability": 52,
         "factors": [
           {
             "name": "Recent Form",
@@ -29,21 +29,21 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "6-0",
-            "value_b": "0-0",
+            "value_a": "7-0",
+            "value_b": "7-1",
             "edge_slug": "bryce-henry",
-            "edge_strength": 0.938,
+            "edge_strength": 0.222,
             "weight": 0.11,
-            "display": "88% vs 50% win rate"
+            "display": "89% vs 80% win rate"
           },
           {
             "name": "KO Rate",
-            "value_a": "50%",
+            "value_a": "43%",
             "value_b": "—",
-            "edge_slug": "bryce-henry",
-            "edge_strength": 0.225,
+            "edge_slug": null,
+            "edge_strength": 0.118,
             "weight": 0.11,
-            "display": "15 pt KO-rate gap"
+            "display": "8 pt KO-rate gap"
           },
           {
             "name": "Age",
@@ -83,24 +83,24 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "67%",
+            "value_a": "71%",
             "value_b": "—",
             "edge_slug": "bryce-henry",
-            "edge_strength": 0.345,
+            "edge_strength": 0.416,
             "weight": 0.04,
             "display": "Henry tougher schedule"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "6 fights",
-            "value_b": "0 fights",
-            "edge_slug": "bryce-henry",
-            "edge_strength": 0.75,
+            "value_a": "7 fights",
+            "value_b": "8 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
             "weight": 0.03,
-            "display": "+6 fights Henry"
+            "display": "Even"
           }
         ],
-        "summary": "Model leans Henry 79/21. Edges on recent form, bkfc record, ko rate, reach.",
+        "summary": "Model leans Henry 70/30. Edges on recent form, bkfc record, reach, activity.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -109,13 +109,13 @@
           "options": [
             {
               "outcome": "Yes (Decision)",
-              "moneyline": 279,
-              "implied_prob": 0.264
+              "moneyline": 271,
+              "implied_prob": 0.269
             },
             {
               "outcome": "No (Finish)",
-              "moneyline": -279,
-              "implied_prob": 0.736
+              "moneyline": -271,
+              "implied_prob": 0.731
             }
           ]
         },
@@ -124,18 +124,18 @@
           "options": [
             {
               "outcome": "KO/TKO",
-              "moneyline": -113,
-              "implied_prob": 0.53
+              "moneyline": -111,
+              "implied_prob": 0.526
             },
             {
               "outcome": "Doctor Stoppage",
-              "moneyline": 385,
-              "implied_prob": 0.206
+              "moneyline": 389,
+              "implied_prob": 0.205
             },
             {
               "outcome": "Decision",
-              "moneyline": 279,
-              "implied_prob": 0.264
+              "moneyline": 271,
+              "implied_prob": 0.269
             }
           ]
         }
@@ -147,9 +147,9 @@
       "fighter_a_slug": "cody-vidal",
       "fighter_b_slug": "joseph-creer",
       "prediction": {
-        "prob_a": 0.6908,
-        "prob_b": 0.3092,
-        "raw_score": 0.3091,
+        "prob_a": 0.6912,
+        "prob_b": 0.3088,
+        "raw_score": 0.3098,
         "favorite_slug": "cody-vidal",
         "confidence": "Low",
         "advantage_a": 69,
@@ -176,12 +176,12 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "3-1",
+            "value_a": "4-1",
             "value_b": "6-3",
             "edge_slug": null,
-            "edge_strength": 0.076,
+            "edge_strength": 0.195,
             "weight": 0.11,
-            "display": "67% vs 64% win rate"
+            "display": "71% vs 64% win rate"
           },
           {
             "name": "Age",
@@ -230,21 +230,21 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "72%",
-            "value_b": "88%",
+            "value_a": "70%",
+            "value_b": "90%",
             "edge_slug": "joseph-creer",
-            "edge_strength": 0.31,
+            "edge_strength": 0.392,
             "weight": 0.04,
             "display": "Creer tougher schedule"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "4 fights",
+            "value_a": "5 fights",
             "value_b": "9 fights",
             "edge_slug": "joseph-creer",
-            "edge_strength": 0.625,
+            "edge_strength": 0.5,
             "weight": 0.03,
-            "display": "+5 fights Creer"
+            "display": "+4 fights Creer"
           }
         ],
         "summary": "Model leans Vidal 69/31. Edges on recent form, age, mma background, activity.",
@@ -405,23 +405,23 @@
       "fighter_a_slug": "nate-ghareeb",
       "fighter_b_slug": "nash-diederichs",
       "prediction": {
-        "prob_a": 0.4017,
-        "prob_b": 0.5983,
-        "raw_score": -0.1532,
+        "prob_a": 0.4111,
+        "prob_b": 0.5889,
+        "raw_score": -0.1382,
         "favorite_slug": "nash-diederichs",
-        "confidence": "Very Low",
-        "advantage_a": 40,
-        "advantage_b": 60,
-        "predictability": 33,
+        "confidence": "Low",
+        "advantage_a": 41,
+        "advantage_b": 59,
+        "predictability": 45,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
-            "value_b": "0-0",
+            "value_a": "0-1",
+            "value_b": "1-2",
             "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "edge_strength": 0.167,
+            "weight": 0.11,
+            "display": "33% vs 40% win rate"
           },
           {
             "name": "Age",
@@ -443,10 +443,10 @@
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
-            "value_b": "0 fights",
+            "value_a": "1 fights",
+            "value_b": "3 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.25,
             "weight": 0.03,
             "display": "Even"
           },
@@ -460,7 +460,7 @@
             "display": "-1\" Diederichs"
           }
         ],
-        "summary": "Model leans Diederichs 60/40. Edges on age.",
+        "summary": "Model leans Diederichs 59/41. Edges on age.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -507,14 +507,14 @@
       "fighter_a_slug": "jared-lennon",
       "fighter_b_slug": "dominick-carey",
       "prediction": {
-        "prob_a": 0.7132,
-        "prob_b": 0.2868,
-        "raw_score": 0.3504,
+        "prob_a": 0.72,
+        "prob_b": 0.28,
+        "raw_score": 0.3633,
         "favorite_slug": "jared-lennon",
-        "confidence": "Very Low",
-        "advantage_a": 71,
-        "advantage_b": 29,
-        "predictability": 36,
+        "confidence": "Low",
+        "advantage_a": 72,
+        "advantage_b": 28,
+        "predictability": 49,
         "factors": [
           {
             "name": "Recent Form",
@@ -528,7 +528,7 @@
           {
             "name": "BKFC Record",
             "value_a": "1-1",
-            "value_b": "0-0",
+            "value_b": "1-1",
             "edge_slug": null,
             "edge_strength": 0,
             "weight": 0.11,
@@ -581,19 +581,19 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "25%",
+            "value_a": "33%",
             "value_b": "—",
             "edge_slug": "dominick-carey",
-            "edge_strength": 0.5,
+            "edge_strength": 0.333,
             "weight": 0.04,
             "display": "Carey tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "2 fights",
-            "value_b": "0 fights",
+            "value_b": "2 fights",
             "edge_slug": null,
-            "edge_strength": 0.25,
+            "edge_strength": 0,
             "weight": 0.03,
             "display": "Even"
           },
@@ -607,7 +607,7 @@
             "display": "+1\" Lennon"
           }
         ],
-        "summary": "Model leans Lennon 71/29. Edges on recent form, ko rate, reach.",
+        "summary": "Model leans Lennon 72/28. Edges on recent form, ko rate, reach.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -654,14 +654,14 @@
       "fighter_a_slug": "joey-gambino",
       "fighter_b_slug": "tommy-strydom",
       "prediction": {
-        "prob_a": 0.4091,
-        "prob_b": 0.5909,
-        "raw_score": -0.1414,
+        "prob_a": 0.4394,
+        "prob_b": 0.5606,
+        "raw_score": -0.0937,
         "favorite_slug": "tommy-strydom",
-        "confidence": "Low",
-        "advantage_a": 41,
-        "advantage_b": 59,
-        "predictability": 40,
+        "confidence": "Medium",
+        "advantage_a": 44,
+        "advantage_b": 56,
+        "predictability": 52,
         "factors": [
           {
             "name": "Recent Form",
@@ -674,12 +674,12 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "1-0",
             "value_b": "4-2",
-            "edge_slug": "tommy-strydom",
-            "edge_strength": 0.313,
+            "edge_slug": null,
+            "edge_strength": 0.104,
             "weight": 0.11,
-            "display": "50% vs 63% win rate"
+            "display": "67% vs 63% win rate"
           },
           {
             "name": "KO Rate",
@@ -729,20 +729,20 @@
           {
             "name": "Opponent Quality",
             "value_a": "—",
-            "value_b": "50%",
+            "value_b": "60%",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.2,
             "weight": 0.04,
             "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "1 fights",
             "value_b": "6 fights",
             "edge_slug": "tommy-strydom",
-            "edge_strength": 0.75,
+            "edge_strength": 0.625,
             "weight": 0.03,
-            "display": "+6 fights Strydom"
+            "display": "+5 fights Strydom"
           },
           {
             "name": "Height",
@@ -754,7 +754,7 @@
             "display": "+1\" Gambino"
           }
         ],
-        "summary": "Model leans Strydom 59/41. Edges on bkfc record, ko rate, activity, bkfc experience.",
+        "summary": "Model leans Strydom 56/44. Edges on ko rate, activity, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -876,23 +876,23 @@
       "fighter_a_slug": "alexandra-ballou",
       "fighter_b_slug": "sophia-hayes",
       "prediction": {
-        "prob_a": 0.4455,
-        "prob_b": 0.5545,
-        "raw_score": -0.0842,
-        "favorite_slug": "sophia-hayes",
+        "prob_a": 0.5481,
+        "prob_b": 0.4519,
+        "raw_score": 0.0743,
+        "favorite_slug": "alexandra-ballou",
         "confidence": "Very Low",
-        "advantage_a": 45,
-        "advantage_b": 55,
-        "predictability": 21,
+        "advantage_a": 55,
+        "advantage_b": 45,
+        "predictability": 24,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_b": "0-1",
+            "edge_slug": "alexandra-ballou",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 33% win rate"
           },
           {
             "name": "Age",
@@ -915,9 +915,9 @@
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           },
@@ -931,7 +931,7 @@
             "display": "+1\" Ballou"
           }
         ],
-        "summary": "Model leans Hayes 55/45. Edges on age.",
+        "summary": "Model leans Ballou 55/45. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1098,35 +1098,35 @@
       "fighter_a_slug": "isaiah-williams",
       "fighter_b_slug": "nate-larocco",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
+        "prob_a": 0.3216,
+        "prob_b": 0.6784,
+        "raw_score": -0.2871,
         "favorite_slug": "nate-larocco",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 32,
+        "advantage_b": 68,
+        "predictability": 38,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "0-1",
             "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "edge_slug": "nate-larocco",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "33% vs 50% win rate"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "1 fights",
             "value_b": "0 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Larocco 68/32. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [

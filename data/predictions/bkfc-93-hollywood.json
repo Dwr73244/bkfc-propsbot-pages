@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-07-31T18:55:20.608Z",
+  "generated_at": "2026-07-31T20:28:03.531Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "leonardo-perdomo",
       "fighter_b_slug": "anthony-garrett",
       "prediction": {
-        "prob_a": 0.6505,
-        "prob_b": 0.3495,
-        "raw_score": 0.2389,
+        "prob_a": 0.6335,
+        "prob_b": 0.3665,
+        "raw_score": 0.2104,
         "favorite_slug": "leonardo-perdomo",
         "confidence": "Low",
-        "advantage_a": 65,
-        "advantage_b": 35,
+        "advantage_a": 63,
+        "advantage_b": 37,
         "predictability": 42,
         "factors": [
           {
@@ -30,11 +30,11 @@
           {
             "name": "BKFC Record",
             "value_a": "11-0",
-            "value_b": "0-0",
+            "value_b": "3-1",
             "edge_slug": "leonardo-perdomo",
-            "edge_strength": 1,
+            "edge_strength": 0.641,
             "weight": 0.11,
-            "display": "92% vs 50% win rate"
+            "display": "92% vs 67% win rate"
           },
           {
             "name": "KO Rate",
@@ -83,24 +83,24 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "33%",
+            "value_a": "47%",
             "value_b": "—",
-            "edge_slug": "anthony-garrett",
-            "edge_strength": 0.333,
+            "edge_slug": null,
+            "edge_strength": 0.056,
             "weight": 0.04,
-            "display": "Garrett tougher schedule"
+            "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "11 fights",
-            "value_b": "0 fights",
+            "value_b": "4 fights",
             "edge_slug": "leonardo-perdomo",
-            "edge_strength": 1,
+            "edge_strength": 0.875,
             "weight": 0.03,
-            "display": "+11 fights Perdomo"
+            "display": "+7 fights Perdomo"
           }
         ],
-        "summary": "Model leans Perdomo 65/35. Edges on recent form, bkfc record, age, activity.",
+        "summary": "Model leans Perdomo 63/37. Edges on recent form, bkfc record, age, activity.",
         "market_adjusted": false
       },
       "prop_markets": [

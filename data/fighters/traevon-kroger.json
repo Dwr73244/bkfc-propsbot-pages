@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594162/o/1744594161711_67d304528c79f3b041f82f65_KROGER_AVATAR_400x533_compressed.png?1744594162",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594163/o/1744594163309_67d3044ce226540ba4183cb6_KROGER_SMALL_AVATAR_400x400_compressed.png?1744594163",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -60,6 +60,6 @@
   "sources": [
     "https://www.bkfc.com/fighters/traevon-kroger"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-07-31",
   "history_last_verified": "2026-07-31T18:47:38.435Z"
 }

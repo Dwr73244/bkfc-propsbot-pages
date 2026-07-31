@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-92",
-  "generated_at": "2026-07-31T18:55:20.604Z",
+  "generated_at": "2026-07-31T20:28:03.527Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "kai-stewart",
       "fighter_b_slug": "harry-gigliotti",
       "prediction": {
-        "prob_a": 0.7463,
-        "prob_b": 0.2537,
-        "raw_score": 0.415,
+        "prob_a": 0.7344,
+        "prob_b": 0.2656,
+        "raw_score": 0.3911,
         "favorite_slug": "kai-stewart",
         "confidence": "Low",
-        "advantage_a": 75,
-        "advantage_b": 25,
+        "advantage_a": 73,
+        "advantage_b": 27,
         "predictability": 51,
         "factors": [
           {
@@ -30,11 +30,11 @@
           {
             "name": "BKFC Record",
             "value_a": "9-0",
-            "value_b": "0-0",
+            "value_b": "1-0",
             "edge_slug": "kai-stewart",
-            "edge_strength": 1,
+            "edge_strength": 0.606,
             "weight": 0.11,
-            "display": "91% vs 50% win rate"
+            "display": "91% vs 67% win rate"
           },
           {
             "name": "Reach",
@@ -74,24 +74,24 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "56%",
+            "value_a": "70%",
             "value_b": "—",
-            "edge_slug": null,
-            "edge_strength": 0.111,
+            "edge_slug": "kai-stewart",
+            "edge_strength": 0.407,
             "weight": 0.04,
-            "display": "Similar schedule"
+            "display": "Stewart tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "9 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": "kai-stewart",
             "edge_strength": 1,
             "weight": 0.03,
-            "display": "+9 fights Stewart"
+            "display": "+8 fights Stewart"
           }
         ],
-        "summary": "Model leans Stewart 75/25. Edges on recent form, bkfc record, activity, bkfc experience.",
+        "summary": "Model leans Stewart 73/27. Edges on recent form, bkfc record, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -213,9 +213,9 @@
           {
             "name": "Opponent Quality",
             "value_a": "78%",
-            "value_b": "75%",
+            "value_b": "79%",
             "edge_slug": null,
-            "edge_strength": 0.063,
+            "edge_strength": 0.032,
             "weight": 0.04,
             "display": "Similar schedule"
           },
@@ -351,14 +351,14 @@
       "fighter_a_slug": "david-burke",
       "fighter_b_slug": "david-simpson",
       "prediction": {
-        "prob_a": 0.6599,
-        "prob_b": 0.3401,
-        "raw_score": 0.255,
+        "prob_a": 0.6855,
+        "prob_b": 0.3145,
+        "raw_score": 0.2997,
         "favorite_slug": "david-burke",
         "confidence": "Low",
-        "advantage_a": 66,
-        "advantage_b": 34,
-        "predictability": 44,
+        "advantage_a": 69,
+        "advantage_b": 31,
+        "predictability": 45,
         "factors": [
           {
             "name": "Recent Form",
@@ -371,7 +371,7 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "1-1",
             "value_b": "3-5",
             "edge_slug": "david-burke",
             "edge_strength": 0.25,
@@ -417,23 +417,23 @@
           {
             "name": "Opponent Quality",
             "value_a": "—",
-            "value_b": "75%",
+            "value_b": "63%",
             "edge_slug": "david-simpson",
-            "edge_strength": 0.5,
+            "edge_strength": 0.25,
             "weight": 0.04,
             "display": "Simpson tougher schedule"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "2 fights",
             "value_b": "8 fights",
             "edge_slug": "david-simpson",
-            "edge_strength": 1,
+            "edge_strength": 0.75,
             "weight": 0.03,
-            "display": "+8 fights Simpson"
+            "display": "+6 fights Simpson"
           }
         ],
-        "summary": "Model leans Burke 66/34. Edges on recent form, bkfc record, age, reach.",
+        "summary": "Model leans Burke 69/31. Edges on recent form, bkfc record, age, reach.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -480,13 +480,13 @@
       "fighter_a_slug": "rico-disciullo",
       "fighter_b_slug": "tray-martin",
       "prediction": {
-        "prob_a": 0.673,
-        "prob_b": 0.327,
-        "raw_score": 0.2777,
+        "prob_a": 0.6822,
+        "prob_b": 0.3178,
+        "raw_score": 0.2938,
         "favorite_slug": "rico-disciullo",
         "confidence": "Very Low",
-        "advantage_a": 67,
-        "advantage_b": 33,
+        "advantage_a": 68,
+        "advantage_b": 32,
         "predictability": 33,
         "factors": [
           {
@@ -536,10 +536,10 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "20%",
+            "value_a": "29%",
             "value_b": "—",
             "edge_slug": "tray-martin",
-            "edge_strength": 0.6,
+            "edge_strength": 0.429,
             "weight": 0.04,
             "display": "Martin tougher schedule"
           },
@@ -553,7 +553,7 @@
             "display": "+4 fights DiSciullo"
           }
         ],
-        "summary": "Model leans DiSciullo 67/33. Edges on recent form, bkfc record, bkfc experience.",
+        "summary": "Model leans DiSciullo 68/32. Edges on recent form, bkfc record, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -600,14 +600,14 @@
       "fighter_a_slug": "peter-barrett",
       "fighter_b_slug": "elijah-harris",
       "prediction": {
-        "prob_a": 0.3285,
-        "prob_b": 0.6715,
-        "raw_score": -0.2751,
+        "prob_a": 0.3675,
+        "prob_b": 0.6325,
+        "raw_score": -0.2088,
         "favorite_slug": "elijah-harris",
-        "confidence": "Very Low",
-        "advantage_a": 33,
-        "advantage_b": 67,
-        "predictability": 32,
+        "confidence": "Low",
+        "advantage_a": 37,
+        "advantage_b": 63,
+        "predictability": 42,
         "factors": [
           {
             "name": "Recent Form",
@@ -620,12 +620,12 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "2-0",
             "value_b": "2-2",
-            "edge_slug": null,
-            "edge_strength": 0,
+            "edge_slug": "peter-barrett",
+            "edge_strength": 0.625,
             "weight": 0.11,
-            "display": "50% vs 50% win rate"
+            "display": "75% vs 50% win rate"
           },
           {
             "name": "KO Rate",
@@ -675,23 +675,23 @@
           {
             "name": "Opponent Quality",
             "value_a": "—",
-            "value_b": "33%",
-            "edge_slug": "peter-barrett",
-            "edge_strength": 0.333,
+            "value_b": "63%",
+            "edge_slug": "elijah-harris",
+            "edge_strength": 0.25,
             "weight": 0.04,
-            "display": "Barrett tougher schedule"
+            "display": "Harris tougher schedule"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "2 fights",
             "value_b": "4 fights",
-            "edge_slug": "elijah-harris",
-            "edge_strength": 0.5,
+            "edge_slug": null,
+            "edge_strength": 0.25,
             "weight": 0.03,
-            "display": "+4 fights Harris"
+            "display": "Even"
           }
         ],
-        "summary": "Model leans Harris 67/33. Edges on recent form, ko rate, age, activity.",
+        "summary": "Model leans Harris 63/37. Edges on recent form, ko rate, age, activity.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -888,14 +888,14 @@
       "fighter_a_slug": "taylor-starling",
       "fighter_b_slug": "kat-paprocki",
       "prediction": {
-        "prob_a": 0.4955,
-        "prob_b": 0.5045,
-        "raw_score": -0.007,
-        "favorite_slug": "kat-paprocki",
+        "prob_a": 0.5499,
+        "prob_b": 0.4501,
+        "raw_score": 0.077,
+        "favorite_slug": "taylor-starling",
         "confidence": "Medium",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 42,
+        "advantage_a": 55,
+        "advantage_b": 45,
+        "predictability": 54,
         "factors": [
           {
             "name": "Recent Form",
@@ -908,12 +908,12 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "5-4",
-            "value_b": "2-0",
-            "edge_slug": "kat-paprocki",
-            "edge_strength": 0.511,
+            "value_a": "6-4",
+            "value_b": "2-1",
+            "edge_slug": null,
+            "edge_strength": 0.042,
             "weight": 0.11,
-            "display": "55% vs 75% win rate"
+            "display": "58% vs 60% win rate"
           },
           {
             "name": "Age",
@@ -953,7 +953,7 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "53%",
+            "value_a": "47%",
             "value_b": "—",
             "edge_slug": null,
             "edge_strength": 0.067,
@@ -962,8 +962,8 @@
           },
           {
             "name": "BKFC Experience",
-            "value_a": "9 fights",
-            "value_b": "2 fights",
+            "value_a": "10 fights",
+            "value_b": "3 fights",
             "edge_slug": "taylor-starling",
             "edge_strength": 0.875,
             "weight": 0.03,
@@ -979,7 +979,7 @@
             "display": "+3\" Starling"
           }
         ],
-        "summary": "Model leans Paprocki 50/50. Edges on recent form, bkfc record.",
+        "summary": "Model leans Starling 55/45. Edges on age, reach, bkfc experience, height.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1239,35 +1239,35 @@
       "fighter_a_slug": "jake-pilla",
       "fighter_b_slug": "angelo-colon",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
-        "favorite_slug": "angelo-colon",
+        "prob_a": 0.6784,
+        "prob_b": 0.3216,
+        "raw_score": 0.2871,
+        "favorite_slug": "jake-pilla",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 68,
+        "advantage_b": 32,
+        "predictability": 38,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_b": "0-1",
+            "edge_slug": "jake-pilla",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 33% win rate"
           },
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Pilla 68/32. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [

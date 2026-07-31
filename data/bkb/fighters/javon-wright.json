@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkbbareknuckle.com/wp-content/uploads/2026/07/Javon-Wright-1.png",
   "social": {
     "instagram": "https://www.instagram.com/Stlwolf_2700",
     "twitter": null,
@@ -77,9 +77,10 @@
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
-    "https://www.bkbbareknuckle.com/brawlers/javon-wright"
+    "https://www.bkbbareknuckle.com/brawlers/javon-wright",
+    "https://bkbbareknuckle.com/brawler/javon-wright/"
   ],
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-07-31",
   "elo": 1503,
   "elo_peak": 1525
 }

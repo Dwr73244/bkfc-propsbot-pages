@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
-  "generated_at": "2026-07-31T18:55:20.614Z",
+  "generated_at": "2026-07-31T20:28:03.538Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "lewis-garside",
       "fighter_b_slug": "bradley-taylor",
       "prediction": {
-        "prob_a": 0.5813,
-        "prob_b": 0.4187,
-        "raw_score": 0.2345,
+        "prob_a": 0.5495,
+        "prob_b": 0.4505,
+        "raw_score": 0.14,
         "favorite_slug": "lewis-garside",
-        "confidence": "Very Low",
-        "advantage_a": 58,
-        "advantage_b": 42,
-        "predictability": 24,
+        "confidence": "Medium",
+        "advantage_a": 55,
+        "advantage_b": 45,
+        "predictability": 48,
         "factors": [
           {
             "name": "Recent Form",
@@ -30,11 +30,11 @@
           {
             "name": "BKFC Record",
             "value_a": "3-0",
-            "value_b": "0-0",
-            "edge_slug": "lewis-garside",
-            "edge_strength": 0.75,
+            "value_b": "4-0",
+            "edge_slug": null,
+            "edge_strength": 0.083,
             "weight": 0.11,
-            "display": "80% vs 50% win rate"
+            "display": "80% vs 83% win rate"
           },
           {
             "name": "Age",
@@ -74,21 +74,21 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "57%",
+            "value_a": "79%",
             "value_b": "—",
-            "edge_slug": null,
-            "edge_strength": 0.143,
+            "edge_slug": "lewis-garside",
+            "edge_strength": 0.571,
             "weight": 0.04,
-            "display": "Similar schedule"
+            "display": "Garside tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "3 fights",
-            "value_b": "0 fights",
-            "edge_slug": "lewis-garside",
-            "edge_strength": 0.375,
+            "value_b": "4 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
             "weight": 0.03,
-            "display": "+3 fights Garside"
+            "display": "Even"
           },
           {
             "name": "Height",
@@ -100,7 +100,7 @@
             "display": "-4\" Taylor"
           }
         ],
-        "summary": "Model leans Garside 58/42. Edges on recent form, bkfc record, activity, bkfc experience.",
+        "summary": "Model leans Garside 55/45. Edges on recent form, activity, opponent quality.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -141,14 +141,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5813448130069135,
-        "model_prob_b": 0.41865518699308646,
+        "model_prob_a": 0.5495138413241808,
+        "model_prob_b": 0.4504861586758192,
         "market_fair_prob_a": 0.5,
         "market_fair_prob_b": 0.5,
-        "edge_pct_a": 0.08134481300691354,
-        "edge_pct_b": -0.08134481300691354,
+        "edge_pct_a": 0.049513841324180796,
+        "edge_pct_b": -0.049513841324180796,
         "edge_slug": "lewis-garside",
-        "edge_pct": 0.08134481300691354
+        "edge_pct": 0.049513841324180796
       }
     },
     {
@@ -156,14 +156,14 @@
       "fighter_a_slug": "lewis-keen",
       "fighter_b_slug": "james-lilley",
       "prediction": {
-        "prob_a": 0.6308,
-        "prob_b": 0.3692,
-        "raw_score": 0.2061,
+        "prob_a": 0.6469,
+        "prob_b": 0.3531,
+        "raw_score": 0.2329,
         "favorite_slug": "lewis-keen",
         "confidence": "High",
-        "advantage_a": 63,
-        "advantage_b": 37,
-        "predictability": 68,
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 70,
         "factors": [
           {
             "name": "ELO Rating",
@@ -239,12 +239,12 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "55%",
-            "value_b": "78%",
-            "edge_slug": "james-lilley",
-            "edge_strength": 0.453,
+            "value_a": "70%",
+            "value_b": "79%",
+            "edge_slug": null,
+            "edge_strength": 0.176,
             "weight": 0.04,
-            "display": "Lilley tougher schedule"
+            "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
@@ -265,7 +265,7 @@
             "display": "-1\" Lilley"
           }
         ],
-        "summary": "Model leans Keen 63/37. Edges on recent form, ko rate, age, activity.",
+        "summary": "Model leans Keen 65/35. Edges on recent form, ko rate, age, activity.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -312,14 +312,14 @@
       "fighter_a_slug": "paul-cook",
       "fighter_b_slug": "liam-hutchinson",
       "prediction": {
-        "prob_a": 0.5304,
-        "prob_b": 0.4696,
-        "raw_score": 0.0468,
+        "prob_a": 0.5336,
+        "prob_b": 0.4664,
+        "raw_score": 0.0517,
         "favorite_slug": "paul-cook",
         "confidence": "Medium",
         "advantage_a": 53,
         "advantage_b": 47,
-        "predictability": 43,
+        "predictability": 44,
         "factors": [
           {
             "name": "ELO Rating",
@@ -342,11 +342,11 @@
           {
             "name": "BKFC Record",
             "value_a": "3-1",
-            "value_b": "2-1",
+            "value_b": "3-1",
             "edge_slug": null,
-            "edge_strength": 0.167,
+            "edge_strength": 0,
             "weight": 0.11,
-            "display": "67% vs 60% win rate"
+            "display": "67% vs 67% win rate"
           },
           {
             "name": "KO Rate",
@@ -395,19 +395,19 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "48%",
+            "value_a": "52%",
             "value_b": "88%",
             "edge_slug": "liam-hutchinson",
-            "edge_strength": 0.798,
+            "edge_strength": 0.714,
             "weight": 0.04,
             "display": "Hutchinson tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "4 fights",
-            "value_b": "3 fights",
+            "value_b": "4 fights",
             "edge_slug": null,
-            "edge_strength": 0.125,
+            "edge_strength": 0,
             "weight": 0.03,
             "display": "Even"
           },
@@ -987,35 +987,35 @@
       "fighter_a_slug": "kyle-redfearn",
       "fighter_b_slug": "declan-mercer",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
+        "prob_a": 0.3216,
+        "prob_b": 0.6784,
+        "raw_score": -0.2871,
         "favorite_slug": "declan-mercer",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 32,
+        "advantage_b": 68,
+        "predictability": 38,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "0-1",
             "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "edge_slug": "declan-mercer",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "33% vs 50% win rate"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "1 fights",
             "value_b": "0 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Mercer 68/32. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1062,13 +1062,13 @@
       "fighter_a_slug": "sandra-rees",
       "fighter_b_slug": "sally-macdonald",
       "prediction": {
-        "prob_a": 0.4909,
-        "prob_b": 0.5091,
+        "prob_a": 0.5131,
+        "prob_b": 0.4869,
         "raw_score": 0,
-        "favorite_slug": "sally-macdonald",
+        "favorite_slug": "sandra-rees",
         "confidence": "Very Low",
-        "advantage_a": 49,
-        "advantage_b": 51,
+        "advantage_a": 51,
+        "advantage_b": 49,
         "predictability": 18,
         "factors": [
           {
@@ -1131,14 +1131,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.4908502772643254,
-        "model_prob_b": 0.5091497227356746,
-        "market_fair_prob_a": 0.4796672828096119,
-        "market_fair_prob_b": 0.5203327171903882,
-        "edge_pct_a": 0.01118299445471349,
-        "edge_pct_b": -0.011182994454713602,
-        "edge_slug": "sandra-rees",
-        "edge_pct": 0.01118299445471349
+        "model_prob_a": 0.5130886426592798,
+        "model_prob_b": 0.4869113573407202,
+        "market_fair_prob_a": 0.5290858725761772,
+        "market_fair_prob_b": 0.4709141274238227,
+        "edge_pct_a": -0.01599722991689745,
+        "edge_pct_b": 0.015997229916897504,
+        "edge_slug": "sally-macdonald",
+        "edge_pct": 0.01599722991689745
       }
     },
     {
@@ -1146,35 +1146,35 @@
       "fighter_a_slug": "chris-burton",
       "fighter_b_slug": "daniel-curtin",
       "prediction": {
-        "prob_a": 0.5623,
-        "prob_b": 0.4377,
-        "raw_score": 0,
+        "prob_a": 0.6604,
+        "prob_b": 0.3396,
+        "raw_score": 0.2871,
         "favorite_slug": "chris-burton",
         "confidence": "Very Low",
-        "advantage_a": 56,
-        "advantage_b": 44,
-        "predictability": 21,
+        "advantage_a": 66,
+        "advantage_b": 34,
+        "predictability": 37,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_b": "0-1",
+            "edge_slug": "chris-burton",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 33% win rate"
           },
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Burton 66/34. Edges on bkfc record.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1215,14 +1215,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5622693726937269,
-        "model_prob_b": 0.4377306273062731,
+        "model_prob_a": 0.6603782956790895,
+        "model_prob_b": 0.33962170432091054,
         "market_fair_prob_a": 0.6383763837638375,
         "market_fair_prob_b": 0.36162361623616235,
-        "edge_pct_a": -0.07610701107011064,
-        "edge_pct_b": 0.07610701107011075,
-        "edge_slug": "daniel-curtin",
-        "edge_pct": 0.07610701107011064
+        "edge_pct_a": 0.022001911915251915,
+        "edge_pct_b": -0.022001911915251804,
+        "edge_slug": "chris-burton",
+        "edge_pct": 0.022001911915251915
       }
     },
     {
@@ -1230,14 +1230,14 @@
       "fighter_a_slug": "dylan-fail",
       "fighter_b_slug": "liam-hutchinson",
       "prediction": {
-        "prob_a": 0.4984,
-        "prob_b": 0.5016,
-        "raw_score": -0.0025,
+        "prob_a": 0.468,
+        "prob_b": 0.532,
+        "raw_score": -0.0493,
         "favorite_slug": "liam-hutchinson",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 24,
+        "advantage_a": 47,
+        "advantage_b": 53,
+        "predictability": 25,
         "factors": [
           {
             "name": "Recent Form",
@@ -1251,11 +1251,11 @@
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "2-1",
+            "value_b": "3-1",
             "edge_slug": "liam-hutchinson",
-            "edge_strength": 0.25,
+            "edge_strength": 0.417,
             "weight": 0.11,
-            "display": "50% vs 60% win rate"
+            "display": "50% vs 67% win rate"
           },
           {
             "name": "Activity",
@@ -1287,14 +1287,14 @@
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "3 fights",
+            "value_b": "4 fights",
             "edge_slug": "liam-hutchinson",
-            "edge_strength": 0.375,
+            "edge_strength": 0.5,
             "weight": 0.03,
-            "display": "+3 fights Hutchinson"
+            "display": "+4 fights Hutchinson"
           }
         ],
-        "summary": "Model leans Hutchinson 50/50. Edges on bkfc record, activity, opponent quality, bkfc experience.",
+        "summary": "Model leans Hutchinson 53/47. Edges on bkfc record, activity, opponent quality, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1416,35 +1416,35 @@
       "fighter_a_slug": "kyle-redfearn",
       "fighter_b_slug": "harry-bray",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
+        "prob_a": 0.3216,
+        "prob_b": 0.6784,
+        "raw_score": -0.2871,
         "favorite_slug": "harry-bray",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 32,
+        "advantage_b": 68,
+        "predictability": 38,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "0-1",
             "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "edge_slug": "harry-bray",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "33% vs 50% win rate"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "1 fights",
             "value_b": "0 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Bray 68/32. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1491,14 +1491,14 @@
       "fighter_a_slug": "lewis-keen",
       "fighter_b_slug": "stew-martin",
       "prediction": {
-        "prob_a": 0.7847,
-        "prob_b": 0.2153,
-        "raw_score": 0.4975,
+        "prob_a": 0.7676,
+        "prob_b": 0.2324,
+        "raw_score": 0.4595,
         "favorite_slug": "lewis-keen",
-        "confidence": "Low",
-        "advantage_a": 78,
-        "advantage_b": 22,
-        "predictability": 57,
+        "confidence": "Medium",
+        "advantage_a": 77,
+        "advantage_b": 23,
+        "predictability": 71,
         "factors": [
           {
             "name": "Recent Form",
@@ -1512,11 +1512,11 @@
           {
             "name": "BKFC Record",
             "value_a": "5-1",
-            "value_b": "0-0",
+            "value_b": "1-0",
             "edge_slug": "lewis-keen",
-            "edge_strength": 0.625,
+            "edge_strength": 0.208,
             "weight": 0.11,
-            "display": "75% vs 50% win rate"
+            "display": "75% vs 67% win rate"
           },
           {
             "name": "Age",
@@ -1556,21 +1556,21 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "55%",
+            "value_a": "70%",
             "value_b": "—",
-            "edge_slug": null,
-            "edge_strength": 0.103,
+            "edge_slug": "lewis-keen",
+            "edge_strength": 0.402,
             "weight": 0.04,
-            "display": "Similar schedule"
+            "display": "Keen tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "6 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": "lewis-keen",
-            "edge_strength": 0.75,
+            "edge_strength": 0.625,
             "weight": 0.03,
-            "display": "+6 fights Keen"
+            "display": "+5 fights Keen"
           },
           {
             "name": "Height",
@@ -1582,7 +1582,7 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Keen 78/22. Edges on recent form, bkfc record, age, reach.",
+        "summary": "Model leans Keen 77/23. Edges on recent form, bkfc record, age, reach.",
         "market_adjusted": false
       },
       "prop_markets": [

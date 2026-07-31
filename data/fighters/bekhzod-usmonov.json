@@ -21,7 +21,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744599181/o/1744599181466_67f937d650c3fb5b4475f595_BEKHZOD_USMONOV_400x400_compressed.png?1744599181",
   "social": {
     "instagram": "https://www.instagram.com/bekhzod__usmonov/",
     "twitter": null,
@@ -70,7 +70,7 @@
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/bekhzod-usmonov"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-07-31",
   "elo": 1509,
   "elo_peak": 1509,
   "history_last_verified": "2026-07-31T18:44:43.833Z"

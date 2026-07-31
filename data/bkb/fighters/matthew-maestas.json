@@ -27,7 +27,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkbbareknuckle.com/wp-content/uploads/2026/07/Matthew-Maestas-1.png",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -59,9 +59,10 @@
     }
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://bkbbareknuckle.com/brawler/matthew-maestas/"
   ],
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-07-31",
   "elo": 1457,
   "elo_peak": 1500
 }

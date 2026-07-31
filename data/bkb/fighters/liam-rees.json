@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkbbareknuckle.com/wp-content/uploads/2026/07/Liam-Rees-2.png",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -54,9 +54,10 @@
     }
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://bkbbareknuckle.com/brawler/liam-rees/"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-07-31",
   "elo": 1541,
   "elo_peak": 1541
 }

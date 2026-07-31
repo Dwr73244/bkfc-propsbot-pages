@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744600050/o/ANTHONY_YOST_400x533.png",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744600052/o/1744600051800_67f7ef23b257f8f2e4b839a3_ANTHONY_YOST_400x400_compressed.png?1744600052",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -84,7 +84,7 @@
   "sources": [
     "https://www.bkfc.com/fighters/anthony-yost"
   ],
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1519,
   "history_last_verified": "2026-07-31T18:44:36.373Z"

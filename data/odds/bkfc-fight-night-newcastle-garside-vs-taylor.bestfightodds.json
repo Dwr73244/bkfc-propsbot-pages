@@ -3,7 +3,7 @@
   "event_date": "2026-08-01",
   "source": "bestfightodds",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4294",
-  "fetched_at": "2026-07-31T18:55:09.798Z",
+  "fetched_at": "2026-07-31T20:27:53.970Z",
   "bouts": [
     {
       "fighter_a_slug": "lewis-garside",
@@ -58,11 +58,11 @@
     {
       "fighter_a_slug": "sandra-rees",
       "fighter_b_slug": "sally-macdonald",
-      "moneyline_a": -108,
-      "moneyline_b": -129,
-      "implied_prob_a": 0.519,
-      "implied_prob_b": 0.563,
-      "vig": 0.083,
+      "moneyline_a": -134,
+      "moneyline_b": -104,
+      "implied_prob_a": 0.573,
+      "implied_prob_b": 0.51,
+      "vig": 0.082,
       "book_count": 1
     },
     {

@@ -24,7 +24,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkbbareknuckle.com/wp-content/uploads/2026/07/Paulie-Malignaggi-1.png",
   "social": {
     "instagram": "https://www.instagram.com/paulmalignaggi/",
     "twitter": null,
@@ -35,10 +35,11 @@
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
     "https://en.wikipedia.org/wiki/Paulie_Malignaggi",
-    "https://boxrec.com/en/box-pro/52984"
+    "https://boxrec.com/en/box-pro/52984",
+    "https://bkbbareknuckle.com/brawler/paulie-malignaggi/"
   ],
   "full_name": "Paul Malignaggi",
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-07-31",
   "pro_boxing_record": {
     "wins": 36,
     "losses": 8,

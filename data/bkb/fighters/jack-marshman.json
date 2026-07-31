@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkbbareknuckle.com/wp-content/uploads/2026/07/Jack-Marshman-1.png",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -66,9 +66,10 @@
   ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
-    "https://en.wikipedia.org/wiki/Jack_Marshman"
+    "https://en.wikipedia.org/wiki/Jack_Marshman",
+    "https://bkbbareknuckle.com/brawler/jack-marshman/"
   ],
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-07-31",
   "elo": 1521,
   "elo_peak": 1544
 }

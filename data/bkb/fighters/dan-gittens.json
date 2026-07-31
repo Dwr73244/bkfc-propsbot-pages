@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkbbareknuckle.com/wp-content/uploads/2026/07/Dan-Gittens-1.png",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -56,9 +56,10 @@
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
     "https://www.bkbbareknuckle.com/brawlers/dan-gittens",
-    "https://bareknuckleheroes.com/bkb-54-mayhem-in-manchester-fight-card-announced/"
+    "https://bareknuckleheroes.com/bkb-54-mayhem-in-manchester-fight-card-announced/",
+    "https://bkbbareknuckle.com/brawler/dan-gittens/"
   ],
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-07-31",
   "elo": 1543,
   "elo_peak": 1543
 }

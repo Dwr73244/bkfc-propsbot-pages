@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1770226597/o/STEW_MARTIN_AVATAR_400x533.png?1770226597",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1770226585/o/STEW_MARTIN_SMALL_AVATAR_400x400.png?1770226585",
   "social": {
     "instagram": "https://www.instagram.com/Stewmartinboxer",
     "twitter": null,
@@ -47,6 +47,6 @@
   "sources": [
     "https://www.bkfc.com/fighters/stew-martin"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-07-31",
   "history_last_verified": "2026-07-31T18:47:37.381Z"
 }

@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-serbia",
-  "generated_at": "2026-07-31T18:55:20.617Z",
+  "generated_at": "2026-07-31T20:28:03.541Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "agi-faulkner",
       "fighter_b_slug": "dilan-prasovic",
       "prediction": {
-        "prob_a": 0.2478,
-        "prob_b": 0.7522,
-        "raw_score": -0.4271,
+        "prob_a": 0.2498,
+        "prob_b": 0.7502,
+        "raw_score": -0.423,
         "favorite_slug": "dilan-prasovic",
-        "confidence": "Very Low",
+        "confidence": "Low",
         "advantage_a": 25,
         "advantage_b": 75,
-        "predictability": 39,
+        "predictability": 55,
         "factors": [
           {
             "name": "Recent Form",
@@ -29,12 +29,12 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "3-0",
             "value_b": "2-0",
-            "edge_slug": "dilan-prasovic",
-            "edge_strength": 0.625,
+            "edge_slug": null,
+            "edge_strength": 0.125,
             "weight": 0.11,
-            "display": "50% vs 75% win rate"
+            "display": "80% vs 75% win rate"
           },
           {
             "name": "Age",
@@ -66,18 +66,18 @@
           {
             "name": "Opponent Quality",
             "value_a": "—",
-            "value_b": "0%",
-            "edge_slug": "agi-faulkner",
-            "edge_strength": 1,
+            "value_b": "50%",
+            "edge_slug": null,
+            "edge_strength": 0,
             "weight": 0.04,
-            "display": "Faulkner tougher schedule"
+            "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "3 fights",
             "value_b": "2 fights",
             "edge_slug": null,
-            "edge_strength": 0.25,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           },
@@ -91,7 +91,7 @@
             "display": "-4\" Prasovic"
           }
         ],
-        "summary": "Model leans Prasovic 75/25. Edges on recent form, bkfc record, age, activity.",
+        "summary": "Model leans Prasovic 75/25. Edges on recent form, age, activity, height.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -213,35 +213,35 @@
       "fighter_a_slug": "stefan-dobrijevic",
       "fighter_b_slug": "stefan-negucic",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
-        "favorite_slug": "stefan-negucic",
+        "prob_a": 0.6784,
+        "prob_b": 0.3216,
+        "raw_score": 0.2871,
+        "favorite_slug": "stefan-dobrijevic",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 68,
+        "advantage_b": 32,
+        "predictability": 38,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "1-0",
             "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "edge_slug": "stefan-dobrijevic",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "67% vs 50% win rate"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "1 fights",
             "value_b": "0 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Dobrijevic 68/32. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [

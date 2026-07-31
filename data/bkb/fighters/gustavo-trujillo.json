@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkbbareknuckle.com/wp-content/uploads/2026/07/Gustavo-Trujillo-1.png",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -65,9 +65,10 @@
     }
   ],
   "sources": [
-    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
+    "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
+    "https://bkbbareknuckle.com/brawler/gustavo-trujillo/"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-07-31",
   "elo": 1567,
   "elo_peak": 1567
 }

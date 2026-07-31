@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1756405925/o/JIMMY_SWEENEY_AVATAR_400x533.png?1756405925",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1756405915/o/JIMMY_SWEENEY_SMALL_AVATAR_400x400.png?1756405915",
   "social": {
     "instagram": "https://www.instagram.com/JIMMYBKBKING",
     "twitter": null,
@@ -71,7 +71,7 @@
   "sources": [
     "https://www.bkfc.com/fighters/jimmy-sweeney"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
   "record_source": "tracked-events",

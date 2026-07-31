@@ -21,7 +21,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1745425893/o/JEREMY_STEPHENS_400x400.png?1745425893",
   "social": {
     "instagram": "https://www.instagram.com/lilheathenmma/",
     "twitter": null,
@@ -86,7 +86,7 @@
     "https://boxrec.com/en/box-pro/924832",
     "https://en.wikipedia.org/wiki/Jeremy_Stephens"
   ],
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-07-31",
   "elo": 1523,
   "elo_peak": 1523,
   "pro_boxing_record": {
