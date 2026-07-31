@@ -29,7 +29,63 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 39: Brawl at the Beach",
+      "event_slug": "bkb-39-brawl-at-the-beach",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "jack-marshman",
+      "opponent_slug": "jack-marshman",
+      "result": "W"
+    },
+    {
+      "event": "BYB 34: Brawl in the Pines IV",
+      "event_slug": "byb-34-brawl-in-the-pines-iv",
+      "date": "2024-12-06T20:00:00.000Z",
+      "method": "KO",
+      "round": 5,
+      "time": null,
+      "opponent": "zion-tomlinson",
+      "opponent_slug": "zion-tomlinson",
+      "result": "W"
+    },
+    {
+      "event": "BYB 29: Brawl in the Pines III",
+      "event_slug": "byb-29-brawl-in-the-pines-iii",
+      "date": "2024-08-10T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "gregoris-cisneros",
+      "opponent_slug": "gregoris-cisneros",
+      "result": "L"
+    },
+    {
+      "event": "BYB 25: Brawl on the Bay",
+      "event_slug": "byb-25-brawl-on-the-bay",
+      "date": "2024-04-04T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "ryan-jett",
+      "opponent_slug": "ryan-jett",
+      "result": "W"
+    },
+    {
+      "event": "BYB 23: Brawl in the Pines II",
+      "event_slug": "byb-23-brawl-in-the-pines-ii",
+      "date": "2024-01-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": null,
+      "opponent": "daniel-lerwell",
+      "opponent_slug": "daniel-lerwell",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

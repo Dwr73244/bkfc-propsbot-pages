@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 39: Brawl at the Beach",
+      "event_slug": "bkb-39-brawl-at-the-beach",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "andy-nguyen",
+      "opponent_slug": "andy-nguyen",
+      "result": "W"
+    },
+    {
+      "event": "BYB 34: Brawl in the Pines IV",
+      "event_slug": "byb-34-brawl-in-the-pines-iv",
+      "date": "2024-12-06T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "shelby-cannon",
+      "opponent_slug": "shelby-cannon",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

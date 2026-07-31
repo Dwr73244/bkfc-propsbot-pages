@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 80",
+      "event_slug": "bkfc-hollywood-2",
+      "date": "2025-09-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:22",
+      "opponent": "Jancarlos Rivera",
+      "opponent_slug": "jancarlos-rivera",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/zay-garcia"
+    },
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:40",
+      "opponent": "justyn-martinez",
+      "opponent_slug": "justyn-martinez",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Pechanga",
+      "event_slug": "bkfc-fight-night-pechanga",
+      "date": "2024-07-12T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Alexander Gutierrez",
+      "opponent_slug": "alexander-gutierrez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/zay-garcia"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/zay-garcia"
   ],
   "last_updated": "2026-04-19",
   "elo": 1479,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:20.729Z"
 }

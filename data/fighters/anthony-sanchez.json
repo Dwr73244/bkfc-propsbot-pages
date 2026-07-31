@@ -4,7 +4,7 @@
   "nickname": null,
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 3,
     "draws": 0,
     "kos": null
@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89 Palm Desert: Herring vs. Maness",
+      "event_slug": "bkfc-89-palm-desert",
+      "date": "2026-05-23T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "david-diaz",
+      "opponent_slug": "david-diaz",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "David Diaz",
+      "opponent_slug": "david-diaz",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-sanchez"
+    },
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-fight-night-mohegan-sun",
+      "date": "2025-12-20T05:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Lardy Navarro",
+      "opponent_slug": "lardy-navarro",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-sanchez"
+    },
+    {
+      "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+      "event_slug": "bkfc-59",
+      "date": "2024-03-29T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "justin-street",
+      "opponent_slug": "justin-street",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 48",
+      "event_slug": "bkfc-48-albuquerque",
+      "date": "2023-08-11T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Gene Perez",
+      "opponent_slug": "gene-perez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-sanchez"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1484,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:46:53.868Z"
 }

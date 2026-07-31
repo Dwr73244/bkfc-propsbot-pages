@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Knucklemania III",
+      "event_slug": "bkfc-knucklemania-3",
+      "date": "2023-02-17T20:00:00.000Z",
+      "method": "TKO (leg injury)",
+      "round": 1,
+      "time": "0:38",
+      "opponent": "jayme-hinshaw",
+      "opponent_slug": "jayme-hinshaw",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 29 - Montana II",
+      "event_slug": "bkfc-29-montana-2",
+      "date": "2022-09-10T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Britain Hart",
+      "opponent_slug": "britain-hart",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/charisa-sigala"
+    },
+    {
+      "event": "Fight Night New York 2",
+      "event_slug": "bkfc-new-york-ii",
+      "date": "2022-03-12T05:00:00.000Z",
+      "method": "Majority Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Angela Danzig",
+      "opponent_slug": "angela-danzig",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/charisa-sigala"
+    },
+    {
+      "event": "Fight Night Wichita",
+      "event_slug": "bkfc-wichita",
+      "date": "2021-10-23T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jessica Link",
+      "opponent_slug": "jessica-link",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/charisa-sigala"
+    },
+    {
+      "event": "BKFC 18",
+      "event_slug": "bkfc-18-beltran-vs-shewmaker",
+      "date": "2021-06-26T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Pearl Gonzalez",
+      "opponent_slug": "pearl-gonzalez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/charisa-sigala"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/charisa-sigala"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:59.335Z"
 }

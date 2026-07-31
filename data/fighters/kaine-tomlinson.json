@@ -28,7 +28,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 70 Hollywood, FL: Palomino vs. Davis",
+      "event_slug": "bkfc-70",
+      "date": "2025-03-27T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "0:37",
+      "opponent": "peter-peraza",
+      "opponent_slug": "peter-peraza",
+      "result": "L"
+    },
+    {
+      "event": "BKFC Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:37",
+      "opponent": "pat-sullivan",
+      "opponent_slug": "pat-sullivan",
+      "result": "W"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Albuquerque",
+      "event_slug": "bkfc-fight-night-prospects-albuquerque-2024",
+      "date": "2024-01-27T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:33",
+      "opponent": "apostle-spencer",
+      "opponent_slug": "apostle-spencer",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"

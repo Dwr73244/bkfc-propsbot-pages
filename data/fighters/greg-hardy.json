@@ -28,7 +28,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Knucklemania III",
+      "event_slug": "bkfc-knucklemania-3",
+      "date": "2023-02-17T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 2,
+      "time": "0:19",
+      "opponent": "josh-watson",
+      "opponent_slug": "josh-watson",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
   ],

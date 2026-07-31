@@ -28,7 +28,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Prospects: Canada",
+      "event_slug": "bkfc-fight-night-prospects-canada-2024",
+      "date": "2024-03-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:34",
+      "opponent": "robert-desharnais",
+      "opponent_slug": "robert-desharnais",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
   ],

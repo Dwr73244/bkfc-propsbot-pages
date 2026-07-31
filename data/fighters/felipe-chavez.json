@@ -28,7 +28,54 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 75",
+      "event_slug": "bkfc-75-albuquerque-mundell-vs-sanchez",
+      "date": "2025-06-06T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Brandon Honsvick",
+      "opponent_slug": "brandon-honsvick",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/felipe-chavez"
+    },
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:59",
+      "opponent": "derrick-findley",
+      "opponent_slug": "derrick-findley",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+      "event_slug": "bkfc-59",
+      "date": "2024-03-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:58",
+      "opponent": "leandro-torres",
+      "opponent_slug": "leandro-torres",
+      "result": "W"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Albuquerque",
+      "event_slug": "bkfc-fight-night-prospects-albuquerque-2024",
+      "date": "2024-01-27T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:27",
+      "opponent": "michael-manno",
+      "opponent_slug": "michael-manno",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +83,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1544
+  "elo_peak": 1544,
+  "history_last_verified": "2026-07-31T18:45:07.733Z"
 }

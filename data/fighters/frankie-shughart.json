@@ -28,12 +28,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 36 New Orleans: Adams vs. Belcher",
+      "event_slug": "bkfc-36",
+      "date": "2023-02-24T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:25",
+      "opponent": "michael-manno",
+      "opponent_slug": "michael-manno",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Jackson 2",
+      "event_slug": "bkfc-fight-night-belcher-vs-tate",
+      "date": "2022-06-11T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:01",
+      "opponent": "Brett Williams",
+      "opponent_slug": "brett-williams",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/frankie-shughart"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/frankie-shughart"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:07.990Z"
 }

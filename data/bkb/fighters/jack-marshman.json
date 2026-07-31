@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": "Jack Marshman (born 19 December 1989) is a retired Welsh professional mixed martial artist who competed in the Middleweight division. A professional competitor since 2010, he has competed for Ultimate Fighting Championship (UFC), BAMMA and Cage Warriors. He is the former BAMMA Lonsdale Middleweight Champion and former Cage Warriors Middleweight Champion.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 39: Brawl at the Beach",
+      "event_slug": "bkb-39-brawl-at-the-beach",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "cub-hawkins",
+      "opponent_slug": "cub-hawkins",
+      "result": "L"
+    },
+    {
+      "event": "BYB 36: Cardiff Brawl II",
+      "event_slug": "byb-36-cardiff-brawl-ii",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": null,
+      "opponent": "alex-wilson",
+      "opponent_slug": "alex-wilson",
+      "result": "W"
+    },
+    {
+      "event": "BYB 30: Cardiff Brawl",
+      "event_slug": "byb-30-cardiff-brawl",
+      "date": "2024-08-17T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "carl-craig",
+      "opponent_slug": "carl-craig",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
     "https://en.wikipedia.org/wiki/Jack_Marshman"

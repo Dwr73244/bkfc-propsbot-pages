@@ -29,7 +29,52 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 41: Brawl in Duval II",
+      "event_slug": "bkb-41-brawl-in-duval-ii",
+      "date": "2025-05-31T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "jamal-woods",
+      "opponent_slug": "jamal-woods",
+      "result": "W"
+    },
+    {
+      "event": "BYB 24: Super Brawl Saturday",
+      "event_slug": "byb-24-super-brawl-saturday",
+      "date": "2024-02-10T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "ike-villanueva",
+      "opponent_slug": "ike-villanueva",
+      "result": "L"
+    },
+    {
+      "event": "BYB 21: Fall Brawl",
+      "event_slug": "byb-21-fall-brawl",
+      "date": "2023-10-21T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "rashad-coulter",
+      "opponent_slug": "rashad-coulter",
+      "result": "W"
+    },
+    {
+      "event": "BYB 13: Tampa Brawl For It All",
+      "event_slug": "byb-13-tampa-brawl-for-it-all",
+      "date": "2022-11-19T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "tony-lopez",
+      "opponent_slug": "tony-lopez",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

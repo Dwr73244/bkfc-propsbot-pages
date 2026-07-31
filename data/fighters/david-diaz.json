@@ -5,7 +5,7 @@
   "division": "Bantamweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89 Palm Desert: Herring vs. Maness",
+      "event_slug": "bkfc-89-palm-desert",
+      "date": "2026-05-23T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "anthony-sanchez",
+      "opponent_slug": "anthony-sanchez",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Anthony H Sanchez",
+      "opponent_slug": "anthony-h-sanchez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/david-diaz"
+    },
+    {
+      "event": "BKFC 84",
+      "event_slug": "bkfc-84-palm-desert",
+      "date": "2025-11-15T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:58",
+      "opponent": "Justyn Martinez",
+      "opponent_slug": "justyn-martinez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/david-diaz"
+    },
+    {
+      "event": "BKFC Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T20:00:00.000Z",
+      "method": "Draw (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "shane-jordan",
+      "opponent_slug": "shane-jordan",
+      "result": "D"
+    },
+    {
+      "event": "BKFC 32",
+      "event_slug": "bkfc-32-orlando",
+      "date": "2022-11-05T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Travis Thompson",
+      "opponent_slug": "travis-thompson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/david-diaz"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/david-diaz"
   ],
   "last_updated": "2026-04-19",
   "elo": 1479,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:47:26.454Z"
 }

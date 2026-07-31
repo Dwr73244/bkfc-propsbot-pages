@@ -5,7 +5,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": 1
   },
@@ -28,12 +28,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Nashville",
+      "event_slug": "bkfc-nashville",
+      "date": "2026-06-19T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:58",
+      "opponent": "Bobby Taylor",
+      "opponent_slug": "bobby-taylor",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/angel-hernandez"
+    },
+    {
+      "event": "BKFC Fight Night Clearwater: Richman vs. Lozano",
+      "event_slug": "bkfc-fight-night-clearwater-2024-04-12",
+      "date": "2024-04-12T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:08",
+      "opponent": "rayne-wells",
+      "opponent_slug": "rayne-wells",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/angel-hernandez"
   ],
   "last_updated": "2026-04-17",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:46:43.173Z"
 }

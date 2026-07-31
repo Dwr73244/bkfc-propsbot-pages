@@ -5,8 +5,8 @@
   "nickname": "INDIAN SPICE",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 0,
+    "wins": 7,
+    "losses": 1,
     "draws": 0,
     "kos": 1
   },
@@ -29,7 +29,58 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 91",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:08",
+      "opponent": "Marco Guistarini",
+      "opponent_slug": "marco-guistarini",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dan-chapman"
+    },
+    {
+      "event": "bkfc-naples",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:08",
+      "opponent": "marco-giustarini",
+      "opponent_slug": "marco-giustarini",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 83",
+      "event_slug": "bkfc-rome",
+      "date": "2025-10-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "02:00",
+      "opponent": "James Brown",
+      "opponent_slug": "james-brown",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dan-chapman"
+    },
+    {
+      "event": "BKFC - Spain",
+      "event_slug": "bkfc-on-dazn-spain",
+      "date": "2024-10-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:26",
+      "opponent": "Mike Jurik",
+      "opponent_slug": "mike-jurik",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dan-chapman"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/dan-chapman"
   ],
@@ -37,5 +88,6 @@
   "elo": 1522,
   "elo_peak": 1522,
   "record_source": "tracked-events",
-  "record_verified": "2026-07-19"
+  "record_verified": "2026-07-19",
+  "history_last_verified": "2026-07-31T18:47:23.556Z"
 }

@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 50",
+      "event_slug": "bkfc-50-denver",
+      "date": "2023-09-22T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:00",
+      "opponent": "Keegan Vandermeer",
+      "opponent_slug": "keegan-vandermeer",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dillon-winemiller"
+    },
+    {
+      "event": "BKFC 45",
+      "event_slug": "bkfc-45-palomino-vs-lilley",
+      "date": "2023-06-23T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:07",
+      "opponent": "Stephen Townsel",
+      "opponent_slug": "stephen-townsel",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dillon-winemiller"
+    },
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:07",
+      "opponent": "matt-maestas",
+      "opponent_slug": "matt-maestas",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 41",
+      "event_slug": "bkfc-41-colorado",
+      "date": "2023-04-29T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:07",
+      "opponent": "Matthew Maestas",
+      "opponent_slug": "matthew-maestas",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dillon-winemiller"
+    },
+    {
+      "event": "BKFC 36",
+      "event_slug": "bkfc-36-new-orleans",
+      "date": "2023-02-24T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:25",
+      "opponent": "Tony Jenkins",
+      "opponent_slug": "tony-jenkins",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dillon-winemiller"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/dillon-winemiller"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:06.166Z"
 }

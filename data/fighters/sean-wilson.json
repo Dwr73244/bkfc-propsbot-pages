@@ -28,7 +28,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Miami: Davis vs. Wilson",
+      "event_slug": "bkfc-fight-night-miami-2024",
+      "date": "2024-03-15T20:00:00.000Z",
+      "method": "TKO (punches)",
+      "round": 2,
+      "time": "1:34",
+      "opponent": "howard-davis",
+      "opponent_slug": "howard-davis",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 43 Omaha: Alexander vs. Smith",
+      "event_slug": "bkfc-43",
+      "date": "2023-05-19T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "brandon-meyer",
+      "opponent_slug": "brandon-meyer",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"

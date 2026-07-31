@@ -28,12 +28,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 42 Greenville: Soto vs. Goodjohn",
+      "event_slug": "bkfc-42",
+      "date": "2023-05-12T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "jonathan-miller",
+      "opponent_slug": "jonathan-miller",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 42",
+      "event_slug": "bkfc-42-greenville",
+      "date": "2023-05-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Dustin Long",
+      "opponent_slug": "dustin-long",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dustin-long"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/dustin-long"
   ],
   "last_updated": "2026-04-17",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:06.670Z"
 }

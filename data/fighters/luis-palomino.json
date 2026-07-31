@@ -28,7 +28,30 @@
     "facebook": "https://www.facebook.com/ElBandidoMMA/"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 70 Hollywood, FL: Palomino vs. Davis",
+      "event_slug": "bkfc-70",
+      "date": "2025-03-27T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "howard-davis",
+      "opponent_slug": "howard-davis",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 57: Palomino vs. Trout",
+      "event_slug": "bkfc-57",
+      "date": "2024-02-02T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "austin-trout",
+      "opponent_slug": "austin-trout",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",

@@ -29,7 +29,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 39: Brawl at the Beach",
+      "event_slug": "bkb-39-brawl-at-the-beach",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": null,
+      "opponent": "aquasha-rapley",
+      "opponent_slug": "aquasha-rapley",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 25: Brawl on the Bay",
+      "event_slug": "byb-25-brawl-on-the-bay",
+      "date": "2024-04-04T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "shelby-cannon",
+      "opponent_slug": "shelby-cannon",
+      "result": "W"
+    },
+    {
+      "event": "BYB 21: Fall Brawl",
+      "event_slug": "byb-21-fall-brawl",
+      "date": "2023-10-21T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "jessica-link",
+      "opponent_slug": "jessica-link",
+      "result": "W"
+    },
+    {
+      "event": "BYB 16: Desert Brawl",
+      "event_slug": "byb-16-desert-brawl",
+      "date": "2023-03-18T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "mariana-kamara",
+      "opponent_slug": "mariana-kamara",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

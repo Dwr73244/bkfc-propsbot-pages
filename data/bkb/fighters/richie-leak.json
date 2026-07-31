@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 34: Brawl in the Pines IV",
+      "event_slug": "byb-34-brawl-in-the-pines-iv",
+      "date": "2024-12-06T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "gustavo-trujillo",
+      "opponent_slug": "gustavo-trujillo",
+      "result": "L"
+    },
+    {
+      "event": "BYB 16: Desert Brawl",
+      "event_slug": "byb-16-desert-brawl",
+      "date": "2023-03-18T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "eric-olsen",
+      "opponent_slug": "eric-olsen",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

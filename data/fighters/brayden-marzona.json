@@ -29,11 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
+      "event_slug": "bkfc-fight-night-australia-townsville",
+      "date": "2026-04-18T09:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:03",
+      "opponent": "boaz-kapua",
+      "opponent_slug": "boaz-kapua",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/brayden-marzona"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:51.475Z"
 }

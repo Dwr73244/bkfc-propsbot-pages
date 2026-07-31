@@ -28,10 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-fight-night-hammond",
+      "date": "2026-06-26T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:41",
+      "opponent": "Aubrey Mendonca",
+      "opponent_slug": "aubrey-mendonca",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-conley"
+    },
+    {
+      "event": "BKFC 79",
+      "event_slug": "bkfc-sturgis",
+      "date": "2025-08-02T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:26",
+      "opponent": "David Simpson",
+      "opponent_slug": "david-simpson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-conley"
+    },
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "Draw (majority)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "cody-vidal",
+      "opponent_slug": "cody-vidal",
+      "result": "D"
+    },
+    {
+      "event": "BKFC - Fight Night Los Angeles",
+      "event_slug": "bkfc-fight-night-los-angeles",
+      "date": "2024-11-23T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Keith Richardson",
+      "opponent_slug": "keith-richardson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-conley"
+    },
+    {
+      "event": "BKFC 63",
+      "event_slug": "bkfc-63-hart-vs-starling",
+      "date": "2024-08-03T04:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:31",
+      "opponent": "Donnie Tice Jr.",
+      "opponent_slug": "donnie-tice-jr",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-conley"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/brandon-conley"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:44:51.114Z"
 }

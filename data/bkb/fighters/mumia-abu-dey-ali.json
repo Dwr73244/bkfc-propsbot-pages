@@ -29,7 +29,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 23: Brawl in the Pines II",
+      "event_slug": "byb-23-brawl-in-the-pines-ii",
+      "date": "2024-01-18T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "uly-diaz",
+      "opponent_slug": "uly-diaz",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

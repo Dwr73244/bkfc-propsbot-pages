@@ -28,7 +28,67 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 70 Hollywood, FL: Palomino vs. Davis",
+      "event_slug": "bkfc-70",
+      "date": "2025-03-27T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:43",
+      "opponent": "edgard-plazaola",
+      "opponent_slug": "edgard-plazaola",
+      "result": "L"
+    },
+    {
+      "event": "BKFC on DAZN - Montana",
+      "event_slug": "bkfc-on-dazn-montana",
+      "date": "2024-11-09T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Robert Armas",
+      "opponent_slug": "robert-armas",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/louie-lopez"
+    },
+    {
+      "event": "BKFC 61 Connecticut: Rivera vs. Straus",
+      "event_slug": "bkfc-61",
+      "date": "2024-05-11T20:00:00.000Z",
+      "method": "KO (punches)",
+      "round": 1,
+      "time": "1:02",
+      "opponent": "michael-trizano",
+      "opponent_slug": "michael-trizano",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 61",
+      "event_slug": "bkfc-61-rivera-vs-straus",
+      "date": "2024-05-11T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:02",
+      "opponent": "Mike Trizano",
+      "opponent_slug": "mike-trizano",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/louie-lopez"
+    },
+    {
+      "event": "BKFC 57: Palomino vs. Trout",
+      "event_slug": "bkfc-57",
+      "date": "2024-02-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "0:48",
+      "opponent": "bryan-duran",
+      "opponent_slug": "bryan-duran",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -37,5 +97,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1421,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:14.128Z"
 }

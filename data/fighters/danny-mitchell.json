@@ -28,12 +28,38 @@
     "facebook": "https://www.facebook.com/dannymitchellmma"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Manchester: Chipchase vs. Fox",
+      "event_slug": "bkfc-fight-night-manchester-2025-03-29",
+      "date": "2025-03-29T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "benjamin-lowe",
+      "opponent_slug": "benjamin-lowe",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 55 - Leeds",
+      "event_slug": "bkfc-55-leeds",
+      "date": "2023-11-18T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "John Ferguson",
+      "opponent_slug": "john-ferguson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/danny-mitchell"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/danny-mitchell"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:45:05.138Z"
 }

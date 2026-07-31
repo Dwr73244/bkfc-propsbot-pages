@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 84",
+      "event_slug": "bkfc-84-palm-desert",
+      "date": "2025-11-15T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:35",
+      "opponent": "Iman Williams",
+      "opponent_slug": "iman-williams",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/lewis-glover"
+    },
+    {
+      "event": "BKFC 70 Hollywood, FL: Palomino vs. Davis",
+      "event_slug": "bkfc-70",
+      "date": "2025-03-27T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:15",
+      "opponent": "julio-perez-rodriguez",
+      "opponent_slug": "julio-perez-rodriguez",
+      "result": "L"
+    },
+    {
+      "event": "BKFC: Hollywood",
+      "event_slug": "bkfc-70-hollywood",
+      "date": "2025-03-27T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:50",
+      "opponent": "Julio Perez",
+      "opponent_slug": "julio-perez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/lewis-glover"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/lewis-glover"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:13.810Z"
 }

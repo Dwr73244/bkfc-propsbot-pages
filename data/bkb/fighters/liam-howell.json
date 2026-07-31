@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 43: Bolton Brawl",
+      "event_slug": "bkb-43-bolton-brawl",
+      "date": "2025-07-05T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": null,
+      "opponent": "scott-mchugh",
+      "opponent_slug": "scott-mchugh",
+      "result": "L"
+    },
+    {
+      "event": "BKB 38: Wolves Brawl II",
+      "event_slug": "bkb-38-wolves-brawl-ii",
+      "date": "2025-03-22T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "cyrus-rafi",
+      "opponent_slug": "cyrus-rafi",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

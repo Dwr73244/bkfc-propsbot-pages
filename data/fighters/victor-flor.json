@@ -6,7 +6,7 @@
   "division": "Bantamweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -29,10 +29,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:16",
+      "opponent": "Ricardo Talavera Jr.",
+      "opponent_slug": "ricardo-talavera-jr",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/victor-flor"
+    },
+    {
+      "event": "BKFC 87",
+      "event_slug": "bkfc-87-hollywood",
+      "date": "2026-03-20T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:56",
+      "opponent": "Ernesto Suarez",
+      "opponent_slug": "ernesto-suarez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/victor-flor"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-palm-desert",
     "https://www.bkfc.com/fighters/victor-flor"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:47:39.226Z"
 }

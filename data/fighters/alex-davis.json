@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-fight-night-hammond",
+      "date": "2026-06-26T04:00:00.000Z",
+      "method": null,
+      "round": 1,
+      "time": "00:00",
+      "opponent": "Gabriel Mota",
+      "opponent_slug": "gabriel-mota",
+      "result": "NC",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alex-davis"
+    },
+    {
+      "event": "BKFC 87",
+      "event_slug": "bkfc-87-hollywood",
+      "date": "2026-03-20T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Nicholas Blume",
+      "opponent_slug": "nicholas-blume",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alex-davis"
+    },
+    {
+      "event": "BKFC 76 - Texas",
+      "event_slug": "bkfc-fort-worth",
+      "date": "2025-06-21T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:03",
+      "opponent": "Kenzie Morrison",
+      "opponent_slug": "kenzie-morrison",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alex-davis"
+    },
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:46",
+      "opponent": "pat-carroll",
+      "opponent_slug": "pat-carroll",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 69",
+      "event_slug": "bkfc-69-richardson-vs-larrimore",
+      "date": "2024-12-06T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:57",
+      "opponent": "Braxton Smith",
+      "opponent_slug": "braxton-smith",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alex-davis"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/alex-davis"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:21.715Z"
 }

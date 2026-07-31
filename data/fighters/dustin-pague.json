@@ -28,7 +28,71 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 86",
+      "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
+      "date": "2026-01-17T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 6,
+      "time": "02:00",
+      "opponent": "Julian Lane",
+      "opponent_slug": "julian-lane",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dustin-pague"
+    },
+    {
+      "event": "BKFC - Fight Night Philly",
+      "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
+      "date": "2025-07-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:29",
+      "opponent": "Ryan Petersen",
+      "opponent_slug": "ryan-petersen",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dustin-pague"
+    },
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "andrew-angelcor",
+      "opponent_slug": "andrew-angelcor",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha",
+      "date": "2024-05-17T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Carlos Trinidad-Snake",
+      "opponent_slug": "carlos-trinidad-snake",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dustin-pague"
+    },
+    {
+      "event": "BKFC 51",
+      "event_slug": "bkfc-51-salem",
+      "date": "2023-09-29T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Joe Elmore",
+      "opponent_slug": "joe-elmore",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dustin-pague"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +100,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1543,
-  "elo_peak": 1543
+  "elo_peak": 1543,
+  "history_last_verified": "2026-07-31T18:45:06.724Z"
 }

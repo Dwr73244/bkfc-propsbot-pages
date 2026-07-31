@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 84",
+      "event_slug": "bkfc-84-palm-desert",
+      "date": "2025-11-15T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:58",
+      "opponent": "David Diaz",
+      "opponent_slug": "david-diaz",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/justyn-martinez"
+    },
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:56",
+      "opponent": "Matt Russo",
+      "opponent_slug": "matt-russo",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/justyn-martinez"
+    },
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:40",
+      "opponent": "zay-garcia",
+      "opponent_slug": "zay-garcia",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Albuquerque",
+      "event_slug": "bkfc-fight-night-albuquerque",
+      "date": "2025-02-28T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:40",
+      "opponent": "Robert Garcia",
+      "opponent_slug": "robert-garcia",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/justyn-martinez"
+    },
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:05",
+      "opponent": "alexander-prince-gutierrez",
+      "opponent_slug": "alexander-prince-gutierrez",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/justyn-martinez"
   ],
   "last_updated": "2026-04-19",
   "elo": 1543,
-  "elo_peak": 1543
+  "elo_peak": 1543,
+  "history_last_verified": "2026-07-31T18:45:12.365Z"
 }

@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 35: Albuquerque Brawl",
+      "event_slug": "byb-35-albuquerque-brawl",
+      "date": "2025-01-11T20:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": null,
+      "opponent": "cody-terry-east",
+      "opponent_slug": "cody-terry-east",
+      "result": "L"
+    },
+    {
+      "event": "BYB 28: Bourbon Street Brawl",
+      "event_slug": "byb-28-bourbon-street-brawl",
+      "date": "2024-06-14T20:00:00.000Z",
+      "method": "Forfeit",
+      "round": 1,
+      "time": null,
+      "opponent": "jay-fish",
+      "opponent_slug": "jay-fish",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

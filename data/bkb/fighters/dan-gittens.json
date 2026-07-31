@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": "British bare-knuckle boxer from Harlow, Essex, known for finishing power - every pro win has come by knockout inside three rounds. Holds an unbeaten BKB record including wins over Harvey Dossett (2nd-round KO) and Joe Clarke (1st-round KO). Scheduled to challenge for the BKB Welterweight title against Javon Wright at BKB 54 in Manchester on May 16, 2026.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 43: Bolton Brawl",
+      "event_slug": "bkb-43-bolton-brawl",
+      "date": "2025-07-05T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": null,
+      "opponent": "harvey-dossett",
+      "opponent_slug": "harvey-dossett",
+      "result": "W"
+    },
+    {
+      "event": "BYB 36: Cardiff Brawl II",
+      "event_slug": "byb-36-cardiff-brawl-ii",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "joe-clarke",
+      "opponent_slug": "joe-clarke",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
     "https://www.bkbbareknuckle.com/brawlers/dan-gittens",

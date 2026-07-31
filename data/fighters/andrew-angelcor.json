@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "dustin-pague",
+      "opponent_slug": "dustin-pague",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ruben Warr",
+      "opponent_slug": "ruben-warr",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-angelcor"
+    },
+    {
+      "event": "BKFC 50",
+      "event_slug": "bkfc-50-denver",
+      "date": "2023-09-22T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:09",
+      "opponent": "Brett Hudson",
+      "opponent_slug": "brett-hudson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-angelcor"
+    },
+    {
+      "event": "BKFC 36 New Orleans: Adams vs. Belcher",
+      "event_slug": "bkfc-36",
+      "date": "2023-02-24T20:00:00.000Z",
+      "method": "Draw (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "david-bosnick",
+      "opponent_slug": "david-bosnick",
+      "result": "D"
+    },
+    {
+      "event": "BKFC 31",
+      "event_slug": "bkfc-31-denver-richman-vs-doolittle",
+      "date": "2022-10-15T04:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:59",
+      "opponent": "Van Vo",
+      "opponent_slug": "van-vo",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-angelcor"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1479,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:22.500Z"
 }

@@ -6,7 +6,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 86",
+      "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
+      "date": "2026-01-17T05:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Tray Martin",
+      "opponent_slug": "tray-martin",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/nate-ghareeb"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/nate-ghareeb"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-07-31T18:47:34.909Z"
 }

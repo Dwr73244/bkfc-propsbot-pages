@@ -4,7 +4,7 @@
   "nickname": "QG",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 1,
     "draws": 0,
     "kos": 1
@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Clearwater: Gaskins vs Guymon",
+      "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
+      "date": "2026-04-25T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "3:00",
+      "opponent": "matt-guymon",
+      "opponent_slug": "matt-guymon",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-clearwater",
+      "date": "2026-04-24T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:59",
+      "opponent": "Matthew Guyman",
+      "opponent_slug": "matthew-guyman",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/quentin-gaskins"
+    },
+    {
+      "event": "BKFC 82 -",
+      "event_slug": "bkfc-new-jersey",
+      "date": "2025-10-04T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:53",
+      "opponent": "Phil Caracappa",
+      "opponent_slug": "phil-caracappa",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/quentin-gaskins"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-fight-night-clearwater-ec210",
+      "date": "2025-05-02T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Logan Speyrer",
+      "opponent_slug": "logan-speyrer",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/quentin-gaskins"
+    },
+    {
+      "event": "BKFC Fight Night Clearwater: Richman vs. Lozano",
+      "event_slug": "bkfc-fight-night-clearwater-2024-04-12",
+      "date": "2024-04-12T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "2:00",
+      "opponent": "zachary-pannell",
+      "opponent_slug": "zachary-pannell",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/quentin-gaskins"
   ],
   "last_updated": "2026-04-19",
   "elo": 1544,
-  "elo_peak": 1544
+  "elo_peak": 1544,
+  "history_last_verified": "2026-07-31T18:47:35.821Z"
 }

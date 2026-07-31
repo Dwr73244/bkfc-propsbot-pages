@@ -28,12 +28,79 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-fight-night-mohegan-sun-porter-vs-watson",
+      "date": "2026-03-28T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Zeb Vincent",
+      "opponent_slug": "zeb-vincent",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-casey"
+    },
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-fight-night-mohegan-sun",
+      "date": "2025-12-20T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:47",
+      "opponent": "David Sanchez",
+      "opponent_slug": "david-sanchez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-casey"
+    },
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-mohegan-sun",
+      "date": "2025-06-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "John Howard",
+      "opponent_slug": "john-howard",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-casey"
+    },
+    {
+      "event": "BKFCF 67 - Denver",
+      "event_slug": "bkfc-67-camozzi-vs-depee",
+      "date": "2024-10-25T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Marcus Edwards",
+      "opponent_slug": "marcus-edwards",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-casey"
+    },
+    {
+      "event": "BKFC 61",
+      "event_slug": "bkfc-61-rivera-vs-straus",
+      "date": "2024-05-11T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Sam Watford",
+      "opponent_slug": "sam-watford",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-casey"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/pat-casey"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:16.270Z"
 }

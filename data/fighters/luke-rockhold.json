@@ -28,7 +28,32 @@
     "facebook": "https://www.facebook.com/rockholdmma"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "TKO (retirement)",
+      "round": 2,
+      "time": "1:15",
+      "opponent": "mike-perry",
+      "opponent_slug": "mike-perry",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 41",
+      "event_slug": "bkfc-41-colorado",
+      "date": "2023-04-29T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:15",
+      "opponent": "Luke Rockhold",
+      "opponent_slug": "luke-rockhold",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/luke-rockhold"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/luke-rockhold",
@@ -49,5 +74,6 @@
     "draws": 0,
     "kos": 0,
     "last_updated": "2026-04-19"
-  }
+  },
+  "history_last_verified": "2026-07-31T18:45:14.325Z"
 }

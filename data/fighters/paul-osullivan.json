@@ -5,8 +5,8 @@
   "nickname": null,
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 2,
+    "wins": 2,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -29,12 +29,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 90 Birmingham: Tierney vs. Franco",
+      "event_slug": "bkfc-90-birmingham",
+      "date": "2026-05-30T13:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "paul-hilz",
+      "opponent_slug": "paul-hilz",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 64",
+      "event_slug": "bkfc-64-coventry-tierney-vs-graham",
+      "date": "2024-08-10T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Macauley Bygraves",
+      "opponent_slug": "macauley-bygraves",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/paul-osullivan"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs-franco",
     "https://www.bkfc.com/fighters/paul-osullivan"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:47:35.549Z"
 }

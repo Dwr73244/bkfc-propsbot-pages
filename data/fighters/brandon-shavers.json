@@ -28,7 +28,43 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 4,
+      "time": "1:32",
+      "opponent": "stanislav-grosu",
+      "opponent_slug": "stanislav-grosu",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 36 New Orleans: Adams vs. Belcher",
+      "event_slug": "bkfc-36",
+      "date": "2023-02-24T20:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "1:53",
+      "opponent": "bryce-henry",
+      "opponent_slug": "bryce-henry",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 30",
+      "event_slug": "bkfc-30-hunt-vs-henry",
+      "date": "2022-10-01T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:59",
+      "opponent": "Nathan Mitchell",
+      "opponent_slug": "nathan-mitchell",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-shavers"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +72,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1503,
-  "elo_peak": 1503
+  "elo_peak": 1503,
+  "history_last_verified": "2026-07-31T18:44:51.379Z"
 }

@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Knucklemania VI",
+      "event_slug": "knucklemania-vi",
+      "date": "2026-02-07T05:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:59",
+      "opponent": "Zedekiah Montanez",
+      "opponent_slug": "zedekiah-montanez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-meyer"
+    },
+    {
+      "event": "BKFC 79",
+      "event_slug": "bkfc-sturgis",
+      "date": "2025-08-02T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "00:32",
+      "opponent": "Elvin Brito",
+      "opponent_slug": "elvin-brito",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-meyer"
+    },
+    {
+      "event": "BKFC Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:39",
+      "opponent": "zedekiah-montanez",
+      "opponent_slug": "zedekiah-montanez",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha",
+      "date": "2024-05-17T04:00:00.000Z",
+      "method": "TKO",
+      "round": 5,
+      "time": "01:10",
+      "opponent": "Eduardo Peralta",
+      "opponent_slug": "eduardo-peralta",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-meyer"
+    },
+    {
+      "event": "BKFC Fight Night Miami: Davis vs. Wilson",
+      "event_slug": "bkfc-fight-night-miami-2024",
+      "date": "2024-03-15T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "famez",
+      "opponent_slug": "famez",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -37,5 +99,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1523,
-  "elo_peak": 1523
+  "elo_peak": 1523,
+  "history_last_verified": "2026-07-31T18:44:51.280Z"
 }

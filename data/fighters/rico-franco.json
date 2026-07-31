@@ -4,7 +4,7 @@
   "nickname": "Bon Bon",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 10,
+    "wins": 11,
     "losses": 3,
     "draws": 0,
     "kos": 2
@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 90 Birmingham: Tierney vs. Franco",
+      "event_slug": "bkfc-90-birmingham",
+      "date": "2026-05-30T13:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:18",
+      "opponent": "connor-tierney",
+      "opponent_slug": "connor-tierney",
+      "result": "W"
+    },
+    {
+      "event": "BKFC: Italy",
+      "event_slug": "bkfc-73-italy",
+      "date": "2025-04-26T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 6,
+      "time": "02:00",
+      "opponent": "Jimmy Sweeney",
+      "opponent_slug": "jimmy-sweeney",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rico-franco"
+    },
+    {
+      "event": "BKFC - Spain",
+      "event_slug": "bkfc-on-dazn-spain",
+      "date": "2024-10-12T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Austin Trout",
+      "opponent_slug": "austin-trout",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rico-franco"
+    },
+    {
+      "event": "BKFC 46",
+      "event_slug": "bkfc-46-newcastle-franco-vs-harris",
+      "date": "2023-07-01T04:00:00.000Z",
+      "method": "TKO",
+      "round": 5,
+      "time": "00:58",
+      "opponent": "Kaleb Harris",
+      "opponent_slug": "kaleb-harris",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rico-franco"
+    },
+    {
+      "event": "BKFC 40 Leeds: Holmes vs. Christie",
+      "event_slug": "bkfc-40",
+      "date": "2023-04-22T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:07",
+      "opponent": "axel-birbes",
+      "opponent_slug": "axel-birbes",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/rico-franco"
   ],
   "last_updated": "2026-04-19",
   "elo": 1564,
-  "elo_peak": 1564
+  "elo_peak": 1564,
+  "history_last_verified": "2026-07-31T18:47:36.094Z"
 }

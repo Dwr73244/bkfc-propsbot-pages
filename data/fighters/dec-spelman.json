@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-2",
+      "date": "2026-03-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "John Redmond",
+      "opponent_slug": "john-redmond",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dec-spelman"
+    },
+    {
+      "event": "BKFC 81 - Manchester",
+      "event_slug": "bkfc-manchester",
+      "date": "2025-09-27T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:55",
+      "opponent": "Dawid Chlynski",
+      "opponent_slug": "dawid-chlynski",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dec-spelman"
+    },
+    {
+      "event": "BKFC Fight Night Manchester: Chipchase vs. Fox",
+      "event_slug": "bkfc-fight-night-manchester-2025-03-29",
+      "date": "2025-03-29T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "tomas-lejsek",
+      "opponent_slug": "tomas-lejsek",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/dec-spelman"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:45:05.734Z"
 }

@@ -28,12 +28,64 @@
     "facebook": "https://www.facebook.com/yosdenis.cedeno.3"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 62",
+      "event_slug": "bkfc-62-hollywood",
+      "date": "2024-06-21T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "00:31",
+      "opponent": "Josh Zuckerman",
+      "opponent_slug": "josh-zuckerman",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/yosdenis-cedeno"
+    },
+    {
+      "event": "BKFC 35 Myrtle Beach: Cedeno vs. Slaveski",
+      "event_slug": "bkfc-35",
+      "date": "2023-01-27T20:00:00.000Z",
+      "method": "TKO (punches)",
+      "round": 4,
+      "time": "1:53",
+      "opponent": "gorjan-slaveski",
+      "opponent_slug": "gorjan-slaveski",
+      "result": "L"
+    },
+    {
+      "event": "Knucklemania II",
+      "event_slug": "knucklemania-ii",
+      "date": "2022-02-19T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Mario Vargas",
+      "opponent_slug": "mario-vargas",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/yosdenis-cedeno"
+    },
+    {
+      "event": "BKFC 18",
+      "event_slug": "bkfc-18-beltran-vs-shewmaker",
+      "date": "2021-06-26T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Alan Arzeno",
+      "opponent_slug": "alan-arzeno",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/yosdenis-cedeno"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/yosdenis-cedeno"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:20.534Z"
 }

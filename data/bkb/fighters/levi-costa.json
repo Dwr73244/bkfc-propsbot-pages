@@ -34,7 +34,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 25: Brawl on the Bay",
+      "event_slug": "byb-25-brawl-on-the-bay",
+      "date": "2024-04-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "gustavo-trujillo",
+      "opponent_slug": "gustavo-trujillo",
+      "result": "L"
+    },
+    {
+      "event": "BYB 19: Brawl in the Pines",
+      "event_slug": "byb-19-brawl-in-the-pines",
+      "date": "2023-08-10T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "josh-burns",
+      "opponent_slug": "josh-burns",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

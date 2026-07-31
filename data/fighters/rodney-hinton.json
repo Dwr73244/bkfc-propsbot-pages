@@ -29,7 +29,58 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 88 Denver: Camozzi vs. Rodriguez",
+      "event_slug": "bkfc-88-denver",
+      "date": "2026-04-18T02:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "0:22",
+      "opponent": "andrew-yates",
+      "opponent_slug": "andrew-yates",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 88",
+      "event_slug": "bkfc-denver",
+      "date": "2026-04-17T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:22",
+      "opponent": "Andrew Yates",
+      "opponent_slug": "andrew-yates",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rodney-hinton"
+    },
+    {
+      "event": "BKFC 76 - Texas",
+      "event_slug": "bkfc-fort-worth",
+      "date": "2025-06-21T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Darren Whitney",
+      "opponent_slug": "darren-whitney",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rodney-hinton"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-fight-night-clearwater-ec210",
+      "date": "2025-05-02T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:11",
+      "opponent": "Ben Jacobsen",
+      "opponent_slug": "ben-jacobsen",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rodney-hinton"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/rodney-hinton"
   ],
@@ -39,5 +90,6 @@
     "power"
   ],
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:17.055Z"
 }

@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 83",
+      "event_slug": "bkfc-rome",
+      "date": "2025-10-25T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:51",
+      "opponent": "Walter Pugliesi",
+      "opponent_slug": "walter-pugliesi",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/karl-thompson"
+    },
+    {
+      "event": "BKFC Fight Night Newcastle: Thompson vs. Boardman",
+      "event_slug": "bkfc-fight-night-newcastle-2025-02-08",
+      "date": "2025-02-08T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:46",
+      "opponent": "rob-boardman",
+      "opponent_slug": "rob-boardman",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 68",
+      "event_slug": "bkfc-68-faulkner-vs-oscar",
+      "date": "2024-11-02T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:25",
+      "opponent": "Dawid Chlynski",
+      "opponent_slug": "dawid-chlynski",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/karl-thompson"
+    },
+    {
+      "event": "BKFC 55 - Leeds",
+      "event_slug": "bkfc-55-leeds",
+      "date": "2023-11-18T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Dawid Oskar",
+      "opponent_slug": "dawid-oskar",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/karl-thompson"
+    },
+    {
+      "event": "BKFC 46",
+      "event_slug": "bkfc-46-newcastle-franco-vs-harris",
+      "date": "2023-07-01T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:06",
+      "opponent": "Dustin Rabiega",
+      "opponent_slug": "dustin-rabiega",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/karl-thompson"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/karl-thompson"
   ],
   "last_updated": "2026-04-17",
   "elo": 1528,
-  "elo_peak": 1528
+  "elo_peak": 1528,
+  "history_last_verified": "2026-07-31T18:45:12.572Z"
 }

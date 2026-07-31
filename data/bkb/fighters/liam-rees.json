@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 40: Cardiff Brawl III",
+      "event_slug": "bkb-40-cardiff-brawl-iii",
+      "date": "2025-04-19T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "martin-reffell",
+      "opponent_slug": "martin-reffell",
+      "result": "W"
+    },
+    {
+      "event": "BYB 32: Leeds Brawl",
+      "event_slug": "byb-32-leeds-brawl",
+      "date": "2024-10-12T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "scott-mchugh",
+      "opponent_slug": "scott-mchugh",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

@@ -28,12 +28,38 @@
     "facebook": "https://www.facebook.com/nick.kohring"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+      "event_slug": "bkfc-59",
+      "date": "2024-03-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:30",
+      "opponent": "kyle-mcelroy",
+      "opponent_slug": "kyle-mcelroy",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 59",
+      "event_slug": "bkfc-59-dodson-vs-aguero",
+      "date": "2024-03-29T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:30",
+      "opponent": "Nick Kohring",
+      "opponent_slug": "nick-kohring",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/nick-kohring"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/nick-kohring"
   ],
   "last_updated": "2026-04-17",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:15.937Z"
 }

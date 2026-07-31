@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 44: Denver Brawl V",
+      "event_slug": "bkb-44-denver-brawl-v",
+      "date": "2025-08-16T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "george-martinez",
+      "opponent_slug": "george-martinez",
+      "result": "L"
+    },
+    {
+      "event": "BYB 24: Super Brawl Saturday",
+      "event_slug": "byb-24-super-brawl-saturday",
+      "date": "2024-02-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "kendell-ward",
+      "opponent_slug": "kendell-ward",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

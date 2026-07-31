@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha-2",
+      "date": "2025-04-18T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Sean Wilson",
+      "opponent_slug": "sean-wilson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jordan-christensen"
+    },
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "robbie-peralta",
+      "opponent_slug": "robbie-peralta",
+      "result": "L"
+    },
+    {
+      "event": "BKFCF 67 - Denver",
+      "event_slug": "bkfc-67-camozzi-vs-depee",
+      "date": "2024-10-25T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Andrew Yates",
+      "opponent_slug": "andrew-yates",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jordan-christensen"
+    },
+    {
+      "event": "BKFC - Fight Night Pechanga",
+      "event_slug": "bkfc-fight-night-pechanga",
+      "date": "2024-07-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Riley Pellegrino",
+      "opponent_slug": "riley-pellegrino",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jordan-christensen"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 3,
+      "time": "0:52",
+      "opponent": "shawn-brooks",
+      "opponent_slug": "shawn-brooks",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1459,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:11.233Z"
 }

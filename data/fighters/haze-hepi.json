@@ -29,11 +29,63 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
+      "event_slug": "bkfc-fight-night-australia-townsville",
+      "date": "2026-04-18T09:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:44",
+      "opponent": "krzysztof-wisniewski",
+      "opponent_slug": "krzysztof-wisniewski",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Australia",
+      "event_slug": "bkfc-australia-2",
+      "date": "2026-04-18T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:44",
+      "opponent": "Kryzsztof Wisniewski",
+      "opponent_slug": "kryzsztof-wisniewski",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/haze-hepi"
+    },
+    {
+      "event": "BKFC 83",
+      "event_slug": "bkfc-rome",
+      "date": "2025-10-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Kryzsztof Wisniewski",
+      "opponent_slug": "kryzsztof-wisniewski",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/haze-hepi"
+    },
+    {
+      "event": "BKFC: Italy",
+      "event_slug": "bkfc-73-italy",
+      "date": "2025-04-26T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:36",
+      "opponent": "Steven Banks",
+      "opponent_slug": "steven-banks",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/haze-hepi"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/haze-hepi"
   ],
   "last_updated": "2026-04-17",
   "elo": 1526,
-  "elo_peak": 1526
+  "elo_peak": 1526,
+  "history_last_verified": "2026-07-31T18:45:09.608Z"
 }

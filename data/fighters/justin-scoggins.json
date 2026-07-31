@@ -28,12 +28,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 35 Myrtle Beach: Cedeno vs. Slaveski",
+      "event_slug": "bkfc-35",
+      "date": "2023-01-27T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "keith-richardson",
+      "opponent_slug": "keith-richardson",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/justin-scoggins"
   ],
   "last_updated": "2026-04-17",
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:12.186Z"
 }

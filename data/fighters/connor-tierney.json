@@ -5,7 +5,7 @@
   "division": "Welterweight",
   "bkfc_record": {
     "wins": 9,
-    "losses": 2,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 90 Birmingham: Tierney vs. Franco",
+      "event_slug": "bkfc-90-birmingham",
+      "date": "2026-05-30T13:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:18",
+      "opponent": "rico-franco",
+      "opponent_slug": "rico-franco",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 90",
+      "event_slug": "bkfc-90-birmingham-tierny-vs-franco",
+      "date": "2026-05-30T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:18",
+      "opponent": "Ricardo Franco",
+      "opponent_slug": "ricardo-franco",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/connor-tierney"
+    },
+    {
+      "event": "BKFC 77",
+      "event_slug": "bkfc-birmingham",
+      "date": "2025-06-28T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "00:14",
+      "opponent": "Danny Christie",
+      "opponent_slug": "danny-christie",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/connor-tierney"
+    },
+    {
+      "event": "BKFC 64",
+      "event_slug": "bkfc-64-coventry-tierney-vs-graham",
+      "date": "2024-08-10T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jonny Graham",
+      "opponent_slug": "jonny-graham",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/connor-tierney"
+    },
+    {
+      "event": "BKFC 37 London: Tierney vs. Lindsey",
+      "event_slug": "bkfc-37",
+      "date": "2023-03-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 5,
+      "time": "1:02",
+      "opponent": "jake-lindsey",
+      "opponent_slug": "jake-lindsey",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/connor-tierney"
   ],
   "last_updated": "2026-04-19",
   "elo": 1456,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:47:24.402Z"
 }

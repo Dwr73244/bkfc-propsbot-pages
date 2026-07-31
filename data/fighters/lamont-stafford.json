@@ -5,7 +5,7 @@
   "division": "Cruiserweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 0,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -28,12 +28,51 @@
     "facebook": "https://www.facebook.com/lamont%20koking%20stafford"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:44",
+      "opponent": "Julio Perez",
+      "opponent_slug": "julio-perez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/lamont-stafford"
+    },
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:01",
+      "opponent": "murat-kilimetov",
+      "opponent_slug": "murat-kilimetov",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 50",
+      "event_slug": "bkfc-50-denver",
+      "date": "2023-09-22T04:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "00:40",
+      "opponent": "Gabriel Mota",
+      "opponent_slug": "gabriel-mota",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/lamont-stafford"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/lamont-stafford"
   ],
   "last_updated": "2026-04-19",
   "elo": 1479,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:47:32.608Z"
 }

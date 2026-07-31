@@ -28,12 +28,38 @@
     "facebook": "https://www.facebook.com/reuben.roundstone.7/"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 63",
+      "event_slug": "bkfc-63-hart-vs-starling",
+      "date": "2024-08-03T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:42",
+      "opponent": "Josh Watson",
+      "opponent_slug": "josh-watson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/reuben-roundstone"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Canada",
+      "event_slug": "bkfc-fight-night-prospects-canada-2024",
+      "date": "2024-03-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:12",
+      "opponent": "stan-surmacz",
+      "opponent_slug": "stan-surmacz",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/reuben-roundstone"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:16.766Z"
 }

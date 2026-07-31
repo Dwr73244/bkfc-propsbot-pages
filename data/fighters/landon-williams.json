@@ -28,12 +28,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 57: Palomino vs. Trout",
+      "event_slug": "bkfc-57",
+      "date": "2024-02-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:15",
+      "opponent": "justin-ibarrola",
+      "opponent_slug": "justin-ibarrola",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 51",
+      "event_slug": "bkfc-51-salem",
+      "date": "2023-09-29T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:43",
+      "opponent": "Rick Caruso",
+      "opponent_slug": "rick-caruso",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/landon-williams"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/landon-williams"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:13.379Z"
 }

@@ -29,7 +29,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 26: Mile High Brawl",
+      "event_slug": "byb-26-mile-high-brawl",
+      "date": "2024-05-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": null,
+      "opponent": "paty-juarez",
+      "opponent_slug": "paty-juarez",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

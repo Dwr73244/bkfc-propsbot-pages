@@ -29,11 +29,76 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 88 Denver: Camozzi vs. Rodriguez",
+      "event_slug": "bkfc-88-denver",
+      "date": "2026-04-18T02:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "0:22",
+      "opponent": "rodney-hinton",
+      "opponent_slug": "rodney-hinton",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 88",
+      "event_slug": "bkfc-denver",
+      "date": "2026-04-17T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:22",
+      "opponent": "Rodney Hinton",
+      "opponent_slug": "rodney-hinton",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-yates"
+    },
+    {
+      "event": "BKFCF 67 - Denver",
+      "event_slug": "bkfc-67-camozzi-vs-depee",
+      "date": "2024-10-25T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jordan Christensen",
+      "opponent_slug": "jordan-christensen",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-yates"
+    },
+    {
+      "event": "BKFC - Prospects Denver",
+      "event_slug": "bkfc-fight-night-prospects-denver",
+      "date": "2024-05-31T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:47",
+      "opponent": "Josh Huber",
+      "opponent_slug": "josh-huber",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-yates"
+    },
+    {
+      "event": "BKFC 50",
+      "event_slug": "bkfc-50-denver",
+      "date": "2023-09-22T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Christian Torres",
+      "opponent_slug": "christian-torres",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-yates"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/andrew-yates"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:26.170Z"
 }

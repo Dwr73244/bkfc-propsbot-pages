@@ -29,7 +29,52 @@
     "facebook": "https://www.facebook.com/wolfman.wright"
   },
   "bio": "American welterweight known for long hair and a relentless, high-output fighting style. Fights out of Long Beach, California by way of St. Louis, Missouri under coach Adam Flowers. Brings a diverse combat background with a 6-6 MMA record, 1-0 kickboxing record, and 1-5 pro boxing record. Notable BKB wins over Carlos Guerra, Walter Saravia, and Kylle McMillan.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 44: Denver Brawl V",
+      "event_slug": "bkb-44-denver-brawl-v",
+      "date": "2025-08-16T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "henry-williams",
+      "opponent_slug": "henry-williams",
+      "result": "L"
+    },
+    {
+      "event": "BKB 42: Music City Brawl",
+      "event_slug": "bkb-42-music-city-brawl",
+      "date": "2025-06-21T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "carlos-guerra",
+      "opponent_slug": "carlos-guerra",
+      "result": "W"
+    },
+    {
+      "event": "BYB 35: Albuquerque Brawl",
+      "event_slug": "byb-35-albuquerque-brawl",
+      "date": "2025-01-11T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "walter-saravia",
+      "opponent_slug": "walter-saravia",
+      "result": "W"
+    },
+    {
+      "event": "BYB 26: Mile High Brawl",
+      "event_slug": "byb-26-mile-high-brawl",
+      "date": "2024-05-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": null,
+      "opponent": "robert-duran-jr",
+      "opponent_slug": "robert-duran-jr",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
     "https://www.bkbbareknuckle.com/brawlers/javon-wright"

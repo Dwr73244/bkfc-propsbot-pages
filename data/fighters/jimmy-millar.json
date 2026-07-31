@@ -28,12 +28,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Prospects Newcastle",
+      "event_slug": "bkfc-prospects-newcastle",
+      "date": "2024-06-08T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Danny Christie",
+      "opponent_slug": "danny-christie",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jimmy-millar"
+    },
+    {
+      "event": "BKFC 37 London: Tierney vs. Lindsey",
+      "event_slug": "bkfc-37",
+      "date": "2023-03-04T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "kyle-cassidy",
+      "opponent_slug": "kyle-cassidy",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jimmy-millar"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:10.813Z"
 }

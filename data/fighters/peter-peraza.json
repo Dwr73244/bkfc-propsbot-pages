@@ -4,7 +4,7 @@
   "nickname": "D2G",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 4,
+    "wins": 5,
     "losses": 1,
     "draws": 0,
     "kos": 1
@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:46",
+      "opponent": "Ashton Caniglia",
+      "opponent_slug": "ashton-caniglia",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/peter-peraza"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:16",
+      "opponent": "Joshua Alvarez",
+      "opponent_slug": "joshua-alvarez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/peter-peraza"
+    },
+    {
+      "event": "BKFC 70 Hollywood, FL: Palomino vs. Davis",
+      "event_slug": "bkfc-70",
+      "date": "2025-03-27T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "0:37",
+      "opponent": "kaine-tomlinson",
+      "opponent_slug": "kaine-tomlinson",
+      "result": "W"
+    },
+    {
+      "event": "BKFC: Hollywood",
+      "event_slug": "bkfc-70-hollywood",
+      "date": "2025-03-27T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:37",
+      "opponent": "Kaine Tomlinson Jr",
+      "opponent_slug": "kaine-tomlinson-jr",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/peter-peraza"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:26",
+      "opponent": "Raymond Pell",
+      "opponent_slug": "raymond-pell",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/peter-peraza"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/peter-peraza"
   ],
   "last_updated": "2026-04-19",
   "elo": 1525,
-  "elo_peak": 1525
+  "elo_peak": 1525,
+  "history_last_verified": "2026-07-31T18:47:35.664Z"
 }

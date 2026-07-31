@@ -34,7 +34,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 44: Denver Brawl V",
+      "event_slug": "bkb-44-denver-brawl-v",
+      "date": "2025-08-16T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "austin-spivey",
+      "opponent_slug": "austin-spivey",
+      "result": "L"
+    },
+    {
+      "event": "BYB 35: Albuquerque Brawl",
+      "event_slug": "byb-35-albuquerque-brawl",
+      "date": "2025-01-11T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "henry-barahona",
+      "opponent_slug": "henry-barahona",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": "Filipino combat sports athlete who made his UFC debut in 2017 and went 1-3 in the promotion before release. Captured the Abu Dhabi Warriors featherweight title in 2019 and competed in Brave Combat Federation through 2022. Transitioned to bare-knuckle boxing and became the first BKB world champion from the Philippines, defeating Liam Rees for the BKB World Super Welterweight Championship in December 2025.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 41: Brawl in Duval II",
+      "event_slug": "bkb-41-brawl-in-duval-ii",
+      "date": "2025-05-31T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": null,
+      "opponent": "robert-duran-jr",
+      "opponent_slug": "robert-duran-jr",
+      "result": "W"
+    },
+    {
+      "event": "BYB 32: Leeds Brawl",
+      "event_slug": "byb-32-leeds-brawl",
+      "date": "2024-10-12T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "hayden-sherriff",
+      "opponent_slug": "hayden-sherriff",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
     "https://en.wikipedia.org/wiki/Rolando_Dy",

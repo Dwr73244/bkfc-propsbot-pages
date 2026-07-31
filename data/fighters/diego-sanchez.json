@@ -28,12 +28,38 @@
     "facebook": "https://www.facebook.com/profile.php?id=100046761529951"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Knucklemania III",
+      "event_slug": "bkfc-knucklemania-3",
+      "date": "2023-02-17T20:00:00.000Z",
+      "method": "TKO (doctor stoppage)",
+      "round": 4,
+      "time": "1:44",
+      "opponent": "austin-trout",
+      "opponent_slug": "austin-trout",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Knucklemania III",
+      "event_slug": "bkfc-knucklemania-iii",
+      "date": "2023-02-17T05:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:44",
+      "opponent": "Diego Sanchez",
+      "opponent_slug": "diego-sanchez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/diego-sanchez"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/diego-sanchez"
   ],
   "last_updated": "2026-04-17",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:06.034Z"
 }

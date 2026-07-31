@@ -28,12 +28,25 @@
     "facebook": "https://www.facebook.com/DA.chosenjuan234"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Prospects: Albuquerque",
+      "event_slug": "bkfc-fight-night-prospects-albuquerque-2024",
+      "date": "2024-01-27T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:30",
+      "opponent": "matt-adams",
+      "opponent_slug": "matt-adams",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/juan-adams"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:11.886Z"
 }

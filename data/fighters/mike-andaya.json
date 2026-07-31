@@ -28,12 +28,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:45",
+      "opponent": "dan-godoy",
+      "opponent_slug": "dan-godoy",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/mike-andaya"
   ],
   "last_updated": "2026-04-17",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:15.225Z"
 }

@@ -28,12 +28,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Newcastle: Thompson vs. Boardman",
+      "event_slug": "bkfc-fight-night-newcastle-2025-02-08",
+      "date": "2025-02-08T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "ryan-carmichael",
+      "opponent_slug": "ryan-carmichael",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/brandon-comby"
   ],
   "last_updated": "2026-04-17",
   "elo": 1520,
-  "elo_peak": 1520
+  "elo_peak": 1520,
+  "history_last_verified": "2026-07-31T18:44:49.281Z"
 }

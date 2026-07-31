@@ -5,8 +5,8 @@
   "nickname": null,
   "division": "Cruiserweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 3,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,63 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:56",
+      "opponent": "Stephen Townsel",
+      "opponent_slug": "stephen-townsel",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mike-jones"
+    },
+    {
+      "event": "BKFC 74 - Salt Lake City",
+      "event_slug": "bkfc-74-salt-lake-city",
+      "date": "2025-05-10T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:20",
+      "opponent": "Sean Hotusing",
+      "opponent_slug": "sean-hotusing",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mike-jones"
+    },
+    {
+      "event": "BKFC 65",
+      "event_slug": "bkfc-65-ferea-vs-masson-wong",
+      "date": "2024-09-06T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Diego Romo",
+      "opponent_slug": "diego-romo",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mike-jones"
+    },
+    {
+      "event": "BKFC 56",
+      "event_slug": "bkfc-56-utah",
+      "date": "2023-12-02T05:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "00:51",
+      "opponent": "Erick Lozano",
+      "opponent_slug": "erick-lozano",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mike-jones"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/mike-jones"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-07-31T18:47:34.507Z"
 }

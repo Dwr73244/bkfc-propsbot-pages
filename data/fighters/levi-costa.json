@@ -5,7 +5,7 @@
   "nickname": "PITBULL",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 3,
     "draws": 0,
     "kos": null
@@ -29,10 +29,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:38",
+      "opponent": "Chase Gormley",
+      "opponent_slug": "chase-gormley",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/levi-costa"
+    },
+    {
+      "event": "BKFC on DAZN - Hollywood",
+      "event_slug": "bkfc-on-dazn-hollywood",
+      "date": "2024-12-21T05:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:47",
+      "opponent": "Leonardo Perdomo",
+      "opponent_slug": "leonardo-perdomo",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/levi-costa"
+    },
+    {
+      "event": "BKFC 31",
+      "event_slug": "bkfc-31-denver-richman-vs-doolittle",
+      "date": "2022-10-15T04:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Josh Copeland",
+      "opponent_slug": "josh-copeland",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/levi-costa"
+    },
+    {
+      "event": "BKFC 25",
+      "event_slug": "bkfc-25-adams-vs-cleckler",
+      "date": "2022-05-06T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:35",
+      "opponent": "Joshua Sanchez",
+      "opponent_slug": "joshua-sanchez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/levi-costa"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-palm-desert",
     "https://www.bkfc.com/fighters/levi-costa"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:47:32.938Z"
 }

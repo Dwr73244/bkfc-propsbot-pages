@@ -5,7 +5,7 @@
   "division": "Light Heavyweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 1,
+    "losses": 0,
     "draws": 0,
     "kos": null
   },
@@ -28,7 +28,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Newcastle: Thompson vs. Boardman",
+      "event_slug": "bkfc-fight-night-newcastle-2025-02-08",
+      "date": "2025-02-08T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "0:33",
+      "opponent": "leigh-cohoon",
+      "opponent_slug": "leigh-cohoon",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/mpampis-klados"
@@ -37,5 +49,6 @@
   "elo": 1478,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-07-07"
+  "record_verified": "2026-07-07",
+  "history_last_verified": "2026-07-31T18:47:34.803Z"
 }

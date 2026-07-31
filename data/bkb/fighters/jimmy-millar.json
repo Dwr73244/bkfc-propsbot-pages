@@ -34,7 +34,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 33: Wolverhampton Brawl",
+      "event_slug": "byb-33-wolverhampton-brawl",
+      "date": "2024-11-09T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": null,
+      "opponent": "gareth-williams",
+      "opponent_slug": "gareth-williams",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

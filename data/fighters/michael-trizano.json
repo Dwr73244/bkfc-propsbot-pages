@@ -28,7 +28,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 61 Connecticut: Rivera vs. Straus",
+      "event_slug": "bkfc-61",
+      "date": "2024-05-11T20:00:00.000Z",
+      "method": "KO (punches)",
+      "round": 1,
+      "time": "1:02",
+      "opponent": "louie-lopez",
+      "opponent_slug": "louie-lopez",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship"
   ],

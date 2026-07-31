@@ -28,12 +28,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 2,
+      "time": "0:09",
+      "opponent": "murat-kilimetov",
+      "opponent_slug": "murat-kilimetov",
+      "result": "L"
+    },
+    {
+      "event": "BKFC: Prospects Manassas",
+      "event_slug": "fight-night-prospect-manassas",
+      "date": "2024-02-16T05:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:09",
+      "opponent": "Trey Cooke",
+      "opponent_slug": "trey-cooke",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tre-cook"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/tre-cook"
   ],
   "last_updated": "2026-04-17",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:19.456Z"
 }

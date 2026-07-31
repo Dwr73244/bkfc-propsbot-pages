@@ -28,12 +28,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 71 Dubai Day 1: Trout vs. Trinidad-Snake",
+      "event_slug": "bkfc-71",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:28",
+      "opponent": "adel-altamimi",
+      "opponent_slug": "adel-altamimi",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Spain",
+      "event_slug": "bkfc-on-dazn-spain",
+      "date": "2024-10-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "02:00",
+      "opponent": "Fran Suarez",
+      "opponent_slug": "fran-suarez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/david-mora"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/david-mora"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:05.492Z"
 }

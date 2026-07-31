@@ -28,12 +28,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Guillermo Perez",
+      "opponent_slug": "guillermo-perez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-strode"
+    },
+    {
+      "event": "BKFC on DAZN Mohegan Sun: Lane vs. VanCamp",
+      "event_slug": "bkfc-on-dazn-mohegan-sun-2025",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "tyler-randall",
+      "opponent_slug": "tyler-randall",
+      "result": "W"
+    },
+    {
+      "event": "BKFCF 67 - Denver",
+      "event_slug": "bkfc-67-camozzi-vs-depee",
+      "date": "2024-10-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:13",
+      "opponent": "Chancey Wilson",
+      "opponent_slug": "chancey-wilson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-strode"
+    },
+    {
+      "event": "BKFC 50",
+      "event_slug": "bkfc-50-denver",
+      "date": "2023-09-22T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:40",
+      "opponent": "Cary Caprio",
+      "opponent_slug": "cary-caprio",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrew-strode"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/andrew-strode"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:44:24.418Z"
 }

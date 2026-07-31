@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 28: Bourbon Street Brawl",
+      "event_slug": "byb-28-bourbon-street-brawl",
+      "date": "2024-06-14T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": null,
+      "opponent": "logan-speyrer",
+      "opponent_slug": "logan-speyrer",
+      "result": "L"
+    },
+    {
+      "event": "BYB 24: Super Brawl Saturday",
+      "event_slug": "byb-24-super-brawl-saturday",
+      "date": "2024-02-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": null,
+      "opponent": "joshua-oxendine",
+      "opponent_slug": "joshua-oxendine",
+      "result": "L"
+    },
+    {
+      "event": "BYB 20: Brawl on the Bayou",
+      "event_slug": "byb-20-brawl-on-the-bayou",
+      "date": "2023-09-16T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": null,
+      "opponent": "harold-mcqueen",
+      "opponent_slug": "harold-mcqueen",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

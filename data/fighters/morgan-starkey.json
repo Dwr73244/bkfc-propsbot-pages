@@ -28,12 +28,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC: Prospects 2",
+      "event_slug": "bkfc-prospect-series-2",
+      "date": "2023-10-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:25",
+      "opponent": "Terry Needham",
+      "opponent_slug": "terry-needham",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/morgan-starkey"
+    },
+    {
+      "event": "BKFC 46",
+      "event_slug": "bkfc-46-newcastle-franco-vs-harris",
+      "date": "2023-07-01T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:49",
+      "opponent": "Patryk Sagan",
+      "opponent_slug": "patryk-sagan",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/morgan-starkey"
+    },
+    {
+      "event": "BKFC 40 Leeds: Holmes vs. Christie",
+      "event_slug": "bkfc-40",
+      "date": "2023-04-22T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:23",
+      "opponent": "marius-radol",
+      "opponent_slug": "marius-radol",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 40",
+      "event_slug": "bkfc-40-holmes-vs-christie",
+      "date": "2023-04-22T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:23",
+      "opponent": "Marius Radoi",
+      "opponent_slug": "marius-radoi",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/morgan-starkey"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/morgan-starkey"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:15.577Z"
 }

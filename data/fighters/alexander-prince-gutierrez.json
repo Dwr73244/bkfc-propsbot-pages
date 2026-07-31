@@ -28,7 +28,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:05",
+      "opponent": "justyn-martinez",
+      "opponent_slug": "justyn-martinez",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
   ],

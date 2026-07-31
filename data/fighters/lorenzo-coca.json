@@ -28,7 +28,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "ruben-arroyo",
+      "opponent_slug": "ruben-arroyo",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+      "event_slug": "bkfc-59",
+      "date": "2024-03-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:46",
+      "opponent": "ruben-warr",
+      "opponent_slug": "ruben-warr",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +59,6 @@
   ],
   "last_updated": "2026-04-17",
   "elo": 1501,
-  "elo_peak": 1501
+  "elo_peak": 1501,
+  "history_last_verified": "2026-07-31T18:45:14.075Z"
 }

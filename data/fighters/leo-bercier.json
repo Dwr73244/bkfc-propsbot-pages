@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 75",
+      "event_slug": "bkfc-75-albuquerque-mundell-vs-sanchez",
+      "date": "2025-06-06T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:36",
+      "opponent": "Murat Kilimetov",
+      "opponent_slug": "murat-kilimetov",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leo-bercier"
+    },
+    {
+      "event": "BKFC on DAZN - Montana",
+      "event_slug": "bkfc-on-dazn-montana",
+      "date": "2024-11-09T05:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:42",
+      "opponent": "Drew Nolan",
+      "opponent_slug": "drew-nolan",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leo-bercier"
+    },
+    {
+      "event": "BKFC 62",
+      "event_slug": "bkfc-62-hollywood",
+      "date": "2024-06-21T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:40",
+      "opponent": "Leonardo Perdomo",
+      "opponent_slug": "leonardo-perdomo",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leo-bercier"
+    },
+    {
+      "event": "BKFC 57: Palomino vs. Trout",
+      "event_slug": "bkfc-57",
+      "date": "2024-02-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "2:10",
+      "opponent": "stephen-townsel",
+      "opponent_slug": "stephen-townsel",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 44",
+      "event_slug": "bkfc-44-montana",
+      "date": "2023-06-09T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:55",
+      "opponent": "Will Sears",
+      "opponent_slug": "will-sears",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leo-bercier"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/leo-bercier"
   ],
   "last_updated": "2026-04-19",
   "elo": 1523,
-  "elo_peak": 1523
+  "elo_peak": 1523,
+  "history_last_verified": "2026-07-31T18:45:13.489Z"
 }

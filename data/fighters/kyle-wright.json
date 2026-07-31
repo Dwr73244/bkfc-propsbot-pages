@@ -28,12 +28,38 @@
     "facebook": "https://www.facebook.com/k.savage26"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 39 Norfolk: Barnett vs. Alvarez",
+      "event_slug": "bkfc-39",
+      "date": "2023-03-24T20:00:00.000Z",
+      "method": "KO (punches)",
+      "round": 3,
+      "time": "1:18",
+      "opponent": "pat-casey",
+      "opponent_slug": "pat-casey",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 39",
+      "event_slug": "bkfc-39-norfolk",
+      "date": "2023-03-24T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:18",
+      "opponent": "Patrick Casey",
+      "opponent_slug": "patrick-casey",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kyle-wright"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/kyle-wright"
   ],
   "last_updated": "2026-04-17",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:13.330Z"
 }

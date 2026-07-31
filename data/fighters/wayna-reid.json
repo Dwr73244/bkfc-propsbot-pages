@@ -28,12 +28,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 80",
+      "event_slug": "bkfc-hollywood-2",
+      "date": "2025-09-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Paulo Machado Games",
+      "opponent_slug": "paulo-machado-games",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/wayna-reid"
+    },
+    {
+      "event": "BKFC 62",
+      "event_slug": "bkfc-62-hollywood",
+      "date": "2024-06-21T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Peter Peraza",
+      "opponent_slug": "peter-peraza",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/wayna-reid"
+    },
+    {
+      "event": "BKFC Fight Night Miami: Davis vs. Wilson",
+      "event_slug": "bkfc-fight-night-miami-2024",
+      "date": "2024-03-15T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "jim-pulgar",
+      "opponent_slug": "jim-pulgar",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 35",
+      "event_slug": "bkfc-35-myrtle-beach",
+      "date": "2023-01-27T05:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "04:31",
+      "opponent": "Antonio Soto III",
+      "opponent_slug": "antonio-soto-iii",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/wayna-reid"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/wayna-reid"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:45:20.348Z"
 }

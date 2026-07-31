@@ -5,7 +5,7 @@
   "nickname": "DEFIANT",
   "division": "Cruiserweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 5,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,9 +29,50 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC on DAZN - Montana",
+      "event_slug": "bkfc-on-dazn-montana",
+      "date": "2024-11-09T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:48",
+      "opponent": "Scott Roberts",
+      "opponent_slug": "scott-roberts",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryant-acheson"
+    },
+    {
+      "event": "BKFC 63",
+      "event_slug": "bkfc-63-hart-vs-starling",
+      "date": "2024-08-03T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Joseph Creer",
+      "opponent_slug": "joseph-creer",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryant-acheson"
+    },
+    {
+      "event": "Fight Night Montana",
+      "event_slug": "bkfc-montana",
+      "date": "2021-10-09T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:30",
+      "opponent": "Josh Watson",
+      "opponent_slug": "josh-watson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryant-acheson"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/bryant-acheson"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-07-31T18:47:11.620Z"
 }

@@ -28,7 +28,43 @@
     "facebook": "https://www.facebook.com/Eddie-Alvarez-34838112296/"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T20:00:00.000Z",
+      "method": "TKO (corner stoppage)",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "jeremy-stephens",
+      "opponent_slug": "jeremy-stephens",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 56",
+      "event_slug": "bkfc-56-utah",
+      "date": "2023-12-02T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Mike Perry",
+      "opponent_slug": "mike-perry",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/eddie-alvarez"
+    },
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "Decision (split)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "chad-mendes",
+      "opponent_slug": "chad-mendes",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -42,5 +78,6 @@
   ],
   "full_name": "Eduard Alvarez",
   "elo": 1496,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:45:06.882Z"
 }

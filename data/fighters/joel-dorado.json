@@ -29,7 +29,32 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Uruguay",
+      "event_slug": "bkfc-fight-night-uruguay",
+      "date": "2026-07-25T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Joel Dorado",
+      "opponent_slug": "joel-dorado",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joel-dorado"
+    },
+    {
+      "event": "bkfc-fight-night-uruguay",
+      "event_slug": "bkfc-fight-night-uruguay",
+      "date": "2026-07-25T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "gonzalo-barrera",
+      "opponent_slug": "gonzalo-barrera",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/joel-dorado"
   ],
@@ -37,5 +62,6 @@
   "elo": 1519,
   "elo_peak": 1519,
   "record_source": "tracked-events",
-  "record_verified": "2026-07-26"
+  "record_verified": "2026-07-26",
+  "history_last_verified": "2026-07-31T18:45:10.961Z"
 }

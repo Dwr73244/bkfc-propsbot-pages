@@ -28,12 +28,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Michigan",
+      "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
+      "date": "2025-11-01T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Justin Street",
+      "opponent_slug": "justin-street",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/aj-craig"
+    },
+    {
+      "event": "BKFC 79",
+      "event_slug": "bkfc-sturgis",
+      "date": "2025-08-02T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Timmy Mason",
+      "opponent_slug": "timmy-mason",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/aj-craig"
+    },
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "travis-thompson",
+      "opponent_slug": "travis-thompson",
+      "result": "W"
+    },
+    {
+      "event": "BKFC on DAZN - Montana",
+      "event_slug": "bkfc-on-dazn-montana",
+      "date": "2024-11-09T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:39",
+      "opponent": "Eli Jamerson",
+      "opponent_slug": "eli-jamerson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/aj-craig"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/aj-craig"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:44:08.831Z"
 }

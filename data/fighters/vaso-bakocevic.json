@@ -28,12 +28,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 58 Bulgaria: Markulev vs. Kolev",
+      "event_slug": "bkfc-58",
+      "date": "2024-03-22T20:00:00.000Z",
+      "method": "Decision (majority)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "ramadan-nooman",
+      "opponent_slug": "ramadan-nooman",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/vaso-bakocevic"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:45:20.063Z"
 }

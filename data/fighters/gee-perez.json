@@ -4,7 +4,7 @@
   "nickname": "THE CUTMAN",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 6,
+    "wins": 7,
     "losses": 2,
     "draws": 0,
     "kos": 1
@@ -28,12 +28,79 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:44",
+      "opponent": "Mike Hansen",
+      "opponent_slug": "mike-hansen",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gee-perez"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T05:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:46",
+      "opponent": "Chancey Wilson",
+      "opponent_slug": "chancey-wilson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gee-perez"
+    },
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Andrew Strode",
+      "opponent_slug": "andrew-strode",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gee-perez"
+    },
+    {
+      "event": "BKFC on DAZN - Hollywood",
+      "event_slug": "bkfc-on-dazn-hollywood",
+      "date": "2024-12-21T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:44",
+      "opponent": "Cary Caprio",
+      "opponent_slug": "cary-caprio",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gee-perez"
+    },
+    {
+      "event": "BKFC 62",
+      "event_slug": "bkfc-62-hollywood",
+      "date": "2024-06-21T04:00:00.000Z",
+      "method": "KO",
+      "round": 5,
+      "time": "00:54",
+      "opponent": "Albert Inclan",
+      "opponent_slug": "albert-inclan",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gee-perez"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/gee-perez"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:47:27.844Z"
 }

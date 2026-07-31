@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFCF 67 - Denver",
+      "event_slug": "bkfc-67-camozzi-vs-depee",
+      "date": "2024-10-25T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Cameron VanCamp",
+      "opponent_slug": "cameron-vancamp",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-girtz"
+    },
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:10",
+      "opponent": "christian-torres",
+      "opponent_slug": "christian-torres",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 31",
+      "event_slug": "bkfc-31-denver-richman-vs-doolittle",
+      "date": "2022-10-15T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Jake Lindsey",
+      "opponent_slug": "jake-lindsey",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-girtz"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/brandon-girtz"
   ],
   "last_updated": "2026-04-19",
   "elo": 1521,
-  "elo_peak": 1521
+  "elo_peak": 1521,
+  "history_last_verified": "2026-07-31T18:44:51.089Z"
 }

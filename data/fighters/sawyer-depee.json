@@ -28,7 +28,71 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFCF 67 - Denver",
+      "event_slug": "bkfc-67-camozzi-vs-depee",
+      "date": "2024-10-25T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:06",
+      "opponent": "Chris Camozzi",
+      "opponent_slug": "chris-camozzi",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/sawyer-depee"
+    },
+    {
+      "event": "BKFC - Prospects Denver",
+      "event_slug": "bkfc-fight-night-prospects-denver",
+      "date": "2024-05-31T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:33",
+      "opponent": "Keegan Vandermeer",
+      "opponent_slug": "keegan-vandermeer",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/sawyer-depee"
+    },
+    {
+      "event": "BKFC 53",
+      "event_slug": "bkfc-53-orlando",
+      "date": "2023-11-03T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Jonathan Miller",
+      "opponent_slug": "jonathan-miller",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/sawyer-depee"
+    },
+    {
+      "event": "BKFC 44 Montana: Stewart vs. Lopez",
+      "event_slug": "bkfc-44",
+      "date": "2023-06-09T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "gabriel-mota",
+      "opponent_slug": "gabriel-mota",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Jackson 2",
+      "event_slug": "bkfc-fight-night-belcher-vs-tate",
+      "date": "2022-06-11T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:18",
+      "opponent": "Quentin Henry",
+      "opponent_slug": "quentin-henry",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/sawyer-depee"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/sawyer-depee"
@@ -39,5 +103,6 @@
     "volume"
   ],
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:17.532Z"
 }

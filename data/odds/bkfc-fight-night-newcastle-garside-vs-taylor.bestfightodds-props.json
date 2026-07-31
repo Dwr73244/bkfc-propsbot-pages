@@ -3,7 +3,7 @@
   "event_date": "2026-08-01",
   "source": "bestfightodds-props",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4294",
-  "fetched_at": "2026-07-31T12:29:42.622Z",
+  "fetched_at": "2026-07-31T18:55:10.426Z",
   "total_prop_rows": 0,
   "bouts": [
     {
@@ -16,7 +16,7 @@
     {
       "fighter_a_slug": "james-walker",
       "fighter_b_slug": "barry-boyle",
-      "matchup_id": "44317",
+      "matchup_id": "44332",
       "prop_row_count": 0,
       "prop_markets": []
     },

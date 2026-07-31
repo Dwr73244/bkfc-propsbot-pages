@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-hammond",
+      "date": "2025-10-18T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Octavin Turner",
+      "opponent_slug": "octavin-turner",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cary-caprio"
+    },
+    {
+      "event": "BKFC on DAZN - Hollywood",
+      "event_slug": "bkfc-on-dazn-hollywood",
+      "date": "2024-12-21T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:44",
+      "opponent": "Guillermo Perez",
+      "opponent_slug": "guillermo-perez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cary-caprio"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "TKO (doctor stoppage)",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "mike-livingston",
+      "opponent_slug": "mike-livingston",
+      "result": "W"
+    },
+    {
+      "event": "BKFC: Prospects Manassas",
+      "event_slug": "fight-night-prospect-manassas",
+      "date": "2024-02-16T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Micah Livingston",
+      "opponent_slug": "micah-livingston",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cary-caprio"
+    },
+    {
+      "event": "BKFC 50",
+      "event_slug": "bkfc-50-denver",
+      "date": "2023-09-22T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:40",
+      "opponent": "Andrew Strode",
+      "opponent_slug": "andrew-strode",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cary-caprio"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/cary-caprio"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:44:57.302Z"
 }

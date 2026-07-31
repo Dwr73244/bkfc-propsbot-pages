@@ -29,12 +29,25 @@
     "facebook": null
   },
   "bio": "Australian professional cruiserweight boxer from Townsville with a 26-9 record and 19 KOs. Won the Australian cruiserweight title on points and successfully defended it before challenging Denis Lebedev for the WBA Super cruiserweight championship in 2017, losing by unanimous decision. Transitioned to BKFC for his bare-knuckle debut in 2026.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
+      "event_slug": "bkfc-fight-night-australia-townsville",
+      "date": "2026-04-18T09:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "2:00",
+      "opponent": "dilan-prasovic",
+      "opponent_slug": "dilan-prasovic",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/mark-flanagan",
     "https://en.wikipedia.org/wiki/Mark_Flanagan_(boxer)"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:14.667Z"
 }

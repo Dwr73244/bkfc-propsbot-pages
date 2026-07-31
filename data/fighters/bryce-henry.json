@@ -4,7 +4,7 @@
   "nickname": "Baba Yaga",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 6,
+    "wins": 7,
     "losses": 0,
     "draws": 0,
     "kos": 3
@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Hollywood: Lane vs. Henry",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T23:00:00.000Z",
+      "method": "Disqualification",
+      "round": 4,
+      "time": "0:35",
+      "opponent": "julian-lane",
+      "opponent_slug": "julian-lane",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-hammond",
+      "date": "2025-10-18T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:59",
+      "opponent": "Roderick Stewart",
+      "opponent_slug": "roderick-stewart",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryce-henry"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha-2",
+      "date": "2025-04-18T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:40",
+      "opponent": "Derrick Findley",
+      "opponent_slug": "derrick-findley",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryce-henry"
+    },
+    {
+      "event": "BKFC 57: Palomino vs. Trout",
+      "event_slug": "bkfc-57",
+      "date": "2024-02-02T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "robbie-peralta",
+      "opponent_slug": "robbie-peralta",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 49",
+      "event_slug": "bkfc-49-miami",
+      "date": "2023-08-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:29",
+      "opponent": "Tom Shoaff",
+      "opponent_slug": "tom-shoaff",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryce-henry"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1585,
-  "elo_peak": 1585
+  "elo_peak": 1585,
+  "history_last_verified": "2026-07-31T18:47:15.486Z"
 }

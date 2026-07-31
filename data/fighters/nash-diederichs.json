@@ -5,8 +5,8 @@
   "nickname": "THE GHOST",
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,50 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-mohegan-sun",
+      "date": "2025-06-14T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:30",
+      "opponent": "Peter Barrett",
+      "opponent_slug": "peter-barrett",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/nash-diederichs"
+    },
+    {
+      "event": "BKFCF 67 - Denver",
+      "event_slug": "bkfc-67-camozzi-vs-depee",
+      "date": "2024-10-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:28",
+      "opponent": "Ruben Arroyo",
+      "opponent_slug": "ruben-arroyo",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/nash-diederichs"
+    },
+    {
+      "event": "BKFC - Prospects Edmonton",
+      "event_slug": "bkfc-prospects-edmonton",
+      "date": "2024-08-31T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:50",
+      "opponent": "Matt Socholotiuk",
+      "opponent_slug": "matt-socholotiuk",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/nash-diederichs"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/nash-diederichs"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-07-31T18:47:34.892Z"
 }

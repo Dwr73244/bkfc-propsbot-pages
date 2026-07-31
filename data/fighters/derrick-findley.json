@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-hammond",
+      "date": "2025-10-18T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:35",
+      "opponent": "Cameron VanCamp",
+      "opponent_slug": "cameron-vancamp",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/derrick-findley"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha-2",
+      "date": "2025-04-18T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:40",
+      "opponent": "Bryce Henry",
+      "opponent_slug": "bryce-henry",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/derrick-findley"
+    },
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:59",
+      "opponent": "felipe-chavez",
+      "opponent_slug": "felipe-chavez",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 69",
+      "event_slug": "bkfc-69-richardson-vs-larrimore",
+      "date": "2024-12-06T05:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Joe Elmore",
+      "opponent_slug": "joe-elmore",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/derrick-findley"
+    },
+    {
+      "event": "BKFC - Prospects Denver",
+      "event_slug": "bkfc-fight-night-prospects-denver",
+      "date": "2024-05-31T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:57",
+      "opponent": "Sergio Lopez",
+      "opponent_slug": "sergio-lopez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/derrick-findley"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/derrick-findley"
   ],
   "last_updated": "2026-04-19",
   "elo": 1525,
-  "elo_peak": 1525
+  "elo_peak": 1525,
+  "history_last_verified": "2026-07-31T18:45:05.963Z"
 }

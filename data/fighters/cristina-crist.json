@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Prospects Denver",
+      "event_slug": "bkfc-fight-night-prospects-denver",
+      "date": "2024-05-31T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:52",
+      "opponent": "Cassandra Robb",
+      "opponent_slug": "cassandra-robb",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cristina-crist"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "crystal-van-wyk",
+      "opponent_slug": "crystal-van-wyk",
+      "result": "L"
+    },
+    {
+      "event": "BKFC: Prospects 1 \"Pro\"",
+      "event_slug": "bkfc-prospects-1-miami",
+      "date": "2023-08-24T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Rosalinda Rodriguez",
+      "opponent_slug": "rosalinda-rodriguez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cristina-crist"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/cristina-crist"
   ],
   "last_updated": "2026-04-19",
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:05.045Z"
 }

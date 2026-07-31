@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 84",
+      "event_slug": "bkfc-84-palm-desert",
+      "date": "2025-11-15T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:55",
+      "opponent": "Juan Figuerva",
+      "opponent_slug": "juan-figuerva",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/caleb-joseph-avila"
+    },
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:25",
+      "opponent": "tylor-sijohn",
+      "opponent_slug": "tylor-sijohn",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Pechanga",
+      "event_slug": "bkfc-fight-night-pechanga",
+      "date": "2024-07-12T04:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:04",
+      "opponent": "Joseph White",
+      "opponent_slug": "joseph-white",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/caleb-joseph-avila"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/caleb-joseph-avila"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:44:57.057Z"
 }

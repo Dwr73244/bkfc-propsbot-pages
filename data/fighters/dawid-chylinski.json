@@ -5,7 +5,7 @@
   "division": "Heavyweight",
   "bkfc_record": {
     "wins": 4,
-    "losses": 3,
+    "losses": 4,
     "draws": 0,
     "kos": null
   },
@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 91",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:47",
+      "opponent": "Giovanni Melillo",
+      "opponent_slug": "giovanni-melillo",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dawid-chylinski"
+    },
+    {
+      "event": "bkfc-naples",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:47",
+      "opponent": "gianni-melillo",
+      "opponent_slug": "gianni-melillo",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 81 - Manchester",
+      "event_slug": "bkfc-manchester",
+      "date": "2025-09-27T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:55",
+      "opponent": "Dec Spelman",
+      "opponent_slug": "dec-spelman",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dawid-chylinski"
+    },
+    {
+      "event": "BKFC 77",
+      "event_slug": "bkfc-birmingham",
+      "date": "2025-06-28T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:46",
+      "opponent": "Jim Wallhead",
+      "opponent_slug": "jim-wallhead",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dawid-chylinski"
+    },
+    {
+      "event": "BKFC Fight Night Manchester: Chipchase vs. Fox",
+      "event_slug": "bkfc-fight-night-manchester-2025-03-29",
+      "date": "2025-03-29T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:20",
+      "opponent": "gaz-corran",
+      "opponent_slug": "gaz-corran",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/dawid-chylinski"
   ],
   "last_updated": "2026-04-19",
   "elo": 1457,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:47:24.887Z"
 }

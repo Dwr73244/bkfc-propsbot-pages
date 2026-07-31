@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 29: Brawl in the Pines III",
+      "event_slug": "byb-29-brawl-in-the-pines-iii",
+      "date": "2024-08-10T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "cecilia-ulloa",
+      "opponent_slug": "cecilia-ulloa",
+      "result": "L"
+    },
+    {
+      "event": "BYB 21: Fall Brawl",
+      "event_slug": "byb-21-fall-brawl",
+      "date": "2023-10-21T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "agnesa-kirakosian",
+      "opponent_slug": "agnesa-kirakosian",
+      "result": "L"
+    },
+    {
+      "event": "BYB 13: Tampa Brawl For It All",
+      "event_slug": "byb-13-tampa-brawl-for-it-all",
+      "date": "2022-11-19T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "monica-medina",
+      "opponent_slug": "monica-medina",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

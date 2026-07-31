@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-2",
+      "date": "2026-03-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:28",
+      "opponent": "Jeff Saunders",
+      "opponent_slug": "jeff-saunders",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bartek-kanabey"
+    },
+    {
+      "event": "BKFC Fight Night Newcastle: Thompson vs. Boardman",
+      "event_slug": "bkfc-fight-night-newcastle-2025-02-08",
+      "date": "2025-02-08T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "lewis-garside",
+      "opponent_slug": "lewis-garside",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Prospects Newcastle",
+      "event_slug": "bkfc-prospects-newcastle",
+      "date": "2024-06-08T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:35",
+      "opponent": "Jack Culshaw",
+      "opponent_slug": "jack-culshaw",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bartek-kanabey"
+    },
+    {
+      "event": "BKFC 60 Milton Keynes: Lilley vs. Tenaglia",
+      "event_slug": "bkfc-60",
+      "date": "2024-04-06T20:00:00.000Z",
+      "method": "TKO (referee stoppage)",
+      "round": 1,
+      "time": "0:54",
+      "opponent": "bakhtyor-kudratov",
+      "opponent_slug": "bakhtyor-kudratov",
+      "result": "W"
+    },
+    {
+      "event": "BKFC: Prospects 2",
+      "event_slug": "bkfc-prospect-series-2",
+      "date": "2023-10-14T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Shaun Kissane",
+      "opponent_slug": "shaun-kissane",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bartek-kanabey"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1502,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:44:43.413Z"
 }

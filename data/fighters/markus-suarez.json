@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 62",
+      "event_slug": "bkfc-62-hollywood",
+      "date": "2024-06-21T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:03",
+      "opponent": "David Simpson",
+      "opponent_slug": "david-simpson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/markus-suarez"
+    },
+    {
+      "event": "BKFC Fight Night Miami: Davis vs. Wilson",
+      "event_slug": "bkfc-fight-night-miami-2024",
+      "date": "2024-03-15T20:00:00.000Z",
+      "method": "KO (punches)",
+      "round": 1,
+      "time": "0:28",
+      "opponent": "marcus-williamson",
+      "opponent_slug": "marcus-williamson",
+      "result": "W"
+    },
+    {
+      "event": "BKFC: Prospects 1 \"Pro\"",
+      "event_slug": "bkfc-prospects-1-miami",
+      "date": "2023-08-24T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:22",
+      "opponent": "Drew Nolan",
+      "opponent_slug": "drew-nolan",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/markus-suarez"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/markus-suarez"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:14.676Z"
 }

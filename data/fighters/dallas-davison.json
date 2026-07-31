@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:27",
+      "opponent": "Francesco Ricchi",
+      "opponent_slug": "francesco-ricchi",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dallas-davison"
+    },
+    {
+      "event": "BKFC on DAZN - Montana",
+      "event_slug": "bkfc-on-dazn-montana",
+      "date": "2024-11-09T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Christian Torres",
+      "opponent_slug": "christian-torres",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dallas-davison"
+    },
+    {
+      "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+      "event_slug": "bkfc-59",
+      "date": "2024-03-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:19",
+      "opponent": "donald-sanchez",
+      "opponent_slug": "donald-sanchez",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 44 Montana: Stewart vs. Lopez",
+      "event_slug": "bkfc-44",
+      "date": "2023-06-09T20:00:00.000Z",
+      "method": "TKO (corner stoppage)",
+      "round": 4,
+      "time": "2:00",
+      "opponent": "lloyd-mix",
+      "opponent_slug": "lloyd-mix",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 44",
+      "event_slug": "bkfc-44-montana",
+      "date": "2023-06-09T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "02:00",
+      "opponent": "Lloyd Woodward",
+      "opponent_slug": "lloyd-woodward",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dallas-davison"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1459,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:03.743Z"
 }

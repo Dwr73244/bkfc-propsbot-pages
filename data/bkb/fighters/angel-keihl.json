@@ -29,7 +29,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 29: Brawl in the Pines III",
+      "event_slug": "byb-29-brawl-in-the-pines-iii",
+      "date": "2024-08-10T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "desiree-davila",
+      "opponent_slug": "desiree-davila",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

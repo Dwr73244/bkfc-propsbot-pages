@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 64",
+      "event_slug": "bkfc-64-coventry-tierney-vs-graham",
+      "date": "2024-08-10T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:34",
+      "opponent": "Conor Cooke",
+      "opponent_slug": "conor-cooke",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mason-shaw"
+    },
+    {
+      "event": "BKFC 55 - Leeds",
+      "event_slug": "bkfc-55-leeds",
+      "date": "2023-11-18T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:29",
+      "opponent": "Matty Hodgson",
+      "opponent_slug": "matty-hodgson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mason-shaw"
+    },
+    {
+      "event": "BKFC 37 London: Tierney vs. Lindsey",
+      "event_slug": "bkfc-37",
+      "date": "2023-03-04T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "lee-browne",
+      "opponent_slug": "lee-browne",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/mason-shaw"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:45:14.765Z"
 }

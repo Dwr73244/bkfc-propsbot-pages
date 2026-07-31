@@ -29,7 +29,63 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 41: Brawl in Duval II",
+      "event_slug": "bkb-41-brawl-in-duval-ii",
+      "date": "2025-05-31T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": null,
+      "opponent": "tommy-aaron",
+      "opponent_slug": "tommy-aaron",
+      "result": "L"
+    },
+    {
+      "event": "BYB 29: Brawl in the Pines III",
+      "event_slug": "byb-29-brawl-in-the-pines-iii",
+      "date": "2024-08-10T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "robert-serna",
+      "opponent_slug": "robert-serna",
+      "result": "W"
+    },
+    {
+      "event": "BYB 25: Brawl on the Bay",
+      "event_slug": "byb-25-brawl-on-the-bay",
+      "date": "2024-04-04T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "cub-hawkins",
+      "opponent_slug": "cub-hawkins",
+      "result": "L"
+    },
+    {
+      "event": "BYB 17: Brawl at Rock Hill",
+      "event_slug": "byb-17-brawl-at-rock-hill",
+      "date": "2023-05-13T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": null,
+      "opponent": "trevor-ollison",
+      "opponent_slug": "trevor-ollison",
+      "result": "W"
+    },
+    {
+      "event": "BYB 14: Carolina Brawl",
+      "event_slug": "byb-14-carolina-brawl",
+      "date": "2022-12-09T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "nathan-mitchell",
+      "opponent_slug": "nathan-mitchell",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

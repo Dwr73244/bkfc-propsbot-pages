@@ -29,11 +29,39 @@
     "facebook": null
   },
   "bio": "American mixed martial artist who turned pro in 2013 and competed in the UFC from 2020 to 2024, earning three Performance of the Night bonuses across flyweight through featherweight. Compiled a 16-3 MMA record with notable wins over Johnny Munoz and Jimmy Flick. Released by the UFC in June 2024 and signed with BKFC in September 2024, opening his bare-knuckle career 2-0 with a title shot against Jamel Herring scheduled for May 2026.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-hammond",
+      "date": "2025-10-18T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:45",
+      "opponent": "Tyler Randall",
+      "opponent_slug": "tyler-randall",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/nate-maness"
+    },
+    {
+      "event": "BKFC 69",
+      "event_slug": "bkfc-69-richardson-vs-larrimore",
+      "date": "2024-12-06T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:59",
+      "opponent": "Nick Burgos",
+      "opponent_slug": "nick-burgos",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/nate-maness"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-palm-desert",
     "https://www.bkfc.com/fighters/nate-maness",
     "https://en.wikipedia.org/wiki/Nate_Maness"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:45:15.764Z"
 }

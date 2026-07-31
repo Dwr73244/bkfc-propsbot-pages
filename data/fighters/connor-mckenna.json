@@ -28,7 +28,43 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "Decision (split)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "lex-ludlow",
+      "opponent_slug": "lex-ludlow",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 61 Connecticut: Rivera vs. Straus",
+      "event_slug": "bkfc-61",
+      "date": "2024-05-11T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 3,
+      "time": "1:49",
+      "opponent": "zach-calmus",
+      "opponent_slug": "zach-calmus",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 44",
+      "event_slug": "bkfc-44-montana",
+      "date": "2023-06-09T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:35",
+      "opponent": "Brady Meister",
+      "opponent_slug": "brady-meister",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/connor-mckenna"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +72,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1462,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:02.169Z"
 }

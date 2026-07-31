@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 25: Brawl on the Bay",
+      "event_slug": "byb-25-brawl-on-the-bay",
+      "date": "2024-04-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "martin-brown",
+      "opponent_slug": "martin-brown",
+      "result": "L"
+    },
+    {
+      "event": "BYB 16: Desert Brawl",
+      "event_slug": "byb-16-desert-brawl",
+      "date": "2023-03-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "szymon-szynkiewicz",
+      "opponent_slug": "szymon-szynkiewicz",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

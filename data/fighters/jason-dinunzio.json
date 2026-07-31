@@ -6,7 +6,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-clearwater",
+      "date": "2026-04-24T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Quinton Foye",
+      "opponent_slug": "quinton-foye",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jason-dinunzio"
+    },
+    {
+      "event": "BKFC - Fight Night Philly",
+      "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
+      "date": "2025-07-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:23",
+      "opponent": "Dalvin Blair",
+      "opponent_slug": "dalvin-blair",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jason-dinunzio"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/jason-dinunzio"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:47:29.770Z"
 }

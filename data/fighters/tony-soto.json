@@ -5,7 +5,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 6,
-    "losses": 3,
+    "losses": 4,
     "draws": 0,
     "kos": 1
   },
@@ -28,7 +28,73 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Nashville",
+      "event_slug": "bkfc-nashville",
+      "date": "2026-06-19T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "JC Deleon",
+      "opponent_slug": "jc-deleon",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-soto"
+    },
+    {
+      "event": "BKFC - Knucklemania VI",
+      "event_slug": "knucklemania-vi",
+      "date": "2026-02-07T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ben Bonner",
+      "opponent_slug": "ben-bonner",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-soto"
+    },
+    {
+      "event": "BKFC 76 - Texas",
+      "event_slug": "bkfc-fort-worth",
+      "date": "2025-06-21T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ben Bonner",
+      "opponent_slug": "ben-bonner",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-soto"
+    },
+    {
+      "event": "BKFC - Spain",
+      "event_slug": "bkfc-on-dazn-spain",
+      "date": "2024-10-12T04:00:00.000Z",
+      "method": "Majority Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Franco Tenaglia",
+      "opponent_slug": "franco-tenaglia",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-soto"
+    },
+    {
+      "event": "BKFC 52",
+      "event_slug": "bkfc-52-south-carolina",
+      "date": "2023-10-20T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Kevin Croom",
+      "opponent_slug": "kevin-croom",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-soto"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/tony-soto"
@@ -39,5 +105,6 @@
     "ko-hunter"
   ],
   "elo": 1540,
-  "elo_peak": 1540
+  "elo_peak": 1540,
+  "history_last_verified": "2026-07-31T18:47:38.358Z"
 }

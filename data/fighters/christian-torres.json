@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC on DAZN - Montana",
+      "event_slug": "bkfc-on-dazn-montana",
+      "date": "2024-11-09T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Dallas Davision",
+      "opponent_slug": "dallas-davision",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/christian-torres"
+    },
+    {
+      "event": "BKFC 50",
+      "event_slug": "bkfc-50-denver",
+      "date": "2023-09-22T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Andrew Yates",
+      "opponent_slug": "andrew-yates",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/christian-torres"
+    },
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:10",
+      "opponent": "brandon-girtz",
+      "opponent_slug": "brandon-girtz",
+      "result": "L"
+    },
+    {
+      "event": "BKFC Knucklemania III",
+      "event_slug": "bkfc-knucklemania-3",
+      "date": "2023-02-17T20:00:00.000Z",
+      "method": "TKO (uppercut)",
+      "round": 2,
+      "time": "1:02",
+      "opponent": "joshua-moreno",
+      "opponent_slug": "joshua-moreno",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 31",
+      "event_slug": "bkfc-31-denver-richman-vs-doolittle",
+      "date": "2022-10-15T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Cory Madden",
+      "opponent_slug": "cory-madden",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/christian-torres"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/christian-torres"
   ],
   "last_updated": "2026-04-19",
   "elo": 1457,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:59.614Z"
 }

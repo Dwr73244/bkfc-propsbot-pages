@@ -5,8 +5,8 @@
   "nickname": "SNAKE",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 7,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,76 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 83",
+      "event_slug": "bkfc-rome",
+      "date": "2025-10-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:18",
+      "opponent": "Jimmy Sweeney",
+      "opponent_slug": "jimmy-sweeney",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/carlos-trinidad"
+    },
+    {
+      "event": "BKFC: Dubai (Day 1)",
+      "event_slug": "bkfc-71-dubai-trout-vs-trinidad-snake",
+      "date": "2025-04-04T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 6,
+      "time": "02:00",
+      "opponent": "Austin Trout",
+      "opponent_slug": "austin-trout",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/carlos-trinidad"
+    },
+    {
+      "event": "BKFC on DAZN - Montana",
+      "event_slug": "bkfc-on-dazn-montana",
+      "date": "2024-11-09T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:56",
+      "opponent": "Zach Juusola",
+      "opponent_slug": "zach-juusola",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/carlos-trinidad"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha",
+      "date": "2024-05-17T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Dustin Pague",
+      "opponent_slug": "dustin-pague",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/carlos-trinidad"
+    },
+    {
+      "event": "BKFC 43",
+      "event_slug": "bkfc-43-omaha-alexander-vs-smith",
+      "date": "2023-05-19T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Elvin Brito",
+      "opponent_slug": "elvin-brito",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/carlos-trinidad"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/carlos-trinidad"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-07-31T18:47:15.705Z"
 }

@@ -28,12 +28,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 44 Montana: Stewart vs. Lopez",
+      "event_slug": "bkfc-44",
+      "date": "2023-06-09T20:00:00.000Z",
+      "method": "TKO (corner stoppage)",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "bryce-henry",
+      "opponent_slug": "bryce-henry",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 29 - Montana II",
+      "event_slug": "bkfc-29-montana-2",
+      "date": "2022-09-10T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:48",
+      "opponent": "Rome Lindsay",
+      "opponent_slug": "rome-lindsay",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/billy-wagner"
+    },
+    {
+      "event": "BKFC - Jackson 2",
+      "event_slug": "bkfc-fight-night-belcher-vs-tate",
+      "date": "2022-06-11T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:59",
+      "opponent": "Jeremiah Riggs",
+      "opponent_slug": "jeremiah-riggs",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/billy-wagner"
+    },
+    {
+      "event": "BKFC 24",
+      "event_slug": "bkfc-24-hunt-vs-riggs",
+      "date": "2022-04-30T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:43",
+      "opponent": "Jacob Kreitel",
+      "opponent_slug": "jacob-kreitel",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/billy-wagner"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/billy-wagner"
   ],
   "last_updated": "2026-04-19",
   "elo": 1479,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:47.360Z"
 }

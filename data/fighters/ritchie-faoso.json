@@ -29,11 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
+      "event_slug": "bkfc-fight-night-australia-townsville",
+      "date": "2026-04-18T09:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "darcy-braine",
+      "opponent_slug": "darcy-braine",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Australia",
+      "event_slug": "bkfc-australia-2",
+      "date": "2026-04-18T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Richie Fa'aoso",
+      "opponent_slug": "richie-fa-aoso",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ritchie-faoso"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/ritchie-faoso"
   ],
   "last_updated": "2026-04-19",
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:16.841Z"
 }

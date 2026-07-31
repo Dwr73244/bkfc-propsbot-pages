@@ -6,7 +6,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 4,
+    "losses": 5,
     "draws": 0,
     "kos": null
   },
@@ -29,11 +29,74 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Liberty Brawl",
+      "event_slug": "bkfc-liberty-brawl",
+      "date": "2026-07-03T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:33",
+      "opponent": "Patrick Sullivan",
+      "opponent_slug": "patrick-sullivan",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ruben-arroyo"
+    },
+    {
+      "event": "BKFC 88 Denver: Camozzi vs. Rodriguez",
+      "event_slug": "bkfc-88-denver",
+      "date": "2026-04-18T02:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:54",
+      "opponent": "matt-maestas",
+      "opponent_slug": "matt-maestas",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 88",
+      "event_slug": "bkfc-denver",
+      "date": "2026-04-17T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:54",
+      "opponent": "Matthew Maestas",
+      "opponent_slug": "matthew-maestas",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ruben-arroyo"
+    },
+    {
+      "event": "BKFC - Fight Night Michigan",
+      "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
+      "date": "2025-11-01T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:31",
+      "opponent": "Parris Boyd",
+      "opponent_slug": "parris-boyd",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ruben-arroyo"
+    },
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "lorenzo-coca",
+      "opponent_slug": "lorenzo-coca",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/ruben-arroyo"
   ],
   "last_updated": "2026-04-19",
   "elo": 1455,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:47:36.461Z"
 }

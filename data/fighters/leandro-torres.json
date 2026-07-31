@@ -4,7 +4,7 @@
   "nickname": "THE END",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -28,12 +28,49 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-uruguay",
+      "event_slug": "bkfc-fight-night-uruguay",
+      "date": "2026-07-25T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:38",
+      "opponent": "gonzalo-jara",
+      "opponent_slug": "gonzalo-jara",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+      "event_slug": "bkfc-59",
+      "date": "2024-03-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:58",
+      "opponent": "felipe-chavez",
+      "opponent_slug": "felipe-chavez",
+      "result": "L"
+    },
+    {
+      "event": "BKFC: Prospects 1 \"Pro\"",
+      "event_slug": "bkfc-prospects-1-miami",
+      "date": "2023-08-24T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:29",
+      "opponent": "Hary Cruz",
+      "opponent_slug": "hary-cruz",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leandro-torres"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/leandro-torres"
   ],
   "last_updated": "2026-04-19",
   "elo": 1503,
-  "elo_peak": 1503
+  "elo_peak": 1503,
+  "history_last_verified": "2026-07-31T18:47:32.740Z"
 }

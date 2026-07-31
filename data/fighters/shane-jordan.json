@@ -28,10 +28,36 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T20:00:00.000Z",
+      "method": "Draw (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "david-diaz",
+      "opponent_slug": "david-diaz",
+      "result": "D"
+    },
+    {
+      "event": "BKFC - Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T04:00:00.000Z",
+      "method": "Unanimous Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Shane Jordan",
+      "opponent_slug": "shane-jordan",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/shane-jordan"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/shane-jordan"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:45:17.597Z"
 }

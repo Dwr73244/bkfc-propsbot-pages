@@ -34,7 +34,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 34: Brawl in the Pines IV",
+      "event_slug": "byb-34-brawl-in-the-pines-iv",
+      "date": "2024-12-06T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "yordan-fuentes",
+      "opponent_slug": "yordan-fuentes",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

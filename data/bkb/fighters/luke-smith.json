@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 43: Bolton Brawl",
+      "event_slug": "bkb-43-bolton-brawl",
+      "date": "2025-07-05T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": null,
+      "opponent": "aaron-mccallum",
+      "opponent_slug": "aaron-mccallum",
+      "result": "L"
+    },
+    {
+      "event": "BYB 33: Wolverhampton Brawl",
+      "event_slug": "byb-33-wolverhampton-brawl",
+      "date": "2024-11-09T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": null,
+      "opponent": "nathan-massey",
+      "opponent_slug": "nathan-massey",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

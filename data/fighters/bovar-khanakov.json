@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Los Angeles",
+      "event_slug": "bkfc-fight-night-los-angeles",
+      "date": "2024-11-23T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ruben Warr",
+      "opponent_slug": "ruben-warr",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bovar-khanakov"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "TKO (doctor stoppage)",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "james-brown",
+      "opponent_slug": "james-brown",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 49",
+      "event_slug": "bkfc-49-miami",
+      "date": "2023-08-25T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Fredy Masabo",
+      "opponent_slug": "fredy-masabo",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bovar-khanakov"
+    },
+    {
+      "event": "BKFC 38 Delray Beach: Nguyen vs. Straus",
+      "event_slug": "bkfc-38",
+      "date": "2023-04-21T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "freddy-masabo",
+      "opponent_slug": "freddy-masabo",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 38",
+      "event_slug": "bkfc-38-nguyen-vs-straus",
+      "date": "2023-04-21T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Fredy Masabo",
+      "opponent_slug": "fredy-masabo",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bovar-khanakov"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1498,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:44:51.074Z"
 }

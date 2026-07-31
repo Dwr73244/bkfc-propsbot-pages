@@ -36,7 +36,7 @@
 
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://bkfc.propsbot.ai/guide/methodology/#article","headline":"How the PropsBot Model Works","description":"Transparent explainer of the PropsBot BKFC prediction model — factor weights, point-in-time backtest methodology, reliability diagram, Brier score, and how Advantage Score + Predictability are computed.","datePublished":"2026-05-03","dateModified":"2026-05-03","url":"https://bkfc.propsbot.ai/guide/methodology/","mainEntityOfPage":"https://bkfc.propsbot.ai/guide/methodology/","author":{"@id":"https://bkfc.propsbot.ai/about/#author"},"publisher":{"@id":"https://bkfc.propsbot.ai/#publisher"},"isAccessibleForFree":true},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How accurate is the PropsBot BKFC model?","acceptedAnswer":{"@type":"Answer","text":"59.8% on 127 point-in-time backtested picks out of 325 total historical bouts. The model skips toss-up bouts (45-55% range) and only commits to picks where it has meaningful signal. Brier score 0.2473 (baseline 0.25). Edge over coin-flip: +9.8 percentage points."}},{"@type":"Question","name":"What's the difference between Advantage Score and Predictability?","acceptedAnswer":{"@type":"Answer","text":"Advantage Score is the model's probability × 100 for each fighter (the two scores sum to 100). Predictability is how much you should trust that specific pick — a 67/33 prediction with Predictability 80 is far more bettable than the same prediction with Predictability 30."}},{"@type":"Question","name":"Is PropsBot's model machine-learned?","acceptedAnswer":{"@type":"Answer","text":"No. It's a transparent factor-based scoring system with hand-set weights that get recalibrated against new historical data. We built a pure-JS logistic regression trainer for comparison; on our 325 training bouts it scored 52.9% cross-validation accuracy, below our 59.8% heuristic baseline. LR didn't beat the heuristic so we didn't deploy it. We'll revisit when we have 1000+ training bouts."}}]}]}</script>
 
-  
+
   <link rel="stylesheet" href="../../assets/css/tailwind.css" />
   <link rel="stylesheet" href="../../assets/css/site.css" />
 </head>
@@ -134,7 +134,7 @@
         <p class="text-white/70 text-lg leading-relaxed">The 14 factors, their empirical accuracy, and what &quot;Predictability 68&quot; actually means.</p>
       </header>
       <div class="max-w-3xl mx-auto px-4 sm:px-6 pb-8 guide-content">
-        
+
         <section class="guide-section" id="the-model-in-one-sentence">
           <h2><a href="#the-model-in-one-sentence" class="guide-anchor" aria-hidden="true">#</a>The model in one sentence</h2>
           <div class="guide-body"><p><strong>How PropsBot BKFC predicts a fight:</strong></p><ol><li>Score each fighter on 14 factors &mdash; ELO, recent form, KO rate, age, reach, pro boxing background, MMA background, style, activity, cut susceptibility, schedule strength, experience, height, stance.</li><li>Combine via calibrated weighted blend.</li><li>Anchor 55/45 on de-vigged market odds when available.</li><li>Output <strong>Advantage Score</strong> (0&ndash;100, equivalent to <em>Confidence Score</em> on PropsBot.AI) and <strong>Predictability</strong> (0&ndash;100, equivalent to <em>Edge Score</em> on PropsBot.AI).</li></ol><p>It's a <strong>transparent factor-based scoring system</strong> &mdash; not a black-box machine-learned model. The brand-alias parenthetical above is intentional: PropsBot.AI's player-prop product uses <em>Confidence Score</em> + <em>Edge Score</em>, and PropsBot BKFC uses <em>Advantage Score</em> + <em>Predictability</em> for the same two concepts.</p></div>
@@ -177,7 +177,7 @@
       </div>
       <section class="max-w-3xl mx-auto px-4 sm:px-6 pb-8">
              <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">Frequently Asked</h2>
-             
+
         <details class="guide-faq">
           <summary>How accurate is the PropsBot BKFC model?</summary>
           <div class="guide-faq-body">59.8% on 127 point-in-time backtested picks out of 325 total historical bouts. The model skips toss-up bouts (45-55% range) and only commits to picks where it has meaningful signal. Brier score 0.2473 (baseline 0.25). Edge over coin-flip: +9.8 percentage points.</div>
@@ -258,7 +258,7 @@
     </a>
   </nav>
   <script src="../../assets/js/common.js"></script>
-  
+
   <script>
     // Highlight active mobile tab based on current URL
     (function () {

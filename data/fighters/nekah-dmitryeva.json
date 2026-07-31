@@ -28,7 +28,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 35 Myrtle Beach: Cedeno vs. Slaveski",
+      "event_slug": "bkfc-35",
+      "date": "2023-01-27T20:00:00.000Z",
+      "method": "Decision (split)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "andy-nguyen",
+      "opponent_slug": "andy-nguyen",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
   ],

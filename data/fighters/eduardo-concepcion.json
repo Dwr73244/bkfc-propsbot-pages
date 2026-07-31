@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Miami: Davis vs. Wilson",
+      "event_slug": "bkfc-fight-night-miami-2024",
+      "date": "2024-03-15T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 1,
+      "time": "1:34",
+      "opponent": "alvin-davis",
+      "opponent_slug": "alvin-davis",
+      "result": "W"
+    },
+    {
+      "event": "Fight Night FTL",
+      "event_slug": "bkfc-ft-lauderdale",
+      "date": "2022-04-21T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Douglas (Harry) Coltrane",
+      "opponent_slug": "douglas-harry-coltrane",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/eduardo-concepcion"
+    },
+    {
+      "event": "BKFC 18",
+      "event_slug": "bkfc-18-beltran-vs-shewmaker",
+      "date": "2021-06-26T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:05",
+      "opponent": "Gabriel Brown",
+      "opponent_slug": "gabriel-brown",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/eduardo-concepcion"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/eduardo-concepcion"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:06.991Z"
 }

@@ -28,10 +28,36 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 58 Bulgaria: Markulev vs. Kolev",
+      "event_slug": "bkfc-58",
+      "date": "2024-03-22T20:00:00.000Z",
+      "method": "Draw (split)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "veselin-ivanov",
+      "opponent_slug": "veselin-ivanov",
+      "result": "D"
+    },
+    {
+      "event": "BKFC 58 - Bulgaria",
+      "event_slug": "bkfc-58-bulgaria",
+      "date": "2024-03-22T04:00:00.000Z",
+      "method": "Split Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Zohrab Azimov",
+      "opponent_slug": "zohrab-azimov",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/zohrab-azimov"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/zohrab-azimov"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:45:20.833Z"
 }

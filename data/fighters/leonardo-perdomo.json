@@ -28,7 +28,71 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 87",
+      "event_slug": "bkfc-87-hollywood",
+      "date": "2026-03-20T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:07",
+      "opponent": "Rashad Coulter",
+      "opponent_slug": "rashad-coulter",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leonardo-perdomo"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T05:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:33",
+      "opponent": "Corey Willis",
+      "opponent_slug": "corey-willis",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leonardo-perdomo"
+    },
+    {
+      "event": "BKFC 80",
+      "event_slug": "bkfc-hollywood-2",
+      "date": "2025-09-12T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:09",
+      "opponent": "Arnold Adams",
+      "opponent_slug": "arnold-adams",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leonardo-perdomo"
+    },
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:26",
+      "opponent": "Arnold Adams",
+      "opponent_slug": "arnold-adams",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leonardo-perdomo"
+    },
+    {
+      "event": "BKFC 70 Hollywood, FL: Palomino vs. Davis",
+      "event_slug": "bkfc-70",
+      "date": "2025-03-27T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:13",
+      "opponent": "steve-herelius",
+      "opponent_slug": "steve-herelius",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +100,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1543,
-  "elo_peak": 1543
+  "elo_peak": 1543,
+  "history_last_verified": "2026-07-31T18:45:13.625Z"
 }

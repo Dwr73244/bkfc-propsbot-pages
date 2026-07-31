@@ -4,7 +4,7 @@
   "nickname": "THE NIGHTMARE",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 3,
+    "wins": 4,
     "losses": 2,
     "draws": 0,
     "kos": 1
@@ -28,7 +28,71 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-fight-night-hammond",
+      "date": "2026-06-26T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:40",
+      "opponent": "Ronny Hauser",
+      "opponent_slug": "ronny-hauser",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/justin-street"
+    },
+    {
+      "event": "BKFC - Fight Night Michigan",
+      "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
+      "date": "2025-11-01T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "AJ Craig",
+      "opponent_slug": "aj-craig",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/justin-street"
+    },
+    {
+      "event": "BKFC 70 Hollywood, FL: Palomino vs. Davis",
+      "event_slug": "bkfc-70",
+      "date": "2025-03-27T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "matt-russo",
+      "opponent_slug": "matt-russo",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 69",
+      "event_slug": "bkfc-69-richardson-vs-larrimore",
+      "date": "2024-12-06T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Nathan Rivera",
+      "opponent_slug": "nathan-rivera",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/justin-street"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Justin Ibarrola",
+      "opponent_slug": "justin-ibarrola",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/justin-street"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +100,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1539,
-  "elo_peak": 1539
+  "elo_peak": 1539,
+  "history_last_verified": "2026-07-31T18:47:31.415Z"
 }

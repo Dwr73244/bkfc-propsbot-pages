@@ -28,12 +28,49 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 42 Greenville: Soto vs. Goodjohn",
+      "event_slug": "bkfc-42",
+      "date": "2023-05-12T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:41",
+      "opponent": "keith-richardson",
+      "opponent_slug": "keith-richardson",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 39 Norfolk: Barnett vs. Alvarez",
+      "event_slug": "bkfc-39",
+      "date": "2023-03-24T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "anthony-foye",
+      "opponent_slug": "anthony-foye",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 39",
+      "event_slug": "bkfc-39-norfolk",
+      "date": "2023-03-24T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Quinton Foye",
+      "opponent_slug": "quinton-foye",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cody-jenkins"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/cody-jenkins"
   ],
   "last_updated": "2026-04-19",
   "elo": 1461,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:59.711Z"
 }

@@ -29,7 +29,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 12: London Brawl",
+      "event_slug": "byb-12-london-brawl",
+      "date": "2022-10-16T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "jody-meikle",
+      "opponent_slug": "jody-meikle",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

@@ -29,7 +29,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Clearwater: Gaskins vs Guymon",
+      "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
+      "date": "2026-04-25T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "frankie-solomon",
+      "opponent_slug": "frankie-solomon",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/rickie-mcconnico"
   ],

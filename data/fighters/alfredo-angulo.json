@@ -28,7 +28,32 @@
     "facebook": "https://www.facebook.com/alfredoangulo.elperro"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC on DAZN - Montana",
+      "event_slug": "bkfc-on-dazn-montana",
+      "date": "2024-11-09T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Julian Lane",
+      "opponent_slug": "julian-lane",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alfredo-angulo"
+    },
+    {
+      "event": "BKFC Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T20:00:00.000Z",
+      "method": "KO (punches)",
+      "round": 1,
+      "time": "1:07",
+      "opponent": "jeremiah-riggs",
+      "opponent_slug": "jeremiah-riggs",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/alfredo-angulo",
@@ -513,5 +538,6 @@
       "lost_date": "2011-11-05",
       "status": "lost"
     }
-  ]
+  ],
+  "history_last_verified": "2026-07-31T18:44:15.846Z"
 }

@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 74 - Salt Lake City",
+      "event_slug": "bkfc-74-salt-lake-city",
+      "date": "2025-05-10T04:00:00.000Z",
+      "method": null,
+      "round": 4,
+      "time": "01:41",
+      "opponent": "Trever Bradshaw",
+      "opponent_slug": "trever-bradshaw",
+      "result": "NC",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jim-pulgar"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Joshua Alvarez",
+      "opponent_slug": "joshua-alvarez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jim-pulgar"
+    },
+    {
+      "event": "BKFC Fight Night Miami: Davis vs. Wilson",
+      "event_slug": "bkfc-fight-night-miami-2024",
+      "date": "2024-03-15T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "wayna-reid",
+      "opponent_slug": "wayna-reid",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jim-pulgar"
   ],
   "last_updated": "2026-04-19",
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:10.770Z"
 }

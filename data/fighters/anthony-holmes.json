@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Derby",
+      "event_slug": "bkfc-fight-night-derby",
+      "date": "2025-12-13T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Conor Cooke",
+      "opponent_slug": "conor-cooke",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-holmes"
+    },
+    {
+      "event": "BKFC 68",
+      "event_slug": "bkfc-68-faulkner-vs-oscar",
+      "date": "2024-11-02T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:38",
+      "opponent": "Charles Wasserman",
+      "opponent_slug": "charles-wasserman",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-holmes"
+    },
+    {
+      "event": "BKFC 55 - Leeds",
+      "event_slug": "bkfc-55-leeds",
+      "date": "2023-11-18T05:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "02:00",
+      "opponent": "Bartlomiej Krol",
+      "opponent_slug": "bartlomiej-krol",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-holmes"
+    },
+    {
+      "event": "BKFC 40 Leeds: Holmes vs. Christie",
+      "event_slug": "bkfc-40",
+      "date": "2023-04-22T20:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": null,
+      "opponent": "danny-christie",
+      "opponent_slug": "danny-christie",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Newcastle",
+      "event_slug": "bkfc-newcastle-terrill-vs-banks",
+      "date": "2022-11-26T05:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "00:29",
+      "opponent": "Darren Hendry",
+      "opponent_slug": "darren-hendry",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-holmes"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/anthony-holmes"
   ],
   "last_updated": "2026-04-19",
   "elo": 1474,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:29.249Z"
 }

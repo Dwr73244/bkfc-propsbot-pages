@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 86",
+      "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
+      "date": "2026-01-17T05:00:00.000Z",
+      "method": "Split Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Gregorio Gonzalez",
+      "opponent_slug": "gregorio-gonzalez",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jared-lennon"
+    },
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-mohegan-sun",
+      "date": "2025-06-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:15",
+      "opponent": "Ishiah Carson",
+      "opponent_slug": "ishiah-carson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jared-lennon"
+    },
+    {
+      "event": "BKFC on DAZN Mohegan Sun: Lane vs. VanCamp",
+      "event_slug": "bkfc-on-dazn-mohegan-sun-2025",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:45",
+      "opponent": "jacob-kreitel",
+      "opponent_slug": "jacob-kreitel",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jared-lennon"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:10.415Z"
 }

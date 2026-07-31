@@ -28,7 +28,69 @@
     "facebook": "https://www.facebook.com/robbie.peralta/?show_switched_toast=0&amp;show_invite_to_follow=0&amp;show_switched_tooltip=0&amp;show_podcast_settings=0&amp;show_community_transition=0"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T04:00:00.000Z",
+      "method": "Majority Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Bryan Duran",
+      "opponent_slug": "bryan-duran",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/robbie-peralta"
+    },
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "jordan-christensen",
+      "opponent_slug": "jordan-christensen",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Pechanga",
+      "event_slug": "bkfc-fight-night-pechanga",
+      "date": "2024-07-12T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:06",
+      "opponent": "Ruben Warr",
+      "opponent_slug": "ruben-warr",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/robbie-peralta"
+    },
+    {
+      "event": "BKFC 57: Palomino vs. Trout",
+      "event_slug": "bkfc-57",
+      "date": "2024-02-02T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "bryce-henry",
+      "opponent_slug": "bryce-henry",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Jackson 2",
+      "event_slug": "bkfc-fight-night-belcher-vs-tate",
+      "date": "2022-06-11T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Martin Brown",
+      "opponent_slug": "martin-brown",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/robbie-peralta"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1500,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:16.925Z"
 }

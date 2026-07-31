@@ -28,12 +28,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Philadelphia",
+      "event_slug": "bkfc-fight-night-philly",
+      "date": "2025-03-21T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:46",
+      "opponent": "Patrick Carroll",
+      "opponent_slug": "patrick-carroll",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/michael-furnier"
+    },
+    {
+      "event": "BKFC - Fight Night Kansas City",
+      "event_slug": "bkfc-fight-night-kansas-city",
+      "date": "2024-08-16T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:56",
+      "opponent": "JW Kiser",
+      "opponent_slug": "jw-kiser",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/michael-furnier"
+    },
+    {
+      "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+      "event_slug": "bkfc-59",
+      "date": "2024-03-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:42",
+      "opponent": "manuel-otero",
+      "opponent_slug": "manuel-otero",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 39",
+      "event_slug": "bkfc-39-norfolk",
+      "date": "2023-03-24T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:49",
+      "opponent": "Zach Calmus",
+      "opponent_slug": "zach-calmus",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/michael-furnier"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/michael-furnier"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:15.052Z"
 }

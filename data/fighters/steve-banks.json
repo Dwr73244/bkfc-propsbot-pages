@@ -5,7 +5,7 @@
   "division": "Heavyweight",
   "bkfc_record": {
     "wins": 4,
-    "losses": 3,
+    "losses": 4,
     "draws": 0,
     "kos": 1
   },
@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-fight-night-hammond",
+      "date": "2026-06-26T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:21",
+      "opponent": "Arnold Adams",
+      "opponent_slug": "arnold-adams",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/steve-banks"
+    },
+    {
+      "event": "BKFC: Italy",
+      "event_slug": "bkfc-73-italy",
+      "date": "2025-04-26T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:36",
+      "opponent": "Haze Hepi",
+      "opponent_slug": "haze-hepi",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/steve-banks"
+    },
+    {
+      "event": "BKFC Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:54",
+      "opponent": "joey-dawejko",
+      "opponent_slug": "joey-dawejko",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:44",
+      "opponent": "Leonardo Perdomo",
+      "opponent_slug": "leonardo-perdomo",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/steve-banks"
+    },
+    {
+      "event": "BKFC - Newcastle",
+      "event_slug": "bkfc-newcastle-terrill-vs-banks",
+      "date": "2022-11-26T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Mick Terrill",
+      "opponent_slug": "mick-terrill",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/steve-banks"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/steve-banks"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:47:41.045Z"
 }

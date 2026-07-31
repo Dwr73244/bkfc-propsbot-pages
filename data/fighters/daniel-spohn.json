@@ -28,7 +28,19 @@
     "facebook": "https://www.facebook.com/dragonspohn"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "2:00",
+      "opponent": "chris-camozzi",
+      "opponent_slug": "chris-camozzi",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/daniel-spohn",

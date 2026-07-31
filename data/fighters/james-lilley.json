@@ -28,7 +28,71 @@
     "facebook": "https://www.facebook.com/jameslilley86"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-2",
+      "date": "2026-03-14T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:38",
+      "opponent": "Yannick van Dinther",
+      "opponent_slug": "yannick-van-dinther",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/james-lilley"
+    },
+    {
+      "event": "BKFC 77",
+      "event_slug": "bkfc-birmingham",
+      "date": "2025-06-28T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Fran Suarez",
+      "opponent_slug": "fran-suarez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/james-lilley"
+    },
+    {
+      "event": "BKFC - Spain",
+      "event_slug": "bkfc-on-dazn-spain",
+      "date": "2024-10-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:08",
+      "opponent": "Felipe Maia",
+      "opponent_slug": "felipe-maia",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/james-lilley"
+    },
+    {
+      "event": "BKFC 60 Milton Keynes: Lilley vs. Tenaglia",
+      "event_slug": "bkfc-60",
+      "date": "2024-04-06T20:00:00.000Z",
+      "method": "Decision (majority)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "franco-tenaglia",
+      "opponent_slug": "franco-tenaglia",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 45",
+      "event_slug": "bkfc-45-palomino-vs-lilley",
+      "date": "2023-06-23T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Luis Palomino",
+      "opponent_slug": "luis-palomino",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/james-lilley"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +100,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1499,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:10.288Z"
 }

@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 34: Brawl in the Pines IV",
+      "event_slug": "byb-34-brawl-in-the-pines-iv",
+      "date": "2024-12-06T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "richie-leak",
+      "opponent_slug": "richie-leak",
+      "result": "W"
+    },
+    {
+      "event": "BYB 28: Bourbon Street Brawl",
+      "event_slug": "byb-28-bourbon-street-brawl",
+      "date": "2024-06-14T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "ike-villanueva",
+      "opponent_slug": "ike-villanueva",
+      "result": "W"
+    },
+    {
+      "event": "BYB 25: Brawl on the Bay",
+      "event_slug": "byb-25-brawl-on-the-bay",
+      "date": "2024-04-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "levi-costa",
+      "opponent_slug": "levi-costa",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

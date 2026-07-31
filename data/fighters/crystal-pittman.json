@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Knucklemania VI",
+      "event_slug": "knucklemania-vi",
+      "date": "2026-02-07T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jade Masson-Wong",
+      "opponent_slug": "jade-masson-wong",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/crystal-pittman"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-fight-night-clearwater-ec210",
+      "date": "2025-05-02T04:00:00.000Z",
+      "method": null,
+      "round": 2,
+      "time": "01:30",
+      "opponent": "Claudia Zamora",
+      "opponent_slug": "claudia-zamora",
+      "result": "NC",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/crystal-pittman"
+    },
+    {
+      "event": "BKFC Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T20:00:00.000Z",
+      "method": "TKO (punches)",
+      "round": 1,
+      "time": "0:48",
+      "opponent": "sydney-smith",
+      "opponent_slug": "sydney-smith",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 47",
+      "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
+      "date": "2023-07-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:07",
+      "opponent": "Toni Tallman",
+      "opponent_slug": "toni-tallman",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/crystal-pittman"
+    },
+    {
+      "event": "BKFC 31",
+      "event_slug": "bkfc-31-denver-richman-vs-doolittle",
+      "date": "2022-10-15T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Khortni Kamyron",
+      "opponent_slug": "khortni-kamyron",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/crystal-pittman"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/crystal-pittman"
   ],
   "last_updated": "2026-04-19",
   "elo": 1523,
-  "elo_peak": 1523
+  "elo_peak": 1523,
+  "history_last_verified": "2026-07-31T18:45:03.473Z"
 }

@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 43 Omaha: Alexander vs. Smith",
+      "event_slug": "bkfc-43",
+      "date": "2023-05-19T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:45",
+      "opponent": "corey-roberts",
+      "opponent_slug": "corey-roberts",
+      "result": "L"
+    },
+    {
+      "event": "Fight Night Omaha 2",
+      "event_slug": "bkfc-fight-night-cochrane-vs-dyer",
+      "date": "2022-05-13T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:42",
+      "opponent": "Josh Krejci",
+      "opponent_slug": "josh-krejci",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tj-benson"
+    },
+    {
+      "event": "BKFC 21",
+      "event_slug": "bkfc-21-cochrane-vs-richman",
+      "date": "2021-09-10T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:29",
+      "opponent": "Cody Land",
+      "opponent_slug": "cody-land",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tj-benson"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/tj-benson"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:18.359Z"
 }

@@ -4,7 +4,7 @@
   "nickname": "JOHNNY CANOLI",
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 4,
+    "wins": 5,
     "losses": 0,
     "draws": 0,
     "kos": 2
@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Liberty Brawl",
+      "event_slug": "bkfc-liberty-brawl",
+      "date": "2026-07-03T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Mike Richman",
+      "opponent_slug": "mike-richman",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/john-garbarino"
+    },
+    {
+      "event": "BKFC - Knucklemania VI",
+      "event_slug": "knucklemania-vi",
+      "date": "2026-02-07T05:00:00.000Z",
+      "method": "TKO",
+      "round": 5,
+      "time": "00:49",
+      "opponent": "Kaine Tomlinson Jr",
+      "opponent_slug": "kaine-tomlinson-jr",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/john-garbarino"
+    },
+    {
+      "event": "BKFC - Fight Night Philly",
+      "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
+      "date": "2025-07-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:48",
+      "opponent": "Erik Lopez",
+      "opponent_slug": "erik-lopez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/john-garbarino"
+    },
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:47",
+      "opponent": "rayne-wells",
+      "opponent_slug": "rayne-wells",
+      "result": "W"
+    },
+    {
+      "event": "BKFC Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:59",
+      "opponent": "apostle-spencer",
+      "opponent_slug": "apostle-spencer",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/john-garbarino"
   ],
   "last_updated": "2026-04-19",
   "elo": 1540,
-  "elo_peak": 1540
+  "elo_peak": 1540,
+  "history_last_verified": "2026-07-31T18:47:30.355Z"
 }

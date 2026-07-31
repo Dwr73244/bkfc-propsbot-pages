@@ -29,7 +29,32 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 91",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:22",
+      "opponent": "Nicholas Vescio",
+      "opponent_slug": "nicholas-vescio",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/nicholas-vescio"
+    },
+    {
+      "event": "bkfc-naples",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:22",
+      "opponent": "jimmy-sweeney",
+      "opponent_slug": "jimmy-sweeney",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/nicholas-vescio"
   ],
@@ -37,5 +62,6 @@
   "elo": 1478,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-07-19"
+  "record_verified": "2026-07-19",
+  "history_last_verified": "2026-07-31T18:45:15.847Z"
 }

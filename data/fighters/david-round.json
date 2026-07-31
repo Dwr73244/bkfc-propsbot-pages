@@ -28,7 +28,67 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Manchester: Chipchase vs. Fox",
+      "event_slug": "bkfc-fight-night-manchester-2025-03-29",
+      "date": "2025-03-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:14",
+      "opponent": "liam-dooley",
+      "opponent_slug": "liam-dooley",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 60 Milton Keynes: Lilley vs. Tenaglia",
+      "event_slug": "bkfc-60",
+      "date": "2024-04-06T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:38",
+      "opponent": "danny-christie",
+      "opponent_slug": "danny-christie",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 37 London: Tierney vs. Lindsey",
+      "event_slug": "bkfc-37",
+      "date": "2023-03-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:28",
+      "opponent": "terry-brazier",
+      "opponent_slug": "terry-brazier",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Newcastle",
+      "event_slug": "bkfc-newcastle-terrill-vs-banks",
+      "date": "2022-11-26T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Nathan Owens",
+      "opponent_slug": "nathan-owens",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/david-round"
+    },
+    {
+      "event": "BKFC 27",
+      "event_slug": "bkfc-27-london",
+      "date": "2022-08-20T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:40",
+      "opponent": "Ash Griffiths",
+      "opponent_slug": "ash-griffiths",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/david-round"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -37,5 +97,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1474,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:05.551Z"
 }

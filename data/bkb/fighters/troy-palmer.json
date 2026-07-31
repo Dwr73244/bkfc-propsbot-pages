@@ -29,7 +29,52 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 43: Bolton Brawl",
+      "event_slug": "bkb-43-bolton-brawl",
+      "date": "2025-07-05T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "gareth-heyes",
+      "opponent_slug": "gareth-heyes",
+      "result": "W"
+    },
+    {
+      "event": "BYB 36: Cardiff Brawl II",
+      "event_slug": "byb-36-cardiff-brawl-ii",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "volodymyr-skurtu",
+      "opponent_slug": "volodymyr-skurtu",
+      "result": "L"
+    },
+    {
+      "event": "BYB 33: Wolverhampton Brawl",
+      "event_slug": "byb-33-wolverhampton-brawl",
+      "date": "2024-11-09T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "peter-radford",
+      "opponent_slug": "peter-radford",
+      "result": "W"
+    },
+    {
+      "event": "BYB 30: Cardiff Brawl",
+      "event_slug": "byb-30-cardiff-brawl",
+      "date": "2024-08-17T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "stephen-galloway",
+      "opponent_slug": "stephen-galloway",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

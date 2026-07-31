@@ -29,7 +29,52 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 41: Brawl in Duval II",
+      "event_slug": "bkb-41-brawl-in-duval-ii",
+      "date": "2025-05-31T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "yampier-ramirez",
+      "opponent_slug": "yampier-ramirez",
+      "result": "L"
+    },
+    {
+      "event": "BYB 24: Super Brawl Saturday",
+      "event_slug": "byb-24-super-brawl-saturday",
+      "date": "2024-02-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "harold-mcqueen",
+      "opponent_slug": "harold-mcqueen",
+      "result": "L"
+    },
+    {
+      "event": "BYB 19: Brawl in the Pines",
+      "event_slug": "byb-19-brawl-in-the-pines",
+      "date": "2023-08-10T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "harold-mcqueen",
+      "opponent_slug": "harold-mcqueen",
+      "result": "W"
+    },
+    {
+      "event": "BYB 14: Carolina Brawl",
+      "event_slug": "byb-14-carolina-brawl",
+      "date": "2022-12-09T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "kendell-ward",
+      "opponent_slug": "kendell-ward",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

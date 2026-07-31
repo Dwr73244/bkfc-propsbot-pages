@@ -28,7 +28,43 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:55",
+      "opponent": "keith-richardson",
+      "opponent_slug": "keith-richardson",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 52",
+      "event_slug": "bkfc-52-south-carolina",
+      "date": "2023-10-20T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:24",
+      "opponent": "Trevor Loken",
+      "opponent_slug": "trevor-loken",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bekhzod-usmonov"
+    },
+    {
+      "event": "BKFC 43 Omaha: Alexander vs. Smith",
+      "event_slug": "bkfc-43",
+      "date": "2023-05-19T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "jimmie-rivera",
+      "opponent_slug": "jimmie-rivera",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +72,6 @@
   ],
   "last_updated": "2026-04-17",
   "elo": 1509,
-  "elo_peak": 1509
+  "elo_peak": 1509,
+  "history_last_verified": "2026-07-31T18:44:43.833Z"
 }

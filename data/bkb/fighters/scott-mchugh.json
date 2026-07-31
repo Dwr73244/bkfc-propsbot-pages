@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 43: Bolton Brawl",
+      "event_slug": "bkb-43-bolton-brawl",
+      "date": "2025-07-05T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": null,
+      "opponent": "liam-howell",
+      "opponent_slug": "liam-howell",
+      "result": "W"
+    },
+    {
+      "event": "BYB 32: Leeds Brawl",
+      "event_slug": "byb-32-leeds-brawl",
+      "date": "2024-10-12T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "liam-rees",
+      "opponent_slug": "liam-rees",
+      "result": "L"
+    },
+    {
+      "event": "BYB 13: Tampa Brawl For It All",
+      "event_slug": "byb-13-tampa-brawl-for-it-all",
+      "date": "2022-11-19T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "desmond-green",
+      "opponent_slug": "desmond-green",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

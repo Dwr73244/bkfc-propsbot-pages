@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 23: Brawl in the Pines II",
+      "event_slug": "byb-23-brawl-in-the-pines-ii",
+      "date": "2024-01-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "henry-williams",
+      "opponent_slug": "henry-williams",
+      "result": "L"
+    },
+    {
+      "event": "BYB 18: Police Gazette International Cup",
+      "event_slug": "byb-18-police-gazette-international-cup",
+      "date": "2023-06-25T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "paul-hilz",
+      "opponent_slug": "paul-hilz",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

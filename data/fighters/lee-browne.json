@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 68",
+      "event_slug": "bkfc-68-faulkner-vs-oscar",
+      "date": "2024-11-02T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:48",
+      "opponent": "Matty Hill",
+      "opponent_slug": "matty-hill",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/lee-browne"
+    },
+    {
+      "event": "BKFC 64",
+      "event_slug": "bkfc-64-coventry-tierney-vs-graham",
+      "date": "2024-08-10T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "00:44",
+      "opponent": "Rob Boardman",
+      "opponent_slug": "rob-boardman",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/lee-browne"
+    },
+    {
+      "event": "BKFC: Prospects 2",
+      "event_slug": "bkfc-prospect-series-2",
+      "date": "2023-10-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:24",
+      "opponent": "Andy Thornton",
+      "opponent_slug": "andy-thornton",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/lee-browne"
+    },
+    {
+      "event": "BKFC 40 Leeds: Holmes vs. Christie",
+      "event_slug": "bkfc-40",
+      "date": "2023-04-22T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "dawid-oskar",
+      "opponent_slug": "dawid-oskar",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 37 London: Tierney vs. Lindsey",
+      "event_slug": "bkfc-37",
+      "date": "2023-03-04T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "mason-shaw",
+      "opponent_slug": "mason-shaw",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/lee-browne"
   ],
   "last_updated": "2026-04-19",
   "elo": 1463,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:13.516Z"
 }

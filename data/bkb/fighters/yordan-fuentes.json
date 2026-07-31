@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 34: Brawl in the Pines IV",
+      "event_slug": "byb-34-brawl-in-the-pines-iv",
+      "date": "2024-12-06T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "steve-pasche",
+      "opponent_slug": "steve-pasche",
+      "result": "W"
+    },
+    {
+      "event": "BYB 23: Brawl in the Pines II",
+      "event_slug": "byb-23-brawl-in-the-pines-ii",
+      "date": "2024-01-18T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "dewitt-dixon",
+      "opponent_slug": "dewitt-dixon",
+      "result": "W"
+    },
+    {
+      "event": "BYB 19: Brawl in the Pines",
+      "event_slug": "byb-19-brawl-in-the-pines",
+      "date": "2023-08-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": null,
+      "opponent": "brandon-johnson",
+      "opponent_slug": "brandon-johnson",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

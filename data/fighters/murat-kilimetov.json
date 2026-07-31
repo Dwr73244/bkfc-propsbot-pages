@@ -28,7 +28,56 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 75",
+      "event_slug": "bkfc-75-albuquerque-mundell-vs-sanchez",
+      "date": "2025-06-06T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:36",
+      "opponent": "Leo Bercier",
+      "opponent_slug": "leo-bercier",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/murat-kilimetov"
+    },
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:01",
+      "opponent": "lamont-stafford",
+      "opponent_slug": "lamont-stafford",
+      "result": "W"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 2,
+      "time": "0:09",
+      "opponent": "tre-cook",
+      "opponent_slug": "tre-cook",
+      "result": "W"
+    },
+    {
+      "event": "BKFC: Prospects Manassas",
+      "event_slug": "fight-night-prospect-manassas",
+      "date": "2024-02-16T05:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:09",
+      "opponent": "Trey Cooke",
+      "opponent_slug": "trey-cooke",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/murat-kilimetov"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +85,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1543,
-  "elo_peak": 1543
+  "elo_peak": 1543,
+  "history_last_verified": "2026-07-31T18:45:15.638Z"
 }

@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+      "event_slug": "bkfc-59",
+      "date": "2024-03-29T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "austin-lewis",
+      "opponent_slug": "austin-lewis",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 38 Delray Beach: Nguyen vs. Straus",
+      "event_slug": "bkfc-38",
+      "date": "2023-04-21T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:50",
+      "opponent": "gee-perez",
+      "opponent_slug": "gee-perez",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 38",
+      "event_slug": "bkfc-38-nguyen-vs-straus",
+      "date": "2023-04-21T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:50",
+      "opponent": "Guillermo Perez",
+      "opponent_slug": "guillermo-perez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/josh-richey"
+    },
+    {
+      "event": "BKFC 23",
+      "event_slug": "bkfc-23-richman-vs-rickels",
+      "date": "2022-04-09T04:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:57",
+      "opponent": "Tyler Randall",
+      "opponent_slug": "tyler-randall",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/josh-richey"
+    },
+    {
+      "event": "Fight Night Wichita",
+      "event_slug": "bkfc-wichita",
+      "date": "2021-10-23T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Chancey Wilson",
+      "opponent_slug": "chancey-wilson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/josh-richey"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1460,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:11.658Z"
 }

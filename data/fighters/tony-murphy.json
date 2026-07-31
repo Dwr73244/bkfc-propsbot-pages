@@ -5,7 +5,7 @@
   "nickname": "TMurph",
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,9 +29,50 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-clearwater",
+      "date": "2026-04-24T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:39",
+      "opponent": "Skylar Mauller",
+      "opponent_slug": "skylar-mauller",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-murphy"
+    },
+    {
+      "event": "BKFC 47",
+      "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
+      "date": "2023-07-14T04:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:16",
+      "opponent": "Michael Jones",
+      "opponent_slug": "michael-jones",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-murphy"
+    },
+    {
+      "event": "BKFC 32",
+      "event_slug": "bkfc-32-orlando",
+      "date": "2022-11-05T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:51",
+      "opponent": "Shane Stapp",
+      "opponent_slug": "shane-stapp",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-murphy"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/tony-murphy"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:47:38.252Z"
 }

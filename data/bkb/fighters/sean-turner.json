@@ -29,7 +29,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 16: Desert Brawl",
+      "event_slug": "byb-16-desert-brawl",
+      "date": "2023-03-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 5,
+      "time": null,
+      "opponent": "tony-lopez",
+      "opponent_slug": "tony-lopez",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

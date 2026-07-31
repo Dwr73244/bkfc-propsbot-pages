@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Los Angeles",
+      "event_slug": "bkfc-fight-night-los-angeles",
+      "date": "2024-11-23T05:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:09",
+      "opponent": "Rodney Thomas",
+      "opponent_slug": "rodney-thomas",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/danasabe-mohammed"
+    },
+    {
+      "event": "BKFC - Prospects Edmonton",
+      "event_slug": "bkfc-prospects-edmonton",
+      "date": "2024-08-31T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Kimani Crawford",
+      "opponent_slug": "kimani-crawford",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/danasabe-mohammed"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Albuquerque",
+      "event_slug": "bkfc-fight-night-prospects-albuquerque-2024",
+      "date": "2024-01-27T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:12",
+      "opponent": "ismail-israilov",
+      "opponent_slug": "ismail-israilov",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/danasabe-mohammed"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:04.107Z"
 }

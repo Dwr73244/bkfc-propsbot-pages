@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Derby",
+      "event_slug": "bkfc-fight-night-derby",
+      "date": "2025-12-13T05:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "00:41",
+      "opponent": "Lewis Knox",
+      "opponent_slug": "lewis-knox",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/robbie-brown"
+    },
+    {
+      "event": "BKFC 68",
+      "event_slug": "bkfc-68-faulkner-vs-oscar",
+      "date": "2024-11-02T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Bradley Taylor",
+      "opponent_slug": "bradley-taylor",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/robbie-brown"
+    },
+    {
+      "event": "BKFC 64",
+      "event_slug": "bkfc-64-coventry-tierney-vs-graham",
+      "date": "2024-08-10T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jordan Ward",
+      "opponent_slug": "jordan-ward",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/robbie-brown"
+    },
+    {
+      "event": "BKFC 60 Milton Keynes: Lilley vs. Tenaglia",
+      "event_slug": "bkfc-60",
+      "date": "2024-04-06T20:00:00.000Z",
+      "method": "TKO (doctor stoppage)",
+      "round": 1,
+      "time": "2:00",
+      "opponent": "jonno-chipchase",
+      "opponent_slug": "jonno-chipchase",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 55 - Leeds",
+      "event_slug": "bkfc-55-leeds",
+      "date": "2023-11-18T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Gary Fox",
+      "opponent_slug": "gary-fox",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/robbie-brown"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/robbie-brown"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:16.945Z"
 }

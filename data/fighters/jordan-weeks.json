@@ -28,12 +28,25 @@
     "facebook": "https://www.facebook.com/jordan.weeks.90"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 35 Myrtle Beach: Cedeno vs. Slaveski",
+      "event_slug": "bkfc-35",
+      "date": "2023-01-27T20:00:00.000Z",
+      "method": "TKO (doctor stoppage)",
+      "round": 1,
+      "time": "1:41",
+      "opponent": "murat-kazgan",
+      "opponent_slug": "murat-kazgan",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jordan-weeks"
   ],
   "last_updated": "2026-04-17",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:11.262Z"
 }

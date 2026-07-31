@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 36: Cardiff Brawl II",
+      "event_slug": "byb-36-cardiff-brawl-ii",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "kallum-skhane",
+      "opponent_slug": "kallum-skhane",
+      "result": "L"
+    },
+    {
+      "event": "BYB 32: Leeds Brawl",
+      "event_slug": "byb-32-leeds-brawl",
+      "date": "2024-10-12T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "harry-gigliotti",
+      "opponent_slug": "harry-gigliotti",
+      "result": "L"
+    },
+    {
+      "event": "BYB 30: Cardiff Brawl",
+      "event_slug": "byb-30-cardiff-brawl",
+      "date": "2024-08-17T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": null,
+      "opponent": "jonny-jones",
+      "opponent_slug": "jonny-jones",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

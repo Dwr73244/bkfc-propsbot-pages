@@ -28,7 +28,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 42 Greenville: Soto vs. Goodjohn",
+      "event_slug": "bkfc-42",
+      "date": "2023-05-12T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:38",
+      "opponent": "dustin-pague",
+      "opponent_slug": "dustin-pague",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
   ],

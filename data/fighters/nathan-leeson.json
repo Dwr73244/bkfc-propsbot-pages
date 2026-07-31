@@ -5,8 +5,8 @@
   "nickname": null,
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 0,
+    "wins": 5,
+    "losses": 1,
     "draws": 0,
     "kos": 1
   },
@@ -29,7 +29,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 90 Birmingham: Tierney vs. Franco",
+      "event_slug": "bkfc-90-birmingham",
+      "date": "2026-05-30T13:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "1:29",
+      "opponent": "stevie-devenport",
+      "opponent_slug": "stevie-devenport",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs-franco",
     "https://www.bkfc.com/fighters/nathan-leeson"
@@ -38,5 +50,6 @@
   "elo": 1522,
   "elo_peak": 1522,
   "record_source": "tracked-events",
-  "record_verified": "2026-07-07"
+  "record_verified": "2026-07-07",
+  "history_last_verified": "2026-07-31T18:47:35.031Z"
 }

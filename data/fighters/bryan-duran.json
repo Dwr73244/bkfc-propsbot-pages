@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 87",
+      "event_slug": "bkfc-87-hollywood",
+      "date": "2026-03-20T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:19",
+      "opponent": "Derek Perez",
+      "opponent_slug": "derek-perez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryan-duran"
+    },
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T04:00:00.000Z",
+      "method": "Majority Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Robbie Peralta",
+      "opponent_slug": "robbie-peralta",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryan-duran"
+    },
+    {
+      "event": "BKFC on DAZN - Hollywood",
+      "event_slug": "bkfc-on-dazn-hollywood",
+      "date": "2024-12-21T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:59",
+      "opponent": "Kasim Ruffin",
+      "opponent_slug": "kasim-ruffin",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryan-duran"
+    },
+    {
+      "event": "BKFC 62",
+      "event_slug": "bkfc-62-hollywood",
+      "date": "2024-06-21T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Kai Stewart",
+      "opponent_slug": "kai-stewart",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryan-duran"
+    },
+    {
+      "event": "BKFC 57: Palomino vs. Trout",
+      "event_slug": "bkfc-57",
+      "date": "2024-02-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "0:48",
+      "opponent": "louie-lopez",
+      "opponent_slug": "louie-lopez",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/bryan-duran"
   ],
   "last_updated": "2026-04-19",
   "elo": 1521,
-  "elo_peak": 1521
+  "elo_peak": 1521,
+  "history_last_verified": "2026-07-31T18:44:55.163Z"
 }

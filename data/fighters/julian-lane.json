@@ -5,7 +5,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 9,
-    "losses": 9,
+    "losses": 10,
     "draws": 0,
     "kos": 2
   },
@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Hollywood: Lane vs. Henry",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T23:00:00.000Z",
+      "method": "Disqualification",
+      "round": 4,
+      "time": "0:35",
+      "opponent": "bryce-henry",
+      "opponent_slug": "bryce-henry",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 86",
+      "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
+      "date": "2026-01-17T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 6,
+      "time": "02:00",
+      "opponent": "Dustin Pague",
+      "opponent_slug": "dustin-pague",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/julian-lane"
+    },
+    {
+      "event": "BKFC 79",
+      "event_slug": "bkfc-sturgis",
+      "date": "2025-08-02T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Gorjan Slaveski",
+      "opponent_slug": "gorjan-slaveski",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/julian-lane"
+    },
+    {
+      "event": "BKFC on DAZN Mohegan Sun: Lane vs. VanCamp",
+      "event_slug": "bkfc-on-dazn-mohegan-sun-2025",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "0:54",
+      "opponent": "cameron-vancamp",
+      "opponent_slug": "cameron-vancamp",
+      "result": "W"
+    },
+    {
+      "event": "BKFC on DAZN - Montana",
+      "event_slug": "bkfc-on-dazn-montana",
+      "date": "2024-11-09T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Alfredo Angulo",
+      "opponent_slug": "alfredo-angulo",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/julian-lane"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -40,5 +102,6 @@
     "volume"
   ],
   "elo": 1521,
-  "elo_peak": 1544
+  "elo_peak": 1544,
+  "history_last_verified": "2026-07-31T18:47:31.233Z"
 }

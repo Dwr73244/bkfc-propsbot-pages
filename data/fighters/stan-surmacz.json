@@ -28,12 +28,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Prospects: Canada",
+      "event_slug": "bkfc-fight-night-prospects-canada-2024",
+      "date": "2024-03-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:12",
+      "opponent": "reuben-roundstone",
+      "opponent_slug": "reuben-roundstone",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/stan-surmacz"
   ],
   "last_updated": "2026-04-17",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:17.813Z"
 }

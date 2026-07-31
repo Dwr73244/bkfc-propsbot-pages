@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 24: Super Brawl Saturday",
+      "event_slug": "byb-24-super-brawl-saturday",
+      "date": "2024-02-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": null,
+      "opponent": "jeremiah-potts",
+      "opponent_slug": "jeremiah-potts",
+      "result": "W"
+    },
+    {
+      "event": "BYB 14: Carolina Brawl",
+      "event_slug": "byb-14-carolina-brawl",
+      "date": "2022-12-09T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": null,
+      "opponent": "joshua-oxendine",
+      "opponent_slug": "joshua-oxendine",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

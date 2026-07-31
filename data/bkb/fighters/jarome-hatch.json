@@ -29,7 +29,63 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 42: Music City Brawl",
+      "event_slug": "bkb-42-music-city-brawl",
+      "date": "2025-06-21T20:00:00.000Z",
+      "method": "Decision",
+      "round": 4,
+      "time": null,
+      "opponent": "cody-terry-east",
+      "opponent_slug": "cody-terry-east",
+      "result": "W"
+    },
+    {
+      "event": "BKB 39: Brawl at the Beach",
+      "event_slug": "bkb-39-brawl-at-the-beach",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "dewitt-dixon",
+      "opponent_slug": "dewitt-dixon",
+      "result": "W"
+    },
+    {
+      "event": "BYB 35: Albuquerque Brawl",
+      "event_slug": "byb-35-albuquerque-brawl",
+      "date": "2025-01-11T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "daniel-lerwell",
+      "opponent_slug": "daniel-lerwell",
+      "result": "W"
+    },
+    {
+      "event": "BYB 23: Brawl in the Pines II",
+      "event_slug": "byb-23-brawl-in-the-pines-ii",
+      "date": "2024-01-18T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "marko-martinjak",
+      "opponent_slug": "marko-martinjak",
+      "result": "L"
+    },
+    {
+      "event": "BYB 18: Police Gazette International Cup",
+      "event_slug": "byb-18-police-gazette-international-cup",
+      "date": "2023-06-25T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "marko-martinjak",
+      "opponent_slug": "marko-martinjak",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

@@ -28,12 +28,51 @@
     "facebook": "https://www.facebook.com/kevin.croom.395"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 52",
+      "event_slug": "bkfc-52-south-carolina",
+      "date": "2023-10-20T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Antonio Soto III",
+      "opponent_slug": "antonio-soto-iii",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kevin-croom"
+    },
+    {
+      "event": "BKFC Knucklemania III",
+      "event_slug": "bkfc-knucklemania-3",
+      "date": "2023-02-17T20:00:00.000Z",
+      "method": "KO (punches)",
+      "round": 1,
+      "time": "1:11",
+      "opponent": "chevvy-bridges",
+      "opponent_slug": "chevvy-bridges",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 33",
+      "event_slug": "bkfc-33-omaha-beltran-vs-alexander",
+      "date": "2022-11-18T05:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:26",
+      "opponent": "Sean Wilson",
+      "opponent_slug": "sean-wilson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kevin-croom"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/kevin-croom"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:13.013Z"
 }

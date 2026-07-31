@@ -5,7 +5,7 @@
   "nickname": "THE BULL",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,10 +29,38 @@
     "facebook": null
   },
   "bio": "American heavyweight who transitioned to bare-knuckle fighting from professional bull riding. Shed 25 pounds preparing for his BKFC debut and has trained alongside Tony Soto and Harrison Aiken. His profile has drawn attention from BKFC names including Bryce Hall and Mike Perry, and he is 1-0 entering his Blood 4 Blood main event.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Blood 4 Blood",
+      "event_slug": "blood-4-blood",
+      "date": "2026-05-06T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:29",
+      "opponent": "Alexander Shikolai",
+      "opponent_slug": "alexander-shikolai",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cameron-delano"
+    },
+    {
+      "event": "BKFC 76 - Texas",
+      "event_slug": "bkfc-fort-worth",
+      "date": "2025-06-21T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:05",
+      "opponent": "Jesse Desrosier",
+      "opponent_slug": "jesse-desrosier",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cameron-delano"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/blood-4-blood",
     "https://www.bkfc.com/fighters/cameron-delano"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:47:15.015Z"
 }

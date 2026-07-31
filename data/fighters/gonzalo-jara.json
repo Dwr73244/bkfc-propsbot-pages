@@ -29,7 +29,32 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Uruguay",
+      "event_slug": "bkfc-fight-night-uruguay",
+      "date": "2026-07-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:38",
+      "opponent": "Gonzalo Jara",
+      "opponent_slug": "gonzalo-jara",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gonzalo-jara"
+    },
+    {
+      "event": "bkfc-fight-night-uruguay",
+      "event_slug": "bkfc-fight-night-uruguay",
+      "date": "2026-07-25T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:38",
+      "opponent": "leandro-torres",
+      "opponent_slug": "leandro-torres",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/gonzalo-jara"
   ],
@@ -37,5 +62,6 @@
   "elo": 1477,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-07-26"
+  "record_verified": "2026-07-26",
+  "history_last_verified": "2026-07-31T18:45:09.334Z"
 }

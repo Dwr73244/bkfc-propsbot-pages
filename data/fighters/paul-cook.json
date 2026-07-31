@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Derby",
+      "event_slug": "bkfc-fight-night-derby",
+      "date": "2025-12-13T05:00:00.000Z",
+      "method": "Majority Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Mat Wiwczaryk",
+      "opponent_slug": "mat-wiwczaryk",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/paul-cook"
+    },
+    {
+      "event": "BKFC Fight Night Newcastle: Thompson vs. Boardman",
+      "event_slug": "bkfc-fight-night-newcastle-2025-02-08",
+      "date": "2025-02-08T20:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "0:25",
+      "opponent": "adam-grogan",
+      "opponent_slug": "adam-grogan",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 68",
+      "event_slug": "bkfc-68-faulkner-vs-oscar",
+      "date": "2024-11-02T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Luke Beamish",
+      "opponent_slug": "luke-beamish",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/paul-cook"
+    },
+    {
+      "event": "BKFC 55 - Leeds",
+      "event_slug": "bkfc-55-leeds",
+      "date": "2023-11-18T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Luke Nevin",
+      "opponent_slug": "luke-nevin",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/paul-cook"
+    },
+    {
+      "event": "BKFC 46",
+      "event_slug": "bkfc-46-newcastle-franco-vs-harris",
+      "date": "2023-07-01T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:41",
+      "opponent": "Aaron Foster",
+      "opponent_slug": "aaron-foster",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/paul-cook"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/paul-cook"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:16.292Z"
 }

@@ -28,7 +28,32 @@
     "facebook": "https://www.facebook.com/people/chad-mendes/6419447"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "Decision (split)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "eddie-alvarez",
+      "opponent_slug": "eddie-alvarez",
+      "result": "L"
+    },
+    {
+      "event": "Knucklemania II",
+      "event_slug": "knucklemania-ii",
+      "date": "2022-02-19T05:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:34",
+      "opponent": "Joshua Alvarez",
+      "opponent_slug": "joshua-alvarez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/chad-mendes"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/chad-mendes",
@@ -41,5 +66,6 @@
   ],
   "full_name": "Chad Eduardo Mendes",
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:57.491Z"
 }

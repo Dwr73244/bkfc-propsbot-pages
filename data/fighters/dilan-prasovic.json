@@ -29,12 +29,51 @@
     "facebook": null
   },
   "bio": "Montenegrin professional boxer from Kotor with a 17-4 pro record and 14 KOs. Compiled over 100 amateur bouts before turning pro in 2014, winning the vacant WBO Youth cruiserweight title in 2018. Challenged Lawrence Okolie for the WBO cruiserweight world title in September 2021. Later captured the WBU bridgerweight title before transitioning to bare-knuckle competition.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
+      "event_slug": "bkfc-fight-night-australia-townsville",
+      "date": "2026-04-18T09:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "2:00",
+      "opponent": "mark-flanagan",
+      "opponent_slug": "mark-flanagan",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Australia",
+      "event_slug": "bkfc-australia-2",
+      "date": "2026-04-18T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Mark Flanigan",
+      "opponent_slug": "mark-flanigan",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dilan-prasovic"
+    },
+    {
+      "event": "BKFC - Fight Night Budva",
+      "event_slug": "bkfc-budva",
+      "date": "2025-08-30T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:08",
+      "opponent": "Lasha Roinishvili",
+      "opponent_slug": "lasha-roinishvili",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dilan-prasovic"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/dilan-prasovic",
     "https://en.wikipedia.org/wiki/Dilan_Pra%C5%A1ovi%C4%87"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:06.932Z"
 }

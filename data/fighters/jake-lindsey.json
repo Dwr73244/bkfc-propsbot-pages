@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Kansas City",
+      "event_slug": "bkfc-fight-night-kansas-city",
+      "date": "2024-08-16T04:00:00.000Z",
+      "method": "Unanimous Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Elvin Brito",
+      "opponent_slug": "elvin-brito",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jake-lindsey"
+    },
+    {
+      "event": "BKFC 49",
+      "event_slug": "bkfc-49-miami",
+      "date": "2023-08-25T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Gorjan Slaveski",
+      "opponent_slug": "gorjan-slaveski",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jake-lindsey"
+    },
+    {
+      "event": "BKFC 37 London: Tierney vs. Lindsey",
+      "event_slug": "bkfc-37",
+      "date": "2023-03-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 5,
+      "time": "1:02",
+      "opponent": "connor-tierney",
+      "opponent_slug": "connor-tierney",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 31",
+      "event_slug": "bkfc-31-denver-richman-vs-doolittle",
+      "date": "2022-10-15T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Brandon Girtz",
+      "opponent_slug": "brandon-girtz",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jake-lindsey"
+    },
+    {
+      "event": "BKFC 23",
+      "event_slug": "bkfc-23-richman-vs-rickels",
+      "date": "2022-04-09T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "02:00",
+      "opponent": "Derrick Findley",
+      "opponent_slug": "derrick-findley",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jake-lindsey"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jake-lindsey"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:10.141Z"
 }

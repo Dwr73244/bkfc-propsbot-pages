@@ -5,7 +5,7 @@
   "nickname": "Royal",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 7,
+    "wins": 8,
     "losses": 2,
     "draws": 0,
     "kos": null
@@ -29,11 +29,76 @@
     "facebook": null
   },
   "bio": "American bantamweight out of Florida who joined BKFC in 2022. Known as an efficient, calculated, technical fighter, holding a 7-2 BKFC record. Notable moments include a chaotic BKFC 32 incident when opponent Jack Grady was disqualified for repeated illegal headbutts, and a five-round war with Travis Thompson that ended in a draw before Reber won the sixth-round tiebreaker via split decision.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Clearwater: Gaskins vs Guymon",
+      "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
+      "date": "2026-04-25T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "joshua-oxendine",
+      "opponent_slug": "joshua-oxendine",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-clearwater",
+      "date": "2026-04-24T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Josh Oxendine",
+      "opponent_slug": "josh-oxendine",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/royal-ryan-reber"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T05:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:21",
+      "opponent": "Justin Ibarrola",
+      "opponent_slug": "justin-ibarrola",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/royal-ryan-reber"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-fight-night-clearwater-ec210",
+      "date": "2025-05-02T04:00:00.000Z",
+      "method": "Majority Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Matthew Guyman",
+      "opponent_slug": "matthew-guyman",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/royal-ryan-reber"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:56",
+      "opponent": "Alberto Blas",
+      "opponent_slug": "alberto-blas",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/royal-ryan-reber"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/royal-ryan-reber"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:47:36.391Z"
 }

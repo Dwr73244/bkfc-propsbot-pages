@@ -4,7 +4,7 @@
   "nickname": "THE MEXICAN AMERICAN RHINO",
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 4,
+    "wins": 5,
     "losses": 2,
     "draws": 0,
     "kos": 1
@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha-2",
+      "date": "2025-04-18T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Kurtis Ellis",
+      "opponent_slug": "kurtis-ellis",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alonzo-martinez"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha",
+      "date": "2024-05-17T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:24",
+      "opponent": "Stanislav Grosu",
+      "opponent_slug": "stanislav-grosu",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alonzo-martinez"
+    },
+    {
+      "event": "BKFC 43 Omaha: Alexander vs. Smith",
+      "event_slug": "bkfc-43",
+      "date": "2023-05-19T20:00:00.000Z",
+      "method": "TKO (corner stoppage)",
+      "round": 4,
+      "time": "2:00",
+      "opponent": "jeremy-sauceda",
+      "opponent_slug": "jeremy-sauceda",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 33",
+      "event_slug": "bkfc-33-omaha-beltran-vs-alexander",
+      "date": "2022-11-18T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jordan Christensen",
+      "opponent_slug": "jordan-christensen",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alonzo-martinez"
+    },
+    {
+      "event": "Fight Night Omaha 2",
+      "event_slug": "bkfc-fight-night-cochrane-vs-dyer",
+      "date": "2022-05-13T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:34",
+      "opponent": "Andre Kase",
+      "opponent_slug": "andre-kase",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alonzo-martinez"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/alonzo-martinez"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:46:42.233Z"
 }

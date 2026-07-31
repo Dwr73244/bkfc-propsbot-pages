@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 76 - Texas",
+      "event_slug": "bkfc-fort-worth",
+      "date": "2025-06-21T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:03",
+      "opponent": "Israel Rodriguez",
+      "opponent_slug": "israel-rodriguez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jeremy-sauceda"
+    },
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "0:38",
+      "opponent": "luis-villasenor",
+      "opponent_slug": "luis-villasenor",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 48",
+      "event_slug": "bkfc-48-albuquerque",
+      "date": "2023-08-11T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Joshua Moreno",
+      "opponent_slug": "joshua-moreno",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jeremy-sauceda"
+    },
+    {
+      "event": "BKFC 43 Omaha: Alexander vs. Smith",
+      "event_slug": "bkfc-43",
+      "date": "2023-05-19T20:00:00.000Z",
+      "method": "TKO (corner stoppage)",
+      "round": 4,
+      "time": "2:00",
+      "opponent": "alonzo-martinez",
+      "opponent_slug": "alonzo-martinez",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 28",
+      "event_slug": "bkfc-28-albuquerque",
+      "date": "2022-08-27T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:38",
+      "opponent": "Roderick Stewart",
+      "opponent_slug": "roderick-stewart",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jeremy-sauceda"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1501,
-  "elo_peak": 1501
+  "elo_peak": 1501,
+  "history_last_verified": "2026-07-31T18:45:10.733Z"
 }

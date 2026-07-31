@@ -28,7 +28,69 @@
     "facebook": "https://www.facebook.com/stanislav.grosu.1"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha",
+      "date": "2024-05-17T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:24",
+      "opponent": "Alonzo Martinez",
+      "opponent_slug": "alonzo-martinez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stanislav-grosu"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 4,
+      "time": "1:32",
+      "opponent": "brandon-shavers",
+      "opponent_slug": "brandon-shavers",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 51",
+      "event_slug": "bkfc-51-salem",
+      "date": "2023-09-29T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:51",
+      "opponent": "Anthony Lacaze",
+      "opponent_slug": "anthony-lacaze",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stanislav-grosu"
+    },
+    {
+      "event": "BKFC 39 Norfolk: Barnett vs. Alvarez",
+      "event_slug": "bkfc-39",
+      "date": "2023-03-24T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:59",
+      "opponent": "quartus-stitt",
+      "opponent_slug": "quartus-stitt",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Jackson 2",
+      "event_slug": "bkfc-fight-night-belcher-vs-tate",
+      "date": "2022-06-11T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:01",
+      "opponent": "Brad Kelly",
+      "opponent_slug": "brad-kelly",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stanislav-grosu"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1497,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:17.784Z"
 }

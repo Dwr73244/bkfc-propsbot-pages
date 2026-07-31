@@ -28,7 +28,43 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:59",
+      "opponent": "john-garbarino",
+      "opponent_slug": "john-garbarino",
+      "result": "L"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Albuquerque",
+      "event_slug": "bkfc-fight-night-prospects-albuquerque-2024",
+      "date": "2024-01-27T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:33",
+      "opponent": "kaine-tomlinson",
+      "opponent_slug": "kaine-tomlinson",
+      "result": "L"
+    },
+    {
+      "event": "BKFC: Prospects Albuquerque",
+      "event_slug": "fight-night-prospect-albuquerque",
+      "date": "2024-01-27T05:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:33",
+      "opponent": "Kaine Tomlinson Jr",
+      "opponent_slug": "kaine-tomlinson-jr",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/apostle-spencer"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +72,6 @@
   ],
   "last_updated": "2026-04-17",
   "elo": 1457,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:33.371Z"
 }

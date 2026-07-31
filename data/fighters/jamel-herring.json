@@ -5,7 +5,7 @@
   "nickname": "Semper Fi",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,7 +29,34 @@
     "facebook": null
   },
   "bio": "Former WBO junior lightweight world champion (2019-2021) and U.S. Marine who served two tours in Iraq. Compiled a 24-5 professional boxing record with 12 KOs, successfully defending his title three times before losing to Shakur Stevenson in 2021. Competed at the 2012 London Olympics, the only U.S. Marine at those Games. Retired from pro boxing in 2022 and made his BKFC debut in January 2026.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Michael Larrimore",
+      "opponent_slug": "michael-larrimore",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jamel-herring"
+    },
+    {
+      "event": "BKFC 86",
+      "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
+      "date": "2026-01-17T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Matthew Guyman",
+      "opponent_slug": "matthew-guyman",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jamel-herring"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-palm-desert",
     "https://www.bkfc.com/fighters/jamel-herring",
@@ -440,5 +467,6 @@
       "lost_date": "2021-10-23",
       "status": "lost"
     }
-  ]
+  ],
+  "history_last_verified": "2026-07-31T18:47:29.535Z"
 }

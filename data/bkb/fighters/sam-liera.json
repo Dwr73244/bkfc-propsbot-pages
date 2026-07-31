@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 42: Music City Brawl",
+      "event_slug": "bkb-42-music-city-brawl",
+      "date": "2025-06-21T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "lt-nelson",
+      "opponent_slug": "lt-nelson",
+      "result": "L"
+    },
+    {
+      "event": "BYB 19: Brawl in the Pines",
+      "event_slug": "byb-19-brawl-in-the-pines",
+      "date": "2023-08-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": null,
+      "opponent": "jose-fernandez",
+      "opponent_slug": "jose-fernandez",
+      "result": "W"
+    },
+    {
+      "event": "BYB 14: Carolina Brawl",
+      "event_slug": "byb-14-carolina-brawl",
+      "date": "2022-12-09T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "lt-nelson",
+      "opponent_slug": "lt-nelson",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

@@ -28,12 +28,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 60",
+      "event_slug": "bkfc-60-milton-keynes",
+      "date": "2024-04-06T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:41",
+      "opponent": "Piotr Cwik",
+      "opponent_slug": "piotr-cwik",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jack-draper"
+    },
+    {
+      "event": "BKFC 37 London: Tierney vs. Lindsey",
+      "event_slug": "bkfc-37",
+      "date": "2023-03-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:35",
+      "opponent": "robbie-kennedy",
+      "opponent_slug": "robbie-kennedy",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jack-draper"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:09.980Z"
 }

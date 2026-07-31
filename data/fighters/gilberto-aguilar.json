@@ -28,12 +28,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 45",
+      "event_slug": "bkfc-45-palomino-vs-lilley",
+      "date": "2023-06-23T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Bryan Duran",
+      "opponent_slug": "bryan-duran",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gilberto-aguilar"
+    },
+    {
+      "event": "BKFC 38 Delray Beach: Nguyen vs. Straus",
+      "event_slug": "bkfc-38",
+      "date": "2023-04-21T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "justin-sanchez",
+      "opponent_slug": "justin-sanchez",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 38",
+      "event_slug": "bkfc-38-nguyen-vs-straus",
+      "date": "2023-04-21T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Justin Ibarrola",
+      "opponent_slug": "justin-ibarrola",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gilberto-aguilar"
+    },
+    {
+      "event": "BKFC 4",
+      "event_slug": "bkfc-4-usa-vs-mexico",
+      "date": "2019-02-02T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jose Ruelas",
+      "opponent_slug": "jose-ruelas",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gilberto-aguilar"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/gilberto-aguilar"
   ],
   "last_updated": "2026-04-19",
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:09.227Z"
 }

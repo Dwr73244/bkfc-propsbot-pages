@@ -28,12 +28,73 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 90 Birmingham: Tierney vs. Franco",
+      "event_slug": "bkfc-90-birmingham",
+      "date": "2026-05-30T13:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "george-thorpe",
+      "opponent_slug": "george-thorpe",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Derby",
+      "event_slug": "bkfc-fight-night-derby",
+      "date": "2025-12-13T05:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:39",
+      "opponent": "Cory Hardy",
+      "opponent_slug": "cory-hardy",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leigh-cohoon"
+    },
+    {
+      "event": "BKFC Fight Night Manchester: Chipchase vs. Fox",
+      "event_slug": "bkfc-fight-night-manchester-2025-03-29",
+      "date": "2025-03-29T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:53",
+      "opponent": "jimmy-mccrory",
+      "opponent_slug": "jimmy-mccrory",
+      "result": "W"
+    },
+    {
+      "event": "BKFC: Manchester",
+      "event_slug": "bkfc-fight-night-manchester",
+      "date": "2025-03-29T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:53",
+      "opponent": "James O'Brien",
+      "opponent_slug": "james-o-brien",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leigh-cohoon"
+    },
+    {
+      "event": "BKFC Fight Night Newcastle: Thompson vs. Boardman",
+      "event_slug": "bkfc-fight-night-newcastle-2025-02-08",
+      "date": "2025-02-08T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "0:33",
+      "opponent": "mpampis-klados",
+      "opponent_slug": "mpampis-klados",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/leigh-cohoon"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1543
+  "elo_peak": 1543,
+  "history_last_verified": "2026-07-31T18:45:13.547Z"
 }

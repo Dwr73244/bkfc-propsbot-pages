@@ -29,7 +29,32 @@
     "facebook": null
   },
   "bio": "Deron Winn is a UFC middleweight veteran and decorated wrestler making his BKFC debut at BKFC 88. A Henry Cejudo training partner and two-time US National Freestyle Wrestling Team member, Winn brings elite athletic pedigree to bare knuckle.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 88 Denver: Camozzi vs. Rodriguez",
+      "event_slug": "bkfc-88-denver",
+      "date": "2026-04-18T02:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "0:47",
+      "opponent": "erick-lozano",
+      "opponent_slug": "erick-lozano",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 88",
+      "event_slug": "bkfc-denver",
+      "date": "2026-04-17T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:47",
+      "opponent": "Erick Lozano",
+      "opponent_slug": "erick-lozano",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/deron-winn"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/deron-winn"
   ],
@@ -39,5 +64,6 @@
     "cardio"
   ],
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:05.913Z"
 }

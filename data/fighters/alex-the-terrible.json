@@ -6,7 +6,7 @@
   "division": "Heavyweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,10 +29,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Blood 4 Blood",
+      "event_slug": "blood-4-blood",
+      "date": "2026-05-06T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:29",
+      "opponent": "Cameron Delano",
+      "opponent_slug": "cameron-delano",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alex-the-terrible"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/blood-4-blood",
     "https://www.bkfc.com/fighters/alex-the-terrible"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:46:33.174Z"
 }

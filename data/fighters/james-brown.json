@@ -28,7 +28,69 @@
     "facebook": "https://www.facebook.com/james.j.brown.585"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 83",
+      "event_slug": "bkfc-rome",
+      "date": "2025-10-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "02:00",
+      "opponent": "Dan Chapman",
+      "opponent_slug": "dan-chapman",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/james-brown"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha-2",
+      "date": "2025-04-18T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ramiro Figueroa",
+      "opponent_slug": "ramiro-figueroa",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/james-brown"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:41",
+      "opponent": "Howard Davis",
+      "opponent_slug": "howard-davis",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/james-brown"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "TKO (doctor stoppage)",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "bovar-khanakov",
+      "opponent_slug": "bovar-khanakov",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "mike-alvarado",
+      "opponent_slug": "mike-alvarado",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1560,
-  "elo_peak": 1560
+  "elo_peak": 1560,
+  "history_last_verified": "2026-07-31T18:45:10.239Z"
 }

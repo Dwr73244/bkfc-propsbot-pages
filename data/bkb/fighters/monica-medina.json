@@ -29,7 +29,63 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 41: Brawl in Duval II",
+      "event_slug": "bkb-41-brawl-in-duval-ii",
+      "date": "2025-05-31T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "lailane-mota",
+      "opponent_slug": "lailane-mota",
+      "result": "L"
+    },
+    {
+      "event": "BYB 28: Bourbon Street Brawl",
+      "event_slug": "byb-28-bourbon-street-brawl",
+      "date": "2024-06-14T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "helen-peralta",
+      "opponent_slug": "helen-peralta",
+      "result": "L"
+    },
+    {
+      "event": "BYB 22: Rocky Mountain Brawl",
+      "event_slug": "byb-22-rocky-mountain-brawl",
+      "date": "2023-12-02T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "paty-juarez",
+      "opponent_slug": "paty-juarez",
+      "result": "L"
+    },
+    {
+      "event": "BYB 20: Brawl on the Bayou",
+      "event_slug": "byb-20-brawl-on-the-bayou",
+      "date": "2023-09-16T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "paty-juarez",
+      "opponent_slug": "paty-juarez",
+      "result": "W"
+    },
+    {
+      "event": "BYB 13: Tampa Brawl For It All",
+      "event_slug": "byb-13-tampa-brawl-for-it-all",
+      "date": "2022-11-19T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "jessica-link",
+      "opponent_slug": "jessica-link",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

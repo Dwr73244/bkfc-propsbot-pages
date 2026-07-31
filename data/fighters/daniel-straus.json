@@ -28,7 +28,30 @@
     "facebook": "https://www.facebook.com/danielstrausfan"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 61 Connecticut: Rivera vs. Straus",
+      "event_slug": "bkfc-61",
+      "date": "2024-05-11T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "jimmie-rivera",
+      "opponent_slug": "jimmie-rivera",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 38 Delray Beach: Nguyen vs. Straus",
+      "event_slug": "bkfc-38",
+      "date": "2023-04-21T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 6,
+      "time": "2:00",
+      "opponent": "dat-nguyen",
+      "opponent_slug": "dat-nguyen",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +59,6 @@
   ],
   "last_updated": "2026-04-17",
   "elo": 1464,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:04.352Z"
 }

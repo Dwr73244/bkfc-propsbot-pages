@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 19: Brawl in the Pines",
+      "event_slug": "byb-19-brawl-in-the-pines",
+      "date": "2023-08-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 5,
+      "time": null,
+      "opponent": "casie-dees",
+      "opponent_slug": "casie-dees",
+      "result": "L"
+    },
+    {
+      "event": "BYB 16: Desert Brawl",
+      "event_slug": "byb-16-desert-brawl",
+      "date": "2023-03-18T20:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": null,
+      "opponent": "sonya-dreiling",
+      "opponent_slug": "sonya-dreiling",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

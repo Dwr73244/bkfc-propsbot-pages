@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 82 -",
+      "event_slug": "bkfc-new-jersey",
+      "date": "2025-10-04T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:25",
+      "opponent": "Aleem Whitfield",
+      "opponent_slug": "aleem-whitfield",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-carroll"
+    },
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:46",
+      "opponent": "alex-davis",
+      "opponent_slug": "alex-davis",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Philadelphia",
+      "event_slug": "bkfc-fight-night-philly",
+      "date": "2025-03-21T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:46",
+      "opponent": "Michael Furnier",
+      "opponent_slug": "michael-furnier",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-carroll"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/pat-carroll"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:16.243Z"
 }

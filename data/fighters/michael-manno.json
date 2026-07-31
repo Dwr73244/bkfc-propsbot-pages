@@ -28,7 +28,56 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Los Angeles",
+      "event_slug": "bkfc-fight-night-los-angeles",
+      "date": "2024-11-23T05:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "02:00",
+      "opponent": "Vincent Familari",
+      "opponent_slug": "vincent-familari",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/michael-manno"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Albuquerque",
+      "event_slug": "bkfc-fight-night-prospects-albuquerque-2024",
+      "date": "2024-01-27T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:27",
+      "opponent": "felipe-chavez",
+      "opponent_slug": "felipe-chavez",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 50",
+      "event_slug": "bkfc-50-denver",
+      "date": "2023-09-22T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Marcus Edwards",
+      "opponent_slug": "marcus-edwards",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/michael-manno"
+    },
+    {
+      "event": "BKFC 36 New Orleans: Adams vs. Belcher",
+      "event_slug": "bkfc-36",
+      "date": "2023-02-24T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:25",
+      "opponent": "frankie-shughart",
+      "opponent_slug": "frankie-shughart",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +85,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1499,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:15.040Z"
 }

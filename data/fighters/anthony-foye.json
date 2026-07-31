@@ -4,8 +4,8 @@
   "nickname": "The Hitman",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 4,
+    "wins": 2,
+    "losses": 5,
     "draws": 0,
     "kos": null
   },
@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Nashville",
+      "event_slug": "bkfc-nashville",
+      "date": "2026-06-19T04:00:00.000Z",
+      "method": "TKO",
+      "round": 5,
+      "time": "00:38",
+      "opponent": "Cole Ferrell",
+      "opponent_slug": "cole-ferrell",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-foye"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-clearwater",
+      "date": "2026-04-24T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jason Dinunzio",
+      "opponent_slug": "jason-dinunzio",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-foye"
+    },
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-mohegan-sun",
+      "date": "2025-06-14T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Lardy Navarro",
+      "opponent_slug": "lardy-navarro",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/anthony-foye"
+    },
+    {
+      "event": "BKFC on DAZN Mohegan Sun: Lane vs. VanCamp",
+      "event_slug": "bkfc-on-dazn-mohegan-sun-2025",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:08",
+      "opponent": "rico-disciullo",
+      "opponent_slug": "rico-disciullo",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 61 Connecticut: Rivera vs. Straus",
+      "event_slug": "bkfc-61",
+      "date": "2024-05-11T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "ryan-reber",
+      "opponent_slug": "ryan-reber",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -37,5 +99,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:46:50.039Z"
 }

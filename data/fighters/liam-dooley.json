@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-2",
+      "date": "2026-03-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Mikey Henderson",
+      "opponent_slug": "mikey-henderson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/liam-dooley"
+    },
+    {
+      "event": "BKFC Fight Night Manchester: Chipchase vs. Fox",
+      "event_slug": "bkfc-fight-night-manchester-2025-03-29",
+      "date": "2025-03-29T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:14",
+      "opponent": "david-round",
+      "opponent_slug": "david-round",
+      "result": "W"
+    },
+    {
+      "event": "BKFC: Manchester",
+      "event_slug": "bkfc-fight-night-manchester",
+      "date": "2025-03-29T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:14",
+      "opponent": "Marcus Pond",
+      "opponent_slug": "marcus-pond",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/liam-dooley"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/liam-dooley"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:13.901Z"
 }

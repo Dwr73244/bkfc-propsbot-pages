@@ -5,8 +5,8 @@
   "nickname": null,
   "division": "Women's Bantamweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 1,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 84",
+      "event_slug": "bkfc-84-palm-desert",
+      "date": "2025-11-15T05:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:59",
+      "opponent": "Aspen Ladd",
+      "opponent_slug": "aspen-ladd",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/shyanna-bintliff"
+    },
+    {
+      "event": "BKFC 79",
+      "event_slug": "bkfc-sturgis",
+      "date": "2025-08-02T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:11",
+      "opponent": "Marisol Ruelas Lopez",
+      "opponent_slug": "marisol-ruelas-lopez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/shyanna-bintliff"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/shyanna-bintliff"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-07-31T18:47:36.877Z"
 }

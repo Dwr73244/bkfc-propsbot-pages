@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "rodney-thomas",
+      "opponent_slug": "rodney-thomas",
+      "result": "L"
+    },
+    {
+      "event": "Fight Night New York 2",
+      "event_slug": "bkfc-new-york-ii",
+      "date": "2022-03-12T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:37",
+      "opponent": "Damon Bell",
+      "opponent_slug": "damon-bell",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/art-driscoll"
+    },
+    {
+      "event": "Fight Night New York",
+      "event_slug": "bkfc-new-york",
+      "date": "2021-11-06T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:16",
+      "opponent": "Christian Torres",
+      "opponent_slug": "christian-torres",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/art-driscoll"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/art-driscoll"
   ],
   "last_updated": "2026-04-19",
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:38.701Z"
 }

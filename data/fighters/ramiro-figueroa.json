@@ -29,7 +29,71 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 88 Denver: Camozzi vs. Rodriguez",
+      "event_slug": "bkfc-88-denver",
+      "date": "2026-04-18T02:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "elvin-brito",
+      "opponent_slug": "elvin-brito",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 88",
+      "event_slug": "bkfc-denver",
+      "date": "2026-04-17T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Elvin Brito",
+      "opponent_slug": "elvin-brito",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ramiro-figueroa"
+    },
+    {
+      "event": "BKFC 86",
+      "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
+      "date": "2026-01-17T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Dalvin Blair",
+      "opponent_slug": "dalvin-blair",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ramiro-figueroa"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Howard Davis",
+      "opponent_slug": "howard-davis",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ramiro-figueroa"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha-2",
+      "date": "2025-04-18T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "James Brown",
+      "opponent_slug": "james-brown",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ramiro-figueroa"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/ramiro-figueroa"
   ],
@@ -39,5 +103,6 @@
     "volume"
   ],
   "elo": 1518,
-  "elo_peak": 1518
+  "elo_peak": 1518,
+  "history_last_verified": "2026-07-31T18:45:16.563Z"
 }

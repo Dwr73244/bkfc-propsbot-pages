@@ -28,12 +28,77 @@
     "facebook": "https://www.facebook.com/jenny.savage.3367"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:25",
+      "opponent": "Christine Vicens",
+      "opponent_slug": "christine-vicens",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jenny-savage"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Albuquerque",
+      "event_slug": "bkfc-fight-night-prospects-albuquerque-2024",
+      "date": "2024-01-27T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "taylor-starling",
+      "opponent_slug": "taylor-starling",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 39",
+      "event_slug": "bkfc-39-norfolk",
+      "date": "2023-03-24T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Britain Hart",
+      "opponent_slug": "britain-hart",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jenny-savage"
+    },
+    {
+      "event": "BKFC 29 - Montana II",
+      "event_slug": "bkfc-29-montana-2",
+      "date": "2022-09-10T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:38",
+      "opponent": "Nekah Dmitriyeva",
+      "opponent_slug": "nekah-dmitriyeva",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jenny-savage"
+    },
+    {
+      "event": "Fight Night TAMPA",
+      "event_slug": "bkfc-tampa",
+      "date": "2021-12-09T05:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Delaney Bailey",
+      "opponent_slug": "delaney-bailey",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jenny-savage"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jenny-savage"
   ],
   "last_updated": "2026-04-19",
   "elo": 1480,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:10.656Z"
 }

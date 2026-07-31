@@ -28,12 +28,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 71 Dubai Day 1: Trout vs. Trinidad-Snake",
+      "event_slug": "bkfc-71",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:28",
+      "opponent": "david-mora",
+      "opponent_slug": "david-mora",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/adel-altamimi"
   ],
   "last_updated": "2026-04-17",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:44:01.755Z"
 }

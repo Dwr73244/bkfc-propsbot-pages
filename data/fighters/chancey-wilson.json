@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 87",
+      "event_slug": "bkfc-87-hollywood",
+      "date": "2026-03-20T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:19",
+      "opponent": "Chris Garcia",
+      "opponent_slug": "chris-garcia",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/chancey-wilson"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T05:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:46",
+      "opponent": "Guillermo Perez",
+      "opponent_slug": "guillermo-perez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/chancey-wilson"
+    },
+    {
+      "event": "BKFCF 67 - Denver",
+      "event_slug": "bkfc-67-camozzi-vs-depee",
+      "date": "2024-10-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:13",
+      "opponent": "Andrew Strode",
+      "opponent_slug": "andrew-strode",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/chancey-wilson"
+    },
+    {
+      "event": "BKFC 53",
+      "event_slug": "bkfc-53-orlando",
+      "date": "2023-11-03T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:24",
+      "opponent": "Dagoberto Aguero",
+      "opponent_slug": "dagoberto-aguero",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/chancey-wilson"
+    },
+    {
+      "event": "BKFC 38 Delray Beach: Nguyen vs. Straus",
+      "event_slug": "bkfc-38",
+      "date": "2023-04-21T20:00:00.000Z",
+      "method": "Decision (split)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "tyler-randall",
+      "opponent_slug": "tyler-randall",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/chancey-wilson"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:45:02.840Z"
 }

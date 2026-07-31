@@ -29,7 +29,63 @@
     "facebook": null
   },
   "bio": "Isaac \"Ike\" James Villanueva (born April 4, 1984), is an American mixed martial artist and bare-knuckle boxer who competes in the Heavyweight division of BKB Bare Knuckle Boxing and competed in the Light Heavyweight division of the Ultimate Fighting Championship. He is a former BYB Heavyweight Champion.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 42: Music City Brawl",
+      "event_slug": "bkb-42-music-city-brawl",
+      "date": "2025-06-21T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": null,
+      "opponent": "eric-olsen",
+      "opponent_slug": "eric-olsen",
+      "result": "W"
+    },
+    {
+      "event": "BYB 33: Wolverhampton Brawl",
+      "event_slug": "byb-33-wolverhampton-brawl",
+      "date": "2024-11-09T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "kamil-sokolowski",
+      "opponent_slug": "kamil-sokolowski",
+      "result": "L"
+    },
+    {
+      "event": "BYB 28: Bourbon Street Brawl",
+      "event_slug": "byb-28-bourbon-street-brawl",
+      "date": "2024-06-14T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "gustavo-trujillo",
+      "opponent_slug": "gustavo-trujillo",
+      "result": "L"
+    },
+    {
+      "event": "BYB 24: Super Brawl Saturday",
+      "event_slug": "byb-24-super-brawl-saturday",
+      "date": "2024-02-10T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "dj-linderman",
+      "opponent_slug": "dj-linderman",
+      "result": "W"
+    },
+    {
+      "event": "BYB 22: Rocky Mountain Brawl",
+      "event_slug": "byb-22-rocky-mountain-brawl",
+      "date": "2023-12-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "jay-fish",
+      "opponent_slug": "jay-fish",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing",
     "https://en.wikipedia.org/wiki/Ike_Villanueva"

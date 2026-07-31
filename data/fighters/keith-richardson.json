@@ -28,7 +28,69 @@
     "facebook": "https://www.facebook.com/RockstarMMA/"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89 Palm Desert: Herring vs. Maness",
+      "event_slug": "bkfc-89-palm-desert",
+      "date": "2026-05-23T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:41",
+      "opponent": "devon-schwan",
+      "opponent_slug": "devon-schwan",
+      "result": "W"
+    },
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:55",
+      "opponent": "bekhzod-usmonov",
+      "opponent_slug": "bekhzod-usmonov",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Albuquerque",
+      "event_slug": "bkfc-fight-night-albuquerque",
+      "date": "2025-02-28T05:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:55",
+      "opponent": "Bekhzod Usmanov",
+      "opponent_slug": "bekhzod-usmanov",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/keith-richardson"
+    },
+    {
+      "event": "BKFC 69",
+      "event_slug": "bkfc-69-richardson-vs-larrimore",
+      "date": "2024-12-06T05:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:21",
+      "opponent": "Michael Larrimore",
+      "opponent_slug": "michael-larrimore",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/keith-richardson"
+    },
+    {
+      "event": "BKFC 62",
+      "event_slug": "bkfc-62-hollywood",
+      "date": "2024-06-21T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:10",
+      "opponent": "Alberto Blas",
+      "opponent_slug": "alberto-blas",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/keith-richardson"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -37,5 +99,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1568,
-  "elo_peak": 1577
+  "elo_peak": 1577,
+  "history_last_verified": "2026-07-31T18:45:12.912Z"
 }

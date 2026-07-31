@@ -28,7 +28,67 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Knucklemania VI",
+      "event_slug": "knucklemania-vi",
+      "date": "2026-02-07T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:14",
+      "opponent": "Andrei Arlovski",
+      "opponent_slug": "andrei-arlovski",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ben-rothwell"
+    },
+    {
+      "event": "BKFC Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:36",
+      "opponent": "mick-terrill",
+      "opponent_slug": "mick-terrill",
+      "result": "W"
+    },
+    {
+      "event": "BKFC Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T20:00:00.000Z",
+      "method": "TKO (injury)",
+      "round": 1,
+      "time": "0:43",
+      "opponent": "todd-duffee",
+      "opponent_slug": "todd-duffee",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "TKO (corner stoppage)",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "josh-copeland",
+      "opponent_slug": "josh-copeland",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 30",
+      "event_slug": "bkfc-30-hunt-vs-henry",
+      "date": "2022-10-01T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:19",
+      "opponent": "Bobo O'Bannon",
+      "opponent_slug": "bobo-o-bannon",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ben-rothwell"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -43,5 +103,6 @@
   ],
   "full_name": "Ben Rothwell",
   "elo": 1568,
-  "elo_peak": 1568
+  "elo_peak": 1568,
+  "history_last_verified": "2026-07-31T18:44:45.293Z"
 }

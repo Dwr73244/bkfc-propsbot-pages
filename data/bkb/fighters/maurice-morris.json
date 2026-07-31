@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 42: Music City Brawl",
+      "event_slug": "bkb-42-music-city-brawl",
+      "date": "2025-06-21T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "marko-martinjak",
+      "opponent_slug": "marko-martinjak",
+      "result": "L"
+    },
+    {
+      "event": "BKB 39: Brawl at the Beach",
+      "event_slug": "bkb-39-brawl-at-the-beach",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": null,
+      "opponent": "dan-vinni",
+      "opponent_slug": "dan-vinni",
+      "result": "W"
+    },
+    {
+      "event": "BYB 17: Brawl at Rock Hill",
+      "event_slug": "byb-17-brawl-at-rock-hill",
+      "date": "2023-05-13T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "harrison-aiken",
+      "opponent_slug": "harrison-aiken",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

@@ -28,10 +28,62 @@
     "facebook": "https://www.facebook.com/brandon.g.meneses"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-fight-night-hammond",
+      "date": "2026-06-26T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Stevo Morris",
+      "opponent_slug": "stevo-morris",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-meneses"
+    },
+    {
+      "event": "BKFC 86",
+      "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
+      "date": "2026-01-17T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:55",
+      "opponent": "Zach Pannell",
+      "opponent_slug": "zach-pannell",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-meneses"
+    },
+    {
+      "event": "BKFC 76 - Texas",
+      "event_slug": "bkfc-fort-worth",
+      "date": "2025-06-21T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:22",
+      "opponent": "Willie Gates",
+      "opponent_slug": "willie-gates",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/brandon-meneses"
+    },
+    {
+      "event": "BKFC 36 New Orleans: Adams vs. Belcher",
+      "event_slug": "bkfc-36",
+      "date": "2023-02-24T20:00:00.000Z",
+      "method": "Draw (majority)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "cody-mitchell",
+      "opponent_slug": "cody-mitchell",
+      "result": "D"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/brandon-meneses"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:44:53.151Z"
 }

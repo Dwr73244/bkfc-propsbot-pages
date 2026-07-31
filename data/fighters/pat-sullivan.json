@@ -4,7 +4,7 @@
   "nickname": "THE IRISHMAN",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 2,
     "draws": 0,
     "kos": null
@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Liberty Brawl",
+      "event_slug": "bkfc-liberty-brawl",
+      "date": "2026-07-03T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:33",
+      "opponent": "Ruben Arroyo",
+      "opponent_slug": "ruben-arroyo",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-sullivan"
+    },
+    {
+      "event": "BKFC - Knucklemania VI",
+      "event_slug": "knucklemania-vi",
+      "date": "2026-02-07T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:56",
+      "opponent": "Charles Bennett",
+      "opponent_slug": "charles-bennett",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-sullivan"
+    },
+    {
+      "event": "BKFC - Fight Night Philly",
+      "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
+      "date": "2025-07-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:15",
+      "opponent": "Austin Petersen",
+      "opponent_slug": "austin-petersen",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-sullivan"
+    },
+    {
+      "event": "BKFC Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:37",
+      "opponent": "kaine-tomlinson",
+      "opponent_slug": "kaine-tomlinson",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T05:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:37",
+      "opponent": "Kaine Tomlinson Jr",
+      "opponent_slug": "kaine-tomlinson-jr",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pat-sullivan"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/pat-sullivan"
   ],
   "last_updated": "2026-04-19",
   "elo": 1479,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:47:35.480Z"
 }

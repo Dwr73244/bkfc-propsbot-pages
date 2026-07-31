@@ -28,7 +28,56 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Prospects: Canada",
+      "event_slug": "bkfc-fight-night-prospects-canada-2024",
+      "date": "2024-03-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:50",
+      "opponent": "chad-lucanas",
+      "opponent_slug": "chad-lucanas",
+      "result": "L"
+    },
+    {
+      "event": "BKFC: Prospects Canada",
+      "event_slug": "fight-night-prospect-canada",
+      "date": "2024-03-02T05:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:50",
+      "opponent": "Chad Lacanas",
+      "opponent_slug": "chad-lacanas",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/trai-santos"
+    },
+    {
+      "event": "BKFC 39 Norfolk: Barnett vs. Alvarez",
+      "event_slug": "bkfc-39",
+      "date": "2023-03-24T20:00:00.000Z",
+      "method": "KO (punches)",
+      "round": 4,
+      "time": "1:47",
+      "opponent": "kasim-ruffin",
+      "opponent_slug": "kasim-ruffin",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 23",
+      "event_slug": "bkfc-23-richman-vs-rickels",
+      "date": "2022-04-09T04:00:00.000Z",
+      "method": "Majority Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Nick Villar",
+      "opponent_slug": "nick-villar",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/trai-santos"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +85,6 @@
   ],
   "last_updated": "2026-04-17",
   "elo": 1457,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:19.250Z"
 }

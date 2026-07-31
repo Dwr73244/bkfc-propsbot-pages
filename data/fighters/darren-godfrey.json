@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 37 London: Tierney vs. Lindsey",
+      "event_slug": "bkfc-37",
+      "date": "2023-03-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:49",
+      "opponent": "rico-franco",
+      "opponent_slug": "rico-franco",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 37",
+      "event_slug": "bkfc-37-london",
+      "date": "2023-03-04T05:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:49",
+      "opponent": "Ricardo Franco",
+      "opponent_slug": "ricardo-franco",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/darren-godfrey"
+    },
+    {
+      "event": "BKFC - Newcastle",
+      "event_slug": "bkfc-newcastle-terrill-vs-banks",
+      "date": "2022-11-26T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:07",
+      "opponent": "Danny Christie",
+      "opponent_slug": "danny-christie",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/darren-godfrey"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/darren-godfrey"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:05.228Z"
 }

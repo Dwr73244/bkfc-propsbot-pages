@@ -5,7 +5,7 @@
   "nickname": "THE SAILOR",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 5,
+    "wins": 6,
     "losses": 3,
     "draws": 0,
     "kos": null
@@ -29,12 +29,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89 Palm Desert: Herring vs. Maness",
+      "event_slug": "bkfc-89-palm-desert",
+      "date": "2026-05-23T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:41",
+      "opponent": "eric-lopez",
+      "opponent_slug": "eric-lopez",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:41",
+      "opponent": "Erik Lopez",
+      "opponent_slug": "erik-lopez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/evgenii-kurdanov"
+    },
+    {
+      "event": "BKFC 84",
+      "event_slug": "bkfc-84-palm-desert",
+      "date": "2025-11-15T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Paulo Machado Games",
+      "opponent_slug": "paulo-machado-games",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/evgenii-kurdanov"
+    },
+    {
+      "event": "BKFC - Fight Night Pechanga",
+      "event_slug": "bkfc-fight-night-pechanga-a6119",
+      "date": "2025-01-18T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Elvin Brito",
+      "opponent_slug": "elvin-brito",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/evgenii-kurdanov"
+    },
+    {
+      "event": "BKFC - Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Julian Lane",
+      "opponent_slug": "julian-lane",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/evgenii-kurdanov"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-palm-desert",
     "https://www.bkfc.com/fighters/evgenii-kurdanov"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:47:26.828Z"
 }

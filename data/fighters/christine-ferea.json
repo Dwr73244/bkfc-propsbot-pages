@@ -28,7 +28,71 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 82 -",
+      "event_slug": "bkfc-new-jersey",
+      "date": "2025-10-04T04:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "00:26",
+      "opponent": "Jessica Borga",
+      "opponent_slug": "jessica-borga",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/christine-ferea"
+    },
+    {
+      "event": "BKFC on DAZN - Hollywood",
+      "event_slug": "bkfc-on-dazn-hollywood",
+      "date": "2024-12-21T05:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:22",
+      "opponent": "Christine Vicens",
+      "opponent_slug": "christine-vicens",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/christine-ferea"
+    },
+    {
+      "event": "BKFC 65",
+      "event_slug": "bkfc-65-ferea-vs-masson-wong",
+      "date": "2024-09-06T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jade Masson-Wong",
+      "opponent_slug": "jade-masson-wong",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/christine-ferea"
+    },
+    {
+      "event": "BKFC 56",
+      "event_slug": "bkfc-56-utah",
+      "date": "2023-12-02T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Bec Rawlings",
+      "opponent_slug": "bec-rawlings",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/christine-ferea"
+    },
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "TKO (doctor stoppage)",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "bec-rawlings",
+      "opponent_slug": "bec-rawlings",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/christine-ferea",
@@ -41,5 +105,6 @@
   ],
   "full_name": "Christine Ferea",
   "elo": 1526,
-  "elo_peak": 1526
+  "elo_peak": 1526,
+  "history_last_verified": "2026-07-31T18:45:03.447Z"
 }

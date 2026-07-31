@@ -29,7 +29,63 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 36: Cardiff Brawl II",
+      "event_slug": "byb-36-cardiff-brawl-ii",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "barrie-jones",
+      "opponent_slug": "barrie-jones",
+      "result": "L"
+    },
+    {
+      "event": "BYB 29: Brawl in the Pines III",
+      "event_slug": "byb-29-brawl-in-the-pines-iii",
+      "date": "2024-08-10T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "cub-hawkins",
+      "opponent_slug": "cub-hawkins",
+      "result": "W"
+    },
+    {
+      "event": "BYB 23: Brawl in the Pines II",
+      "event_slug": "byb-23-brawl-in-the-pines-ii",
+      "date": "2024-01-18T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "rene-rodriguez",
+      "opponent_slug": "rene-rodriguez",
+      "result": "W"
+    },
+    {
+      "event": "BYB 21: Fall Brawl",
+      "event_slug": "byb-21-fall-brawl",
+      "date": "2023-10-21T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "erik-lopez",
+      "opponent_slug": "erik-lopez",
+      "result": "W"
+    },
+    {
+      "event": "BYB 19: Brawl in the Pines",
+      "event_slug": "byb-19-brawl-in-the-pines",
+      "date": "2023-08-10T20:00:00.000Z",
+      "method": "DQ",
+      "round": 1,
+      "time": null,
+      "opponent": "rynell-riley",
+      "opponent_slug": "rynell-riley",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

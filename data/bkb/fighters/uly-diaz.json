@@ -29,7 +29,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 29: Brawl in the Pines III",
+      "event_slug": "byb-29-brawl-in-the-pines-iii",
+      "date": "2024-08-10T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "szymon-szynkiewicz",
+      "opponent_slug": "szymon-szynkiewicz",
+      "result": "W"
+    },
+    {
+      "event": "BYB 26: Mile High Brawl",
+      "event_slug": "byb-26-mile-high-brawl",
+      "date": "2024-05-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "zion-tomlinson",
+      "opponent_slug": "zion-tomlinson",
+      "result": "L"
+    },
+    {
+      "event": "BYB 23: Brawl in the Pines II",
+      "event_slug": "byb-23-brawl-in-the-pines-ii",
+      "date": "2024-01-18T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "mumia-abu-dey-ali",
+      "opponent_slug": "mumia-abu-dey-ali",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

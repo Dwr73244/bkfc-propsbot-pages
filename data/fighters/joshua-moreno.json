@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 48",
+      "event_slug": "bkfc-48-albuquerque",
+      "date": "2023-08-11T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Jeremy Sauceda",
+      "opponent_slug": "jeremy-sauceda",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joshua-moreno"
+    },
+    {
+      "event": "BKFC Knucklemania III",
+      "event_slug": "bkfc-knucklemania-3",
+      "date": "2023-02-17T20:00:00.000Z",
+      "method": "TKO (uppercut)",
+      "round": 2,
+      "time": "1:02",
+      "opponent": "christian-torres",
+      "opponent_slug": "christian-torres",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 28",
+      "event_slug": "bkfc-28-albuquerque",
+      "date": "2022-08-27T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:00",
+      "opponent": "Zion Tomlinson",
+      "opponent_slug": "zion-tomlinson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joshua-moreno"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/joshua-moreno"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:11.749Z"
 }

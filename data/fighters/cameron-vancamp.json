@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-fight-night-hammond",
+      "date": "2026-06-26T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:49",
+      "opponent": "Gregoris Cisnero",
+      "opponent_slug": "gregoris-cisnero",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cameron-vancamp"
+    },
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-hammond",
+      "date": "2025-10-18T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:35",
+      "opponent": "Derrick Findley",
+      "opponent_slug": "derrick-findley",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cameron-vancamp"
+    },
+    {
+      "event": "BKFC on DAZN Mohegan Sun: Lane vs. VanCamp",
+      "event_slug": "bkfc-on-dazn-mohegan-sun-2025",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "0:54",
+      "opponent": "julian-lane",
+      "opponent_slug": "julian-lane",
+      "result": "L"
+    },
+    {
+      "event": "BKFCF 67 - Denver",
+      "event_slug": "bkfc-67-camozzi-vs-depee",
+      "date": "2024-10-25T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Brandon Girtz",
+      "opponent_slug": "brandon-girtz",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cameron-vancamp"
+    },
+    {
+      "event": "BKFC Fight Night Prospects: Manassas",
+      "event_slug": "bkfc-fight-night-prospects-manassas-2024",
+      "date": "2024-02-16T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 2,
+      "time": "0:25",
+      "opponent": "micah-terrill",
+      "opponent_slug": "micah-terrill",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1500,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:44:57.301Z"
 }

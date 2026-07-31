@@ -29,7 +29,32 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Clearwater: Gaskins vs Guymon",
+      "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
+      "date": "2026-04-25T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "rickie-mcconnico",
+      "opponent_slug": "rickie-mcconnico",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-clearwater",
+      "date": "2026-04-24T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Rickie McConnico",
+      "opponent_slug": "rickie-mcconnico",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/frankie-solomon"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/frankie-solomon"
   ],
@@ -37,5 +62,6 @@
   "elo": 1519,
   "elo_peak": 1519,
   "record_source": "tracked-events",
-  "record_verified": "2026-07-07"
+  "record_verified": "2026-07-07",
+  "history_last_verified": "2026-07-31T18:45:08.072Z"
 }

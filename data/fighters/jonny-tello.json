@@ -5,7 +5,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 2,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -28,12 +28,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Gorjan Slaveski",
+      "opponent_slug": "gorjan-slaveski",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jonny-tello"
+    },
+    {
+      "event": "BKFC 71 Dubai Day 1: Trout vs. Trinidad-Snake",
+      "event_slug": "bkfc-71",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "sabah-homasi",
+      "opponent_slug": "sabah-homasi",
+      "result": "W"
+    },
+    {
+      "event": "BKFC Thailand 5",
+      "event_slug": "bkfc-thailand-5",
+      "date": "2023-11-04T04:00:00.000Z",
+      "method": "KO",
+      "round": 5,
+      "time": "00:50",
+      "opponent": "Chaloemporn Sawatsuk",
+      "opponent_slug": "chaloemporn-sawatsuk",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jonny-tello"
+    },
+    {
+      "event": "BKFC Thailand 1",
+      "event_slug": "bkfc-thailand",
+      "date": "2021-12-18T05:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Boonsom Klinmee",
+      "opponent_slug": "boonsom-klinmee",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jonny-tello"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jonny-tello"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:47:34.851Z"
 }

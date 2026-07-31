@@ -28,12 +28,62 @@
     "facebook": "https://www.facebook.com/AndyTheCrasian1"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 42 Greenville: Soto vs. Goodjohn",
+      "event_slug": "bkfc-42",
+      "date": "2023-05-12T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "sydney-smith",
+      "opponent_slug": "sydney-smith",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 35 Myrtle Beach: Cedeno vs. Slaveski",
+      "event_slug": "bkfc-35",
+      "date": "2023-01-27T20:00:00.000Z",
+      "method": "Decision (split)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "nekah-dmitryeva",
+      "opponent_slug": "nekah-dmitryeva",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 35",
+      "event_slug": "bkfc-35-myrtle-beach",
+      "date": "2023-01-27T05:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Nekah Dmitriyeva",
+      "opponent_slug": "nekah-dmitriyeva",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andy-nguyen"
+    },
+    {
+      "event": "BKFC 24",
+      "event_slug": "bkfc-24-hunt-vs-riggs",
+      "date": "2022-04-30T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Cassandra Robb",
+      "opponent_slug": "cassandra-robb",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andy-nguyen"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/andy-nguyen"
   ],
   "last_updated": "2026-04-19",
   "elo": 1499,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:44:24.395Z"
 }

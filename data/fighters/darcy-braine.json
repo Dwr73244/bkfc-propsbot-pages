@@ -29,11 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
+      "event_slug": "bkfc-fight-night-australia-townsville",
+      "date": "2026-04-18T09:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "ritchie-faoso",
+      "opponent_slug": "ritchie-faoso",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Australia",
+      "event_slug": "bkfc-australia-2",
+      "date": "2026-04-18T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Richie Fa'aoso",
+      "opponent_slug": "richie-fa-aoso",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/darcy-braine"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/darcy-braine"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:45:05.154Z"
 }

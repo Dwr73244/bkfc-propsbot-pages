@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 42 Greenville: Soto vs. Goodjohn",
+      "event_slug": "bkfc-42",
+      "date": "2023-05-12T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "tony-soto",
+      "opponent_slug": "tony-soto",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 42",
+      "event_slug": "bkfc-42-greenville",
+      "date": "2023-05-12T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Antonio Soto III",
+      "opponent_slug": "antonio-soto-iii",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tyler-goodjohn"
+    },
+    {
+      "event": "BKFC 27",
+      "event_slug": "bkfc-27-london",
+      "date": "2022-08-20T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "James Lilley",
+      "opponent_slug": "james-lilley",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tyler-goodjohn"
+    },
+    {
+      "event": "BKFC 18",
+      "event_slug": "bkfc-18-beltran-vs-shewmaker",
+      "date": "2021-06-26T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Luis Palomino",
+      "opponent_slug": "luis-palomino",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tyler-goodjohn"
+    },
+    {
+      "event": "BKFC 15",
+      "event_slug": "bkfc-15-obannon-vs-shewmaker",
+      "date": "2020-12-11T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Charles Bennett",
+      "opponent_slug": "charles-bennett",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tyler-goodjohn"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/tyler-goodjohn"
   ],
   "last_updated": "2026-04-19",
   "elo": 1482,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:19.668Z"
 }

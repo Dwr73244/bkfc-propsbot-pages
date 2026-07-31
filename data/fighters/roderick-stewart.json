@@ -5,7 +5,7 @@
   "division": "Featherweight",
   "bkfc_record": {
     "wins": 2,
-    "losses": 3,
+    "losses": 4,
     "draws": 0,
     "kos": 1
   },
@@ -28,12 +28,75 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BLOOD 4 BLOOD",
+      "event_slug": "blood-4-blood-daytona",
+      "date": "2026-05-07T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:25",
+      "opponent": "jake-bostwick",
+      "opponent_slug": "jake-bostwick",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Blood 4 Blood",
+      "event_slug": "blood-4-blood",
+      "date": "2026-05-06T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:25",
+      "opponent": "Jake Bostwick",
+      "opponent_slug": "jake-bostwick",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/roderick-stewart"
+    },
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-hammond",
+      "date": "2025-10-18T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:59",
+      "opponent": "Bryce Henry",
+      "opponent_slug": "bryce-henry",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/roderick-stewart"
+    },
+    {
+      "event": "BKFC 76 - Texas",
+      "event_slug": "bkfc-fort-worth",
+      "date": "2025-06-21T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "James Gray",
+      "opponent_slug": "james-gray",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/roderick-stewart"
+    },
+    {
+      "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
+      "event_slug": "bkfc-fight-night-albuquerque-2025-02-28",
+      "date": "2025-02-28T20:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:16",
+      "opponent": "bryant-mcclain",
+      "opponent_slug": "bryant-mcclain",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/roderick-stewart"
   ],
   "last_updated": "2026-04-19",
   "elo": 1494,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:47:36.336Z"
 }

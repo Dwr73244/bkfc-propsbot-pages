@@ -28,12 +28,38 @@
     "facebook": "https://www.facebook.com/jacob.kreitel.9"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC on DAZN Mohegan Sun: Lane vs. VanCamp",
+      "event_slug": "bkfc-on-dazn-mohegan-sun-2025",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:45",
+      "opponent": "jared-lennon",
+      "opponent_slug": "jared-lennon",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 24",
+      "event_slug": "bkfc-24-hunt-vs-riggs",
+      "date": "2022-04-30T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:43",
+      "opponent": "Billy Wagner",
+      "opponent_slug": "billy-wagner",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jacob-kreitel"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jacob-kreitel"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:10.032Z"
 }

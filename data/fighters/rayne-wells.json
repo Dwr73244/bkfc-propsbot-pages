@@ -28,7 +28,43 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:47",
+      "opponent": "john-garbarino",
+      "opponent_slug": "john-garbarino",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:41",
+      "opponent": "Almat Jumanov",
+      "opponent_slug": "almat-jumanov",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rayne-wells"
+    },
+    {
+      "event": "BKFC Fight Night Clearwater: Richman vs. Lozano",
+      "event_slug": "bkfc-fight-night-clearwater-2024-04-12",
+      "date": "2024-04-12T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:08",
+      "opponent": "angel-hernandez",
+      "opponent_slug": "angel-hernandez",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +72,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1459,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:16.680Z"
 }

@@ -28,12 +28,38 @@
     "facebook": "https://www.facebook.com/will.worley.315"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 39 Norfolk: Barnett vs. Alvarez",
+      "event_slug": "bkfc-39",
+      "date": "2023-03-24T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:10",
+      "opponent": "dimitri-angelini",
+      "opponent_slug": "dimitri-angelini",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 39",
+      "event_slug": "bkfc-39-norfolk",
+      "date": "2023-03-24T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:10",
+      "opponent": "Will Worley",
+      "opponent_slug": "will-worley",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/will-worley"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/will-worley"
   ],
   "last_updated": "2026-04-17",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:20.448Z"
 }

@@ -28,7 +28,56 @@
     "facebook": "https://www.facebook.com/TheMagicianDodson/"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
+      "event_slug": "bkfc-59",
+      "date": "2024-03-29T20:00:00.000Z",
+      "method": "Draw (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "dagoberto-aguero",
+      "opponent_slug": "dagoberto-aguero",
+      "result": "D"
+    },
+    {
+      "event": "BKFC 48",
+      "event_slug": "bkfc-48-albuquerque",
+      "date": "2023-08-11T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:49",
+      "opponent": "Joshua Ridge",
+      "opponent_slug": "joshua-ridge",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/john-dodson"
+    },
+    {
+      "event": "BKFC Knucklemania III",
+      "event_slug": "bkfc-knucklemania-3",
+      "date": "2023-02-17T20:00:00.000Z",
+      "method": "KO (punches)",
+      "round": 1,
+      "time": "1:41",
+      "opponent": "jarod-grant",
+      "opponent_slug": "jarod-grant",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 28",
+      "event_slug": "bkfc-28-albuquerque",
+      "date": "2022-08-27T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:40",
+      "opponent": "Ryan Benoit",
+      "opponent_slug": "ryan-benoit",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/john-dodson"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
@@ -40,5 +89,6 @@
     "volume"
   ],
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:10.988Z"
 }

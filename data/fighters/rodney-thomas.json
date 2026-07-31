@@ -28,12 +28,64 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-mohegan-sun",
+      "date": "2025-06-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Gary Balletto",
+      "opponent_slug": "gary-balletto",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rodney-thomas"
+    },
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "art-driscoll",
+      "opponent_slug": "art-driscoll",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Los Angeles",
+      "event_slug": "bkfc-fight-night-los-angeles",
+      "date": "2024-11-23T05:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:09",
+      "opponent": "Danasabe Mohammed",
+      "opponent_slug": "danasabe-mohammed",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rodney-thomas"
+    },
+    {
+      "event": "BKFC - Fight Night Pechanga",
+      "event_slug": "bkfc-fight-night-pechanga",
+      "date": "2024-07-12T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Fernando Gonzalez",
+      "opponent_slug": "fernando-gonzalez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rodney-thomas"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/rodney-thomas"
   ],
   "last_updated": "2026-04-19",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-07-31T18:45:17.097Z"
 }

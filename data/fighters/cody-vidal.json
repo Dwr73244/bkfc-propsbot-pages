@@ -4,7 +4,7 @@
   "nickname": null,
   "division": "Cruiserweight",
   "bkfc_record": {
-    "wins": 3,
+    "wins": 4,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": "American mixed martial artist turned bare-knuckle fighter based in Fountain Valley, California, training with Classic Fight Team. Compiled a 3-1 MMA record with all bouts ending in round one before transitioning to BKFC. Known primarily as a striker, he made his BKFC debut at KnuckleMania IV against Keith Richardson, lost to David Simpson in November 2025, and is matched against Jomi Escoboza in May 2026.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89 Palm Desert: Herring vs. Maness",
+      "event_slug": "bkfc-89-palm-desert",
+      "date": "2026-05-23T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:58",
+      "opponent": "jomi-escoboza",
+      "opponent_slug": "jomi-escoboza",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:58",
+      "opponent": "John Escoboza",
+      "opponent_slug": "john-escoboza",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cody-vidal"
+    },
+    {
+      "event": "BKFC 84",
+      "event_slug": "bkfc-84-palm-desert",
+      "date": "2025-11-15T05:00:00.000Z",
+      "method": "KO",
+      "round": 5,
+      "time": "00:43",
+      "opponent": "David Simpson",
+      "opponent_slug": "david-simpson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cody-vidal"
+    },
+    {
+      "event": "BKFC - Fight Night Philly",
+      "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
+      "date": "2025-07-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:28",
+      "opponent": "Maurice Horne",
+      "opponent_slug": "maurice-horne",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/cody-vidal"
+    },
+    {
+      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
+      "event_slug": "bkfc-fight-night-philly-2025-03-21",
+      "date": "2025-03-21T20:00:00.000Z",
+      "method": "Draw (majority)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "brandon-conley",
+      "opponent_slug": "brandon-conley",
+      "result": "D"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1505,
-  "elo_peak": 1505
+  "elo_peak": 1505,
+  "history_last_verified": "2026-07-31T18:47:20.207Z"
 }

@@ -5,7 +5,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 2,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": 1
   },
@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 90",
+      "event_slug": "bkfc-90-birmingham-tierny-vs-franco",
+      "date": "2026-05-30T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:22",
+      "opponent": "Darren Till",
+      "opponent_slug": "darren-till",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/aaron-chalmers"
+    },
+    {
+      "event": "BKFC 81 - Manchester",
+      "event_slug": "bkfc-manchester",
+      "date": "2025-09-27T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Jack Fincham",
+      "opponent_slug": "jack-fincham",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/aaron-chalmers"
+    },
+    {
+      "event": "BKFC 72 Dubai Day 2: Stewart vs. Strydom",
+      "event_slug": "bkfc-72",
+      "date": "2025-04-05T20:00:00.000Z",
+      "method": "TKO (left hook)",
+      "round": 3,
+      "time": "0:16",
+      "opponent": "chas-symonds",
+      "opponent_slug": "chas-symonds",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/aaron-chalmers"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:46:22.540Z"
 }

@@ -29,7 +29,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 17: Brawl at Rock Hill",
+      "event_slug": "byb-17-brawl-at-rock-hill",
+      "date": "2023-05-13T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": null,
+      "opponent": "zion-tomlinson",
+      "opponent_slug": "zion-tomlinson",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

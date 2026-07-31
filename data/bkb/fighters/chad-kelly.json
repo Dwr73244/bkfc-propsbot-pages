@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 28: Bourbon Street Brawl",
+      "event_slug": "byb-28-bourbon-street-brawl",
+      "date": "2024-06-14T20:00:00.000Z",
+      "method": "NC",
+      "round": 2,
+      "time": null,
+      "opponent": "scott-oshaughnessy",
+      "opponent_slug": "scott-oshaughnessy",
+      "result": "NC"
+    },
+    {
+      "event": "BYB 19: Brawl in the Pines",
+      "event_slug": "byb-19-brawl-in-the-pines",
+      "date": "2023-08-10T20:00:00.000Z",
+      "method": "NC",
+      "round": 1,
+      "time": null,
+      "opponent": "zion-tomlinson",
+      "opponent_slug": "zion-tomlinson",
+      "result": "NC"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

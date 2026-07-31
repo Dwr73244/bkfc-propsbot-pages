@@ -28,7 +28,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T20:00:00.000Z",
+      "method": "TKO (punches)",
+      "round": 1,
+      "time": "1:00",
+      "opponent": "thiago-alves",
+      "opponent_slug": "thiago-alves",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
+      "event_slug": "bkfc-41",
+      "date": "2023-04-29T20:00:00.000Z",
+      "method": "TKO (retirement)",
+      "round": 2,
+      "time": "1:15",
+      "opponent": "luke-rockhold",
+      "opponent_slug": "luke-rockhold",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",

@@ -4,7 +4,7 @@
   "nickname": "RYU",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 2,
     "draws": 0,
     "kos": null
@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Daniel Keepers",
+      "opponent_slug": "daniel-keepers",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ryan-petersen"
+    },
+    {
+      "event": "BKFC 84",
+      "event_slug": "bkfc-84-palm-desert",
+      "date": "2025-11-15T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:22",
+      "opponent": "Enkhtur Bayartsogt",
+      "opponent_slug": "enkhtur-bayartsogt",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ryan-petersen"
+    },
+    {
+      "event": "BKFC - Fight Night Philly",
+      "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
+      "date": "2025-07-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:29",
+      "opponent": "Dustin Pague",
+      "opponent_slug": "dustin-pague",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ryan-petersen"
+    },
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "matthew-socholotiuk",
+      "opponent_slug": "matthew-socholotiuk",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Pechanga",
+      "event_slug": "bkfc-fight-night-pechanga-a6119",
+      "date": "2025-01-18T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Matt Socholotiuk",
+      "opponent_slug": "matt-socholotiuk",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ryan-petersen"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/ryan-petersen"
   ],
   "last_updated": "2026-04-19",
   "elo": 1520,
-  "elo_peak": 1520
+  "elo_peak": 1520,
+  "history_last_verified": "2026-07-31T18:47:36.549Z"
 }

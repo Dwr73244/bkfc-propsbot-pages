@@ -5,7 +5,7 @@
   "division": "Welterweight",
   "bkfc_record": {
     "wins": 5,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": 1
   },
@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Liberty Brawl",
+      "event_slug": "bkfc-liberty-brawl",
+      "date": "2026-07-03T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:30",
+      "opponent": "Ben Bonner",
+      "opponent_slug": "ben-bonner",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/austin-trout"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T05:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Luis Palomino",
+      "opponent_slug": "luis-palomino",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/austin-trout"
+    },
+    {
+      "event": "BKFC 71 Dubai Day 1: Trout vs. Trinidad-Snake",
+      "event_slug": "bkfc-71",
+      "date": "2025-04-04T20:00:00.000Z",
+      "method": "Decision (split)",
+      "round": 6,
+      "time": "2:00",
+      "opponent": "carlos-trinidad-snake",
+      "opponent_slug": "carlos-trinidad-snake",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Spain",
+      "event_slug": "bkfc-on-dazn-spain",
+      "date": "2024-10-12T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ricardo Franco",
+      "opponent_slug": "ricardo-franco",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/austin-trout"
+    },
+    {
+      "event": "BKFC 57: Palomino vs. Trout",
+      "event_slug": "bkfc-57",
+      "date": "2024-02-02T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "luis-palomino",
+      "opponent_slug": "luis-palomino",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -651,5 +713,6 @@
       "lost_date": null,
       "status": "held-or-vacated"
     }
-  ]
+  ],
+  "history_last_verified": "2026-07-31T18:46:54.016Z"
 }

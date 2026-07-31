@@ -28,7 +28,56 @@
     "facebook": "https://www.facebook.com/jessica.borga"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 82 -",
+      "event_slug": "bkfc-new-jersey",
+      "date": "2025-10-04T04:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "00:26",
+      "opponent": "Christine Ferea",
+      "opponent_slug": "christine-ferea",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jessica-borga"
+    },
+    {
+      "event": "BKFC 72 Dubai Day 2: Stewart vs. Strydom",
+      "event_slug": "bkfc-72",
+      "date": "2025-04-05T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:32",
+      "opponent": "hannah-rankin",
+      "opponent_slug": "hannah-rankin",
+      "result": "W"
+    },
+    {
+      "event": "BKFC Fight Night Clearwater: Richman vs. Lozano",
+      "event_slug": "bkfc-fight-night-clearwater-2024-04-12",
+      "date": "2024-04-12T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:41",
+      "opponent": "katharina-lehner",
+      "opponent_slug": "katharina-lehner",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 32",
+      "event_slug": "bkfc-32-orlando",
+      "date": "2022-11-05T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:15",
+      "opponent": "Sarah Click",
+      "opponent_slug": "sarah-click",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jessica-borga"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +85,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1547,
-  "elo_peak": 1547
+  "elo_peak": 1547,
+  "history_last_verified": "2026-07-31T18:45:10.757Z"
 }

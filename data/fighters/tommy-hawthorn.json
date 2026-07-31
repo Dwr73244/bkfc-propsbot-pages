@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,12 +29,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 90 Birmingham: Tierney vs. Franco",
+      "event_slug": "bkfc-90-birmingham",
+      "date": "2026-05-30T13:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:42",
+      "opponent": "will-smith",
+      "opponent_slug": "will-smith",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Derby",
+      "event_slug": "bkfc-fight-night-derby",
+      "date": "2025-12-13T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:21",
+      "opponent": "Tommy Carus",
+      "opponent_slug": "tommy-carus",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tommy-hawthorn"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-90-birmingham-tierny-vs-franco",
     "https://www.bkfc.com/fighters/tommy-hawthorn"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:47:38.039Z"
 }

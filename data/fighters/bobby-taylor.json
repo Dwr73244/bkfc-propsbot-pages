@@ -4,7 +4,7 @@
   "nickname": "ODB",
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 6,
+    "wins": 7,
     "losses": 3,
     "draws": 0,
     "kos": null
@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Nashville",
+      "event_slug": "bkfc-nashville",
+      "date": "2026-06-19T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:58",
+      "opponent": "Angel Hernandez",
+      "opponent_slug": "angel-hernandez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bobby-taylor"
+    },
+    {
+      "event": "BKFC 65",
+      "event_slug": "bkfc-65-ferea-vs-masson-wong",
+      "date": "2024-09-06T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jeremy Stephens",
+      "opponent_slug": "jeremy-stephens",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bobby-taylor"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha",
+      "date": "2024-05-17T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ryan Roberts",
+      "opponent_slug": "ryan-roberts",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bobby-taylor"
+    },
+    {
+      "event": "BKFC 36 New Orleans: Adams vs. Belcher",
+      "event_slug": "bkfc-36",
+      "date": "2023-02-24T20:00:00.000Z",
+      "method": "TKO (doctor stoppage)",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "james-lilley",
+      "opponent_slug": "james-lilley",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 32",
+      "event_slug": "bkfc-32-orlando",
+      "date": "2022-11-05T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:39",
+      "opponent": "Gabriel Freyre",
+      "opponent_slug": "gabriel-freyre",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bobby-taylor"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/bobby-taylor"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:47:09.411Z"
 }

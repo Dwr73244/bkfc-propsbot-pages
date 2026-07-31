@@ -28,7 +28,43 @@
     "facebook": "https://www.facebook.com/bobby.brents.5"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 74 - Salt Lake City",
+      "event_slug": "bkfc-74-salt-lake-city",
+      "date": "2025-05-10T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:00",
+      "opponent": "Ben Moa",
+      "opponent_slug": "ben-moa",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bobby-brents"
+    },
+    {
+      "event": "BKFC on DAZN Mohegan Sun: Lane vs. VanCamp",
+      "event_slug": "bkfc-on-dazn-mohegan-sun-2025",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "TKO (hematoma)",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "yorgan-de-castro",
+      "opponent_slug": "yorgan-de-castro",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 57: Palomino vs. Trout",
+      "event_slug": "bkfc-57",
+      "date": "2024-02-02T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:33",
+      "opponent": "leonardo-perdomo",
+      "opponent_slug": "leonardo-perdomo",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +72,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1457,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:44:47.304Z"
 }

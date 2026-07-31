@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,10 +29,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Blood 4 Blood",
+      "event_slug": "blood-4-blood",
+      "date": "2026-05-06T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:06",
+      "opponent": "Brock Walker",
+      "opponent_slug": "brock-walker",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kratos"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/blood-4-blood",
     "https://www.bkfc.com/fighters/kratos"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-07-31T18:47:32.327Z"
 }

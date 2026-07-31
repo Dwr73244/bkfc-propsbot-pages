@@ -5,8 +5,8 @@
   "nickname": "OSSO DURO",
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 1,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,50 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 91",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T04:00:00.000Z",
+      "method": "Disqualification",
+      "round": 2,
+      "time": "00:27",
+      "opponent": "Danny Christie",
+      "opponent_slug": "danny-christie",
+      "result": "NC",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/enzo-tobbia"
+    },
+    {
+      "event": "BKFC 83",
+      "event_slug": "bkfc-rome",
+      "date": "2025-10-25T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:12",
+      "opponent": "Ouadia Tergui",
+      "opponent_slug": "ouadia-tergui",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/enzo-tobbia"
+    },
+    {
+      "event": "BKFC: Italy",
+      "event_slug": "bkfc-73-italy",
+      "date": "2025-04-26T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:29",
+      "opponent": "Michael Igwegbe",
+      "opponent_slug": "michael-igwegbe",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/enzo-tobbia"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/enzo-tobbia"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-07-31T18:47:26.562Z"
 }

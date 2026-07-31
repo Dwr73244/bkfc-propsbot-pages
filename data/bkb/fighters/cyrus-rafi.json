@@ -29,7 +29,30 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 38: Wolves Brawl II",
+      "event_slug": "bkb-38-wolves-brawl-ii",
+      "date": "2025-03-22T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "liam-howell",
+      "opponent_slug": "liam-howell",
+      "result": "L"
+    },
+    {
+      "event": "BYB 32: Leeds Brawl",
+      "event_slug": "byb-32-leeds-brawl",
+      "date": "2024-10-12T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "seamus-devlin",
+      "opponent_slug": "seamus-devlin",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

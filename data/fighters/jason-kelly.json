@@ -28,12 +28,38 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Prospects: Canada",
+      "event_slug": "bkfc-fight-night-prospects-canada-2024",
+      "date": "2024-03-02T20:00:00.000Z",
+      "method": "TKO (doctor stoppage)",
+      "round": 1,
+      "time": "1:11",
+      "opponent": "drew-stuve",
+      "opponent_slug": "drew-stuve",
+      "result": "L"
+    },
+    {
+      "event": "BKFC: Prospects Canada",
+      "event_slug": "fight-night-prospect-canada",
+      "date": "2024-03-02T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:11",
+      "opponent": "Jason Kelly",
+      "opponent_slug": "jason-kelly",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jason-kelly"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jason-kelly"
   ],
   "last_updated": "2026-04-17",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:10.532Z"
 }

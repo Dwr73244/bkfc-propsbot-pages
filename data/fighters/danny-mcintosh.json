@@ -28,12 +28,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 60 Milton Keynes: Lilley vs. Tenaglia",
+      "event_slug": "bkfc-60",
+      "date": "2024-04-06T20:00:00.000Z",
+      "method": "KO (body shot)",
+      "round": 1,
+      "time": "1:13",
+      "opponent": "rob-boardman",
+      "opponent_slug": "rob-boardman",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/danny-mcintosh"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:05.123Z"
 }

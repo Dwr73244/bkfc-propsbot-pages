@@ -28,12 +28,49 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 40 Leeds: Holmes vs. Christie",
+      "event_slug": "bkfc-40",
+      "date": "2023-04-22T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:33",
+      "opponent": "jonny-graham",
+      "opponent_slug": "jonny-graham",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 37 London: Tierney vs. Lindsey",
+      "event_slug": "bkfc-37",
+      "date": "2023-03-04T20:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "0:35",
+      "opponent": "ryan-carmichael",
+      "opponent_slug": "ryan-carmichael",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Newcastle",
+      "event_slug": "bkfc-newcastle-terrill-vs-banks",
+      "date": "2022-11-26T05:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:54",
+      "opponent": "Liam Wilson",
+      "opponent_slug": "liam-wilson",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/will-cairns"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/will-cairns"
   ],
   "last_updated": "2026-04-19",
   "elo": 1457,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:20.336Z"
 }

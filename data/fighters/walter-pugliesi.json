@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Ironweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 2,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -29,7 +29,45 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-naples",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T00:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "1:09",
+      "opponent": "lorenzo-hunt",
+      "opponent_slug": "lorenzo-hunt",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 83",
+      "event_slug": "bkfc-rome",
+      "date": "2025-10-25T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:51",
+      "opponent": "Karl Thompson",
+      "opponent_slug": "karl-thompson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/walter-pugliesi"
+    },
+    {
+      "event": "BKFC: Italy",
+      "event_slug": "bkfc-73-italy",
+      "date": "2025-04-26T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Dominik Herold",
+      "opponent_slug": "dominik-herold",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/walter-pugliesi"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/walter-pugliesi"
   ],
@@ -37,5 +75,6 @@
   "elo": 1473,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-07-19"
+  "record_verified": "2026-07-19",
+  "history_last_verified": "2026-07-31T18:47:39.389Z"
 }

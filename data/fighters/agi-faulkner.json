@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,9 +29,50 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 68",
+      "event_slug": "bkfc-68-faulkner-vs-oscar",
+      "date": "2024-11-02T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:05",
+      "opponent": "Dawid Oskar",
+      "opponent_slug": "dawid-oskar",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/agi-faulkner"
+    },
+    {
+      "event": "BKFC 55 - Leeds",
+      "event_slug": "bkfc-55-leeds",
+      "date": "2023-11-18T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:57",
+      "opponent": "Rob Cunningham",
+      "opponent_slug": "rob-cunningham",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/agi-faulkner"
+    },
+    {
+      "event": "BKFC - Newcastle",
+      "event_slug": "bkfc-newcastle-terrill-vs-banks",
+      "date": "2022-11-26T05:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:17",
+      "opponent": "Daniel Robson",
+      "opponent_slug": "daniel-robson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/agi-faulkner"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/agi-faulkner"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-07-31T18:46:25.524Z"
 }

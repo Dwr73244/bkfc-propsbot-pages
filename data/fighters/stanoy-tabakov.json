@@ -28,7 +28,56 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Manchester: Chipchase vs. Fox",
+      "event_slug": "bkfc-fight-night-manchester-2025-03-29",
+      "date": "2025-03-29T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:26",
+      "opponent": "dawid-oscar",
+      "opponent_slug": "dawid-oscar",
+      "result": "L"
+    },
+    {
+      "event": "BKFC: Manchester",
+      "event_slug": "bkfc-fight-night-manchester",
+      "date": "2025-03-29T04:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:26",
+      "opponent": "Dawid Oskar",
+      "opponent_slug": "dawid-oskar",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stanoy-tabakov"
+    },
+    {
+      "event": "BKFC - Prospects Newcastle",
+      "event_slug": "bkfc-prospects-newcastle",
+      "date": "2024-06-08T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:47",
+      "opponent": "Paul Venis",
+      "opponent_slug": "paul-venis",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stanoy-tabakov"
+    },
+    {
+      "event": "BKFC 58 Bulgaria: Markulev vs. Kolev",
+      "event_slug": "bkfc-58",
+      "date": "2024-03-22T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:24",
+      "opponent": "petr-beranek",
+      "opponent_slug": "petr-beranek",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +85,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1499,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:17.847Z"
 }

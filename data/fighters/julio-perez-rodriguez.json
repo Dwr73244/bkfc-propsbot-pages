@@ -4,7 +4,7 @@
   "nickname": "THE CUBAN HORSE",
   "division": "Cruiserweight",
   "bkfc_record": {
-    "wins": 3,
+    "wins": 4,
     "losses": 2,
     "draws": 0,
     "kos": 1
@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:44",
+      "opponent": "Lamont Stafford",
+      "opponent_slug": "lamont-stafford",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/julio-perez-rodriguez"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:39",
+      "opponent": "Stephen Townsel",
+      "opponent_slug": "stephen-townsel",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/julio-perez-rodriguez"
+    },
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:03",
+      "opponent": "Esteban Rodriguez",
+      "opponent_slug": "esteban-rodriguez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/julio-perez-rodriguez"
+    },
+    {
+      "event": "BKFC 70 Hollywood, FL: Palomino vs. Davis",
+      "event_slug": "bkfc-70",
+      "date": "2025-03-27T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:15",
+      "opponent": "lewis-glover",
+      "opponent_slug": "lewis-glover",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:13",
+      "opponent": "Devonte Jeffery",
+      "opponent_slug": "devonte-jeffery",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/julio-perez-rodriguez"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/julio-perez-rodriguez"
   ],
   "last_updated": "2026-04-19",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:47:31.197Z"
 }

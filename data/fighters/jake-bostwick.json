@@ -28,7 +28,30 @@
     "facebook": null
   },
   "bio": "English combat sports veteran who built an 18-10 MMA record across Cage Warriors, Cage Rage, and Ultimate Challenge MMA, winning titles at three separate promotions. Transitioned to bare-knuckle boxing in 2020 and has fought notable BKFC names including Julian Lane, Isaac Doolittle, Erick Lozano, and Francesco Ricchi. Known as a technical counter-striker who is dangerous over 10-minute bouts.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BLOOD 4 BLOOD",
+      "event_slug": "blood-4-blood-daytona",
+      "date": "2026-05-07T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:25",
+      "opponent": "roderick-stewart",
+      "opponent_slug": "roderick-stewart",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 38 Delray Beach: Nguyen vs. Straus",
+      "event_slug": "bkfc-38",
+      "date": "2023-04-21T20:00:00.000Z",
+      "method": "Draw (majority)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "isaac-doolittle",
+      "opponent_slug": "isaac-doolittle",
+      "result": "D"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/brutal-jake-bostwick",

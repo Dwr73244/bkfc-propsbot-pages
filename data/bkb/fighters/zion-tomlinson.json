@@ -29,7 +29,63 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 44: Denver Brawl V",
+      "event_slug": "bkb-44-denver-brawl-v",
+      "date": "2025-08-16T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "bubba-mcdaniel",
+      "opponent_slug": "bubba-mcdaniel",
+      "result": "W"
+    },
+    {
+      "event": "BYB 34: Brawl in the Pines IV",
+      "event_slug": "byb-34-brawl-in-the-pines-iv",
+      "date": "2024-12-06T20:00:00.000Z",
+      "method": "KO",
+      "round": 5,
+      "time": null,
+      "opponent": "cub-hawkins",
+      "opponent_slug": "cub-hawkins",
+      "result": "L"
+    },
+    {
+      "event": "BYB 26: Mile High Brawl",
+      "event_slug": "byb-26-mile-high-brawl",
+      "date": "2024-05-10T20:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": null,
+      "opponent": "uly-diaz",
+      "opponent_slug": "uly-diaz",
+      "result": "W"
+    },
+    {
+      "event": "BYB 19: Brawl in the Pines",
+      "event_slug": "byb-19-brawl-in-the-pines",
+      "date": "2023-08-10T20:00:00.000Z",
+      "method": "NC",
+      "round": 1,
+      "time": null,
+      "opponent": "chad-kelly",
+      "opponent_slug": "chad-kelly",
+      "result": "NC"
+    },
+    {
+      "event": "BYB 17: Brawl at Rock Hill",
+      "event_slug": "byb-17-brawl-at-rock-hill",
+      "date": "2023-05-13T20:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": null,
+      "opponent": "mattia-fonda",
+      "opponent_slug": "mattia-fonda",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

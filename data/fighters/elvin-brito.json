@@ -29,11 +29,74 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 88 Denver: Camozzi vs. Rodriguez",
+      "event_slug": "bkfc-88-denver",
+      "date": "2026-04-18T02:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "ramiro-figueroa",
+      "opponent_slug": "ramiro-figueroa",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 88",
+      "event_slug": "bkfc-denver",
+      "date": "2026-04-17T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ramiro Figueroa",
+      "opponent_slug": "ramiro-figueroa",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/elvin-brito"
+    },
+    {
+      "event": "BKFC 79",
+      "event_slug": "bkfc-sturgis",
+      "date": "2025-08-02T04:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "00:32",
+      "opponent": "Brandon Meyer",
+      "opponent_slug": "brandon-meyer",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/elvin-brito"
+    },
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "evgeny-kurdanov",
+      "opponent_slug": "evgeny-kurdanov",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Kansas City",
+      "event_slug": "bkfc-fight-night-kansas-city",
+      "date": "2024-08-16T04:00:00.000Z",
+      "method": "Unanimous Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jake Lindsey",
+      "opponent_slug": "jake-lindsey",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/elvin-brito"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/elvin-brito"
   ],
   "last_updated": "2026-04-19",
   "elo": 1466,
-  "elo_peak": 1504
+  "elo_peak": 1504,
+  "history_last_verified": "2026-07-31T18:45:07.377Z"
 }

@@ -4,7 +4,7 @@
   "nickname": "STROSS",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": 1
@@ -28,12 +28,62 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 89 Palm Desert: Herring vs. Maness",
+      "event_slug": "bkfc-89-palm-desert",
+      "date": "2026-05-23T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:55",
+      "opponent": "cody-kerr",
+      "opponent_slug": "cody-kerr",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T04:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:55",
+      "opponent": "Cody Kerr",
+      "opponent_slug": "cody-kerr",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/iman-williams"
+    },
+    {
+      "event": "BKFC 84",
+      "event_slug": "bkfc-84-palm-desert",
+      "date": "2025-11-15T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:35",
+      "opponent": "Lewis Glover",
+      "opponent_slug": "lewis-glover",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/iman-williams"
+    },
+    {
+      "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
+      "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
+      "date": "2025-01-18T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:54",
+      "opponent": "gabriel-mota",
+      "opponent_slug": "gabriel-mota",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/iman-williams"
   ],
   "last_updated": "2026-04-19",
   "elo": 1541,
-  "elo_peak": 1541
+  "elo_peak": 1541,
+  "history_last_verified": "2026-07-31T18:47:29.024Z"
 }

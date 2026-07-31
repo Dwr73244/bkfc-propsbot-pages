@@ -28,7 +28,69 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-2",
+      "date": "2026-03-14T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:53",
+      "opponent": "Jay McFarlane",
+      "opponent_slug": "jay-mcfarlane",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mick-terrill"
+    },
+    {
+      "event": "BKFC Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:36",
+      "opponent": "ben-rothwell",
+      "opponent_slug": "ben-rothwell",
+      "result": "L"
+    },
+    {
+      "event": "BKFC Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T20:00:00.000Z",
+      "method": "TKO (injury)",
+      "round": 1,
+      "time": "1:48",
+      "opponent": "lorenzo-hunt",
+      "opponent_slug": "lorenzo-hunt",
+      "result": "W"
+    },
+    {
+      "event": "BKFC 56",
+      "event_slug": "bkfc-56-utah",
+      "date": "2023-12-02T05:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "00:47",
+      "opponent": "Arnold Adams",
+      "opponent_slug": "arnold-adams",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mick-terrill"
+    },
+    {
+      "event": "BKFC - Newcastle",
+      "event_slug": "bkfc-newcastle-terrill-vs-banks",
+      "date": "2022-11-26T05:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Steven Banks",
+      "opponent_slug": "steven-banks",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mick-terrill"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
@@ -36,5 +98,6 @@
   ],
   "last_updated": "2026-04-19",
   "elo": 1503,
-  "elo_peak": 1528
+  "elo_peak": 1528,
+  "history_last_verified": "2026-07-31T18:45:15.144Z"
 }

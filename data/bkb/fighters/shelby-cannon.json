@@ -29,7 +29,52 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BYB 34: Brawl in the Pines IV",
+      "event_slug": "byb-34-brawl-in-the-pines-iv",
+      "date": "2024-12-06T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "erisnelsy-torres-castillo",
+      "opponent_slug": "erisnelsy-torres-castillo",
+      "result": "W"
+    },
+    {
+      "event": "BYB 25: Brawl on the Bay",
+      "event_slug": "byb-25-brawl-on-the-bay",
+      "date": "2024-04-04T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "agnesa-kirakosian",
+      "opponent_slug": "agnesa-kirakosian",
+      "result": "L"
+    },
+    {
+      "event": "BYB 22: Rocky Mountain Brawl",
+      "event_slug": "byb-22-rocky-mountain-brawl",
+      "date": "2023-12-02T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "cecilia-ulloa",
+      "opponent_slug": "cecilia-ulloa",
+      "result": "W"
+    },
+    {
+      "event": "BYB 18: Police Gazette International Cup",
+      "event_slug": "byb-18-police-gazette-international-cup",
+      "date": "2023-06-25T20:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": null,
+      "opponent": "tamlyn-kappen",
+      "opponent_slug": "tamlyn-kappen",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

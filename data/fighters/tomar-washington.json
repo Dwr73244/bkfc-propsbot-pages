@@ -28,12 +28,38 @@
     "facebook": "https://www.facebook.com/tomar.washington"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 35 Myrtle Beach: Cedeno vs. Slaveski",
+      "event_slug": "bkfc-35",
+      "date": "2023-01-27T20:00:00.000Z",
+      "method": "DQ",
+      "round": 2,
+      "time": "0:57",
+      "opponent": "willie-sears",
+      "opponent_slug": "willie-sears",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 35",
+      "event_slug": "bkfc-35-myrtle-beach",
+      "date": "2023-01-27T05:00:00.000Z",
+      "method": "Disqualification",
+      "round": 2,
+      "time": "00:57",
+      "opponent": "Will Sears",
+      "opponent_slug": "will-sears",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tomar-washington"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/tomar-washington"
   ],
   "last_updated": "2026-04-19",
   "elo": 1480,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:18.539Z"
 }

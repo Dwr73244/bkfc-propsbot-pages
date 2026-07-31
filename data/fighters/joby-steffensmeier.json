@@ -5,7 +5,7 @@
   "nickname": "Jobywankenobi",
   "division": "Flyweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -29,11 +29,50 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Nashville",
+      "event_slug": "bkfc-nashville",
+      "date": "2026-06-19T04:00:00.000Z",
+      "method": "Split Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Robert Fichtner",
+      "opponent_slug": "robert-fichtner",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joby-steffensmeier"
+    },
+    {
+      "event": "BKFC 88 Denver: Camozzi vs. Rodriguez",
+      "event_slug": "bkfc-88-denver",
+      "date": "2026-04-18T02:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "octavion-turner",
+      "opponent_slug": "octavion-turner",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 88",
+      "event_slug": "bkfc-denver",
+      "date": "2026-04-17T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Octavin Turner",
+      "opponent_slug": "octavin-turner",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joby-steffensmeier"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/joby-steffensmeier"
   ],
   "last_updated": "2026-04-17",
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:47:30.151Z"
 }

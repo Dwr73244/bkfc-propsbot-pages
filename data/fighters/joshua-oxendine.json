@@ -6,7 +6,7 @@
   "division": "Bantamweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,11 +29,50 @@
     "facebook": null
   },
   "bio": "Multi-sport fighter from Pembroke, North Carolina and a member of the Lumbee Tribe. Holds a 5-0 professional boxing record and a 10-7 MMA record in addition to his bare-knuckle career. Overcame significant adversity including homelessness after his father's death at age 14. An active preacher and family man, he also coaches his three daughters in boxing.",
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC Fight Night Clearwater: Gaskins vs Guymon",
+      "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
+      "date": "2026-04-25T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "royal-ryan-reber",
+      "opponent_slug": "royal-ryan-reber",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-clearwater",
+      "date": "2026-04-24T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ryan Reber",
+      "opponent_slug": "ryan-reber",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joshua-oxendine"
+    },
+    {
+      "event": "BKFC - Knucklemania VI",
+      "event_slug": "knucklemania-vi",
+      "date": "2026-02-07T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Travis Thompson",
+      "opponent_slug": "travis-thompson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joshua-oxendine"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/joshua-oxendine"
   ],
   "last_updated": "2026-04-19",
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:47:30.998Z"
 }

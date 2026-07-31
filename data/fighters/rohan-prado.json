@@ -28,12 +28,51 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T04:00:00.000Z",
+      "method": "Unanimous Draw",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Carlo Ricci",
+      "opponent_slug": "carlo-ricci",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rohan-prado"
+    },
+    {
+      "event": "BKFC Fight Night Miami: Davis vs. Wilson",
+      "event_slug": "bkfc-fight-night-miami-2024",
+      "date": "2024-03-15T20:00:00.000Z",
+      "method": "TKO (punches)",
+      "round": 1,
+      "time": "0:30",
+      "opponent": "ray-pell",
+      "opponent_slug": "ray-pell",
+      "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Miami",
+      "event_slug": "bkfc-fight-night-miami",
+      "date": "2024-03-15T04:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:31",
+      "opponent": "Raymond Pell",
+      "opponent_slug": "raymond-pell",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rohan-prado"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/rohan-prado"
   ],
   "last_updated": "2026-04-17",
   "elo": 1522,
-  "elo_peak": 1522
+  "elo_peak": 1522,
+  "history_last_verified": "2026-07-31T18:45:17.129Z"
 }

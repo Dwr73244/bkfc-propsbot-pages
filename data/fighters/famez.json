@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T05:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:16",
+      "opponent": "Peter Peraza",
+      "opponent_slug": "peter-peraza",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/famez"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jim Pulgar",
+      "opponent_slug": "jim-pulgar",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/famez"
+    },
+    {
+      "event": "BKFC Fight Night Miami: Davis vs. Wilson",
+      "event_slug": "bkfc-fight-night-miami-2024",
+      "date": "2024-03-15T20:00:00.000Z",
+      "method": "Decision (unanimous)",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "brandon-meyer",
+      "opponent_slug": "brandon-meyer",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 49",
+      "event_slug": "bkfc-49-miami",
+      "date": "2023-08-25T04:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:29",
+      "opponent": "Aaron Sutterfield",
+      "opponent_slug": "aaron-sutterfield",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/famez"
+    },
+    {
+      "event": "BKFC 34",
+      "event_slug": "bkfc-34-hollywood",
+      "date": "2022-12-03T05:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Glendel Futrell",
+      "opponent_slug": "glendel-futrell",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/famez"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/famez"
   ],
   "last_updated": "2026-04-19",
   "elo": 1480,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:07.656Z"
 }

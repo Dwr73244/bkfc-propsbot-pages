@@ -28,7 +28,41 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-naples",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T00:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "1:09",
+      "opponent": "walter-pugliesi",
+      "opponent_slug": "walter-pugliesi",
+      "result": "W"
+    },
+    {
+      "event": "BKFC Knucklemania IV",
+      "event_slug": "bkfc-knucklemania-iv",
+      "date": "2024-04-27T20:00:00.000Z",
+      "method": "TKO (injury)",
+      "round": 1,
+      "time": "1:48",
+      "opponent": "mick-terrill",
+      "opponent_slug": "mick-terrill",
+      "result": "L"
+    },
+    {
+      "event": "BKFC Knucklemania III",
+      "event_slug": "bkfc-knucklemania-3",
+      "date": "2023-02-17T20:00:00.000Z",
+      "method": "KO (punch)",
+      "round": 1,
+      "time": "1:50",
+      "opponent": "mike-richman",
+      "opponent_slug": "mike-richman",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship",

@@ -6,7 +6,7 @@
   "division": "Flyweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,50 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-clearwater",
+      "date": "2026-04-24T04:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:14",
+      "opponent": "Gabriel Hernandez",
+      "opponent_slug": "gabriel-hernandez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/chachi-versace"
+    },
+    {
+      "event": "BKFC 86",
+      "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
+      "date": "2026-01-17T05:00:00.000Z",
+      "method": "Split Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Jared Lennon",
+      "opponent_slug": "jared-lennon",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/chachi-versace"
+    },
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-fight-night-clearwater-ec210",
+      "date": "2025-05-02T04:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Anthony Yost",
+      "opponent_slug": "anthony-yost",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/chachi-versace"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/chachi-versace"
   ],
-  "last_updated": "2026-04-19"
+  "last_updated": "2026-04-19",
+  "history_last_verified": "2026-07-31T18:47:15.616Z"
 }

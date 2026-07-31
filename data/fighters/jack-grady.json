@@ -28,12 +28,77 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC on DAZN Mohegan Sun: Lane vs. VanCamp",
+      "event_slug": "bkfc-on-dazn-mohegan-sun-2025",
+      "date": "2025-02-01T20:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "1:44",
+      "opponent": "sito-navarro",
+      "opponent_slug": "sito-navarro",
+      "result": "L"
+    },
+    {
+      "event": "BKFC: Mohegan Sun",
+      "event_slug": "bkfc-on-dazn-mohegan-sun",
+      "date": "2025-02-01T05:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:43",
+      "opponent": "Lardy Navarro",
+      "opponent_slug": "lardy-navarro",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jack-grady"
+    },
+    {
+      "event": "BKFC 63",
+      "event_slug": "bkfc-63-hart-vs-starling",
+      "date": "2024-08-03T04:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:03",
+      "opponent": "Robert Armas",
+      "opponent_slug": "robert-armas",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jack-grady"
+    },
+    {
+      "event": "BKFC 32",
+      "event_slug": "bkfc-32-orlando",
+      "date": "2022-11-05T04:00:00.000Z",
+      "method": "Disqualification",
+      "round": 2,
+      "time": "01:50",
+      "opponent": "Ryan Reber",
+      "opponent_slug": "ryan-reber",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jack-grady"
+    },
+    {
+      "event": "Fight Night New York 2",
+      "event_slug": "bkfc-new-york-ii",
+      "date": "2022-03-12T05:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:14",
+      "opponent": "Gabe Sacchetti",
+      "opponent_slug": "gabe-sacchetti",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jack-grady"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/jack-grady"
   ],
   "last_updated": "2026-04-19",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-07-31T18:45:10.064Z"
 }

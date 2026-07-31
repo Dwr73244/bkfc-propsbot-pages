@@ -28,7 +28,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 44 Montana: Stewart vs. Lopez",
+      "event_slug": "bkfc-44",
+      "date": "2023-06-09T20:00:00.000Z",
+      "method": "TKO (corner stoppage)",
+      "round": 4,
+      "time": "2:00",
+      "opponent": "dallas-davison",
+      "opponent_slug": "dallas-davison",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2023_in_Bare_Knuckle_Fighting_Championship"
   ],

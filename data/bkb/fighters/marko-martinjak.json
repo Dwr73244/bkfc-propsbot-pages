@@ -29,7 +29,63 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKB 42: Music City Brawl",
+      "event_slug": "bkb-42-music-city-brawl",
+      "date": "2025-06-21T20:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": null,
+      "opponent": "maurice-morris",
+      "opponent_slug": "maurice-morris",
+      "result": "W"
+    },
+    {
+      "event": "BYB 33: Wolverhampton Brawl",
+      "event_slug": "byb-33-wolverhampton-brawl",
+      "date": "2024-11-09T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "brad-scott",
+      "opponent_slug": "brad-scott",
+      "result": "W"
+    },
+    {
+      "event": "BYB 23: Brawl in the Pines II",
+      "event_slug": "byb-23-brawl-in-the-pines-ii",
+      "date": "2024-01-18T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "jarome-hatch",
+      "opponent_slug": "jarome-hatch",
+      "result": "W"
+    },
+    {
+      "event": "BYB 18: Police Gazette International Cup",
+      "event_slug": "byb-18-police-gazette-international-cup",
+      "date": "2023-06-25T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "jarome-hatch",
+      "opponent_slug": "jarome-hatch",
+      "result": "W"
+    },
+    {
+      "event": "BYB 16: Desert Brawl",
+      "event_slug": "byb-16-desert-brawl",
+      "date": "2023-03-18T20:00:00.000Z",
+      "method": "Decision",
+      "round": 5,
+      "time": null,
+      "opponent": "jarome-hatch",
+      "opponent_slug": "jarome-hatch",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BKB_Bare_Knuckle_Boxing"
   ],

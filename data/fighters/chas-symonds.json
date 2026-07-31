@@ -28,7 +28,19 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 72 Dubai Day 2: Stewart vs. Strydom",
+      "event_slug": "bkfc-72",
+      "date": "2025-04-05T20:00:00.000Z",
+      "method": "TKO (left hook)",
+      "round": 3,
+      "time": "0:16",
+      "opponent": "aaron-chalmers",
+      "opponent_slug": "aaron-chalmers",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/2025_in_Bare_Knuckle_Fighting_Championship"
   ],
