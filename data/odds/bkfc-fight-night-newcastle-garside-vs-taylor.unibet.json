@@ -1,9 +1,9 @@
 {
   "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
   "event_date": "2026-08-01",
-  "source": "bestfightodds",
+  "source": "unibet",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4294",
-  "fetched_at": "2026-07-30T16:08:06.883Z",
+  "fetched_at": "2026-07-30T16:08:06.887Z",
   "bouts": [
     {
       "fighter_a_slug": "lewis-garside",

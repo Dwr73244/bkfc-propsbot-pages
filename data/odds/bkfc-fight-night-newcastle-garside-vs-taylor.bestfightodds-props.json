@@ -2,8 +2,58 @@
   "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
   "event_date": "2026-08-01",
   "source": "bestfightodds-props",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4283",
-  "fetched_at": "2026-07-27T07:40:54.203Z",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4294",
+  "fetched_at": "2026-07-31T10:08:07.394Z",
   "total_prop_rows": 0,
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "lewis-garside",
+      "fighter_b_slug": "bradley-taylor",
+      "matchup_id": "44315",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "james-walker",
+      "fighter_b_slug": "barry-boyle",
+      "matchup_id": "44317",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "john-ferguson",
+      "fighter_b_slug": "mikey-nolan",
+      "matchup_id": "44314",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "harrison-cave",
+      "fighter_b_slug": "danny-moir",
+      "matchup_id": "44316",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "cory-chapman",
+      "fighter_b_slug": "jack-blair",
+      "matchup_id": "44318",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "sandra-rees",
+      "fighter_b_slug": "sally-macdonald",
+      "matchup_id": "44319",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "chris-burton",
+      "fighter_b_slug": "daniel-curtin",
+      "matchup_id": "44320",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
 }

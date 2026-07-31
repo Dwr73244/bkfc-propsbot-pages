@@ -3,13 +3,183 @@
   "event_date": "2026-08-01",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-07-30T11:56:56.555Z",
-  "book_count": 4,
+  "fetched_at": "2026-07-31T10:08:15.096Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "lewis-garside",
+      "fighter_b_slug": "bradley-taylor",
+      "moneyline_a": -115,
+      "moneyline_b": -115,
+      "implied_prob_a": 0.535,
+      "implied_prob_b": 0.535,
+      "vig": 0.07,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -115,
+          -115
+        ],
+        "b": [
+          -115,
+          -115
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "james-walker",
+      "fighter_b_slug": "barry-boyle",
+      "moneyline_a": 106,
+      "moneyline_b": -148,
+      "implied_prob_a": 0.485,
+      "implied_prob_b": 0.597,
+      "vig": 0.082,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          106,
+          106
+        ],
+        "b": [
+          -148,
+          -148
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "john-ferguson",
+      "fighter_b_slug": "mikey-nolan",
+      "moneyline_a": 255,
+      "moneyline_b": -385,
+      "implied_prob_a": 0.282,
+      "implied_prob_b": 0.794,
+      "vig": 0.076,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          255,
+          255
+        ],
+        "b": [
+          -385,
+          -385
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "harrison-cave",
+      "fighter_b_slug": "danny-moir",
+      "moneyline_a": -122,
+      "moneyline_b": -113,
+      "implied_prob_a": 0.55,
+      "implied_prob_b": 0.531,
+      "vig": 0.08,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -122,
+          -122
+        ],
+        "b": [
+          -113,
+          -113
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "cory-chapman",
+      "fighter_b_slug": "jack-blair",
+      "moneyline_a": -106,
+      "moneyline_b": -132,
+      "implied_prob_a": 0.515,
+      "implied_prob_b": 0.569,
+      "vig": 0.084,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -106,
+          -106
+        ],
+        "b": [
+          -132,
+          -132
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "sandra-rees",
+      "fighter_b_slug": "sally-macdonald",
+      "moneyline_a": -245,
+      "moneyline_b": 170,
+      "implied_prob_a": 0.71,
+      "implied_prob_b": 0.37,
+      "vig": 0.081,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -245,
+          -245
+        ],
+        "b": [
+          170,
+          170
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "chris-burton",
+      "fighter_b_slug": "daniel-curtin",
+      "moneyline_a": -148,
+      "moneyline_b": 106,
+      "implied_prob_a": 0.597,
+      "implied_prob_b": 0.485,
+      "vig": 0.082,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -148,
+          -148
+        ],
+        "b": [
+          106,
+          106
+        ]
+      }
+    }
+  ]
 }
