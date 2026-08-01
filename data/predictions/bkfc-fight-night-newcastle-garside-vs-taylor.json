@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
-  "generated_at": "2026-08-01T10:04:29.095Z",
+  "generated_at": "2026-08-01T10:44:42.451Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,9 +9,9 @@
       "fighter_a_slug": "lewis-garside",
       "fighter_b_slug": "bradley-taylor",
       "prediction": {
-        "prob_a": 0.5495,
-        "prob_b": 0.4505,
-        "raw_score": 0.14,
+        "prob_a": 0.5514,
+        "prob_b": 0.4486,
+        "raw_score": 0.1455,
         "favorite_slug": "lewis-garside",
         "confidence": "Medium",
         "advantage_a": 55,
@@ -141,14 +141,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5495138413241808,
-        "model_prob_b": 0.4504861586758192,
+        "model_prob_a": 0.5513944973836129,
+        "model_prob_b": 0.4486055026163871,
         "market_fair_prob_a": 0.5,
         "market_fair_prob_b": 0.5,
-        "edge_pct_a": 0.049513841324180796,
-        "edge_pct_b": -0.049513841324180796,
+        "edge_pct_a": 0.0513944973836129,
+        "edge_pct_b": -0.0513944973836129,
         "edge_slug": "lewis-garside",
-        "edge_pct": 0.049513841324180796
+        "edge_pct": 0.0513944973836129
       }
     },
     {
@@ -156,9 +156,9 @@
       "fighter_a_slug": "lewis-keen",
       "fighter_b_slug": "james-lilley",
       "prediction": {
-        "prob_a": 0.6469,
-        "prob_b": 0.3531,
-        "raw_score": 0.2329,
+        "prob_a": 0.6494,
+        "prob_b": 0.3506,
+        "raw_score": 0.2371,
         "favorite_slug": "lewis-keen",
         "confidence": "High",
         "advantage_a": 65,
@@ -312,13 +312,13 @@
       "fighter_a_slug": "paul-cook",
       "fighter_b_slug": "liam-hutchinson",
       "prediction": {
-        "prob_a": 0.5336,
-        "prob_b": 0.4664,
-        "raw_score": 0.0517,
+        "prob_a": 0.5368,
+        "prob_b": 0.4632,
+        "raw_score": 0.0567,
         "favorite_slug": "paul-cook",
         "confidence": "Medium",
-        "advantage_a": 53,
-        "advantage_b": 47,
+        "advantage_a": 54,
+        "advantage_b": 46,
         "predictability": 44,
         "factors": [
           {
@@ -421,7 +421,7 @@
             "display": "-2\" Hutchinson"
           }
         ],
-        "summary": "Model leans Cook 53/47. Edges on elo rating, recent form.",
+        "summary": "Model leans Cook 54/46. Edges on elo rating, recent form.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -468,9 +468,9 @@
       "fighter_a_slug": "james-walker",
       "fighter_b_slug": "barry-boyle",
       "prediction": {
-        "prob_a": 0.6863,
-        "prob_b": 0.3137,
-        "raw_score": 0.4063,
+        "prob_a": 0.6871,
+        "prob_b": 0.3129,
+        "raw_score": 0.4094,
         "favorite_slug": "james-walker",
         "confidence": "Very Low",
         "advantage_a": 69,
@@ -573,14 +573,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.6862688282636495,
-        "model_prob_b": 0.31373117173635046,
+        "model_prob_a": 0.6871108170589046,
+        "model_prob_b": 0.31288918294109536,
         "market_fair_prob_a": 0.618164967562558,
         "market_fair_prob_b": 0.38183503243744205,
-        "edge_pct_a": 0.06810386070109153,
-        "edge_pct_b": -0.06810386070109159,
+        "edge_pct_a": 0.06894584949634663,
+        "edge_pct_b": -0.06894584949634669,
         "edge_slug": "james-walker",
-        "edge_pct": 0.06810386070109153
+        "edge_pct": 0.06894584949634663
       }
     },
     {
@@ -588,9 +588,9 @@
       "fighter_a_slug": "john-ferguson",
       "fighter_b_slug": "mikey-nolan",
       "prediction": {
-        "prob_a": 0.3718,
-        "prob_b": 0.6282,
-        "raw_score": -0.1983,
+        "prob_a": 0.3703,
+        "prob_b": 0.6297,
+        "raw_score": -0.2028,
         "favorite_slug": "mikey-nolan",
         "confidence": "Low",
         "advantage_a": 37,
@@ -693,14 +693,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.3718448614355922,
-        "model_prob_b": 0.6281551385644077,
+        "model_prob_a": 0.37034875832550007,
+        "model_prob_b": 0.6296512416744999,
         "market_fair_prob_a": 0.3693444136657433,
         "market_fair_prob_b": 0.6306555863342567,
-        "edge_pct_a": 0.0025004477698489236,
-        "edge_pct_b": -0.0025004477698489236,
+        "edge_pct_a": 0.001004344659756795,
+        "edge_pct_b": -0.0010043446597567396,
         "edge_slug": "john-ferguson",
-        "edge_pct": 0.0025004477698489236
+        "edge_pct": 0.001004344659756795
       }
     },
     {
@@ -708,9 +708,9 @@
       "fighter_a_slug": "harrison-cave",
       "fighter_b_slug": "danny-moir",
       "prediction": {
-        "prob_a": 0.5254,
-        "prob_b": 0.4746,
-        "raw_score": 0.0455,
+        "prob_a": 0.527,
+        "prob_b": 0.473,
+        "raw_score": 0.0501,
         "favorite_slug": "harrison-cave",
         "confidence": "Very Low",
         "advantage_a": 53,
@@ -813,14 +813,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5253824044755886,
-        "model_prob_b": 0.4746175955244114,
+        "model_prob_a": 0.5270338509353093,
+        "model_prob_b": 0.4729661490646907,
         "market_fair_prob_a": 0.5203327171903882,
         "market_fair_prob_b": 0.4796672828096119,
-        "edge_pct_a": 0.005049687285200388,
-        "edge_pct_b": -0.005049687285200499,
+        "edge_pct_a": 0.006701133744921095,
+        "edge_pct_b": -0.006701133744921206,
         "edge_slug": "harrison-cave",
-        "edge_pct": 0.005049687285200388
+        "edge_pct": 0.006701133744921095
       }
     },
     {
@@ -987,9 +987,9 @@
       "fighter_a_slug": "kyle-redfearn",
       "fighter_b_slug": "declan-mercer",
       "prediction": {
-        "prob_a": 0.3216,
-        "prob_b": 0.6784,
-        "raw_score": -0.2871,
+        "prob_a": 0.3214,
+        "prob_b": 0.6786,
+        "raw_score": -0.2874,
         "favorite_slug": "declan-mercer",
         "confidence": "Very Low",
         "advantage_a": 32,
@@ -1146,9 +1146,9 @@
       "fighter_a_slug": "chris-burton",
       "fighter_b_slug": "daniel-curtin",
       "prediction": {
-        "prob_a": 0.6604,
-        "prob_b": 0.3396,
-        "raw_score": 0.2871,
+        "prob_a": 0.6605,
+        "prob_b": 0.3395,
+        "raw_score": 0.2874,
         "favorite_slug": "chris-burton",
         "confidence": "Very Low",
         "advantage_a": 66,
@@ -1215,14 +1215,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.6603782956790895,
-        "model_prob_b": 0.33962170432091054,
+        "model_prob_a": 0.660488676399362,
+        "model_prob_b": 0.33951132360063796,
         "market_fair_prob_a": 0.6383763837638375,
         "market_fair_prob_b": 0.36162361623616235,
-        "edge_pct_a": 0.022001911915251915,
-        "edge_pct_b": -0.022001911915251804,
+        "edge_pct_a": 0.0221122926355245,
+        "edge_pct_b": -0.02211229263552439,
         "edge_slug": "chris-burton",
-        "edge_pct": 0.022001911915251915
+        "edge_pct": 0.0221122926355245
       }
     },
     {
@@ -1230,9 +1230,9 @@
       "fighter_a_slug": "dylan-fail",
       "fighter_b_slug": "liam-hutchinson",
       "prediction": {
-        "prob_a": 0.468,
-        "prob_b": 0.532,
-        "raw_score": -0.0493,
+        "prob_a": 0.4714,
+        "prob_b": 0.5286,
+        "raw_score": -0.044,
         "favorite_slug": "liam-hutchinson",
         "confidence": "Very Low",
         "advantage_a": 47,
@@ -1416,9 +1416,9 @@
       "fighter_a_slug": "kyle-redfearn",
       "fighter_b_slug": "harry-bray",
       "prediction": {
-        "prob_a": 0.3216,
-        "prob_b": 0.6784,
-        "raw_score": -0.2871,
+        "prob_a": 0.3214,
+        "prob_b": 0.6786,
+        "raw_score": -0.2874,
         "favorite_slug": "harry-bray",
         "confidence": "Very Low",
         "advantage_a": 32,
@@ -1491,9 +1491,9 @@
       "fighter_a_slug": "lewis-keen",
       "fighter_b_slug": "stew-martin",
       "prediction": {
-        "prob_a": 0.7676,
-        "prob_b": 0.2324,
-        "raw_score": 0.4595,
+        "prob_a": 0.7694,
+        "prob_b": 0.2306,
+        "raw_score": 0.4635,
         "favorite_slug": "lewis-keen",
         "confidence": "Medium",
         "advantage_a": 77,

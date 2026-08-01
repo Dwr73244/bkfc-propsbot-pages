@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-08-01T10:04:29.088Z",
+  "generated_at": "2026-08-01T10:44:42.443Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "leonardo-perdomo",
       "fighter_b_slug": "anthony-garrett",
       "prediction": {
-        "prob_a": 0.6335,
-        "prob_b": 0.3665,
-        "raw_score": 0.2104,
+        "prob_a": 0.6378,
+        "prob_b": 0.3622,
+        "raw_score": 0.2176,
         "favorite_slug": "leonardo-perdomo",
         "confidence": "Low",
-        "advantage_a": 63,
-        "advantage_b": 37,
-        "predictability": 42,
+        "advantage_a": 64,
+        "advantage_b": 36,
+        "predictability": 43,
         "factors": [
           {
             "name": "Recent Form",
@@ -100,7 +100,7 @@
             "display": "+7 fights Perdomo"
           }
         ],
-        "summary": "Model leans Perdomo 63/37. Edges on recent form, bkfc record, age, activity.",
+        "summary": "Model leans Perdomo 64/36. Edges on recent form, bkfc record, age, activity.",
         "market_adjusted": false
       },
       "prop_markets": [

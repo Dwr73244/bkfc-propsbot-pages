@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-serbia",
-  "generated_at": "2026-08-01T10:04:29.098Z",
+  "generated_at": "2026-08-01T10:44:42.455Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,9 +9,9 @@
       "fighter_a_slug": "agi-faulkner",
       "fighter_b_slug": "dilan-prasovic",
       "prediction": {
-        "prob_a": 0.2498,
-        "prob_b": 0.7502,
-        "raw_score": -0.423,
+        "prob_a": 0.2489,
+        "prob_b": 0.7511,
+        "raw_score": -0.4247,
         "favorite_slug": "dilan-prasovic",
         "confidence": "Low",
         "advantage_a": 25,
@@ -213,9 +213,9 @@
       "fighter_a_slug": "stefan-dobrijevic",
       "fighter_b_slug": "stefan-negucic",
       "prediction": {
-        "prob_a": 0.6784,
-        "prob_b": 0.3216,
-        "raw_score": 0.2871,
+        "prob_a": 0.6786,
+        "prob_b": 0.3214,
+        "raw_score": 0.2874,
         "favorite_slug": "stefan-dobrijevic",
         "confidence": "Very Low",
         "advantage_a": 68,

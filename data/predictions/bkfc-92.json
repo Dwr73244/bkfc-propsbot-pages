@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-92",
-  "generated_at": "2026-08-01T10:04:29.084Z",
+  "generated_at": "2026-08-01T10:44:42.437Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "kai-stewart",
       "fighter_b_slug": "harry-gigliotti",
       "prediction": {
-        "prob_a": 0.7344,
-        "prob_b": 0.2656,
-        "raw_score": 0.3911,
+        "prob_a": 0.7371,
+        "prob_b": 0.2629,
+        "raw_score": 0.3966,
         "favorite_slug": "kai-stewart",
         "confidence": "Low",
-        "advantage_a": 73,
-        "advantage_b": 27,
+        "advantage_a": 74,
+        "advantage_b": 26,
         "predictability": 51,
         "factors": [
           {
@@ -91,7 +91,7 @@
             "display": "+8 fights Stewart"
           }
         ],
-        "summary": "Model leans Stewart 73/27. Edges on recent form, bkfc record, activity, opponent quality.",
+        "summary": "Model leans Stewart 74/26. Edges on recent form, bkfc record, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -138,9 +138,9 @@
       "fighter_a_slug": "pat-casey",
       "fighter_b_slug": "dallas-davison",
       "prediction": {
-        "prob_a": 0.444,
-        "prob_b": 0.556,
-        "raw_score": -0.0865,
+        "prob_a": 0.4438,
+        "prob_b": 0.5562,
+        "raw_score": -0.0868,
         "favorite_slug": "dallas-davison",
         "confidence": "Low",
         "advantage_a": 44,
@@ -351,9 +351,9 @@
       "fighter_a_slug": "david-burke",
       "fighter_b_slug": "david-simpson",
       "prediction": {
-        "prob_a": 0.6855,
-        "prob_b": 0.3145,
-        "raw_score": 0.2997,
+        "prob_a": 0.6869,
+        "prob_b": 0.3131,
+        "raw_score": 0.3022,
         "favorite_slug": "david-burke",
         "confidence": "Low",
         "advantage_a": 69,
@@ -480,14 +480,14 @@
       "fighter_a_slug": "rico-disciullo",
       "fighter_b_slug": "tray-martin",
       "prediction": {
-        "prob_a": 0.6822,
-        "prob_b": 0.3178,
-        "raw_score": 0.2938,
+        "prob_a": 0.6839,
+        "prob_b": 0.3161,
+        "raw_score": 0.2967,
         "favorite_slug": "rico-disciullo",
         "confidence": "Very Low",
         "advantage_a": 68,
         "advantage_b": 32,
-        "predictability": 33,
+        "predictability": 34,
         "factors": [
           {
             "name": "Recent Form",
@@ -600,13 +600,13 @@
       "fighter_a_slug": "peter-barrett",
       "fighter_b_slug": "elijah-harris",
       "prediction": {
-        "prob_a": 0.3675,
-        "prob_b": 0.6325,
-        "raw_score": -0.2088,
+        "prob_a": 0.3645,
+        "prob_b": 0.6355,
+        "raw_score": -0.2138,
         "favorite_slug": "elijah-harris",
         "confidence": "Low",
-        "advantage_a": 37,
-        "advantage_b": 63,
+        "advantage_a": 36,
+        "advantage_b": 64,
         "predictability": 42,
         "factors": [
           {
@@ -691,7 +691,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Harris 63/37. Edges on recent form, ko rate, age, activity.",
+        "summary": "Model leans Harris 64/36. Edges on recent form, ko rate, age, activity.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -888,9 +888,9 @@
       "fighter_a_slug": "taylor-starling",
       "fighter_b_slug": "kat-paprocki",
       "prediction": {
-        "prob_a": 0.5499,
-        "prob_b": 0.4501,
-        "raw_score": 0.077,
+        "prob_a": 0.5477,
+        "prob_b": 0.4523,
+        "raw_score": 0.0736,
         "favorite_slug": "taylor-starling",
         "confidence": "Medium",
         "advantage_a": 55,
@@ -1101,13 +1101,13 @@
       "fighter_a_slug": "christine-ferea",
       "fighter_b_slug": "sofia-landi",
       "prediction": {
-        "prob_a": 0.6747,
-        "prob_b": 0.3253,
-        "raw_score": 0.2807,
+        "prob_a": 0.6761,
+        "prob_b": 0.3239,
+        "raw_score": 0.283,
         "favorite_slug": "christine-ferea",
         "confidence": "Low",
-        "advantage_a": 67,
-        "advantage_b": 33,
+        "advantage_a": 68,
+        "advantage_b": 32,
         "predictability": 44,
         "factors": [
           {
@@ -1192,7 +1192,7 @@
             "display": "+12 fights Ferea"
           }
         ],
-        "summary": "Model leans Ferea 67/33. Edges on recent form, bkfc record, mma background, bkfc experience.",
+        "summary": "Model leans Ferea 68/32. Edges on recent form, bkfc record, mma background, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1239,9 +1239,9 @@
       "fighter_a_slug": "jake-pilla",
       "fighter_b_slug": "angelo-colon",
       "prediction": {
-        "prob_a": 0.6784,
-        "prob_b": 0.3216,
-        "raw_score": 0.2871,
+        "prob_a": 0.6786,
+        "prob_b": 0.3214,
+        "raw_score": 0.2874,
         "favorite_slug": "jake-pilla",
         "confidence": "Very Low",
         "advantage_a": 68,
