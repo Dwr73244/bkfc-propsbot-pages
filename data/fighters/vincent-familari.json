@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Los Angeles",
       "event_slug": "bkfc-fight-night-los-angeles",
-      "date": "2024-11-23T05:00:00.000Z",
+      "date": "2024-11-23T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "02:00",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:45:20.186Z"
+  "history_last_verified": "2026-08-01T10:04:03.980Z"
 }

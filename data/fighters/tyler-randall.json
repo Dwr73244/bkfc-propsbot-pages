@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-hammond",
-      "date": "2025-10-18T04:00:00.000Z",
+      "date": "2025-10-18T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:45",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC on DAZN - Hollywood",
       "event_slug": "bkfc-on-dazn-hollywood",
-      "date": "2024-12-21T05:00:00.000Z",
+      "date": "2024-12-21T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:46",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC - Clearwater",
       "event_slug": "bkfc-fight-night-clearwater",
-      "date": "2024-04-12T04:00:00.000Z",
+      "date": "2024-04-12T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1482,
   "elo_peak": 1501,
-  "history_last_verified": "2026-07-31T18:45:19.666Z"
+  "history_last_verified": "2026-08-01T10:03:58.440Z"
 }

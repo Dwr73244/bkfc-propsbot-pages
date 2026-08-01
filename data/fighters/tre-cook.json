@@ -43,7 +43,7 @@
     {
       "event": "BKFC: Prospects Manassas",
       "event_slug": "fight-night-prospect-manassas",
-      "date": "2024-02-16T05:00:00.000Z",
+      "date": "2024-02-16T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:09",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:19.456Z"
+  "history_last_verified": "2026-08-01T10:03:45.221Z"
 }

@@ -43,7 +43,7 @@
     {
       "event": "BKFC 38",
       "event_slug": "bkfc-38-nguyen-vs-straus",
-      "date": "2023-04-21T04:00:00.000Z",
+      "date": "2023-04-21T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "02:00",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:19.545Z"
+  "history_last_verified": "2026-08-01T10:03:46.948Z"
 }

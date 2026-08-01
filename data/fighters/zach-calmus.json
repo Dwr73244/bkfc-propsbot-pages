@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 3,
       "time": "02:00",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
-      "date": "2025-08-02T04:00:00.000Z",
+      "date": "2025-08-02T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -70,7 +70,7 @@
     {
       "event": "BKFC - Knucklemania V",
       "event_slug": "bkfc-knucklemania-v",
-      "date": "2025-01-25T05:00:00.000Z",
+      "date": "2025-01-25T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:53",
@@ -83,7 +83,7 @@
     {
       "event": "BKFC 63",
       "event_slug": "bkfc-63-hart-vs-starling",
-      "date": "2024-08-03T04:00:00.000Z",
+      "date": "2024-08-03T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:58",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1543,
-  "history_last_verified": "2026-07-31T18:47:39.761Z"
+  "history_last_verified": "2026-08-01T10:04:20.981Z"
 }

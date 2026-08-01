@@ -54,7 +54,7 @@
     {
       "event": "BKFC - Newcastle",
       "event_slug": "bkfc-newcastle-terrill-vs-banks",
-      "date": "2022-11-26T05:00:00.000Z",
+      "date": "2022-11-26T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:54",
@@ -72,5 +72,5 @@
   "last_updated": "2026-07-31",
   "elo": 1457,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:20.336Z"
+  "history_last_verified": "2026-08-01T10:04:10.254Z"
 }

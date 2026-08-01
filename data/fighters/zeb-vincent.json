@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun-porter-vs-watson",
-      "date": "2026-03-28T04:00:00.000Z",
+      "date": "2026-03-28T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
-      "date": "2025-11-15T05:00:00.000Z",
+      "date": "2025-11-15T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -59,7 +59,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha-2",
-      "date": "2025-04-18T04:00:00.000Z",
+      "date": "2025-04-18T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:58",
@@ -72,7 +72,7 @@
     {
       "event": "BKFC - Fight Night Kansas City",
       "event_slug": "bkfc-fight-night-kansas-city",
-      "date": "2024-08-16T04:00:00.000Z",
+      "date": "2024-08-16T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:17",
@@ -85,7 +85,7 @@
     {
       "event": "BKFC - Prospects Denver",
       "event_slug": "bkfc-fight-night-prospects-denver",
-      "date": "2024-05-31T04:00:00.000Z",
+      "date": "2024-05-31T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -100,5 +100,5 @@
     "https://www.bkfc.com/fighters/zeb-vincent"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:39.832Z"
+  "history_last_verified": "2026-08-01T10:04:25.718Z"
 }

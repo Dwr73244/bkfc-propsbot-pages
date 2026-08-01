@@ -32,7 +32,7 @@
     {
       "event": "BKFC 52",
       "event_slug": "bkfc-52-south-carolina",
-      "date": "2023-10-20T04:00:00.000Z",
+      "date": "2023-10-20T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:24",
@@ -72,5 +72,5 @@
   "last_updated": "2026-07-31",
   "elo": 1499,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:19.453Z"
+  "history_last_verified": "2026-08-01T10:03:48.988Z"
 }

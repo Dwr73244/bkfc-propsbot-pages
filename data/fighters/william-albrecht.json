@@ -32,7 +32,7 @@
     {
       "event": "BKFC 75",
       "event_slug": "bkfc-75-albuquerque-mundell-vs-sanchez",
-      "date": "2025-06-06T04:00:00.000Z",
+      "date": "2025-06-06T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 63",
       "event_slug": "bkfc-63-hart-vs-starling",
-      "date": "2024-08-03T04:00:00.000Z",
+      "date": "2024-08-03T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:46",
@@ -86,5 +86,5 @@
   "last_updated": "2026-07-31",
   "elo": 1543,
   "elo_peak": 1543,
-  "history_last_verified": "2026-07-31T18:45:20.452Z"
+  "history_last_verified": "2026-08-01T10:04:15.807Z"
 }

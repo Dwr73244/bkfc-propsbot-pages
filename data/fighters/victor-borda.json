@@ -31,19 +31,6 @@
   "bio": null,
   "last_5": [
     {
-      "event": "BKFC - Fight Night Uruguay",
-      "event_slug": "bkfc-fight-night-uruguay",
-      "date": "2026-07-25T04:00:00.000Z",
-      "method": "Unanimous Decision",
-      "round": 3,
-      "time": "02:00",
-      "opponent": "Victor Borda",
-      "opponent_slug": "victor-borda",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/victor-borda"
-    },
-    {
       "event": "bkfc-fight-night-uruguay",
       "event_slug": "bkfc-fight-night-uruguay",
       "date": "2026-07-25T00:00:00.000Z",
@@ -53,6 +40,19 @@
       "opponent": "nicolas-acevedo",
       "opponent_slug": "nicolas-acevedo",
       "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Uruguay",
+      "event_slug": "bkfc-fight-night-uruguay",
+      "date": "2026-07-25T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Victor Borda",
+      "opponent_slug": "victor-borda",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/victor-borda"
     }
   ],
   "sources": [
@@ -63,5 +63,5 @@
   "elo_peak": 1500,
   "record_source": "tracked-events",
   "record_verified": "2026-07-26",
-  "history_last_verified": "2026-07-31T18:45:20.046Z"
+  "history_last_verified": "2026-08-01T10:04:02.297Z"
 }

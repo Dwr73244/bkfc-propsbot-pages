@@ -32,7 +32,7 @@
     {
       "event": "BKFC 81 - Manchester",
       "event_slug": "bkfc-manchester",
-      "date": "2025-09-27T04:00:00.000Z",
+      "date": "2025-09-27T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:53",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:19.332Z"
+  "history_last_verified": "2026-08-01T10:03:47.139Z"
 }

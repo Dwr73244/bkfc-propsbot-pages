@@ -33,7 +33,7 @@
     {
       "event": "BKFC 89",
       "event_slug": "bkfc-palm-desert",
-      "date": "2026-05-22T04:00:00.000Z",
+      "date": "2026-05-22T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:16",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
-      "date": "2026-03-20T04:00:00.000Z",
+      "date": "2026-03-20T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:56",
@@ -62,5 +62,5 @@
     "https://www.bkfc.com/fighters/victor-flor"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:39.226Z"
+  "history_last_verified": "2026-08-01T10:04:03.292Z"
 }
