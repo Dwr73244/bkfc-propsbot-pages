@@ -190,7 +190,7 @@
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-hollywood/research/</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-mohegan-sun-2/research/</loc><lastmod>2026-07-23</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-newcastle-garside-vs-taylor/research/</loc><lastmod>2026-07-31</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-sturgis/research/</loc><lastmod>2026-07-14</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-sturgis/research/</loc><lastmod>2026-08-01</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-uruguay/research/</loc><lastmod>2026-07-26</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-glasgow/research/</loc><lastmod>2026-07-06</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-naples/research/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -198,7 +198,7 @@
   <url><loc>https://bkfc.propsbot.ai/events/blood-4-blood-daytona/research/</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-92/preview/</loc><lastmod>2026-07-29</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-mohegan-sun-2/preview/</loc><lastmod>2026-07-23</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
-  <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-sturgis/preview/</loc><lastmod>2026-07-14</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-sturgis/preview/</loc><lastmod>2026-08-01</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-serbia/preview/</loc><lastmod>2026-07-24</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-88-denver/recap/</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-89-palm-desert/recap/</loc><lastmod>2026-05-23</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
@@ -258,7 +258,7 @@
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-prospects-albuquerque-2024/</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-prospects-canada-2024/</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-prospects-manassas-2024/</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-sturgis/</loc><lastmod>2026-07-14</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-sturgis/</loc><lastmod>2026-08-01</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-fight-night-uruguay/</loc><lastmod>2026-07-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-glasgow/</loc><lastmod>2026-07-06</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://bkfc.propsbot.ai/events/bkfc-knucklemania-3/</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -506,6 +506,7 @@
   <url><loc>https://bkfc.propsbot.ai/fighters/julio-perez-rodriguez/</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkfc.propsbot.ai/fighters/justin-ibarrola/</loc><lastmod>2026-04-17</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkfc.propsbot.ai/fighters/justin-street/</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkfc.propsbot.ai/fighters/justin-walters/</loc><lastmod>2026-04-17</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkfc.propsbot.ai/fighters/justyn-martinez/</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkfc.propsbot.ai/fighters/kai-stewart/</loc><lastmod>2026-07-31</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkfc.propsbot.ai/fighters/kaine-tomlinson/</loc><lastmod>2026-04-17</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
