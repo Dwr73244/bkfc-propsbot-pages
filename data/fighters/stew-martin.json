@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "1:27",
+      "opponent": "lewis-keen",
+      "opponent_slug": "lewis-keen",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Newcastle",
       "event_slug": "bkfc-fight-night-newcastle-2",
       "date": "2026-03-14T04:00:00.000Z",
@@ -48,5 +59,7 @@
     "https://www.bkfc.com/fighters/stew-martin"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:37.381Z"
+  "history_last_verified": "2026-07-31T18:47:37.381Z",
+  "elo": 1475,
+  "elo_peak": 1500
 }

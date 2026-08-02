@@ -32,7 +32,7 @@
     {
       "event": "BKFC Liberty Brawl",
       "event_slug": "bkfc-liberty-brawl",
-      "date": "2026-07-03T04:00:00.000Z",
+      "date": "2026-07-03T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:33",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:56",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC - Fight Night Philly",
       "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
-      "date": "2025-07-25T04:00:00.000Z",
+      "date": "2025-07-25T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:15",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC - Knucklemania V",
       "event_slug": "bkfc-knucklemania-v",
-      "date": "2025-01-25T05:00:00.000Z",
+      "date": "2025-01-25T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:37",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1479,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:47:35.480Z"
+  "history_last_verified": "2026-08-02T10:02:07.733Z"
 }

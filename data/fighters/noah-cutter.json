@@ -65,7 +65,7 @@
     {
       "event": "BKFC - Knucklemania III",
       "event_slug": "bkfc-knucklemania-iii",
-      "date": "2023-02-17T05:00:00.000Z",
+      "date": "2023-02-17T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "03:00",
@@ -78,7 +78,7 @@
     {
       "event": "BKFC 30",
       "event_slug": "bkfc-30-hunt-vs-henry",
-      "date": "2022-10-01T04:00:00.000Z",
+      "date": "2022-10-01T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:09",
@@ -97,5 +97,5 @@
   "last_updated": "2026-07-31",
   "elo": 1438,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:16.086Z"
+  "history_last_verified": "2026-08-02T10:02:10.657Z"
 }

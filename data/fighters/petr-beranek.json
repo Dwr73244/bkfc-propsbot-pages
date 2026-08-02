@@ -43,7 +43,7 @@
     {
       "event": "BKFC 58 - Bulgaria",
       "event_slug": "bkfc-58-bulgaria",
-      "date": "2024-03-22T04:00:00.000Z",
+      "date": "2024-03-22T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:24",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:16.440Z"
+  "history_last_verified": "2026-08-02T10:02:17.022Z"
 }

@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "lewis-garside",
+      "opponent_slug": "lewis-garside",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Fight Night Derby",
       "event_slug": "bkfc-fight-night-derby",
       "date": "2025-12-13T05:00:00.000Z",
@@ -87,5 +98,7 @@
     "https://www.bkfc.com/fighters/bradley-taylor"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:06.115Z"
+  "history_last_verified": "2026-07-31T18:47:06.115Z",
+  "elo": 1524,
+  "elo_peak": 1524
 }

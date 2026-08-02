@@ -22,16 +22,44 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1784837732/o/OWEN_WEBSTER_AVATAR_400x533.png?1784837732",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1784837720/o/OWEN_WEBSTER_SMALL_AVATAR_400x400.png?1784837720",
   "social": {
     "instagram": null,
     "twitter": null,
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:36",
+      "opponent": "kj-metcalfe",
+      "opponent_slug": "kj-metcalfe",
+      "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:36",
+      "opponent": "Owen Webster",
+      "opponent_slug": "owen-webster",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/owen-webster"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/owen-webster"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-08-02",
+  "history_last_verified": "2026-08-02T10:01:59.458Z",
+  "elo": 1478,
+  "elo_peak": 1500
 }

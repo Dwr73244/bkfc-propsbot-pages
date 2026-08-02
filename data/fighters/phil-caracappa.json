@@ -32,7 +32,7 @@
     {
       "event": "BKFC 82 -",
       "event_slug": "bkfc-new-jersey",
-      "date": "2025-10-04T04:00:00.000Z",
+      "date": "2025-10-04T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:53",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1520,
   "elo_peak": 1520,
-  "history_last_verified": "2026-07-31T18:45:16.413Z"
+  "history_last_verified": "2026-08-02T10:02:17.507Z"
 }

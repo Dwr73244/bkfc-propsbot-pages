@@ -43,7 +43,7 @@
     {
       "event": "BKFC 64",
       "event_slug": "bkfc-64-coventry-tierney-vs-graham",
-      "date": "2024-08-10T04:00:00.000Z",
+      "date": "2024-08-10T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "00:44",
@@ -73,5 +73,5 @@
   "last_updated": "2026-07-31",
   "elo": 1494,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:16.861Z"
+  "history_last_verified": "2026-08-02T10:02:29.277Z"
 }

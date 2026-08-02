@@ -43,7 +43,7 @@
     {
       "event": "BKFC 39",
       "event_slug": "bkfc-39-norfolk",
-      "date": "2023-03-24T04:00:00.000Z",
+      "date": "2023-03-24T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:59",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:16.547Z"
+  "history_last_verified": "2026-08-02T10:02:18.516Z"
 }

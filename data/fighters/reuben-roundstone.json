@@ -32,7 +32,7 @@
     {
       "event": "BKFC 63",
       "event_slug": "bkfc-63-hart-vs-starling",
-      "date": "2024-08-03T04:00:00.000Z",
+      "date": "2024-08-03T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:42",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:16.766Z"
+  "history_last_verified": "2026-08-02T10:02:28.604Z"
 }

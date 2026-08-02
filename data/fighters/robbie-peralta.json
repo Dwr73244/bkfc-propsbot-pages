@@ -32,7 +32,7 @@
     {
       "event": "BKFC 78 -",
       "event_slug": "bkfc-hollywood",
-      "date": "2025-07-12T04:00:00.000Z",
+      "date": "2025-07-12T00:00:00.000Z",
       "method": "Majority Draw",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC - Fight Night Pechanga",
       "event_slug": "bkfc-fight-night-pechanga",
-      "date": "2024-07-12T04:00:00.000Z",
+      "date": "2024-07-12T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:06",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC - Jackson 2",
       "event_slug": "bkfc-fight-night-belcher-vs-tate",
-      "date": "2022-06-11T04:00:00.000Z",
+      "date": "2022-06-11T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1500,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:16.925Z"
+  "history_last_verified": "2026-08-02T10:02:36.846Z"
 }

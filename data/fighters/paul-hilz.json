@@ -44,7 +44,7 @@
     {
       "event": "BKFC 90",
       "event_slug": "bkfc-90-birmingham-tierny-vs-franco",
-      "date": "2026-05-30T04:00:00.000Z",
+      "date": "2026-05-30T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -64,5 +64,5 @@
   "elo_peak": 1500,
   "record_source": "tracked-events",
   "record_verified": "2026-07-07",
-  "history_last_verified": "2026-07-31T18:47:35.553Z"
+  "history_last_verified": "2026-08-02T10:02:10.255Z"
 }

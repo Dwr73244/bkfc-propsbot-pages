@@ -31,19 +31,6 @@
   "bio": null,
   "last_5": [
     {
-      "event": "BKFC 91",
-      "event_slug": "bkfc-naples",
-      "date": "2026-07-18T04:00:00.000Z",
-      "method": "KO",
-      "round": 1,
-      "time": "01:04",
-      "opponent": "Ramy Elsaye",
-      "opponent_slug": "ramy-elsaye",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/pawel-werszynin"
-    },
-    {
       "event": "bkfc-naples",
       "event_slug": "bkfc-naples",
       "date": "2026-07-18T00:00:00.000Z",
@@ -53,6 +40,19 @@
       "opponent": "ramy-elsayes",
       "opponent_slug": "ramy-elsayes",
       "result": "W"
+    },
+    {
+      "event": "BKFC 91",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:04",
+      "opponent": "Ramy Elsaye",
+      "opponent_slug": "ramy-elsaye",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/pawel-werszynin"
     }
   ],
   "sources": [
@@ -63,5 +63,5 @@
   "elo_peak": 1522,
   "record_source": "tracked-events",
   "record_verified": "2026-07-19",
-  "history_last_verified": "2026-07-31T18:45:16.363Z"
+  "history_last_verified": "2026-08-02T10:02:14.867Z"
 }

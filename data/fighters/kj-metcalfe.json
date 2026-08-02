@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:36",
+      "opponent": "owen-webster",
+      "opponent_slug": "owen-webster",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/kj-metcalfe"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "elo": 1522,
+  "elo_peak": 1522
 }

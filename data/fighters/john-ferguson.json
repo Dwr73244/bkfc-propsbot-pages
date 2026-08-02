@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "mikey-nolan",
+      "opponent_slug": "mikey-nolan",
+      "result": "L"
+    },
+    {
       "event": "BKFC Fight Night Newcastle: Thompson vs. Boardman",
       "event_slug": "bkfc-fight-night-newcastle-2025-02-08",
       "date": "2025-02-08T20:00:00.000Z",
@@ -85,7 +96,7 @@
     "https://www.bkfc.com/fighters/john-ferguson"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1478,
+  "elo": 1460,
   "elo_peak": 1500,
   "history_last_verified": "2026-07-31T18:45:11.029Z"
 }

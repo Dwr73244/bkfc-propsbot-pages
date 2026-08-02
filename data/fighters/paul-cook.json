@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Derby",
       "event_slug": "bkfc-fight-night-derby",
-      "date": "2025-12-13T05:00:00.000Z",
+      "date": "2025-12-13T00:00:00.000Z",
       "method": "Majority Draw",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 68",
       "event_slug": "bkfc-68-faulkner-vs-oscar",
-      "date": "2024-11-02T04:00:00.000Z",
+      "date": "2024-11-02T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 55 - Leeds",
       "event_slug": "bkfc-55-leeds",
-      "date": "2023-11-18T05:00:00.000Z",
+      "date": "2023-11-18T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 46",
       "event_slug": "bkfc-46-newcastle-franco-vs-harris",
-      "date": "2023-07-01T04:00:00.000Z",
+      "date": "2023-07-01T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:41",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:16.292Z"
+  "history_last_verified": "2026-08-02T10:02:17.247Z"
 }

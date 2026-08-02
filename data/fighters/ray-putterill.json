@@ -43,7 +43,7 @@
     {
       "event": "BKFC: Prospects 2",
       "event_slug": "bkfc-prospect-series-2",
-      "date": "2023-10-14T04:00:00.000Z",
+      "date": "2023-10-14T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:21",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:16.624Z"
+  "history_last_verified": "2026-08-02T10:02:28.090Z"
 }

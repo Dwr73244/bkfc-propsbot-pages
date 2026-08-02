@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Hollywood",
       "event_slug": "bkfc-fight-night-hollywood",
-      "date": "2026-06-04T04:00:00.000Z",
+      "date": "2026-06-04T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:46",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 85",
       "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
-      "date": "2025-12-05T05:00:00.000Z",
+      "date": "2025-12-05T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:16",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC: Hollywood",
       "event_slug": "bkfc-70-hollywood",
-      "date": "2025-03-27T04:00:00.000Z",
+      "date": "2025-03-27T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:37",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 66",
       "event_slug": "bkfc-66-blas-vs-reber",
-      "date": "2024-09-13T04:00:00.000Z",
+      "date": "2024-09-13T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:26",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1525,
   "elo_peak": 1525,
-  "history_last_verified": "2026-07-31T18:47:35.664Z"
+  "history_last_verified": "2026-08-02T10:02:24.363Z"
 }

@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "chris-burton",
+      "opponent_slug": "chris-burton",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Fight Night Newcastle",
       "event_slug": "bkfc-fight-night-newcastle-2",
       "date": "2026-03-14T04:00:00.000Z",
@@ -48,5 +59,7 @@
     "https://www.bkfc.com/fighters/daniel-curtin"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:23.825Z"
+  "history_last_verified": "2026-07-31T18:47:23.825Z",
+  "elo": 1519,
+  "elo_peak": 1519
 }
