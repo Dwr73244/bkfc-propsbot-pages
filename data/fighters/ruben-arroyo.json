@@ -33,7 +33,7 @@
     {
       "event": "BKFC Liberty Brawl",
       "event_slug": "bkfc-liberty-brawl",
-      "date": "2026-07-03T04:00:00.000Z",
+      "date": "2026-07-03T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:33",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC 88",
       "event_slug": "bkfc-denver",
-      "date": "2026-04-17T04:00:00.000Z",
+      "date": "2026-04-17T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:54",
@@ -70,7 +70,7 @@
     {
       "event": "BKFC - Fight Night Michigan",
       "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
-      "date": "2025-11-01T04:00:00.000Z",
+      "date": "2025-11-01T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:31",
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1455,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:47:36.461Z"
+  "history_last_verified": "2026-08-03T11:28:04.420Z"
 }

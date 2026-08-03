@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1783625068/o/SALLY_MCDONALD_AVATAR_400x533.png?1783625067",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1783625057/o/SALLY_MCDONALD_SMALL_AVATAR_400x400.png?1783625057",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -40,14 +40,28 @@
       "opponent": "sandra-rees",
       "opponent_slug": "sandra-rees",
       "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:38",
+      "opponent": "Sally Macdonald",
+      "opponent_slug": "sally-macdonald",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/sally-macdonald"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/sally-macdonald"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-08-03",
   "elo": 1522,
   "elo_peak": 1522,
   "record_source": "tracked-events",
-  "record_verified": "2026-08-02"
+  "record_verified": "2026-08-02",
+  "history_last_verified": "2026-08-03T11:28:18.371Z"
 }

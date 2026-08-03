@@ -44,7 +44,7 @@
     {
       "event": "BKFC 88",
       "event_slug": "bkfc-denver",
-      "date": "2026-04-17T04:00:00.000Z",
+      "date": "2026-04-17T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:22",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -70,7 +70,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-fight-night-clearwater-ec210",
-      "date": "2025-05-02T04:00:00.000Z",
+      "date": "2025-05-02T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:11",
@@ -91,5 +91,5 @@
   ],
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:17.055Z"
+  "history_last_verified": "2026-08-03T11:27:52.717Z"
 }

@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Budva",
       "event_slug": "bkfc-budva",
-      "date": "2025-08-30T04:00:00.000Z",
+      "date": "2025-08-30T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:16",
@@ -48,5 +48,5 @@
     "https://www.bkfc.com/fighters/stefan-dobrijevic"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:37.127Z"
+  "history_last_verified": "2026-08-03T11:28:32.886Z"
 }

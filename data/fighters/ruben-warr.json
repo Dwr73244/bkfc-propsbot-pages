@@ -32,7 +32,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:48",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Fight Night Los Angeles",
       "event_slug": "bkfc-fight-night-los-angeles",
-      "date": "2024-11-23T05:00:00.000Z",
+      "date": "2024-11-23T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC - Fight Night Pechanga",
       "event_slug": "bkfc-fight-night-pechanga",
-      "date": "2024-07-12T04:00:00.000Z",
+      "date": "2024-07-12T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:06",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC - Knucklemania IV",
       "event_slug": "bkfc-knucklemania-iv",
-      "date": "2024-04-27T04:00:00.000Z",
+      "date": "2024-04-27T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1502,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:17.178Z"
+  "history_last_verified": "2026-08-03T11:28:03.198Z"
 }

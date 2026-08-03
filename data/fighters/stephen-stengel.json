@@ -43,7 +43,7 @@
     {
       "event": "BKFC 61",
       "event_slug": "bkfc-61-rivera-vs-straus",
-      "date": "2024-05-11T04:00:00.000Z",
+      "date": "2024-05-11T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:35",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:17.907Z"
+  "history_last_verified": "2026-08-03T11:28:33.435Z"
 }

@@ -43,7 +43,7 @@
     {
       "event": "BKFC: Prospects Canada",
       "event_slug": "fight-night-prospect-canada",
-      "date": "2024-03-02T05:00:00.000Z",
+      "date": "2024-03-02T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:12",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:17.422Z"
+  "history_last_verified": "2026-08-03T11:28:19.673Z"
 }

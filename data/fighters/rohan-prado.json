@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Hollywood",
       "event_slug": "bkfc-fight-night-hollywood",
-      "date": "2026-06-04T04:00:00.000Z",
+      "date": "2026-06-04T00:00:00.000Z",
       "method": "Unanimous Draw",
       "round": 3,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC - Fight Night Miami",
       "event_slug": "bkfc-fight-night-miami",
-      "date": "2024-03-15T04:00:00.000Z",
+      "date": "2024-03-15T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:31",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:17.129Z"
+  "history_last_verified": "2026-08-03T11:27:57.958Z"
 }

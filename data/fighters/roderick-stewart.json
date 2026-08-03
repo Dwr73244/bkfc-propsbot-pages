@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Blood 4 Blood",
       "event_slug": "blood-4-blood",
-      "date": "2026-05-06T04:00:00.000Z",
+      "date": "2026-05-06T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:25",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-hammond",
-      "date": "2025-10-18T04:00:00.000Z",
+      "date": "2025-10-18T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:59",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 3,
       "time": "02:00",
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1494,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:47:36.336Z"
+  "history_last_verified": "2026-08-03T11:27:54.449Z"
 }

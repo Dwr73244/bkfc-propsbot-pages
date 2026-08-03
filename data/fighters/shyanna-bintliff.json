@@ -33,7 +33,7 @@
     {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
-      "date": "2025-11-15T05:00:00.000Z",
+      "date": "2025-11-15T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:59",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
-      "date": "2025-08-02T04:00:00.000Z",
+      "date": "2025-08-02T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:11",
@@ -61,5 +61,5 @@
     "https://www.bkfc.com/fighters/shyanna-bintliff"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:36.877Z"
+  "history_last_verified": "2026-08-03T11:28:26.419Z"
 }

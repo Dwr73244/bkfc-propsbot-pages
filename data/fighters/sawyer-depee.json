@@ -32,7 +32,7 @@
     {
       "event": "BKFCF 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
-      "date": "2024-10-25T04:00:00.000Z",
+      "date": "2024-10-25T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:06",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Prospects Denver",
       "event_slug": "bkfc-fight-night-prospects-denver",
-      "date": "2024-05-31T04:00:00.000Z",
+      "date": "2024-05-31T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:33",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 53",
       "event_slug": "bkfc-53-orlando",
-      "date": "2023-11-03T04:00:00.000Z",
+      "date": "2023-11-03T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "02:00",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC - Jackson 2",
       "event_slug": "bkfc-fight-night-belcher-vs-tate",
-      "date": "2022-06-11T04:00:00.000Z",
+      "date": "2022-06-11T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:18",
@@ -104,5 +104,5 @@
   ],
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:17.532Z"
+  "history_last_verified": "2026-08-03T11:28:31.015Z"
 }

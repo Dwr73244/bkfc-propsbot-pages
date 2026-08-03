@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha",
-      "date": "2024-05-17T04:00:00.000Z",
+      "date": "2024-05-17T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:24",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 51",
       "event_slug": "bkfc-51-salem",
-      "date": "2023-09-29T04:00:00.000Z",
+      "date": "2023-09-29T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:51",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC - Jackson 2",
       "event_slug": "bkfc-fight-night-belcher-vs-tate",
-      "date": "2022-06-11T04:00:00.000Z",
+      "date": "2022-06-11T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:01",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1497,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:17.784Z"
+  "history_last_verified": "2026-08-03T11:28:36.428Z"
 }
