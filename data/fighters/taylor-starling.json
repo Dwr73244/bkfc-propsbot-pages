@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Blood 4 Blood",
       "event_slug": "blood-4-blood",
-      "date": "2026-05-06T04:00:00.000Z",
+      "date": "2026-05-06T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:32",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
-      "date": "2025-08-02T04:00:00.000Z",
+      "date": "2025-08-02T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 63",
       "event_slug": "bkfc-63-hart-vs-starling",
-      "date": "2024-08-03T04:00:00.000Z",
+      "date": "2024-08-03T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1481,
   "elo_peak": 1501,
-  "history_last_verified": "2026-07-31T18:47:37.434Z"
+  "history_last_verified": "2026-08-04T10:37:42.391Z"
 }

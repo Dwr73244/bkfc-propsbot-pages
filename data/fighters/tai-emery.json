@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Thailand 4",
       "event_slug": "bkfc-thailand-4",
-      "date": "2022-12-10T05:00:00.000Z",
+      "date": "2022-12-10T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC - Thailand 3",
       "event_slug": "bkfc-praethsaithy-3-buakaw-vs-varol",
-      "date": "2022-09-03T04:00:00.000Z",
+      "date": "2022-09-03T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:41",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1479,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:19.992Z"
+  "history_last_verified": "2026-08-04T10:37:32.720Z"
 }

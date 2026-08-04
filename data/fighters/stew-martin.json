@@ -6,7 +6,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -44,7 +44,7 @@
     {
       "event": "BKFC - Fight Night Newcastle",
       "event_slug": "bkfc-fight-night-newcastle-2",
-      "date": "2026-03-14T04:00:00.000Z",
+      "date": "2026-03-14T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "02:00",
@@ -59,7 +59,7 @@
     "https://www.bkfc.com/fighters/stew-martin"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:37.381Z",
+  "history_last_verified": "2026-08-04T10:37:29.219Z",
   "elo": 1475,
   "elo_peak": 1500
 }

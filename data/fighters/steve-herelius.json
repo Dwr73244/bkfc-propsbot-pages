@@ -43,7 +43,7 @@
     {
       "event": "BKFC 50",
       "event_slug": "bkfc-50-denver",
-      "date": "2023-09-22T04:00:00.000Z",
+      "date": "2023-09-22T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:43",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 18",
       "event_slug": "bkfc-18-beltran-vs-shewmaker",
-      "date": "2021-06-26T04:00:00.000Z",
+      "date": "2021-06-26T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1479,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:17.950Z"
+  "history_last_verified": "2026-08-04T10:37:25.332Z"
 }

@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Blood 4 Blood",
       "event_slug": "blood-4-blood",
-      "date": "2026-05-06T04:00:00.000Z",
+      "date": "2026-05-06T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:32",
@@ -45,7 +45,7 @@
     {
       "event": "BKFCF 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
-      "date": "2024-10-25T04:00:00.000Z",
+      "date": "2024-10-25T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:57",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 48",
       "event_slug": "bkfc-48-albuquerque",
-      "date": "2023-08-11T04:00:00.000Z",
+      "date": "2023-08-11T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1497,
   "elo_peak": 1520,
-  "history_last_verified": "2026-07-31T18:47:37.374Z"
+  "history_last_verified": "2026-08-04T10:37:37.501Z"
 }

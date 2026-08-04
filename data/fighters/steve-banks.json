@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-fight-night-hammond",
-      "date": "2026-06-26T04:00:00.000Z",
+      "date": "2026-06-26T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:21",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC: Italy",
       "event_slug": "bkfc-73-italy",
-      "date": "2025-04-26T04:00:00.000Z",
+      "date": "2025-04-26T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:36",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 66",
       "event_slug": "bkfc-66-blas-vs-reber",
-      "date": "2024-09-13T04:00:00.000Z",
+      "date": "2024-09-13T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:44",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC - Newcastle",
       "event_slug": "bkfc-newcastle-terrill-vs-banks",
-      "date": "2022-11-26T05:00:00.000Z",
+      "date": "2022-11-26T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:47:41.045Z"
+  "history_last_verified": "2026-08-04T10:37:31.984Z"
 }

@@ -43,7 +43,7 @@
     {
       "event": "BKFC 32",
       "event_slug": "bkfc-32-orlando",
-      "date": "2022-11-05T04:00:00.000Z",
+      "date": "2022-11-05T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:44",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:17.954Z"
+  "history_last_verified": "2026-08-04T10:37:23.410Z"
 }

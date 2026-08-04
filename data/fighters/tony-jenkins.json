@@ -32,7 +32,7 @@
     {
       "event": "BKFC 50",
       "event_slug": "bkfc-50-denver",
-      "date": "2023-09-22T04:00:00.000Z",
+      "date": "2023-09-22T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:18",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 30",
       "event_slug": "bkfc-30-hunt-vs-henry",
-      "date": "2022-10-01T04:00:00.000Z",
+      "date": "2022-10-01T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:05",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:19.030Z"
+  "history_last_verified": "2026-08-04T10:37:44.930Z"
 }

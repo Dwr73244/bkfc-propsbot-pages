@@ -43,7 +43,7 @@
     {
       "event": "Fight Night Omaha 2",
       "event_slug": "bkfc-fight-night-cochrane-vs-dyer",
-      "date": "2022-05-13T04:00:00.000Z",
+      "date": "2022-05-13T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:42",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 21",
       "event_slug": "bkfc-21-cochrane-vs-richman",
-      "date": "2021-09-10T04:00:00.000Z",
+      "date": "2021-09-10T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:29",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:18.359Z"
+  "history_last_verified": "2026-08-04T10:37:38.487Z"
 }

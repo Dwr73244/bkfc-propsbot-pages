@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Michigan",
       "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
-      "date": "2025-11-01T04:00:00.000Z",
+      "date": "2025-11-01T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:34",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha",
-      "date": "2024-05-17T04:00:00.000Z",
+      "date": "2024-05-17T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -97,5 +97,5 @@
   "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1543,
-  "history_last_verified": "2026-07-31T18:45:18.854Z"
+  "history_last_verified": "2026-08-04T10:37:47.866Z"
 }

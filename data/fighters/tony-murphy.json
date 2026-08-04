@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
-      "date": "2026-04-24T04:00:00.000Z",
+      "date": "2026-04-24T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:39",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 47",
       "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
-      "date": "2023-07-14T04:00:00.000Z",
+      "date": "2023-07-14T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "01:16",
@@ -59,7 +59,7 @@
     {
       "event": "BKFC 32",
       "event_slug": "bkfc-32-orlando",
-      "date": "2022-11-05T04:00:00.000Z",
+      "date": "2022-11-05T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:51",
@@ -74,5 +74,5 @@
     "https://www.bkfc.com/fighters/tony-murphy"
   ],
   "last_updated": "2026-04-19",
-  "history_last_verified": "2026-07-31T18:47:38.252Z"
+  "history_last_verified": "2026-08-04T10:37:45.282Z"
 }
