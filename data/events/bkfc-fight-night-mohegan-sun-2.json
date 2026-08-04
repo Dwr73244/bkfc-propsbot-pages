@@ -123,11 +123,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 11,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "kris-moutinho",
+      "fighter_b_slug": "michael-hernandez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-2"
   ],
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-08-04",
   "needs_card_population": false
 }

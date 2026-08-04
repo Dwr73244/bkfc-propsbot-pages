@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-08-04T10:38:03.198Z",
+  "generated_at": "2026-08-04T13:07:35.139Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -136,6 +136,780 @@
               "outcome": "Decision",
               "moneyline": 707,
               "implied_prob": 0.124
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 2,
+      "fighter_a_slug": "gee-perez",
+      "fighter_b_slug": "andrew-strode",
+      "prediction": {
+        "prob_a": 0.4309,
+        "prob_b": 0.5691,
+        "raw_score": -0.107,
+        "favorite_slug": "andrew-strode",
+        "confidence": "Low",
+        "advantage_a": 43,
+        "advantage_b": 57,
+        "predictability": 38,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1522,
+            "value_b": 1519,
+            "edge_slug": null,
+            "edge_strength": 0.015,
+            "weight": 0.16,
+            "display": "+3 ELO "
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "W",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.13,
+            "display": "Similar form"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "7-2",
+            "value_b": "4-0",
+            "edge_slug": "andrew-strode",
+            "edge_strength": 0.265,
+            "weight": 0.11,
+            "display": "73% vs 83% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "14%",
+            "value_b": "—",
+            "edge_slug": "andrew-strode",
+            "edge_strength": 0.311,
+            "weight": 0.11,
+            "display": "-21 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 37,
+            "value_b": 29,
+            "edge_slug": "andrew-strode",
+            "edge_strength": 0.6,
+            "weight": 0.09,
+            "display": "37 vs 29"
+          },
+          {
+            "name": "Reach",
+            "value_a": "76\"",
+            "value_b": "74\"",
+            "edge_slug": "gee-perez",
+            "edge_strength": 0.333,
+            "weight": 0.08,
+            "display": "+2\" Perez"
+          },
+          {
+            "name": "Activity",
+            "value_a": "3.3y ago",
+            "value_b": "1.5y ago",
+            "edge_slug": "andrew-strode",
+            "edge_strength": 0.3,
+            "weight": 0.05,
+            "display": "Strode more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "50%",
+            "value_b": "64%",
+            "edge_slug": "andrew-strode",
+            "edge_strength": 0.278,
+            "weight": 0.04,
+            "display": "Strode tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "9 fights",
+            "value_b": "4 fights",
+            "edge_slug": "gee-perez",
+            "edge_strength": 0.625,
+            "weight": 0.03,
+            "display": "+5 fights Perez"
+          }
+        ],
+        "summary": "Model leans Strode 57/43. Edges on bkfc record, ko rate, age, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 156,
+              "implied_prob": 0.391
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -156,
+              "implied_prob": 0.609
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 128,
+              "implied_prob": 0.439
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 486,
+              "implied_prob": 0.171
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 156,
+              "implied_prob": 0.391
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 3,
+      "fighter_a_slug": "esteban-rodriguez",
+      "fighter_b_slug": "stephen-tomahawk-townsel",
+      "prediction": {
+        "prob_a": 0.8288,
+        "prob_b": 0.1712,
+        "raw_score": 0.6065,
+        "favorite_slug": "esteban-rodriguez",
+        "confidence": "Low",
+        "advantage_a": 83,
+        "advantage_b": 17,
+        "predictability": 57,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "W-W",
+            "value_b": "—",
+            "edge_slug": "esteban-rodriguez",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Rodriguez hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "6-1",
+            "value_b": "0-0",
+            "edge_slug": "esteban-rodriguez",
+            "edge_strength": 0.694,
+            "weight": 0.11,
+            "display": "78% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "83%",
+            "value_b": "—",
+            "edge_slug": "esteban-rodriguez",
+            "edge_strength": 0.725,
+            "weight": 0.11,
+            "display": "48 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 34,
+            "value_b": 46,
+            "edge_slug": "esteban-rodriguez",
+            "edge_strength": 1,
+            "weight": 0.09,
+            "display": "34 vs 46"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "1-4",
+            "value_b": "—",
+            "edge_slug": "esteban-rodriguez",
+            "edge_strength": 0.837,
+            "weight": 0.08,
+            "display": "Rodriguez deeper background"
+          },
+          {
+            "name": "Style",
+            "value_a": "ko-hunter / power",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.06,
+            "display": "No exploitable style mismatch"
+          },
+          {
+            "name": "Activity",
+            "value_a": "4mo ago",
+            "value_b": "—",
+            "edge_slug": "esteban-rodriguez",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Rodriguez more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "33%",
+            "value_b": "—",
+            "edge_slug": "stephen-tomahawk-townsel",
+            "edge_strength": 0.333,
+            "weight": 0.04,
+            "display": "Townsel tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "7 fights",
+            "value_b": "0 fights",
+            "edge_slug": "esteban-rodriguez",
+            "edge_strength": 0.875,
+            "weight": 0.03,
+            "display": "+7 fights Rodriguez"
+          }
+        ],
+        "summary": "Model leans Rodriguez 83/17. Edges on recent form, bkfc record, ko rate, age.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 344,
+              "implied_prob": 0.225
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -344,
+              "implied_prob": 0.775
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -126,
+              "implied_prob": 0.558
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 361,
+              "implied_prob": 0.217
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 344,
+              "implied_prob": 0.225
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 4,
+      "fighter_a_slug": "chris-garcia",
+      "fighter_b_slug": "tyler-randall",
+      "prediction": {
+        "prob_a": 0.6096,
+        "prob_b": 0.3904,
+        "raw_score": 0.1715,
+        "favorite_slug": "chris-garcia",
+        "confidence": "High",
+        "advantage_a": 61,
+        "advantage_b": 39,
+        "predictability": 72,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1521,
+            "value_b": 1482,
+            "edge_slug": "chris-garcia",
+            "edge_strength": 0.195,
+            "weight": 0.16,
+            "display": "+39 ELO Garcia"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "L-W-W",
+            "value_b": "L-W-L",
+            "edge_slug": "chris-garcia",
+            "edge_strength": 0.506,
+            "weight": 0.13,
+            "display": "Garcia hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "6-1",
+            "value_b": "4-4",
+            "edge_slug": "chris-garcia",
+            "edge_strength": 0.694,
+            "weight": 0.11,
+            "display": "78% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "17%",
+            "value_b": "—",
+            "edge_slug": "tyler-randall",
+            "edge_strength": 0.275,
+            "weight": 0.11,
+            "display": "-18 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 26,
+            "value_b": 31,
+            "edge_slug": null,
+            "edge_strength": 0.2,
+            "weight": 0.09,
+            "display": "26 vs 31"
+          },
+          {
+            "name": "Reach",
+            "value_a": "71\"",
+            "value_b": "66\"",
+            "edge_slug": "chris-garcia",
+            "edge_strength": 0.833,
+            "weight": 0.08,
+            "display": "+5\" Garcia"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.4y ago",
+            "value_b": "1.5y ago",
+            "edge_slug": "chris-garcia",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Garcia more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0/2 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "30%",
+            "value_b": "64%",
+            "edge_slug": "tyler-randall",
+            "edge_strength": 0.676,
+            "weight": 0.04,
+            "display": "Randall tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "7 fights",
+            "value_b": "8 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'8\"",
+            "value_b": "5'6\"",
+            "edge_slug": "chris-garcia",
+            "edge_strength": 0.4,
+            "weight": 0.03,
+            "display": "+2\" Garcia"
+          }
+        ],
+        "summary": "Model leans Garcia 61/39. Edges on recent form, bkfc record, reach, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 251,
+              "implied_prob": 0.285
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -251,
+              "implied_prob": 0.715
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -106,
+              "implied_prob": 0.515
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 400,
+              "implied_prob": 0.2
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 251,
+              "implied_prob": 0.285
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 5,
+      "fighter_a_slug": "matt-rambo-russo",
+      "fighter_b_slug": "jancarlos-rivera",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "jancarlos-rivera",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 163,
+              "implied_prob": 0.38
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -163,
+              "implied_prob": 0.62
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 124,
+              "implied_prob": 0.446
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 476,
+              "implied_prob": 0.174
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 163,
+              "implied_prob": 0.38
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 6,
+      "fighter_a_slug": "chino-blume",
+      "fighter_b_slug": "caleb-joseph-avila",
+      "prediction": {
+        "prob_a": 0.3053,
+        "prob_b": 0.6947,
+        "raw_score": -0.3163,
+        "favorite_slug": "caleb-joseph-avila",
+        "confidence": "Very Low",
+        "advantage_a": 31,
+        "advantage_b": 69,
+        "predictability": 31,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "W",
+            "edge_slug": "caleb-joseph-avila",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Avila hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "1-2",
+            "edge_slug": "chino-blume",
+            "edge_strength": 0.25,
+            "weight": 0.11,
+            "display": "50% vs 40% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "100%",
+            "edge_slug": "caleb-joseph-avila",
+            "edge_strength": 0.975,
+            "weight": 0.11,
+            "display": "-65 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "1.5y ago",
+            "edge_slug": null,
+            "edge_strength": 0.1,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "0%",
+            "edge_slug": "chino-blume",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Blume tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "3 fights",
+            "edge_slug": "caleb-joseph-avila",
+            "edge_strength": 0.375,
+            "weight": 0.03,
+            "display": "+3 fights Avila"
+          }
+        ],
+        "summary": "Model leans Avila 69/31. Edges on recent form, ko rate, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 281,
+              "implied_prob": 0.263
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -281,
+              "implied_prob": 0.737
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -113,
+              "implied_prob": 0.531
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 384,
+              "implied_prob": 0.207
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 281,
+              "implied_prob": 0.263
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 7,
+      "fighter_a_slug": "murat-kazgan",
+      "fighter_b_slug": "james-rodriguez",
+      "prediction": {
+        "prob_a": 0.6447,
+        "prob_b": 0.3553,
+        "raw_score": 0.2292,
+        "favorite_slug": "murat-kazgan",
+        "confidence": "Very Low",
+        "advantage_a": 64,
+        "advantage_b": 36,
+        "predictability": 24,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "—",
+            "edge_slug": "murat-kazgan",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Kazgan hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "1-1",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.11,
+            "display": "50% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "100%",
+            "value_b": "—",
+            "edge_slug": "murat-kazgan",
+            "edge_strength": 0.975,
+            "weight": 0.11,
+            "display": "65 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 40,
+            "value_b": 37,
+            "edge_slug": "james-rodriguez",
+            "edge_strength": 0.36,
+            "weight": 0.09,
+            "display": "40 vs 37"
+          },
+          {
+            "name": "Activity",
+            "value_a": "3.5y ago",
+            "value_b": "—",
+            "edge_slug": "james-rodriguez",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Rodriguez more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "0%",
+            "value_b": "—",
+            "edge_slug": "james-rodriguez",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Rodriguez tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "2 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Kazgan 64/36. Edges on recent form, ko rate.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 382,
+              "implied_prob": 0.208
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -382,
+              "implied_prob": 0.792
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -133,
+              "implied_prob": 0.571
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 351,
+              "implied_prob": 0.222
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 382,
+              "implied_prob": 0.208
             }
           ]
         }
