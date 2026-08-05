@@ -44,7 +44,7 @@
     {
       "event": "BKFC 89",
       "event_slug": "bkfc-palm-desert",
-      "date": "2026-05-22T04:00:00.000Z",
+      "date": "2026-05-22T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:58",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-fight-night-clearwater-ec210",
-      "date": "2025-05-02T04:00:00.000Z",
+      "date": "2025-05-02T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -70,7 +70,7 @@
     {
       "event": "BKFC 62",
       "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T04:00:00.000Z",
+      "date": "2024-06-21T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -83,7 +83,7 @@
     {
       "event": "BKFC 57",
       "event_slug": "bkfc-57-hollywood",
-      "date": "2024-02-02T05:00:00.000Z",
+      "date": "2024-02-02T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "01:58",
@@ -101,5 +101,5 @@
   "last_updated": "2026-07-31",
   "elo": 1477,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:47:30.393Z"
+  "history_last_verified": "2026-08-05T10:40:11.745Z"
 }

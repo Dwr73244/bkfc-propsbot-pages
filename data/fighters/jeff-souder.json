@@ -43,7 +43,7 @@
     {
       "event": "BKFC 43",
       "event_slug": "bkfc-43-omaha-alexander-vs-smith",
-      "date": "2023-05-19T04:00:00.000Z",
+      "date": "2023-05-19T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "Fight Night Omaha 2",
       "event_slug": "bkfc-fight-night-cochrane-vs-dyer",
-      "date": "2022-05-13T04:00:00.000Z",
+      "date": "2022-05-13T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:46",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 21",
       "event_slug": "bkfc-21-cochrane-vs-richman",
-      "date": "2021-09-10T04:00:00.000Z",
+      "date": "2021-09-10T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:49",
@@ -87,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:45:10.633Z"
+  "history_last_verified": "2026-08-05T10:39:43.200Z"
 }

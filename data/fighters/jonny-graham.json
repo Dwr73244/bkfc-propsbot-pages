@@ -32,7 +32,7 @@
     {
       "event": "BKFC 81 - Manchester",
       "event_slug": "bkfc-manchester",
-      "date": "2025-09-27T04:00:00.000Z",
+      "date": "2025-09-27T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:53",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 64",
       "event_slug": "bkfc-64-coventry-tierney-vs-graham",
-      "date": "2024-08-10T04:00:00.000Z",
+      "date": "2024-08-10T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1521,
   "elo_peak": 1521,
-  "history_last_verified": "2026-07-31T18:45:11.184Z"
+  "history_last_verified": "2026-08-05T10:40:07.171Z"
 }

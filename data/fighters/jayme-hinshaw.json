@@ -43,7 +43,7 @@
     {
       "event": "BKFC 28",
       "event_slug": "bkfc-28-albuquerque",
-      "date": "2022-08-27T04:00:00.000Z",
+      "date": "2022-08-27T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:18",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:10.593Z"
+  "history_last_verified": "2026-08-05T10:39:41.358Z"
 }

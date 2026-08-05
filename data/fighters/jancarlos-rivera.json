@@ -5,7 +5,7 @@
   "nickname": "BABY HULK",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,9 +29,50 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 87",
+      "event_slug": "bkfc-87-hollywood",
+      "date": "2026-03-20T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:59",
+      "opponent": "Ace Samples",
+      "opponent_slug": "ace-samples",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jancarlos-rivera"
+    },
+    {
+      "event": "BKFC 80",
+      "event_slug": "bkfc-hollywood-2",
+      "date": "2025-09-12T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:22",
+      "opponent": "Robert Garcia",
+      "opponent_slug": "robert-garcia",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jancarlos-rivera"
+    },
+    {
+      "event": "BKFC: Hollywood",
+      "event_slug": "bkfc-70-hollywood",
+      "date": "2025-03-27T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Albert Inclan",
+      "opponent_slug": "albert-inclan",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jancarlos-rivera"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/jancarlos-rivera"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-08-05T10:39:35.295Z"
 }

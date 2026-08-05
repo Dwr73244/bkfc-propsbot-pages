@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
-      "date": "2026-04-24T04:00:00.000Z",
+      "date": "2026-04-24T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC - Fight Night Philly",
       "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
-      "date": "2025-07-25T04:00:00.000Z",
+      "date": "2025-07-25T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:23",
@@ -61,5 +61,5 @@
     "https://www.bkfc.com/fighters/jason-dinunzio"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:29.770Z"
+  "history_last_verified": "2026-08-05T10:39:40.211Z"
 }

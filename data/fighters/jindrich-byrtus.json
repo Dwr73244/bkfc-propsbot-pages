@@ -44,7 +44,7 @@
     {
       "event": "BKFC: Italy",
       "event_slug": "bkfc-73-italy",
-      "date": "2025-04-26T04:00:00.000Z",
+      "date": "2025-04-26T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:32",
@@ -63,5 +63,5 @@
   "elo_peak": 1526,
   "record_source": "tracked-events",
   "record_verified": "2026-07-19",
-  "history_last_verified": "2026-07-31T18:47:30.166Z"
+  "history_last_verified": "2026-08-05T10:39:55.579Z"
 }

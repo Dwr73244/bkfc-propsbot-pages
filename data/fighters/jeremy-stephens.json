@@ -32,7 +32,7 @@
     {
       "event": "BKFC 82 -",
       "event_slug": "bkfc-new-jersey",
-      "date": "2025-10-04T04:00:00.000Z",
+      "date": "2025-10-04T00:00:00.000Z",
       "method": "TKO",
       "round": 5,
       "time": "01:35",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 65",
       "event_slug": "bkfc-65-ferea-vs-masson-wong",
-      "date": "2024-09-06T04:00:00.000Z",
+      "date": "2024-09-06T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 56",
       "event_slug": "bkfc-56-utah",
-      "date": "2023-12-02T05:00:00.000Z",
+      "date": "2023-12-02T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -126,5 +126,5 @@
       "notes": null
     }
   ],
-  "history_last_verified": "2026-07-31T18:45:10.723Z"
+  "history_last_verified": "2026-08-05T10:39:52.009Z"
 }

@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Hollywood",
       "event_slug": "bkfc-fight-night-hollywood",
-      "date": "2026-06-04T04:00:00.000Z",
+      "date": "2026-06-04T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC Thailand 5",
       "event_slug": "bkfc-thailand-5",
-      "date": "2023-11-04T04:00:00.000Z",
+      "date": "2023-11-04T00:00:00.000Z",
       "method": "KO",
       "round": 5,
       "time": "00:50",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC Thailand 1",
       "event_slug": "bkfc-thailand",
-      "date": "2021-12-18T05:00:00.000Z",
+      "date": "2021-12-18T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -87,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:47:34.851Z"
+  "history_last_verified": "2026-08-05T10:40:12.092Z"
 }

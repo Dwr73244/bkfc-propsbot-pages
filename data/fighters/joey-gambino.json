@@ -33,7 +33,7 @@
     {
       "event": "BKFC 86",
       "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
-      "date": "2026-01-17T05:00:00.000Z",
+      "date": "2026-01-17T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:08",
@@ -48,5 +48,5 @@
     "https://www.bkfc.com/fighters/joey-gambino"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:30.278Z"
+  "history_last_verified": "2026-08-05T10:39:55.762Z"
 }

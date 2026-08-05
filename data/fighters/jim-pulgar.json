@@ -32,7 +32,7 @@
     {
       "event": "BKFC 74 - Salt Lake City",
       "event_slug": "bkfc-74-salt-lake-city",
-      "date": "2025-05-10T04:00:00.000Z",
+      "date": "2025-05-10T00:00:00.000Z",
       "method": null,
       "round": 4,
       "time": "01:41",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 66",
       "event_slug": "bkfc-66-blas-vs-reber",
-      "date": "2024-09-13T04:00:00.000Z",
+      "date": "2024-09-13T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1481,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:10.770Z"
+  "history_last_verified": "2026-08-05T10:39:52.300Z"
 }

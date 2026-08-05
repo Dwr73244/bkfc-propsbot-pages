@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-08-04T13:07:35.139Z",
+  "generated_at": "2026-08-05T10:40:23.170Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -597,35 +597,35 @@
       "fighter_a_slug": "matt-rambo-russo",
       "fighter_b_slug": "jancarlos-rivera",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
+        "prob_a": 0.1614,
+        "prob_b": 0.8386,
+        "raw_score": -0.6337,
         "favorite_slug": "jancarlos-rivera",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 16,
+        "advantage_b": 84,
+        "predictability": 48,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_b": "3-0",
+            "edge_slug": "jancarlos-rivera",
+            "edge_strength": 0.75,
+            "weight": 0.11,
+            "display": "50% vs 80% win rate"
           },
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "0 fights",
-            "edge_slug": null,
-            "edge_strength": 0,
+            "value_b": "3 fights",
+            "edge_slug": "jancarlos-rivera",
+            "edge_strength": 0.375,
             "weight": 0.03,
-            "display": "Even"
+            "display": "+3 fights Rivera"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Rivera 84/16. Edges on bkfc record, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
