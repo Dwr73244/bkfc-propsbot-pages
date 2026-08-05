@@ -1,7 +1,155 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-08-05T10:40:23.176Z",
+  "generated_at": "2026-08-05T13:01:09.746Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
-  "bouts": []
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "conor-cooke",
+      "fighter_b_slug": "sean-weir",
+      "prediction": {
+        "prob_a": 0.6214,
+        "prob_b": 0.3786,
+        "raw_score": 0.1906,
+        "favorite_slug": "conor-cooke",
+        "confidence": "Low",
+        "advantage_a": 62,
+        "advantage_b": 38,
+        "predictability": 44,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "W-L-W",
+            "value_b": "—",
+            "edge_slug": "conor-cooke",
+            "edge_strength": 0.305,
+            "weight": 0.13,
+            "display": "Cooke hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "6-1",
+            "value_b": "0-0",
+            "edge_slug": "conor-cooke",
+            "edge_strength": 0.694,
+            "weight": 0.11,
+            "display": "78% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "33%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.025,
+            "weight": 0.11,
+            "display": "-2 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 39,
+            "value_b": 34,
+            "edge_slug": "sean-weir",
+            "edge_strength": 0.72,
+            "weight": 0.09,
+            "display": "39 vs 34"
+          },
+          {
+            "name": "Reach",
+            "value_a": "76\"",
+            "value_b": "76\"",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "0\" even"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.4y ago",
+            "value_b": "—",
+            "edge_slug": "conor-cooke",
+            "edge_strength": 0.3,
+            "weight": 0.05,
+            "display": "Cooke more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "67%",
+            "value_b": "—",
+            "edge_slug": "conor-cooke",
+            "edge_strength": 0.333,
+            "weight": 0.04,
+            "display": "Cooke tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "7 fights",
+            "value_b": "0 fights",
+            "edge_slug": "conor-cooke",
+            "edge_strength": 0.875,
+            "weight": 0.03,
+            "display": "+7 fights Cooke"
+          },
+          {
+            "name": "Height",
+            "value_a": "6'3\"",
+            "value_b": "6'3\"",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "0\" even"
+          }
+        ],
+        "summary": "Model leans Cooke 62/38. Edges on recent form, bkfc record, activity, opponent quality.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 406,
+              "implied_prob": 0.197
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -406,
+              "implied_prob": 0.803
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -137,
+              "implied_prob": 0.578
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 345,
+              "implied_prob": 0.225
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 406,
+              "implied_prob": 0.197
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
 }
