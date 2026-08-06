@@ -43,7 +43,7 @@
     {
       "event": "BKFC 86",
       "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
-      "date": "2026-01-17T05:00:00.000Z",
+      "date": "2026-01-17T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 6,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
-      "date": "2025-08-02T04:00:00.000Z",
+      "date": "2025-08-02T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC on DAZN - Montana",
       "event_slug": "bkfc-on-dazn-montana",
-      "date": "2024-11-09T05:00:00.000Z",
+      "date": "2024-11-09T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -103,5 +103,5 @@
   ],
   "elo": 1521,
   "elo_peak": 1544,
-  "history_last_verified": "2026-07-31T18:47:31.233Z"
+  "history_last_verified": "2026-08-06T10:37:32.182Z"
 }

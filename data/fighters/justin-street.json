@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-fight-night-hammond",
-      "date": "2026-06-26T04:00:00.000Z",
+      "date": "2026-06-26T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:40",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Fight Night Michigan",
       "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
-      "date": "2025-11-01T04:00:00.000Z",
+      "date": "2025-11-01T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 69",
       "event_slug": "bkfc-69-richardson-vs-larrimore",
-      "date": "2024-12-06T05:00:00.000Z",
+      "date": "2024-12-06T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 66",
       "event_slug": "bkfc-66-blas-vs-reber",
-      "date": "2024-09-13T04:00:00.000Z",
+      "date": "2024-09-13T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -101,5 +101,5 @@
   "last_updated": "2026-07-31",
   "elo": 1539,
   "elo_peak": 1539,
-  "history_last_verified": "2026-07-31T18:47:31.415Z"
+  "history_last_verified": "2026-08-06T10:37:23.370Z"
 }

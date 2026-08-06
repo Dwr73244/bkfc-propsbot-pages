@@ -44,7 +44,7 @@
     {
       "event": "BKFC 88",
       "event_slug": "bkfc-denver",
-      "date": "2026-04-17T04:00:00.000Z",
+      "date": "2026-04-17T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "02:00",
@@ -70,7 +70,7 @@
     {
       "event": "BKFC 50",
       "event_slug": "bkfc-50-denver",
-      "date": "2023-09-22T04:00:00.000Z",
+      "date": "2023-09-22T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:43",
@@ -102,5 +102,5 @@
   ],
   "elo": 1457,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:11.362Z"
+  "history_last_verified": "2026-08-06T10:37:10.324Z"
 }

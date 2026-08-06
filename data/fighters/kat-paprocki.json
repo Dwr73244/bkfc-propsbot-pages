@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
-      "date": "2026-04-24T04:00:00.000Z",
+      "date": "2026-04-24T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 74 - Salt Lake City",
       "event_slug": "bkfc-74-salt-lake-city",
-      "date": "2025-05-10T04:00:00.000Z",
+      "date": "2025-05-10T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -59,7 +59,7 @@
     {
       "event": "BKFCF 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
-      "date": "2024-10-25T04:00:00.000Z",
+      "date": "2024-10-25T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:57",
@@ -74,5 +74,5 @@
     "https://www.bkfc.com/fighters/kat-paprocki"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:31.975Z"
+  "history_last_verified": "2026-08-06T10:37:30.589Z"
 }

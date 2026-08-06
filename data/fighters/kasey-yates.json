@@ -32,7 +32,7 @@
     {
       "event": "BKFC 75",
       "event_slug": "bkfc-75-albuquerque-mundell-vs-sanchez",
-      "date": "2025-06-06T04:00:00.000Z",
+      "date": "2025-06-06T00:00:00.000Z",
       "method": "KO",
       "round": 5,
       "time": "01:31",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC: Prospects Albuquerque",
       "event_slug": "fight-night-prospect-albuquerque",
-      "date": "2024-01-27T05:00:00.000Z",
+      "date": "2024-01-27T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:44",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:12.707Z"
+  "history_last_verified": "2026-08-06T10:37:28.700Z"
 }

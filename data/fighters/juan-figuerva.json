@@ -33,7 +33,7 @@
     {
       "event": "BKFC 86",
       "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
-      "date": "2026-01-17T05:00:00.000Z",
+      "date": "2026-01-17T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:59",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
-      "date": "2025-11-15T05:00:00.000Z",
+      "date": "2025-11-15T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:55",
@@ -62,5 +62,5 @@
     "https://www.bkfc.com/fighters/juan-figuerva"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:45:11.928Z"
+  "history_last_verified": "2026-08-06T10:37:18.097Z"
 }

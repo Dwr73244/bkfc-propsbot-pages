@@ -33,7 +33,7 @@
     {
       "event": "BKFC 80",
       "event_slug": "bkfc-hollywood-2",
-      "date": "2025-09-12T04:00:00.000Z",
+      "date": "2025-09-12T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 3,
       "time": "02:00",
@@ -48,5 +48,5 @@
     "https://www.bkfc.com/fighters/justin-williams"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:45:12.360Z"
+  "history_last_verified": "2026-08-06T10:37:22.025Z"
 }

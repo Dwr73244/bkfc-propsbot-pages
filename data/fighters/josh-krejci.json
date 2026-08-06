@@ -30,19 +30,6 @@
   "bio": null,
   "last_5": [
     {
-      "event": "BKFC - Fight Night Uruguay",
-      "event_slug": "bkfc-fight-night-uruguay",
-      "date": "2026-07-25T04:00:00.000Z",
-      "method": "TKO",
-      "round": 1,
-      "time": "01:29",
-      "opponent": "Gaston Reyno",
-      "opponent_slug": "gaston-reyno",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/josh-krejci"
-    },
-    {
       "event": "bkfc-fight-night-uruguay",
       "event_slug": "bkfc-fight-night-uruguay",
       "date": "2026-07-25T00:00:00.000Z",
@@ -54,9 +41,22 @@
       "result": "L"
     },
     {
+      "event": "BKFC - Fight Night Uruguay",
+      "event_slug": "bkfc-fight-night-uruguay",
+      "date": "2026-07-25T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:29",
+      "opponent": "Gaston Reyno",
+      "opponent_slug": "gaston-reyno",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/josh-krejci"
+    },
+    {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha-2",
-      "date": "2025-04-18T04:00:00.000Z",
+      "date": "2025-04-18T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:30",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha",
-      "date": "2024-05-17T04:00:00.000Z",
+      "date": "2024-05-17T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "01:59",
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1457,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:47:30.768Z"
+  "history_last_verified": "2026-08-06T10:37:10.632Z"
 }

@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Kansas City",
       "event_slug": "bkfc-fight-night-kansas-city",
-      "date": "2024-08-16T04:00:00.000Z",
+      "date": "2024-08-16T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:12.609Z"
+  "history_last_verified": "2026-08-06T10:37:25.844Z"
 }

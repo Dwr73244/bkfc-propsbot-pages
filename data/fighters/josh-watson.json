@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-mohegan-sun",
-      "date": "2025-06-14T04:00:00.000Z",
+      "date": "2025-06-14T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:53",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 63",
       "event_slug": "bkfc-63-hart-vs-starling",
-      "date": "2024-08-03T04:00:00.000Z",
+      "date": "2024-08-03T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:42",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 28",
       "event_slug": "bkfc-28-albuquerque",
-      "date": "2022-08-27T04:00:00.000Z",
+      "date": "2022-08-27T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:24",
@@ -82,7 +82,7 @@
     {
       "event": "Fight Night Montana",
       "event_slug": "bkfc-montana",
-      "date": "2021-10-09T04:00:00.000Z",
+      "date": "2021-10-09T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:30",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:11.649Z"
+  "history_last_verified": "2026-08-06T10:37:13.503Z"
 }

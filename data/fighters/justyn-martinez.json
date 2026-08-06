@@ -32,7 +32,7 @@
     {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
-      "date": "2025-11-15T05:00:00.000Z",
+      "date": "2025-11-15T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:58",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 78 -",
       "event_slug": "bkfc-hollywood",
-      "date": "2025-07-12T04:00:00.000Z",
+      "date": "2025-07-12T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:56",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC - Fight Night Albuquerque",
       "event_slug": "bkfc-fight-night-albuquerque",
-      "date": "2025-02-28T05:00:00.000Z",
+      "date": "2025-02-28T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:40",
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1543,
   "elo_peak": 1543,
-  "history_last_verified": "2026-07-31T18:45:12.365Z"
+  "history_last_verified": "2026-08-06T10:37:25.816Z"
 }
