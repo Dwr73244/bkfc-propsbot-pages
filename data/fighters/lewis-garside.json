@@ -5,7 +5,7 @@
   "division": "Bantamweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Fight Night Newcastle",
       "event_slug": "bkfc-fight-night-newcastle-2",
-      "date": "2026-03-14T04:00:00.000Z",
+      "date": "2026-03-14T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 81 - Manchester",
       "event_slug": "bkfc-manchester",
-      "date": "2025-09-27T04:00:00.000Z",
+      "date": "2025-09-27T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:10",
@@ -85,5 +85,5 @@
   "last_updated": "2026-07-31",
   "elo": 1496,
   "elo_peak": 1520,
-  "history_last_verified": "2026-07-31T18:45:13.769Z"
+  "history_last_verified": "2026-08-07T09:04:37.235Z"
 }

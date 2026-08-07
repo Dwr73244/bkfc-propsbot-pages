@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-08-06T13:02:15.562Z",
+  "generated_at": "2026-08-07T09:04:55.579Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -213,14 +213,14 @@
       "fighter_a_slug": "gaz-corran",
       "fighter_b_slug": "mac-bygraves",
       "prediction": {
-        "prob_a": 0.7553,
-        "prob_b": 0.2447,
-        "raw_score": 0.4335,
+        "prob_a": 0.7238,
+        "prob_b": 0.2762,
+        "raw_score": 0.3705,
         "favorite_slug": "gaz-corran",
-        "confidence": "Very Low",
-        "advantage_a": 76,
-        "advantage_b": 24,
-        "predictability": 39,
+        "confidence": "Low",
+        "advantage_a": 72,
+        "advantage_b": 28,
+        "predictability": 47,
         "factors": [
           {
             "name": "Recent Form",
@@ -234,11 +234,11 @@
           {
             "name": "BKFC Record",
             "value_a": "1-0",
-            "value_b": "0-0",
-            "edge_slug": "gaz-corran",
-            "edge_strength": 0.417,
+            "value_b": "3-0",
+            "edge_slug": "mac-bygraves",
+            "edge_strength": 0.333,
             "weight": 0.11,
-            "display": "67% vs 50% win rate"
+            "display": "67% vs 80% win rate"
           },
           {
             "name": "KO Rate",
@@ -278,19 +278,19 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "50%",
+            "value_a": "75%",
             "value_b": "—",
-            "edge_slug": null,
-            "edge_strength": 0,
+            "edge_slug": "gaz-corran",
+            "edge_strength": 0.5,
             "weight": 0.04,
-            "display": "Similar schedule"
+            "display": "Corran tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "1 fights",
-            "value_b": "0 fights",
+            "value_b": "3 fights",
             "edge_slug": null,
-            "edge_strength": 0.125,
+            "edge_strength": 0.25,
             "weight": 0.03,
             "display": "Even"
           },
@@ -304,7 +304,7 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Corran 76/24. Edges on recent form, bkfc record, ko rate, activity.",
+        "summary": "Model leans Corran 72/28. Edges on recent form, ko rate, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [

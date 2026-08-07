@@ -32,7 +32,7 @@
     {
       "event": "BKFC 52",
       "event_slug": "bkfc-52-south-carolina",
-      "date": "2023-10-20T04:00:00.000Z",
+      "date": "2023-10-20T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 33",
       "event_slug": "bkfc-33-omaha-beltran-vs-alexander",
-      "date": "2022-11-18T05:00:00.000Z",
+      "date": "2022-11-18T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:26",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:13.013Z"
+  "history_last_verified": "2026-08-07T09:04:14.344Z"
 }

@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun",
-      "date": "2025-12-20T05:00:00.000Z",
+      "date": "2025-12-20T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-mohegan-sun",
-      "date": "2025-06-14T04:00:00.000Z",
+      "date": "2025-06-14T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC: Mohegan Sun",
       "event_slug": "bkfc-on-dazn-mohegan-sun",
-      "date": "2025-02-01T05:00:00.000Z",
+      "date": "2025-02-01T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:43",
@@ -82,7 +82,7 @@
     {
       "event": "Fight Night New York 2",
       "event_slug": "bkfc-new-york-ii",
-      "date": "2022-03-12T05:00:00.000Z",
+      "date": "2022-03-12T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:22",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:13.425Z"
+  "history_last_verified": "2026-08-07T09:04:26.947Z"
 }

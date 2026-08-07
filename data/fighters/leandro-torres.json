@@ -54,7 +54,7 @@
     {
       "event": "BKFC: Prospects 1 \"Pro\"",
       "event_slug": "bkfc-prospects-1-miami",
-      "date": "2023-08-24T04:00:00.000Z",
+      "date": "2023-08-24T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:29",
@@ -72,5 +72,5 @@
   "last_updated": "2026-07-31",
   "elo": 1503,
   "elo_peak": 1503,
-  "history_last_verified": "2026-07-31T18:47:32.740Z"
+  "history_last_verified": "2026-08-07T09:04:28.666Z"
 }

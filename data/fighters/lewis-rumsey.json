@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Philly",
       "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
-      "date": "2025-07-25T04:00:00.000Z",
+      "date": "2025-07-25T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:29",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 65",
       "event_slug": "bkfc-65-ferea-vs-masson-wong",
-      "date": "2024-09-06T04:00:00.000Z",
+      "date": "2024-09-06T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:36",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 61",
       "event_slug": "bkfc-61-rivera-vs-straus",
-      "date": "2024-05-11T04:00:00.000Z",
+      "date": "2024-05-11T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:21",
@@ -82,7 +82,7 @@
     {
       "event": "Fight Night New York",
       "event_slug": "bkfc-new-york",
-      "date": "2021-11-06T04:00:00.000Z",
+      "date": "2021-11-06T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:41",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:13.875Z"
+  "history_last_verified": "2026-08-07T09:04:47.216Z"
 }

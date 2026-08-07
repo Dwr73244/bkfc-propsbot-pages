@@ -43,7 +43,7 @@
     {
       "event": "BKFC 51",
       "event_slug": "bkfc-51-salem",
-      "date": "2023-09-29T04:00:00.000Z",
+      "date": "2023-09-29T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:43",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:13.379Z"
+  "history_last_verified": "2026-08-07T09:04:25.409Z"
 }

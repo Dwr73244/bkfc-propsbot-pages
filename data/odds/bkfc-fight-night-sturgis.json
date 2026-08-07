@@ -3,13 +3,159 @@
   "event_date": "2026-08-08",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-08-06T12:27:52.263Z",
-  "book_count": 4,
+  "fetched_at": "2026-08-07T07:35:22.354Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "bryant-acheson",
+      "fighter_b_slug": "mike-jones",
+      "moneyline_a": -205,
+      "moneyline_b": 150,
+      "implied_prob_a": 0.672,
+      "implied_prob_b": 0.4,
+      "vig": 0.072,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -205,
+          -205
+        ],
+        "b": [
+          150,
+          150
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "bear-hill",
+      "fighter_b_slug": "brady-meister",
+      "moneyline_a": -152,
+      "moneyline_b": 110,
+      "implied_prob_a": 0.603,
+      "implied_prob_b": 0.476,
+      "vig": 0.079,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -152,
+          -152
+        ],
+        "b": [
+          110,
+          110
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "shyanna-bintliff",
+      "fighter_b_slug": "crystal-pittman",
+      "moneyline_a": -167,
+      "moneyline_b": 120,
+      "implied_prob_a": 0.625,
+      "implied_prob_b": 0.455,
+      "vig": 0.08,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -167,
+          -167
+        ],
+        "b": [
+          120,
+          120
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "art-driscoll",
+      "fighter_b_slug": "justin-walters",
+      "moneyline_a": -177,
+      "moneyline_b": 125,
+      "implied_prob_a": 0.639,
+      "implied_prob_b": 0.444,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -177,
+          -177
+        ],
+        "b": [
+          125,
+          125
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "jason-simon",
+      "fighter_b_slug": "jason-sanderson",
+      "moneyline_a": -210,
+      "moneyline_b": 145,
+      "implied_prob_a": 0.677,
+      "implied_prob_b": 0.408,
+      "vig": 0.086,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -210,
+          -210
+        ],
+        "b": [
+          145,
+          145
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "traevon-kroger",
+      "fighter_b_slug": "kb-dubeau-staby",
+      "moneyline_a": -305,
+      "moneyline_b": 205,
+      "implied_prob_a": 0.753,
+      "implied_prob_b": 0.328,
+      "vig": 0.081,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -305,
+          -305
+        ],
+        "b": [
+          205,
+          205
+        ]
+      }
+    }
+  ]
 }

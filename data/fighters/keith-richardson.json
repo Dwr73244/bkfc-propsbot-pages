@@ -54,7 +54,7 @@
     {
       "event": "BKFC - Fight Night Albuquerque",
       "event_slug": "bkfc-fight-night-albuquerque",
-      "date": "2025-02-28T05:00:00.000Z",
+      "date": "2025-02-28T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:55",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC 69",
       "event_slug": "bkfc-69-richardson-vs-larrimore",
-      "date": "2024-12-06T05:00:00.000Z",
+      "date": "2024-12-06T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:21",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC 62",
       "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T04:00:00.000Z",
+      "date": "2024-06-21T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:10",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1568,
   "elo_peak": 1577,
-  "history_last_verified": "2026-07-31T18:45:12.912Z"
+  "history_last_verified": "2026-08-07T09:04:18.112Z"
 }

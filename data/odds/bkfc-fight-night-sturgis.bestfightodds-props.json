@@ -2,8 +2,51 @@
   "event_slug": "bkfc-fight-night-sturgis",
   "event_date": "2026-08-08",
   "source": "bestfightodds-props",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4294",
-  "fetched_at": "2026-08-02T07:09:00.492Z",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4304",
+  "fetched_at": "2026-08-07T07:35:20.085Z",
   "total_prop_rows": 0,
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "bryant-acheson",
+      "fighter_b_slug": "mike-jones",
+      "matchup_id": "44405",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "bear-hill",
+      "fighter_b_slug": "brady-meister",
+      "matchup_id": "44404",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "shyanna-bintliff",
+      "fighter_b_slug": "crystal-pittman",
+      "matchup_id": "44403",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "art-driscoll",
+      "fighter_b_slug": "justin-walters",
+      "matchup_id": "44401",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "jason-simon",
+      "fighter_b_slug": "jason-sanderson",
+      "matchup_id": "44400",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "traevon-kroger",
+      "fighter_b_slug": "kb-dubeau-staby",
+      "matchup_id": "44402",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
 }

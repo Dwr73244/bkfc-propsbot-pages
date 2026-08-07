@@ -32,7 +32,7 @@
     {
       "event": "BKFC 75",
       "event_slug": "bkfc-75-albuquerque-mundell-vs-sanchez",
-      "date": "2025-06-06T04:00:00.000Z",
+      "date": "2025-06-06T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 65",
       "event_slug": "bkfc-65-ferea-vs-masson-wong",
-      "date": "2024-09-06T04:00:00.000Z",
+      "date": "2024-09-06T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:29",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC 48",
       "event_slug": "bkfc-48-albuquerque",
-      "date": "2023-08-11T04:00:00.000Z",
+      "date": "2023-08-11T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:55",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1459,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:13.254Z"
+  "history_last_verified": "2026-08-07T09:04:28.502Z"
 }

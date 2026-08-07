@@ -43,7 +43,7 @@
     {
       "event": "BKFC 23",
       "event_slug": "bkfc-23-richman-vs-rickels",
-      "date": "2022-04-09T04:00:00.000Z",
+      "date": "2022-04-09T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:14",
@@ -56,7 +56,7 @@
     {
       "event": "Fight Night Wichita",
       "event_slug": "bkfc-wichita",
-      "date": "2021-10-23T04:00:00.000Z",
+      "date": "2021-10-23T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:23",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 13",
       "event_slug": "bkfc-13-beltran-vs-stamps",
-      "date": "2020-10-10T04:00:00.000Z",
+      "date": "2020-10-10T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:51",
@@ -87,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:13.960Z"
+  "history_last_verified": "2026-08-07T09:04:47.123Z"
 }

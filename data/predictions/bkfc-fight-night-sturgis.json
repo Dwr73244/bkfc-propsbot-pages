@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-sturgis",
-  "generated_at": "2026-08-06T13:02:15.567Z",
+  "generated_at": "2026-08-07T09:04:55.584Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "bryant-acheson",
       "fighter_b_slug": "mike-jones",
       "prediction": {
-        "prob_a": 0.5708,
-        "prob_b": 0.4292,
+        "prob_a": 0.596,
+        "prob_b": 0.404,
         "raw_score": 0.1096,
         "favorite_slug": "bryant-acheson",
         "confidence": "Low",
-        "advantage_a": 57,
-        "advantage_b": 43,
-        "predictability": 38,
+        "advantage_a": 60,
+        "advantage_b": 40,
+        "predictability": 39,
         "factors": [
           {
             "name": "BKFC Record",
@@ -55,8 +55,8 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Acheson 57/43. Edges on bkfc record, reach.",
-        "market_adjusted": false
+        "summary": "Model leans Acheson 60/40. Edges on bkfc record, reach.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -95,21 +95,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.5960030868166626,
+        "model_prob_b": 0.4039969131833374,
+        "market_fair_prob_a": 0.6268656716417911,
+        "market_fair_prob_b": 0.373134328358209,
+        "edge_pct_a": -0.030862584825128492,
+        "edge_pct_b": 0.030862584825128436,
+        "edge_slug": "mike-jones",
+        "edge_pct": 0.030862584825128492
+      }
     },
     {
       "order": 2,
       "fighter_a_slug": "bear-hill",
       "fighter_b_slug": "brady-meister",
       "prediction": {
-        "prob_a": 0.631,
-        "prob_b": 0.369,
+        "prob_a": 0.5985,
+        "prob_b": 0.4015,
         "raw_score": 0.2064,
         "favorite_slug": "bear-hill",
         "confidence": "Low",
-        "advantage_a": 63,
-        "advantage_b": 37,
-        "predictability": 41,
+        "advantage_a": 60,
+        "advantage_b": 40,
+        "predictability": 39,
         "factors": [
           {
             "name": "Recent Form",
@@ -193,8 +202,8 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Hill 63/37. Edges on recent form, bkfc record, ko rate, activity.",
-        "market_adjusted": false
+        "summary": "Model leans Hill 60/40. Edges on recent form, bkfc record, ko rate, activity.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -233,21 +242,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.5985344314570602,
+        "model_prob_b": 0.4014655685429398,
+        "market_fair_prob_a": 0.5588507877664505,
+        "market_fair_prob_b": 0.4411492122335496,
+        "edge_pct_a": 0.03968364369060973,
+        "edge_pct_b": -0.03968364369060978,
+        "edge_slug": "bear-hill",
+        "edge_pct": 0.03968364369060973
+      }
     },
     {
       "order": 3,
       "fighter_a_slug": "shyanna-bintliff",
       "fighter_b_slug": "crystal-pittman",
       "prediction": {
-        "prob_a": 0.4921,
-        "prob_b": 0.5079,
+        "prob_a": 0.5311,
+        "prob_b": 0.4689,
         "raw_score": -0.0122,
-        "favorite_slug": "crystal-pittman",
+        "favorite_slug": "shyanna-bintliff",
         "confidence": "Low",
-        "advantage_a": 49,
-        "advantage_b": 51,
-        "predictability": 27,
+        "advantage_a": 53,
+        "advantage_b": 47,
+        "predictability": 35,
         "factors": [
           {
             "name": "Recent Form",
@@ -331,8 +349,8 @@
             "display": "+5 fights Pittman"
           }
         ],
-        "summary": "Model leans Pittman 51/49. Edges on recent form, bkfc experience.",
-        "market_adjusted": false
+        "summary": "Model leans Bintliff 53/47. Edges on age, reach, activity, opponent quality.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -371,7 +389,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.531062040015792,
+        "model_prob_b": 0.46893795998420795,
+        "market_fair_prob_a": 0.5787037037037037,
+        "market_fair_prob_b": 0.4212962962962963,
+        "edge_pct_a": -0.04764166368791167,
+        "edge_pct_b": 0.04764166368791167,
+        "edge_slug": "crystal-pittman",
+        "edge_pct": 0.04764166368791167
+      }
     },
     {
       "order": 4,
@@ -747,14 +774,14 @@
       "fighter_a_slug": "art-driscoll",
       "fighter_b_slug": "justin-walters",
       "prediction": {
-        "prob_a": 0.4126,
-        "prob_b": 0.5874,
+        "prob_a": 0.4924,
+        "prob_b": 0.5076,
         "raw_score": -0.1359,
         "favorite_slug": "justin-walters",
         "confidence": "Low",
-        "advantage_a": 41,
-        "advantage_b": 59,
-        "predictability": 39,
+        "advantage_a": 49,
+        "advantage_b": 51,
+        "predictability": 34,
         "factors": [
           {
             "name": "ELO Rating",
@@ -829,8 +856,8 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Walters 59/41. Edges on activity, opponent quality.",
-        "market_adjusted": false
+        "summary": "Model leans Walters 51/49. Edges on activity, opponent quality.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -869,21 +896,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.492420185708433,
+        "model_prob_b": 0.5075798142915671,
+        "market_fair_prob_a": 0.590027700831025,
+        "market_fair_prob_b": 0.4099722991689751,
+        "edge_pct_a": -0.09760751512259197,
+        "edge_pct_b": 0.09760751512259197,
+        "edge_slug": "justin-walters",
+        "edge_pct": 0.09760751512259197
+      }
     },
     {
       "order": 8,
       "fighter_a_slug": "jason-simon",
       "fighter_b_slug": "jason-sanderson",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.5558,
+        "prob_b": 0.4442,
         "raw_score": 0,
-        "favorite_slug": "jason-sanderson",
+        "favorite_slug": "jason-simon",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 56,
+        "advantage_b": 44,
+        "predictability": 21,
         "factors": [
           {
             "name": "BKFC Record",
@@ -905,7 +941,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -944,21 +980,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.555783410138249,
+        "model_prob_b": 0.44421658986175105,
+        "market_fair_prob_a": 0.6239631336405531,
+        "market_fair_prob_b": 0.376036866359447,
+        "edge_pct_a": -0.06817972350230417,
+        "edge_pct_b": 0.06817972350230406,
+        "edge_slug": "jason-sanderson",
+        "edge_pct": 0.06817972350230417
+      }
     },
     {
       "order": 9,
       "fighter_a_slug": "traevon-kroger",
       "fighter_b_slug": "kb-dubeau-staby",
       "prediction": {
-        "prob_a": 0.7542,
-        "prob_b": 0.2458,
+        "prob_a": 0.7282,
+        "prob_b": 0.2718,
         "raw_score": 0.4311,
         "favorite_slug": "traevon-kroger",
         "confidence": "Very Low",
-        "advantage_a": 75,
-        "advantage_b": 25,
-        "predictability": 43,
+        "advantage_a": 73,
+        "advantage_b": 27,
+        "predictability": 41,
         "factors": [
           {
             "name": "BKFC Record",
@@ -979,8 +1024,8 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Kroger 75/25. Edges on bkfc record.",
-        "market_adjusted": false
+        "summary": "Model leans Kroger 73/27. Edges on bkfc record.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -1019,7 +1064,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.728243753884707,
+        "model_prob_b": 0.27175624611529303,
+        "market_fair_prob_a": 0.696577243293247,
+        "market_fair_prob_b": 0.303422756706753,
+        "edge_pct_a": 0.03166651059145997,
+        "edge_pct_b": -0.03166651059145997,
+        "edge_slug": "traevon-kroger",
+        "edge_pct": 0.03166651059145997
+      }
     },
     {
       "order": 10,

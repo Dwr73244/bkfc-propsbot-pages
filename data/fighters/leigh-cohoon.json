@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Fight Night Derby",
       "event_slug": "bkfc-fight-night-derby",
-      "date": "2025-12-13T05:00:00.000Z",
+      "date": "2025-12-13T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "01:39",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC: Manchester",
       "event_slug": "bkfc-fight-night-manchester",
-      "date": "2025-03-29T04:00:00.000Z",
+      "date": "2025-03-29T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:53",
@@ -96,5 +96,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1543,
-  "history_last_verified": "2026-07-31T18:45:13.547Z"
+  "history_last_verified": "2026-08-07T09:04:34.963Z"
 }

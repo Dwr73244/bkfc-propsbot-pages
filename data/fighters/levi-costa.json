@@ -33,7 +33,7 @@
     {
       "event": "BKFC 89",
       "event_slug": "bkfc-palm-desert",
-      "date": "2026-05-22T04:00:00.000Z",
+      "date": "2026-05-22T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:38",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC on DAZN - Hollywood",
       "event_slug": "bkfc-on-dazn-hollywood",
-      "date": "2024-12-21T05:00:00.000Z",
+      "date": "2024-12-21T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:47",
@@ -59,7 +59,7 @@
     {
       "event": "BKFC 31",
       "event_slug": "bkfc-31-denver-richman-vs-doolittle",
-      "date": "2022-10-15T04:00:00.000Z",
+      "date": "2022-10-15T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "02:00",
@@ -72,7 +72,7 @@
     {
       "event": "BKFC 25",
       "event_slug": "bkfc-25-adams-vs-cleckler",
-      "date": "2022-05-06T04:00:00.000Z",
+      "date": "2022-05-06T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:35",
@@ -88,5 +88,5 @@
     "https://www.bkfc.com/fighters/levi-costa"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:32.938Z"
+  "history_last_verified": "2026-08-07T09:04:38.498Z"
 }

@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Fight Night Pechanga",
       "event_slug": "bkfc-fight-night-pechanga",
-      "date": "2024-07-12T04:00:00.000Z",
+      "date": "2024-07-12T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:11",
@@ -56,7 +56,7 @@
     {
       "event": "Fight Night Montana",
       "event_slug": "bkfc-montana",
-      "date": "2021-10-09T04:00:00.000Z",
+      "date": "2021-10-09T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:26",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1477,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:14.224Z"
+  "history_last_verified": "2026-08-07T09:04:53.446Z"
 }

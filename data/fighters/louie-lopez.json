@@ -43,7 +43,7 @@
     {
       "event": "BKFC on DAZN - Montana",
       "event_slug": "bkfc-on-dazn-montana",
-      "date": "2024-11-09T05:00:00.000Z",
+      "date": "2024-11-09T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC 61",
       "event_slug": "bkfc-61-rivera-vs-straus",
-      "date": "2024-05-11T04:00:00.000Z",
+      "date": "2024-05-11T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:02",
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1421,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:14.128Z"
+  "history_last_verified": "2026-08-07T09:04:49.535Z"
 }

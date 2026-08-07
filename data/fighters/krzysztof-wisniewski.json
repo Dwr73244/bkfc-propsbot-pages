@@ -44,7 +44,7 @@
     {
       "event": "BKFC 83",
       "event_slug": "bkfc-rome",
-      "date": "2025-10-25T04:00:00.000Z",
+      "date": "2025-10-25T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC 77",
       "event_slug": "bkfc-birmingham",
-      "date": "2025-06-28T04:00:00.000Z",
+      "date": "2025-06-28T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:49",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1474,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:13.209Z"
+  "history_last_verified": "2026-08-07T09:04:21.178Z"
 }

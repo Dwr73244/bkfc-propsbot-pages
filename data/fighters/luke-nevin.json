@@ -32,7 +32,7 @@
     {
       "event": "BKFC 64",
       "event_slug": "bkfc-64-coventry-tierney-vs-graham",
-      "date": "2024-08-10T04:00:00.000Z",
+      "date": "2024-08-10T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 55 - Leeds",
       "event_slug": "bkfc-55-leeds",
-      "date": "2023-11-18T05:00:00.000Z",
+      "date": "2023-11-18T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:14.316Z"
+  "history_last_verified": "2026-08-07T09:04:51.336Z"
 }
