@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-hammond",
-      "date": "2025-10-18T04:00:00.000Z",
+      "date": "2025-10-18T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
-      "date": "2025-08-02T04:00:00.000Z",
+      "date": "2025-08-02T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:11",
@@ -62,5 +62,5 @@
     "https://www.bkfc.com/fighters/marisol-ruelas"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:45:14.572Z"
+  "history_last_verified": "2026-08-08T08:39:06.313Z"
 }

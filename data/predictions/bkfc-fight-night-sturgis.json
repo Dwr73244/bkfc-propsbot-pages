@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-sturgis",
-  "generated_at": "2026-08-07T11:54:21.831Z",
+  "generated_at": "2026-08-08T08:39:40.459Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "bryant-acheson",
       "fighter_b_slug": "mike-jones",
       "prediction": {
-        "prob_a": 0.596,
-        "prob_b": 0.404,
+        "prob_a": 0.588,
+        "prob_b": 0.412,
         "raw_score": 0.1096,
         "favorite_slug": "bryant-acheson",
         "confidence": "Low",
-        "advantage_a": 60,
-        "advantage_b": 40,
+        "advantage_a": 59,
+        "advantage_b": 41,
         "predictability": 39,
         "factors": [
           {
@@ -55,7 +55,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Acheson 60/40. Edges on bkfc record, reach.",
+        "summary": "Model leans Acheson 59/41. Edges on bkfc record, reach.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -96,14 +96,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5960030868166626,
-        "model_prob_b": 0.4039969131833374,
-        "market_fair_prob_a": 0.6268656716417911,
-        "market_fair_prob_b": 0.373134328358209,
-        "edge_pct_a": -0.030862584825128492,
-        "edge_pct_b": 0.030862584825128436,
+        "model_prob_a": 0.5880466179892906,
+        "model_prob_b": 0.4119533820107094,
+        "market_fair_prob_a": 0.6091846298031866,
+        "market_fair_prob_b": 0.3908153701968135,
+        "edge_pct_a": -0.021138011813895963,
+        "edge_pct_b": 0.021138011813895907,
         "edge_slug": "mike-jones",
-        "edge_pct": 0.030862584825128492
+        "edge_pct": 0.021138011813895963
       }
     },
     {
@@ -111,14 +111,14 @@
       "fighter_a_slug": "bear-hill",
       "fighter_b_slug": "brady-meister",
       "prediction": {
-        "prob_a": 0.5985,
-        "prob_b": 0.4015,
+        "prob_a": 0.6252,
+        "prob_b": 0.3748,
         "raw_score": 0.2064,
         "favorite_slug": "bear-hill",
         "confidence": "Low",
-        "advantage_a": 60,
-        "advantage_b": 40,
-        "predictability": 39,
+        "advantage_a": 63,
+        "advantage_b": 37,
+        "predictability": 41,
         "factors": [
           {
             "name": "Recent Form",
@@ -202,7 +202,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Hill 60/40. Edges on recent form, bkfc record, ko rate, activity.",
+        "summary": "Model leans Hill 63/37. Edges on recent form, bkfc record, ko rate, activity.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -243,14 +243,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5985344314570602,
-        "model_prob_b": 0.4014655685429398,
-        "market_fair_prob_a": 0.5588507877664505,
-        "market_fair_prob_b": 0.4411492122335496,
-        "edge_pct_a": 0.03968364369060973,
-        "edge_pct_b": -0.03968364369060978,
+        "model_prob_a": 0.6252258123653087,
+        "model_prob_b": 0.3747741876346913,
+        "market_fair_prob_a": 0.618164967562558,
+        "market_fair_prob_b": 0.38183503243744205,
+        "edge_pct_a": 0.00706084480275071,
+        "edge_pct_b": -0.007060844802750765,
         "edge_slug": "bear-hill",
-        "edge_pct": 0.03968364369060973
+        "edge_pct": 0.00706084480275071
       }
     },
     {
@@ -258,14 +258,14 @@
       "fighter_a_slug": "shyanna-bintliff",
       "fighter_b_slug": "crystal-pittman",
       "prediction": {
-        "prob_a": 0.5311,
-        "prob_b": 0.4689,
+        "prob_a": 0.5362,
+        "prob_b": 0.4638,
         "raw_score": -0.0122,
         "favorite_slug": "shyanna-bintliff",
         "confidence": "Low",
-        "advantage_a": 53,
-        "advantage_b": 47,
-        "predictability": 35,
+        "advantage_a": 54,
+        "advantage_b": 46,
+        "predictability": 36,
         "factors": [
           {
             "name": "Recent Form",
@@ -349,7 +349,7 @@
             "display": "+5 fights Pittman"
           }
         ],
-        "summary": "Model leans Bintliff 53/47. Edges on age, reach, activity, opponent quality.",
+        "summary": "Model leans Bintliff 54/46. Edges on age, reach, activity, opponent quality.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -390,14 +390,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.531062040015792,
-        "model_prob_b": 0.46893795998420795,
-        "market_fair_prob_a": 0.5787037037037037,
-        "market_fair_prob_b": 0.4212962962962963,
-        "edge_pct_a": -0.04764166368791167,
-        "edge_pct_b": 0.04764166368791167,
+        "model_prob_a": 0.5361578387230865,
+        "model_prob_b": 0.46384216127691347,
+        "market_fair_prob_a": 0.590027700831025,
+        "market_fair_prob_b": 0.4099722991689751,
+        "edge_pct_a": -0.05386986210793843,
+        "edge_pct_b": 0.05386986210793837,
         "edge_slug": "crystal-pittman",
-        "edge_pct": 0.04764166368791167
+        "edge_pct": 0.05386986210793843
       }
     },
     {
@@ -546,7 +546,7 @@
           {
             "name": "Activity",
             "value_a": "1.5y ago",
-            "value_b": "3mo ago",
+            "value_b": "4mo ago",
             "edge_slug": "joshua-oxendine",
             "edge_strength": 1,
             "weight": 0.05,
@@ -821,8 +821,8 @@
           },
           {
             "name": "Activity",
-            "value_a": "1.5y ago",
-            "value_b": "3mo ago",
+            "value_a": "1.6y ago",
+            "value_b": "4mo ago",
             "edge_slug": "justin-walters",
             "edge_strength": 1,
             "weight": 0.05,

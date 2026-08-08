@@ -32,7 +32,7 @@
     {
       "event": "BKFC 62",
       "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T04:00:00.000Z",
+      "date": "2024-06-21T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:03",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC: Prospects 1 \"Pro\"",
       "event_slug": "bkfc-prospects-1-miami",
-      "date": "2023-08-24T04:00:00.000Z",
+      "date": "2023-08-24T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:22",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:14.676Z"
+  "history_last_verified": "2026-08-08T08:39:06.906Z"
 }

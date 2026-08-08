@@ -32,7 +32,7 @@
     {
       "event": "BKFC 44",
       "event_slug": "bkfc-44-montana",
-      "date": "2023-06-09T04:00:00.000Z",
+      "date": "2023-06-09T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:59",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:14.681Z"
+  "history_last_verified": "2026-08-08T08:39:06.981Z"
 }

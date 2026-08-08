@@ -43,7 +43,7 @@
     {
       "event": "BKFC 22",
       "event_slug": "bkfc-22-lombard-vs-hunt",
-      "date": "2021-11-12T05:00:00.000Z",
+      "date": "2021-11-12T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:14.484Z"
+  "history_last_verified": "2026-08-08T08:38:59.651Z"
 }

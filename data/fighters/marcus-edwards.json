@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha-2",
-      "date": "2025-04-18T04:00:00.000Z",
+      "date": "2025-04-18T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:08",
@@ -45,7 +45,7 @@
     {
       "event": "BKFCF 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
-      "date": "2024-10-25T04:00:00.000Z",
+      "date": "2024-10-25T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 50",
       "event_slug": "bkfc-50-denver",
-      "date": "2023-09-22T04:00:00.000Z",
+      "date": "2023-09-22T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -87,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1523,
   "elo_peak": 1523,
-  "history_last_verified": "2026-07-31T18:45:14.506Z"
+  "history_last_verified": "2026-08-08T08:39:02.539Z"
 }

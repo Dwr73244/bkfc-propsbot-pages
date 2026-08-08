@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Edmonton",
       "event_slug": "bkfc-edmonton",
-      "date": "2025-08-09T04:00:00.000Z",
+      "date": "2025-08-09T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC - Prospects Edmonton",
       "event_slug": "bkfc-prospects-edmonton",
-      "date": "2024-08-31T04:00:00.000Z",
+      "date": "2024-08-31T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:50",
@@ -86,5 +86,5 @@
   "last_updated": "2026-07-31",
   "elo": 1502,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:14.959Z"
+  "history_last_verified": "2026-08-08T08:39:16.292Z"
 }

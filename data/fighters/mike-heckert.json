@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
-      "date": "2026-04-24T04:00:00.000Z",
+      "date": "2026-04-24T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:18",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC - Clearwater",
       "event_slug": "bkfc-fight-night-clearwater",
-      "date": "2024-04-12T04:00:00.000Z",
+      "date": "2024-04-12T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC 53",
       "event_slug": "bkfc-53-orlando",
-      "date": "2023-11-03T04:00:00.000Z",
+      "date": "2023-11-03T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:53",
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1541,
   "elo_peak": 1541,
-  "history_last_verified": "2026-07-31T18:47:34.450Z"
+  "history_last_verified": "2026-08-08T08:39:25.308Z"
 }

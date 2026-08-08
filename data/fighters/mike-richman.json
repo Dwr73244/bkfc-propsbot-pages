@@ -32,7 +32,7 @@
     {
       "event": "BKFC Liberty Brawl",
       "event_slug": "bkfc-liberty-brawl",
-      "date": "2026-07-03T04:00:00.000Z",
+      "date": "2026-07-03T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "Majority Decision",
       "round": 5,
       "time": "02:00",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 74 - Salt Lake City",
       "event_slug": "bkfc-74-salt-lake-city",
-      "date": "2025-05-10T04:00:00.000Z",
+      "date": "2025-05-10T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "00:58",
@@ -71,7 +71,7 @@
     {
       "event": "BKFC on DAZN - Hollywood",
       "event_slug": "bkfc-on-dazn-hollywood",
-      "date": "2024-12-21T05:00:00.000Z",
+      "date": "2024-12-21T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:44",
@@ -101,5 +101,5 @@
   "last_updated": "2026-07-31",
   "elo": 1499,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:47:34.511Z"
+  "history_last_verified": "2026-08-08T08:39:37.390Z"
 }

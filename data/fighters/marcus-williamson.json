@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Fight Night Miami",
       "event_slug": "bkfc-fight-night-miami",
-      "date": "2024-03-15T04:00:00.000Z",
+      "date": "2024-03-15T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:28",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:14.576Z"
+  "history_last_verified": "2026-08-08T08:39:02.080Z"
 }

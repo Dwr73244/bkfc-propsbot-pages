@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1780419241/o/MIKE_JONES_SMALL_AVATAR_400x400.png?1780419241",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785812855/o/MIKE_JONES_SMALL_AVATAR_400x400.png?1785812855",
   "social": {
     "instagram": "https://www.instagram.com/MIKEJONES170",
     "twitter": null,
@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Hollywood",
       "event_slug": "bkfc-fight-night-hollywood",
-      "date": "2026-06-04T04:00:00.000Z",
+      "date": "2026-06-04T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:56",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 74 - Salt Lake City",
       "event_slug": "bkfc-74-salt-lake-city",
-      "date": "2025-05-10T04:00:00.000Z",
+      "date": "2025-05-10T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:20",
@@ -59,7 +59,7 @@
     {
       "event": "BKFC 65",
       "event_slug": "bkfc-65-ferea-vs-masson-wong",
-      "date": "2024-09-06T04:00:00.000Z",
+      "date": "2024-09-06T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -72,7 +72,7 @@
     {
       "event": "BKFC 56",
       "event_slug": "bkfc-56-utah",
-      "date": "2023-12-02T05:00:00.000Z",
+      "date": "2023-12-02T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "00:51",
@@ -86,6 +86,6 @@
   "sources": [
     "https://www.bkfc.com/fighters/mike-jones"
   ],
-  "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:34.507Z"
+  "last_updated": "2026-08-08",
+  "history_last_verified": "2026-08-08T08:39:29.324Z"
 }

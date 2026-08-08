@@ -5,7 +5,7 @@
   "nickname": "Hurricane",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Michigan",
+      "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
+      "date": "2025-11-01T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:15",
+      "opponent": "Antonio Castillo Jr",
+      "opponent_slug": "antonio-castillo-jr",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/michael-hernandez"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/michael-hernandez"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-08-08T08:39:18.713Z"
 }

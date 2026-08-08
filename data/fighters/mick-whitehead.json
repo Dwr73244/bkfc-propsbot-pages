@@ -44,7 +44,7 @@
     {
       "event": "BKFC - Fight Night Australia",
       "event_slug": "bkfc-australia-2",
-      "date": "2026-04-18T04:00:00.000Z",
+      "date": "2026-04-18T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:51",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:15.156Z"
+  "history_last_verified": "2026-08-08T08:39:20.189Z"
 }

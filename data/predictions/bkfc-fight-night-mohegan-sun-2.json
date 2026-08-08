@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-mohegan-sun-2",
-  "generated_at": "2026-08-07T11:54:21.829Z",
+  "generated_at": "2026-08-08T08:39:40.457Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1173,35 +1173,35 @@
       "fighter_a_slug": "kris-moutinho",
       "fighter_b_slug": "michael-hernandez",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
+        "prob_a": 0.3214,
+        "prob_b": 0.6786,
+        "raw_score": -0.2874,
         "favorite_slug": "michael-hernandez",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 32,
+        "advantage_b": 68,
+        "predictability": 38,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_b": "1-0",
+            "edge_slug": "michael-hernandez",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 67% win rate"
           },
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Hernandez 68/32. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [

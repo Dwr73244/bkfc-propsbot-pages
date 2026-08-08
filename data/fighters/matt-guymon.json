@@ -44,7 +44,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
-      "date": "2026-04-24T04:00:00.000Z",
+      "date": "2026-04-24T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:59",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC 86",
       "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
-      "date": "2026-01-17T05:00:00.000Z",
+      "date": "2026-01-17T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -70,7 +70,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-fight-night-clearwater-ec210",
-      "date": "2025-05-02T04:00:00.000Z",
+      "date": "2025-05-02T00:00:00.000Z",
       "method": "Majority Decision",
       "round": 5,
       "time": "02:00",
@@ -83,7 +83,7 @@
     {
       "event": "BKFC - Fight Night Kansas City",
       "event_slug": "bkfc-fight-night-kansas-city",
-      "date": "2024-08-16T04:00:00.000Z",
+      "date": "2024-08-16T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1479,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:47:34.037Z"
+  "history_last_verified": "2026-08-08T08:39:15.124Z"
 }

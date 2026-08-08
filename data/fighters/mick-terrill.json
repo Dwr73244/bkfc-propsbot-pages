@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Newcastle",
       "event_slug": "bkfc-fight-night-newcastle-2",
-      "date": "2026-03-14T04:00:00.000Z",
+      "date": "2026-03-14T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:53",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC 56",
       "event_slug": "bkfc-56-utah",
-      "date": "2023-12-02T05:00:00.000Z",
+      "date": "2023-12-02T00:00:00.000Z",
       "method": "KO",
       "round": 4,
       "time": "00:47",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC - Newcastle",
       "event_slug": "bkfc-newcastle-terrill-vs-banks",
-      "date": "2022-11-26T05:00:00.000Z",
+      "date": "2022-11-26T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1503,
   "elo_peak": 1528,
-  "history_last_verified": "2026-07-31T18:45:15.144Z"
+  "history_last_verified": "2026-08-08T08:39:28.642Z"
 }
