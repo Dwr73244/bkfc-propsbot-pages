@@ -145,11 +145,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 13,
+      "card_position": "Prelim",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "traevon-kroger",
+      "fighter_b_slug": "kb-dubeau",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-sturgis"
   ],
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-08",
   "needs_card_population": false
 }
