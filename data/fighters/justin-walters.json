@@ -4,10 +4,10 @@
   "nickname": "Sexy",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 2,
     "draws": 0,
-    "kos": null
+    "kos": 1
   },
   "mma_record": null,
   "height_in": 70,
@@ -71,6 +71,6 @@
   "elo": 1482,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-08-06",
+  "record_verified": "2026-08-09",
   "history_last_verified": "2026-08-06T10:37:19.466Z"
 }
