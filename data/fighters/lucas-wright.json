@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-sturgis",
+      "event_slug": "bkfc-fight-night-sturgis",
+      "date": "2026-08-08T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "bryan-mcdowell",
+      "opponent_slug": "bryan-mcdowell",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/lucas-wright"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "elo": 1518,
+  "elo_peak": 1518
 }

@@ -43,7 +43,7 @@
     {
       "event": "BKFC 41",
       "event_slug": "bkfc-41-colorado",
-      "date": "2023-04-29T04:00:00.000Z",
+      "date": "2023-04-29T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:23",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:15.461Z"
+  "history_last_verified": "2026-08-09T08:47:07.149Z"
 }

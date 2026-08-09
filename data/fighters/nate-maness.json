@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-hammond",
-      "date": "2025-10-18T04:00:00.000Z",
+      "date": "2025-10-18T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:45",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 69",
       "event_slug": "bkfc-69-richardson-vs-larrimore",
-      "date": "2024-12-06T05:00:00.000Z",
+      "date": "2024-12-06T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:59",
@@ -63,5 +63,5 @@
     "https://en.wikipedia.org/wiki/Nate_Maness"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:45:15.764Z"
+  "history_last_verified": "2026-08-09T08:47:17.274Z"
 }

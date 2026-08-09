@@ -3,7 +3,7 @@
   "event_date": "2026-08-08",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-08-08T11:35:47.817Z",
+  "fetched_at": "2026-08-09T07:35:39.672Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -40,11 +40,11 @@
     {
       "fighter_a_slug": "bear-hill",
       "fighter_b_slug": "brady-meister",
-      "moneyline_a": -200,
-      "moneyline_b": 143,
-      "implied_prob_a": 0.667,
-      "implied_prob_b": 0.412,
-      "vig": 0.078,
+      "moneyline_a": -225,
+      "moneyline_b": 155,
+      "implied_prob_a": 0.692,
+      "implied_prob_b": 0.392,
+      "vig": 0.084,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -52,12 +52,12 @@
       ],
       "line_range": {
         "a": [
-          -200,
-          -200
+          -225,
+          -225
         ],
         "b": [
-          143,
-          143
+          155,
+          155
         ]
       }
     },
@@ -112,11 +112,11 @@
     {
       "fighter_a_slug": "jason-simon",
       "fighter_b_slug": "jason-sanderson",
-      "moneyline_a": -210,
-      "moneyline_b": 145,
-      "implied_prob_a": 0.677,
-      "implied_prob_b": 0.408,
-      "vig": 0.086,
+      "moneyline_a": -265,
+      "moneyline_b": 185,
+      "implied_prob_a": 0.726,
+      "implied_prob_b": 0.351,
+      "vig": 0.077,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -124,23 +124,23 @@
       ],
       "line_range": {
         "a": [
-          -210,
-          -210
+          -265,
+          -265
         ],
         "b": [
-          145,
-          145
+          185,
+          185
         ]
       }
     },
     {
       "fighter_a_slug": "traevon-kroger",
       "fighter_b_slug": "kb-dubeau-staby",
-      "moneyline_a": -305,
-      "moneyline_b": 205,
-      "implied_prob_a": 0.753,
-      "implied_prob_b": 0.328,
-      "vig": 0.081,
+      "moneyline_a": -420,
+      "moneyline_b": 270,
+      "implied_prob_a": 0.808,
+      "implied_prob_b": 0.27,
+      "vig": 0.078,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -148,12 +148,12 @@
       ],
       "line_range": {
         "a": [
-          -305,
-          -305
+          -420,
+          -420
         ],
         "b": [
-          205,
-          205
+          270,
+          270
         ]
       }
     }

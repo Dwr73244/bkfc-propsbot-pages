@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1783620725/o/MIKEY_NOLAN_AVATAR_400x533.png?1783620725",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1783620714/o/MIKEY_NOLAN_SMALL_AVATAR_400x400.png?1783620714",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -40,14 +40,28 @@
       "opponent": "john-ferguson",
       "opponent_slug": "john-ferguson",
       "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Mikey Nolan",
+      "opponent_slug": "mikey-nolan",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mikey-nolan"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/mikey-nolan"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-08-09",
   "elo": 1518,
   "elo_peak": 1518,
   "record_source": "tracked-events",
-  "record_verified": "2026-08-02"
+  "record_verified": "2026-08-02",
+  "history_last_verified": "2026-08-09T08:47:04.681Z"
 }

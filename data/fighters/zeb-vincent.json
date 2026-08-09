@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-sturgis",
+      "event_slug": "bkfc-fight-night-sturgis",
+      "date": "2026-08-08T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:53",
+      "opponent": "alonzo-martinez",
+      "opponent_slug": "alonzo-martinez",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun-porter-vs-watson",
       "date": "2026-03-28T00:00:00.000Z",
@@ -81,24 +92,13 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/zeb-vincent"
-    },
-    {
-      "event": "BKFC - Prospects Denver",
-      "event_slug": "bkfc-fight-night-prospects-denver",
-      "date": "2024-05-31T00:00:00.000Z",
-      "method": "TKO",
-      "round": 3,
-      "time": "02:00",
-      "opponent": "Casey Moses",
-      "opponent_slug": "casey-moses",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/zeb-vincent"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/zeb-vincent"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-01T10:04:25.718Z"
+  "history_last_verified": "2026-08-01T10:04:25.718Z",
+  "elo": 1479,
+  "elo_peak": 1500
 }

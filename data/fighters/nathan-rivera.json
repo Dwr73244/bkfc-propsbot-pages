@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Nashville",
       "event_slug": "bkfc-nashville",
-      "date": "2026-06-19T04:00:00.000Z",
+      "date": "2026-06-19T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 6,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Fight Night Michigan",
       "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
-      "date": "2025-11-01T04:00:00.000Z",
+      "date": "2025-11-01T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:34",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-fight-night-clearwater-ec210",
-      "date": "2025-05-02T04:00:00.000Z",
+      "date": "2025-05-02T00:00:00.000Z",
       "method": "KO",
       "round": 4,
       "time": "01:00",
@@ -71,7 +71,7 @@
     {
       "event": "BKFC 69",
       "event_slug": "bkfc-69-richardson-vs-larrimore",
-      "date": "2024-12-06T05:00:00.000Z",
+      "date": "2024-12-06T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:47:35.017Z"
+  "history_last_verified": "2026-08-09T08:47:22.037Z"
 }

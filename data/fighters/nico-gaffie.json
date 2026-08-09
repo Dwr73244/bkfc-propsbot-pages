@@ -32,7 +32,7 @@
     {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
-      "date": "2026-03-20T04:00:00.000Z",
+      "date": "2026-03-20T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 83",
       "event_slug": "bkfc-rome",
-      "date": "2025-10-25T04:00:00.000Z",
+      "date": "2025-10-25T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:13",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC - Spain",
       "event_slug": "bkfc-on-dazn-spain",
-      "date": "2024-10-12T04:00:00.000Z",
+      "date": "2024-10-12T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:04",
@@ -87,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1523,
   "elo_peak": 1523,
-  "history_last_verified": "2026-07-31T18:45:15.914Z"
+  "history_last_verified": "2026-08-09T08:47:24.590Z"
 }

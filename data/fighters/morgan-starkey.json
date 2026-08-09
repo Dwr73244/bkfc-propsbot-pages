@@ -32,7 +32,7 @@
     {
       "event": "BKFC: Prospects 2",
       "event_slug": "bkfc-prospect-series-2",
-      "date": "2023-10-14T04:00:00.000Z",
+      "date": "2023-10-14T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:25",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 46",
       "event_slug": "bkfc-46-newcastle-franco-vs-harris",
-      "date": "2023-07-01T04:00:00.000Z",
+      "date": "2023-07-01T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:49",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 40",
       "event_slug": "bkfc-40-holmes-vs-christie",
-      "date": "2023-04-22T04:00:00.000Z",
+      "date": "2023-04-22T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:23",
@@ -87,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:15.577Z"
+  "history_last_verified": "2026-08-09T08:47:11.840Z"
 }

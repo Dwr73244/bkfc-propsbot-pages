@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-sturgis",
+      "event_slug": "bkfc-fight-night-sturgis",
+      "date": "2026-08-08T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:58",
+      "opponent": "mike-jones",
+      "opponent_slug": "mike-jones",
+      "result": "W"
+    },
+    {
       "event": "BKFC on DAZN - Montana",
       "event_slug": "bkfc-on-dazn-montana",
       "date": "2024-11-09T05:00:00.000Z",
@@ -74,5 +85,7 @@
     "https://www.bkfc.com/fighters/bryant-acheson"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:11.620Z"
+  "history_last_verified": "2026-07-31T18:47:11.620Z",
+  "elo": 1522,
+  "elo_peak": 1522
 }

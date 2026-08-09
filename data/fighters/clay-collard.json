@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-sturgis",
+      "event_slug": "bkfc-fight-night-sturgis",
+      "date": "2026-08-08T00:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:42",
+      "opponent": "daniel-keepers",
+      "opponent_slug": "daniel-keepers",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/clay-collard"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "elo": 1522,
+  "elo_peak": 1522
 }

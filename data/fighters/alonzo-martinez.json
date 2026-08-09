@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-sturgis",
+      "event_slug": "bkfc-fight-night-sturgis",
+      "date": "2026-08-08T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:53",
+      "opponent": "zeb-vincent",
+      "opponent_slug": "zeb-vincent",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha-2",
       "date": "2025-04-18T04:00:00.000Z",
@@ -78,19 +89,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/alonzo-martinez"
-    },
-    {
-      "event": "Fight Night Omaha 2",
-      "event_slug": "bkfc-fight-night-cochrane-vs-dyer",
-      "date": "2022-05-13T04:00:00.000Z",
-      "method": "KO",
-      "round": 1,
-      "time": "00:34",
-      "opponent": "Andre Kase",
-      "opponent_slug": "andre-kase",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/alonzo-martinez"
     }
   ],
   "sources": [
@@ -98,7 +96,7 @@
     "https://www.bkfc.com/fighters/alonzo-martinez"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
-  "elo_peak": 1522,
+  "elo": 1543,
+  "elo_peak": 1543,
   "history_last_verified": "2026-07-31T18:46:42.233Z"
 }

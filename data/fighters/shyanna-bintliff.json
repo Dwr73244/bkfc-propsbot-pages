@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-sturgis",
+      "event_slug": "bkfc-fight-night-sturgis",
+      "date": "2026-08-08T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:12",
+      "opponent": "crystal-pittman",
+      "opponent_slug": "crystal-pittman",
+      "result": "W"
+    },
+    {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
       "date": "2025-11-15T00:00:00.000Z",
@@ -61,5 +72,7 @@
     "https://www.bkfc.com/fighters/shyanna-bintliff"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-03T11:28:26.419Z"
+  "history_last_verified": "2026-08-03T11:28:26.419Z",
+  "elo": 1523,
+  "elo_peak": 1523
 }

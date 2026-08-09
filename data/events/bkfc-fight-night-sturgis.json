@@ -23,7 +23,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "bryant-acheson",
+        "method": "KO",
+        "round": 1,
+        "time": "1:58"
+      }
     },
     {
       "order": 2,
@@ -34,7 +39,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "bear-hill",
+        "method": "KO",
+        "round": 3,
+        "time": "0:52"
+      }
     },
     {
       "order": 3,
@@ -45,7 +55,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "shyanna-bintliff",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:12"
+      }
     },
     {
       "order": 4,
@@ -89,7 +104,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "justin-walters",
+        "method": "TKO",
+        "round": 2,
+        "time": "1:22"
+      }
     },
     {
       "order": 8,
@@ -100,7 +120,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "jason-simon",
+        "method": "KO",
+        "round": 1,
+        "time": "0:43"
+      }
     },
     {
       "order": 9,
@@ -122,7 +147,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "alonzo-martinez",
+        "method": "KO",
+        "round": 2,
+        "time": "0:53"
+      }
     },
     {
       "order": 11,
@@ -133,7 +163,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "lucas-wright",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 12,
@@ -144,7 +179,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "clay-collard",
+        "method": "KO",
+        "round": 3,
+        "time": "1:42"
+      }
     },
     {
       "order": 13,
@@ -161,6 +201,6 @@
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-sturgis"
   ],
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-08-09",
   "needs_card_population": false
 }

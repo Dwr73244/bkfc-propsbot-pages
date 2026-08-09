@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-sturgis",
-  "generated_at": "2026-08-08T11:39:11.741Z",
+  "generated_at": "2026-08-08T23:36:29.147Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -111,8 +111,8 @@
       "fighter_a_slug": "bear-hill",
       "fighter_b_slug": "brady-meister",
       "prediction": {
-        "prob_a": 0.6252,
-        "prob_b": 0.3748,
+        "prob_a": 0.6343,
+        "prob_b": 0.3657,
         "raw_score": 0.2064,
         "favorite_slug": "bear-hill",
         "confidence": "Low",
@@ -243,14 +243,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.6252258123653087,
-        "model_prob_b": 0.3747741876346913,
-        "market_fair_prob_a": 0.618164967562558,
-        "market_fair_prob_b": 0.38183503243744205,
-        "edge_pct_a": 0.00706084480275071,
-        "edge_pct_b": -0.007060844802750765,
-        "edge_slug": "bear-hill",
-        "edge_pct": 0.00706084480275071
+        "model_prob_a": 0.6343209496558844,
+        "model_prob_b": 0.36567905034411563,
+        "market_fair_prob_a": 0.6383763837638375,
+        "market_fair_prob_b": 0.36162361623616235,
+        "edge_pct_a": -0.004055434107953171,
+        "edge_pct_b": 0.004055434107953282,
+        "edge_slug": "brady-meister",
+        "edge_pct": 0.004055434107953171
       }
     },
     {
@@ -912,14 +912,14 @@
       "fighter_a_slug": "jason-simon",
       "fighter_b_slug": "jason-sanderson",
       "prediction": {
-        "prob_a": 0.5558,
-        "prob_b": 0.4442,
+        "prob_a": 0.5783,
+        "prob_b": 0.4217,
         "raw_score": 0,
         "favorite_slug": "jason-simon",
         "confidence": "Very Low",
-        "advantage_a": 56,
-        "advantage_b": 44,
-        "predictability": 21,
+        "advantage_a": 58,
+        "advantage_b": 42,
+        "predictability": 22,
         "factors": [
           {
             "name": "BKFC Record",
@@ -981,14 +981,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.555783410138249,
-        "model_prob_b": 0.44421658986175105,
-        "market_fair_prob_a": 0.6239631336405531,
-        "market_fair_prob_b": 0.376036866359447,
-        "edge_pct_a": -0.06817972350230417,
-        "edge_pct_b": 0.06817972350230406,
+        "model_prob_a": 0.5783426183844012,
+        "model_prob_b": 0.42165738161559885,
+        "market_fair_prob_a": 0.6740947075208914,
+        "market_fair_prob_b": 0.32590529247910865,
+        "edge_pct_a": -0.09575208913649025,
+        "edge_pct_b": 0.09575208913649019,
         "edge_slug": "jason-sanderson",
-        "edge_pct": 0.06817972350230417
+        "edge_pct": 0.09575208913649025
       }
     },
     {
@@ -996,14 +996,14 @@
       "fighter_a_slug": "traevon-kroger",
       "fighter_b_slug": "kb-dubeau-staby",
       "prediction": {
-        "prob_a": 0.7282,
-        "prob_b": 0.2718,
+        "prob_a": 0.7521,
+        "prob_b": 0.2479,
         "raw_score": 0.4311,
         "favorite_slug": "traevon-kroger",
         "confidence": "Very Low",
-        "advantage_a": 73,
-        "advantage_b": 27,
-        "predictability": 41,
+        "advantage_a": 75,
+        "advantage_b": 25,
+        "predictability": 43,
         "factors": [
           {
             "name": "BKFC Record",
@@ -1024,7 +1024,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Kroger 73/27. Edges on bkfc record.",
+        "summary": "Model leans Kroger 75/25. Edges on bkfc record.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1065,14 +1065,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.728243753884707,
-        "model_prob_b": 0.27175624611529303,
-        "market_fair_prob_a": 0.696577243293247,
-        "market_fair_prob_b": 0.303422756706753,
-        "edge_pct_a": 0.03166651059145997,
-        "edge_pct_b": -0.03166651059145997,
+        "model_prob_a": 0.7520752745511688,
+        "model_prob_b": 0.24792472544883115,
+        "market_fair_prob_a": 0.7495361781076066,
+        "market_fair_prob_b": 0.2504638218923933,
+        "edge_pct_a": 0.0025390964435622054,
+        "edge_pct_b": -0.00253909644356215,
         "edge_slug": "traevon-kroger",
-        "edge_pct": 0.03166651059145997
+        "edge_pct": 0.0025390964435622054
       }
     },
     {

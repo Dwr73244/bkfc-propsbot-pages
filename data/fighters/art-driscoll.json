@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-sturgis",
+      "event_slug": "bkfc-fight-night-sturgis",
+      "date": "2026-08-08T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:22",
+      "opponent": "justin-walters",
+      "opponent_slug": "justin-walters",
+      "result": "L"
+    },
+    {
       "event": "BKFC Fight Night Pechanga: Kurdanov vs. Brito",
       "event_slug": "bkfc-fight-night-pechanga-2025-01-18",
       "date": "2025-01-18T20:00:00.000Z",
@@ -72,7 +83,7 @@
     "https://www.bkfc.com/fighters/art-driscoll"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1481,
+  "elo": 1458,
   "elo_peak": 1500,
   "history_last_verified": "2026-07-31T18:44:38.701Z"
 }

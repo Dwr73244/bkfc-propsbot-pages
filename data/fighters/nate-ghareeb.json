@@ -33,7 +33,7 @@
     {
       "event": "BKFC 86",
       "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
-      "date": "2026-01-17T05:00:00.000Z",
+      "date": "2026-01-17T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -48,5 +48,5 @@
     "https://www.bkfc.com/fighters/nate-ghareeb"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:34.909Z"
+  "history_last_verified": "2026-08-09T08:47:14.218Z"
 }

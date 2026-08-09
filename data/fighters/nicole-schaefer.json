@@ -32,7 +32,7 @@
     {
       "event": "BKFC: Italy",
       "event_slug": "bkfc-73-italy",
-      "date": "2025-04-26T04:00:00.000Z",
+      "date": "2025-04-26T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:16.020Z"
+  "history_last_verified": "2026-08-09T08:47:27.272Z"
 }
