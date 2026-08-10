@@ -4,10 +4,10 @@
   "nickname": "The Juggernaut",
   "division": "Light Heavyweight",
   "bkfc_record": {
-    "wins": 13,
+    "wins": 14,
     "losses": 2,
     "draws": 0,
-    "kos": 11
+    "kos": 12
   },
   "mma_record": "3-5",
   "height_in": 72,
@@ -78,5 +78,5 @@
   "elo": 1525,
   "elo_peak": 1526,
   "record_source": "wikipedia",
-  "record_verified": "2026-07-07"
+  "record_verified": "2026-08-10"
 }
