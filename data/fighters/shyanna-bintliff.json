@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Women's Bantamweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1762460056/o/SHYANNA_BINTLIFF_SMALL_AVATAR_400x400.png?1762460056",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785813637/o/SHYANNA_BINTLIFF_SMALL_AVATAR_400x400.png?1785813637",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -71,8 +71,8 @@
   "sources": [
     "https://www.bkfc.com/fighters/shyanna-bintliff"
   ],
-  "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-03T11:28:26.419Z",
+  "last_updated": "2026-08-11",
+  "history_last_verified": "2026-08-11T09:00:56.574Z",
   "elo": 1523,
   "elo_peak": 1523
 }

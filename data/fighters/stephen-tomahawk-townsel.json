@@ -5,8 +5,8 @@
   "nickname": "TOMAHAWK",
   "division": "Ironweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 6,
+    "losses": 5,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,76 @@
     "facebook": "https://www.facebook.com/stephen.townsel.1"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:56",
+      "opponent": "Mike Jones",
+      "opponent_slug": "mike-jones",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stephen-tomahawk-townsel"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:39",
+      "opponent": "Julio Perez",
+      "opponent_slug": "julio-perez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stephen-tomahawk-townsel"
+    },
+    {
+      "event": "BKFC 78 -",
+      "event_slug": "bkfc-hollywood",
+      "date": "2025-07-12T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:55",
+      "opponent": "Keith Richardson",
+      "opponent_slug": "keith-richardson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stephen-tomahawk-townsel"
+    },
+    {
+      "event": "BKFC 66",
+      "event_slug": "bkfc-66-blas-vs-reber",
+      "date": "2024-09-13T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "00:47",
+      "opponent": "Jeremy Smith",
+      "opponent_slug": "jeremy-smith",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stephen-tomahawk-townsel"
+    },
+    {
+      "event": "BKFC 57",
+      "event_slug": "bkfc-57-hollywood",
+      "date": "2024-02-02T00:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "02:10",
+      "opponent": "Leo Bercier",
+      "opponent_slug": "leo-bercier",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/stephen-tomahawk-townsel"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/stephen-tomahawk-townsel"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-08-11T09:01:13.927Z"
 }

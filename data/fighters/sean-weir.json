@@ -5,7 +5,7 @@
   "nickname": "THE BUTCHER",
   "division": "Light Heavyweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,9 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-2",
+      "date": "2026-03-14T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:42",
+      "opponent": "Matty Hodgson",
+      "opponent_slug": "matty-hodgson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/sean-weir"
+    },
+    {
+      "event": "BKFC 81 - Manchester",
+      "event_slug": "bkfc-manchester",
+      "date": "2025-09-27T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:25",
+      "opponent": "Joe Lister",
+      "opponent_slug": "joe-lister",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/sean-weir"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/sean-weir"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-08-11T09:00:52.799Z"
 }

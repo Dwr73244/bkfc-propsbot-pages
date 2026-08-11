@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-08-10T11:56:27.620Z",
+  "generated_at": "2026-08-11T09:01:19.169Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "conor-cooke",
       "fighter_b_slug": "sean-weir",
       "prediction": {
-        "prob_a": 0.6214,
-        "prob_b": 0.3786,
-        "raw_score": 0.1906,
+        "prob_a": 0.5594,
+        "prob_b": 0.4406,
+        "raw_score": 0.0917,
         "favorite_slug": "conor-cooke",
-        "confidence": "Low",
-        "advantage_a": 62,
-        "advantage_b": 38,
-        "predictability": 44,
+        "confidence": "Medium",
+        "advantage_a": 56,
+        "advantage_b": 44,
+        "predictability": 55,
         "factors": [
           {
             "name": "Recent Form",
@@ -30,11 +30,11 @@
           {
             "name": "BKFC Record",
             "value_a": "6-1",
-            "value_b": "0-0",
-            "edge_slug": "conor-cooke",
-            "edge_strength": 0.694,
+            "value_b": "3-0",
+            "edge_slug": null,
+            "edge_strength": 0.056,
             "weight": 0.11,
-            "display": "78% vs 50% win rate"
+            "display": "78% vs 80% win rate"
           },
           {
             "name": "KO Rate",
@@ -83,21 +83,21 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "67%",
+            "value_a": "75%",
             "value_b": "—",
             "edge_slug": "conor-cooke",
-            "edge_strength": 0.333,
+            "edge_strength": 0.5,
             "weight": 0.04,
             "display": "Cooke tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "7 fights",
-            "value_b": "0 fights",
+            "value_b": "3 fights",
             "edge_slug": "conor-cooke",
-            "edge_strength": 0.875,
+            "edge_strength": 0.5,
             "weight": 0.03,
-            "display": "+7 fights Cooke"
+            "display": "+4 fights Cooke"
           },
           {
             "name": "Height",
@@ -109,7 +109,7 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Cooke 62/38. Edges on recent form, bkfc record, activity, opponent quality.",
+        "summary": "Model leans Cooke 56/44. Edges on recent form, activity, opponent quality, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
