@@ -5,7 +5,7 @@
   "nickname": "KID COBRA",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594163/o/1744594163309_67d3044ce226540ba4183cb6_KROGER_SMALL_AVATAR_400x400_compressed.png?1744594163",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1786151561/o/TRAEVON_KROGER_SMALL_AVATAR_400x400.png?1786151561",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -30,6 +30,19 @@
   },
   "bio": null,
   "last_5": [
+    {
+      "event": "BKFC - Fight Night Sturgis",
+      "event_slug": "bkfc-fight-night-sturgis",
+      "date": "2026-08-08T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "KB Dubeau-Staby",
+      "opponent_slug": "kb-dubeau-staby",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/traevon-kroger"
+    },
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
@@ -60,6 +73,6 @@
   "sources": [
     "https://www.bkfc.com/fighters/traevon-kroger"
   ],
-  "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-04T10:37:46.618Z"
+  "last_updated": "2026-08-12",
+  "history_last_verified": "2026-08-12T09:16:43.047Z"
 }
