@@ -6,7 +6,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 4,
+    "losses": 5,
     "draws": 0,
     "kos": null
   },
@@ -98,7 +98,7 @@
     "https://www.bkfc.com/fighters/zeb-vincent"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-01T10:04:25.718Z",
+  "history_last_verified": "2026-08-13T09:17:03.006Z",
   "elo": 1479,
   "elo_peak": 1500
 }
