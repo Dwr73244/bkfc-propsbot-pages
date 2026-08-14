@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Nashville",
       "event_slug": "bkfc-nashville",
-      "date": "2026-06-19T04:00:00.000Z",
+      "date": "2026-06-19T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:58",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:46:43.173Z"
+  "history_last_verified": "2026-08-14T09:12:40.955Z"
 }

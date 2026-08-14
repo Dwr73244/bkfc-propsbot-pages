@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:14",
@@ -78,7 +78,7 @@
     {
       "event": "BKFC 30",
       "event_slug": "bkfc-30-hunt-vs-henry",
-      "date": "2022-10-01T04:00:00.000Z",
+      "date": "2022-10-01T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:19",
@@ -104,5 +104,5 @@
   "full_name": "Ben Rothwell",
   "elo": 1568,
   "elo_peak": 1568,
-  "history_last_verified": "2026-07-31T18:44:45.293Z"
+  "history_last_verified": "2026-08-14T09:13:13.925Z"
 }

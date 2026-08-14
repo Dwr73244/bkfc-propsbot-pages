@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
-      "date": "2026-04-24T04:00:00.000Z",
+      "date": "2026-04-24T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:58",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC on DAZN - Montana",
       "event_slug": "bkfc-on-dazn-montana",
-      "date": "2024-11-09T05:00:00.000Z",
+      "date": "2024-11-09T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "00:38",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC 47",
       "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
-      "date": "2023-07-14T04:00:00.000Z",
+      "date": "2023-07-14T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:50",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1523,
-  "history_last_verified": "2026-07-31T18:47:08.769Z"
+  "history_last_verified": "2026-08-14T09:13:29.799Z"
 }

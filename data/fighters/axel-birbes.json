@@ -43,7 +43,7 @@
     {
       "event": "BKFC 40",
       "event_slug": "bkfc-40-holmes-vs-christie",
-      "date": "2023-04-22T04:00:00.000Z",
+      "date": "2023-04-22T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:07",
@@ -61,5 +61,5 @@
   "last_updated": "2026-04-17",
   "elo": 1479,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:36.511Z"
+  "history_last_verified": "2026-08-14T09:13:02.433Z"
 }

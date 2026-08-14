@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Derby",
       "event_slug": "bkfc-fight-night-derby",
-      "date": "2025-12-13T05:00:00.000Z",
+      "date": "2025-12-13T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 68",
       "event_slug": "bkfc-68-faulkner-vs-oscar",
-      "date": "2024-11-02T04:00:00.000Z",
+      "date": "2024-11-02T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:38",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 55 - Leeds",
       "event_slug": "bkfc-55-leeds",
-      "date": "2023-11-18T05:00:00.000Z",
+      "date": "2023-11-18T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "02:00",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC - Newcastle",
       "event_slug": "bkfc-newcastle-terrill-vs-banks",
-      "date": "2022-11-26T05:00:00.000Z",
+      "date": "2022-11-26T00:00:00.000Z",
       "method": "KO",
       "round": 4,
       "time": "00:29",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1474,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:29.249Z"
+  "history_last_verified": "2026-08-14T09:12:53.578Z"
 }

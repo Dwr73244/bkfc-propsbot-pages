@@ -32,7 +32,7 @@
     {
       "event": "BKFC 74 - Salt Lake City",
       "event_slug": "bkfc-74-salt-lake-city",
-      "date": "2025-05-10T04:00:00.000Z",
+      "date": "2025-05-10T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:00",
@@ -73,5 +73,5 @@
   "last_updated": "2026-07-31",
   "elo": 1457,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:47.304Z"
+  "history_last_verified": "2026-08-14T09:13:18.446Z"
 }

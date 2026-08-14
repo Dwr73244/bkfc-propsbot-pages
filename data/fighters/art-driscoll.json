@@ -5,7 +5,7 @@
   "division": "Welterweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 3,
+    "losses": 4,
     "draws": 0,
     "kos": null
   },
@@ -54,7 +54,7 @@
     {
       "event": "Fight Night New York 2",
       "event_slug": "bkfc-new-york-ii",
-      "date": "2022-03-12T05:00:00.000Z",
+      "date": "2022-03-12T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:37",
@@ -67,7 +67,7 @@
     {
       "event": "Fight Night New York",
       "event_slug": "bkfc-new-york",
-      "date": "2021-11-06T04:00:00.000Z",
+      "date": "2021-11-06T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:16",
@@ -85,5 +85,5 @@
   "last_updated": "2026-07-31",
   "elo": 1458,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:38.701Z"
+  "history_last_verified": "2026-08-14T09:13:03.897Z"
 }

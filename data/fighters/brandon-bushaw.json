@@ -32,7 +32,7 @@
     {
       "event": "BKFC 52",
       "event_slug": "bkfc-52-south-carolina",
-      "date": "2023-10-20T04:00:00.000Z",
+      "date": "2023-10-20T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:50",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 42",
       "event_slug": "bkfc-42-greenville",
-      "date": "2023-05-12T04:00:00.000Z",
+      "date": "2023-05-12T00:00:00.000Z",
       "method": null,
       "round": 2,
       "time": "00:33",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:44:49.158Z"
+  "history_last_verified": "2026-08-14T09:13:25.596Z"
 }

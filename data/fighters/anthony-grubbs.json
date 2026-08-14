@@ -44,7 +44,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
-      "date": "2026-04-24T04:00:00.000Z",
+      "date": "2026-04-24T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "00:25",
@@ -63,5 +63,5 @@
   "elo_peak": 1522,
   "record_source": "tracked-events",
   "record_verified": "2026-07-07",
-  "history_last_verified": "2026-07-31T18:44:26.610Z"
+  "history_last_verified": "2026-08-14T09:12:43.758Z"
 }

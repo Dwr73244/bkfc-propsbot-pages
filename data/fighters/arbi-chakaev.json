@@ -44,7 +44,7 @@
     {
       "event": "BKFC: Italy",
       "event_slug": "bkfc-73-italy",
-      "date": "2025-04-26T04:00:00.000Z",
+      "date": "2025-04-26T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:32",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC - Spain",
       "event_slug": "bkfc-on-dazn-spain",
-      "date": "2024-10-12T04:00:00.000Z",
+      "date": "2024-10-12T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:59",
@@ -76,5 +76,5 @@
   "elo_peak": 1522,
   "record_source": "tracked-events",
   "record_verified": "2026-07-19",
-  "history_last_verified": "2026-07-31T18:46:51.393Z"
+  "history_last_verified": "2026-08-14T09:12:58.429Z"
 }

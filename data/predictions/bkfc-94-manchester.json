@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-08-13T11:56:20.674Z",
+  "generated_at": "2026-08-14T09:13:31.581Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -351,14 +351,14 @@
       "fighter_a_slug": "karl-thompson",
       "fighter_b_slug": "andy-thornton",
       "prediction": {
-        "prob_a": 0.6935,
-        "prob_b": 0.3065,
-        "raw_score": 0.3141,
+        "prob_a": 0.6562,
+        "prob_b": 0.3438,
+        "raw_score": 0.2485,
         "favorite_slug": "karl-thompson",
-        "confidence": "Very Low",
-        "advantage_a": 69,
-        "advantage_b": 31,
-        "predictability": 36,
+        "confidence": "Medium",
+        "advantage_a": 66,
+        "advantage_b": 34,
+        "predictability": 61,
         "factors": [
           {
             "name": "Recent Form",
@@ -372,11 +372,11 @@
           {
             "name": "BKFC Record",
             "value_a": "4-1",
-            "value_b": "0-0",
-            "edge_slug": "karl-thompson",
-            "edge_strength": 0.536,
+            "value_b": "1-0",
+            "edge_slug": null,
+            "edge_strength": 0.119,
             "weight": 0.11,
-            "display": "71% vs 50% win rate"
+            "display": "71% vs 67% win rate"
           },
           {
             "name": "KO Rate",
@@ -425,21 +425,21 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "86%",
+            "value_a": "93%",
             "value_b": "—",
             "edge_slug": "karl-thompson",
-            "edge_strength": 0.714,
+            "edge_strength": 0.857,
             "weight": 0.04,
             "display": "Thompson tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "5 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": "karl-thompson",
-            "edge_strength": 0.625,
+            "edge_strength": 0.5,
             "weight": 0.03,
-            "display": "+5 fights Thompson"
+            "display": "+4 fights Thompson"
           },
           {
             "name": "Height",
@@ -451,7 +451,7 @@
             "display": "+1\" Thompson"
           }
         ],
-        "summary": "Model leans Thompson 69/31. Edges on recent form, bkfc record, age, opponent quality.",
+        "summary": "Model leans Thompson 66/34. Edges on recent form, age, opponent quality, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [

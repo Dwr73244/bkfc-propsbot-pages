@@ -4,7 +4,7 @@
   "nickname": "THE LAST BARBARIAN",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 1,
     "draws": 0,
     "kos": 1
@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
-      "date": "2025-08-02T04:00:00.000Z",
+      "date": "2025-08-02T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "01:27",
@@ -85,5 +85,5 @@
   "last_updated": "2026-07-31",
   "elo": 1543,
   "elo_peak": 1543,
-  "history_last_verified": "2026-07-31T18:44:40.945Z"
+  "history_last_verified": "2026-08-14T09:13:10.302Z"
 }

@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Los Angeles",
       "event_slug": "bkfc-fight-night-los-angeles",
-      "date": "2024-11-23T05:00:00.000Z",
+      "date": "2024-11-23T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 49",
       "event_slug": "bkfc-49-miami",
-      "date": "2023-08-25T04:00:00.000Z",
+      "date": "2023-08-25T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC 38",
       "event_slug": "bkfc-38-nguyen-vs-straus",
-      "date": "2023-04-21T04:00:00.000Z",
+      "date": "2023-04-21T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1498,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:44:51.074Z"
+  "history_last_verified": "2026-08-14T09:13:24.831Z"
 }

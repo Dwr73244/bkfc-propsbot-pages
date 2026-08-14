@@ -44,7 +44,7 @@
     {
       "event": "BKFC 55 - Leeds",
       "event_slug": "bkfc-55-leeds",
-      "date": "2023-11-18T05:00:00.000Z",
+      "date": "2023-11-18T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:58",
@@ -63,5 +63,5 @@
   "elo_peak": 1500,
   "record_source": "tracked-events",
   "record_verified": "2026-07-19",
-  "history_last_verified": "2026-07-31T18:46:50.116Z"
+  "history_last_verified": "2026-08-14T09:12:54.320Z"
 }

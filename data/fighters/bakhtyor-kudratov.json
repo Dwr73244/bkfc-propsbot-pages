@@ -43,7 +43,7 @@
     {
       "event": "BKFC 60",
       "event_slug": "bkfc-60-milton-keynes",
-      "date": "2024-04-06T04:00:00.000Z",
+      "date": "2024-04-06T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:54",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:38.442Z"
+  "history_last_verified": "2026-08-14T09:13:05.274Z"
 }

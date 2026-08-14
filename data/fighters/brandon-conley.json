@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-fight-night-hammond",
-      "date": "2026-06-26T04:00:00.000Z",
+      "date": "2026-06-26T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:41",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
-      "date": "2025-08-02T04:00:00.000Z",
+      "date": "2025-08-02T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:26",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC - Fight Night Los Angeles",
       "event_slug": "bkfc-fight-night-los-angeles",
-      "date": "2024-11-23T05:00:00.000Z",
+      "date": "2024-11-23T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 63",
       "event_slug": "bkfc-63-hart-vs-starling",
-      "date": "2024-08-03T04:00:00.000Z",
+      "date": "2024-08-03T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "01:31",
@@ -98,5 +98,5 @@
     "https://www.bkfc.com/fighters/brandon-conley"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:44:51.114Z"
+  "history_last_verified": "2026-08-14T09:13:29.494Z"
 }

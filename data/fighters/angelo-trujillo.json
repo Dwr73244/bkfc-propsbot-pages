@@ -44,7 +44,7 @@
     {
       "event": "BKFC 88",
       "event_slug": "bkfc-denver",
-      "date": "2026-04-17T04:00:00.000Z",
+      "date": "2026-04-17T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 3,
       "time": "02:00",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC 50",
       "event_slug": "bkfc-50-denver",
-      "date": "2023-09-22T04:00:00.000Z",
+      "date": "2023-09-22T00:00:00.000Z",
       "method": "Disqualification",
       "round": 1,
       "time": "00:38",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1481,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:24.515Z"
+  "history_last_verified": "2026-08-14T09:12:44.668Z"
 }

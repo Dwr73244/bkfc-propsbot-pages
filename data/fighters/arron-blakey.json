@@ -32,7 +32,7 @@
     {
       "event": "BKFC 46",
       "event_slug": "bkfc-46-newcastle-franco-vs-harris",
-      "date": "2023-07-01T04:00:00.000Z",
+      "date": "2023-07-01T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:27",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:44:34.122Z"
+  "history_last_verified": "2026-08-14T09:12:58.279Z"
 }

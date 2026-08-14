@@ -43,7 +43,7 @@
     {
       "event": "BKFC 29 - Montana II",
       "event_slug": "bkfc-29-montana-2",
-      "date": "2022-09-10T04:00:00.000Z",
+      "date": "2022-09-10T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:48",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC - Jackson 2",
       "event_slug": "bkfc-fight-night-belcher-vs-tate",
-      "date": "2022-06-11T04:00:00.000Z",
+      "date": "2022-06-11T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:59",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 24",
       "event_slug": "bkfc-24-hunt-vs-riggs",
-      "date": "2022-04-30T04:00:00.000Z",
+      "date": "2022-04-30T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:43",
@@ -87,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1479,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:47.360Z"
+  "history_last_verified": "2026-08-14T09:13:20.330Z"
 }

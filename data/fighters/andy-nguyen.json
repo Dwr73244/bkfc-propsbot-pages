@@ -54,7 +54,7 @@
     {
       "event": "BKFC 35",
       "event_slug": "bkfc-35-myrtle-beach",
-      "date": "2023-01-27T05:00:00.000Z",
+      "date": "2023-01-27T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC 24",
       "event_slug": "bkfc-24-hunt-vs-riggs",
-      "date": "2022-04-30T04:00:00.000Z",
+      "date": "2022-04-30T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -85,5 +85,5 @@
   "last_updated": "2026-07-31",
   "elo": 1499,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:44:24.395Z"
+  "history_last_verified": "2026-08-14T09:12:41.819Z"
 }

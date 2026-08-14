@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Nashville",
       "event_slug": "bkfc-nashville",
-      "date": "2026-06-19T04:00:00.000Z",
+      "date": "2026-06-19T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:58",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 65",
       "event_slug": "bkfc-65-ferea-vs-masson-wong",
-      "date": "2024-09-06T04:00:00.000Z",
+      "date": "2024-09-06T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha",
-      "date": "2024-05-17T04:00:00.000Z",
+      "date": "2024-05-17T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 32",
       "event_slug": "bkfc-32-orlando",
-      "date": "2022-11-05T04:00:00.000Z",
+      "date": "2022-11-05T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:39",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:47:09.411Z"
+  "history_last_verified": "2026-08-14T09:13:27.303Z"
 }

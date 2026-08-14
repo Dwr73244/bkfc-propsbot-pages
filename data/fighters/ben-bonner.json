@@ -32,7 +32,7 @@
     {
       "event": "BKFC Liberty Brawl",
       "event_slug": "bkfc-liberty-brawl",
-      "date": "2026-07-03T04:00:00.000Z",
+      "date": "2026-07-03T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:30",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 83",
       "event_slug": "bkfc-rome",
-      "date": "2025-10-25T04:00:00.000Z",
+      "date": "2025-10-25T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -71,7 +71,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -84,7 +84,7 @@
     {
       "event": "BKFC 68",
       "event_slug": "bkfc-68-faulkner-vs-oscar",
-      "date": "2024-11-02T04:00:00.000Z",
+      "date": "2024-11-02T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:44",
@@ -102,5 +102,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:47:01.461Z"
+  "history_last_verified": "2026-08-14T09:13:12.566Z"
 }
