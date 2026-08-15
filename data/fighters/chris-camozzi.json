@@ -6,7 +6,7 @@
   "division": "Cruiserweight",
   "bkfc_record": {
     "wins": 4,
-    "losses": 2,
+    "losses": 3,
     "draws": 0,
     "kos": 3
   },
@@ -44,7 +44,7 @@
     {
       "event": "BKFC 88",
       "event_slug": "bkfc-denver",
-      "date": "2026-04-17T04:00:00.000Z",
+      "date": "2026-04-17T00:00:00.000Z",
       "method": "KO",
       "round": 4,
       "time": "01:43",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC 83",
       "event_slug": "bkfc-rome",
-      "date": "2025-10-25T04:00:00.000Z",
+      "date": "2025-10-25T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -70,7 +70,7 @@
     {
       "event": "BKFC: Italy",
       "event_slug": "bkfc-73-italy",
-      "date": "2025-04-26T04:00:00.000Z",
+      "date": "2025-04-26T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -83,7 +83,7 @@
     {
       "event": "BKFCF 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
-      "date": "2024-10-25T04:00:00.000Z",
+      "date": "2024-10-25T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:06",
@@ -108,5 +108,5 @@
   "elo_peak": 1522,
   "record_source": "wikipedia",
   "record_verified": "2026-08-01",
-  "history_last_verified": "2026-07-31T18:47:17.768Z"
+  "history_last_verified": "2026-08-15T08:33:46.342Z"
 }

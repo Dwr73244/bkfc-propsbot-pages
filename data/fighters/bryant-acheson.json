@@ -5,7 +5,7 @@
   "nickname": "DEFIANT",
   "division": "Cruiserweight",
   "bkfc_record": {
-    "wins": 5,
+    "wins": 6,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -44,7 +44,7 @@
     {
       "event": "BKFC on DAZN - Montana",
       "event_slug": "bkfc-on-dazn-montana",
-      "date": "2024-11-09T05:00:00.000Z",
+      "date": "2024-11-09T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:48",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC 63",
       "event_slug": "bkfc-63-hart-vs-starling",
-      "date": "2024-08-03T04:00:00.000Z",
+      "date": "2024-08-03T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -70,7 +70,7 @@
     {
       "event": "Fight Night Montana",
       "event_slug": "bkfc-montana",
-      "date": "2021-10-09T04:00:00.000Z",
+      "date": "2021-10-09T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:30",
@@ -85,7 +85,7 @@
     "https://www.bkfc.com/fighters/bryant-acheson"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:11.620Z",
+  "history_last_verified": "2026-08-15T08:33:23.009Z",
   "elo": 1522,
   "elo_peak": 1522
 }

@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Blood 4 Blood",
       "event_slug": "blood-4-blood",
-      "date": "2026-05-06T04:00:00.000Z",
+      "date": "2026-05-06T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:06",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC on DAZN - Hollywood",
       "event_slug": "bkfc-on-dazn-hollywood",
-      "date": "2024-12-21T05:00:00.000Z",
+      "date": "2024-12-21T00:00:00.000Z",
       "method": "KO",
       "round": 4,
       "time": "01:04",
@@ -62,5 +62,5 @@
     "https://www.bkfc.com/fighters/brock-walker"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:11.390Z"
+  "history_last_verified": "2026-08-15T08:33:18.810Z"
 }

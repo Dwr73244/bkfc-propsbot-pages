@@ -32,7 +32,7 @@
     {
       "event": "BKFC 82 -",
       "event_slug": "bkfc-new-jersey",
-      "date": "2025-10-04T04:00:00.000Z",
+      "date": "2025-10-04T00:00:00.000Z",
       "method": "KO",
       "round": 4,
       "time": "00:26",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC on DAZN - Hollywood",
       "event_slug": "bkfc-on-dazn-hollywood",
-      "date": "2024-12-21T05:00:00.000Z",
+      "date": "2024-12-21T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:22",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 65",
       "event_slug": "bkfc-65-ferea-vs-masson-wong",
-      "date": "2024-09-06T04:00:00.000Z",
+      "date": "2024-09-06T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -71,7 +71,7 @@
     {
       "event": "BKFC 56",
       "event_slug": "bkfc-56-utah",
-      "date": "2023-12-02T05:00:00.000Z",
+      "date": "2023-12-02T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -106,5 +106,5 @@
   "full_name": "Christine Ferea",
   "elo": 1526,
   "elo_peak": 1526,
-  "history_last_verified": "2026-07-31T18:45:03.447Z"
+  "history_last_verified": "2026-08-15T08:33:57.837Z"
 }

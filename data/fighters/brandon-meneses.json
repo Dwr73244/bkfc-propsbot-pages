@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-fight-night-hammond",
-      "date": "2026-06-26T04:00:00.000Z",
+      "date": "2026-06-26T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 86",
       "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
-      "date": "2026-01-17T05:00:00.000Z",
+      "date": "2026-01-17T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:55",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:22",
@@ -85,5 +85,5 @@
     "https://www.bkfc.com/fighters/brandon-meneses"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:44:53.151Z"
+  "history_last_verified": "2026-08-15T08:33:04.911Z"
 }

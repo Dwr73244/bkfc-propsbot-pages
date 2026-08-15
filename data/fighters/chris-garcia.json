@@ -32,7 +32,7 @@
     {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
-      "date": "2026-03-20T04:00:00.000Z",
+      "date": "2026-03-20T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:19",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 80",
       "event_slug": "bkfc-hollywood-2",
-      "date": "2025-09-12T04:00:00.000Z",
+      "date": "2025-09-12T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:19",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 62",
       "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T04:00:00.000Z",
+      "date": "2024-06-21T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:39",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1521,
   "elo_peak": 1541,
-  "history_last_verified": "2026-07-31T18:44:59.510Z"
+  "history_last_verified": "2026-08-15T08:33:46.700Z"
 }

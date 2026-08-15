@@ -5,7 +5,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -54,7 +54,7 @@
     {
       "event": "BKFC 65",
       "event_slug": "bkfc-65-ferea-vs-masson-wong",
-      "date": "2024-09-06T04:00:00.000Z",
+      "date": "2024-09-06T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "02:00",
@@ -72,5 +72,5 @@
   "last_updated": "2026-07-31",
   "elo": 1463,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:53.430Z"
+  "history_last_verified": "2026-08-15T08:33:20.860Z"
 }

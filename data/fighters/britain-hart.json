@@ -4,7 +4,7 @@
   "nickname": null,
   "division": "Women's Strawweight",
   "bkfc_record": {
-    "wins": 10,
+    "wins": 11,
     "losses": 3,
     "draws": 0,
     "kos": 2
@@ -32,7 +32,7 @@
     {
       "event": "BKFC Liberty Brawl",
       "event_slug": "bkfc-liberty-brawl",
-      "date": "2026-07-03T04:00:00.000Z",
+      "date": "2026-07-03T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 63",
       "event_slug": "bkfc-63-hart-vs-starling",
-      "date": "2024-08-03T04:00:00.000Z",
+      "date": "2024-08-03T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 51",
       "event_slug": "bkfc-51-salem",
-      "date": "2023-09-29T04:00:00.000Z",
+      "date": "2023-09-29T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -262,5 +262,5 @@
   ],
   "record_source": "wikipedia",
   "record_verified": "2026-08-01",
-  "history_last_verified": "2026-07-31T18:47:16.804Z"
+  "history_last_verified": "2026-08-15T08:33:29.152Z"
 }

@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-mohegan-sun",
-      "date": "2025-06-14T04:00:00.000Z",
+      "date": "2025-06-14T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:34",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:44:51.546Z"
+  "history_last_verified": "2026-08-15T08:33:09.146Z"
 }

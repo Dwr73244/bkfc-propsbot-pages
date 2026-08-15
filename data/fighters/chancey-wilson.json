@@ -32,7 +32,7 @@
     {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
-      "date": "2026-03-20T04:00:00.000Z",
+      "date": "2026-03-20T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:19",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 85",
       "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
-      "date": "2025-12-05T05:00:00.000Z",
+      "date": "2025-12-05T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:46",
@@ -58,7 +58,7 @@
     {
       "event": "BKFCF 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
-      "date": "2024-10-25T04:00:00.000Z",
+      "date": "2024-10-25T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:13",
@@ -71,7 +71,7 @@
     {
       "event": "BKFC 53",
       "event_slug": "bkfc-53-orlando",
-      "date": "2023-11-03T04:00:00.000Z",
+      "date": "2023-11-03T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:24",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:45:02.840Z"
+  "history_last_verified": "2026-08-15T08:33:45.267Z"
 }

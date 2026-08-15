@@ -43,7 +43,7 @@
     {
       "event": "Knucklemania II",
       "event_slug": "knucklemania-ii",
-      "date": "2022-02-19T05:00:00.000Z",
+      "date": "2022-02-19T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:34",
@@ -67,5 +67,5 @@
   "full_name": "Chad Eduardo Mendes",
   "elo": 1481,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:57.491Z"
+  "history_last_verified": "2026-08-15T08:33:34.448Z"
 }

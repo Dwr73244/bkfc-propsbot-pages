@@ -43,7 +43,7 @@
     {
       "event": "BKFC 35",
       "event_slug": "bkfc-35-myrtle-beach",
-      "date": "2023-01-27T05:00:00.000Z",
+      "date": "2023-01-27T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:53",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:51.744Z"
+  "history_last_verified": "2026-08-15T08:33:11.068Z"
 }

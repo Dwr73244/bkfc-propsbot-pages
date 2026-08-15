@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:59",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
-      "date": "2025-08-02T04:00:00.000Z",
+      "date": "2025-08-02T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "00:32",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha",
-      "date": "2024-05-17T04:00:00.000Z",
+      "date": "2024-05-17T00:00:00.000Z",
       "method": "TKO",
       "round": 5,
       "time": "01:10",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1523,
   "elo_peak": 1523,
-  "history_last_verified": "2026-07-31T18:44:51.280Z"
+  "history_last_verified": "2026-08-15T08:33:10.734Z"
 }

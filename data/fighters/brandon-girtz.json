@@ -32,7 +32,7 @@
     {
       "event": "BKFCF 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
-      "date": "2024-10-25T04:00:00.000Z",
+      "date": "2024-10-25T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 31",
       "event_slug": "bkfc-31-denver-richman-vs-doolittle",
-      "date": "2022-10-15T04:00:00.000Z",
+      "date": "2022-10-15T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1521,
   "elo_peak": 1521,
-  "history_last_verified": "2026-07-31T18:44:51.089Z"
+  "history_last_verified": "2026-08-15T08:33:02.167Z"
 }

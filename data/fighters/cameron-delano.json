@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Blood 4 Blood",
       "event_slug": "blood-4-blood",
-      "date": "2026-05-06T04:00:00.000Z",
+      "date": "2026-05-06T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:29",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:05",
@@ -62,5 +62,5 @@
     "https://www.bkfc.com/fighters/cameron-delano"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:15.015Z"
+  "history_last_verified": "2026-08-15T08:33:29.217Z"
 }
