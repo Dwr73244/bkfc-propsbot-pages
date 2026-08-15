@@ -57,11 +57,88 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "joe-lister",
+      "fighter_b_slug": "harrison-cave",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "mikey-henderson",
+      "fighter_b_slug": "matthew-wiwczaryk",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "stew-martin",
+      "fighter_b_slug": "curtis-davies",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "ste-wallwork",
+      "fighter_b_slug": "leigh-cohoon",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "luke-vaughan",
+      "fighter_b_slug": "bartlomiej-krol",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "liam-dooley",
+      "fighter_b_slug": "tyrone-hamer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 11,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "benjamin-lowe",
+      "fighter_b_slug": "dan-mcgraffin",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-94-manchester"
   ],
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-15",
   "needs_card_population": false
 }

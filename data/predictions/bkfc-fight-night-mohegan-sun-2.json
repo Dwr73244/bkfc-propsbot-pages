@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-mohegan-sun-2",
-  "generated_at": "2026-08-15T08:33:59.932Z",
+  "generated_at": "2026-08-15T11:32:00.237Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,9 +9,9 @@
       "fighter_a_slug": "bryce-henry",
       "fighter_b_slug": "carlos-trinidad",
       "prediction": {
-        "prob_a": 0.7035,
-        "prob_b": 0.2965,
-        "raw_score": 0.3323,
+        "prob_a": 0.7005,
+        "prob_b": 0.2995,
+        "raw_score": 0.3267,
         "favorite_slug": "bryce-henry",
         "confidence": "Low",
         "advantage_a": 70,
@@ -83,10 +83,10 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "71%",
+            "value_a": "67%",
             "value_b": "—",
             "edge_slug": "bryce-henry",
-            "edge_strength": 0.416,
+            "edge_strength": 0.346,
             "weight": 0.04,
             "display": "Henry tougher schedule"
           },
@@ -1237,6 +1237,135 @@
               "outcome": "Decision",
               "moneyline": 203,
               "implied_prob": 0.33
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 12,
+      "fighter_a_slug": "bryce-henry",
+      "fighter_b_slug": "carlos-trinidad-snake",
+      "prediction": {
+        "prob_a": 0.7656,
+        "prob_b": 0.2344,
+        "raw_score": 0.4552,
+        "favorite_slug": "bryce-henry",
+        "confidence": "Low",
+        "advantage_a": 77,
+        "advantage_b": 23,
+        "predictability": 56,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1585,
+            "value_b": 1498,
+            "edge_slug": "bryce-henry",
+            "edge_strength": 0.435,
+            "weight": 0.16,
+            "display": "+87 ELO Henry"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W-W-W",
+            "value_b": "L-W",
+            "edge_slug": "bryce-henry",
+            "edge_strength": 0.973,
+            "weight": 0.13,
+            "display": "Henry hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "7-0",
+            "value_b": "1-1",
+            "edge_slug": "bryce-henry",
+            "edge_strength": 0.972,
+            "weight": 0.11,
+            "display": "89% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "43%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.118,
+            "weight": 0.11,
+            "display": "8 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "2mo ago",
+            "value_b": "1.4y ago",
+            "edge_slug": "bryce-henry",
+            "edge_strength": 0.7,
+            "weight": 0.05,
+            "display": "Henry more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "67%",
+            "value_b": "78%",
+            "edge_slug": null,
+            "edge_strength": 0.209,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "7 fights",
+            "value_b": "2 fights",
+            "edge_slug": "bryce-henry",
+            "edge_strength": 0.625,
+            "weight": 0.03,
+            "display": "+5 fights Henry"
+          }
+        ],
+        "summary": "Model leans Henry 77/23. Edges on elo rating, recent form, bkfc record, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 250,
+              "implied_prob": 0.285
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -250,
+              "implied_prob": 0.715
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -106,
+              "implied_prob": 0.515
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 400,
+              "implied_prob": 0.2
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 250,
+              "implied_prob": 0.285
             }
           ]
         }

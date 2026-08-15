@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-08-15T08:33:59.929Z",
+  "generated_at": "2026-08-15T11:32:00.232Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -294,14 +294,14 @@
       "fighter_a_slug": "esteban-rodriguez",
       "fighter_b_slug": "stephen-tomahawk-townsel",
       "prediction": {
-        "prob_a": 0.8,
-        "prob_b": 0.2,
-        "raw_score": 0.5331,
+        "prob_a": 0.8069,
+        "prob_b": 0.1931,
+        "raw_score": 0.5499,
         "favorite_slug": "esteban-rodriguez",
         "confidence": "Low",
-        "advantage_a": 80,
-        "advantage_b": 20,
-        "predictability": 53,
+        "advantage_a": 81,
+        "advantage_b": 19,
+        "predictability": 56,
         "factors": [
           {
             "name": "Recent Form",
@@ -377,12 +377,12 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "37%",
+            "value_a": "40%",
             "value_b": "—",
-            "edge_slug": "stephen-tomahawk-townsel",
-            "edge_strength": 0.255,
+            "edge_slug": null,
+            "edge_strength": 0.192,
             "weight": 0.04,
-            "display": "Townsel tougher schedule"
+            "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
@@ -394,7 +394,7 @@
             "display": "+4 fights Townsel"
           }
         ],
-        "summary": "Model leans Rodriguez 80/20. Edges on recent form, bkfc record, ko rate, age.",
+        "summary": "Model leans Rodriguez 81/19. Edges on recent form, bkfc record, ko rate, age.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -910,6 +910,258 @@
               "outcome": "Decision",
               "moneyline": 382,
               "implied_prob": 0.208
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 8,
+      "fighter_a_slug": "ernesto-suarez",
+      "fighter_b_slug": "ronny-hauser",
+      "prediction": {
+        "prob_a": 0.6346,
+        "prob_b": 0.3654,
+        "raw_score": 0.2123,
+        "favorite_slug": "ernesto-suarez",
+        "confidence": "Very Low",
+        "advantage_a": 63,
+        "advantage_b": 37,
+        "predictability": 36,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Age",
+            "value_a": 31,
+            "value_b": 32,
+            "edge_slug": "ernesto-suarez",
+            "edge_strength": 0.24,
+            "weight": 0.09,
+            "display": "31 vs 32"
+          },
+          {
+            "name": "Reach",
+            "value_a": "66\"",
+            "value_b": "62\"",
+            "edge_slug": "ernesto-suarez",
+            "edge_strength": 0.667,
+            "weight": 0.08,
+            "display": "+4\" Suarez"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'7\"",
+            "value_b": "5'6\"",
+            "edge_slug": "ernesto-suarez",
+            "edge_strength": 0.2,
+            "weight": 0.03,
+            "display": "+1\" Suarez"
+          }
+        ],
+        "summary": "Model leans Suarez 63/37. Edges on age, reach.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 187,
+              "implied_prob": 0.348
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -187,
+              "implied_prob": 0.652
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 113,
+              "implied_prob": 0.469
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 448,
+              "implied_prob": 0.183
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 187,
+              "implied_prob": 0.348
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 9,
+      "fighter_a_slug": "adyam-devillafuerte",
+      "fighter_b_slug": "miguel-hinojosa",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "miguel-hinojosa",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 270,
+              "implied_prob": 0.27
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -270,
+              "implied_prob": 0.73
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -111,
+              "implied_prob": 0.526
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 389,
+              "implied_prob": 0.204
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 270,
+              "implied_prob": 0.27
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 10,
+      "fighter_a_slug": "eduardo-suarez",
+      "fighter_b_slug": "jose-davila",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "jose-davila",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 194,
+              "implied_prob": 0.34
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -194,
+              "implied_prob": 0.66
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 110,
+              "implied_prob": 0.475
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 441,
+              "implied_prob": 0.185
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 194,
+              "implied_prob": 0.34
             }
           ]
         }

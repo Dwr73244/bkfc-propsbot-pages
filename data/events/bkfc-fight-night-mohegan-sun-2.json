@@ -134,11 +134,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 12,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "bryce-henry",
+      "fighter_b_slug": "carlos-trinidad-snake",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-2"
   ],
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-15",
   "needs_card_population": false
 }

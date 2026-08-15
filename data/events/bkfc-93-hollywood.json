@@ -90,11 +90,44 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "ernesto-suarez",
+      "fighter_b_slug": "ronny-hauser",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "adyam-devillafuerte",
+      "fighter_b_slug": "miguel-hinojosa",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "eduardo-suarez",
+      "fighter_b_slug": "jose-davila",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-93-hollywood"
   ],
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-15",
   "needs_card_population": false
 }

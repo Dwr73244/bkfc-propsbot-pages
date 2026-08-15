@@ -1,0 +1,37 @@
+{
+  "slug": "eduardo-suarez",
+  "name": "Eduardo Suarez",
+  "full_name": null,
+  "nickname": "LAS MANOS BENITAS",
+  "division": "Featherweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": 67,
+  "reach_in": 69,
+  "stance": null,
+  "dob": "1994-11",
+  "age": 31,
+  "nationality": "Cuba",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1780620022/o/eduardo-suarez-400x400.png?1780620022",
+  "social": {
+    "instagram": "https://www.instagram.com/lasmanosbenditas",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/eduardo-suarez"
+  ],
+  "last_updated": "2026-04-17"
+}
