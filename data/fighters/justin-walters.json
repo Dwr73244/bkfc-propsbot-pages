@@ -4,8 +4,8 @@
   "nickname": "Sexy",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 2,
+    "wins": 0,
+    "losses": 1,
     "draws": 0,
     "kos": 1
   },
@@ -72,5 +72,5 @@
   "elo_peak": 1500,
   "record_source": "tracked-events",
   "record_verified": "2026-08-09",
-  "history_last_verified": "2026-08-06T10:37:19.466Z"
+  "history_last_verified": "2026-08-16T08:34:23.813Z"
 }
