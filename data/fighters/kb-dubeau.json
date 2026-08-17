@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785514700/o/KB_DUBEAU-STABY_SMALL_AVATAR_400x400.png?1785514700",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -33,6 +33,6 @@
   "sources": [
     "https://www.bkfc.com/fighters/kb-dubeau-staby"
   ],
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-08-17",
   "stub": true
 }
