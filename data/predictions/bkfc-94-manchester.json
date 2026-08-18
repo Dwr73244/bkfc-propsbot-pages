@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-08-17T11:36:25.741Z",
+  "generated_at": "2026-08-18T08:42:05.948Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -618,14 +618,14 @@
       "fighter_a_slug": "mikey-henderson",
       "fighter_b_slug": "matthew-wiwczaryk",
       "prediction": {
-        "prob_a": 0.7546,
-        "prob_b": 0.2454,
-        "raw_score": 0.432,
+        "prob_a": 0.7236,
+        "prob_b": 0.2764,
+        "raw_score": 0.3701,
         "favorite_slug": "mikey-henderson",
-        "confidence": "Very Low",
-        "advantage_a": 75,
-        "advantage_b": 25,
-        "predictability": 43,
+        "confidence": "Medium",
+        "advantage_a": 72,
+        "advantage_b": 28,
+        "predictability": 68,
         "factors": [
           {
             "name": "Recent Form",
@@ -639,11 +639,11 @@
           {
             "name": "BKFC Record",
             "value_a": "3-0",
-            "value_b": "0-0",
+            "value_b": "3-1",
             "edge_slug": "mikey-henderson",
-            "edge_strength": 0.75,
+            "edge_strength": 0.333,
             "weight": 0.11,
-            "display": "80% vs 50% win rate"
+            "display": "80% vs 67% win rate"
           },
           {
             "name": "Age",
@@ -683,21 +683,21 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "60%",
+            "value_a": "68%",
             "value_b": "—",
-            "edge_slug": null,
-            "edge_strength": 0.2,
+            "edge_slug": "mikey-henderson",
+            "edge_strength": 0.35,
             "weight": 0.04,
-            "display": "Similar schedule"
+            "display": "Henderson tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "3 fights",
-            "value_b": "0 fights",
-            "edge_slug": "mikey-henderson",
-            "edge_strength": 0.375,
+            "value_b": "4 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
             "weight": 0.03,
-            "display": "+3 fights Henderson"
+            "display": "Even"
           },
           {
             "name": "Height",
@@ -709,7 +709,7 @@
             "display": "+2\" Henderson"
           }
         ],
-        "summary": "Model leans Henderson 75/25. Edges on recent form, bkfc record, reach, bkfc experience.",
+        "summary": "Model leans Henderson 72/28. Edges on recent form, bkfc record, reach, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -785,7 +785,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "16d ago",
+            "value_a": "17d ago",
             "value_b": "—",
             "edge_slug": "stew-martin",
             "edge_strength": 1,

@@ -5,8 +5,8 @@
   "nickname": null,
   "division": "Cruiserweight",
   "bkfc_record": {
-    "wins": 3,
-    "losses": 1,
+    "wins": 4,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -98,7 +98,7 @@
     "https://www.bkfc.com/fighters/mike-jones"
   ],
   "last_updated": "2026-08-08",
-  "history_last_verified": "2026-08-09T08:47:04.984Z",
+  "history_last_verified": "2026-08-18T08:41:53.834Z",
   "elo": 1478,
   "elo_peak": 1500
 }
