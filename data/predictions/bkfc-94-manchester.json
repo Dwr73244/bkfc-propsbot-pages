@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-08-19T08:42:36.395Z",
+  "generated_at": "2026-08-19T11:36:02.499Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -867,13 +867,13 @@
       "fighter_a_slug": "ste-wallwork",
       "fighter_b_slug": "leigh-cohoon",
       "prediction": {
-        "prob_a": 0.2868,
-        "prob_b": 0.7132,
-        "raw_score": -0.3504,
+        "prob_a": 0.2979,
+        "prob_b": 0.7021,
+        "raw_score": -0.3296,
         "favorite_slug": "leigh-cohoon",
         "confidence": "Very Low",
-        "advantage_a": 29,
-        "advantage_b": 71,
+        "advantage_a": 30,
+        "advantage_b": 70,
         "predictability": 36,
         "factors": [
           {
@@ -924,9 +924,9 @@
           {
             "name": "Opponent Quality",
             "value_a": "—",
-            "value_b": "33%",
+            "value_b": "22%",
             "edge_slug": "ste-wallwork",
-            "edge_strength": 0.333,
+            "edge_strength": 0.556,
             "weight": 0.04,
             "display": "Wallwork tougher schedule"
           },
@@ -940,7 +940,7 @@
             "display": "+3 fights Cohoon"
           }
         ],
-        "summary": "Model leans Cohoon 71/29. Edges on bkfc record, ko rate, activity, bkfc experience.",
+        "summary": "Model leans Cohoon 70/30. Edges on bkfc record, ko rate, activity, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
