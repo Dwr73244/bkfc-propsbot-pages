@@ -1,7 +1,15 @@
 {
   "slug": "carlos-trinidad",
-  "fetched_at": "2026-08-19T11:42:09.636Z",
+  "fetched_at": "2026-08-20T11:44:30.245Z",
   "gym": null,
   "coach": null,
-  "news": []
+  "news": [
+    {
+      "title": "BKFC Fight Night Mohegan Sun: Henry vs Trinidad Fight Card - Bare Knuckle Heroes",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNHMyRW5OSEpwVkhETk1CaHJ0ck1hMGs1UnR2dnVwR0ZIUmhEV1hLYnJ3OE51N2JmUnVUa2JXaXdHQTQ2Q2Q3c3FNR0hTU2hUTVh2OHhBODNsZHRKT3o4dzVCa0p6VC1ob3RtYWpfX2dkMWdfNThOQVRZWk9zSHkzNVFLZlY3ajA0UHJ4Y2x5dTJYQQ?oc=5",
+      "source": "Bare Knuckle Heroes",
+      "date": "2026-08-19",
+      "snippet": "BKFC Fight Night Mohegan Sun: Henry vs Trinidad Fight Card Bare Knuckle Heroes"
+    }
+  ]
 }

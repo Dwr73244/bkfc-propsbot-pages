@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-08-20T08:43:23.724Z",
+  "generated_at": "2026-08-20T11:37:53.796Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -498,14 +498,14 @@
       "fighter_a_slug": "joe-lister",
       "fighter_b_slug": "harrison-cave",
       "prediction": {
-        "prob_a": 0.6442,
-        "prob_b": 0.3558,
-        "raw_score": 0.2283,
+        "prob_a": 0.6828,
+        "prob_b": 0.3172,
+        "raw_score": 0.295,
         "favorite_slug": "joe-lister",
         "confidence": "Very Low",
-        "advantage_a": 64,
-        "advantage_b": 36,
-        "predictability": 32,
+        "advantage_a": 68,
+        "advantage_b": 32,
+        "predictability": 38,
         "factors": [
           {
             "name": "Recent Form",
@@ -554,12 +554,12 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "14%",
+            "value_a": "57%",
             "value_b": "—",
-            "edge_slug": "harrison-cave",
-            "edge_strength": 0.714,
+            "edge_slug": null,
+            "edge_strength": 0.143,
             "weight": 0.04,
-            "display": "Cave tougher schedule"
+            "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
@@ -571,7 +571,7 @@
             "display": "+3 fights Lister"
           }
         ],
-        "summary": "Model leans Lister 64/36. Edges on recent form, bkfc record, ko rate, bkfc experience.",
+        "summary": "Model leans Lister 68/32. Edges on recent form, bkfc record, ko rate, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1318,6 +1318,135 @@
               "outcome": "Decision",
               "moneyline": 300,
               "implied_prob": 0.25
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 12,
+      "fighter_a_slug": "joe-lister",
+      "fighter_b_slug": "harry-bray",
+      "prediction": {
+        "prob_a": 0.3865,
+        "prob_b": 0.6135,
+        "raw_score": -0.1776,
+        "favorite_slug": "harry-bray",
+        "confidence": "Low",
+        "advantage_a": 39,
+        "advantage_b": 61,
+        "predictability": 40,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1522,
+            "value_b": 1522,
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.16,
+            "display": "Equal ratings"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "W",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.13,
+            "display": "Similar form"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-1",
+            "value_b": "1-0",
+            "edge_slug": null,
+            "edge_strength": 0.167,
+            "weight": 0.11,
+            "display": "60% vs 67% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "50%",
+            "value_b": "100%",
+            "edge_slug": "harry-bray",
+            "edge_strength": 0.75,
+            "weight": 0.11,
+            "display": "-50 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.5y ago",
+            "value_b": "19d ago",
+            "edge_slug": "harry-bray",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Bray more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "57%",
+            "value_b": "22%",
+            "edge_slug": "joe-lister",
+            "edge_strength": 0.698,
+            "weight": 0.04,
+            "display": "Lister tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "1 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Bray 61/39. Edges on ko rate, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 371,
+              "implied_prob": 0.213
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -371,
+              "implied_prob": 0.787
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -131,
+              "implied_prob": 0.567
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 354,
+              "implied_prob": 0.221
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 371,
+              "implied_prob": 0.213
             }
           ]
         }

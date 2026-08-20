@@ -134,11 +134,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 12,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "joe-lister",
+      "fighter_b_slug": "harry-bray",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-94-manchester"
   ],
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-20",
   "needs_card_population": false
 }
