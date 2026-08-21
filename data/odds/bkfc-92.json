@@ -3,9 +3,10 @@
   "event_date": "2026-08-29",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-08-20T11:34:01.142Z",
-  "book_count": 3,
+  "fetched_at": "2026-08-21T08:07:42.996Z",
+  "book_count": 4,
   "books": [
+    "bestfightodds",
     "kalshi",
     "polymarket",
     "xbet"

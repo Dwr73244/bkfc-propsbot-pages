@@ -1,9 +1,9 @@
 {
   "event_slug": "bkfc-fight-night-mohegan-sun-2",
   "event_date": "2026-08-21",
-  "source": "bestfightodds",
+  "source": "unibet",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4327",
-  "fetched_at": "2026-08-20T16:01:08.865Z",
+  "fetched_at": "2026-08-20T16:01:08.866Z",
   "bouts": [
     {
       "fighter_a_slug": "cody-vidal",

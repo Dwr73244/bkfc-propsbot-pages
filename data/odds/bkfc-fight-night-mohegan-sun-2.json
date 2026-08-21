@@ -3,13 +3,255 @@
   "event_date": "2026-08-21",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-08-20T11:34:01.144Z",
-  "book_count": 4,
+  "fetched_at": "2026-08-21T08:07:42.997Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "cody-vidal",
+      "fighter_b_slug": "joseph-creer",
+      "moneyline_a": -139,
+      "moneyline_b": 102,
+      "implied_prob_a": 0.582,
+      "implied_prob_b": 0.495,
+      "vig": 0.077,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -139,
+          -139
+        ],
+        "b": [
+          102,
+          102
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "lardy-navarro",
+      "fighter_b_slug": "robert-fichtner",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -335,
+          -335
+        ],
+        "b": [
+          220,
+          220
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "nate-ghareeb",
+      "fighter_b_slug": "nash-diederichs",
+      "moneyline_a": -345,
+      "moneyline_b": 230,
+      "implied_prob_a": 0.775,
+      "implied_prob_b": 0.303,
+      "vig": 0.078,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -345,
+          -345
+        ],
+        "b": [
+          230,
+          230
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "jared-lennon",
+      "fighter_b_slug": "dominick-carey",
+      "moneyline_a": -286,
+      "moneyline_b": 195,
+      "implied_prob_a": 0.741,
+      "implied_prob_b": 0.339,
+      "vig": 0.08,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -286,
+          -286
+        ],
+        "b": [
+          195,
+          195
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "joey-gambino",
+      "fighter_b_slug": "tommy-strydom",
+      "moneyline_a": -215,
+      "moneyline_b": 150,
+      "implied_prob_a": 0.683,
+      "implied_prob_b": 0.4,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -215,
+          -215
+        ],
+        "b": [
+          150,
+          150
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "chris-perreault",
+      "fighter_b_slug": "joe-powers",
+      "moneyline_a": -715,
+      "moneyline_b": 420,
+      "implied_prob_a": 0.877,
+      "implied_prob_b": 0.192,
+      "vig": 0.07,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -715,
+          -715
+        ],
+        "b": [
+          420,
+          420
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "alexandra-ballou",
+      "fighter_b_slug": "sophia-hayes",
+      "moneyline_a": -275,
+      "moneyline_b": 188,
+      "implied_prob_a": 0.733,
+      "implied_prob_b": 0.347,
+      "vig": 0.081,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -275,
+          -275
+        ],
+        "b": [
+          188,
+          188
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "brandon-bushaw",
+      "fighter_b_slug": "matt-denning",
+      "moneyline_a": -455,
+      "moneyline_b": 300,
+      "implied_prob_a": 0.82,
+      "implied_prob_b": 0.25,
+      "vig": 0.07,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -455,
+          -455
+        ],
+        "b": [
+          300,
+          300
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "kris-moutinho",
+      "fighter_b_slug": "michael-hernandez",
+      "moneyline_a": -286,
+      "moneyline_b": 195,
+      "implied_prob_a": 0.741,
+      "implied_prob_b": 0.339,
+      "vig": 0.08,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -286,
+          -286
+        ],
+        "b": [
+          195,
+          195
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "bryce-henry",
+      "fighter_b_slug": "carlos-trinidad-snake",
+      "moneyline_a": -215,
+      "moneyline_b": 150,
+      "implied_prob_a": 0.683,
+      "implied_prob_b": 0.4,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -215,
+          -215
+        ],
+        "b": [
+          150,
+          150
+        ]
+      }
+    }
+  ]
 }

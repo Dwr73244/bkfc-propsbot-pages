@@ -2,8 +2,79 @@
   "event_slug": "bkfc-fight-night-mohegan-sun-2",
   "event_date": "2026-08-21",
   "source": "bestfightodds-props",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4304",
-  "fetched_at": "2026-08-09T07:35:36.312Z",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4327",
+  "fetched_at": "2026-08-21T08:07:39.826Z",
   "total_prop_rows": 0,
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "cody-vidal",
+      "fighter_b_slug": "joseph-creer",
+      "matchup_id": "44572",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "lardy-navarro",
+      "fighter_b_slug": "robert-fichtner",
+      "matchup_id": "44582",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "nate-ghareeb",
+      "fighter_b_slug": "nash-diederichs",
+      "matchup_id": "44577",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "jared-lennon",
+      "fighter_b_slug": "dominick-carey",
+      "matchup_id": "44584",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "joey-gambino",
+      "fighter_b_slug": "tommy-strydom",
+      "matchup_id": "44581",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "chris-perreault",
+      "fighter_b_slug": "joe-powers",
+      "matchup_id": "44576",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "alexandra-ballou",
+      "fighter_b_slug": "sophia-hayes",
+      "matchup_id": "44578",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "brandon-bushaw",
+      "fighter_b_slug": "matt-denning",
+      "matchup_id": "44585",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "kris-moutinho",
+      "fighter_b_slug": "michael-hernandez",
+      "matchup_id": "44583",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "bryce-henry",
+      "fighter_b_slug": "carlos-trinidad-snake",
+      "matchup_id": "44571",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
 }
