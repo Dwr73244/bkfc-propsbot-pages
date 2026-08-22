@@ -6,7 +6,7 @@
   "division": "Women's Bantamweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -61,5 +61,7 @@
   "last_updated": "2026-07-31",
   "history_last_verified": "2026-07-31T18:44:13.889Z",
   "elo": 1478,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "record_source": "tracked-events",
+  "record_verified": "2026-08-22"
 }
