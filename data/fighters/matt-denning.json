@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-mohegan-sun-2",
+      "event_slug": "bkfc-fight-night-mohegan-sun-2",
+      "date": "2026-08-21T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "1:34",
+      "opponent": "brandon-bushaw",
+      "opponent_slug": "brandon-bushaw",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/matt-denning"
   ],
-  "last_updated": "2026-08-08"
+  "last_updated": "2026-08-08",
+  "elo": 1523,
+  "elo_peak": 1523
 }

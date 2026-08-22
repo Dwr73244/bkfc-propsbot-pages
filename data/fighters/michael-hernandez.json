@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-mohegan-sun-2",
+      "event_slug": "bkfc-fight-night-mohegan-sun-2",
+      "date": "2026-08-21T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "0:56",
+      "opponent": "kris-moutinho",
+      "opponent_slug": "kris-moutinho",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Michigan",
       "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
       "date": "2025-11-01T00:00:00.000Z",
@@ -48,5 +59,7 @@
     "https://www.bkfc.com/fighters/michael-hernandez"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-08T08:39:18.713Z"
+  "history_last_verified": "2026-08-08T08:39:18.713Z",
+  "elo": 1478,
+  "elo_peak": 1500
 }

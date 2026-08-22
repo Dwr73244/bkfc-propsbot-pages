@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-92",
-  "generated_at": "2026-08-21T11:37:33.818Z",
+  "generated_at": "2026-08-22T08:34:28.372Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "kai-stewart",
       "fighter_b_slug": "harry-gigliotti",
       "prediction": {
-        "prob_a": 0.7371,
-        "prob_b": 0.2629,
-        "raw_score": 0.3966,
+        "prob_a": 0.734,
+        "prob_b": 0.266,
+        "raw_score": 0.3904,
         "favorite_slug": "kai-stewart",
         "confidence": "Low",
-        "advantage_a": 74,
-        "advantage_b": 26,
+        "advantage_a": 73,
+        "advantage_b": 27,
         "predictability": 51,
         "factors": [
           {
@@ -74,10 +74,10 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "70%",
+            "value_a": "67%",
             "value_b": "—",
             "edge_slug": "kai-stewart",
-            "edge_strength": 0.407,
+            "edge_strength": 0.344,
             "weight": 0.04,
             "display": "Stewart tougher schedule"
           },
@@ -91,7 +91,7 @@
             "display": "+8 fights Stewart"
           }
         ],
-        "summary": "Model leans Stewart 74/26. Edges on recent form, bkfc record, activity, opponent quality.",
+        "summary": "Model leans Stewart 73/27. Edges on recent form, bkfc record, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -518,7 +518,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "1.5y ago",
+            "value_a": "1.6y ago",
             "value_b": "—",
             "edge_slug": null,
             "edge_strength": 0.1,

@@ -3,7 +3,7 @@
   "event_date": "2026-08-21",
   "source": "bestfightodds",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4327",
-  "fetched_at": "2026-08-20T16:01:08.865Z",
+  "fetched_at": "2026-08-21T18:48:04.187Z",
   "bouts": [
     {
       "fighter_a_slug": "cody-vidal",
@@ -88,21 +88,21 @@
     {
       "fighter_a_slug": "kris-moutinho",
       "fighter_b_slug": "michael-hernandez",
-      "moneyline_a": -286,
-      "moneyline_b": 195,
-      "implied_prob_a": 0.741,
-      "implied_prob_b": 0.339,
+      "moneyline_a": -167,
+      "moneyline_b": 120,
+      "implied_prob_a": 0.625,
+      "implied_prob_b": 0.455,
       "vig": 0.08,
       "book_count": 1
     },
     {
       "fighter_a_slug": "bryce-henry",
       "fighter_b_slug": "carlos-trinidad-snake",
-      "moneyline_a": -215,
-      "moneyline_b": 150,
-      "implied_prob_a": 0.683,
-      "implied_prob_b": 0.4,
-      "vig": 0.083,
+      "moneyline_a": -245,
+      "moneyline_b": 170,
+      "implied_prob_a": 0.71,
+      "implied_prob_b": 0.37,
+      "vig": 0.081,
       "book_count": 1
     }
   ]

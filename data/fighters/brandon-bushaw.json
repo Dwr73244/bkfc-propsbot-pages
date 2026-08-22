@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-mohegan-sun-2",
+      "event_slug": "bkfc-fight-night-mohegan-sun-2",
+      "date": "2026-08-21T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "1:34",
+      "opponent": "matt-denning",
+      "opponent_slug": "matt-denning",
+      "result": "L"
+    },
+    {
       "event": "BKFC 52",
       "event_slug": "bkfc-52-south-carolina",
       "date": "2023-10-20T00:00:00.000Z",
@@ -72,7 +83,7 @@
     "https://www.bkfc.com/fighters/brandon-bushaw"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
+  "elo": 1499,
   "elo_peak": 1522,
   "history_last_verified": "2026-08-14T09:13:25.596Z"
 }

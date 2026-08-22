@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-mohegan-sun-2",
-  "generated_at": "2026-08-21T11:37:33.830Z",
+  "generated_at": "2026-08-21T23:55:02.319Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -590,7 +590,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "1.5y ago",
+            "value_a": "1.6y ago",
             "value_b": "—",
             "edge_slug": null,
             "edge_strength": 0.1,
@@ -1245,14 +1245,14 @@
       "fighter_a_slug": "kris-moutinho",
       "fighter_b_slug": "michael-hernandez",
       "prediction": {
-        "prob_a": 0.4855,
-        "prob_b": 0.5145,
+        "prob_a": 0.4372,
+        "prob_b": 0.5628,
         "raw_score": -0.2874,
         "favorite_slug": "michael-hernandez",
         "confidence": "Very Low",
-        "advantage_a": 49,
-        "advantage_b": 51,
-        "predictability": 28,
+        "advantage_a": 44,
+        "advantage_b": 56,
+        "predictability": 31,
         "factors": [
           {
             "name": "BKFC Record",
@@ -1273,7 +1273,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Hernandez 51/49. Edges on bkfc record.",
+        "summary": "Model leans Hernandez 56/44. Edges on bkfc record.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1314,14 +1314,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.48553069629436496,
-        "model_prob_b": 0.514469303705635,
-        "market_fair_prob_a": 0.686111111111111,
-        "market_fair_prob_b": 0.3138888888888889,
-        "edge_pct_a": -0.20058041481674604,
-        "edge_pct_b": 0.20058041481674616,
+        "model_prob_a": 0.43719736296103173,
+        "model_prob_b": 0.5628026370389683,
+        "market_fair_prob_a": 0.5787037037037037,
+        "market_fair_prob_b": 0.4212962962962963,
+        "edge_pct_a": -0.141506340742672,
+        "edge_pct_b": 0.141506340742672,
         "edge_slug": "michael-hernandez",
-        "edge_pct": 0.20058041481674604
+        "edge_pct": 0.141506340742672
       }
     },
     {
@@ -1329,14 +1329,14 @@
       "fighter_a_slug": "bryce-henry",
       "fighter_b_slug": "carlos-trinidad-snake",
       "prediction": {
-        "prob_a": 0.7049,
-        "prob_b": 0.2951,
+        "prob_a": 0.7169,
+        "prob_b": 0.2831,
         "raw_score": 0.4552,
         "favorite_slug": "bryce-henry",
         "confidence": "Low",
-        "advantage_a": 70,
-        "advantage_b": 30,
-        "predictability": 52,
+        "advantage_a": 72,
+        "advantage_b": 28,
+        "predictability": 53,
         "factors": [
           {
             "name": "ELO Rating",
@@ -1411,7 +1411,7 @@
             "display": "+5 fights Henry"
           }
         ],
-        "summary": "Model leans Henry 70/30. Edges on elo rating, recent form, bkfc record, activity.",
+        "summary": "Model leans Henry 72/28. Edges on elo rating, recent form, bkfc record, activity.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1452,14 +1452,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.7048562232084892,
-        "model_prob_b": 0.2951437767915108,
-        "market_fair_prob_a": 0.6306555863342567,
-        "market_fair_prob_b": 0.3693444136657433,
-        "edge_pct_a": 0.0742006368742325,
-        "edge_pct_b": -0.07420063687423245,
+        "model_prob_a": 0.716894542691407,
+        "model_prob_b": 0.28310545730859304,
+        "market_fair_prob_a": 0.6574074074074073,
+        "market_fair_prob_b": 0.34259259259259256,
+        "edge_pct_a": 0.059487135283999626,
+        "edge_pct_b": -0.059487135283999515,
         "edge_slug": "bryce-henry",
-        "edge_pct": 0.0742006368742325
+        "edge_pct": 0.059487135283999626
       }
     }
   ]

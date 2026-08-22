@@ -30,6 +30,17 @@
   "bio": "American mixed martial artist turned bare-knuckle fighter based in Fountain Valley, California, training with Classic Fight Team. Compiled a 3-1 MMA record with all bouts ending in round one before transitioning to BKFC. Known primarily as a striker, he made his BKFC debut at KnuckleMania IV against Keith Richardson, lost to David Simpson in November 2025, and is matched against Jomi Escoboza in May 2026.",
   "last_5": [
     {
+      "event": "bkfc-fight-night-mohegan-sun-2",
+      "event_slug": "bkfc-fight-night-mohegan-sun-2",
+      "date": "2026-08-21T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "joseph-creer",
+      "opponent_slug": "joseph-creer",
+      "result": "L"
+    },
+    {
       "event": "BKFC 89 Palm Desert: Herring vs. Maness",
       "event_slug": "bkfc-89-palm-desert",
       "date": "2026-05-23T04:00:00.000Z",
@@ -78,17 +89,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/cody-vidal"
-    },
-    {
-      "event": "BKFC Fight Night Philly: Pague vs. Angelcor",
-      "event_slug": "bkfc-fight-night-philly-2025-03-21",
-      "date": "2025-03-21T20:00:00.000Z",
-      "method": "Draw (majority)",
-      "round": 5,
-      "time": "2:00",
-      "opponent": "brandon-conley",
-      "opponent_slug": "brandon-conley",
-      "result": "D"
     }
   ],
   "sources": [
@@ -97,7 +97,7 @@
     "https://www.bkfc.com/fighters/cody-vidal"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1505,
+  "elo": 1485,
   "elo_peak": 1505,
   "history_last_verified": "2026-07-31T18:47:20.207Z"
 }

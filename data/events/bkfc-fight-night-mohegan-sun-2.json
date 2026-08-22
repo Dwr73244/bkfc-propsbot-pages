@@ -34,7 +34,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "joseph-creer",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 3,
@@ -45,7 +50,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "lardy-navarro",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:31"
+      }
     },
     {
       "order": 4,
@@ -78,7 +88,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "joey-gambino",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:23"
+      }
     },
     {
       "order": 7,
@@ -89,7 +104,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "chris-perreault",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:37"
+      }
     },
     {
       "order": 8,
@@ -100,7 +120,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "sophia-hayes",
+        "method": "TKO",
+        "round": 2,
+        "time": "1:05"
+      }
     },
     {
       "order": 9,
@@ -111,7 +136,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "matt-denning",
+        "method": "TKO",
+        "round": 4,
+        "time": "1:34"
+      }
     },
     {
       "order": 10,
@@ -133,7 +163,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "kris-moutinho",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:56"
+      }
     },
     {
       "order": 12,
@@ -150,6 +185,6 @@
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-mohegan-sun-2"
   ],
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-22",
   "needs_card_population": false
 }

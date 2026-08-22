@@ -3,7 +3,7 @@
   "event_date": "2026-08-21",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-08-21T11:35:43.600Z",
+  "fetched_at": "2026-08-22T07:37:43.338Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -208,10 +208,10 @@
     {
       "fighter_a_slug": "kris-moutinho",
       "fighter_b_slug": "michael-hernandez",
-      "moneyline_a": -286,
-      "moneyline_b": 195,
-      "implied_prob_a": 0.741,
-      "implied_prob_b": 0.339,
+      "moneyline_a": -167,
+      "moneyline_b": 120,
+      "implied_prob_a": 0.625,
+      "implied_prob_b": 0.455,
       "vig": 0.08,
       "book_count": 2,
       "books": [
@@ -220,23 +220,23 @@
       ],
       "line_range": {
         "a": [
-          -286,
-          -286
+          -167,
+          -167
         ],
         "b": [
-          195,
-          195
+          120,
+          120
         ]
       }
     },
     {
       "fighter_a_slug": "bryce-henry",
       "fighter_b_slug": "carlos-trinidad-snake",
-      "moneyline_a": -215,
-      "moneyline_b": 150,
-      "implied_prob_a": 0.683,
-      "implied_prob_b": 0.4,
-      "vig": 0.083,
+      "moneyline_a": -245,
+      "moneyline_b": 170,
+      "implied_prob_a": 0.71,
+      "implied_prob_b": 0.37,
+      "vig": 0.081,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -244,12 +244,12 @@
       ],
       "line_range": {
         "a": [
-          -215,
-          -215
+          -245,
+          -245
         ],
         "b": [
-          150,
-          150
+          170,
+          170
         ]
       }
     }
