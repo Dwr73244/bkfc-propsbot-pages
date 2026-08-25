@@ -6,7 +6,7 @@
   "division": "Welterweight",
   "bkfc_record": {
     "wins": 7,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -30,6 +30,19 @@
   },
   "bio": null,
   "last_5": [
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-fight-night-mohegan-sun-2",
+      "date": "2026-08-21T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:59",
+      "opponent": "Bryce Henry",
+      "opponent_slug": "bryce-henry",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/carlos-trinidad"
+    },
     {
       "event": "BKFC 83",
       "event_slug": "bkfc-rome",
@@ -81,24 +94,11 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/carlos-trinidad"
-    },
-    {
-      "event": "BKFC 43",
-      "event_slug": "bkfc-43-omaha-alexander-vs-smith",
-      "date": "2023-05-19T00:00:00.000Z",
-      "method": "Unanimous Decision",
-      "round": 5,
-      "time": "02:00",
-      "opponent": "Elvin Brito",
-      "opponent_slug": "elvin-brito",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/carlos-trinidad"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/carlos-trinidad"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-15T08:33:34.354Z"
+  "history_last_verified": "2026-08-25T08:47:05.808Z"
 }

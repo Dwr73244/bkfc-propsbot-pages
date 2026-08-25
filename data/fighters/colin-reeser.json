@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Fight Night Philadelphia",
       "event_slug": "bkfc-fight-night-philly",
-      "date": "2025-03-21T04:00:00.000Z",
+      "date": "2025-03-21T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:52",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:02.044Z"
+  "history_last_verified": "2026-08-25T08:47:27.998Z"
 }

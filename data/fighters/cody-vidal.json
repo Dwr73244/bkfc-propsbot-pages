@@ -5,7 +5,7 @@
   "division": "Cruiserweight",
   "bkfc_record": {
     "wins": 4,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -54,7 +54,7 @@
     {
       "event": "BKFC 89",
       "event_slug": "bkfc-palm-desert",
-      "date": "2026-05-22T04:00:00.000Z",
+      "date": "2026-05-22T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:58",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
-      "date": "2025-11-15T05:00:00.000Z",
+      "date": "2025-11-15T00:00:00.000Z",
       "method": "KO",
       "round": 5,
       "time": "00:43",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC - Fight Night Philly",
       "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
-      "date": "2025-07-25T04:00:00.000Z",
+      "date": "2025-07-25T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:28",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1485,
   "elo_peak": 1505,
-  "history_last_verified": "2026-07-31T18:47:20.207Z"
+  "history_last_verified": "2026-08-25T08:47:29.913Z"
 }
