@@ -4,7 +4,7 @@
   "nickname": null,
   "division": "Women's Strawweight",
   "bkfc_record": {
-    "wins": 11,
+    "wins": 10,
     "losses": 3,
     "draws": 0,
     "kos": 2
@@ -261,6 +261,6 @@
     }
   ],
   "record_source": "wikipedia",
-  "record_verified": "2026-08-15",
+  "record_verified": "2026-08-25",
   "history_last_verified": "2026-08-25T08:46:51.763Z"
 }

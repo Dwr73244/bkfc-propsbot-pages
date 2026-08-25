@@ -6,7 +6,7 @@
   "division": "Cruiserweight",
   "bkfc_record": {
     "wins": 4,
-    "losses": 3,
+    "losses": 2,
     "draws": 0,
     "kos": 3
   },
@@ -107,6 +107,6 @@
   "elo": 1496,
   "elo_peak": 1522,
   "record_source": "wikipedia",
-  "record_verified": "2026-08-15",
+  "record_verified": "2026-08-25",
   "history_last_verified": "2026-08-25T08:47:17.873Z"
 }
