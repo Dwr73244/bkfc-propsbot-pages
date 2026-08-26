@@ -46,11 +46,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "dejan-zlaticanin",
+      "fighter_b_slug": "said-akhyadov",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-serbia"
   ],
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-08-26",
   "needs_card_population": false
 }

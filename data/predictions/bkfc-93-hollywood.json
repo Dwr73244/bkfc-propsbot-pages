@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-08-26T08:48:35.034Z",
+  "generated_at": "2026-08-26T11:40:44.310Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1162,6 +1162,135 @@
               "outcome": "Decision",
               "moneyline": 194,
               "implied_prob": 0.34
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 11,
+      "fighter_a_slug": "bryan-duran",
+      "fighter_b_slug": "felony-charles-bennett",
+      "prediction": {
+        "prob_a": 0.6834,
+        "prob_b": 0.3166,
+        "raw_score": 0.296,
+        "favorite_slug": "bryan-duran",
+        "confidence": "Low",
+        "advantage_a": 68,
+        "advantage_b": 32,
+        "predictability": 44,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "—",
+            "edge_slug": "bryan-duran",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Duran hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "8-1",
+            "value_b": "0-0",
+            "edge_slug": "bryan-duran",
+            "edge_strength": 0.795,
+            "weight": 0.11,
+            "display": "82% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "13%",
+            "value_b": "—",
+            "edge_slug": "felony-charles-bennett",
+            "edge_strength": 0.337,
+            "weight": 0.11,
+            "display": "-22 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 30,
+            "value_b": 46,
+            "edge_slug": "bryan-duran",
+            "edge_strength": 1,
+            "weight": 0.09,
+            "display": "30 vs 46"
+          },
+          {
+            "name": "Activity",
+            "value_a": "2.6y ago",
+            "value_b": "—",
+            "edge_slug": "felony-charles-bennett",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Bennett more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "44%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.111,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "9 fights",
+            "value_b": "0 fights",
+            "edge_slug": "bryan-duran",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+9 fights Duran"
+          }
+        ],
+        "summary": "Model leans Duran 68/32. Edges on recent form, bkfc record, age, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 196,
+              "implied_prob": 0.338
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -196,
+              "implied_prob": 0.662
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 110,
+              "implied_prob": 0.477
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 440,
+              "implied_prob": 0.185
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 196,
+              "implied_prob": 0.338
             }
           ]
         }
