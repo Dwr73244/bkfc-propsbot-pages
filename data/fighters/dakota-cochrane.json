@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha-2",
-      "date": "2025-04-18T04:00:00.000Z",
+      "date": "2025-04-18T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:08",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC: Mohegan Sun",
       "event_slug": "bkfc-on-dazn-mohegan-sun",
-      "date": "2025-02-01T05:00:00.000Z",
+      "date": "2025-02-01T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:03",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha",
-      "date": "2024-05-17T04:00:00.000Z",
+      "date": "2024-05-17T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:42",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1543,
   "elo_peak": 1543,
-  "history_last_verified": "2026-07-31T18:45:03.636Z"
+  "history_last_verified": "2026-08-26T08:48:04.000Z"
 }

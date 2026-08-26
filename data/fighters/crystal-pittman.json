@@ -5,7 +5,7 @@
   "division": "Women's Bantamweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 4,
+    "losses": 5,
     "draws": 0,
     "kos": 1
   },
@@ -21,7 +21,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744594854/o/1744594854546_67d3593c76c9c020e3422b65_PITTMAN_SMALL_AVATAR_400x400_compressed.png?1744594854",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785513278/o/CRYSTAL_PITTMAN_SMALL_AVATAR_400x400.png?1785513278",
   "social": {
     "instagram": "https://www.instagram.com/the_rugged_beauty/",
     "twitter": null,
@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-fight-night-clearwater-ec210",
-      "date": "2025-05-02T04:00:00.000Z",
+      "date": "2025-05-02T00:00:00.000Z",
       "method": null,
       "round": 2,
       "time": "01:30",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC 47",
       "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
-      "date": "2023-07-14T04:00:00.000Z",
+      "date": "2023-07-14T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:07",
@@ -95,8 +95,8 @@
     "https://en.wikipedia.org/wiki/2024_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/fighters/crystal-pittman"
   ],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-26",
   "elo": 1500,
   "elo_peak": 1523,
-  "history_last_verified": "2026-07-31T18:45:03.473Z"
+  "history_last_verified": "2026-08-26T08:47:58.852Z"
 }

@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-08-25T11:38:54.456Z",
+  "generated_at": "2026-08-26T08:48:35.037Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -84,14 +84,14 @@
       "fighter_a_slug": "david-mundell",
       "fighter_b_slug": "jack-cullen",
       "prediction": {
-        "prob_a": 0.3278,
-        "prob_b": 0.6722,
-        "raw_score": -0.2763,
+        "prob_a": 0.3677,
+        "prob_b": 0.6323,
+        "raw_score": -0.2085,
         "favorite_slug": "jack-cullen",
-        "confidence": "Very Low",
-        "advantage_a": 33,
-        "advantage_b": 67,
-        "predictability": 35,
+        "confidence": "Low",
+        "advantage_a": 37,
+        "advantage_b": 63,
+        "predictability": 44,
         "factors": [
           {
             "name": "Recent Form",
@@ -104,12 +104,12 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "10-2",
             "value_b": "2-0",
-            "edge_slug": "jack-cullen",
-            "edge_strength": 0.625,
+            "edge_slug": null,
+            "edge_strength": 0.089,
             "weight": 0.11,
-            "display": "50% vs 75% win rate"
+            "display": "79% vs 75% win rate"
           },
           {
             "name": "KO Rate",
@@ -150,23 +150,23 @@
           {
             "name": "Opponent Quality",
             "value_a": "—",
-            "value_b": "0%",
-            "edge_slug": "david-mundell",
-            "edge_strength": 1,
+            "value_b": "42%",
+            "edge_slug": null,
+            "edge_strength": 0.167,
             "weight": 0.04,
-            "display": "Mundell tougher schedule"
+            "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "12 fights",
             "value_b": "2 fights",
-            "edge_slug": null,
-            "edge_strength": 0.25,
+            "edge_slug": "david-mundell",
+            "edge_strength": 1,
             "weight": 0.03,
-            "display": "Even"
+            "display": "+10 fights Mundell"
           }
         ],
-        "summary": "Model leans Cullen 67/33. Edges on recent form, bkfc record, ko rate, age.",
+        "summary": "Model leans Cullen 63/37. Edges on recent form, ko rate, age, activity.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -785,7 +785,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "24d ago",
+            "value_a": "25d ago",
             "value_b": "—",
             "edge_slug": "stew-martin",
             "edge_strength": 1,
@@ -1218,14 +1218,14 @@
       "fighter_a_slug": "benjamin-lowe",
       "fighter_b_slug": "dan-mcgraffin",
       "prediction": {
-        "prob_a": 0.3791,
-        "prob_b": 0.6209,
-        "raw_score": -0.1897,
+        "prob_a": 0.297,
+        "prob_b": 0.703,
+        "raw_score": -0.3314,
         "favorite_slug": "dan-mcgraffin",
-        "confidence": "Very Low",
-        "advantage_a": 38,
-        "advantage_b": 62,
-        "predictability": 25,
+        "confidence": "Low",
+        "advantage_a": 30,
+        "advantage_b": 70,
+        "predictability": 44,
         "factors": [
           {
             "name": "Recent Form",
@@ -1239,11 +1239,11 @@
           {
             "name": "BKFC Record",
             "value_a": "0-2",
-            "value_b": "0-0",
+            "value_b": "4-3",
             "edge_slug": "dan-mcgraffin",
-            "edge_strength": 0.625,
+            "edge_strength": 0.764,
             "weight": 0.11,
-            "display": "25% vs 50% win rate"
+            "display": "25% vs 56% win rate"
           },
           {
             "name": "Activity",
@@ -1265,24 +1265,24 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "100%",
+            "value_a": "79%",
             "value_b": "—",
             "edge_slug": "benjamin-lowe",
-            "edge_strength": 1,
+            "edge_strength": 0.571,
             "weight": 0.04,
             "display": "Lowe tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "2 fights",
-            "value_b": "0 fights",
-            "edge_slug": null,
-            "edge_strength": 0.25,
+            "value_b": "7 fights",
+            "edge_slug": "dan-mcgraffin",
+            "edge_strength": 0.625,
             "weight": 0.03,
-            "display": "Even"
+            "display": "+5 fights McGraffin"
           }
         ],
-        "summary": "Model leans McGraffin 62/38. Edges on recent form, bkfc record.",
+        "summary": "Model leans McGraffin 70/30. Edges on recent form, bkfc record, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1377,7 +1377,7 @@
           {
             "name": "Activity",
             "value_a": "1.5y ago",
-            "value_b": "24d ago",
+            "value_b": "25d ago",
             "edge_slug": "harry-bray",
             "edge_strength": 1,
             "weight": 0.05,

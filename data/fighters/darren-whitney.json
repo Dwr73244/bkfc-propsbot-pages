@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-hammond",
-      "date": "2025-10-18T04:00:00.000Z",
+      "date": "2025-10-18T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:18",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -62,5 +62,5 @@
     "https://www.bkfc.com/fighters/darren-whitney"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:45:05.337Z"
+  "history_last_verified": "2026-08-26T08:48:18.771Z"
 }

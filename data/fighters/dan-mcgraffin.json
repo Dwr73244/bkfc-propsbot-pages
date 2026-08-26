@@ -5,8 +5,8 @@
   "nickname": null,
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 4,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -33,5 +33,6 @@
   "sources": [
     "https://www.bkfc.com/fighters/dan-mcgraffin"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-08-26T08:48:04.837Z"
 }

@@ -4,8 +4,8 @@
   "nickname": "MONTANA DAK",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 4,
+    "wins": 3,
+    "losses": 5,
     "draws": 0,
     "kos": null
   },
@@ -43,7 +43,7 @@
     {
       "event": "BKFC 49",
       "event_slug": "bkfc-49-miami",
-      "date": "2023-08-25T04:00:00.000Z",
+      "date": "2023-08-25T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:48",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 44",
       "event_slug": "bkfc-44-montana",
-      "date": "2023-06-09T04:00:00.000Z",
+      "date": "2023-06-09T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 29 - Montana II",
       "event_slug": "bkfc-29-montana-2",
-      "date": "2022-09-10T04:00:00.000Z",
+      "date": "2022-09-10T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -87,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1479,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:03.660Z"
+  "history_last_verified": "2026-08-26T08:47:59.351Z"
 }

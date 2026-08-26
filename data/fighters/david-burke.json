@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun-porter-vs-watson",
-      "date": "2026-03-28T04:00:00.000Z",
+      "date": "2026-03-28T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:30",
@@ -48,5 +48,5 @@
     "https://www.bkfc.com/fighters/david-burke"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:24.714Z"
+  "history_last_verified": "2026-08-26T08:48:20.009Z"
 }

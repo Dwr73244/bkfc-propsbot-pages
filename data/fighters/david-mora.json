@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Spain",
       "event_slug": "bkfc-on-dazn-spain",
-      "date": "2024-10-12T04:00:00.000Z",
+      "date": "2024-10-12T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "02:00",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:05.492Z"
+  "history_last_verified": "2026-08-26T08:48:22.924Z"
 }

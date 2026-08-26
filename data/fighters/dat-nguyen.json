@@ -43,7 +43,7 @@
     {
       "event": "BKFC 22",
       "event_slug": "bkfc-22-lombard-vs-hunt",
-      "date": "2021-11-12T05:00:00.000Z",
+      "date": "2021-11-12T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "Knucklemania",
       "event_slug": "knucklemania",
-      "date": "2021-02-05T05:00:00.000Z",
+      "date": "2021-02-05T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 10",
       "event_slug": "bkfc-10-lombard-vs-mundell",
-      "date": "2020-02-15T05:00:00.000Z",
+      "date": "2020-02-15T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:51",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 8",
       "event_slug": "bkfc-8-silva-vs-gonzaga",
-      "date": "2019-10-19T04:00:00.000Z",
+      "date": "2019-10-19T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:45:05.352Z"
+  "history_last_verified": "2026-08-26T08:48:23.681Z"
 }

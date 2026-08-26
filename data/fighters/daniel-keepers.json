@@ -6,7 +6,7 @@
   "division": "Welterweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -40,6 +40,19 @@
       "opponent": "clay-collard",
       "opponent_slug": "clay-collard",
       "result": "L"
+    },
+    {
+      "event": "BKFC 89",
+      "event_slug": "bkfc-palm-desert",
+      "date": "2026-05-22T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ryan Petersen",
+      "opponent_slug": "ryan-petersen",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/daniel-keepers"
     }
   ],
   "sources": [
@@ -49,5 +62,6 @@
   "elo": 1478,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-08-09"
+  "record_verified": "2026-08-09",
+  "history_last_verified": "2026-08-26T08:48:09.426Z"
 }

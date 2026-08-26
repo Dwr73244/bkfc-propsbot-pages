@@ -43,7 +43,7 @@
     {
       "event": "BKFC 57",
       "event_slug": "bkfc-57-hollywood",
-      "date": "2024-02-02T05:00:00.000Z",
+      "date": "2024-02-02T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:00",
@@ -67,7 +67,7 @@
     {
       "event": "BKFC 39",
       "event_slug": "bkfc-39-norfolk",
-      "date": "2023-03-24T04:00:00.000Z",
+      "date": "2023-03-24T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC 25",
       "event_slug": "bkfc-25-adams-vs-cleckler",
-      "date": "2022-05-06T04:00:00.000Z",
+      "date": "2022-05-06T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:37",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1497,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:05.902Z"
+  "history_last_verified": "2026-08-26T08:48:10.749Z"
 }

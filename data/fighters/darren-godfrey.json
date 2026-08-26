@@ -43,7 +43,7 @@
     {
       "event": "BKFC 37",
       "event_slug": "bkfc-37-london",
-      "date": "2023-03-04T05:00:00.000Z",
+      "date": "2023-03-04T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:49",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC - Newcastle",
       "event_slug": "bkfc-newcastle-terrill-vs-banks",
-      "date": "2022-11-26T05:00:00.000Z",
+      "date": "2022-11-26T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:07",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:05.228Z"
+  "history_last_verified": "2026-08-26T08:48:15.307Z"
 }
