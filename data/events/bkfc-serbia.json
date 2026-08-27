@@ -57,11 +57,44 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "vladislav-tuinov",
+      "fighter_b_slug": "alfred-koci",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "agron-smakici",
+      "fighter_b_slug": "istvan-bernath",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "dusan-radovic",
+      "fighter_b_slug": "felipe-maia",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-serbia"
   ],
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-27",
   "needs_card_population": false
 }
