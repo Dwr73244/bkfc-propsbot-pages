@@ -4,7 +4,7 @@
   "nickname": "DARK KNIGHT",
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 6,
+    "wins": 7,
     "losses": 3,
     "draws": 0,
     "kos": null
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1501,
   "elo_peak": 1501,
-  "history_last_verified": "2026-08-06T10:37:15.568Z"
+  "history_last_verified": "2026-08-27T19:04:21.761Z"
 }

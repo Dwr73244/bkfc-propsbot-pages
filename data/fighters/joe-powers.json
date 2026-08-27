@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785815669/o/JOE_POWERS_AVATAR_400x533.png?1785815669",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785815658/o/JOE_POWERS_SMALL_AVATAR_400x400.png?1785815658",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -40,14 +40,28 @@
       "opponent": "chris-perreault",
       "opponent_slug": "chris-perreault",
       "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-fight-night-mohegan-sun-2",
+      "date": "2026-08-21T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:37",
+      "opponent": "Joe Powers",
+      "opponent_slug": "joe-powers",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joe-powers"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/joe-powers"
   ],
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-27",
   "elo": 1478,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-08-22"
+  "record_verified": "2026-08-22",
+  "history_last_verified": "2026-08-27T19:03:45.250Z"
 }

@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785514632/o/JASON_SANDERSON_AVATAR_400x533.png?1785514632",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785514621/o/JASON_SANDERSON_SMALL_AVATAR_400x400.png?1785514621",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -40,14 +40,28 @@
       "opponent": "jason-simon",
       "opponent_slug": "jason-simon",
       "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Sturgis",
+      "event_slug": "bkfc-fight-night-sturgis",
+      "date": "2026-08-08T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:43",
+      "opponent": "Jason Sanderson",
+      "opponent_slug": "jason-sanderson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jason-sanderson"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/jason-sanderson"
   ],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-27",
   "elo": 1478,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-08-09"
+  "record_verified": "2026-08-09",
+  "history_last_verified": "2026-08-27T19:03:21.568Z"
 }

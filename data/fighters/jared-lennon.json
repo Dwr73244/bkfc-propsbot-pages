@@ -5,7 +5,7 @@
   "division": "Featherweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": 1
   },
@@ -29,6 +29,19 @@
   },
   "bio": null,
   "last_5": [
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-fight-night-mohegan-sun-2",
+      "date": "2026-08-21T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:21",
+      "opponent": "Dominick Carey-Christian",
+      "opponent_slug": "dominick-carey-christian",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jared-lennon"
+    },
     {
       "event": "BKFC 86",
       "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
@@ -74,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-08-05T10:39:37.312Z"
+  "history_last_verified": "2026-08-27T19:03:20.197Z"
 }
