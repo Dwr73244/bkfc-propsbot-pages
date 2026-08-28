@@ -6,7 +6,7 @@
   "division": "Heavyweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 2,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -98,7 +98,7 @@
     "https://www.bkfc.com/fighters/brady-meister"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-14T09:13:24.131Z",
+  "history_last_verified": "2026-08-28T20:01:15.545Z",
   "elo": 1479,
   "elo_peak": 1500
 }

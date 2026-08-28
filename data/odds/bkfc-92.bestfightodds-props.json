@@ -2,8 +2,93 @@
   "event_slug": "bkfc-92",
   "event_date": "2026-08-29",
   "source": "bestfightodds-props",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4327",
-  "fetched_at": "2026-08-22T07:37:36.944Z",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4336",
+  "fetched_at": "2026-08-28T18:31:47.134Z",
   "total_prop_rows": 0,
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "kai-stewart",
+      "fighter_b_slug": "harry-gigliotti",
+      "matchup_id": "44666",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "pat-casey",
+      "fighter_b_slug": "dallas-davison",
+      "matchup_id": "44667",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "james-murrin",
+      "fighter_b_slug": "chris-rooney",
+      "matchup_id": "44680",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "david-burke",
+      "fighter_b_slug": "david-simpson",
+      "matchup_id": "44669",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "rico-disciullo",
+      "fighter_b_slug": "tray-martin",
+      "matchup_id": "44672",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "peter-barrett",
+      "fighter_b_slug": "elijah-harris",
+      "matchup_id": "44670",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "joe-lauzon",
+      "fighter_b_slug": "stash-kuykendall",
+      "matchup_id": "44674",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "charles-rosa",
+      "fighter_b_slug": "charon-spain",
+      "matchup_id": "44671",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "taylor-starling",
+      "fighter_b_slug": "kat-paprocki",
+      "matchup_id": "44673",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "guilherme-viana",
+      "fighter_b_slug": "robinson-perez",
+      "matchup_id": "44675",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "christine-ferea",
+      "fighter_b_slug": "sofia-landi",
+      "matchup_id": "44668",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "jake-pilla",
+      "fighter_b_slug": "angelo-colon",
+      "matchup_id": "44676",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
 }

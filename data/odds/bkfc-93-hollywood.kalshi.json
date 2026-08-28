@@ -1,0 +1,8 @@
+{
+  "event_slug": "bkfc-93-hollywood",
+  "event_date": "2026-09-11",
+  "source": "kalshi",
+  "source_url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open",
+  "fetched_at": "2026-08-28T05:35:30.715Z",
+  "bouts": []
+}

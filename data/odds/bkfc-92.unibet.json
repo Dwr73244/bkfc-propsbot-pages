@@ -1,0 +1,129 @@
+{
+  "event_slug": "bkfc-92",
+  "event_date": "2026-08-29",
+  "source": "unibet",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4336",
+  "fetched_at": "2026-08-28T18:31:46.295Z",
+  "bouts": [
+    {
+      "fighter_a_slug": "kai-stewart",
+      "fighter_b_slug": "harry-gigliotti",
+      "moneyline_a": -167,
+      "moneyline_b": 120,
+      "implied_prob_a": 0.625,
+      "implied_prob_b": 0.455,
+      "vig": 0.08,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "pat-casey",
+      "fighter_b_slug": "dallas-davison",
+      "moneyline_a": -345,
+      "moneyline_b": 230,
+      "implied_prob_a": 0.775,
+      "implied_prob_b": 0.303,
+      "vig": 0.078,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "james-murrin",
+      "fighter_b_slug": "chris-rooney",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "david-burke",
+      "fighter_b_slug": "david-simpson",
+      "moneyline_a": 150,
+      "moneyline_b": -215,
+      "implied_prob_a": 0.4,
+      "implied_prob_b": 0.683,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "rico-disciullo",
+      "fighter_b_slug": "tray-martin",
+      "moneyline_a": -200,
+      "moneyline_b": 143,
+      "implied_prob_a": 0.667,
+      "implied_prob_b": 0.412,
+      "vig": 0.078,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "peter-barrett",
+      "fighter_b_slug": "elijah-harris",
+      "moneyline_a": -435,
+      "moneyline_b": 285,
+      "implied_prob_a": 0.813,
+      "implied_prob_b": 0.26,
+      "vig": 0.073,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "joe-lauzon",
+      "fighter_b_slug": "stash-kuykendall",
+      "moneyline_a": -715,
+      "moneyline_b": 440,
+      "implied_prob_a": 0.877,
+      "implied_prob_b": 0.185,
+      "vig": 0.062,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "charles-rosa",
+      "fighter_b_slug": "charon-spain",
+      "moneyline_a": -215,
+      "moneyline_b": 150,
+      "implied_prob_a": 0.683,
+      "implied_prob_b": 0.4,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "taylor-starling",
+      "fighter_b_slug": "kat-paprocki",
+      "moneyline_a": -177,
+      "moneyline_b": 125,
+      "implied_prob_a": 0.639,
+      "implied_prob_b": 0.444,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "guilherme-viana",
+      "fighter_b_slug": "robinson-perez",
+      "moneyline_a": -265,
+      "moneyline_b": 180,
+      "implied_prob_a": 0.726,
+      "implied_prob_b": 0.357,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "christine-ferea",
+      "fighter_b_slug": "sofia-landi",
+      "moneyline_a": -670,
+      "moneyline_b": 410,
+      "implied_prob_a": 0.87,
+      "implied_prob_b": 0.196,
+      "vig": 0.066,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "jake-pilla",
+      "fighter_b_slug": "angelo-colon",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 1
+    }
+  ]
+}

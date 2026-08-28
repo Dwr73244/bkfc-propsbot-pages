@@ -3,13 +3,303 @@
   "event_date": "2026-08-29",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-08-27T11:07:13.101Z",
-  "book_count": 4,
+  "fetched_at": "2026-08-28T18:31:55.648Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "kai-stewart",
+      "fighter_b_slug": "harry-gigliotti",
+      "moneyline_a": -167,
+      "moneyline_b": 120,
+      "implied_prob_a": 0.625,
+      "implied_prob_b": 0.455,
+      "vig": 0.08,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -167,
+          -167
+        ],
+        "b": [
+          120,
+          120
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "pat-casey",
+      "fighter_b_slug": "dallas-davison",
+      "moneyline_a": -345,
+      "moneyline_b": 230,
+      "implied_prob_a": 0.775,
+      "implied_prob_b": 0.303,
+      "vig": 0.078,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -345,
+          -345
+        ],
+        "b": [
+          230,
+          230
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "james-murrin",
+      "fighter_b_slug": "chris-rooney",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -335,
+          -335
+        ],
+        "b": [
+          220,
+          220
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "david-burke",
+      "fighter_b_slug": "david-simpson",
+      "moneyline_a": 150,
+      "moneyline_b": -215,
+      "implied_prob_a": 0.4,
+      "implied_prob_b": 0.683,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          150,
+          150
+        ],
+        "b": [
+          -215,
+          -215
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "rico-disciullo",
+      "fighter_b_slug": "tray-martin",
+      "moneyline_a": -200,
+      "moneyline_b": 143,
+      "implied_prob_a": 0.667,
+      "implied_prob_b": 0.412,
+      "vig": 0.078,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -200,
+          -200
+        ],
+        "b": [
+          143,
+          143
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "peter-barrett",
+      "fighter_b_slug": "elijah-harris",
+      "moneyline_a": -435,
+      "moneyline_b": 285,
+      "implied_prob_a": 0.813,
+      "implied_prob_b": 0.26,
+      "vig": 0.073,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -435,
+          -435
+        ],
+        "b": [
+          285,
+          285
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "joe-lauzon",
+      "fighter_b_slug": "stash-kuykendall",
+      "moneyline_a": -715,
+      "moneyline_b": 440,
+      "implied_prob_a": 0.877,
+      "implied_prob_b": 0.185,
+      "vig": 0.062,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -715,
+          -715
+        ],
+        "b": [
+          440,
+          440
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "charles-rosa",
+      "fighter_b_slug": "charon-spain",
+      "moneyline_a": -215,
+      "moneyline_b": 150,
+      "implied_prob_a": 0.683,
+      "implied_prob_b": 0.4,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -215,
+          -215
+        ],
+        "b": [
+          150,
+          150
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "taylor-starling",
+      "fighter_b_slug": "kat-paprocki",
+      "moneyline_a": -177,
+      "moneyline_b": 125,
+      "implied_prob_a": 0.639,
+      "implied_prob_b": 0.444,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -177,
+          -177
+        ],
+        "b": [
+          125,
+          125
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "guilherme-viana",
+      "fighter_b_slug": "robinson-perez",
+      "moneyline_a": -265,
+      "moneyline_b": 180,
+      "implied_prob_a": 0.726,
+      "implied_prob_b": 0.357,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -265,
+          -265
+        ],
+        "b": [
+          180,
+          180
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "christine-ferea",
+      "fighter_b_slug": "sofia-landi",
+      "moneyline_a": -670,
+      "moneyline_b": 410,
+      "implied_prob_a": 0.87,
+      "implied_prob_b": 0.196,
+      "vig": 0.066,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -670,
+          -670
+        ],
+        "b": [
+          410,
+          410
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "jake-pilla",
+      "fighter_b_slug": "angelo-colon",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -335,
+          -335
+        ],
+        "b": [
+          220,
+          220
+        ]
+      }
+    }
+  ]
 }
