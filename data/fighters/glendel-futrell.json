@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Prospects Edmonton",
       "event_slug": "bkfc-prospects-edmonton",
-      "date": "2024-08-31T04:00:00.000Z",
+      "date": "2024-08-31T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:23",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 42",
       "event_slug": "bkfc-42-greenville",
-      "date": "2023-05-12T04:00:00.000Z",
+      "date": "2023-05-12T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 34",
       "event_slug": "bkfc-34-hollywood",
-      "date": "2022-12-03T05:00:00.000Z",
+      "date": "2022-12-03T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -82,7 +82,7 @@
     {
       "event": "Fight Night FTL",
       "event_slug": "bkfc-ft-lauderdale",
-      "date": "2022-04-21T04:00:00.000Z",
+      "date": "2022-04-21T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:09.211Z"
+  "history_last_verified": "2026-08-29T13:44:51.384Z"
 }

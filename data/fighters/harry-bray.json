@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1784838225/o/HARRY_BRAY_AVATAR_400x533.png?1784838225",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1784838212/o/HARRY_BRAY_SMALL_AVATAR_400x400.png?1784838212",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -40,14 +40,28 @@
       "opponent": "dylan-yendall",
       "opponent_slug": "dylan-yendall",
       "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
+      "date": "2026-08-01T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:00",
+      "opponent": "Harry Bray",
+      "opponent_slug": "harry-bray",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/harry-bray"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/harry-bray"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-08-29",
   "elo": 1522,
   "elo_peak": 1522,
   "record_source": "tracked-events",
-  "record_verified": "2026-08-02"
+  "record_verified": "2026-08-02",
+  "history_last_verified": "2026-08-29T13:44:54.618Z"
 }

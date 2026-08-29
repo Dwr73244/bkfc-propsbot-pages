@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun",
-      "date": "2025-12-20T05:00:00.000Z",
+      "date": "2025-12-20T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Fight Night Philly",
       "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
-      "date": "2025-07-25T04:00:00.000Z",
+      "date": "2025-07-25T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:08",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC on DAZN - Montana",
       "event_slug": "bkfc-on-dazn-montana",
-      "date": "2024-11-09T05:00:00.000Z",
+      "date": "2024-11-09T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 47",
       "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
-      "date": "2023-07-14T04:00:00.000Z",
+      "date": "2023-07-14T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "02:00",
@@ -101,5 +101,5 @@
   "last_updated": "2026-07-31",
   "elo": 1479,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:08.395Z"
+  "history_last_verified": "2026-08-29T13:44:41.435Z"
 }

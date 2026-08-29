@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:16",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 69",
       "event_slug": "bkfc-69-richardson-vs-larrimore",
-      "date": "2024-12-06T05:00:00.000Z",
+      "date": "2024-12-06T00:00:00.000Z",
       "method": "Majority Decision",
       "round": 5,
       "time": "02:00",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1483,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:09.519Z"
+  "history_last_verified": "2026-08-29T13:44:54.856Z"
 }

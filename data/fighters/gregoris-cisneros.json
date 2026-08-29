@@ -5,8 +5,8 @@
   "nickname": "VENEZUELAN VIPER",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 5,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-fight-night-hammond",
+      "date": "2026-06-26T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:49",
+      "opponent": "Gregoris Cisnero",
+      "opponent_slug": "gregoris-cisnero",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gregoris-cisneros"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/gregoris-cisneros"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-08-29T13:44:49.111Z"
 }

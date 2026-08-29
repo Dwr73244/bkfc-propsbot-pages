@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Uruguay",
       "event_slug": "bkfc-fight-night-uruguay",
-      "date": "2026-07-25T04:00:00.000Z",
+      "date": "2026-07-25T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -48,5 +48,5 @@
     "https://www.bkfc.com/fighters/gonzalo-diaz-arredondo"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:28.536Z"
+  "history_last_verified": "2026-08-29T13:44:48.708Z"
 }

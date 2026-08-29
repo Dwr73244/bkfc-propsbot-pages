@@ -34,7 +34,7 @@
   <meta name="twitter:description" content="Every BKFC pick across every upcoming event, sorted by edge magnitude. Where our model disagrees most with the market." />
   <meta name="twitter:image" content="https://propsbot.ai/wp-content/uploads/2024/01/propsbot-og.png" />
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"BKFC Edge Picks Board","author":{"@id":"https://bkfc.propsbot.ai/about/#author"},"dateModified":"2026-08-28T21:21:17.726Z","numberOfItems":2,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://bkfc.propsbot.ai/events/bkfc-92/research/#fight-1-kai-stewart-vs-harry-gigliotti","item":{"@type":"SportsEvent","name":"Kai Stewart vs Harry Gigliotti","url":"https://bkfc.propsbot.ai/events/bkfc-92/research/#fight-1-kai-stewart-vs-harry-gigliotti","startDate":"2026-08-29T00:00:00Z","location":{"@type":"Place","name":"FENWAY PARK"},"description":"Kai Stewart edge +8.5pt at bkfc-92"}},{"@type":"ListItem","position":2,"url":"https://bkfc.propsbot.ai/events/bkfc-92/research/#fight-11-christine-ferea-vs-sofia-landi","item":{"@type":"SportsEvent","name":"Christine Ferea vs Sofia Landi","url":"https://bkfc.propsbot.ai/events/bkfc-92/research/#fight-11-christine-ferea-vs-sofia-landi","startDate":"2026-08-29T00:00:00Z","location":{"@type":"Place","name":"FENWAY PARK"},"description":"Sofia Landi edge +7.7pt at bkfc-92"}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"BKFC Edge Picks Board","author":{"@id":"https://bkfc.propsbot.ai/about/#author"},"dateModified":"2026-08-29T13:45:17.747Z","numberOfItems":0,"itemListElement":[]}</script>
 
 
   <link rel="stylesheet" href="../assets/css/tailwind.css" />
@@ -128,7 +128,7 @@
           <span class="w-1.5 h-1.5 rounded-full bg-pb-red animate-pulse"></span> All Edges
         </div>
         <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">Every Edge, Every Card</h1>
-        <div class="author-byline mono text-xs text-white/50 mb-3">By <a href="../about/#author" class="text-pb-teal hover:text-white">David</a>, PropsBot.AI · Updated <time datetime="2026-08-28">2026-08-28</time></div>
+        <div class="author-byline mono text-xs text-white/50 mb-3">By <a href="../about/#author" class="text-pb-teal hover:text-white">David</a>, PropsBot.AI · Updated <time datetime="2026-08-29">2026-08-29</time></div>
         <p class="text-white/75 text-base mt-3 max-w-3xl leading-relaxed">PropsBot BKFC publishes free model picks for every upcoming Bare Knuckle Fighting Championship card, surfacing only the bouts where our 14-factor engine disagrees with the sportsbook line by enough to call an edge. Every pick is logged before the opening bell to a public accuracy ledger (currently 66.7% lifetime, as of August 2026). Picks include the fighter, model win probability, market-implied probability, and edge in percentage points. Live odds are aggregated every 30 minutes from xbet.ag, BestFightOdds, Polymarket, and Kalshi.</p>
       </div>
     </header>
@@ -154,173 +154,78 @@
       </details>
     </section>
 
-    <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-4">
-             <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">Top Edges</h2>
-             <div class="edge-spotlight">
-      <a href="events/bkfc-92/research/#fight-1-kai-stewart-vs-harry-gigliotti" class="edge-card" data-conf="Low">
-        <div class="edge-rank">★ Top 1</div>
-        <div class="edge-label">bkfc-92 · Aug 28, 2026</div>
-        <div class="edge-fighter">Kai Stewart</div>
-        <div class="edge-spread">Advantage <strong style="color:#15ffc2">66</strong> · Market -167</div>
-        <div class="edge-magnitude">+8.5<span class="pt-label">PT</span></div>
-        <div class="edge-conf">Predictability 47 · Low ⚠</div>
-      </a>
-
-      <a href="events/bkfc-92/research/#fight-11-christine-ferea-vs-sofia-landi" class="edge-card" data-conf="Low">
-        <div class="edge-rank">★ Top 2</div>
-        <div class="edge-label">bkfc-92 · Aug 28, 2026</div>
-        <div class="edge-fighter">Sofia Landi</div>
-        <div class="edge-spread">Advantage <strong style="color:#15ffc2">26</strong> · Market +410</div>
-        <div class="edge-magnitude">+7.7<span class="pt-label">PT</span></div>
-        <div class="edge-conf">Predictability 48 · Low ⚠</div>
-      </a></div>
-           </section>
 
 
 
 
-    <!-- Kelly + bankroll sizing helper. Bankroll persists to localStorage
-         so the user doesn't retype it every session. Kelly output is
-         auto-scaled by Predictability (we use fractional Kelly in direct
-         proportion to trust — 50% for P30, 100% for P100). Max cap at
-         3% of bankroll to keep recommendations sane. -->
-    <section class="max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-4">
-      <details class="glass rounded-2xl p-4 border border-white/5" id="bankroll-details">
-        <summary class="cursor-pointer flex items-center justify-between gap-3 text-sm font-semibold text-white">
-          <span>💰 Sizing helper — apply your bankroll to each pick</span>
-          <span class="text-pb-teal text-lg leading-none">+</span>
-        </summary>
-        <div class="mt-4 space-y-3">
-          <div class="grid sm:grid-cols-2 gap-3">
-            <label class="block">
-              <span class="text-xs mono uppercase tracking-wider text-white/50 block mb-1">Your bankroll (USD)</span>
-              <input type="number" id="bankroll-input" min="10" step="50" placeholder="e.g. 1000" class="glass rounded-xl p-3 text-white text-sm mono w-full" inputmode="decimal" autocomplete="off">
-            </label>
-            <label class="block">
-              <span class="text-xs mono uppercase tracking-wider text-white/50 block mb-1">Kelly fraction</span>
-              <select id="kelly-frac" class="glass rounded-xl p-3 text-white text-sm mono w-full">
-                <option value="0.25">Quarter Kelly (safer)</option>
-                <option value="0.5" selected>Half Kelly (recommended)</option>
-                <option value="1">Full Kelly (aggressive)</option>
-              </select>
-            </label>
-          </div>
-          <p class="text-[11px] mono text-white/45">
-            Kelly sizes each bet by the edge relative to the odds. We auto-scale by Predictability so less-trusted picks get smaller stakes. Max cap is 3% of bankroll per pick regardless of Kelly — <a href="../guide/responsible-gambling/" class="footer-link text-pb-teal hover:text-white transition">responsible gambling →</a>.
-          </p>
-        </div>
-      </details>
-    </section>
-    <script>
-    (function () {
-      const input = document.getElementById('bankroll-input');
-      const fracSel = document.getElementById('kelly-frac');
-      if (!input || !fracSel) return;
-      const KEY_BR = 'pb_bankroll';
-      const KEY_FR = 'pb_kelly_frac';
-      try {
-        const br = localStorage.getItem(KEY_BR);
-        if (br) input.value = br;
-        const fr = localStorage.getItem(KEY_FR);
-        if (fr) fracSel.value = fr;
-      } catch {}
-
-      const americanToDecimal = (ml) => ml > 0 ? 1 + ml / 100 : 1 + 100 / Math.abs(ml);
-
-      function recompute() {
-        const br = parseFloat(input.value);
-        const frac = parseFloat(fracSel.value);
-        try {
-          localStorage.setItem(KEY_BR, input.value || '');
-          localStorage.setItem(KEY_FR, fracSel.value);
-        } catch {}
-        document.querySelectorAll('.picks-row').forEach((row) => {
-          const mlEl = row.querySelector('.picks-ml');
-          const predEl = row.querySelector('.picks-pred-value');
-          const advEl = row.querySelector('.picks-adv-value');
-          if (!mlEl || !predEl || !advEl) return;
-          const mlStr = mlEl.textContent.trim();
-          if (!mlStr || !isFinite(br) || br <= 0) {
-            const chip = row.querySelector('.picks-stake');
-            if (chip) chip.remove();
-            return;
-          }
-          const ml = parseInt(mlStr.replace('+', ''), 10);
-          if (!isFinite(ml)) return;
-          const adv = parseInt(advEl.textContent, 10) / 100;
-          const pred = parseInt(predEl.textContent, 10);
-          if (!isFinite(adv) || !isFinite(pred)) return;
-          const dec = americanToDecimal(ml);
-          const b = dec - 1;
-          // Kelly fraction: f = (bp - q) / b, clamp to [0, 1]
-          const kelly = Math.max(0, Math.min(1, (b * adv - (1 - adv)) / b));
-          // Scale by predictability confidence — lower trust = smaller stake.
-          const trust = Math.max(0.4, Math.min(1, pred / 100));
-          const stakePct = Math.min(0.03, kelly * frac * trust);
-          const stake = Math.max(0, br * stakePct);
-          if (stake < 1) return;
-          let chip = row.querySelector('.picks-stake');
-          if (!chip) {
-            chip = document.createElement('div');
-            chip.className = 'picks-stake mono';
-            row.appendChild(chip);
-          }
-          chip.innerHTML = '<span class="picks-stake-value">$' + stake.toFixed(0) + '</span><span class="picks-stake-label">suggested stake</span>';
-        });
-      }
-
-      input.addEventListener('input', recompute);
-      fracSel.addEventListener('change', recompute);
-      // Initial compute once DOM is ready
-      recompute();
-    })();
-    </script>
 
 
     <section class="max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-16">
-      <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">All Picks (2)</h2>
-      <div class="picks-table">
-      <a href="events/bkfc-92/research/#fight-1-kai-stewart-vs-harry-gigliotti" class="picks-row">
-        <img class="fighter-avatar sm favorite" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1745419117/o/KAI_STEWART_400x400.png?1745419117" alt="Kai Stewart" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="40" height="40" fetchpriority="low">
-        <div class="picks-fighter">
-          <div class="picks-name">Kai Stewart</div>
-          <div class="picks-event mono">bkfc-92 · Aug 28, 2026</div>
-        </div>
-        <div class="picks-adv">
-          <div class="picks-adv-value">66</div>
-          <div class="picks-adv-label mono">ADV</div>
-        </div>
-        <div class="picks-edge mono" style="color:#f0c040">
-          <div class="picks-edge-value">+8.5</div>
-          <div class="picks-edge-label">pt edge</div>
-        </div>
-        <div class="picks-ml mono">-167</div>
-        <div class="picks-pred mono">
-          <div class="picks-pred-value">47</div>
-          <div class="picks-pred-label">predictability</div>
-        </div>
-      </a>
+      <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-3">All Picks (0)</h2>
 
-      <a href="events/bkfc-92/research/#fight-11-christine-ferea-vs-sofia-landi" class="picks-row">
-        <img class="fighter-avatar sm favorite" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785249347/o/SOFIA_LANDI_AVATAR_400x533.png?1785249347" alt="Sofia Landi" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="40" height="40" fetchpriority="low">
-        <div class="picks-fighter">
-          <div class="picks-name">Sofia Landi</div>
-          <div class="picks-event mono">bkfc-92 · Aug 28, 2026</div>
-        </div>
-        <div class="picks-adv">
-          <div class="picks-adv-value">26</div>
-          <div class="picks-adv-label mono">ADV</div>
-        </div>
-        <div class="picks-edge mono" style="color:#f0c040">
-          <div class="picks-edge-value">+7.7</div>
-          <div class="picks-edge-label">pt edge</div>
-        </div>
-        <div class="picks-ml mono">+410</div>
-        <div class="picks-pred mono">
-          <div class="picks-pred-value">48</div>
-          <div class="picks-pred-label">predictability</div>
-        </div>
-      </a></div>
+              <div class="glass rounded-2xl p-6 mb-6">
+                <div class="text-sm mono uppercase tracking-wider text-pb-teal mb-2">⏳ Waiting on sportsbooks</div>
+                <p class="text-white text-base font-semibold mb-1">No edges to publish yet — bkfc-93-hollywood opens in 13 days.</p>
+                <p class="text-white/65 text-sm leading-relaxed">Edges = model probability vs sportsbook line. Books usually post BKFC moneylines <strong>~7-14 days before an event</strong>. The 30-min odds scraper auto-picks them up the moment they drop. In the meantime, our model's <em>pre-market favorites</em> per card are below — no value call yet, just who we'd favor on clean data.</p>
+              </div>
+              <div class="space-y-4">
+                <div class="premarket-event glass rounded-xl p-4 border border-white/5">
+                  <div class="premarket-event-head">
+                    <div>
+                      <div class="text-white font-bold text-sm">bkfc-93-hollywood</div>
+                      <div class="text-xs mono text-white/50 mt-0.5">Sep 10, 2026 · in 13d · no moneylines yet</div>
+                    </div>
+                    <a href="events/bkfc-93-hollywood/" class="text-xs mono text-pb-teal hover:text-white whitespace-nowrap">Full card →</a>
+                  </div>
+                  <div class="premarket-rows">
+                  <a href="events/bkfc-93-hollywood/research/#fight-5-matt-rambo-russo-vs-jancarlos-rivera" class="premarket-row">
+                    <span class="premarket-fav">Jancarlos Rivera</span>
+                    <span class="premarket-vs">vs</span>
+                    <span class="premarket-dog">Matt &#39;Rambo&#39; Russo</span>
+                    <span class="premarket-adv mono">84 ADV</span>
+                  </a>
+                  <a href="events/bkfc-93-hollywood/research/#fight-3-esteban-rodriguez-vs-stephen-tomahawk-townsel" class="premarket-row">
+                    <span class="premarket-fav">Esteban Rodriguez</span>
+                    <span class="premarket-vs">vs</span>
+                    <span class="premarket-dog">Stephen &#39;Tomahawk&#39; Townsel</span>
+                    <span class="premarket-adv mono">81 ADV</span>
+                  </a>
+                  <a href="events/bkfc-93-hollywood/research/#fight-6-chino-blume-vs-caleb-joseph-avila" class="premarket-row">
+                    <span class="premarket-fav">Caleb Joseph Avila</span>
+                    <span class="premarket-vs">vs</span>
+                    <span class="premarket-dog">Chino Blume</span>
+                    <span class="premarket-adv mono">69 ADV</span>
+                  </a></div>
+                </div>
+                <div class="premarket-event glass rounded-xl p-4 border border-white/5">
+                  <div class="premarket-event-head">
+                    <div>
+                      <div class="text-white font-bold text-sm">bkfc-94-manchester</div>
+                      <div class="text-xs mono text-white/50 mt-0.5">Sep 25, 2026 · in 28d · no moneylines yet</div>
+                    </div>
+                    <a href="events/bkfc-94-manchester/" class="text-xs mono text-pb-teal hover:text-white whitespace-nowrap">Full card →</a>
+                  </div>
+                  <div class="premarket-rows">
+                  <a href="events/bkfc-94-manchester/research/#fight-10-liam-dooley-vs-tyrone-hamer" class="premarket-row">
+                    <span class="premarket-fav">Liam Dooley</span>
+                    <span class="premarket-vs">vs</span>
+                    <span class="premarket-dog">Tyrone Hamer</span>
+                    <span class="premarket-adv mono">77 ADV</span>
+                  </a>
+                  <a href="events/bkfc-94-manchester/research/#fight-8-ste-wallwork-vs-leigh-cohoon" class="premarket-row">
+                    <span class="premarket-fav">Leigh Cohoon</span>
+                    <span class="premarket-vs">vs</span>
+                    <span class="premarket-dog">Ste Wallwork</span>
+                    <span class="premarket-adv mono">73 ADV</span>
+                  </a>
+                  <a href="events/bkfc-94-manchester/research/#fight-3-gaz-corran-vs-mac-bygraves" class="premarket-row">
+                    <span class="premarket-fav">Gaz Corran</span>
+                    <span class="premarket-vs">vs</span>
+                    <span class="premarket-dog">Mac Bygraves</span>
+                    <span class="premarket-adv mono">72 ADV</span>
+                  </a></div>
+                </div></div>
+
     </section>
 
     <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-16">

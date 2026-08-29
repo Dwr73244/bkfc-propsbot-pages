@@ -31,19 +31,6 @@
   "bio": null,
   "last_5": [
     {
-      "event": "BKFC - Fight Night Uruguay",
-      "event_slug": "bkfc-fight-night-uruguay",
-      "date": "2026-07-25T04:00:00.000Z",
-      "method": "TKO",
-      "round": 1,
-      "time": "01:13",
-      "opponent": "Gisela Luna",
-      "opponent_slug": "gisela-luna",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/gisela-luna"
-    },
-    {
       "event": "bkfc-fight-night-uruguay",
       "event_slug": "bkfc-fight-night-uruguay",
       "date": "2026-07-25T00:00:00.000Z",
@@ -53,6 +40,19 @@
       "opponent": "marilyn-contin",
       "opponent_slug": "marilyn-contin",
       "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Uruguay",
+      "event_slug": "bkfc-fight-night-uruguay",
+      "date": "2026-07-25T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:13",
+      "opponent": "Gisela Luna",
+      "opponent_slug": "gisela-luna",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gisela-luna"
     }
   ],
   "sources": [
@@ -63,5 +63,5 @@
   "elo_peak": 1500,
   "record_source": "tracked-events",
   "record_verified": "2026-07-26",
-  "history_last_verified": "2026-07-31T18:45:09.247Z"
+  "history_last_verified": "2026-08-29T13:44:45.137Z"
 }

@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-92",
-  "generated_at": "2026-08-28T21:21:10.947Z",
+  "generated_at": "2026-08-29T13:45:12.250Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "kai-stewart",
       "fighter_b_slug": "harry-gigliotti",
       "prediction": {
-        "prob_a": 0.6641,
-        "prob_b": 0.3359,
-        "raw_score": 0.3904,
+        "prob_a": 0.6209,
+        "prob_b": 0.3791,
+        "raw_score": 0.2473,
         "favorite_slug": "kai-stewart",
         "confidence": "Low",
-        "advantage_a": 66,
-        "advantage_b": 34,
-        "predictability": 47,
+        "advantage_a": 62,
+        "advantage_b": 38,
+        "predictability": 43,
         "factors": [
           {
             "name": "Recent Form",
@@ -30,11 +30,11 @@
           {
             "name": "BKFC Record",
             "value_a": "9-0",
-            "value_b": "1-0",
-            "edge_slug": "kai-stewart",
-            "edge_strength": 0.606,
+            "value_b": "6-0",
+            "edge_slug": null,
+            "edge_strength": 0.085,
             "weight": 0.11,
-            "display": "91% vs 67% win rate"
+            "display": "91% vs 88% win rate"
           },
           {
             "name": "Reach",
@@ -84,14 +84,14 @@
           {
             "name": "BKFC Experience",
             "value_a": "9 fights",
-            "value_b": "1 fights",
+            "value_b": "6 fights",
             "edge_slug": "kai-stewart",
-            "edge_strength": 1,
+            "edge_strength": 0.375,
             "weight": 0.03,
-            "display": "+8 fights Stewart"
+            "display": "+3 fights Stewart"
           }
         ],
-        "summary": "Model leans Stewart 66/34. Edges on recent form, bkfc record, activity, opponent quality.",
+        "summary": "Model leans Stewart 62/38. Edges on recent form, activity, opponent quality, bkfc experience.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -132,14 +132,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.6641249430537636,
-        "model_prob_b": 0.3358750569462364,
+        "model_prob_a": 0.6208863766295629,
+        "model_prob_b": 0.3791136233704371,
         "market_fair_prob_a": 0.5787037037037037,
         "market_fair_prob_b": 0.4212962962962963,
-        "edge_pct_a": 0.08542123935005985,
-        "edge_pct_b": -0.08542123935005985,
+        "edge_pct_a": 0.0421826729258592,
+        "edge_pct_b": -0.0421826729258592,
         "edge_slug": "kai-stewart",
-        "edge_pct": 0.08542123935005985
+        "edge_pct": 0.0421826729258592
       }
     },
     {
@@ -1107,14 +1107,14 @@
       "fighter_a_slug": "guilherme-viana",
       "fighter_b_slug": "robinson-perez",
       "prediction": {
-        "prob_a": 0.5767,
-        "prob_b": 0.4233,
+        "prob_a": 0.5532,
+        "prob_b": 0.4468,
         "raw_score": 0,
         "favorite_slug": "guilherme-viana",
         "confidence": "Very Low",
-        "advantage_a": 58,
-        "advantage_b": 42,
-        "predictability": 22,
+        "advantage_a": 55,
+        "advantage_b": 45,
+        "predictability": 21,
         "factors": [
           {
             "name": "BKFC Record",
@@ -1176,14 +1176,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5766620498614958,
-        "model_prob_b": 0.42333795013850417,
-        "market_fair_prob_a": 0.6703601108033241,
-        "market_fair_prob_b": 0.3296398891966759,
-        "edge_pct_a": -0.09369806094182831,
-        "edge_pct_b": 0.09369806094182825,
+        "model_prob_a": 0.5531742354031511,
+        "model_prob_b": 0.44682576459684886,
+        "market_fair_prob_a": 0.618164967562558,
+        "market_fair_prob_b": 0.38183503243744205,
+        "edge_pct_a": -0.06499073215940687,
+        "edge_pct_b": 0.06499073215940682,
         "edge_slug": "robinson-perez",
-        "edge_pct": 0.09369806094182831
+        "edge_pct": 0.06499073215940687
       }
     },
     {

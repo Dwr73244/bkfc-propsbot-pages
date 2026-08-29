@@ -43,7 +43,7 @@
     {
       "event": "BKFC: Prospects Albuquerque",
       "event_slug": "fight-night-prospect-albuquerque",
-      "date": "2024-01-27T05:00:00.000Z",
+      "date": "2024-01-27T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:59",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:08.182Z"
+  "history_last_verified": "2026-08-29T13:44:30.942Z"
 }

@@ -43,7 +43,7 @@
     {
       "event": "BKFC 89",
       "event_slug": "bkfc-palm-desert",
-      "date": "2026-05-22T04:00:00.000Z",
+      "date": "2026-05-22T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:55",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
-      "date": "2025-11-15T05:00:00.000Z",
+      "date": "2025-11-15T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:35",
@@ -85,5 +85,5 @@
   "last_updated": "2026-07-31",
   "elo": 1541,
   "elo_peak": 1541,
-  "history_last_verified": "2026-07-31T18:47:29.024Z"
+  "history_last_verified": "2026-08-29T13:45:04.361Z"
 }

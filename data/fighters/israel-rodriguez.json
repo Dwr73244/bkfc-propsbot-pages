@@ -33,7 +33,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:03",
@@ -48,5 +48,5 @@
     "https://www.bkfc.com/fighters/israel-rodriguez"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:45:09.939Z"
+  "history_last_verified": "2026-08-29T13:45:05.874Z"
 }

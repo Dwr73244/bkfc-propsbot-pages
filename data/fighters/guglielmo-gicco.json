@@ -31,19 +31,6 @@
   "bio": null,
   "last_5": [
     {
-      "event": "BKFC 91",
-      "event_slug": "bkfc-naples",
-      "date": "2026-07-18T04:00:00.000Z",
-      "method": "Unanimous Decision",
-      "round": 3,
-      "time": "02:00",
-      "opponent": "Guglielmo Gicco",
-      "opponent_slug": "guglielmo-gicco",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/guglielmo-gicco"
-    },
-    {
       "event": "bkfc-naples",
       "event_slug": "bkfc-naples",
       "date": "2026-07-18T00:00:00.000Z",
@@ -53,6 +40,19 @@
       "opponent": "antonio-moscatiello",
       "opponent_slug": "antonio-moscatiello",
       "result": "W"
+    },
+    {
+      "event": "BKFC 91",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Guglielmo Gicco",
+      "opponent_slug": "guglielmo-gicco",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/guglielmo-gicco"
     }
   ],
   "sources": [
@@ -63,5 +63,5 @@
   "elo_peak": 1519,
   "record_source": "tracked-events",
   "record_verified": "2026-07-19",
-  "history_last_verified": "2026-07-31T18:45:09.462Z"
+  "history_last_verified": "2026-08-29T13:44:49.984Z"
 }

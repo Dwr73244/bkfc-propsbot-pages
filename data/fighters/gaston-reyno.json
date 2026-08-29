@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Uruguay",
       "event_slug": "bkfc-fight-night-uruguay",
-      "date": "2026-07-25T04:00:00.000Z",
+      "date": "2026-07-25T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:29",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 85",
       "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
-      "date": "2025-12-05T05:00:00.000Z",
+      "date": "2025-12-05T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:32",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 78 -",
       "event_slug": "bkfc-hollywood",
-      "date": "2025-07-12T04:00:00.000Z",
+      "date": "2025-07-12T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:41",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC - Knucklemania III",
       "event_slug": "bkfc-knucklemania-iii",
-      "date": "2023-02-17T05:00:00.000Z",
+      "date": "2023-02-17T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:26",
@@ -100,5 +100,5 @@
   "last_updated": "2026-04-19",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:47:28.470Z"
+  "history_last_verified": "2026-08-29T13:44:39.296Z"
 }

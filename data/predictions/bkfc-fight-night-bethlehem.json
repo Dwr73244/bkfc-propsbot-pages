@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-bethlehem",
-  "generated_at": "2026-08-28T21:21:10.958Z",
+  "generated_at": "2026-08-29T13:45:12.262Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "gregoris-cisneros",
       "fighter_b_slug": "ryan-petersen",
       "prediction": {
-        "prob_a": 0.4125,
-        "prob_b": 0.5875,
-        "raw_score": -0.1359,
+        "prob_a": 0.4725,
+        "prob_b": 0.5275,
+        "raw_score": -0.0424,
         "favorite_slug": "ryan-petersen",
-        "confidence": "Very Low",
-        "advantage_a": 41,
-        "advantage_b": 59,
-        "predictability": 23,
+        "confidence": "Low",
+        "advantage_a": 47,
+        "advantage_b": 53,
+        "predictability": 27,
         "factors": [
           {
             "name": "Recent Form",
@@ -29,12 +29,12 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "5-2",
             "value_b": "3-2",
-            "edge_slug": null,
-            "edge_strength": 0.179,
+            "edge_slug": "gregoris-cisneros",
+            "edge_strength": 0.238,
             "weight": 0.11,
-            "display": "50% vs 57% win rate"
+            "display": "67% vs 57% win rate"
           },
           {
             "name": "Age",
@@ -66,20 +66,20 @@
           {
             "name": "Opponent Quality",
             "value_a": "—",
-            "value_b": "50%",
+            "value_b": "57%",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.143,
             "weight": 0.04,
             "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "7 fights",
             "value_b": "5 fights",
-            "edge_slug": "ryan-petersen",
-            "edge_strength": 0.625,
+            "edge_slug": null,
+            "edge_strength": 0.25,
             "weight": 0.03,
-            "display": "+5 fights Petersen"
+            "display": "Even"
           },
           {
             "name": "Height",
@@ -91,7 +91,7 @@
             "display": "+2\" Cisneros"
           }
         ],
-        "summary": "Model leans Petersen 59/41. Edges on recent form, bkfc experience.",
+        "summary": "Model leans Petersen 53/47. Edges on recent form.",
         "market_adjusted": false
       },
       "prop_markets": [

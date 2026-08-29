@@ -4,8 +4,8 @@
   "nickname": null,
   "division": "Cruiserweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 4,
+    "wins": 2,
+    "losses": 6,
     "draws": 0,
     "kos": null
   },
@@ -32,7 +32,7 @@
     {
       "event": "BKFC 69",
       "event_slug": "bkfc-69-richardson-vs-larrimore",
-      "date": "2024-12-06T05:00:00.000Z",
+      "date": "2024-12-06T00:00:00.000Z",
       "method": "Majority Decision",
       "round": 5,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Clearwater",
       "event_slug": "bkfc-fight-night-clearwater",
-      "date": "2024-04-12T04:00:00.000Z",
+      "date": "2024-04-12T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "02:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 26",
       "event_slug": "bkfc-26-brito-vs-palomino",
-      "date": "2022-06-24T04:00:00.000Z",
+      "date": "2022-06-24T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:14",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 25",
       "event_slug": "bkfc-25-adams-vs-cleckler",
-      "date": "2022-05-06T04:00:00.000Z",
+      "date": "2022-05-06T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:59",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1481,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:09.794Z"
+  "history_last_verified": "2026-08-29T13:45:03.886Z"
 }

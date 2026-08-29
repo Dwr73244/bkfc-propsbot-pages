@@ -33,7 +33,7 @@
     {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
-      "date": "2026-04-24T04:00:00.000Z",
+      "date": "2026-04-24T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "01:14",
@@ -48,5 +48,5 @@
     "https://www.bkfc.com/fighters/gabriel-hernandez"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:27.487Z"
+  "history_last_verified": "2026-08-29T13:44:31.861Z"
 }

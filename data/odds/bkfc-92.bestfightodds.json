@@ -3,7 +3,7 @@
   "event_date": "2026-08-29",
   "source": "bestfightodds",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4336",
-  "fetched_at": "2026-08-28T18:31:46.293Z",
+  "fetched_at": "2026-08-29T09:19:42.735Z",
   "bouts": [
     {
       "fighter_a_slug": "kai-stewart",
@@ -98,11 +98,11 @@
     {
       "fighter_a_slug": "guilherme-viana",
       "fighter_b_slug": "robinson-perez",
-      "moneyline_a": -265,
-      "moneyline_b": 180,
-      "implied_prob_a": 0.726,
-      "implied_prob_b": 0.357,
-      "vig": 0.083,
+      "moneyline_a": -200,
+      "moneyline_b": 143,
+      "implied_prob_a": 0.667,
+      "implied_prob_b": 0.412,
+      "vig": 0.078,
       "book_count": 1
     },
     {
