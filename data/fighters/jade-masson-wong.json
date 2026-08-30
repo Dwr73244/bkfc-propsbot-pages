@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
-      "date": "2026-02-07T05:00:00.000Z",
+      "date": "2026-02-07T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 65",
       "event_slug": "bkfc-65-ferea-vs-masson-wong",
-      "date": "2024-09-06T04:00:00.000Z",
+      "date": "2024-09-06T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -80,7 +80,7 @@
     {
       "event": "Knucklemania II",
       "event_slug": "knucklemania-ii",
-      "date": "2022-02-19T05:00:00.000Z",
+      "date": "2022-02-19T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:49",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1540,
   "elo_peak": 1540,
-  "history_last_verified": "2026-07-31T18:45:10.089Z"
+  "history_last_verified": "2026-08-30T13:40:38.123Z"
 }

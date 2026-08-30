@@ -23,7 +23,12 @@
       "title_fight": true,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "kai-stewart",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 2,
@@ -34,7 +39,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "dallas-davison",
+        "method": "KO",
+        "round": 2,
+        "time": "0:59"
+      }
     },
     {
       "order": 3,
@@ -45,7 +55,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "james-murrin",
+        "method": "KO",
+        "round": 1,
+        "time": "0:35"
+      }
     },
     {
       "order": 4,
@@ -56,7 +71,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "david-simpson",
+        "method": "KO",
+        "round": 1,
+        "time": "0:27"
+      }
     },
     {
       "order": 5,
@@ -67,7 +87,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "tray-martin",
+        "method": "KO",
+        "round": 4,
+        "time": "1:21"
+      }
     },
     {
       "order": 6,
@@ -78,7 +103,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "peter-barrett",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:57"
+      }
     },
     {
       "order": 7,
@@ -89,7 +119,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "joe-lauzon",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:49"
+      }
     },
     {
       "order": 8,
@@ -100,7 +135,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "charon-spain",
+        "method": "Split Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 9,
@@ -111,7 +151,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "taylor-starling",
+        "method": "Unanimous Decision",
+        "round": 3,
+        "time": "2:00"
+      }
     },
     {
       "order": 10,
@@ -122,7 +167,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "guilherme-viana",
+        "method": "KO",
+        "round": 1,
+        "time": "1:04"
+      }
     },
     {
       "order": 11,
@@ -133,7 +183,12 @@
       "title_fight": true,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "christine-ferea",
+        "method": "KO",
+        "round": 2,
+        "time": "0:33"
+      }
     },
     {
       "order": 12,
@@ -144,7 +199,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "jake-pilla",
+        "method": "TKO",
+        "round": 2,
+        "time": "1:07"
+      }
     },
     {
       "order": 13,
@@ -161,6 +221,6 @@
   "sources": [
     "https://www.bkfc.com/events/bkfc-92"
   ],
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-30",
   "needs_card_population": false
 }

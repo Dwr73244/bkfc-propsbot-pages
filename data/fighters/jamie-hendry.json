@@ -43,7 +43,7 @@
     {
       "event": "BKFC 37",
       "event_slug": "bkfc-37-london",
-      "date": "2023-03-04T05:00:00.000Z",
+      "date": "2023-03-04T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:54",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:10.352Z"
+  "history_last_verified": "2026-08-30T13:40:51.064Z"
 }

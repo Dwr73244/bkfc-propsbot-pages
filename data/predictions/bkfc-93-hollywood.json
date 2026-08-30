@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-08-29T15:35:34.930Z",
+  "generated_at": "2026-08-30T13:41:19.986Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -792,14 +792,14 @@
       "fighter_a_slug": "murat-kazgan",
       "fighter_b_slug": "james-rodriguez",
       "prediction": {
-        "prob_a": 0.6447,
-        "prob_b": 0.3553,
-        "raw_score": 0.2292,
+        "prob_a": 0.6698,
+        "prob_b": 0.3302,
+        "raw_score": 0.272,
         "favorite_slug": "murat-kazgan",
-        "confidence": "Very Low",
-        "advantage_a": 64,
-        "advantage_b": 36,
-        "predictability": 24,
+        "confidence": "Low",
+        "advantage_a": 67,
+        "advantage_b": 33,
+        "predictability": 38,
         "factors": [
           {
             "name": "Recent Form",
@@ -813,7 +813,7 @@
           {
             "name": "BKFC Record",
             "value_a": "1-1",
-            "value_b": "0-0",
+            "value_b": "1-1",
             "edge_slug": null,
             "edge_strength": 0,
             "weight": 0.11,
@@ -857,24 +857,24 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "0%",
+            "value_a": "25%",
             "value_b": "—",
             "edge_slug": "james-rodriguez",
-            "edge_strength": 1,
+            "edge_strength": 0.5,
             "weight": 0.04,
             "display": "Rodriguez tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "2 fights",
-            "value_b": "0 fights",
+            "value_b": "2 fights",
             "edge_slug": null,
-            "edge_strength": 0.25,
+            "edge_strength": 0,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Model leans Kazgan 64/36. Edges on recent form, ko rate.",
+        "summary": "Model leans Kazgan 67/33. Edges on recent form, ko rate.",
         "market_adjusted": false
       },
       "prop_markets": [

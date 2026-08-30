@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "0:57",
+      "opponent": "elijah-harris",
+      "opponent_slug": "elijah-harris",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun",
       "date": "2025-12-20T00:00:00.000Z",
@@ -61,5 +72,7 @@
     "https://www.bkfc.com/fighters/peter-barrett"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-02T10:02:13.220Z"
+  "history_last_verified": "2026-08-02T10:02:13.220Z",
+  "elo": 1523,
+  "elo_peak": 1523
 }

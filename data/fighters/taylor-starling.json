@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "kat-paprocki",
+      "opponent_slug": "kat-paprocki",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Blood 4 Blood",
       "event_slug": "blood-4-blood",
       "date": "2026-05-06T00:00:00.000Z",
@@ -78,17 +89,6 @@
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/taylor-starling"
-    },
-    {
-      "event": "BKFC Fight Night Prospects: Albuquerque",
-      "event_slug": "bkfc-fight-night-prospects-albuquerque-2024",
-      "date": "2024-01-27T20:00:00.000Z",
-      "method": "Decision (unanimous)",
-      "round": 5,
-      "time": "2:00",
-      "opponent": "jenny-savage",
-      "opponent_slug": "jenny-savage",
-      "result": "W"
     }
   ],
   "sources": [
@@ -98,7 +98,7 @@
     "https://www.bkfc.com/fighters/taylor-starling"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1481,
+  "elo": 1501,
   "elo_peak": 1501,
   "history_last_verified": "2026-08-04T10:37:42.391Z"
 }

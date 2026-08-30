@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -22,16 +22,31 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785248841/o/JAKE_PILLA_AVATAR_400x533.png?1785248841",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785248830/o/JAKE_PILLA_SMALL_AVATAR_400x400.png?1785248830",
   "social": {
     "instagram": null,
     "twitter": null,
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:07",
+      "opponent": "angelo-colon",
+      "opponent_slug": "angelo-colon",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/jake-pilla"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-08-30",
+  "history_last_verified": "2026-08-30T13:40:34.968Z",
+  "elo": 1522,
+  "elo_peak": 1522
 }

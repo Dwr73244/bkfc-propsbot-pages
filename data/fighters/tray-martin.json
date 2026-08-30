@@ -29,10 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "1:21",
+      "opponent": "rico-disciullo",
+      "opponent_slug": "rico-disciullo",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/trey-martin"
   ],
   "last_updated": "2026-07-31",
-  "stub": true
+  "stub": true,
+  "elo": 1523,
+  "elo_peak": 1523
 }

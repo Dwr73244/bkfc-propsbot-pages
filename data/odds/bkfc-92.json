@@ -3,7 +3,7 @@
   "event_date": "2026-08-29",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-08-29T14:39:36.383Z",
+  "fetched_at": "2026-08-30T10:37:47.128Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -40,11 +40,11 @@
     {
       "fighter_a_slug": "pat-casey",
       "fighter_b_slug": "dallas-davison",
-      "moneyline_a": -345,
-      "moneyline_b": 230,
-      "implied_prob_a": 0.775,
-      "implied_prob_b": 0.303,
-      "vig": 0.078,
+      "moneyline_a": -530,
+      "moneyline_b": 335,
+      "implied_prob_a": 0.841,
+      "implied_prob_b": 0.23,
+      "vig": 0.071,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -52,12 +52,12 @@
       ],
       "line_range": {
         "a": [
-          -345,
-          -345
+          -530,
+          -530
         ],
         "b": [
-          230,
-          230
+          335,
+          335
         ]
       }
     },
@@ -184,10 +184,10 @@
     {
       "fighter_a_slug": "charles-rosa",
       "fighter_b_slug": "charon-spain",
-      "moneyline_a": -215,
-      "moneyline_b": 150,
-      "implied_prob_a": 0.683,
-      "implied_prob_b": 0.4,
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
       "vig": 0.083,
       "book_count": 2,
       "books": [
@@ -196,12 +196,12 @@
       ],
       "line_range": {
         "a": [
-          -215,
-          -215
+          -335,
+          -335
         ],
         "b": [
-          150,
-          150
+          220,
+          220
         ]
       }
     },
@@ -256,11 +256,11 @@
     {
       "fighter_a_slug": "christine-ferea",
       "fighter_b_slug": "sofia-landi",
-      "moneyline_a": -670,
-      "moneyline_b": 410,
-      "implied_prob_a": 0.87,
-      "implied_prob_b": 0.196,
-      "vig": 0.066,
+      "moneyline_a": -770,
+      "moneyline_b": 475,
+      "implied_prob_a": 0.885,
+      "implied_prob_b": 0.174,
+      "vig": 0.059,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -268,12 +268,12 @@
       ],
       "line_range": {
         "a": [
-          -670,
-          -670
+          -770,
+          -770
         ],
         "b": [
-          410,
-          410
+          475,
+          475
         ]
       }
     },

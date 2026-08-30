@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:27",
+      "opponent": "david-burke",
+      "opponent_slug": "david-burke",
+      "result": "W"
+    },
+    {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
       "date": "2025-11-15T05:00:00.000Z",
@@ -80,19 +91,6 @@
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/david-simpson"
-    },
-    {
-      "event": "BKFC 62",
-      "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T04:00:00.000Z",
-      "method": "TKO",
-      "round": 3,
-      "time": "01:03",
-      "opponent": "Markus Suarez",
-      "opponent_slug": "markus-suarez",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/david-simpson"
     }
   ],
   "sources": [
@@ -100,7 +98,7 @@
     "https://www.bkfc.com/fighters/david-simpson"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1478,
-  "elo_peak": 1500,
+  "elo": 1501,
+  "elo_peak": 1501,
   "history_last_verified": "2026-07-31T18:45:05.598Z"
 }

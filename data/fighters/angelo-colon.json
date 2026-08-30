@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:07",
+      "opponent": "jake-pilla",
+      "opponent_slug": "jake-pilla",
+      "result": "L"
+    },
+    {
       "event": "BKFC 85",
       "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
       "date": "2025-12-05T00:00:00.000Z",
@@ -48,5 +59,7 @@
     "https://www.bkfc.com/fighters/angelo-colon"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-14T09:12:41.853Z"
+  "history_last_verified": "2026-08-14T09:12:41.853Z",
+  "elo": 1478,
+  "elo_peak": 1500
 }

@@ -32,7 +32,7 @@
     {
       "event": "BKFC 83",
       "event_slug": "bkfc-rome",
-      "date": "2025-10-25T04:00:00.000Z",
+      "date": "2025-10-25T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha-2",
-      "date": "2025-04-18T04:00:00.000Z",
+      "date": "2025-04-18T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 66",
       "event_slug": "bkfc-66-blas-vs-reber",
-      "date": "2024-09-13T04:00:00.000Z",
+      "date": "2024-09-13T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:41",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1560,
   "elo_peak": 1560,
-  "history_last_verified": "2026-07-31T18:45:10.239Z"
+  "history_last_verified": "2026-08-30T13:40:51.931Z"
 }

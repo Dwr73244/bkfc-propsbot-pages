@@ -29,10 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:49",
+      "opponent": "joe-lauzon",
+      "opponent_slug": "joe-lauzon",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/braeden-kuykendall"
   ],
   "last_updated": "2026-07-31",
-  "stub": true
+  "stub": true,
+  "elo": 1478,
+  "elo_peak": 1500
 }

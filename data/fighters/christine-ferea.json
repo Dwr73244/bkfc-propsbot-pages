@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:33",
+      "opponent": "sofia-landi",
+      "opponent_slug": "sofia-landi",
+      "result": "W"
+    },
+    {
       "event": "BKFC 82 -",
       "event_slug": "bkfc-new-jersey",
       "date": "2025-10-04T00:00:00.000Z",
@@ -80,17 +91,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/christine-ferea"
-    },
-    {
-      "event": "BKFC 41 Colorado: Perry vs. Rockhold",
-      "event_slug": "bkfc-41",
-      "date": "2023-04-29T20:00:00.000Z",
-      "method": "TKO (doctor stoppage)",
-      "round": 2,
-      "time": "2:00",
-      "opponent": "bec-rawlings",
-      "opponent_slug": "bec-rawlings",
-      "result": "W"
     }
   ],
   "sources": [
@@ -104,7 +104,7 @@
     "power"
   ],
   "full_name": "Christine Ferea",
-  "elo": 1526,
-  "elo_peak": 1526,
+  "elo": 1551,
+  "elo_peak": 1551,
   "history_last_verified": "2026-08-15T08:33:57.837Z"
 }

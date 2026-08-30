@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:59",
+      "opponent": "pat-casey",
+      "opponent_slug": "pat-casey",
+      "result": "W"
+    },
+    {
       "event": "BKFC 78 -",
       "event_slug": "bkfc-hollywood",
       "date": "2025-07-12T00:00:00.000Z",
@@ -76,19 +87,6 @@
       "opponent": "lloyd-mix",
       "opponent_slug": "lloyd-mix",
       "result": "L"
-    },
-    {
-      "event": "BKFC 44",
-      "event_slug": "bkfc-44-montana",
-      "date": "2023-06-09T00:00:00.000Z",
-      "method": "TKO",
-      "round": 4,
-      "time": "02:00",
-      "opponent": "Lloyd Woodward",
-      "opponent_slug": "lloyd-woodward",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/dallas-davison"
     }
   ],
   "sources": [
@@ -97,7 +95,7 @@
     "https://www.bkfc.com/fighters/dallas-davison"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1459,
+  "elo": 1482,
   "elo_peak": 1500,
   "history_last_verified": "2026-08-26T08:48:01.046Z"
 }

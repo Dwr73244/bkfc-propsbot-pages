@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "taylor-starling",
+      "opponent_slug": "taylor-starling",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
       "date": "2026-04-24T00:00:00.000Z",
@@ -74,5 +85,7 @@
     "https://www.bkfc.com/fighters/kat-paprocki"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-06T10:37:30.589Z"
+  "history_last_verified": "2026-08-06T10:37:30.589Z",
+  "elo": 1480,
+  "elo_peak": 1500
 }

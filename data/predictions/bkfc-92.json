@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-92",
-  "generated_at": "2026-08-29T15:35:34.924Z",
+  "generated_at": "2026-08-29T23:33:45.817Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -147,14 +147,14 @@
       "fighter_a_slug": "pat-casey",
       "fighter_b_slug": "dallas-davison",
       "prediction": {
-        "prob_a": 0.5676,
-        "prob_b": 0.4324,
+        "prob_a": 0.5975,
+        "prob_b": 0.4025,
         "raw_score": -0.0868,
         "favorite_slug": "pat-casey",
         "confidence": "Low",
-        "advantage_a": 57,
-        "advantage_b": 43,
-        "predictability": 24,
+        "advantage_a": 60,
+        "advantage_b": 40,
+        "predictability": 26,
         "factors": [
           {
             "name": "ELO Rating",
@@ -238,7 +238,7 @@
             "display": "+3 fights Davison"
           }
         ],
-        "summary": "Model leans Casey 57/43. Edges on multiple factors.",
+        "summary": "Model leans Casey 60/40. Edges on multiple factors.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -279,14 +279,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5676177970266856,
-        "model_prob_b": 0.4323822029733144,
-        "market_fair_prob_a": 0.7189239332096474,
-        "market_fair_prob_b": 0.28107606679035246,
-        "edge_pct_a": -0.15130613618296185,
-        "edge_pct_b": 0.15130613618296196,
+        "model_prob_a": 0.5974633716201594,
+        "model_prob_b": 0.4025366283798406,
+        "market_fair_prob_a": 0.7852474323062558,
+        "market_fair_prob_b": 0.21475256769374418,
+        "edge_pct_a": -0.18778406068609643,
+        "edge_pct_b": 0.18778406068609643,
         "edge_slug": "dallas-davison",
-        "edge_pct": 0.15130613618296185
+        "edge_pct": 0.18778406068609643
       }
     },
     {
@@ -876,14 +876,14 @@
       "fighter_a_slug": "charles-rosa",
       "fighter_b_slug": "charon-spain",
       "prediction": {
-        "prob_a": 0.5588,
-        "prob_b": 0.4412,
+        "prob_a": 0.5949,
+        "prob_b": 0.4051,
         "raw_score": 0,
         "favorite_slug": "charles-rosa",
         "confidence": "Very Low",
-        "advantage_a": 56,
-        "advantage_b": 44,
-        "predictability": 21,
+        "advantage_a": 59,
+        "advantage_b": 41,
+        "predictability": 23,
         "factors": [
           {
             "name": "BKFC Record",
@@ -945,14 +945,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5587950138504155,
-        "model_prob_b": 0.4412049861495845,
-        "market_fair_prob_a": 0.6306555863342567,
-        "market_fair_prob_b": 0.3693444136657433,
-        "edge_pct_a": -0.07186057248384115,
-        "edge_pct_b": 0.0718605724838412,
+        "model_prob_a": 0.5949445983379502,
+        "model_prob_b": 0.4050554016620498,
+        "market_fair_prob_a": 0.710987996306556,
+        "market_fair_prob_b": 0.28901200369344415,
+        "edge_pct_a": -0.11604339796860574,
+        "edge_pct_b": 0.11604339796860563,
         "edge_slug": "charon-spain",
-        "edge_pct": 0.07186057248384115
+        "edge_pct": 0.11604339796860574
       }
     },
     {
@@ -1191,13 +1191,13 @@
       "fighter_a_slug": "christine-ferea",
       "fighter_b_slug": "sofia-landi",
       "prediction": {
-        "prob_a": 0.7391,
-        "prob_b": 0.2609,
+        "prob_a": 0.7479,
+        "prob_b": 0.2521,
         "raw_score": 0.283,
         "favorite_slug": "christine-ferea",
         "confidence": "Low",
-        "advantage_a": 74,
-        "advantage_b": 26,
+        "advantage_a": 75,
+        "advantage_b": 25,
         "predictability": 48,
         "factors": [
           {
@@ -1282,7 +1282,7 @@
             "display": "+12 fights Ferea"
           }
         ],
-        "summary": "Model leans Ferea 74/26. Edges on recent form, bkfc record, mma background, bkfc experience.",
+        "summary": "Model leans Ferea 75/25. Edges on recent form, bkfc record, mma background, bkfc experience.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1323,14 +1323,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.7391006403498135,
-        "model_prob_b": 0.2608993596501865,
-        "market_fair_prob_a": 0.8161350844277673,
-        "market_fair_prob_b": 0.18386491557223264,
-        "edge_pct_a": -0.07703444407795379,
-        "edge_pct_b": 0.07703444407795387,
+        "model_prob_a": 0.747902175303494,
+        "model_prob_b": 0.252097824696506,
+        "market_fair_prob_a": 0.8356940509915015,
+        "market_fair_prob_b": 0.16430594900849857,
+        "edge_pct_a": -0.0877918756880075,
+        "edge_pct_b": 0.08779187568800742,
         "edge_slug": "sofia-landi",
-        "edge_pct": 0.07703444407795379
+        "edge_pct": 0.0877918756880075
       }
     },
     {

@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "1:21",
+      "opponent": "tray-martin",
+      "opponent_slug": "tray-martin",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun-porter-vs-watson",
       "date": "2026-03-28T00:00:00.000Z",
@@ -78,19 +89,6 @@
       "opponent": "anthony-foye",
       "opponent_slug": "anthony-foye",
       "result": "W"
-    },
-    {
-      "event": "BKFC: Mohegan Sun",
-      "event_slug": "bkfc-on-dazn-mohegan-sun",
-      "date": "2025-02-01T00:00:00.000Z",
-      "method": "TKO",
-      "round": 3,
-      "time": "01:08",
-      "opponent": "Quinton Foye",
-      "opponent_slug": "quinton-foye",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/rico-disciullo"
     }
   ],
   "sources": [
@@ -98,7 +96,7 @@
     "https://www.bkfc.com/fighters/rico-disciullo"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
+  "elo": 1499,
   "elo_peak": 1522,
   "history_last_verified": "2026-08-02T10:02:28.665Z"
 }

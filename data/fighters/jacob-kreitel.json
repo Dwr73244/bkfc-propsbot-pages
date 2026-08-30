@@ -43,7 +43,7 @@
     {
       "event": "BKFC 24",
       "event_slug": "bkfc-24-hunt-vs-riggs",
-      "date": "2022-04-30T04:00:00.000Z",
+      "date": "2022-04-30T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:43",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:10.032Z"
+  "history_last_verified": "2026-08-30T13:40:30.207Z"
 }

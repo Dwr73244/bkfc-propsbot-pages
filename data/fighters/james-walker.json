@@ -4,7 +4,7 @@
   "nickname": "SUGAR MAN",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Fight Night Newcastle",
       "event_slug": "bkfc-fight-night-newcastle-2",
-      "date": "2026-03-14T04:00:00.000Z",
+      "date": "2026-03-14T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "02:00",
@@ -72,5 +72,5 @@
   "last_updated": "2026-07-31",
   "elo": 1537,
   "elo_peak": 1537,
-  "history_last_verified": "2026-07-31T18:45:10.305Z"
+  "history_last_verified": "2026-08-30T13:40:43.366Z"
 }
