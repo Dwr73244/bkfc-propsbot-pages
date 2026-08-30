@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-08-30T13:41:19.986Z",
+  "generated_at": "2026-08-30T15:18:55.699Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -83,10 +83,10 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "47%",
+            "value_a": "54%",
             "value_b": "—",
             "edge_slug": null,
-            "edge_strength": 0.056,
+            "edge_strength": 0.083,
             "weight": 0.04,
             "display": "Similar schedule"
           },
@@ -1291,6 +1291,153 @@
               "outcome": "Decision",
               "moneyline": 196,
               "implied_prob": 0.338
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 12,
+      "fighter_a_slug": "leonardo-perdomo",
+      "fighter_b_slug": "bear-hill",
+      "prediction": {
+        "prob_a": 0.4934,
+        "prob_b": 0.5066,
+        "raw_score": -0.0102,
+        "favorite_slug": "bear-hill",
+        "confidence": "Low",
+        "advantage_a": 49,
+        "advantage_b": 51,
+        "predictability": 34,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1543,
+            "value_b": 1543,
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.16,
+            "display": "Equal ratings"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W",
+            "value_b": "W-W",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.13,
+            "display": "Similar form"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "11-0",
+            "value_b": "3-1",
+            "edge_slug": "leonardo-perdomo",
+            "edge_strength": 0.641,
+            "weight": 0.11,
+            "display": "92% vs 67% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "18%",
+            "value_b": "33%",
+            "edge_slug": "bear-hill",
+            "edge_strength": 0.227,
+            "weight": 0.11,
+            "display": "-15 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 34,
+            "value_b": 32,
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.09,
+            "display": "34 vs 32"
+          },
+          {
+            "name": "Reach",
+            "value_a": "73\"",
+            "value_b": "74\"",
+            "edge_slug": "bear-hill",
+            "edge_strength": 0.167,
+            "weight": 0.08,
+            "display": "-1\" Hill"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.4y ago",
+            "value_b": "23d ago",
+            "edge_slug": "bear-hill",
+            "edge_strength": 0.7,
+            "weight": 0.05,
+            "display": "Hill more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "54%",
+            "value_b": "67%",
+            "edge_slug": "bear-hill",
+            "edge_strength": 0.25,
+            "weight": 0.04,
+            "display": "Hill tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "11 fights",
+            "value_b": "4 fights",
+            "edge_slug": "leonardo-perdomo",
+            "edge_strength": 0.875,
+            "weight": 0.03,
+            "display": "+7 fights Perdomo"
+          }
+        ],
+        "summary": "Model leans Hill 51/49. Edges on ko rate, activity, opponent quality.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 461,
+              "implied_prob": 0.178
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -461,
+              "implied_prob": 0.822
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -145,
+              "implied_prob": 0.592
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 335,
+              "implied_prob": 0.23
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 461,
+              "implied_prob": 0.178
             }
           ]
         }

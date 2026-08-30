@@ -5,10 +5,10 @@
   "nickname": null,
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
-    "kos": null
+    "kos": 1
   },
   "mma_record": null,
   "height_in": null,
@@ -48,5 +48,7 @@
   "last_updated": "2026-07-31",
   "stub": true,
   "elo": 1523,
-  "elo_peak": 1523
+  "elo_peak": 1523,
+  "record_source": "tracked-events",
+  "record_verified": "2026-08-30"
 }
