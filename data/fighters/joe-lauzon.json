@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785247981/o/JOE_LAUZON_AVATAR_400x533.png?1785247981",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1785247968/o/JOE_LAUZON_SMALL_AVATAR_400x400.png?1785247968",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -40,14 +40,28 @@
       "opponent": "stash-kuykendall",
       "opponent_slug": "stash-kuykendall",
       "result": "W"
+    },
+    {
+      "event": "BKFC 92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:49",
+      "opponent": "Braeden Kuykendall",
+      "opponent_slug": "braeden-kuykendall",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joe-lauzon"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/joe-lauzon"
   ],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-31",
   "elo": 1522,
   "elo_peak": 1522,
   "record_source": "tracked-events",
-  "record_verified": "2026-08-30"
+  "record_verified": "2026-08-30",
+  "history_last_verified": "2026-08-31T15:58:02.047Z"
 }

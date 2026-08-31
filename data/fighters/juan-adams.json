@@ -4,7 +4,7 @@
   "nickname": "THE KRAKEN",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 4,
     "losses": 0,
     "draws": 0,
     "kos": 1
@@ -48,5 +48,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:11.886Z"
+  "history_last_verified": "2026-08-31T15:58:45.145Z"
 }
