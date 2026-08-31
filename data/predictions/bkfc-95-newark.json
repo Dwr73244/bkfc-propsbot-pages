@@ -1,7 +1,350 @@
 {
   "event_slug": "bkfc-95-newark",
-  "generated_at": "2026-08-31T15:59:03.479Z",
+  "generated_at": "2026-08-31T17:59:29.759Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
-  "bouts": []
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "jamel-herring",
+      "fighter_b_slug": "john-dodson",
+      "prediction": {
+        "prob_a": 0.5235,
+        "prob_b": 0.4765,
+        "raw_score": 0.0361,
+        "favorite_slug": "jamel-herring",
+        "confidence": "Low",
+        "advantage_a": 52,
+        "advantage_b": 48,
+        "predictability": 33,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "W",
+            "edge_slug": "john-dodson",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Dodson hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-0",
+            "value_b": "4-0",
+            "edge_slug": "john-dodson",
+            "edge_strength": 0.208,
+            "weight": 0.11,
+            "display": "75% vs 83% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "25%",
+            "edge_slug": null,
+            "edge_strength": 0.15,
+            "weight": 0.11,
+            "display": "10 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 40,
+            "value_b": 41,
+            "edge_slug": "jamel-herring",
+            "edge_strength": 0.28,
+            "weight": 0.09,
+            "display": "40 vs 41"
+          },
+          {
+            "name": "Pro Boxing",
+            "value_a": "24-5 (12 KOs)",
+            "value_b": "—",
+            "edge_slug": "jamel-herring",
+            "edge_strength": 1,
+            "weight": 0.09,
+            "display": "Herring deeper pro boxing"
+          },
+          {
+            "name": "Reach",
+            "value_a": "70\"",
+            "value_b": "66\"",
+            "edge_slug": "jamel-herring",
+            "edge_strength": 0.667,
+            "weight": 0.08,
+            "display": "+4\" Herring"
+          },
+          {
+            "name": "Style",
+            "value_a": "—",
+            "value_b": "counter / volume",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.06,
+            "display": "No exploitable style mismatch"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "3.5y ago",
+            "edge_slug": "jamel-herring",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Herring more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "91%",
+            "edge_slug": "john-dodson",
+            "edge_strength": 0.818,
+            "weight": 0.04,
+            "display": "Dodson tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "2 fights",
+            "value_b": "4 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Herring 52/48. Edges on age, pro boxing, reach, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 221,
+              "implied_prob": 0.312
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -221,
+              "implied_prob": 0.688
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 102,
+              "implied_prob": 0.496
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 419,
+              "implied_prob": 0.193
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 221,
+              "implied_prob": 0.312
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 2,
+      "fighter_a_slug": "tony-loco-soto",
+      "fighter_b_slug": "anthony-pike",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "anthony-pike",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -233,
+              "implied_prob": 0.7
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -102,
+              "implied_prob": 0.504
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 410,
+              "implied_prob": 0.196
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 3,
+      "fighter_a_slug": "gabrielle-roman",
+      "fighter_b_slug": "brooke-evans",
+      "prediction": {
+        "prob_a": 0.3768,
+        "prob_b": 0.6232,
+        "raw_score": -0.1935,
+        "favorite_slug": "brooke-evans",
+        "confidence": "Very Low",
+        "advantage_a": 38,
+        "advantage_b": 62,
+        "predictability": 25,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "L",
+            "value_b": "—",
+            "edge_slug": "brooke-evans",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Evans hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-3",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0.179,
+            "weight": 0.11,
+            "display": "43% vs 50% win rate"
+          },
+          {
+            "name": "Activity",
+            "value_a": "2.5y ago",
+            "value_b": "—",
+            "edge_slug": "brooke-evans",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Evans more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "67%",
+            "value_b": "—",
+            "edge_slug": "gabrielle-roman",
+            "edge_strength": 0.333,
+            "weight": 0.04,
+            "display": "Roman tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "5 fights",
+            "value_b": "0 fights",
+            "edge_slug": "gabrielle-roman",
+            "edge_strength": 0.625,
+            "weight": 0.03,
+            "display": "+5 fights Roman"
+          }
+        ],
+        "summary": "Model leans Evans 62/38. Edges on recent form, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": -100,
+              "implied_prob": 0.5
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -100,
+              "implied_prob": 0.5
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 178,
+              "implied_prob": 0.36
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 614,
+              "implied_prob": 0.14
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": -100,
+              "implied_prob": 0.5
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
 }
