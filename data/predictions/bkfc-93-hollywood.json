@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-09-01T13:13:49.288Z",
+  "generated_at": "2026-09-01T14:04:30.079Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "leonardo-perdomo",
       "fighter_b_slug": "anthony-garrett",
       "prediction": {
-        "prob_a": 0.6378,
-        "prob_b": 0.3622,
-        "raw_score": 0.2176,
+        "prob_a": 0.6289,
+        "prob_b": 0.3711,
+        "raw_score": 0.2028,
         "favorite_slug": "leonardo-perdomo",
         "confidence": "Low",
-        "advantage_a": 64,
-        "advantage_b": 36,
-        "predictability": 43,
+        "advantage_a": 63,
+        "advantage_b": 37,
+        "predictability": 42,
         "factors": [
           {
             "name": "Recent Form",
@@ -100,7 +100,7 @@
             "display": "+7 fights Perdomo"
           }
         ],
-        "summary": "Model leans Perdomo 64/36. Edges on recent form, bkfc record, age, activity.",
+        "summary": "Model leans Perdomo 63/37. Edges on recent form, bkfc record, age, activity.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -147,9 +147,9 @@
       "fighter_a_slug": "gee-perez",
       "fighter_b_slug": "andrew-strode",
       "prediction": {
-        "prob_a": 0.4309,
-        "prob_b": 0.5691,
-        "raw_score": -0.107,
+        "prob_a": 0.4323,
+        "prob_b": 0.5677,
+        "raw_score": -0.1048,
         "favorite_slug": "andrew-strode",
         "confidence": "Low",
         "advantage_a": 43,
@@ -294,14 +294,14 @@
       "fighter_a_slug": "esteban-rodriguez",
       "fighter_b_slug": "stephen-tomahawk-townsel",
       "prediction": {
-        "prob_a": 0.8069,
-        "prob_b": 0.1931,
-        "raw_score": 0.5499,
+        "prob_a": 0.8054,
+        "prob_b": 0.1946,
+        "raw_score": 0.5463,
         "favorite_slug": "esteban-rodriguez",
         "confidence": "Low",
         "advantage_a": 81,
         "advantage_b": 19,
-        "predictability": 56,
+        "predictability": 55,
         "factors": [
           {
             "name": "Recent Form",
@@ -441,14 +441,14 @@
       "fighter_a_slug": "chris-garcia",
       "fighter_b_slug": "tyler-randall",
       "prediction": {
-        "prob_a": 0.6096,
-        "prob_b": 0.3904,
-        "raw_score": 0.1715,
+        "prob_a": 0.606,
+        "prob_b": 0.394,
+        "raw_score": 0.1656,
         "favorite_slug": "chris-garcia",
         "confidence": "High",
         "advantage_a": 61,
         "advantage_b": 39,
-        "predictability": 72,
+        "predictability": 71,
         "factors": [
           {
             "name": "ELO Rating",
@@ -597,9 +597,9 @@
       "fighter_a_slug": "matt-rambo-russo",
       "fighter_b_slug": "jancarlos-rivera",
       "prediction": {
-        "prob_a": 0.1614,
-        "prob_b": 0.8386,
-        "raw_score": -0.6337,
+        "prob_a": 0.1645,
+        "prob_b": 0.8355,
+        "raw_score": -0.6251,
         "favorite_slug": "jancarlos-rivera",
         "confidence": "Very Low",
         "advantage_a": 16,
@@ -672,13 +672,13 @@
       "fighter_a_slug": "chino-blume",
       "fighter_b_slug": "caleb-joseph-avila",
       "prediction": {
-        "prob_a": 0.3053,
-        "prob_b": 0.6947,
-        "raw_score": -0.3163,
+        "prob_a": 0.3037,
+        "prob_b": 0.6963,
+        "raw_score": -0.3191,
         "favorite_slug": "caleb-joseph-avila",
         "confidence": "Very Low",
-        "advantage_a": 31,
-        "advantage_b": 69,
+        "advantage_a": 30,
+        "advantage_b": 70,
         "predictability": 31,
         "factors": [
           {
@@ -745,7 +745,7 @@
             "display": "+3 fights Avila"
           }
         ],
-        "summary": "Model leans Avila 69/31. Edges on recent form, ko rate, bkfc experience.",
+        "summary": "Model leans Avila 70/30. Edges on recent form, ko rate, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -792,9 +792,9 @@
       "fighter_a_slug": "murat-kazgan",
       "fighter_b_slug": "james-rodriguez",
       "prediction": {
-        "prob_a": 0.6698,
-        "prob_b": 0.3302,
-        "raw_score": 0.272,
+        "prob_a": 0.6691,
+        "prob_b": 0.3309,
+        "raw_score": 0.2709,
         "favorite_slug": "murat-kazgan",
         "confidence": "Low",
         "advantage_a": 67,
@@ -921,13 +921,13 @@
       "fighter_a_slug": "ernesto-suarez",
       "fighter_b_slug": "ronny-hauser",
       "prediction": {
-        "prob_a": 0.6218,
-        "prob_b": 0.3782,
-        "raw_score": 0.1912,
+        "prob_a": 0.6279,
+        "prob_b": 0.3721,
+        "raw_score": 0.2013,
         "favorite_slug": "ernesto-suarez",
         "confidence": "Very Low",
-        "advantage_a": 62,
-        "advantage_b": 38,
+        "advantage_a": 63,
+        "advantage_b": 37,
         "predictability": 35,
         "factors": [
           {
@@ -976,7 +976,7 @@
             "display": "+1\" Suarez"
           }
         ],
-        "summary": "Model leans Suarez 62/38. Edges on age, reach.",
+        "summary": "Model leans Suarez 63/37. Edges on age, reach.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1173,9 +1173,9 @@
       "fighter_a_slug": "bryan-duran",
       "fighter_b_slug": "felony-charles-bennett",
       "prediction": {
-        "prob_a": 0.6834,
-        "prob_b": 0.3166,
-        "raw_score": 0.296,
+        "prob_a": 0.6755,
+        "prob_b": 0.3245,
+        "raw_score": 0.2819,
         "favorite_slug": "bryan-duran",
         "confidence": "Low",
         "advantage_a": 68,
@@ -1302,9 +1302,9 @@
       "fighter_a_slug": "leonardo-perdomo",
       "fighter_b_slug": "bear-hill",
       "prediction": {
-        "prob_a": 0.4934,
-        "prob_b": 0.5066,
-        "raw_score": -0.0102,
+        "prob_a": 0.4888,
+        "prob_b": 0.5112,
+        "raw_score": -0.0172,
         "favorite_slug": "bear-hill",
         "confidence": "Low",
         "advantage_a": 49,

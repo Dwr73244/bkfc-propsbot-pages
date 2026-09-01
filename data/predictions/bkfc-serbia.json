@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-serbia",
-  "generated_at": "2026-09-01T13:13:49.299Z",
+  "generated_at": "2026-09-01T14:04:30.090Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,9 +9,9 @@
       "fighter_a_slug": "agi-faulkner",
       "fighter_b_slug": "dilan-prasovic",
       "prediction": {
-        "prob_a": 0.2489,
-        "prob_b": 0.7511,
-        "raw_score": -0.4247,
+        "prob_a": 0.2478,
+        "prob_b": 0.7522,
+        "raw_score": -0.4271,
         "favorite_slug": "dilan-prasovic",
         "confidence": "Low",
         "advantage_a": 25,
@@ -213,13 +213,13 @@
       "fighter_a_slug": "stefan-dobrijevic",
       "fighter_b_slug": "stefan-negucic",
       "prediction": {
-        "prob_a": 0.6786,
-        "prob_b": 0.3214,
-        "raw_score": 0.2874,
+        "prob_a": 0.6732,
+        "prob_b": 0.3268,
+        "raw_score": 0.2779,
         "favorite_slug": "stefan-dobrijevic",
         "confidence": "Very Low",
-        "advantage_a": 68,
-        "advantage_b": 32,
+        "advantage_a": 67,
+        "advantage_b": 33,
         "predictability": 38,
         "factors": [
           {
@@ -241,7 +241,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Dobrijevic 68/32. Edges on bkfc record.",
+        "summary": "Model leans Dobrijevic 67/33. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -363,14 +363,14 @@
       "fighter_a_slug": "vladislav-tuinov",
       "fighter_b_slug": "alfred-koci",
       "prediction": {
-        "prob_a": 0.6646,
-        "prob_b": 0.3354,
-        "raw_score": 0.2631,
+        "prob_a": 0.647,
+        "prob_b": 0.353,
+        "raw_score": 0.233,
         "favorite_slug": "vladislav-tuinov",
         "confidence": "Very Low",
-        "advantage_a": 66,
-        "advantage_b": 34,
-        "predictability": 27,
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 26,
         "factors": [
           {
             "name": "BKFC Record",
@@ -400,7 +400,7 @@
             "display": "-7\" Koci"
           }
         ],
-        "summary": "Model leans Tuinov 66/34. Edges on bkfc record.",
+        "summary": "Model leans Tuinov 65/35. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -522,9 +522,9 @@
       "fighter_a_slug": "dusan-radovic",
       "fighter_b_slug": "felipe-maia",
       "prediction": {
-        "prob_a": 0.6069,
-        "prob_b": 0.3931,
-        "raw_score": 0.1671,
+        "prob_a": 0.6057,
+        "prob_b": 0.3943,
+        "raw_score": 0.1651,
         "favorite_slug": "dusan-radovic",
         "confidence": "Very Low",
         "advantage_a": 61,

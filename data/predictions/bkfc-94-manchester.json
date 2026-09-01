@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-09-01T13:13:49.295Z",
+  "generated_at": "2026-09-01T14:04:30.086Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "darren-till",
       "fighter_b_slug": "yoel-romero",
       "prediction": {
-        "prob_a": 0.6786,
-        "prob_b": 0.3214,
-        "raw_score": 0.2874,
+        "prob_a": 0.6732,
+        "prob_b": 0.3268,
+        "raw_score": 0.2779,
         "favorite_slug": "darren-till",
         "confidence": "Very Low",
-        "advantage_a": 68,
-        "advantage_b": 32,
+        "advantage_a": 67,
+        "advantage_b": 33,
         "predictability": 38,
         "factors": [
           {
@@ -37,7 +37,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Till 68/32. Edges on bkfc record.",
+        "summary": "Model leans Till 67/33. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -84,9 +84,9 @@
       "fighter_a_slug": "david-mundell",
       "fighter_b_slug": "jack-cullen",
       "prediction": {
-        "prob_a": 0.3677,
-        "prob_b": 0.6323,
-        "raw_score": -0.2085,
+        "prob_a": 0.37,
+        "prob_b": 0.63,
+        "raw_score": -0.2046,
         "favorite_slug": "jack-cullen",
         "confidence": "Low",
         "advantage_a": 37,
@@ -213,13 +213,13 @@
       "fighter_a_slug": "gaz-corran",
       "fighter_b_slug": "mac-bygraves",
       "prediction": {
-        "prob_a": 0.7238,
-        "prob_b": 0.2762,
-        "raw_score": 0.3705,
+        "prob_a": 0.725,
+        "prob_b": 0.275,
+        "raw_score": 0.3729,
         "favorite_slug": "gaz-corran",
         "confidence": "Low",
-        "advantage_a": 72,
-        "advantage_b": 28,
+        "advantage_a": 73,
+        "advantage_b": 27,
         "predictability": 47,
         "factors": [
           {
@@ -304,7 +304,7 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Corran 72/28. Edges on recent form, ko rate, activity, opponent quality.",
+        "summary": "Model leans Corran 73/27. Edges on recent form, ko rate, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -351,13 +351,13 @@
       "fighter_a_slug": "karl-thompson",
       "fighter_b_slug": "andy-thornton",
       "prediction": {
-        "prob_a": 0.6562,
-        "prob_b": 0.3438,
-        "raw_score": 0.2485,
+        "prob_a": 0.6539,
+        "prob_b": 0.3461,
+        "raw_score": 0.2446,
         "favorite_slug": "karl-thompson",
         "confidence": "Medium",
-        "advantage_a": 66,
-        "advantage_b": 34,
+        "advantage_a": 65,
+        "advantage_b": 35,
         "predictability": 61,
         "factors": [
           {
@@ -451,7 +451,7 @@
             "display": "+1\" Thompson"
           }
         ],
-        "summary": "Model leans Thompson 66/34. Edges on recent form, age, opponent quality, bkfc experience.",
+        "summary": "Model leans Thompson 65/35. Edges on recent form, age, opponent quality, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -498,9 +498,9 @@
       "fighter_a_slug": "joe-lister",
       "fighter_b_slug": "harrison-cave",
       "prediction": {
-        "prob_a": 0.6828,
-        "prob_b": 0.3172,
-        "raw_score": 0.295,
+        "prob_a": 0.6797,
+        "prob_b": 0.3203,
+        "raw_score": 0.2893,
         "favorite_slug": "joe-lister",
         "confidence": "Very Low",
         "advantage_a": 68,
@@ -618,9 +618,9 @@
       "fighter_a_slug": "mikey-henderson",
       "fighter_b_slug": "matthew-wiwczaryk",
       "prediction": {
-        "prob_a": 0.7236,
-        "prob_b": 0.2764,
-        "raw_score": 0.3701,
+        "prob_a": 0.7221,
+        "prob_b": 0.2779,
+        "raw_score": 0.3674,
         "favorite_slug": "mikey-henderson",
         "confidence": "Medium",
         "advantage_a": 72,
@@ -756,14 +756,14 @@
       "fighter_a_slug": "stew-martin",
       "fighter_b_slug": "curtis-davies",
       "prediction": {
-        "prob_a": 0.5098,
-        "prob_b": 0.4902,
-        "raw_score": 0.0151,
+        "prob_a": 0.5185,
+        "prob_b": 0.4815,
+        "raw_score": 0.0284,
         "favorite_slug": "stew-martin",
         "confidence": "Very Low",
-        "advantage_a": 51,
-        "advantage_b": 49,
-        "predictability": 21,
+        "advantage_a": 52,
+        "advantage_b": 48,
+        "predictability": 22,
         "factors": [
           {
             "name": "Recent Form",
@@ -820,7 +820,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Martin 51/49. Edges on activity, opponent quality.",
+        "summary": "Model leans Martin 52/48. Edges on activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -867,9 +867,9 @@
       "fighter_a_slug": "ste-wallwork",
       "fighter_b_slug": "leigh-cohoon",
       "prediction": {
-        "prob_a": 0.2705,
-        "prob_b": 0.7295,
-        "raw_score": -0.3815,
+        "prob_a": 0.2715,
+        "prob_b": 0.7285,
+        "raw_score": -0.3797,
         "favorite_slug": "leigh-cohoon",
         "confidence": "Very Low",
         "advantage_a": 27,
@@ -987,13 +987,13 @@
       "fighter_a_slug": "luke-vaughan",
       "fighter_b_slug": "bartlomiej-krol",
       "prediction": {
-        "prob_a": 0.3018,
-        "prob_b": 0.6982,
-        "raw_score": -0.3226,
+        "prob_a": 0.3074,
+        "prob_b": 0.6926,
+        "raw_score": -0.3124,
         "favorite_slug": "bartlomiej-krol",
         "confidence": "Low",
-        "advantage_a": 30,
-        "advantage_b": 70,
+        "advantage_a": 31,
+        "advantage_b": 69,
         "predictability": 48,
         "factors": [
           {
@@ -1051,7 +1051,7 @@
             "display": "+7 fights Krol"
           }
         ],
-        "summary": "Model leans Krol 70/30. Edges on recent form, bkfc record, activity, bkfc experience.",
+        "summary": "Model leans Krol 69/31. Edges on recent form, bkfc record, activity, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1098,14 +1098,14 @@
       "fighter_a_slug": "liam-dooley",
       "fighter_b_slug": "tyrone-hamer",
       "prediction": {
-        "prob_a": 0.7665,
-        "prob_b": 0.2335,
-        "raw_score": 0.4573,
+        "prob_a": 0.7677,
+        "prob_b": 0.2323,
+        "raw_score": 0.4599,
         "favorite_slug": "liam-dooley",
         "confidence": "Very Low",
         "advantage_a": 77,
         "advantage_b": 23,
-        "predictability": 43,
+        "predictability": 44,
         "factors": [
           {
             "name": "Recent Form",
@@ -1218,13 +1218,13 @@
       "fighter_a_slug": "benjamin-lowe",
       "fighter_b_slug": "dan-mcgraffin",
       "prediction": {
-        "prob_a": 0.297,
-        "prob_b": 0.703,
-        "raw_score": -0.3314,
+        "prob_a": 0.3065,
+        "prob_b": 0.6935,
+        "raw_score": -0.3141,
         "favorite_slug": "dan-mcgraffin",
         "confidence": "Low",
-        "advantage_a": 30,
-        "advantage_b": 70,
+        "advantage_a": 31,
+        "advantage_b": 69,
         "predictability": 44,
         "factors": [
           {
@@ -1282,7 +1282,7 @@
             "display": "+5 fights McGraffin"
           }
         ],
-        "summary": "Model leans McGraffin 70/30. Edges on recent form, bkfc record, bkfc experience.",
+        "summary": "Model leans McGraffin 69/31. Edges on recent form, bkfc record, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1329,13 +1329,13 @@
       "fighter_a_slug": "joe-lister",
       "fighter_b_slug": "harry-bray",
       "prediction": {
-        "prob_a": 0.3865,
-        "prob_b": 0.6135,
-        "raw_score": -0.1776,
+        "prob_a": 0.3845,
+        "prob_b": 0.6155,
+        "raw_score": -0.181,
         "favorite_slug": "harry-bray",
         "confidence": "Low",
-        "advantage_a": 39,
-        "advantage_b": 61,
+        "advantage_a": 38,
+        "advantage_b": 62,
         "predictability": 40,
         "factors": [
           {
@@ -1411,7 +1411,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Bray 61/39. Edges on ko rate, activity.",
+        "summary": "Model leans Bray 62/38. Edges on ko rate, activity.",
         "market_adjusted": false
       },
       "prop_markets": [

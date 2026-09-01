@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-bethlehem",
-  "generated_at": "2026-09-01T13:13:49.297Z",
+  "generated_at": "2026-09-01T14:04:30.088Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "gregoris-cisneros",
       "fighter_b_slug": "ryan-petersen",
       "prediction": {
-        "prob_a": 0.4725,
-        "prob_b": 0.5275,
-        "raw_score": -0.0424,
+        "prob_a": 0.4752,
+        "prob_b": 0.5248,
+        "raw_score": -0.0382,
         "favorite_slug": "ryan-petersen",
         "confidence": "Low",
-        "advantage_a": 47,
-        "advantage_b": 53,
-        "predictability": 27,
+        "advantage_a": 48,
+        "advantage_b": 52,
+        "predictability": 26,
         "factors": [
           {
             "name": "Recent Form",
@@ -91,7 +91,7 @@
             "display": "+2\" Cisneros"
           }
         ],
-        "summary": "Model leans Petersen 53/47. Edges on recent form.",
+        "summary": "Model leans Petersen 52/48. Edges on recent form.",
         "market_adjusted": false
       },
       "prop_markets": [

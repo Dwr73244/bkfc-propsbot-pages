@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-95-newark",
-  "generated_at": "2026-09-01T13:13:49.297Z",
+  "generated_at": "2026-09-01T14:04:30.088Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "jamel-herring",
       "fighter_b_slug": "john-dodson",
       "prediction": {
-        "prob_a": 0.5235,
-        "prob_b": 0.4765,
-        "raw_score": 0.0361,
+        "prob_a": 0.5298,
+        "prob_b": 0.4702,
+        "raw_score": 0.0459,
         "favorite_slug": "jamel-herring",
         "confidence": "Low",
-        "advantage_a": 52,
-        "advantage_b": 48,
+        "advantage_a": 53,
+        "advantage_b": 47,
         "predictability": 33,
         "factors": [
           {
@@ -118,7 +118,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Herring 52/48. Edges on age, pro boxing, reach, activity.",
+        "summary": "Model leans Herring 53/47. Edges on age, pro boxing, reach, activity.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -240,9 +240,9 @@
       "fighter_a_slug": "gabrielle-roman",
       "fighter_b_slug": "brooke-evans",
       "prediction": {
-        "prob_a": 0.3768,
-        "prob_b": 0.6232,
-        "raw_score": -0.1935,
+        "prob_a": 0.3804,
+        "prob_b": 0.6196,
+        "raw_score": -0.1877,
         "favorite_slug": "brooke-evans",
         "confidence": "Very Low",
         "advantage_a": 38,
