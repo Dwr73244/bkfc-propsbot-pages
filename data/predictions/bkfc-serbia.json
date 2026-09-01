@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-serbia",
-  "generated_at": "2026-08-31T17:59:29.761Z",
+  "generated_at": "2026-09-01T13:13:49.299Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -363,30 +363,30 @@
       "fighter_a_slug": "vladislav-tuinov",
       "fighter_b_slug": "alfred-koci",
       "prediction": {
-        "prob_a": 0.4095,
-        "prob_b": 0.5905,
-        "raw_score": -0.1408,
-        "favorite_slug": "alfred-koci",
+        "prob_a": 0.6646,
+        "prob_b": 0.3354,
+        "raw_score": 0.2631,
+        "favorite_slug": "vladislav-tuinov",
         "confidence": "Very Low",
-        "advantage_a": 41,
-        "advantage_b": 59,
-        "predictability": 33,
+        "advantage_a": 66,
+        "advantage_b": 34,
+        "predictability": 27,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "2-0",
             "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "edge_slug": "vladislav-tuinov",
+            "edge_strength": 0.625,
+            "weight": 0.11,
+            "display": "75% vs 50% win rate"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "2 fights",
             "value_b": "0 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.25,
             "weight": 0.03,
             "display": "Even"
           },
@@ -400,7 +400,7 @@
             "display": "-7\" Koci"
           }
         ],
-        "summary": "Model leans Koci 59/41. Edges on height.",
+        "summary": "Model leans Tuinov 66/34. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
