@@ -24,11 +24,110 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "christian-torres",
+      "fighter_b_slug": "brett-shoenfelt",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "fighter_a_slug": "lex-ludlow",
+      "fighter_b_slug": "brock-walker",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "mike-liberto",
+      "fighter_b_slug": "jojo-schillizzi",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "jay-haas",
+      "fighter_b_slug": "antonio-castillo-jr",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Women's Flyweight",
+      "fighter_a_slug": "taylor-dagner",
+      "fighter_b_slug": "marisol-ruelas",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "travis-thompson",
+      "fighter_b_slug": "nick-burgos",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "brian-newman",
+      "fighter_b_slug": "mark-culp",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Ironweight",
+      "fighter_a_slug": "lewis-rumsey",
+      "fighter_b_slug": "maurice-morris",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "nathaniel-james",
+      "fighter_b_slug": "marc-worthington",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-bethlehem"
   ],
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-09-02",
   "needs_card_population": false
 }

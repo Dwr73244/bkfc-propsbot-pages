@@ -145,11 +145,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 13,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "luke-bassnett",
+      "fighter_b_slug": "darren-willans",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-94-manchester"
   ],
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-09-02",
   "needs_card_population": false
 }

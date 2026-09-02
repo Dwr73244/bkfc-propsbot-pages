@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-bethlehem",
-  "generated_at": "2026-09-02T12:41:14.263Z",
+  "generated_at": "2026-09-02T15:04:35.429Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -127,6 +127,906 @@
               "outcome": "Decision",
               "moneyline": 257,
               "implied_prob": 0.28
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 2,
+      "fighter_a_slug": "christian-torres",
+      "fighter_b_slug": "brett-shoenfelt",
+      "prediction": {
+        "prob_a": 0.2985,
+        "prob_b": 0.7015,
+        "raw_score": -0.3287,
+        "favorite_slug": "brett-shoenfelt",
+        "confidence": "Low",
+        "advantage_a": 30,
+        "advantage_b": 70,
+        "predictability": 45,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "L-L",
+            "value_b": "—",
+            "edge_slug": "brett-shoenfelt",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Shoenfelt hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-6",
+            "value_b": "0-0",
+            "edge_slug": "brett-shoenfelt",
+            "edge_strength": 0.5,
+            "weight": 0.11,
+            "display": "30% vs 50% win rate"
+          },
+          {
+            "name": "Age",
+            "value_a": 39,
+            "value_b": 37,
+            "edge_slug": "brett-shoenfelt",
+            "edge_strength": 0.36,
+            "weight": 0.09,
+            "display": "39 vs 37"
+          },
+          {
+            "name": "Reach",
+            "value_a": "72\"",
+            "value_b": "71\"",
+            "edge_slug": "christian-torres",
+            "edge_strength": 0.167,
+            "weight": 0.08,
+            "display": "+1\" Torres"
+          },
+          {
+            "name": "Activity",
+            "value_a": "3.3y ago",
+            "value_b": "—",
+            "edge_slug": "brett-shoenfelt",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Shoenfelt more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "1/2 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": "brett-shoenfelt",
+            "edge_strength": 0.75,
+            "weight": 0.05,
+            "display": "Torres cuts more"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "67%",
+            "value_b": "—",
+            "edge_slug": "christian-torres",
+            "edge_strength": 0.333,
+            "weight": 0.04,
+            "display": "Torres tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "8 fights",
+            "value_b": "0 fights",
+            "edge_slug": "christian-torres",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+8 fights Torres"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'7\"",
+            "value_b": "5'10\"",
+            "edge_slug": "brett-shoenfelt",
+            "edge_strength": 0.6,
+            "weight": 0.03,
+            "display": "-3\" Shoenfelt"
+          }
+        ],
+        "summary": "Model leans Shoenfelt 70/30. Edges on recent form, bkfc record, age, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 313,
+              "implied_prob": 0.242
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -313,
+              "implied_prob": 0.758
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -120,
+              "implied_prob": 0.546
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 371,
+              "implied_prob": 0.212
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 313,
+              "implied_prob": 0.242
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 3,
+      "fighter_a_slug": "lex-ludlow",
+      "fighter_b_slug": "brock-walker",
+      "prediction": {
+        "prob_a": 0.7493,
+        "prob_b": 0.2507,
+        "raw_score": 0.4212,
+        "favorite_slug": "lex-ludlow",
+        "confidence": "Low",
+        "advantage_a": 75,
+        "advantage_b": 25,
+        "predictability": 51,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "—",
+            "edge_slug": "lex-ludlow",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Ludlow hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "4-0",
+            "value_b": "1-2",
+            "edge_slug": "lex-ludlow",
+            "edge_strength": 1,
+            "weight": 0.11,
+            "display": "83% vs 40% win rate"
+          },
+          {
+            "name": "Age",
+            "value_a": 32,
+            "value_b": 40,
+            "edge_slug": "lex-ludlow",
+            "edge_strength": 0.72,
+            "weight": 0.09,
+            "display": "32 vs 40"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.5y ago",
+            "value_b": "—",
+            "edge_slug": "lex-ludlow",
+            "edge_strength": 0.3,
+            "weight": 0.05,
+            "display": "Ludlow more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "17%",
+            "value_b": "—",
+            "edge_slug": "brock-walker",
+            "edge_strength": 0.667,
+            "weight": 0.04,
+            "display": "Walker tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "4 fights",
+            "value_b": "3 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Ludlow 75/25. Edges on recent form, bkfc record, age, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 488,
+              "implied_prob": 0.17
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -488,
+              "implied_prob": 0.83
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -149,
+              "implied_prob": 0.598
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 330,
+              "implied_prob": 0.232
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 488,
+              "implied_prob": 0.17
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 4,
+      "fighter_a_slug": "mike-liberto",
+      "fighter_b_slug": "jojo-schillizzi",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "jojo-schillizzi",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 400,
+              "implied_prob": 0.2
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -400,
+              "implied_prob": 0.8
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -136,
+              "implied_prob": 0.576
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 346,
+              "implied_prob": 0.224
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 400,
+              "implied_prob": 0.2
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 5,
+      "fighter_a_slug": "jay-haas",
+      "fighter_b_slug": "antonio-castillo-jr",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "antonio-castillo-jr",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 239,
+              "implied_prob": 0.295
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -239,
+              "implied_prob": 0.705
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -103,
+              "implied_prob": 0.508
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 407,
+              "implied_prob": 0.197
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 239,
+              "implied_prob": 0.295
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 6,
+      "fighter_a_slug": "taylor-dagner",
+      "fighter_b_slug": "marisol-ruelas",
+      "prediction": {
+        "prob_a": 0.7709,
+        "prob_b": 0.2291,
+        "raw_score": 0.4666,
+        "favorite_slug": "taylor-dagner",
+        "confidence": "Very Low",
+        "advantage_a": 77,
+        "advantage_b": 23,
+        "predictability": 44,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-2",
+            "edge_slug": "taylor-dagner",
+            "edge_strength": 0.625,
+            "weight": 0.11,
+            "display": "50% vs 25% win rate"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "2 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'9\"",
+            "value_b": "5'5\"",
+            "edge_slug": "taylor-dagner",
+            "edge_strength": 0.8,
+            "weight": 0.03,
+            "display": "+4\" Dagner"
+          }
+        ],
+        "summary": "Model leans Dagner 77/23. Edges on bkfc record, height.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": -100,
+              "implied_prob": 0.5
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -100,
+              "implied_prob": 0.5
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 178,
+              "implied_prob": 0.36
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 614,
+              "implied_prob": 0.14
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": -100,
+              "implied_prob": 0.5
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 7,
+      "fighter_a_slug": "travis-thompson",
+      "fighter_b_slug": "nick-burgos",
+      "prediction": {
+        "prob_a": 0.4937,
+        "prob_b": 0.5063,
+        "raw_score": -0.0097,
+        "favorite_slug": "nick-burgos",
+        "confidence": "Medium",
+        "advantage_a": 49,
+        "advantage_b": 51,
+        "predictability": 45,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "L-W-L",
+            "value_b": "—",
+            "edge_slug": "nick-burgos",
+            "edge_strength": 0.305,
+            "weight": 0.13,
+            "display": "Burgos hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "6-8",
+            "value_b": "0-2",
+            "edge_slug": "travis-thompson",
+            "edge_strength": 0.469,
+            "weight": 0.11,
+            "display": "44% vs 25% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "17%",
+            "value_b": "—",
+            "edge_slug": "nick-burgos",
+            "edge_strength": 0.275,
+            "weight": 0.11,
+            "display": "-18 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 43,
+            "value_b": 46,
+            "edge_slug": "travis-thompson",
+            "edge_strength": 0.2,
+            "weight": 0.09,
+            "display": "43 vs 46"
+          },
+          {
+            "name": "Reach",
+            "value_a": "66\"",
+            "value_b": "68\"",
+            "edge_slug": "nick-burgos",
+            "edge_strength": 0.333,
+            "weight": 0.08,
+            "display": "-2\" Burgos"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.5y ago",
+            "value_b": "—",
+            "edge_slug": "travis-thompson",
+            "edge_strength": 0.3,
+            "weight": 0.05,
+            "display": "Thompson more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/2 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "25%",
+            "value_b": "—",
+            "edge_slug": "nick-burgos",
+            "edge_strength": 0.494,
+            "weight": 0.04,
+            "display": "Burgos tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "14 fights",
+            "value_b": "2 fights",
+            "edge_slug": "travis-thompson",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+12 fights Thompson"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'6\"",
+            "value_b": "5'6\"",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "0\" even"
+          }
+        ],
+        "summary": "Model leans Burgos 51/49. Edges on recent form, ko rate, reach, opponent quality.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 240,
+              "implied_prob": 0.294
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -240,
+              "implied_prob": 0.706
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -103,
+              "implied_prob": 0.508
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 406,
+              "implied_prob": 0.198
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 240,
+              "implied_prob": 0.294
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 8,
+      "fighter_a_slug": "brian-newman",
+      "fighter_b_slug": "mark-culp",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "mark-culp",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -567,
+              "implied_prob": 0.85
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -158,
+              "implied_prob": 0.612
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 320,
+              "implied_prob": 0.238
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 9,
+      "fighter_a_slug": "lewis-rumsey",
+      "fighter_b_slug": "maurice-morris",
+      "prediction": {
+        "prob_a": 0.3987,
+        "prob_b": 0.6013,
+        "raw_score": -0.158,
+        "favorite_slug": "maurice-morris",
+        "confidence": "Low",
+        "advantage_a": 40,
+        "advantage_b": 60,
+        "predictability": 38,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "L",
+            "value_b": "—",
+            "edge_slug": "maurice-morris",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Morris hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-5",
+            "value_b": "0-0",
+            "edge_slug": "maurice-morris",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "33% vs 50% win rate"
+          },
+          {
+            "name": "Activity",
+            "value_a": "2.3y ago",
+            "value_b": "—",
+            "edge_slug": "maurice-morris",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Morris more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "100%",
+            "value_b": "—",
+            "edge_slug": "lewis-rumsey",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Rumsey tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "7 fights",
+            "value_b": "0 fights",
+            "edge_slug": "lewis-rumsey",
+            "edge_strength": 0.875,
+            "weight": 0.03,
+            "display": "+7 fights Rumsey"
+          }
+        ],
+        "summary": "Model leans Morris 60/40. Edges on recent form, bkfc record, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -233,
+              "implied_prob": 0.7
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -102,
+              "implied_prob": 0.504
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 410,
+              "implied_prob": 0.196
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 10,
+      "fighter_a_slug": "nathaniel-james",
+      "fighter_b_slug": "marc-worthington",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "marc-worthington",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -567,
+              "implied_prob": 0.85
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -158,
+              "implied_prob": 0.612
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 320,
+              "implied_prob": 0.238
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 567,
+              "implied_prob": 0.15
             }
           ]
         }
