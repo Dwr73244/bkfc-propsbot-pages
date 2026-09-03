@@ -4,7 +4,7 @@
   "nickname": "Misfit",
   "division": "Women's Flyweight",
   "bkfc_record": {
-    "wins": 11,
+    "wins": 12,
     "losses": 1,
     "draws": 0,
     "kos": 1
@@ -106,5 +106,5 @@
   "full_name": "Christine Ferea",
   "elo": 1551,
   "elo_peak": 1551,
-  "history_last_verified": "2026-08-15T08:33:57.837Z"
+  "history_last_verified": "2026-09-03T12:43:57.058Z"
 }

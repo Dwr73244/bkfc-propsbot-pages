@@ -4,7 +4,7 @@
   "nickname": "THE DENTIST",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 5,
+    "wins": 6,
     "losses": 4,
     "draws": 0,
     "kos": null
@@ -39,6 +39,19 @@
       "opponent": "pat-casey",
       "opponent_slug": "pat-casey",
       "result": "W"
+    },
+    {
+      "event": "BKFC 92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:59",
+      "opponent": "Patrick Casey",
+      "opponent_slug": "patrick-casey",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dallas-davison"
     },
     {
       "event": "BKFC 78 -",
@@ -76,17 +89,6 @@
       "opponent": "donald-sanchez",
       "opponent_slug": "donald-sanchez",
       "result": "L"
-    },
-    {
-      "event": "BKFC 44 Montana: Stewart vs. Lopez",
-      "event_slug": "bkfc-44",
-      "date": "2023-06-09T20:00:00.000Z",
-      "method": "TKO (corner stoppage)",
-      "round": 4,
-      "time": "2:00",
-      "opponent": "lloyd-mix",
-      "opponent_slug": "lloyd-mix",
-      "result": "L"
     }
   ],
   "sources": [
@@ -97,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1482,
   "elo_peak": 1500,
-  "history_last_verified": "2026-08-26T08:48:01.046Z"
+  "history_last_verified": "2026-09-03T12:44:20.536Z"
 }
