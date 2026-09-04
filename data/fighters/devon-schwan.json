@@ -44,7 +44,7 @@
     {
       "event": "BKFC 89",
       "event_slug": "bkfc-palm-desert",
-      "date": "2026-05-22T04:00:00.000Z",
+      "date": "2026-05-22T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "00:41",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC - Fight Night Kansas City",
       "event_slug": "bkfc-fight-night-kansas-city",
-      "date": "2024-08-16T04:00:00.000Z",
+      "date": "2024-08-16T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:04",
@@ -75,5 +75,5 @@
   "last_updated": "2026-07-31",
   "elo": 1481,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:47:25.341Z"
+  "history_last_verified": "2026-09-04T12:38:23.744Z"
 }

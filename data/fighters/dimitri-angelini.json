@@ -4,7 +4,7 @@
   "nickname": "THE MODERN GLADIATOR",
   "division": "Catchweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 4,
     "draws": 0,
     "kos": null
@@ -43,7 +43,7 @@
     {
       "event": "BKFC 17",
       "event_slug": "bkfc-17-birmingham",
-      "date": "2021-04-30T04:00:00.000Z",
+      "date": "2021-04-30T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:37",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:06.145Z"
+  "history_last_verified": "2026-09-04T12:38:26.806Z"
 }

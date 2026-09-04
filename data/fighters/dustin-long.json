@@ -43,7 +43,7 @@
     {
       "event": "BKFC 42",
       "event_slug": "bkfc-42-greenville",
-      "date": "2023-05-12T04:00:00.000Z",
+      "date": "2023-05-12T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -61,5 +61,5 @@
   "last_updated": "2026-04-17",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:06.670Z"
+  "history_last_verified": "2026-09-04T12:38:34.984Z"
 }

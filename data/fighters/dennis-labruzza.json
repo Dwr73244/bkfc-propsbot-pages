@@ -43,7 +43,7 @@
     {
       "event": "BKFC 30",
       "event_slug": "bkfc-30-hunt-vs-henry",
-      "date": "2022-10-01T04:00:00.000Z",
+      "date": "2022-10-01T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "00:38",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:05.822Z"
+  "history_last_verified": "2026-09-04T12:38:13.476Z"
 }

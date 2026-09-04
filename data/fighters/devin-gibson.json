@@ -43,7 +43,7 @@
     {
       "event": "Fight Night New York 2",
       "event_slug": "bkfc-new-york-ii",
-      "date": "2022-03-12T05:00:00.000Z",
+      "date": "2022-03-12T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:44",
@@ -56,7 +56,7 @@
     {
       "event": "Fight Night New York",
       "event_slug": "bkfc-new-york",
-      "date": "2021-11-06T04:00:00.000Z",
+      "date": "2021-11-06T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1481,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:06.060Z"
+  "history_last_verified": "2026-09-04T12:38:24.632Z"
 }

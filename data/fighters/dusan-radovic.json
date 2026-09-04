@@ -6,7 +6,7 @@
   "division": "Welterweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Budva",
+      "event_slug": "bkfc-budva",
+      "date": "2025-08-30T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:16",
+      "opponent": "Stefan Dobrijevic",
+      "opponent_slug": "stefan-dobrijevic",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dusan-radovic"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/dusan-radovic"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-09-04T12:38:31.865Z"
 }

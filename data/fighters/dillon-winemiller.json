@@ -32,7 +32,7 @@
     {
       "event": "BKFC 50",
       "event_slug": "bkfc-50-denver",
-      "date": "2023-09-22T04:00:00.000Z",
+      "date": "2023-09-22T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 45",
       "event_slug": "bkfc-45-palomino-vs-lilley",
-      "date": "2023-06-23T04:00:00.000Z",
+      "date": "2023-06-23T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:07",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 41",
       "event_slug": "bkfc-41-colorado",
-      "date": "2023-04-29T04:00:00.000Z",
+      "date": "2023-04-29T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:07",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 36",
       "event_slug": "bkfc-36-new-orleans",
-      "date": "2023-02-24T05:00:00.000Z",
+      "date": "2023-02-24T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:25",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:06.166Z"
+  "history_last_verified": "2026-09-04T12:38:30.128Z"
 }

@@ -32,7 +32,7 @@
     {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
-      "date": "2026-03-20T04:00:00.000Z",
+      "date": "2026-03-20T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:19",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 75",
       "event_slug": "bkfc-75-albuquerque-mundell-vs-sanchez",
-      "date": "2025-06-06T04:00:00.000Z",
+      "date": "2025-06-06T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:00",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC - Fight Night Albuquerque",
       "event_slug": "bkfc-fight-night-albuquerque",
-      "date": "2025-02-28T05:00:00.000Z",
+      "date": "2025-02-28T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:58",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC on DAZN - Hollywood",
       "event_slug": "bkfc-on-dazn-hollywood",
-      "date": "2024-12-21T05:00:00.000Z",
+      "date": "2024-12-21T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:04",
@@ -102,5 +102,5 @@
   "last_updated": "2026-07-31",
   "elo": 1517,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:45:05.927Z"
+  "history_last_verified": "2026-09-04T12:38:27.569Z"
 }

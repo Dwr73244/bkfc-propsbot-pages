@@ -5,7 +5,7 @@
   "nickname": "DOM THE BOMB",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -31,9 +31,22 @@
   "bio": null,
   "last_5": [
     {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-fight-night-mohegan-sun-2",
+      "date": "2026-08-21T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:21",
+      "opponent": "Jared Lennon",
+      "opponent_slug": "jared-lennon",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dominick-carey"
+    },
+    {
       "event": "BKFC - Fight Night Los Angeles",
       "event_slug": "bkfc-fight-night-los-angeles",
-      "date": "2024-11-23T05:00:00.000Z",
+      "date": "2024-11-23T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:47",
@@ -46,7 +59,7 @@
     {
       "event": "BKFC 50",
       "event_slug": "bkfc-50-denver",
-      "date": "2023-09-22T04:00:00.000Z",
+      "date": "2023-09-22T00:00:00.000Z",
       "method": "Disqualification",
       "round": 1,
       "time": "00:38",
@@ -61,5 +74,5 @@
     "https://www.bkfc.com/fighters/dominick-carey"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:25.760Z"
+  "history_last_verified": "2026-09-04T12:38:29.773Z"
 }

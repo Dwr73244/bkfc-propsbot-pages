@@ -32,7 +32,7 @@
     {
       "event": "BKFC - Fight Night Newcastle",
       "event_slug": "bkfc-fight-night-newcastle-2",
-      "date": "2026-03-14T04:00:00.000Z",
+      "date": "2026-03-14T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 81 - Manchester",
       "event_slug": "bkfc-manchester",
-      "date": "2025-09-27T04:00:00.000Z",
+      "date": "2025-09-27T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:55",
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:45:05.734Z"
+  "history_last_verified": "2026-09-04T12:38:13.173Z"
 }

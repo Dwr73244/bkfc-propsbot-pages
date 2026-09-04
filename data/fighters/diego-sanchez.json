@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Knucklemania III",
       "event_slug": "bkfc-knucklemania-iii",
-      "date": "2023-02-17T05:00:00.000Z",
+      "date": "2023-02-17T00:00:00.000Z",
       "method": "TKO",
       "round": 4,
       "time": "01:44",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:06.034Z"
+  "history_last_verified": "2026-09-04T12:38:24.509Z"
 }

@@ -6,7 +6,7 @@
   "division": "Light Heavyweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -59,7 +59,7 @@
     "https://www.bkfc.com/fighters/david-burke"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-26T08:48:20.009Z",
+  "history_last_verified": "2026-09-04T12:38:04.116Z",
   "elo": 1477,
   "elo_peak": 1500
 }

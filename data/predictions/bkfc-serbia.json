@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-serbia",
-  "generated_at": "2026-09-03T14:58:28.679Z",
+  "generated_at": "2026-09-04T12:38:50.424Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -522,14 +522,14 @@
       "fighter_a_slug": "dusan-radovic",
       "fighter_b_slug": "felipe-maia",
       "prediction": {
-        "prob_a": 0.6057,
-        "prob_b": 0.3943,
-        "raw_score": 0.1651,
+        "prob_a": 0.65,
+        "prob_b": 0.35,
+        "raw_score": 0.2381,
         "favorite_slug": "dusan-radovic",
-        "confidence": "Very Low",
-        "advantage_a": 61,
-        "advantage_b": 39,
-        "predictability": 25,
+        "confidence": "Low",
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 45,
         "factors": [
           {
             "name": "Recent Form",
@@ -542,12 +542,12 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "0-1",
             "value_b": "2-1",
             "edge_slug": "felipe-maia",
-            "edge_strength": 0.25,
+            "edge_strength": 0.667,
             "weight": 0.11,
-            "display": "50% vs 60% win rate"
+            "display": "33% vs 60% win rate"
           },
           {
             "name": "Age",
@@ -579,20 +579,20 @@
           {
             "name": "Opponent Quality",
             "value_a": "—",
-            "value_b": "100%",
-            "edge_slug": "felipe-maia",
-            "edge_strength": 1,
+            "value_b": "50%",
+            "edge_slug": null,
+            "edge_strength": 0,
             "weight": 0.04,
-            "display": "Maia tougher schedule"
+            "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "1 fights",
             "value_b": "3 fights",
-            "edge_slug": "felipe-maia",
-            "edge_strength": 0.375,
+            "edge_slug": null,
+            "edge_strength": 0.25,
             "weight": 0.03,
-            "display": "+3 fights Maia"
+            "display": "Even"
           },
           {
             "name": "Height",
@@ -604,7 +604,7 @@
             "display": "+2\" Radovic"
           }
         ],
-        "summary": "Model leans Radovic 61/39. Edges on recent form, age, activity, height.",
+        "summary": "Model leans Radovic 65/35. Edges on recent form, age, activity, height.",
         "market_adjusted": false
       },
       "prop_markets": [

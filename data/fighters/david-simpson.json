@@ -4,7 +4,7 @@
   "nickname": null,
   "division": "Light Heavyweight",
   "bkfc_record": {
-    "wins": 3,
+    "wins": 4,
     "losses": 5,
     "draws": 0,
     "kos": null
@@ -43,7 +43,7 @@
     {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
-      "date": "2025-11-15T05:00:00.000Z",
+      "date": "2025-11-15T00:00:00.000Z",
       "method": "KO",
       "round": 5,
       "time": "00:43",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 80",
       "event_slug": "bkfc-hollywood-2",
-      "date": "2025-09-12T04:00:00.000Z",
+      "date": "2025-09-12T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:52",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 79",
       "event_slug": "bkfc-sturgis",
-      "date": "2025-08-02T04:00:00.000Z",
+      "date": "2025-08-02T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:26",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 69",
       "event_slug": "bkfc-69-richardson-vs-larrimore",
-      "date": "2024-12-06T05:00:00.000Z",
+      "date": "2024-12-06T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1501,
   "elo_peak": 1501,
-  "history_last_verified": "2026-07-31T18:45:05.598Z"
+  "history_last_verified": "2026-09-04T12:38:19.699Z"
 }
