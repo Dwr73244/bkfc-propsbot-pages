@@ -13,10 +13,121 @@
     "BKFC+"
   ],
   "poster_url": null,
-  "bouts": [],
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "royal-ryan-reber",
+      "fighter_b_slug": "justin-street",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "jared-warren",
+      "fighter_b_slug": "thomas-angeloff",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "michael-larrimore",
+      "fighter_b_slug": "nate-morrow",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "mike-heckert",
+      "fighter_b_slug": "rickie-mcconnico",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Strawweight",
+      "fighter_a_slug": "crystal-van-wyk",
+      "fighter_b_slug": "noelia-vasallo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "tony-murphy",
+      "fighter_b_slug": "brandon-conley",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "tyler-baker",
+      "fighter_b_slug": "yari-kaganovsky",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "sam-delao",
+      "fighter_b_slug": "chris-keirn",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "jason-dinunzio",
+      "fighter_b_slug": "gabriel-freyre",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": null,
+      "fighter_a_slug": "chachi-versace",
+      "fighter_b_slug": "angelo-trujillo",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-clearwater-4"
   ],
-  "last_updated": "2026-07-06",
-  "needs_card_population": true
+  "last_updated": "2026-09-05",
+  "needs_card_population": false
 }

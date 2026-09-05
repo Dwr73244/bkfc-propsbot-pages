@@ -1,0 +1,37 @@
+{
+  "slug": "jared-warren",
+  "name": "Jared Warren",
+  "full_name": null,
+  "nickname": "CAPTAIN DEADPOOL",
+  "division": "Light Heavyweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 76,
+  "stance": null,
+  "dob": "1983-11",
+  "age": 42,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1745427495/o/JARED_WARREN_400x400.png?1745427495",
+  "social": {
+    "instagram": "https://www.instagram.com/capt.dead_pool/",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/jared-warren"
+  ],
+  "last_updated": "2026-04-17"
+}
