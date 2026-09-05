@@ -5,8 +5,8 @@
   "nickname": "Felony",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 1,
+    "losses": 4,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,76 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Honolulu",
+      "event_slug": "bkfc-hawaii",
+      "date": "2026-04-11T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Toby Misech",
+      "opponent_slug": "toby-misech",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
+    },
+    {
+      "event": "BKFC - Knucklemania VI",
+      "event_slug": "knucklemania-vi",
+      "date": "2026-02-07T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:56",
+      "opponent": "Patrick Sullivan",
+      "opponent_slug": "patrick-sullivan",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
+    },
+    {
+      "event": "BKFC 15",
+      "event_slug": "bkfc-15-obannon-vs-shewmaker",
+      "date": "2020-12-11T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Tyler Goodjohn",
+      "opponent_slug": "tyler-goodjohn",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
+    },
+    {
+      "event": "BKFC 9",
+      "event_slug": "bkfc-9-lobov-vs-knight-2",
+      "date": "2019-11-16T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Johnny Bedford",
+      "opponent_slug": "johnny-bedford",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
+    },
+    {
+      "event": "BKFC 2",
+      "event_slug": "bkfc-2-rawlings-vs-hart",
+      "date": "2018-08-25T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:49",
+      "opponent": "Michael McDonald",
+      "opponent_slug": "michael-mcdonald",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/felony-charles-bennett"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-09-05T11:46:32.821Z"
 }

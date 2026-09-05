@@ -43,7 +43,7 @@
     {
       "event": "BKFC: Dubai (Day 1)",
       "event_slug": "bkfc-71-dubai-trout-vs-trinidad-snake",
-      "date": "2025-04-04T04:00:00.000Z",
+      "date": "2025-04-04T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:14",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:07.055Z"
+  "history_last_verified": "2026-09-05T11:46:01.881Z"
 }

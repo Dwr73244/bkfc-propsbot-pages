@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-09-04T14:56:03.674Z",
+  "generated_at": "2026-09-05T11:46:43.147Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -921,23 +921,23 @@
       "fighter_a_slug": "ernesto-suarez",
       "fighter_b_slug": "ronny-hauser",
       "prediction": {
-        "prob_a": 0.6279,
-        "prob_b": 0.3721,
-        "raw_score": 0.2013,
+        "prob_a": 0.7454,
+        "prob_b": 0.2546,
+        "raw_score": 0.4131,
         "favorite_slug": "ernesto-suarez",
-        "confidence": "Very Low",
-        "advantage_a": 63,
-        "advantage_b": 37,
-        "predictability": 35,
+        "confidence": "Low",
+        "advantage_a": 75,
+        "advantage_b": 25,
+        "predictability": 55,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "2-0",
             "value_b": "1-1",
-            "edge_slug": null,
-            "edge_strength": 0,
+            "edge_slug": "ernesto-suarez",
+            "edge_strength": 0.625,
             "weight": 0.11,
-            "display": "50% vs 50% win rate"
+            "display": "75% vs 50% win rate"
           },
           {
             "name": "Age",
@@ -959,10 +959,10 @@
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "2 fights",
             "value_b": "2 fights",
             "edge_slug": null,
-            "edge_strength": 0.25,
+            "edge_strength": 0,
             "weight": 0.03,
             "display": "Even"
           },
@@ -976,7 +976,7 @@
             "display": "+1\" Suarez"
           }
         ],
-        "summary": "Model leans Suarez 63/37. Edges on age, reach.",
+        "summary": "Model leans Suarez 75/25. Edges on bkfc record, age, reach.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1098,35 +1098,35 @@
       "fighter_a_slug": "eduardo-suarez",
       "fighter_b_slug": "jose-davila",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
+        "prob_a": 0.3268,
+        "prob_b": 0.6732,
+        "raw_score": -0.2779,
         "favorite_slug": "jose-davila",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 33,
+        "advantage_b": 67,
+        "predictability": 38,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "0-1",
             "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "edge_slug": "jose-davila",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "33% vs 50% win rate"
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "1 fights",
             "value_b": "0 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Davila 67/33. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1173,14 +1173,14 @@
       "fighter_a_slug": "bryan-duran",
       "fighter_b_slug": "felony-charles-bennett",
       "prediction": {
-        "prob_a": 0.6755,
-        "prob_b": 0.3245,
-        "raw_score": 0.2819,
+        "prob_a": 0.6539,
+        "prob_b": 0.3461,
+        "raw_score": 0.2448,
         "favorite_slug": "bryan-duran",
         "confidence": "Low",
-        "advantage_a": 68,
-        "advantage_b": 32,
-        "predictability": 44,
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 41,
         "factors": [
           {
             "name": "Recent Form",
@@ -1194,11 +1194,11 @@
           {
             "name": "BKFC Record",
             "value_a": "8-1",
-            "value_b": "0-0",
+            "value_b": "1-4",
             "edge_slug": "bryan-duran",
-            "edge_strength": 0.795,
+            "edge_strength": 1,
             "weight": 0.11,
-            "display": "82% vs 50% win rate"
+            "display": "82% vs 29% win rate"
           },
           {
             "name": "KO Rate",
@@ -1238,24 +1238,24 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "44%",
+            "value_a": "32%",
             "value_b": "—",
-            "edge_slug": null,
-            "edge_strength": 0.111,
+            "edge_slug": "felony-charles-bennett",
+            "edge_strength": 0.356,
             "weight": 0.04,
-            "display": "Similar schedule"
+            "display": "Bennett tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "9 fights",
-            "value_b": "0 fights",
+            "value_b": "5 fights",
             "edge_slug": "bryan-duran",
-            "edge_strength": 1,
+            "edge_strength": 0.5,
             "weight": 0.03,
-            "display": "+9 fights Duran"
+            "display": "+4 fights Duran"
           }
         ],
-        "summary": "Model leans Duran 68/32. Edges on recent form, bkfc record, age, bkfc experience.",
+        "summary": "Model leans Duran 65/35. Edges on recent form, bkfc record, age, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [

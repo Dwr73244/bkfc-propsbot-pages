@@ -44,7 +44,7 @@
     {
       "event": "BKFC 88",
       "event_slug": "bkfc-denver",
-      "date": "2026-04-17T04:00:00.000Z",
+      "date": "2026-04-17T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:47",
@@ -57,7 +57,7 @@
     {
       "event": "BKFC - Fight Night Michigan",
       "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
-      "date": "2025-11-01T04:00:00.000Z",
+      "date": "2025-11-01T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -70,7 +70,7 @@
     {
       "event": "BKFC - Fight Night Philly",
       "event_slug": "bkfc-fight-night-philly-pague-vs-peterson",
-      "date": "2025-07-25T04:00:00.000Z",
+      "date": "2025-07-25T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:48",
@@ -83,7 +83,7 @@
     {
       "event": "BKFC 74 - Salt Lake City",
       "event_slug": "bkfc-74-salt-lake-city",
-      "date": "2025-05-10T04:00:00.000Z",
+      "date": "2025-05-10T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:03",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1475,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:07.492Z"
+  "history_last_verified": "2026-09-05T11:46:15.639Z"
 }

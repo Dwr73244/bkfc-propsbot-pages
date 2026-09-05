@@ -5,7 +5,7 @@
   "nickname": "LAS MANOS BENDITAS",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 2,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,9 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 87",
+      "event_slug": "bkfc-87-hollywood",
+      "date": "2026-03-20T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:56",
+      "opponent": "Victor Flor",
+      "opponent_slug": "victor-flor",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ernesto-suarez"
+    },
+    {
+      "event": "BKFC 85",
+      "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
+      "date": "2025-12-05T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:24",
+      "opponent": "Angelo Colon",
+      "opponent_slug": "angelo-colon",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ernesto-suarez"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/ernesto-suarez"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-09-05T11:46:15.275Z"
 }

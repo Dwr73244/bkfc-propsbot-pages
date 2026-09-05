@@ -43,7 +43,7 @@
     {
       "event": "BKFC 56",
       "event_slug": "bkfc-56-utah",
-      "date": "2023-12-02T05:00:00.000Z",
+      "date": "2023-12-02T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "02:00",
@@ -79,5 +79,5 @@
   "full_name": "Eduard Alvarez",
   "elo": 1496,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:45:06.882Z"
+  "history_last_verified": "2026-09-05T11:45:57.110Z"
 }

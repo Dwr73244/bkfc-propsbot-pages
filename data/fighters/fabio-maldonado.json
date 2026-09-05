@@ -43,7 +43,7 @@
     {
       "event": "BKFC: Dubai (Day 2)",
       "event_slug": "bkfc-72-dubai-stewart-vs-strydom",
-      "date": "2025-04-05T04:00:00.000Z",
+      "date": "2025-04-05T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:29",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:07.645Z"
+  "history_last_verified": "2026-09-05T11:46:20.174Z"
 }

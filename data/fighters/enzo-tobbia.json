@@ -33,7 +33,7 @@
     {
       "event": "BKFC 91",
       "event_slug": "bkfc-naples",
-      "date": "2026-07-18T04:00:00.000Z",
+      "date": "2026-07-18T00:00:00.000Z",
       "method": "Disqualification",
       "round": 2,
       "time": "00:27",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 83",
       "event_slug": "bkfc-rome",
-      "date": "2025-10-25T04:00:00.000Z",
+      "date": "2025-10-25T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "01:12",
@@ -59,7 +59,7 @@
     {
       "event": "BKFC: Italy",
       "event_slug": "bkfc-73-italy",
-      "date": "2025-04-26T04:00:00.000Z",
+      "date": "2025-04-26T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "01:29",
@@ -74,5 +74,5 @@
     "https://www.bkfc.com/fighters/enzo-tobbia"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:47:26.562Z"
+  "history_last_verified": "2026-09-05T11:46:12.541Z"
 }
