@@ -6,7 +6,7 @@
   "division": "Strawweight",
   "bkfc_record": {
     "wins": 2,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -85,7 +85,7 @@
     "https://www.bkfc.com/fighters/kat-paprocki"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-06T10:37:30.589Z",
+  "history_last_verified": "2026-09-06T12:05:26.380Z",
   "elo": 1480,
   "elo_peak": 1500
 }

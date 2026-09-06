@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-clearwater-4",
-  "generated_at": "2026-09-05T13:51:06.230Z",
+  "generated_at": "2026-09-06T12:05:53.163Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -398,7 +398,7 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "11%",
+            "value_a": "0%",
             "value_b": "83%",
             "edge_slug": "rickie-mcconnico",
             "edge_strength": 1,
@@ -518,10 +518,10 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "50%",
+            "value_a": "42%",
             "value_b": "—",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.167,
             "weight": 0.04,
             "display": "Similar schedule"
           },

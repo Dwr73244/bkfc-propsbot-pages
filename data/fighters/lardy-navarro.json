@@ -4,7 +4,7 @@
   "nickname": "SITO",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 4,
+    "wins": 5,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1501,
   "elo_peak": 1501,
-  "history_last_verified": "2026-08-07T09:04:26.947Z"
+  "history_last_verified": "2026-09-06T12:05:39.627Z"
 }

@@ -4,7 +4,7 @@
   "nickname": "KING",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 9,
+    "wins": 10,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -103,5 +103,5 @@
   ],
   "elo": 1567,
   "elo_peak": 1567,
-  "history_last_verified": "2026-08-06T10:37:26.926Z"
+  "history_last_verified": "2026-09-06T12:05:22.292Z"
 }
