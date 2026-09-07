@@ -31,19 +31,6 @@
   "bio": null,
   "last_5": [
     {
-      "event": "BKFC Liberty Brawl",
-      "event_slug": "bkfc-liberty-brawl",
-      "date": "2026-07-03T00:00:00.000Z",
-      "method": "KO",
-      "round": 1,
-      "time": "01:39",
-      "opponent": "Zedekiah Montanez",
-      "opponent_slug": "zedekiah-montanez",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/matt-maestas"
-    },
-    {
       "event": "BKFC 88 Denver: Camozzi vs. Rodriguez",
       "event_slug": "bkfc-88-denver",
       "date": "2026-04-18T02:00:00.000Z",
@@ -90,6 +77,19 @@
       "opponent": "dillon-winemiller",
       "opponent_slug": "dillon-winemiller",
       "result": "L"
+    },
+    {
+      "event": "BKFC 41",
+      "event_slug": "bkfc-41-colorado",
+      "date": "2023-04-29T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:07",
+      "opponent": "Dillion Winemiller",
+      "opponent_slug": "dillion-winemiller",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/matt-maestas"
     }
   ],
   "sources": [
@@ -102,5 +102,5 @@
   "last_updated": "2026-07-31",
   "elo": 1500,
   "elo_peak": 1500,
-  "history_last_verified": "2026-08-08T08:39:14.757Z"
+  "history_last_verified": "2026-09-07T14:06:32.071Z"
 }
