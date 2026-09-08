@@ -6,7 +6,7 @@
   "division": "Featherweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -59,7 +59,7 @@
     "https://www.bkfc.com/fighters/michael-hernandez"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-08T08:39:18.713Z",
+  "history_last_verified": "2026-09-08T12:44:29.830Z",
   "elo": 1478,
   "elo_peak": 1500
 }

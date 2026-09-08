@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-09-07T16:25:42.419Z",
+  "generated_at": "2026-09-08T12:45:06.734Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -785,7 +785,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "38d ago",
+            "value_a": "39d ago",
             "value_b": "—",
             "edge_slug": "stew-martin",
             "edge_strength": 1,
@@ -867,14 +867,14 @@
       "fighter_a_slug": "ste-wallwork",
       "fighter_b_slug": "leigh-cohoon",
       "prediction": {
-        "prob_a": 0.2715,
-        "prob_b": 0.7285,
-        "raw_score": -0.3797,
+        "prob_a": 0.2515,
+        "prob_b": 0.7485,
+        "raw_score": -0.4196,
         "favorite_slug": "leigh-cohoon",
         "confidence": "Very Low",
-        "advantage_a": 27,
-        "advantage_b": 73,
-        "predictability": 41,
+        "advantage_a": 25,
+        "advantage_b": 75,
+        "predictability": 42,
         "factors": [
           {
             "name": "Recent Form",
@@ -924,11 +924,11 @@
           {
             "name": "Opponent Quality",
             "value_a": "—",
-            "value_b": "47%",
-            "edge_slug": null,
-            "edge_strength": 0.056,
+            "value_b": "71%",
+            "edge_slug": "leigh-cohoon",
+            "edge_strength": 0.417,
             "weight": 0.04,
-            "display": "Similar schedule"
+            "display": "Cohoon tougher schedule"
           },
           {
             "name": "BKFC Experience",
@@ -940,7 +940,7 @@
             "display": "+3 fights Cohoon"
           }
         ],
-        "summary": "Model leans Cohoon 73/27. Edges on bkfc record, ko rate, activity, bkfc experience.",
+        "summary": "Model leans Cohoon 75/25. Edges on bkfc record, ko rate, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1377,7 +1377,7 @@
           {
             "name": "Activity",
             "value_a": "1.6y ago",
-            "value_b": "38d ago",
+            "value_b": "39d ago",
             "edge_slug": "harry-bray",
             "edge_strength": 1,
             "weight": 0.05,

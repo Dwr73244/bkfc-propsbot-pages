@@ -5,7 +5,7 @@
   "nickname": "THE BAD MAN",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha",
+      "date": "2024-05-17T00:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:59",
+      "opponent": "Nate Morrow",
+      "opponent_slug": "nate-morrow",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/nate-morrow"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/nate-morrow"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-09-08T12:44:56.509Z"
 }

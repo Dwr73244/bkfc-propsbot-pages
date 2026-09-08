@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-clearwater-4",
-  "generated_at": "2026-09-07T16:25:42.425Z",
+  "generated_at": "2026-09-08T12:45:06.738Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -75,7 +75,7 @@
           {
             "name": "Activity",
             "value_a": "5mo ago",
-            "value_b": "1.4y ago",
+            "value_b": "1.5y ago",
             "edge_slug": "royal-ryan-reber",
             "edge_strength": 0.7,
             "weight": 0.05,
@@ -249,23 +249,23 @@
       "fighter_a_slug": "michael-larrimore",
       "fighter_b_slug": "nate-morrow",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
-        "favorite_slug": "nate-morrow",
-        "confidence": "Very Low",
+        "prob_a": 0.5035,
+        "prob_b": 0.4965,
+        "raw_score": 0.0054,
+        "favorite_slug": "michael-larrimore",
+        "confidence": "Low",
         "advantage_a": 50,
         "advantage_b": 50,
-        "predictability": 18,
+        "predictability": 30,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_a": "3-2",
+            "value_b": "1-0",
+            "edge_slug": "nate-morrow",
+            "edge_strength": 0.238,
+            "weight": 0.11,
+            "display": "57% vs 67% win rate"
           },
           {
             "name": "Age",
@@ -278,15 +278,15 @@
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
-            "value_b": "0 fights",
-            "edge_slug": null,
-            "edge_strength": 0,
+            "value_a": "5 fights",
+            "value_b": "1 fights",
+            "edge_slug": "michael-larrimore",
+            "edge_strength": 0.5,
             "weight": 0.03,
-            "display": "Even"
+            "display": "+4 fights Larrimore"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Larrimore 50/50. Edges on bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
