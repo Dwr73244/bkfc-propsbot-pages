@@ -1,0 +1,37 @@
+{
+  "slug": "paris-boyd",
+  "name": "Paris Boyd",
+  "full_name": null,
+  "nickname": "PDOTT DA KNOCKOUT ARTIST",
+  "division": "Lightweight",
+  "bkfc_record": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "kos": null
+  },
+  "mma_record": null,
+  "height_in": null,
+  "reach_in": 74,
+  "stance": null,
+  "dob": "1988-07",
+  "age": 38,
+  "nationality": "United States",
+  "hometown": null,
+  "fighting_out_of": null,
+  "gym": null,
+  "champion": false,
+  "ranking": null,
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1760037851/o/PARRIS_BOYD_SMALL_AVATAR_400x400.png?1760037851",
+  "social": {
+    "instagram": "https://www.instagram.com/PDOTTDAKNOCKOUT_ARTIST",
+    "twitter": null,
+    "facebook": null
+  },
+  "bio": null,
+  "last_5": [],
+  "sources": [
+    "https://www.bkfc.com/fighters/paris-boyd"
+  ],
+  "last_updated": "2026-04-17"
+}
