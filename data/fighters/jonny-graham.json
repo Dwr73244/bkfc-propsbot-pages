@@ -56,6 +56,19 @@
       "source_url": "https://www.bkfc.com/fighters/jonny-graham"
     },
     {
+      "event": "BKFC 55 - Leeds",
+      "event_slug": "bkfc-55-leeds",
+      "date": "2023-11-18T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:40",
+      "opponent": "Abel Radomski",
+      "opponent_slug": "abel-radomski",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jonny-graham"
+    },
+    {
       "event": "BKFC 40 Leeds: Holmes vs. Christie",
       "event_slug": "bkfc-40",
       "date": "2023-04-22T20:00:00.000Z",
@@ -74,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1521,
   "elo_peak": 1521,
-  "history_last_verified": "2026-08-05T10:40:07.171Z"
+  "history_last_verified": "2026-09-09T12:52:03.111Z"
 }
