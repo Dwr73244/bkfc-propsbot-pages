@@ -7,7 +7,7 @@
 // timestamp ensures old caches self-invalidate the next time a user loads
 // the page after we ship — no stale HTML / stale CSS lingering after a
 // deploy. Placeholder: __BUILD_VERSION__
-const VERSION = 'bkfc-propsbot-202609081504';
+const VERSION = 'bkfc-propsbot-202609091505';
 const PRECACHE = [
   '/',
   '/picks/',

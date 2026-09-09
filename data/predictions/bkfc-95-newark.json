@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-95-newark",
-  "generated_at": "2026-09-09T12:52:39.327Z",
+  "generated_at": "2026-09-09T15:05:20.640Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -553,6 +553,192 @@
               "outcome": "Decision",
               "moneyline": 194,
               "implied_prob": 0.34
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 6,
+      "fighter_a_slug": "santo-curatolo",
+      "fighter_b_slug": "anthony-yost",
+      "prediction": {
+        "prob_a": 0.3098,
+        "prob_b": 0.6902,
+        "raw_score": -0.3082,
+        "favorite_slug": "anthony-yost",
+        "confidence": "Very Low",
+        "advantage_a": 31,
+        "advantage_b": 69,
+        "predictability": 34,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "W",
+            "edge_slug": "anthony-yost",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Yost hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "2-2",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.11,
+            "display": "50% vs 50% win rate"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "5mo ago",
+            "edge_slug": "anthony-yost",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Yost more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "0%",
+            "edge_slug": "santo-curatolo",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Curatolo tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "4 fights",
+            "edge_slug": "anthony-yost",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "+4 fights Yost"
+          }
+        ],
+        "summary": "Model leans Yost 69/31. Edges on recent form, activity, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -233,
+              "implied_prob": 0.7
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -102,
+              "implied_prob": 0.504
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 410,
+              "implied_prob": 0.196
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 7,
+      "fighter_a_slug": "gzim-selmani",
+      "fighter_b_slug": "brad-lee",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "brad-lee",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -567,
+              "implied_prob": 0.85
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -158,
+              "implied_prob": 0.612
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 320,
+              "implied_prob": 0.238
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 567,
+              "implied_prob": 0.15
             }
           ]
         }
