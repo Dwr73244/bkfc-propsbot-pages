@@ -1,9 +1,9 @@
 {
   "event_slug": "bkfc-93-hollywood",
   "event_date": "2026-09-11",
-  "source": "bestfightodds",
+  "source": "unibet",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4355",
-  "fetched_at": "2026-09-10T18:38:48.983Z",
+  "fetched_at": "2026-09-10T18:38:48.988Z",
   "bouts": [
     {
       "fighter_a_slug": "gee-perez",

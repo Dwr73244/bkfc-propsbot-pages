@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-93-hollywood",
-  "generated_at": "2026-09-10T14:57:38.954Z",
+  "generated_at": "2026-09-11T12:44:59.811Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -147,8 +147,8 @@
       "fighter_a_slug": "gee-perez",
       "fighter_b_slug": "andrew-strode",
       "prediction": {
-        "prob_a": 0.4323,
-        "prob_b": 0.5677,
+        "prob_a": 0.4317,
+        "prob_b": 0.5683,
         "raw_score": -0.1048,
         "favorite_slug": "andrew-strode",
         "confidence": "Low",
@@ -248,7 +248,7 @@
           }
         ],
         "summary": "Model leans Strode 57/43. Edges on bkfc record, ko rate, age, activity.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -287,21 +287,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.43168190991272753,
+        "model_prob_b": 0.5683180900872724,
+        "market_fair_prob_a": 0.4309545875810936,
+        "market_fair_prob_b": 0.5690454124189064,
+        "edge_pct_a": 0.0007273223316339172,
+        "edge_pct_b": -0.0007273223316339728,
+        "edge_slug": "gee-perez",
+        "edge_pct": 0.0007273223316339172
+      }
     },
     {
       "order": 3,
       "fighter_a_slug": "esteban-rodriguez",
       "fighter_b_slug": "stephen-tomahawk-townsel",
       "prediction": {
-        "prob_a": 0.8054,
-        "prob_b": 0.1946,
+        "prob_a": 0.7484,
+        "prob_b": 0.2516,
         "raw_score": 0.5463,
         "favorite_slug": "esteban-rodriguez",
         "confidence": "Low",
-        "advantage_a": 81,
-        "advantage_b": 19,
-        "predictability": 55,
+        "advantage_a": 75,
+        "advantage_b": 25,
+        "predictability": 52,
         "factors": [
           {
             "name": "Recent Form",
@@ -394,8 +403,8 @@
             "display": "+4 fights Townsel"
           }
         ],
-        "summary": "Model leans Rodriguez 81/19. Edges on recent form, bkfc record, ko rate, age.",
-        "market_adjusted": false
+        "summary": "Model leans Rodriguez 75/25. Edges on recent form, bkfc record, ko rate, age.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -434,21 +443,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.748393759076564,
+        "model_prob_b": 0.251606240923436,
+        "market_fair_prob_a": 0.6787037037037037,
+        "market_fair_prob_b": 0.32129629629629625,
+        "edge_pct_a": 0.06969005537286033,
+        "edge_pct_b": -0.06969005537286027,
+        "edge_slug": "esteban-rodriguez",
+        "edge_pct": 0.06969005537286033
+      }
     },
     {
       "order": 4,
       "fighter_a_slug": "chris-garcia",
       "fighter_b_slug": "tyler-randall",
       "prediction": {
-        "prob_a": 0.606,
-        "prob_b": 0.394,
+        "prob_a": 0.7049,
+        "prob_b": 0.2951,
         "raw_score": 0.1656,
         "favorite_slug": "chris-garcia",
         "confidence": "High",
-        "advantage_a": 61,
-        "advantage_b": 39,
-        "predictability": 71,
+        "advantage_a": 70,
+        "advantage_b": 30,
+        "predictability": 77,
         "factors": [
           {
             "name": "ELO Rating",
@@ -550,8 +568,8 @@
             "display": "+2\" Garcia"
           }
         ],
-        "summary": "Model leans Garcia 61/39. Edges on recent form, bkfc record, reach, activity.",
-        "market_adjusted": false
+        "summary": "Model leans Garcia 70/30. Edges on recent form, bkfc record, reach, activity.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -590,21 +608,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.7049123174952305,
+        "model_prob_b": 0.29508768250476947,
+        "market_fair_prob_a": 0.8258003766478342,
+        "market_fair_prob_b": 0.1741996233521657,
+        "edge_pct_a": -0.1208880591526037,
+        "edge_pct_b": 0.12088805915260376,
+        "edge_slug": "tyler-randall",
+        "edge_pct": 0.1208880591526037
+      }
     },
     {
       "order": 5,
       "fighter_a_slug": "matt-rambo-russo",
       "fighter_b_slug": "jancarlos-rivera",
       "prediction": {
-        "prob_a": 0.1645,
-        "prob_b": 0.8355,
+        "prob_a": 0.3443,
+        "prob_b": 0.6557,
         "raw_score": -0.6251,
         "favorite_slug": "jancarlos-rivera",
         "confidence": "Very Low",
-        "advantage_a": 16,
-        "advantage_b": 84,
-        "predictability": 48,
+        "advantage_a": 34,
+        "advantage_b": 66,
+        "predictability": 37,
         "factors": [
           {
             "name": "BKFC Record",
@@ -625,8 +652,8 @@
             "display": "+3 fights Rivera"
           }
         ],
-        "summary": "Model leans Rivera 84/16. Edges on bkfc record, bkfc experience.",
-        "market_adjusted": false
+        "summary": "Model leans Rivera 66/34. Edges on bkfc record, bkfc experience.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -665,21 +692,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.3443338160494912,
+        "model_prob_b": 0.6556661839505088,
+        "market_fair_prob_a": 0.564173591874423,
+        "market_fair_prob_b": 0.4358264081255771,
+        "edge_pct_a": -0.21983977582493175,
+        "edge_pct_b": 0.2198397758249317,
+        "edge_slug": "jancarlos-rivera",
+        "edge_pct": 0.21983977582493175
+      }
     },
     {
       "order": 6,
       "fighter_a_slug": "chino-blume",
       "fighter_b_slug": "caleb-joseph-avila",
       "prediction": {
-        "prob_a": 0.3037,
-        "prob_b": 0.6963,
+        "prob_a": 0.4588,
+        "prob_b": 0.5412,
         "raw_score": -0.3191,
         "favorite_slug": "caleb-joseph-avila",
         "confidence": "Very Low",
-        "advantage_a": 30,
-        "advantage_b": 70,
-        "predictability": 31,
+        "advantage_a": 46,
+        "advantage_b": 54,
+        "predictability": 22,
         "factors": [
           {
             "name": "Recent Form",
@@ -745,8 +781,8 @@
             "display": "+3 fights Avila"
           }
         ],
-        "summary": "Model leans Avila 70/30. Edges on recent form, ko rate, bkfc experience.",
-        "market_adjusted": false
+        "summary": "Model leans Avila 54/46. Edges on recent form, ko rate, bkfc experience.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -785,21 +821,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.4588463475274862,
+        "model_prob_b": 0.5411536524725138,
+        "market_fair_prob_a": 0.6484736355226642,
+        "market_fair_prob_b": 0.3515263644773358,
+        "edge_pct_a": -0.18962728799517803,
+        "edge_pct_b": 0.18962728799517797,
+        "edge_slug": "caleb-joseph-avila",
+        "edge_pct": 0.18962728799517803
+      }
     },
     {
       "order": 7,
       "fighter_a_slug": "murat-kazgan",
       "fighter_b_slug": "james-rodriguez",
       "prediction": {
-        "prob_a": 0.6691,
-        "prob_b": 0.3309,
+        "prob_a": 0.6241,
+        "prob_b": 0.3759,
         "raw_score": 0.2709,
         "favorite_slug": "murat-kazgan",
         "confidence": "Low",
-        "advantage_a": 67,
-        "advantage_b": 33,
-        "predictability": 38,
+        "advantage_a": 62,
+        "advantage_b": 38,
+        "predictability": 35,
         "factors": [
           {
             "name": "Recent Form",
@@ -874,8 +919,8 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Kazgan 67/33. Edges on recent form, ko rate.",
-        "market_adjusted": false
+        "summary": "Model leans Kazgan 62/38. Edges on recent form, ko rate.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -914,21 +959,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.6240921650744501,
+        "model_prob_b": 0.3759078349255499,
+        "market_fair_prob_a": 0.5690454124189064,
+        "market_fair_prob_b": 0.4309545875810936,
+        "edge_pct_a": 0.05504675265554371,
+        "edge_pct_b": -0.05504675265554371,
+        "edge_slug": "murat-kazgan",
+        "edge_pct": 0.05504675265554371
+      }
     },
     {
       "order": 8,
       "fighter_a_slug": "ernesto-suarez",
       "fighter_b_slug": "ronny-hauser",
       "prediction": {
-        "prob_a": 0.7454,
-        "prob_b": 0.2546,
+        "prob_a": 0.6937,
+        "prob_b": 0.3063,
         "raw_score": 0.4131,
         "favorite_slug": "ernesto-suarez",
         "confidence": "Low",
-        "advantage_a": 75,
-        "advantage_b": 25,
-        "predictability": 55,
+        "advantage_a": 69,
+        "advantage_b": 31,
+        "predictability": 52,
         "factors": [
           {
             "name": "BKFC Record",
@@ -976,8 +1030,8 @@
             "display": "+1\" Suarez"
           }
         ],
-        "summary": "Model leans Suarez 75/25. Edges on bkfc record, age, reach.",
-        "market_adjusted": false
+        "summary": "Model leans Suarez 69/31. Edges on bkfc record, age, reach.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -1016,21 +1070,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.6937455555316383,
+        "model_prob_b": 0.3062544444683617,
+        "market_fair_prob_a": 0.6306555863342567,
+        "market_fair_prob_b": 0.3693444136657433,
+        "edge_pct_a": 0.06308996919738163,
+        "edge_pct_b": -0.06308996919738158,
+        "edge_slug": "ernesto-suarez",
+        "edge_pct": 0.06308996919738163
+      }
     },
     {
       "order": 9,
       "fighter_a_slug": "adyam-devillafuerte",
       "fighter_b_slug": "miguel-hinojosa",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.5804,
+        "prob_b": 0.4196,
         "raw_score": 0,
-        "favorite_slug": "miguel-hinojosa",
+        "favorite_slug": "adyam-devillafuerte",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 58,
+        "advantage_b": 42,
+        "predictability": 22,
         "factors": [
           {
             "name": "BKFC Record",
@@ -1052,7 +1115,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -1091,7 +1154,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.5804166666666667,
+        "model_prob_b": 0.4195833333333333,
+        "market_fair_prob_a": 0.6787037037037037,
+        "market_fair_prob_b": 0.32129629629629625,
+        "edge_pct_a": -0.098287037037037,
+        "edge_pct_b": 0.09828703703703706,
+        "edge_slug": "miguel-hinojosa",
+        "edge_pct": 0.098287037037037
+      }
     },
     {
       "order": 10,
@@ -1173,14 +1245,14 @@
       "fighter_a_slug": "bryan-duran",
       "fighter_b_slug": "felony-charles-bennett",
       "prediction": {
-        "prob_a": 0.6539,
-        "prob_b": 0.3461,
+        "prob_a": 0.749,
+        "prob_b": 0.251,
         "raw_score": 0.2448,
         "favorite_slug": "bryan-duran",
         "confidence": "Low",
-        "advantage_a": 65,
-        "advantage_b": 35,
-        "predictability": 41,
+        "advantage_a": 75,
+        "advantage_b": 25,
+        "predictability": 46,
         "factors": [
           {
             "name": "Recent Form",
@@ -1255,8 +1327,8 @@
             "display": "+4 fights Duran"
           }
         ],
-        "summary": "Model leans Duran 65/35. Edges on recent form, bkfc record, age, bkfc experience.",
-        "market_adjusted": false
+        "summary": "Model leans Duran 75/25. Edges on recent form, bkfc record, age, bkfc experience.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -1295,7 +1367,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.7490174385351291,
+        "model_prob_b": 0.25098256146487086,
+        "market_fair_prob_a": 0.8652214891611688,
+        "market_fair_prob_b": 0.1347785108388313,
+        "edge_pct_a": -0.11620405062603967,
+        "edge_pct_b": 0.11620405062603956,
+        "edge_slug": "felony-charles-bennett",
+        "edge_pct": 0.11620405062603967
+      }
     },
     {
       "order": 12,
@@ -1368,7 +1449,7 @@
           {
             "name": "Activity",
             "value_a": "1.5y ago",
-            "value_b": "34d ago",
+            "value_b": "35d ago",
             "edge_slug": "bear-hill",
             "edge_strength": 0.7,
             "weight": 0.05,

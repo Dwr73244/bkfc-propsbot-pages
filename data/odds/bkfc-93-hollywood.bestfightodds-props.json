@@ -2,8 +2,72 @@
   "event_slug": "bkfc-93-hollywood",
   "event_date": "2026-09-11",
   "source": "bestfightodds-props",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4336",
-  "fetched_at": "2026-08-30T05:07:45.584Z",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4355",
+  "fetched_at": "2026-09-11T04:26:25.536Z",
   "total_prop_rows": 0,
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "gee-perez",
+      "fighter_b_slug": "andrew-strode",
+      "matchup_id": "44881",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "esteban-rodriguez",
+      "fighter_b_slug": "stephen-tomahawk-townsel",
+      "matchup_id": "44879",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "chris-garcia",
+      "fighter_b_slug": "tyler-randall",
+      "matchup_id": "44880",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "matt-rambo-russo",
+      "fighter_b_slug": "jancarlos-rivera",
+      "matchup_id": "44878",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "chino-blume",
+      "fighter_b_slug": "caleb-joseph-avila",
+      "matchup_id": "44884",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "murat-kazgan",
+      "fighter_b_slug": "james-rodriguez",
+      "matchup_id": "44877",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "ernesto-suarez",
+      "fighter_b_slug": "ronny-hauser",
+      "matchup_id": "44875",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "adyam-devillafuerte",
+      "fighter_b_slug": "miguel-hinojosa",
+      "matchup_id": "44883",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "bryan-duran",
+      "fighter_b_slug": "felony-charles-bennett",
+      "matchup_id": "44876",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
 }

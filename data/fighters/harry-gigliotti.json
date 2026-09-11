@@ -6,7 +6,7 @@
   "division": "Featherweight",
   "bkfc_record": {
     "wins": 6,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -59,7 +59,7 @@
     "https://www.bkfc.com/fighters/harry-gigliotti"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-29T13:44:58.504Z",
+  "history_last_verified": "2026-09-11T12:44:21.820Z",
   "elo": 1480,
   "elo_peak": 1500
 }

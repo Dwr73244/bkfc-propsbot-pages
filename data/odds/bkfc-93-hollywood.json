@@ -3,13 +3,231 @@
   "event_date": "2026-09-11",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-09-10T11:06:26.306Z",
-  "book_count": 4,
+  "fetched_at": "2026-09-11T09:08:40.515Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "gee-perez",
+      "fighter_b_slug": "andrew-strode",
+      "moneyline_a": 115,
+      "moneyline_b": -159,
+      "implied_prob_a": 0.465,
+      "implied_prob_b": 0.614,
+      "vig": 0.079,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          115,
+          115
+        ],
+        "b": [
+          -159,
+          -159
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "esteban-rodriguez",
+      "fighter_b_slug": "stephen-tomahawk-townsel",
+      "moneyline_a": -275,
+      "moneyline_b": 188,
+      "implied_prob_a": 0.733,
+      "implied_prob_b": 0.347,
+      "vig": 0.081,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -275,
+          -275
+        ],
+        "b": [
+          188,
+          188
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "chris-garcia",
+      "fighter_b_slug": "tyler-randall",
+      "moneyline_a": -715,
+      "moneyline_b": 440,
+      "implied_prob_a": 0.877,
+      "implied_prob_b": 0.185,
+      "vig": 0.062,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -715,
+          -715
+        ],
+        "b": [
+          440,
+          440
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "matt-rambo-russo",
+      "fighter_b_slug": "jancarlos-rivera",
+      "moneyline_a": -157,
+      "moneyline_b": 112,
+      "implied_prob_a": 0.611,
+      "implied_prob_b": 0.472,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -157,
+          -157
+        ],
+        "b": [
+          112,
+          112
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "chino-blume",
+      "fighter_b_slug": "caleb-joseph-avila",
+      "moneyline_a": -235,
+      "moneyline_b": 163,
+      "implied_prob_a": 0.701,
+      "implied_prob_b": 0.38,
+      "vig": 0.082,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -235,
+          -235
+        ],
+        "b": [
+          163,
+          163
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "murat-kazgan",
+      "fighter_b_slug": "james-rodriguez",
+      "moneyline_a": -159,
+      "moneyline_b": 115,
+      "implied_prob_a": 0.614,
+      "implied_prob_b": 0.465,
+      "vig": 0.079,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -159,
+          -159
+        ],
+        "b": [
+          115,
+          115
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "ernesto-suarez",
+      "fighter_b_slug": "ronny-hauser",
+      "moneyline_a": -215,
+      "moneyline_b": 150,
+      "implied_prob_a": 0.683,
+      "implied_prob_b": 0.4,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -215,
+          -215
+        ],
+        "b": [
+          150,
+          150
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "adyam-devillafuerte",
+      "fighter_b_slug": "miguel-hinojosa",
+      "moneyline_a": -275,
+      "moneyline_b": 188,
+      "implied_prob_a": 0.733,
+      "implied_prob_b": 0.347,
+      "vig": 0.081,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -275,
+          -275
+        ],
+        "b": [
+          188,
+          188
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "bryan-duran",
+      "fighter_b_slug": "felony-charles-bennett",
+      "moneyline_a": -1115,
+      "moneyline_b": 600,
+      "implied_prob_a": 0.918,
+      "implied_prob_b": 0.143,
+      "vig": 0.061,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -1115,
+          -1115
+        ],
+        "b": [
+          600,
+          600
+        ]
+      }
+    }
+  ]
 }
