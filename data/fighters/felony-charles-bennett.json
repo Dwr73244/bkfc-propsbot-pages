@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "bryan-duran",
+      "opponent_slug": "bryan-duran",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Honolulu",
       "event_slug": "bkfc-hawaii",
       "date": "2026-04-11T00:00:00.000Z",
@@ -81,24 +92,13 @@
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
-    },
-    {
-      "event": "BKFC 2",
-      "event_slug": "bkfc-2-rawlings-vs-hart",
-      "date": "2018-08-25T00:00:00.000Z",
-      "method": "TKO",
-      "round": 4,
-      "time": "01:49",
-      "opponent": "Michael McDonald",
-      "opponent_slug": "michael-mcdonald",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/felony-charles-bennett"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-05T11:46:32.821Z"
+  "history_last_verified": "2026-09-05T11:46:32.821Z",
+  "elo": 1482,
+  "elo_peak": 1500
 }

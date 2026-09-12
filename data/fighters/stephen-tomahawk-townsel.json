@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "0:46",
+      "opponent": "esteban-rodriguez",
+      "opponent_slug": "esteban-rodriguez",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Hollywood",
       "event_slug": "bkfc-fight-night-hollywood",
       "date": "2026-06-04T00:00:00.000Z",
@@ -81,24 +92,13 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/stephen-tomahawk-townsel"
-    },
-    {
-      "event": "BKFC 57",
-      "event_slug": "bkfc-57-hollywood",
-      "date": "2024-02-02T00:00:00.000Z",
-      "method": "KO",
-      "round": 4,
-      "time": "02:10",
-      "opponent": "Leo Bercier",
-      "opponent_slug": "leo-bercier",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/stephen-tomahawk-townsel"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/stephen-tomahawk-townsel"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-11T09:01:13.927Z"
+  "history_last_verified": "2026-08-11T09:01:13.927Z",
+  "elo": 1481,
+  "elo_peak": 1500
 }

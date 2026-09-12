@@ -5,8 +5,8 @@
   "nickname": "CAPTAIN DEADPOOL",
   "division": "Light Heavyweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 8,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,76 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Clearwater",
+      "event_slug": "bkfc-fight-night-clearwater-ec210",
+      "date": "2025-05-02T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:32",
+      "opponent": "Joseph Creer",
+      "opponent_slug": "joseph-creer",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jared-warren"
+    },
+    {
+      "event": "BKFC on DAZN - Hollywood",
+      "event_slug": "bkfc-on-dazn-hollywood",
+      "date": "2024-12-21T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:44",
+      "opponent": "Mike Richman",
+      "opponent_slug": "mike-richman",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jared-warren"
+    },
+    {
+      "event": "BKFC 62",
+      "event_slug": "bkfc-62-hollywood",
+      "date": "2024-06-21T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "John Escoboza",
+      "opponent_slug": "john-escoboza",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jared-warren"
+    },
+    {
+      "event": "BKFC 55 - Leeds",
+      "event_slug": "bkfc-55-leeds",
+      "date": "2023-11-18T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:56",
+      "opponent": "Danny Christie",
+      "opponent_slug": "danny-christie",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jared-warren"
+    },
+    {
+      "event": "BKFC 47",
+      "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
+      "date": "2023-07-14T00:00:00.000Z",
+      "method": null,
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Josh Dyer",
+      "opponent_slug": "josh-dyer",
+      "result": "NC",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jared-warren"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/jared-warren"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-09-12T12:05:42.953Z"
 }

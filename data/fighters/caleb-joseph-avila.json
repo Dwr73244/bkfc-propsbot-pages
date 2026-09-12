@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "chino-blume",
+      "opponent_slug": "chino-blume",
+      "result": "L"
+    },
+    {
       "event": "BKFC 84",
       "event_slug": "bkfc-84-palm-desert",
       "date": "2025-11-15T00:00:00.000Z",
@@ -72,7 +83,7 @@
     "https://www.bkfc.com/fighters/caleb-joseph-avila"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
+  "elo": 1502,
   "elo_peak": 1522,
   "history_last_verified": "2026-08-15T08:33:29.448Z"
 }

@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "1:59",
+      "opponent": "andrew-strode",
+      "opponent_slug": "andrew-strode",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Hollywood",
       "event_slug": "bkfc-fight-night-hollywood",
       "date": "2026-06-04T00:00:00.000Z",
@@ -80,19 +91,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/gee-perez"
-    },
-    {
-      "event": "BKFC 62",
-      "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T00:00:00.000Z",
-      "method": "KO",
-      "round": 5,
-      "time": "00:54",
-      "opponent": "Albert Inclan",
-      "opponent_slug": "albert-inclan",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/gee-perez"
     }
   ],
   "sources": [
@@ -100,7 +98,7 @@
     "https://www.bkfc.com/fighters/gee-perez"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
+  "elo": 1500,
   "elo_peak": 1522,
   "history_last_verified": "2026-08-29T13:44:47.521Z"
 }

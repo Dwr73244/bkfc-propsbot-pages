@@ -34,7 +34,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "andrew-strode",
+        "method": "TKO",
+        "round": 3,
+        "time": "1:59"
+      }
     },
     {
       "order": 3,
@@ -45,7 +50,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "esteban-rodriguez",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:46"
+      }
     },
     {
       "order": 4,
@@ -56,7 +66,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "tyler-randall",
+        "method": "Majority Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 5,
@@ -67,7 +82,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "matt-rambo-russo",
+        "method": "TKO",
+        "round": 4,
+        "time": "1:36"
+      }
     },
     {
       "order": 6,
@@ -78,7 +98,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "chino-blume",
+        "method": "Unanimous Decision",
+        "round": 3,
+        "time": "2:00"
+      }
     },
     {
       "order": 7,
@@ -89,7 +114,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "james-rodriguez",
+        "method": "KO",
+        "round": 1,
+        "time": "1:31"
+      }
     },
     {
       "order": 8,
@@ -100,7 +130,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "ernesto-suarez",
+        "method": "Split Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 9,
@@ -111,7 +146,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "adyam-devillafuerte",
+        "method": "KO",
+        "round": 1,
+        "time": "1:54"
+      }
     },
     {
       "order": 10,
@@ -122,7 +162,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "eduardo-suarez",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:34"
+      }
     },
     {
       "order": 11,
@@ -133,7 +178,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "bryan-duran",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 12,
@@ -144,12 +194,17 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "leonardo-perdomo",
+        "method": "KO",
+        "round": 1,
+        "time": "0:14"
+      }
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-93-hollywood"
   ],
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-12",
   "needs_card_population": false
 }

@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "Majority Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "tyler-randall",
+      "opponent_slug": "tyler-randall",
+      "result": "L"
+    },
+    {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
       "date": "2026-03-20T00:00:00.000Z",
@@ -78,17 +89,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/chris-garcia"
-    },
-    {
-      "event": "BKFC 57: Palomino vs. Trout",
-      "event_slug": "bkfc-57",
-      "date": "2024-02-02T20:00:00.000Z",
-      "method": "Decision (majority)",
-      "round": 5,
-      "time": "2:00",
-      "opponent": "albert-inclan",
-      "opponent_slug": "albert-inclan",
-      "result": "W"
     }
   ],
   "sources": [
@@ -98,7 +98,7 @@
     "https://www.bkfc.com/fighters/chris-garcia"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1521,
+  "elo": 1500,
   "elo_peak": 1541,
   "history_last_verified": "2026-08-15T08:33:46.700Z"
 }

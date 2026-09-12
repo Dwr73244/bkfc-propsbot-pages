@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "Majority Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "chris-garcia",
+      "opponent_slug": "chris-garcia",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-hammond",
       "date": "2025-10-18T00:00:00.000Z",
@@ -76,19 +87,6 @@
       "opponent": "jr-ridge",
       "opponent_slug": "jr-ridge",
       "result": "W"
-    },
-    {
-      "event": "BKFC - Clearwater",
-      "event_slug": "bkfc-fight-night-clearwater",
-      "date": "2024-04-12T00:00:00.000Z",
-      "method": "Split Decision",
-      "round": 5,
-      "time": "02:00",
-      "opponent": "Joshua Ridge",
-      "opponent_slug": "joshua-ridge",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/tyler-randall"
     }
   ],
   "sources": [
@@ -98,7 +96,7 @@
     "https://www.bkfc.com/fighters/tyler-randall"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1482,
-  "elo_peak": 1501,
+  "elo": 1503,
+  "elo_peak": 1503,
   "history_last_verified": "2026-08-01T10:03:58.440Z"
 }

@@ -126,15 +126,15 @@
         One Tool.
       </h1>
       <p class="text-white/70 text-lg max-w-2xl leading-relaxed">
-        PropsBot BKFC is a free bare knuckle boxing analytics platform that publishes a transparent 14-factor prediction model with a public accuracy ledger (currently 66.7% across 99 live picks, as of September 2026) for every Bare Knuckle Fighting Championship event since 2018.
+        PropsBot BKFC is a free bare knuckle boxing analytics platform that publishes a transparent 14-factor prediction model with a public accuracy ledger (currently 64.5% across 110 live picks, as of September 2026) for every Bare Knuckle Fighting Championship event since 2018.
       </p>
       <!-- Credibility strip: links to /accuracy/ dashboard. Auto-fills with
            live ledger numbers once events finish reconciling; falls back to
            the 325-bout historical backtest before then. -->
       <a href="accuracy/" class="inline-flex items-center gap-3 mt-4 px-4 py-2 rounded-full bg-pb-teal/10 border border-pb-teal/30 hover:bg-pb-teal/20 hover:border-pb-teal/50 transition" title="Live model vs market accuracy ledger">
         <span class="w-1.5 h-1.5 rounded-full bg-pb-teal animate-pulse" aria-hidden="true"></span>
-        <span class="text-pb-teal text-xs mono font-bold uppercase tracking-wider">66.7% model accuracy</span>
-        <span class="text-white/50 text-xs mono">· 99 live bouts · live ledger →</span>
+        <span class="text-pb-teal text-xs mono font-bold uppercase tracking-wider">64.5% model accuracy</span>
+        <span class="text-white/50 text-xs mono">· 110 live bouts · live ledger →</span>
       </a>
     </div>
   </header>
@@ -145,7 +145,7 @@
       <div class="glass rounded-2xl p-6 md:p-8" data-event-date="2026-09-26T00:00:00Z">
         <div class="flex items-center gap-2 mb-3 flex-wrap">
           <span class="status-pill status-upcoming"><span class="pulse-dot"></span> Upcoming</span>
-          <span class="text-xs mono text-pb-teal font-semibold">In 14 days</span>
+          <span class="text-xs mono text-pb-teal font-semibold">In 13 days</span>
           <span class="text-xs mono text-white/40" data-role="countdown"></span>
         </div>
         <h3 class="text-2xl md:text-3xl font-extrabold text-white leading-tight mb-2">bkfc-94-manchester</h3>
@@ -175,11 +175,109 @@
         <div class="grid md:grid-cols-2 gap-4">
           <div>
             <div class="text-[10px] mono uppercase tracking-wider text-pb-teal mb-2">Top Gainers</div>
-            <div class="space-y-2"><div class="text-white/40 text-xs mono">No gainers this week</div></div>
+            <div class="space-y-2">
+      <a href="fighters/andrew-strode/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Andrew Strode</div>
+            <div class="text-[11px] text-white/50 mono truncate">Flyweight</div>
+          </div>
+          <div class="text-pb-teal mono font-bold text-sm whitespace-nowrap">+22</div>
+        </div>
+      </a>
+
+      <a href="fighters/leonardo-perdomo/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Leonardo Perdomo</div>
+            <div class="text-[11px] text-white/50 mono truncate">Heavyweight</div>
+          </div>
+          <div class="text-pb-teal mono font-bold text-sm whitespace-nowrap">+22</div>
+        </div>
+      </a>
+
+      <a href="fighters/tyler-randall/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Tyler Randall</div>
+            <div class="text-[11px] text-white/50 mono truncate">Flyweight</div>
+          </div>
+          <div class="text-pb-teal mono font-bold text-sm whitespace-nowrap">+21</div>
+        </div>
+      </a>
+
+      <a href="fighters/esteban-rodriguez/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Esteban Rodriguez</div>
+            <div class="text-[11px] text-white/50 mono truncate">Heavyweight</div>
+          </div>
+          <div class="text-pb-teal mono font-bold text-sm whitespace-nowrap">+19</div>
+        </div>
+      </a>
+
+      <a href="fighters/bryan-duran/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Bryan Duran</div>
+            <div class="text-[11px] text-white/50 mono truncate">Featherweight</div>
+          </div>
+          <div class="text-pb-teal mono font-bold text-sm whitespace-nowrap">+17</div>
+        </div>
+      </a></div>
           </div>
           <div>
             <div class="text-[10px] mono uppercase tracking-wider text-pb-red mb-2">Biggest Losers</div>
-            <div class="space-y-2"><div class="text-white/40 text-xs mono">No losers this week</div></div>
+            <div class="space-y-2">
+      <a href="fighters/murat-kazgan/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Murat Kazgan</div>
+            <div class="text-[11px] text-white/50 mono truncate">Welterweight</div>
+          </div>
+          <div class="text-pb-red mono font-bold text-sm whitespace-nowrap">-23</div>
+        </div>
+      </a>
+
+      <a href="fighters/bear-hill/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Bear Hill</div>
+            <div class="text-[11px] text-white/50 mono truncate">Heavyweight</div>
+          </div>
+          <div class="text-pb-red mono font-bold text-sm whitespace-nowrap">-22</div>
+        </div>
+      </a>
+
+      <a href="fighters/gee-perez/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Gee Perez</div>
+            <div class="text-[11px] text-white/50 mono truncate">Bantamweight</div>
+          </div>
+          <div class="text-pb-red mono font-bold text-sm whitespace-nowrap">-22</div>
+        </div>
+      </a>
+
+      <a href="fighters/chris-garcia/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Chris Garcia</div>
+            <div class="text-[11px] text-white/50 mono truncate">Bantamweight</div>
+          </div>
+          <div class="text-pb-red mono font-bold text-sm whitespace-nowrap">-21</div>
+        </div>
+      </a>
+
+      <a href="fighters/caleb-joseph-avila/" class="block fight-card glass rounded-xl p-3 border border-white/5">
+        <div class="flex items-center justify-between gap-2">
+          <div class="min-w-0">
+            <div class="text-white font-semibold text-sm truncate">Caleb Joseph Avila</div>
+            <div class="text-[11px] text-white/50 mono truncate">Heavyweight</div>
+          </div>
+          <div class="text-pb-red mono font-bold text-sm whitespace-nowrap">-20</div>
+        </div>
+      </a></div>
           </div>
         </div>
       </section>

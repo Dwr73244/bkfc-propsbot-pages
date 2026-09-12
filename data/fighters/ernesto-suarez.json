@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "ronny-hauser",
+      "opponent_slug": "ronny-hauser",
+      "result": "W"
+    },
+    {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
       "date": "2026-03-20T00:00:00.000Z",
@@ -61,5 +72,7 @@
     "https://www.bkfc.com/fighters/ernesto-suarez"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-05T11:46:15.275Z"
+  "history_last_verified": "2026-09-05T11:46:15.275Z",
+  "elo": 1519,
+  "elo_peak": 1519
 }

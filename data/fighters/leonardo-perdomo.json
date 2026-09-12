@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:14",
+      "opponent": "bear-hill",
+      "opponent_slug": "bear-hill",
+      "result": "W"
+    },
+    {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
       "date": "2026-03-20T00:00:00.000Z",
@@ -80,17 +91,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/leonardo-perdomo"
-    },
-    {
-      "event": "BKFC 70 Hollywood, FL: Palomino vs. Davis",
-      "event_slug": "bkfc-70",
-      "date": "2025-03-27T20:00:00.000Z",
-      "method": "KO",
-      "round": 1,
-      "time": "0:13",
-      "opponent": "steve-herelius",
-      "opponent_slug": "steve-herelius",
-      "result": "W"
     }
   ],
   "sources": [
@@ -99,7 +99,7 @@
     "https://www.bkfc.com/fighters/leonardo-perdomo"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1543,
-  "elo_peak": 1543,
+  "elo": 1565,
+  "elo_peak": 1565,
   "history_last_verified": "2026-08-07T09:04:43.602Z"
 }

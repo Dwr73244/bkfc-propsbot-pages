@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:34",
+      "opponent": "jose-davila",
+      "opponent_slug": "jose-davila",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Fight Night Hollywood",
       "event_slug": "bkfc-fight-night-hollywood",
       "date": "2026-06-04T00:00:00.000Z",
@@ -48,5 +59,7 @@
     "https://www.bkfc.com/fighters/eduardo-suarez"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-05T11:45:55.394Z"
+  "history_last_verified": "2026-09-05T11:45:55.394Z",
+  "elo": 1522,
+  "elo_peak": 1522
 }

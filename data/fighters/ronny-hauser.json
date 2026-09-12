@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "ernesto-suarez",
+      "opponent_slug": "ernesto-suarez",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-fight-night-hammond",
       "date": "2026-06-26T00:00:00.000Z",
@@ -61,5 +72,7 @@
     "https://www.bkfc.com/fighters/ronny-hauser"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-20T08:43:11.598Z"
+  "history_last_verified": "2026-08-20T08:43:11.598Z",
+  "elo": 1481,
+  "elo_peak": 1500
 }

@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:31",
+      "opponent": "murat-kazgan",
+      "opponent_slug": "murat-kazgan",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Fight Night Hollywood",
       "event_slug": "bkfc-fight-night-hollywood",
       "date": "2026-06-04T00:00:00.000Z",
@@ -61,5 +72,7 @@
     "https://www.bkfc.com/fighters/james-rodriguez"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-30T13:40:44.592Z"
+  "history_last_verified": "2026-08-30T13:40:44.592Z",
+  "elo": 1523,
+  "elo_peak": 1523
 }

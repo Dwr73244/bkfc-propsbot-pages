@@ -6,7 +6,7 @@
   "division": "Bantamweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -30,6 +30,30 @@
   },
   "bio": null,
   "last_5": [
+    {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "1:36",
+      "opponent": "matt-rambo-russo",
+      "opponent_slug": "matt-rambo-russo",
+      "result": "L"
+    },
+    {
+      "event": "BKFC 93",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:36",
+      "opponent": "Matt Russo",
+      "opponent_slug": "matt-russo",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jancarlos-rivera"
+    },
     {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
@@ -74,5 +98,7 @@
     "https://www.bkfc.com/fighters/jancarlos-rivera"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-05T10:39:35.295Z"
+  "history_last_verified": "2026-09-12T12:05:31.765Z",
+  "elo": 1478,
+  "elo_peak": 1500
 }

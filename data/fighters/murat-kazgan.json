@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-93-hollywood",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:31",
+      "opponent": "james-rodriguez",
+      "opponent_slug": "james-rodriguez",
+      "result": "L"
+    },
+    {
       "event": "BKFC 53",
       "event_slug": "bkfc-53-orlando",
       "date": "2023-11-03T00:00:00.000Z",
@@ -59,7 +70,7 @@
     "https://www.bkfc.com/fighters/murat-kazgan"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
+  "elo": 1499,
   "elo_peak": 1522,
   "history_last_verified": "2026-08-09T08:47:10.177Z"
 }
