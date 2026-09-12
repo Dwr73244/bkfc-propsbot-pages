@@ -1,0 +1,22 @@
+{
+  "slug": "bkfc-hollywood-3",
+  "name": "bkfc-hollywood-3",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-12-11T00:00:00.000Z",
+  "venue": "HARD ROCK LIVE",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-hollywood-3"
+  ],
+  "last_updated": "2026-09-12",
+  "needs_card_population": true
+}

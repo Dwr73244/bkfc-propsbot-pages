@@ -1,0 +1,89 @@
+{
+  "slug": "bkfc-bkfsea-bruise-cruise",
+  "name": "bkfsea-bruise-cruise",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2027-01-23T00:00:00.000Z",
+  "venue": "BKFSEA BRUISE CRUISE",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": null,
+      "fighter_a_slug": "joey-gambino",
+      "fighter_b_slug": "tba",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "MainCard",
+      "weight_class": null,
+      "fighter_a_slug": "nathan-rivera",
+      "fighter_b_slug": "tba",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": null,
+      "fighter_a_slug": "julio-perez-rodriguez",
+      "fighter_b_slug": "tba",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": null,
+      "fighter_a_slug": "gustavo-balart",
+      "fighter_b_slug": "tba",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": null,
+      "fighter_a_slug": "cole-ferrell",
+      "fighter_b_slug": "tba",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": null,
+      "fighter_a_slug": "justyn-martinez",
+      "fighter_b_slug": "tba",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
+  "sources": [
+    "https://www.bkfc.com/events/bkfsea-bruise-cruise"
+  ],
+  "last_updated": "2026-09-12",
+  "needs_card_population": false
+}

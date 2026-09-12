@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Ironweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -48,5 +48,7 @@
   "last_updated": "2026-08-15",
   "stub": true,
   "elo": 1520,
-  "elo_peak": 1520
+  "elo_peak": 1520,
+  "record_source": "tracked-events",
+  "record_verified": "2026-09-12"
 }
