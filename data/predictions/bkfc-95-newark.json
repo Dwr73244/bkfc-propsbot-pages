@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-95-newark",
-  "generated_at": "2026-09-12T14:04:03.839Z",
+  "generated_at": "2026-09-13T13:14:37.256Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -351,14 +351,14 @@
       "fighter_a_slug": "dalvin-blair",
       "fighter_b_slug": "paris-boyd",
       "prediction": {
-        "prob_a": 0.6515,
-        "prob_b": 0.3485,
-        "raw_score": 0.2406,
+        "prob_a": 0.6333,
+        "prob_b": 0.3667,
+        "raw_score": 0.2101,
         "favorite_slug": "dalvin-blair",
         "confidence": "Very Low",
-        "advantage_a": 65,
-        "advantage_b": 35,
-        "predictability": 32,
+        "advantage_a": 63,
+        "advantage_b": 37,
+        "predictability": 30,
         "factors": [
           {
             "name": "Recent Form",
@@ -409,10 +409,10 @@
             "name": "Activity",
             "value_a": "1.5y ago",
             "value_b": "—",
-            "edge_slug": "dalvin-blair",
-            "edge_strength": 0.3,
+            "edge_slug": null,
+            "edge_strength": 0.1,
             "weight": 0.05,
-            "display": "Blair more active"
+            "display": "Similar activity"
           },
           {
             "name": "Cut History",
@@ -442,7 +442,7 @@
             "display": "+3 fights Blair"
           }
         ],
-        "summary": "Model leans Blair 65/35. Edges on recent form, bkfc record, ko rate, age.",
+        "summary": "Model leans Blair 63/37. Edges on recent form, bkfc record, ko rate, age.",
         "market_adjusted": false
       },
       "prop_markets": [

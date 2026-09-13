@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-bethlehem",
-  "generated_at": "2026-09-12T14:04:03.842Z",
+  "generated_at": "2026-09-13T13:14:37.259Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -48,7 +48,7 @@
           {
             "name": "Activity",
             "value_a": "—",
-            "value_b": "1.6y ago",
+            "value_b": "1.7y ago",
             "edge_slug": null,
             "edge_strength": 0.1,
             "weight": 0.05,
@@ -276,14 +276,14 @@
       "fighter_a_slug": "lex-ludlow",
       "fighter_b_slug": "brock-walker",
       "prediction": {
-        "prob_a": 0.7493,
-        "prob_b": 0.2507,
-        "raw_score": 0.4212,
+        "prob_a": 0.7276,
+        "prob_b": 0.2724,
+        "raw_score": 0.3778,
         "favorite_slug": "lex-ludlow",
         "confidence": "Low",
-        "advantage_a": 75,
-        "advantage_b": 25,
-        "predictability": 51,
+        "advantage_a": 73,
+        "advantage_b": 27,
+        "predictability": 49,
         "factors": [
           {
             "name": "Recent Form",
@@ -316,10 +316,10 @@
             "name": "Activity",
             "value_a": "1.5y ago",
             "value_b": "—",
-            "edge_slug": "lex-ludlow",
-            "edge_strength": 0.3,
+            "edge_slug": null,
+            "edge_strength": 0.1,
             "weight": 0.05,
-            "display": "Ludlow more active"
+            "display": "Similar activity"
           },
           {
             "name": "Cut History",
@@ -349,7 +349,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Ludlow 75/25. Edges on recent form, bkfc record, age, activity.",
+        "summary": "Model leans Ludlow 73/27. Edges on recent form, bkfc record, age.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -630,14 +630,14 @@
       "fighter_a_slug": "travis-thompson",
       "fighter_b_slug": "nick-burgos",
       "prediction": {
-        "prob_a": 0.4937,
-        "prob_b": 0.5063,
-        "raw_score": -0.0097,
+        "prob_a": 0.4744,
+        "prob_b": 0.5256,
+        "raw_score": -0.0394,
         "favorite_slug": "nick-burgos",
         "confidence": "Medium",
-        "advantage_a": 49,
-        "advantage_b": 51,
-        "predictability": 45,
+        "advantage_a": 47,
+        "advantage_b": 53,
+        "predictability": 48,
         "factors": [
           {
             "name": "Recent Form",
@@ -688,10 +688,10 @@
             "name": "Activity",
             "value_a": "1.5y ago",
             "value_b": "—",
-            "edge_slug": "travis-thompson",
-            "edge_strength": 0.3,
+            "edge_slug": null,
+            "edge_strength": 0.1,
             "weight": 0.05,
-            "display": "Thompson more active"
+            "display": "Similar activity"
           },
           {
             "name": "Cut History",
@@ -730,7 +730,7 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Burgos 51/49. Edges on recent form, ko rate, reach, opponent quality.",
+        "summary": "Model leans Burgos 53/47. Edges on recent form, ko rate, reach, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [

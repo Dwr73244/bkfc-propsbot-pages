@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-09-12T14:04:03.832Z",
+  "generated_at": "2026-09-13T13:14:37.249Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -213,14 +213,14 @@
       "fighter_a_slug": "gaz-corran",
       "fighter_b_slug": "mac-bygraves",
       "prediction": {
-        "prob_a": 0.725,
-        "prob_b": 0.275,
-        "raw_score": 0.3729,
+        "prob_a": 0.6506,
+        "prob_b": 0.3494,
+        "raw_score": 0.2391,
         "favorite_slug": "gaz-corran",
         "confidence": "Low",
-        "advantage_a": 73,
-        "advantage_b": 27,
-        "predictability": 47,
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 45,
         "factors": [
           {
             "name": "Recent Form",
@@ -233,21 +233,21 @@
           },
           {
             "name": "BKFC Record",
-            "value_a": "1-0",
+            "value_a": "2-0",
             "value_b": "3-0",
-            "edge_slug": "mac-bygraves",
-            "edge_strength": 0.333,
+            "edge_slug": null,
+            "edge_strength": 0.125,
             "weight": 0.11,
-            "display": "67% vs 80% win rate"
+            "display": "75% vs 80% win rate"
           },
           {
             "name": "KO Rate",
-            "value_a": "100%",
+            "value_a": "50%",
             "value_b": "—",
             "edge_slug": "gaz-corran",
-            "edge_strength": 0.975,
+            "edge_strength": 0.225,
             "weight": 0.11,
-            "display": "65 pt KO-rate gap"
+            "display": "15 pt KO-rate gap"
           },
           {
             "name": "Reach",
@@ -287,10 +287,10 @@
           },
           {
             "name": "BKFC Experience",
-            "value_a": "1 fights",
+            "value_a": "2 fights",
             "value_b": "3 fights",
             "edge_slug": null,
-            "edge_strength": 0.25,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           },
@@ -304,7 +304,7 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Corran 73/27. Edges on recent form, ko rate, activity, opponent quality.",
+        "summary": "Model leans Corran 65/35. Edges on recent form, ko rate, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -313,13 +313,13 @@
           "options": [
             {
               "outcome": "Yes (Decision)",
-              "moneyline": 551,
-              "implied_prob": 0.153
+              "moneyline": 424,
+              "implied_prob": 0.191
             },
             {
               "outcome": "No (Finish)",
-              "moneyline": -551,
-              "implied_prob": 0.847
+              "moneyline": -424,
+              "implied_prob": 0.809
             }
           ]
         },
@@ -328,18 +328,18 @@
           "options": [
             {
               "outcome": "KO/TKO",
-              "moneyline": -156,
-              "implied_prob": 0.609
+              "moneyline": -140,
+              "implied_prob": 0.582
             },
             {
               "outcome": "Doctor Stoppage",
-              "moneyline": 322,
-              "implied_prob": 0.237
+              "moneyline": 341,
+              "implied_prob": 0.227
             },
             {
               "outcome": "Decision",
-              "moneyline": 551,
-              "implied_prob": 0.153
+              "moneyline": 424,
+              "implied_prob": 0.191
             }
           ]
         }
@@ -785,7 +785,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "43d ago",
+            "value_a": "44d ago",
             "value_b": "—",
             "edge_slug": "stew-martin",
             "edge_strength": 1,
@@ -1377,7 +1377,7 @@
           {
             "name": "Activity",
             "value_a": "1.6y ago",
-            "value_b": "43d ago",
+            "value_b": "44d ago",
             "edge_slug": "harry-bray",
             "edge_strength": 1,
             "weight": 0.05,

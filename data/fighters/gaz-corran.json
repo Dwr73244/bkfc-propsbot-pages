@@ -4,7 +4,7 @@
   "nickname": "THE CRUSHER",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0,
     "draws": 0,
     "kos": 1
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-08-29T13:44:41.325Z"
+  "history_last_verified": "2026-09-13T13:14:19.136Z"
 }
