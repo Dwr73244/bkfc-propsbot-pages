@@ -5,7 +5,7 @@
   "nickname": "MURDA",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -72,7 +72,7 @@
     "https://www.bkfc.com/fighters/james-rodriguez"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-30T13:40:44.592Z",
+  "history_last_verified": "2026-09-14T14:51:52.903Z",
   "elo": 1523,
   "elo_peak": 1523
 }
