@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-bethlehem",
-  "generated_at": "2026-09-15T15:32:32.990Z",
+  "generated_at": "2026-09-16T13:16:52.491Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -138,14 +138,14 @@
       "fighter_a_slug": "christian-torres",
       "fighter_b_slug": "brett-shoenfelt",
       "prediction": {
-        "prob_a": 0.2985,
-        "prob_b": 0.7015,
-        "raw_score": -0.3287,
+        "prob_a": 0.3167,
+        "prob_b": 0.6833,
+        "raw_score": -0.2958,
         "favorite_slug": "brett-shoenfelt",
-        "confidence": "Low",
-        "advantage_a": 30,
-        "advantage_b": 70,
-        "predictability": 45,
+        "confidence": "Medium",
+        "advantage_a": 32,
+        "advantage_b": 68,
+        "predictability": 60,
         "factors": [
           {
             "name": "Recent Form",
@@ -159,11 +159,11 @@
           {
             "name": "BKFC Record",
             "value_a": "2-6",
-            "value_b": "0-0",
-            "edge_slug": "brett-shoenfelt",
-            "edge_strength": 0.5,
+            "value_b": "0-1",
+            "edge_slug": null,
+            "edge_strength": 0.083,
             "weight": 0.11,
-            "display": "30% vs 50% win rate"
+            "display": "30% vs 33% win rate"
           },
           {
             "name": "Age",
@@ -203,21 +203,21 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "67%",
+            "value_a": "44%",
             "value_b": "—",
-            "edge_slug": "christian-torres",
-            "edge_strength": 0.333,
+            "edge_slug": null,
+            "edge_strength": 0.111,
             "weight": 0.04,
-            "display": "Torres tougher schedule"
+            "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "8 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": "christian-torres",
-            "edge_strength": 1,
+            "edge_strength": 0.875,
             "weight": 0.03,
-            "display": "+8 fights Torres"
+            "display": "+7 fights Torres"
           },
           {
             "name": "Height",
@@ -229,7 +229,7 @@
             "display": "-3\" Shoenfelt"
           }
         ],
-        "summary": "Model leans Shoenfelt 70/30. Edges on recent form, bkfc record, age, activity.",
+        "summary": "Model leans Shoenfelt 68/32. Edges on recent form, age, activity, cut history.",
         "market_adjusted": false
       },
       "prop_markets": [

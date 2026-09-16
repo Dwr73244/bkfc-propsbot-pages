@@ -56,7 +56,7 @@
       "source_url": "https://www.bkfc.com/fighters/chancey-wilson"
     },
     {
-      "event": "BKFCF 67 - Denver",
+      "event": "BKFC 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
       "date": "2024-10-25T00:00:00.000Z",
       "method": "TKO",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1519,
   "elo_peak": 1519,
-  "history_last_verified": "2026-08-15T08:33:45.267Z"
+  "history_last_verified": "2026-09-16T13:16:48.309Z"
 }

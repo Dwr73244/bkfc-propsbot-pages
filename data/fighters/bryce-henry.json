@@ -35,7 +35,7 @@
       "date": "2026-08-21T00:00:00.000Z",
       "method": "KO",
       "round": 2,
-      "time": "01:59",
+      "time": "01:50",
       "opponent": "Carlos Trinidad-Snake",
       "opponent_slug": "carlos-trinidad-snake",
       "result": "W",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1585,
   "elo_peak": 1585,
-  "history_last_verified": "2026-08-25T08:47:00.538Z"
+  "history_last_verified": "2026-09-16T13:16:36.556Z"
 }

@@ -4,7 +4,7 @@
   "nickname": "EL GALLO",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 8,
+    "wins": 9,
     "losses": 1,
     "draws": 0,
     "kos": 1
@@ -39,6 +39,19 @@
       "opponent": "felony-charles-bennett",
       "opponent_slug": "felony-charles-bennett",
       "result": "W"
+    },
+    {
+      "event": "BKFC 93",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Charles Bennett",
+      "opponent_slug": "charles-bennett",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/bryan-duran"
     },
     {
       "event": "BKFC 87",
@@ -78,19 +91,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/bryan-duran"
-    },
-    {
-      "event": "BKFC 62",
-      "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T00:00:00.000Z",
-      "method": "Unanimous Decision",
-      "round": 5,
-      "time": "02:00",
-      "opponent": "Kai Stewart",
-      "opponent_slug": "kai-stewart",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/bryan-duran"
     }
   ],
   "sources": [
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1538,
   "elo_peak": 1538,
-  "history_last_verified": "2026-08-15T08:33:30.725Z"
+  "history_last_verified": "2026-09-16T13:16:39.715Z"
 }

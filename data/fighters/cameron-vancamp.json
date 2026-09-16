@@ -36,8 +36,8 @@
       "method": "KO",
       "round": 1,
       "time": "01:49",
-      "opponent": "Gregoris Cisnero",
-      "opponent_slug": "gregoris-cisnero",
+      "opponent": "Gregoris Cisneros",
+      "opponent_slug": "gregoris-cisneros",
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/cameron-vancamp"
@@ -67,7 +67,7 @@
       "result": "L"
     },
     {
-      "event": "BKFCF 67 - Denver",
+      "event": "BKFC 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
       "date": "2024-10-25T00:00:00.000Z",
       "method": "Split Decision",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1500,
   "elo_peak": 1522,
-  "history_last_verified": "2026-08-15T08:33:31.391Z"
+  "history_last_verified": "2026-09-16T13:16:30.227Z"
 }

@@ -5,7 +5,7 @@
   "division": "Heavyweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 2,
+    "losses": 3,
     "draws": 0,
     "kos": 1
   },
@@ -39,6 +39,19 @@
       "opponent": "chino-blume",
       "opponent_slug": "chino-blume",
       "result": "L"
+    },
+    {
+      "event": "BKFC 93",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Nicholas Blume",
+      "opponent_slug": "nicholas-blume",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/caleb-joseph-avila"
     },
     {
       "event": "BKFC 84",
@@ -85,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1502,
   "elo_peak": 1522,
-  "history_last_verified": "2026-08-15T08:33:29.448Z"
+  "history_last_verified": "2026-09-16T13:16:36.169Z"
 }

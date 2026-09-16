@@ -6,7 +6,7 @@
   "division": "Cruiserweight",
   "bkfc_record": {
     "wins": 4,
-    "losses": 2,
+    "losses": 3,
     "draws": 0,
     "kos": 3
   },
@@ -42,7 +42,7 @@
       "result": "L"
     },
     {
-      "event": "BKFC 88",
+      "event": "BKFC - 88",
       "event_slug": "bkfc-denver",
       "date": "2026-04-17T00:00:00.000Z",
       "method": "KO",
@@ -81,7 +81,7 @@
       "source_url": "https://www.bkfc.com/fighters/chris-camozzi"
     },
     {
-      "event": "BKFCF 67 - Denver",
+      "event": "BKFC 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
       "date": "2024-10-25T00:00:00.000Z",
       "method": "KO",
@@ -108,5 +108,5 @@
   "elo_peak": 1522,
   "record_source": "wikipedia",
   "record_verified": "2026-08-25",
-  "history_last_verified": "2026-08-25T08:47:17.873Z"
+  "history_last_verified": "2026-09-16T13:16:49.716Z"
 }
