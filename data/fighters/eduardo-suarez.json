@@ -5,7 +5,7 @@
   "nickname": "LAS MANOS BENITAS",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -59,7 +59,7 @@
     "https://www.bkfc.com/fighters/eduardo-suarez"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-05T11:45:55.394Z",
+  "history_last_verified": "2026-09-19T12:24:14.267Z",
   "elo": 1522,
   "elo_peak": 1522
 }

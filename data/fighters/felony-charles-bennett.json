@@ -6,7 +6,7 @@
   "division": "Featherweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 4,
+    "losses": 5,
     "draws": 0,
     "kos": null
   },
@@ -98,7 +98,7 @@
     "https://www.bkfc.com/fighters/felony-charles-bennett"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-05T11:46:32.821Z",
+  "history_last_verified": "2026-09-19T12:24:46.683Z",
   "elo": 1482,
   "elo_peak": 1500
 }

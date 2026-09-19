@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-bkfsea-bruise-cruise",
-  "generated_at": "2026-09-18T14:57:05.877Z",
+  "generated_at": "2026-09-19T12:24:59.161Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -38,7 +38,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "29d ago",
+            "value_a": "30d ago",
             "value_b": "—",
             "edge_slug": "joey-gambino",
             "edge_strength": 1,
@@ -240,14 +240,14 @@
       "fighter_a_slug": "julio-perez-rodriguez",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.6686,
-        "prob_b": 0.3314,
-        "raw_score": 0.27,
+        "prob_a": 0.6476,
+        "prob_b": 0.3524,
+        "raw_score": 0.2341,
         "favorite_slug": "julio-perez-rodriguez",
         "confidence": "Low",
-        "advantage_a": 67,
-        "advantage_b": 33,
-        "predictability": 46,
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 44,
         "factors": [
           {
             "name": "Recent Form",
@@ -280,10 +280,10 @@
             "name": "Activity",
             "value_a": "1.5y ago",
             "value_b": "—",
-            "edge_slug": "julio-perez-rodriguez",
-            "edge_strength": 0.3,
+            "edge_slug": null,
+            "edge_strength": 0.1,
             "weight": 0.05,
-            "display": "Rodriguez more active"
+            "display": "Similar activity"
           },
           {
             "name": "Cut History",
@@ -313,7 +313,7 @@
             "display": "+6 fights Rodriguez"
           }
         ],
-        "summary": "Model leans Rodriguez 67/33. Edges on recent form, bkfc record, activity, bkfc experience.",
+        "summary": "Model leans Rodriguez 65/35. Edges on recent form, bkfc record, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [

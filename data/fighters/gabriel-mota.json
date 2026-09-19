@@ -35,7 +35,7 @@
       "date": "2026-06-26T00:00:00.000Z",
       "method": null,
       "round": 1,
-      "time": "00:00",
+      "time": null,
       "opponent": "Alex Davis",
       "opponent_slug": "alex-davis",
       "result": "NC",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1457,
   "elo_peak": 1500,
-  "history_last_verified": "2026-08-29T13:44:39.157Z"
+  "history_last_verified": "2026-09-19T12:24:55.011Z"
 }

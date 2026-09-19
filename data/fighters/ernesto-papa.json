@@ -74,8 +74,8 @@
       "method": "KO",
       "round": 1,
       "time": "01:25",
-      "opponent": "Toni Estorer",
-      "opponent_slug": "toni-estorer",
+      "opponent": "Dominik Estorer",
+      "opponent_slug": "dominik-estorer",
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/ernesto-papa"
@@ -89,5 +89,5 @@
   "elo_peak": 1500,
   "record_source": "tracked-events",
   "record_verified": "2026-07-19",
-  "history_last_verified": "2026-09-05T11:46:12.595Z"
+  "history_last_verified": "2026-09-19T12:24:24.761Z"
 }

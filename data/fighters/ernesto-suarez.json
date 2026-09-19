@@ -5,7 +5,7 @@
   "nickname": "LAS MANOS BENDITAS",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -72,7 +72,7 @@
     "https://www.bkfc.com/fighters/ernesto-suarez"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-05T11:46:15.275Z",
+  "history_last_verified": "2026-09-19T12:24:28.724Z",
   "elo": 1519,
   "elo_peak": 1519
 }
