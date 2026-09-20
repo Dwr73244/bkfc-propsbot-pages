@@ -37,8 +37,8 @@
       "method": "KO",
       "round": 1,
       "time": "01:49",
-      "opponent": "Gregoris Cisnero",
-      "opponent_slug": "gregoris-cisnero",
+      "opponent": "Gregoris Cisneros",
+      "opponent_slug": "gregoris-cisneros",
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/gregoris-cisneros"
@@ -48,5 +48,5 @@
     "https://www.bkfc.com/fighters/gregoris-cisneros"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-29T13:44:49.111Z"
+  "history_last_verified": "2026-09-20T12:59:07.206Z"
 }
