@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-09-20T14:40:57.078Z",
+  "generated_at": "2026-09-21T14:58:54.136Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "conor-cooke",
       "fighter_b_slug": "sean-weir",
       "prediction": {
-        "prob_a": 0.5594,
-        "prob_b": 0.4406,
-        "raw_score": 0.0918,
+        "prob_a": 0.5403,
+        "prob_b": 0.4597,
+        "raw_score": 0.0621,
         "favorite_slug": "conor-cooke",
         "confidence": "Medium",
-        "advantage_a": 56,
-        "advantage_b": 44,
-        "predictability": 55,
+        "advantage_a": 54,
+        "advantage_b": 46,
+        "predictability": 52,
         "factors": [
           {
             "name": "Recent Form",
@@ -67,10 +67,10 @@
             "name": "Activity",
             "value_a": "1.5y ago",
             "value_b": "—",
-            "edge_slug": "conor-cooke",
-            "edge_strength": 0.3,
+            "edge_slug": null,
+            "edge_strength": 0.1,
             "weight": 0.05,
-            "display": "Cooke more active"
+            "display": "Similar activity"
           },
           {
             "name": "Cut History",
@@ -109,7 +109,7 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Cooke 56/44. Edges on recent form, activity, opponent quality, bkfc experience.",
+        "summary": "Model leans Cooke 54/46. Edges on recent form, opponent quality, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
