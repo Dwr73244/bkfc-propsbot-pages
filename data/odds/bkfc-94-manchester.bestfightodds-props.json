@@ -2,8 +2,16 @@
   "event_slug": "bkfc-94-manchester",
   "event_date": "2026-09-26",
   "source": "bestfightodds-props",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4356",
-  "fetched_at": "2026-09-13T05:16:42.270Z",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4372",
+  "fetched_at": "2026-09-22T07:37:33.458Z",
   "total_prop_rows": 0,
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "darren-till",
+      "fighter_b_slug": "yoel-romero",
+      "matchup_id": "44991",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
 }

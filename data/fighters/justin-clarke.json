@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 82 -",
+      "event_slug": "bkfc-new-jersey",
+      "date": "2025-10-04T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ishiah Carson",
+      "opponent_slug": "ishiah-carson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/justin-clarke"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/justin-clarke"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-09-22T13:14:28.505Z"
 }

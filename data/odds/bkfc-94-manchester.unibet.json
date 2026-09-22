@@ -1,9 +1,9 @@
 {
   "event_slug": "bkfc-94-manchester",
   "event_date": "2026-09-26",
-  "source": "bestfightodds",
+  "source": "unibet",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4372",
-  "fetched_at": "2026-09-21T19:42:31.919Z",
+  "fetched_at": "2026-09-21T19:42:31.920Z",
   "bouts": [
     {
       "fighter_a_slug": "darren-till",

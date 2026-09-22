@@ -3,13 +3,39 @@
   "event_date": "2026-09-26",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-09-21T14:29:12.587Z",
-  "book_count": 4,
+  "fetched_at": "2026-09-22T07:37:36.708Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "darren-till",
+      "fighter_b_slug": "yoel-romero",
+      "moneyline_a": -315,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.759,
+      "implied_prob_b": 0.313,
+      "vig": 0.072,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -315,
+          -315
+        ],
+        "b": [
+          220,
+          220
+        ]
+      }
+    }
+  ]
 }
