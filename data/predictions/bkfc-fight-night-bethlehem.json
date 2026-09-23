@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-bethlehem",
-  "generated_at": "2026-09-23T13:29:49.509Z",
+  "generated_at": "2026-09-23T15:26:23.913Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -276,13 +276,13 @@
       "fighter_a_slug": "lex-ludlow",
       "fighter_b_slug": "brock-walker",
       "prediction": {
-        "prob_a": 0.7276,
-        "prob_b": 0.2724,
-        "raw_score": 0.3778,
+        "prob_a": 0.7389,
+        "prob_b": 0.2611,
+        "raw_score": 0.4,
         "favorite_slug": "lex-ludlow",
         "confidence": "Low",
-        "advantage_a": 73,
-        "advantage_b": 27,
+        "advantage_a": 74,
+        "advantage_b": 26,
         "predictability": 49,
         "factors": [
           {
@@ -332,10 +332,10 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "17%",
+            "value_a": "26%",
             "value_b": "—",
             "edge_slug": "brock-walker",
-            "edge_strength": 0.667,
+            "edge_strength": 0.475,
             "weight": 0.04,
             "display": "Walker tougher schedule"
           },
@@ -349,7 +349,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Ludlow 73/27. Edges on recent form, bkfc record, age.",
+        "summary": "Model leans Ludlow 74/26. Edges on recent form, bkfc record, age.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -630,13 +630,13 @@
       "fighter_a_slug": "travis-thompson",
       "fighter_b_slug": "nick-burgos",
       "prediction": {
-        "prob_a": 0.4744,
-        "prob_b": 0.5256,
-        "raw_score": -0.0394,
+        "prob_a": 0.4795,
+        "prob_b": 0.5205,
+        "raw_score": -0.0316,
         "favorite_slug": "nick-burgos",
         "confidence": "Medium",
-        "advantage_a": 47,
-        "advantage_b": 53,
+        "advantage_a": 48,
+        "advantage_b": 52,
         "predictability": 48,
         "factors": [
           {
@@ -704,10 +704,10 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "25%",
+            "value_a": "30%",
             "value_b": "—",
             "edge_slug": "nick-burgos",
-            "edge_strength": 0.494,
+            "edge_strength": 0.396,
             "weight": 0.04,
             "display": "Burgos tougher schedule"
           },
@@ -730,7 +730,7 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Burgos 53/47. Edges on recent form, ko rate, reach, opponent quality.",
+        "summary": "Model leans Burgos 52/48. Edges on recent form, ko rate, reach, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
