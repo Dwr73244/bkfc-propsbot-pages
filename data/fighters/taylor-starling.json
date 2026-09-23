@@ -4,7 +4,7 @@
   "nickname": "Killa Bee",
   "division": "Women's Flyweight",
   "bkfc_record": {
-    "wins": 6,
+    "wins": 7,
     "losses": 4,
     "draws": 0,
     "kos": null
@@ -39,6 +39,19 @@
       "opponent": "kat-paprocki",
       "opponent_slug": "kat-paprocki",
       "result": "W"
+    },
+    {
+      "event": "BKFC 92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Kathryn Paprocki",
+      "opponent_slug": "kathryn-paprocki",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/taylor-starling"
     },
     {
       "event": "BKFC - Blood 4 Blood",
@@ -76,19 +89,6 @@
       "opponent": "bec-rawlings",
       "opponent_slug": "bec-rawlings",
       "result": "L"
-    },
-    {
-      "event": "BKFC 63",
-      "event_slug": "bkfc-63-hart-vs-starling",
-      "date": "2024-08-03T00:00:00.000Z",
-      "method": "Unanimous Decision",
-      "round": 5,
-      "time": "02:00",
-      "opponent": "Britain Hart",
-      "opponent_slug": "britain-hart",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/taylor-starling"
     }
   ],
   "sources": [
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1501,
   "elo_peak": 1501,
-  "history_last_verified": "2026-08-04T10:37:42.391Z"
+  "history_last_verified": "2026-09-23T13:29:46.190Z"
 }

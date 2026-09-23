@@ -30,7 +30,7 @@
   "bio": null,
   "last_5": [
     {
-      "event": "BKFCF 67 - Denver",
+      "event": "BKFC 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
       "date": "2024-10-25T00:00:00.000Z",
       "method": "KO",
@@ -104,5 +104,5 @@
   ],
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-08-03T11:28:31.015Z"
+  "history_last_verified": "2026-09-23T13:29:12.327Z"
 }
