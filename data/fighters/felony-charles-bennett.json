@@ -55,6 +55,17 @@
       "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
     },
     {
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
+      "date": "2026-02-07T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:56",
+      "opponent": "pat-sullivan",
+      "opponent_slug": "pat-sullivan",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
@@ -79,19 +90,6 @@
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
-    },
-    {
-      "event": "BKFC 9",
-      "event_slug": "bkfc-9-lobov-vs-knight-2",
-      "date": "2019-11-16T00:00:00.000Z",
-      "method": "KO",
-      "round": 2,
-      "time": "02:00",
-      "opponent": "Johnny Bedford",
-      "opponent_slug": "johnny-bedford",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/felony-charles-bennett"
     }
   ],
   "sources": [
@@ -99,6 +97,6 @@
   ],
   "last_updated": "2026-04-17",
   "history_last_verified": "2026-09-19T12:24:46.683Z",
-  "elo": 1482,
-  "elo_peak": 1500
+  "elo": 1502,
+  "elo_peak": 1521
 }

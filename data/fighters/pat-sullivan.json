@@ -43,6 +43,17 @@
       "source_url": "https://www.bkfc.com/fighters/pat-sullivan"
     },
     {
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
+      "date": "2026-02-07T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:56",
+      "opponent": "felony-charles-bennett",
+      "opponent_slug": "felony-charles-bennett",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
@@ -78,19 +89,6 @@
       "opponent": "kaine-tomlinson",
       "opponent_slug": "kaine-tomlinson",
       "result": "L"
-    },
-    {
-      "event": "BKFC - Knucklemania V",
-      "event_slug": "bkfc-knucklemania-v",
-      "date": "2025-01-25T00:00:00.000Z",
-      "method": "KO",
-      "round": 1,
-      "time": "00:37",
-      "opponent": "Kaine Tomlinson Jr",
-      "opponent_slug": "kaine-tomlinson-jr",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/pat-sullivan"
     }
   ],
   "sources": [
@@ -98,7 +96,7 @@
     "https://www.bkfc.com/fighters/pat-sullivan"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1479,
+  "elo": 1459,
   "elo_peak": 1500,
   "history_last_verified": "2026-08-02T10:02:07.733Z"
 }

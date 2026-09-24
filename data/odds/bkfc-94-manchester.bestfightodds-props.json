@@ -3,13 +3,62 @@
   "event_date": "2026-09-26",
   "source": "bestfightodds-props",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4372",
-  "fetched_at": "2026-09-23T14:51:07.188Z",
+  "fetched_at": "2026-09-24T12:07:16.762Z",
   "total_prop_rows": 0,
   "bouts": [
     {
       "fighter_a_slug": "darren-till",
       "fighter_b_slug": "yoel-romero",
       "matchup_id": "44991",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "david-mundell",
+      "fighter_b_slug": "jack-cullen",
+      "matchup_id": "45043",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "gaz-corran",
+      "fighter_b_slug": "mac-bygraves",
+      "matchup_id": "45045",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "karl-thompson",
+      "fighter_b_slug": "andy-thornton",
+      "matchup_id": "45049",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "mikey-henderson",
+      "fighter_b_slug": "matthew-wiwczaryk",
+      "matchup_id": "45047",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "ste-wallwork",
+      "fighter_b_slug": "leigh-cohoon",
+      "matchup_id": "45044",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "luke-vaughan",
+      "fighter_b_slug": "bartlomiej-krol",
+      "matchup_id": "45046",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "joe-lister",
+      "fighter_b_slug": "harry-bray",
+      "matchup_id": "45048",
       "prop_row_count": 0,
       "prop_markets": []
     }

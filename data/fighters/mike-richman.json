@@ -43,17 +43,15 @@
       "source_url": "https://www.bkfc.com/fighters/mike-richman"
     },
     {
-      "event": "BKFC - Knucklemania VI",
-      "event_slug": "knucklemania-vi",
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
       "method": "Majority Decision",
       "round": 5,
-      "time": "02:00",
-      "opponent": "Joe Elmore",
+      "time": "2:00",
+      "opponent": "joe-elmore",
       "opponent_slug": "joe-elmore",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/mike-richman"
+      "result": "W"
     },
     {
       "event": "BKFC 74 - Salt Lake City",
@@ -99,7 +97,7 @@
     "https://www.bkfc.com/fighters/mike-richman"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1499,
-  "elo_peak": 1500,
+  "elo": 1518,
+  "elo_peak": 1518,
   "history_last_verified": "2026-08-08T08:39:37.390Z"
 }

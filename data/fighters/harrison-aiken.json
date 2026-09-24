@@ -30,17 +30,15 @@
   "bio": null,
   "last_5": [
     {
-      "event": "BKFC - Knucklemania VI",
-      "event_slug": "knucklemania-vi",
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
-      "time": "01:16",
-      "opponent": "Cody Russell",
+      "time": "1:16",
+      "opponent": "cody-russell",
       "opponent_slug": "cody-russell",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/harrison-aiken"
+      "result": "L"
     },
     {
       "event": "BKFC Fight Night Albuquerque: Richardson vs. Usmanov",
@@ -72,7 +70,7 @@
     "https://www.bkfc.com/fighters/harrison-aiken"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1483,
+  "elo": 1464,
   "elo_peak": 1500,
   "history_last_verified": "2026-08-29T13:44:54.856Z"
 }

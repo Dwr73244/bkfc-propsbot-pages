@@ -29,10 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
+      "date": "2026-02-07T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "bear-hill",
+      "opponent_slug": "bear-hill",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/pat-brady"
   ],
   "last_updated": "2026-09-23",
-  "stub": true
+  "stub": true,
+  "elo": 1520,
+  "elo_peak": 1520
 }

@@ -30,17 +30,15 @@
   "bio": null,
   "last_5": [
     {
-      "event": "BKFC - Knucklemania VI",
-      "event_slug": "knucklemania-vi",
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
-      "time": "01:14",
-      "opponent": "Andrei Arlovski",
+      "time": "1:14",
+      "opponent": "andrei-arlovski",
       "opponent_slug": "andrei-arlovski",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/ben-rothwell"
+      "result": "L"
     },
     {
       "event": "BKFC Knucklemania V",
@@ -102,7 +100,7 @@
     "power-only"
   ],
   "full_name": "Ben Rothwell",
-  "elo": 1568,
+  "elo": 1536,
   "elo_peak": 1568,
   "history_last_verified": "2026-08-14T09:13:13.925Z"
 }

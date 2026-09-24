@@ -41,6 +41,17 @@
       "result": "W"
     },
     {
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
+      "date": "2026-02-07T00:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "0:29",
+      "opponent": "david-mundell",
+      "opponent_slug": "david-mundell",
+      "result": "W"
+    },
+    {
       "event": "BKFC Knucklemania IV",
       "event_slug": "bkfc-knucklemania-iv",
       "date": "2024-04-27T20:00:00.000Z",
@@ -75,8 +86,8 @@
     "counter"
   ],
   "full_name": "Lorenzo Hunt",
-  "elo": 1525,
-  "elo_peak": 1526,
+  "elo": 1545,
+  "elo_peak": 1545,
   "record_source": "wikipedia",
   "record_verified": "2026-08-10"
 }

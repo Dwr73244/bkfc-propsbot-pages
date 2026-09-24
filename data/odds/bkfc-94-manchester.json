@@ -3,7 +3,7 @@
   "event_date": "2026-09-26",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-09-23T14:51:09.880Z",
+  "fetched_at": "2026-09-24T12:07:20.570Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -34,6 +34,174 @@
         "b": [
           220,
           220
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "david-mundell",
+      "fighter_b_slug": "jack-cullen",
+      "moneyline_a": -148,
+      "moneyline_b": 106,
+      "implied_prob_a": 0.597,
+      "implied_prob_b": 0.485,
+      "vig": 0.082,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -148,
+          -148
+        ],
+        "b": [
+          106,
+          106
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "gaz-corran",
+      "fighter_b_slug": "mac-bygraves",
+      "moneyline_a": -210,
+      "moneyline_b": 148,
+      "implied_prob_a": 0.677,
+      "implied_prob_b": 0.403,
+      "vig": 0.081,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -210,
+          -210
+        ],
+        "b": [
+          148,
+          148
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "karl-thompson",
+      "fighter_b_slug": "andy-thornton",
+      "moneyline_a": -125,
+      "moneyline_b": -110,
+      "implied_prob_a": 0.556,
+      "implied_prob_b": 0.524,
+      "vig": 0.079,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -125,
+          -125
+        ],
+        "b": [
+          -110,
+          -110
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "mikey-henderson",
+      "fighter_b_slug": "matthew-wiwczaryk",
+      "moneyline_a": -167,
+      "moneyline_b": 120,
+      "implied_prob_a": 0.625,
+      "implied_prob_b": 0.455,
+      "vig": 0.08,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -167,
+          -167
+        ],
+        "b": [
+          120,
+          120
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "ste-wallwork",
+      "fighter_b_slug": "leigh-cohoon",
+      "moneyline_a": -108,
+      "moneyline_b": -129,
+      "implied_prob_a": 0.519,
+      "implied_prob_b": 0.563,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -108,
+          -108
+        ],
+        "b": [
+          -129,
+          -129
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "luke-vaughan",
+      "fighter_b_slug": "bartlomiej-krol",
+      "moneyline_a": 550,
+      "moneyline_b": -1000,
+      "implied_prob_a": 0.154,
+      "implied_prob_b": 0.909,
+      "vig": 0.063,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          550,
+          550
+        ],
+        "b": [
+          -1000,
+          -1000
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "joe-lister",
+      "fighter_b_slug": "harry-bray",
+      "moneyline_a": -118,
+      "moneyline_b": -118,
+      "implied_prob_a": 0.541,
+      "implied_prob_b": 0.541,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -118,
+          -118
+        ],
+        "b": [
+          -118,
+          -118
         ]
       }
     }

@@ -43,17 +43,15 @@
       "source_url": "https://www.bkfc.com/fighters/cody-russell"
     },
     {
-      "event": "BKFC - Knucklemania VI",
-      "event_slug": "knucklemania-vi",
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
-      "time": "01:16",
-      "opponent": "Harrison Aiken",
+      "time": "1:16",
+      "opponent": "harrison-aiken",
       "opponent_slug": "harrison-aiken",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/cody-russell"
+      "result": "W"
     },
     {
       "event": "BKFC Knucklemania V",
@@ -72,7 +70,7 @@
     "https://www.bkfc.com/fighters/cody-russell"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
-  "elo_peak": 1522,
+  "elo": 1542,
+  "elo_peak": 1542,
   "history_last_verified": "2026-08-25T08:47:25.103Z"
 }

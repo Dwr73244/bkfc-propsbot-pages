@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-clearwater-4",
-  "generated_at": "2026-09-23T15:26:23.914Z",
+  "generated_at": "2026-09-24T13:21:21.193Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -20,12 +20,12 @@
         "factors": [
           {
             "name": "ELO Rating",
-            "value_a": 1519,
+            "value_a": 1520,
             "value_b": 1539,
             "edge_slug": null,
-            "edge_strength": 0.1,
+            "edge_strength": 0.095,
             "weight": 0.16,
-            "display": "-20 ELO "
+            "display": "-19 ELO "
           },
           {
             "name": "Recent Form",

@@ -43,17 +43,15 @@
       "source_url": "https://www.bkfc.com/fighters/zedekiah-montanez"
     },
     {
-      "event": "BKFC - Knucklemania VI",
-      "event_slug": "knucklemania-vi",
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
       "method": "KO",
       "round": 2,
-      "time": "01:59",
-      "opponent": "Brandon Meyer",
+      "time": "1:59",
+      "opponent": "brandon-meyer",
       "opponent_slug": "brandon-meyer",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/zedekiah-montanez"
+      "result": "W"
     },
     {
       "event": "BKFC Knucklemania V",
@@ -72,7 +70,7 @@
     "https://www.bkfc.com/fighters/zedekiah-montanez"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1478,
-  "elo_peak": 1500,
+  "elo": 1503,
+  "elo_peak": 1503,
   "history_last_verified": "2026-08-01T10:04:16.237Z"
 }

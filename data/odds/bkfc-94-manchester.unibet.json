@@ -3,7 +3,7 @@
   "event_date": "2026-09-26",
   "source": "unibet",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4372",
-  "fetched_at": "2026-09-21T19:42:31.920Z",
+  "fetched_at": "2026-09-24T12:07:15.993Z",
   "bouts": [
     {
       "fighter_a_slug": "darren-till",
@@ -13,6 +13,76 @@
       "implied_prob_a": 0.759,
       "implied_prob_b": 0.313,
       "vig": 0.072,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "david-mundell",
+      "fighter_b_slug": "jack-cullen",
+      "moneyline_a": -148,
+      "moneyline_b": 106,
+      "implied_prob_a": 0.597,
+      "implied_prob_b": 0.485,
+      "vig": 0.082,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "gaz-corran",
+      "fighter_b_slug": "mac-bygraves",
+      "moneyline_a": -210,
+      "moneyline_b": 148,
+      "implied_prob_a": 0.677,
+      "implied_prob_b": 0.403,
+      "vig": 0.081,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "karl-thompson",
+      "fighter_b_slug": "andy-thornton",
+      "moneyline_a": -125,
+      "moneyline_b": -110,
+      "implied_prob_a": 0.556,
+      "implied_prob_b": 0.524,
+      "vig": 0.079,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "mikey-henderson",
+      "fighter_b_slug": "matthew-wiwczaryk",
+      "moneyline_a": -167,
+      "moneyline_b": 120,
+      "implied_prob_a": 0.625,
+      "implied_prob_b": 0.455,
+      "vig": 0.08,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "ste-wallwork",
+      "fighter_b_slug": "leigh-cohoon",
+      "moneyline_a": -108,
+      "moneyline_b": -129,
+      "implied_prob_a": 0.519,
+      "implied_prob_b": 0.563,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "luke-vaughan",
+      "fighter_b_slug": "bartlomiej-krol",
+      "moneyline_a": 550,
+      "moneyline_b": -1000,
+      "implied_prob_a": 0.154,
+      "implied_prob_b": 0.909,
+      "vig": 0.063,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "joe-lister",
+      "fighter_b_slug": "harry-bray",
+      "moneyline_a": -118,
+      "moneyline_b": -118,
+      "implied_prob_a": 0.541,
+      "implied_prob_b": 0.541,
+      "vig": 0.083,
       "book_count": 1
     }
   ]

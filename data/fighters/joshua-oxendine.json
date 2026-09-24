@@ -55,24 +55,22 @@
       "source_url": "https://www.bkfc.com/fighters/joshua-oxendine"
     },
     {
-      "event": "BKFC - Knucklemania VI",
-      "event_slug": "knucklemania-vi",
+      "event": "knucklemania-vi",
+      "event_slug": "bkfc-knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 3,
-      "time": "02:00",
-      "opponent": "Travis Thompson",
+      "time": "2:00",
+      "opponent": "travis-thompson",
       "opponent_slug": "travis-thompson",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/joshua-oxendine"
+      "result": "W"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/joshua-oxendine"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1481,
-  "elo_peak": 1500,
+  "elo": 1498,
+  "elo_peak": 1518,
   "history_last_verified": "2026-08-06T10:37:15.214Z"
 }
