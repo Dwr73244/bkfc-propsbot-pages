@@ -3,7 +3,7 @@
   "event_date": "2026-09-26",
   "source": "bestfightodds",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4372",
-  "fetched_at": "2026-09-24T12:07:15.948Z",
+  "fetched_at": "2026-09-24T23:49:59.433Z",
   "bouts": [
     {
       "fighter_a_slug": "darren-till",
@@ -73,6 +73,26 @@
       "implied_prob_a": 0.154,
       "implied_prob_b": 0.909,
       "vig": 0.063,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "liam-dooley",
+      "fighter_b_slug": "tyrone-hamer",
+      "moneyline_a": 106,
+      "moneyline_b": -148,
+      "implied_prob_a": 0.485,
+      "implied_prob_b": 0.597,
+      "vig": 0.082,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "benjamin-lowe",
+      "fighter_b_slug": "dan-mcgraffin",
+      "moneyline_a": 102,
+      "moneyline_b": -139,
+      "implied_prob_a": 0.495,
+      "implied_prob_b": 0.582,
+      "vig": 0.077,
       "book_count": 1
     },
     {

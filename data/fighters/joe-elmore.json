@@ -5,8 +5,8 @@
   "nickname": "HITMAN",
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 1,
+    "wins": 2,
+    "losses": 5,
     "draws": 0,
     "kos": null
   },
@@ -40,6 +40,58 @@
       "opponent": "mike-richman",
       "opponent_slug": "mike-richman",
       "result": "L"
+    },
+    {
+      "event": "BKFC 69",
+      "event_slug": "bkfc-69-richardson-vs-larrimore",
+      "date": "2024-12-06T00:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Derrick Findley",
+      "opponent_slug": "derrick-findley",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joe-elmore"
+    },
+    {
+      "event": "BKFC 51",
+      "event_slug": "bkfc-51-salem",
+      "date": "2023-09-29T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Dustin Pague",
+      "opponent_slug": "dustin-pague",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joe-elmore"
+    },
+    {
+      "event": "BKFC 27",
+      "event_slug": "bkfc-27-london",
+      "date": "2022-08-20T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Connor Tierney",
+      "opponent_slug": "connor-tierney",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joe-elmore"
+    },
+    {
+      "event": "BKFC 16",
+      "event_slug": "bkfc-16-garcia-vs-elmore",
+      "date": "2021-03-19T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Leonard Garcia",
+      "opponent_slug": "leonard-garcia",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/joe-elmore"
     }
   ],
   "sources": [
@@ -49,5 +101,6 @@
   "elo": 1481,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-09-24"
+  "record_verified": "2026-09-24",
+  "history_last_verified": "2026-09-25T13:22:58.026Z"
 }

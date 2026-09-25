@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-09-24T15:48:11.770Z",
+  "generated_at": "2026-09-25T13:23:46.432Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -839,7 +839,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "55d ago",
+            "value_a": "56d ago",
             "value_b": "—",
             "edge_slug": "stew-martin",
             "edge_strength": 1,
@@ -1170,14 +1170,14 @@
       "fighter_a_slug": "liam-dooley",
       "fighter_b_slug": "tyrone-hamer",
       "prediction": {
-        "prob_a": 0.7507,
-        "prob_b": 0.2493,
+        "prob_a": 0.6146,
+        "prob_b": 0.3854,
         "raw_score": 0.4239,
         "favorite_slug": "liam-dooley",
         "confidence": "Very Low",
-        "advantage_a": 75,
-        "advantage_b": 25,
-        "predictability": 43,
+        "advantage_a": 61,
+        "advantage_b": 39,
+        "predictability": 34,
         "factors": [
           {
             "name": "Recent Form",
@@ -1243,8 +1243,8 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Dooley 75/25. Edges on recent form, ko rate.",
-        "market_adjusted": false
+        "summary": "Model leans Dooley 61/39. Edges on recent form, ko rate.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -1283,21 +1283,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.6145845850242172,
+        "model_prob_b": 0.3854154149757828,
+        "market_fair_prob_a": 0.4482439926062847,
+        "market_fair_prob_b": 0.5517560073937154,
+        "edge_pct_a": 0.16634059241793248,
+        "edge_pct_b": -0.16634059241793264,
+        "edge_slug": "liam-dooley",
+        "edge_pct": 0.16634059241793248
+      }
     },
     {
       "order": 11,
       "fighter_a_slug": "benjamin-lowe",
       "fighter_b_slug": "dan-mcgraffin",
       "prediction": {
-        "prob_a": 0.2802,
-        "prob_b": 0.7198,
+        "prob_a": 0.361,
+        "prob_b": 0.639,
         "raw_score": -0.3628,
         "favorite_slug": "dan-mcgraffin",
         "confidence": "Low",
-        "advantage_a": 28,
-        "advantage_b": 72,
-        "predictability": 48,
+        "advantage_a": 36,
+        "advantage_b": 64,
+        "predictability": 43,
         "factors": [
           {
             "name": "Recent Form",
@@ -1354,8 +1363,8 @@
             "display": "+5 fights McGraffin"
           }
         ],
-        "summary": "Model leans McGraffin 72/28. Edges on recent form, bkfc record, bkfc experience.",
-        "market_adjusted": false
+        "summary": "Model leans McGraffin 64/36. Edges on recent form, bkfc record, bkfc experience.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -1394,7 +1403,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.3609536617737036,
+        "model_prob_b": 0.6390463382262964,
+        "market_fair_prob_a": 0.4596100278551532,
+        "market_fair_prob_b": 0.5403899721448467,
+        "edge_pct_a": -0.09865636608144962,
+        "edge_pct_b": 0.09865636608144968,
+        "edge_slug": "dan-mcgraffin",
+        "edge_pct": 0.09865636608144962
+      }
     },
     {
       "order": 12,
@@ -1449,7 +1467,7 @@
           {
             "name": "Activity",
             "value_a": "1.6y ago",
-            "value_b": "55d ago",
+            "value_b": "56d ago",
             "edge_slug": "harry-bray",
             "edge_strength": 1,
             "weight": 0.05,
@@ -1643,7 +1661,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "55d ago",
+            "value_a": "56d ago",
             "value_b": "—",
             "edge_slug": "stew-martin",
             "edge_strength": 1,
