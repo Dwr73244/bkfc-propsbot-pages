@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-09-25T15:48:05.052Z",
+  "generated_at": "2026-09-26T12:48:22.645Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "darren-till",
       "fighter_b_slug": "yoel-romero",
       "prediction": {
-        "prob_a": 0.6889,
-        "prob_b": 0.3111,
+        "prob_a": 0.6799,
+        "prob_b": 0.3201,
         "raw_score": 0.2779,
         "favorite_slug": "darren-till",
         "confidence": "Very Low",
-        "advantage_a": 69,
-        "advantage_b": 31,
-        "predictability": 39,
+        "advantage_a": 68,
+        "advantage_b": 32,
+        "predictability": 38,
         "factors": [
           {
             "name": "BKFC Record",
@@ -37,7 +37,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Till 69/31. Edges on bkfc record.",
+        "summary": "Model leans Till 68/32. Edges on bkfc record.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -78,14 +78,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.6888634104596467,
-        "model_prob_b": 0.3111365895403533,
-        "market_fair_prob_a": 0.7080223880597014,
-        "market_fair_prob_b": 0.2919776119402985,
-        "edge_pct_a": -0.019158977600054694,
-        "edge_pct_b": 0.019158977600054805,
+        "model_prob_a": 0.6799443470687361,
+        "model_prob_b": 0.3200556529312639,
+        "market_fair_prob_a": 0.6882022471910112,
+        "market_fair_prob_b": 0.31179775280898875,
+        "edge_pct_a": -0.00825790012227512,
+        "edge_pct_b": 0.008257900122275175,
         "edge_slug": "yoel-romero",
-        "edge_pct": 0.019158977600054694
+        "edge_pct": 0.00825790012227512
       }
     },
     {
@@ -663,14 +663,14 @@
       "fighter_a_slug": "mikey-henderson",
       "fighter_b_slug": "matthew-wiwczaryk",
       "prediction": {
-        "prob_a": 0.6576,
-        "prob_b": 0.3424,
+        "prob_a": 0.6669,
+        "prob_b": 0.3331,
         "raw_score": 0.3674,
         "favorite_slug": "mikey-henderson",
         "confidence": "Medium",
-        "advantage_a": 66,
-        "advantage_b": 34,
-        "predictability": 64,
+        "advantage_a": 67,
+        "advantage_b": 33,
+        "predictability": 65,
         "factors": [
           {
             "name": "Recent Form",
@@ -754,7 +754,7 @@
             "display": "+2\" Henderson"
           }
         ],
-        "summary": "Model leans Henderson 66/34. Edges on recent form, bkfc record, reach, opponent quality.",
+        "summary": "Model leans Henderson 67/33. Edges on recent form, bkfc record, reach, opponent quality.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -795,14 +795,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.6575984721000359,
-        "model_prob_b": 0.34240152789996414,
-        "market_fair_prob_a": 0.5787037037037037,
-        "market_fair_prob_b": 0.4212962962962963,
-        "edge_pct_a": 0.07889476839633214,
-        "edge_pct_b": -0.07889476839633214,
+        "model_prob_a": 0.6669308760653394,
+        "model_prob_b": 0.3330691239346606,
+        "market_fair_prob_a": 0.5994423791821561,
+        "market_fair_prob_b": 0.40055762081784385,
+        "edge_pct_a": 0.06748849688318326,
+        "edge_pct_b": -0.06748849688318326,
         "edge_slug": "mikey-henderson",
-        "edge_pct": 0.07889476839633214
+        "edge_pct": 0.06748849688318326
       }
     },
     {
@@ -839,7 +839,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "56d ago",
+            "value_a": "57d ago",
             "value_b": "—",
             "edge_slug": "stew-martin",
             "edge_strength": 1,
@@ -1170,14 +1170,14 @@
       "fighter_a_slug": "liam-dooley",
       "fighter_b_slug": "tyrone-hamer",
       "prediction": {
-        "prob_a": 0.6146,
-        "prob_b": 0.3854,
+        "prob_a": 0.6561,
+        "prob_b": 0.3439,
         "raw_score": 0.4239,
         "favorite_slug": "liam-dooley",
         "confidence": "Very Low",
-        "advantage_a": 61,
-        "advantage_b": 39,
-        "predictability": 34,
+        "advantage_a": 66,
+        "advantage_b": 34,
+        "predictability": 37,
         "factors": [
           {
             "name": "Recent Form",
@@ -1243,7 +1243,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Dooley 61/39. Edges on recent form, ko rate.",
+        "summary": "Model leans Dooley 66/34. Edges on recent form, ko rate.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1284,14 +1284,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.6145845850242172,
-        "model_prob_b": 0.3854154149757828,
-        "market_fair_prob_a": 0.4482439926062847,
-        "market_fair_prob_b": 0.5517560073937154,
-        "edge_pct_a": 0.16634059241793248,
-        "edge_pct_b": -0.16634059241793264,
+        "model_prob_a": 0.65605027581657,
+        "model_prob_b": 0.34394972418342995,
+        "market_fair_prob_a": 0.5403899721448467,
+        "market_fair_prob_b": 0.4596100278551532,
+        "edge_pct_a": 0.11566030367172331,
+        "edge_pct_b": -0.11566030367172325,
         "edge_slug": "liam-dooley",
-        "edge_pct": 0.16634059241793248
+        "edge_pct": 0.11566030367172331
       }
     },
     {
@@ -1299,13 +1299,13 @@
       "fighter_a_slug": "benjamin-lowe",
       "fighter_b_slug": "dan-mcgraffin",
       "prediction": {
-        "prob_a": 0.361,
-        "prob_b": 0.639,
+        "prob_a": 0.366,
+        "prob_b": 0.634,
         "raw_score": -0.3628,
         "favorite_slug": "dan-mcgraffin",
         "confidence": "Low",
-        "advantage_a": 36,
-        "advantage_b": 64,
+        "advantage_a": 37,
+        "advantage_b": 63,
         "predictability": 43,
         "factors": [
           {
@@ -1363,7 +1363,7 @@
             "display": "+5 fights McGraffin"
           }
         ],
-        "summary": "Model leans McGraffin 64/36. Edges on recent form, bkfc record, bkfc experience.",
+        "summary": "Model leans McGraffin 63/37. Edges on recent form, bkfc record, bkfc experience.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1404,14 +1404,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.3609536617737036,
-        "model_prob_b": 0.6390463382262964,
-        "market_fair_prob_a": 0.4596100278551532,
-        "market_fair_prob_b": 0.5403899721448467,
-        "edge_pct_a": -0.09865636608144962,
-        "edge_pct_b": 0.09865636608144968,
+        "model_prob_a": 0.36604050657960485,
+        "model_prob_b": 0.6339594934203951,
+        "market_fair_prob_a": 0.4709141274238227,
+        "market_fair_prob_b": 0.5290858725761772,
+        "edge_pct_a": -0.10487362084421786,
+        "edge_pct_b": 0.10487362084421792,
         "edge_slug": "dan-mcgraffin",
-        "edge_pct": 0.09865636608144962
+        "edge_pct": 0.10487362084421786
       }
     },
     {
@@ -1467,7 +1467,7 @@
           {
             "name": "Activity",
             "value_a": "1.6y ago",
-            "value_b": "56d ago",
+            "value_b": "57d ago",
             "edge_slug": "harry-bray",
             "edge_strength": 1,
             "weight": 0.05,
@@ -1661,7 +1661,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "56d ago",
+            "value_a": "57d ago",
             "value_b": "—",
             "edge_slug": "stew-martin",
             "edge_strength": 1,

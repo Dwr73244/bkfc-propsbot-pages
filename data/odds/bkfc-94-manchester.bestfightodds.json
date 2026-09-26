@@ -3,16 +3,16 @@
   "event_date": "2026-09-26",
   "source": "bestfightodds",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4372",
-  "fetched_at": "2026-09-24T23:49:59.433Z",
+  "fetched_at": "2026-09-26T12:10:07.722Z",
   "bouts": [
     {
       "fighter_a_slug": "darren-till",
       "fighter_b_slug": "yoel-romero",
-      "moneyline_a": -315,
-      "moneyline_b": 220,
-      "implied_prob_a": 0.759,
-      "implied_prob_b": 0.313,
-      "vig": 0.072,
+      "moneyline_a": -278,
+      "moneyline_b": 200,
+      "implied_prob_a": 0.735,
+      "implied_prob_b": 0.333,
+      "vig": 0.069,
       "book_count": 1
     },
     {
@@ -48,11 +48,11 @@
     {
       "fighter_a_slug": "mikey-henderson",
       "fighter_b_slug": "matthew-wiwczaryk",
-      "moneyline_a": -167,
-      "moneyline_b": 120,
-      "implied_prob_a": 0.625,
-      "implied_prob_b": 0.455,
-      "vig": 0.08,
+      "moneyline_a": -182,
+      "moneyline_b": 132,
+      "implied_prob_a": 0.645,
+      "implied_prob_b": 0.431,
+      "vig": 0.076,
       "book_count": 1
     },
     {
@@ -78,21 +78,21 @@
     {
       "fighter_a_slug": "liam-dooley",
       "fighter_b_slug": "tyrone-hamer",
-      "moneyline_a": 106,
-      "moneyline_b": -148,
-      "implied_prob_a": 0.485,
-      "implied_prob_b": 0.597,
-      "vig": 0.082,
+      "moneyline_a": -139,
+      "moneyline_b": 102,
+      "implied_prob_a": 0.582,
+      "implied_prob_b": 0.495,
+      "vig": 0.077,
       "book_count": 1
     },
     {
       "fighter_a_slug": "benjamin-lowe",
       "fighter_b_slug": "dan-mcgraffin",
-      "moneyline_a": 102,
-      "moneyline_b": -139,
-      "implied_prob_a": 0.495,
-      "implied_prob_b": 0.582,
-      "vig": 0.077,
+      "moneyline_a": -104,
+      "moneyline_b": -134,
+      "implied_prob_a": 0.51,
+      "implied_prob_b": 0.573,
+      "vig": 0.082,
       "book_count": 1
     },
     {

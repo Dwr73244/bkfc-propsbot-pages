@@ -5,8 +5,8 @@
   "nickname": "THE PROBLEM",
   "division": "Unknown",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 1,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC: Italy",
+      "event_slug": "bkfc-73-italy",
+      "date": "2025-04-26T00:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Nicole Schaefer",
+      "opponent_slug": "nicole-schaefer",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/sara-bitto"
+    },
+    {
+      "event": "BKFC 64",
+      "event_slug": "bkfc-64-coventry-tierney-vs-graham",
+      "date": "2024-08-10T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Yamila Sanchez",
+      "opponent_slug": "yamila-sanchez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/sara-bitto"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/sara-bitto"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-09-26T12:47:39.366Z"
 }
