@@ -1,0 +1,22 @@
+{
+  "slug": "bkfc-fight-night-myrtle-beach",
+  "name": "bkfc-fight-night-myrtle-beach",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2026-11-20T00:00:00.000Z",
+  "venue": "Myrtle Beach",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach"
+  ],
+  "last_updated": "2026-09-27",
+  "needs_card_population": true
+}

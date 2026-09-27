@@ -5,9 +5,9 @@
   "division": "Heavyweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
-    "kos": 2
+    "kos": 3
   },
   "mma_record": null,
   "height_in": 72,
@@ -96,5 +96,7 @@
   "last_updated": "2026-08-17",
   "elo": 1543,
   "elo_peak": 1543,
-  "history_last_verified": "2026-08-07T09:04:34.963Z"
+  "history_last_verified": "2026-08-07T09:04:34.963Z",
+  "record_source": "tracked-events",
+  "record_verified": "2026-09-27"
 }
