@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:57",
+      "opponent": "luke-bassnett",
+      "opponent_slug": "luke-bassnett",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/darren-willans"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "elo": 1478,
+  "elo_peak": 1500
 }

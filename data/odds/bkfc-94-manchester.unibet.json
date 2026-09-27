@@ -3,7 +3,7 @@
   "event_date": "2026-09-26",
   "source": "unibet",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4372",
-  "fetched_at": "2026-09-26T12:10:07.726Z",
+  "fetched_at": "2026-09-26T16:39:54.565Z",
   "bouts": [
     {
       "fighter_a_slug": "darren-till",
@@ -28,21 +28,21 @@
     {
       "fighter_a_slug": "gaz-corran",
       "fighter_b_slug": "mac-bygraves",
-      "moneyline_a": -210,
-      "moneyline_b": 148,
-      "implied_prob_a": 0.677,
-      "implied_prob_b": 0.403,
+      "moneyline_a": -245,
+      "moneyline_b": 170,
+      "implied_prob_a": 0.71,
+      "implied_prob_b": 0.37,
       "vig": 0.081,
       "book_count": 1
     },
     {
       "fighter_a_slug": "karl-thompson",
       "fighter_b_slug": "andy-thornton",
-      "moneyline_a": -125,
-      "moneyline_b": -110,
-      "implied_prob_a": 0.556,
-      "implied_prob_b": 0.524,
-      "vig": 0.079,
+      "moneyline_a": -165,
+      "moneyline_b": 118,
+      "implied_prob_a": 0.623,
+      "implied_prob_b": 0.459,
+      "vig": 0.081,
       "book_count": 1
     },
     {
@@ -58,11 +58,11 @@
     {
       "fighter_a_slug": "ste-wallwork",
       "fighter_b_slug": "leigh-cohoon",
-      "moneyline_a": -108,
-      "moneyline_b": -129,
-      "implied_prob_a": 0.519,
-      "implied_prob_b": 0.563,
-      "vig": 0.083,
+      "moneyline_a": -134,
+      "moneyline_b": -104,
+      "implied_prob_a": 0.573,
+      "implied_prob_b": 0.51,
+      "vig": 0.082,
       "book_count": 1
     },
     {
@@ -78,11 +78,11 @@
     {
       "fighter_a_slug": "liam-dooley",
       "fighter_b_slug": "tyrone-hamer",
-      "moneyline_a": -139,
-      "moneyline_b": 102,
-      "implied_prob_a": 0.582,
-      "implied_prob_b": 0.495,
-      "vig": 0.077,
+      "moneyline_a": -159,
+      "moneyline_b": 115,
+      "implied_prob_a": 0.614,
+      "implied_prob_b": 0.465,
+      "vig": 0.079,
       "book_count": 1
     },
     {

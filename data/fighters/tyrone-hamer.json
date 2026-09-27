@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -22,16 +22,31 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1786736734/o/TYRONE_HAMER_AVATAR_400x533.png?1786736734",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1786736724/o/TYRONE_HAMER_SMALL_AVATAR_400x400.png?1786736724",
   "social": {
     "instagram": null,
     "twitter": null,
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:59",
+      "opponent": "liam-dooley",
+      "opponent_slug": "liam-dooley",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/tyrone-hamer"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-09-27",
+  "history_last_verified": "2026-09-27T13:33:13.484Z",
+  "elo": 1523,
+  "elo_peak": 1523
 }

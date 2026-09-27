@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:58",
+      "opponent": "harry-bray",
+      "opponent_slug": "harry-bray",
+      "result": "W"
+    },
+    {
       "event": "BKFC - Fight Night Newcastle",
       "event_slug": "bkfc-fight-night-newcastle-2",
       "date": "2026-03-14T00:00:00.000Z",
@@ -72,7 +83,7 @@
     "https://www.bkfc.com/fighters/joe-lister"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
-  "elo_peak": 1522,
+  "elo": 1544,
+  "elo_peak": 1544,
   "history_last_verified": "2026-08-05T10:39:59.161Z"
 }

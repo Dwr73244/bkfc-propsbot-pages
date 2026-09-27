@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-94-manchester",
-  "generated_at": "2026-09-26T14:57:40.713Z",
+  "generated_at": "2026-09-26T22:38:11.945Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -240,14 +240,14 @@
       "fighter_a_slug": "gaz-corran",
       "fighter_b_slug": "mac-bygraves",
       "prediction": {
-        "prob_a": 0.6293,
-        "prob_b": 0.3707,
+        "prob_a": 0.6431,
+        "prob_b": 0.3569,
         "raw_score": 0.207,
         "favorite_slug": "gaz-corran",
         "confidence": "Low",
-        "advantage_a": 63,
-        "advantage_b": 37,
-        "predictability": 43,
+        "advantage_a": 64,
+        "advantage_b": 36,
+        "predictability": 44,
         "factors": [
           {
             "name": "Recent Form",
@@ -331,7 +331,7 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Corran 63/37. Edges on recent form, ko rate, opponent quality.",
+        "summary": "Model leans Corran 64/36. Edges on recent form, ko rate, opponent quality.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -372,14 +372,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.6293449799273716,
-        "model_prob_b": 0.3706550200726284,
-        "market_fair_prob_a": 0.6268518518518519,
-        "market_fair_prob_b": 0.3731481481481482,
-        "edge_pct_a": 0.0024931280755197127,
-        "edge_pct_b": -0.0024931280755197682,
-        "edge_slug": "gaz-corran",
-        "edge_pct": 0.0024931280755197127
+        "model_prob_a": 0.6430949799273715,
+        "model_prob_b": 0.3569050200726285,
+        "market_fair_prob_a": 0.6574074074074073,
+        "market_fair_prob_b": 0.34259259259259256,
+        "edge_pct_a": -0.014312427480035805,
+        "edge_pct_b": 0.014312427480035916,
+        "edge_slug": "mac-bygraves",
+        "edge_pct": 0.014312427480035805
       }
     },
     {
@@ -387,14 +387,14 @@
       "fighter_a_slug": "karl-thompson",
       "fighter_b_slug": "andy-thornton",
       "prediction": {
-        "prob_a": 0.5913,
-        "prob_b": 0.4087,
+        "prob_a": 0.6187,
+        "prob_b": 0.3813,
         "raw_score": 0.2446,
         "favorite_slug": "karl-thompson",
         "confidence": "Medium",
-        "advantage_a": 59,
-        "advantage_b": 41,
-        "predictability": 57,
+        "advantage_a": 62,
+        "advantage_b": 38,
+        "predictability": 59,
         "factors": [
           {
             "name": "Recent Form",
@@ -487,7 +487,7 @@
             "display": "+1\" Thompson"
           }
         ],
-        "summary": "Model leans Thompson 59/41. Edges on recent form, age, opponent quality, bkfc experience.",
+        "summary": "Model leans Thompson 62/38. Edges on recent form, age, opponent quality, bkfc experience.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -528,14 +528,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.591285529396318,
-        "model_prob_b": 0.40871447060368205,
-        "market_fair_prob_a": 0.5148148148148148,
-        "market_fair_prob_b": 0.48518518518518516,
-        "edge_pct_a": 0.07647071458150312,
-        "edge_pct_b": -0.07647071458150312,
+        "model_prob_a": 0.6187223747444388,
+        "model_prob_b": 0.3812776252555612,
+        "market_fair_prob_a": 0.5757855822550831,
+        "market_fair_prob_b": 0.4242144177449168,
+        "edge_pct_a": 0.04293679248935567,
+        "edge_pct_b": -0.04293679248935561,
         "edge_slug": "karl-thompson",
-        "edge_pct": 0.07647071458150312
+        "edge_pct": 0.04293679248935567
       }
     },
     {
@@ -921,14 +921,14 @@
       "fighter_a_slug": "ste-wallwork",
       "fighter_b_slug": "leigh-cohoon",
       "prediction": {
-        "prob_a": 0.3652,
-        "prob_b": 0.6348,
+        "prob_a": 0.3874,
+        "prob_b": 0.6126,
         "raw_score": -0.3797,
         "favorite_slug": "leigh-cohoon",
         "confidence": "Very Low",
-        "advantage_a": 37,
-        "advantage_b": 63,
-        "predictability": 36,
+        "advantage_a": 39,
+        "advantage_b": 61,
+        "predictability": 34,
         "factors": [
           {
             "name": "Recent Form",
@@ -994,7 +994,7 @@
             "display": "+3 fights Cohoon"
           }
         ],
-        "summary": "Model leans Cohoon 63/37. Edges on bkfc record, ko rate, activity, bkfc experience.",
+        "summary": "Model leans Cohoon 61/39. Edges on bkfc record, ko rate, activity, bkfc experience.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1035,14 +1035,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.36516639671702755,
-        "model_prob_b": 0.6348336032829724,
-        "market_fair_prob_a": 0.4796672828096119,
-        "market_fair_prob_b": 0.5203327171903882,
-        "edge_pct_a": -0.11450088609258435,
-        "edge_pct_b": 0.11450088609258424,
+        "model_prob_a": 0.38740476211198194,
+        "model_prob_b": 0.6125952378880181,
+        "market_fair_prob_a": 0.5290858725761772,
+        "market_fair_prob_b": 0.4709141274238227,
+        "edge_pct_a": -0.1416811104641953,
+        "edge_pct_b": 0.14168111046419535,
         "edge_slug": "leigh-cohoon",
-        "edge_pct": 0.11450088609258435
+        "edge_pct": 0.1416811104641953
       }
     },
     {
@@ -1170,14 +1170,14 @@
       "fighter_a_slug": "liam-dooley",
       "fighter_b_slug": "tyrone-hamer",
       "prediction": {
-        "prob_a": 0.6561,
-        "prob_b": 0.3439,
+        "prob_a": 0.6689,
+        "prob_b": 0.3311,
         "raw_score": 0.4239,
         "favorite_slug": "liam-dooley",
         "confidence": "Very Low",
-        "advantage_a": 66,
-        "advantage_b": 34,
-        "predictability": 37,
+        "advantage_a": 67,
+        "advantage_b": 33,
+        "predictability": 38,
         "factors": [
           {
             "name": "Recent Form",
@@ -1243,7 +1243,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Dooley 66/34. Edges on recent form, ko rate.",
+        "summary": "Model leans Dooley 67/33. Edges on recent form, ko rate.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1284,14 +1284,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.65605027581657,
-        "model_prob_b": 0.34394972418342995,
-        "market_fair_prob_a": 0.5403899721448467,
-        "market_fair_prob_b": 0.4596100278551532,
-        "edge_pct_a": 0.11566030367172331,
-        "edge_pct_b": -0.11566030367172325,
+        "model_prob_a": 0.668945223939897,
+        "model_prob_b": 0.33105477606010303,
+        "market_fair_prob_a": 0.5690454124189064,
+        "market_fair_prob_b": 0.4309545875810936,
+        "edge_pct_a": 0.09989981152099059,
+        "edge_pct_b": -0.09989981152099059,
         "edge_slug": "liam-dooley",
-        "edge_pct": 0.11566030367172331
+        "edge_pct": 0.09989981152099059
       }
     },
     {

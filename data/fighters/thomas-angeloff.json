@@ -5,7 +5,7 @@
   "nickname": "THE SPIDER MONKEY",
   "division": "Light Heavyweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 2,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,9 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-fight-night-hammond",
+      "date": "2026-06-26T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:07",
+      "opponent": "Joseph Schillizzi",
+      "opponent_slug": "joseph-schillizzi",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/thomas-angeloff"
+    },
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-hammond",
+      "date": "2025-10-18T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:48",
+      "opponent": "Travis Smith",
+      "opponent_slug": "travis-smith",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/thomas-angeloff"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/thomas-angeloff"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-09-27T13:32:43.137Z"
 }

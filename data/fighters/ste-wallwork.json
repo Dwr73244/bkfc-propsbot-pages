@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "leigh-cohoon",
+      "opponent_slug": "leigh-cohoon",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/ste-wallwork"
   ],
-  "last_updated": "2026-09-26"
+  "last_updated": "2026-09-26",
+  "elo": 1479,
+  "elo_peak": 1500
 }

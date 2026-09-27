@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "Split Decision",
+      "round": 6,
+      "time": "2:00",
+      "opponent": "jack-cullen",
+      "opponent_slug": "jack-cullen",
+      "result": "L"
+    },
+    {
       "event": "knucklemania-vi",
       "event_slug": "bkfc-knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
@@ -79,19 +90,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/david-mundell"
-    },
-    {
-      "event": "BKFC 47",
-      "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
-      "date": "2023-07-14T00:00:00.000Z",
-      "method": "KO",
-      "round": 2,
-      "time": "01:54",
-      "opponent": "Mike Richman",
-      "opponent_slug": "mike-richman",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/david-mundell"
     }
   ],
   "sources": [
@@ -99,6 +97,6 @@
   ],
   "last_updated": "2026-04-17",
   "history_last_verified": "2026-08-26T08:48:32.523Z",
-  "elo": 1478,
+  "elo": 1458,
   "elo_peak": 1500
 }

@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:58",
+      "opponent": "joe-lister",
+      "opponent_slug": "joe-lister",
+      "result": "L"
+    },
+    {
       "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "date": "2026-08-01T00:00:00.000Z",
@@ -59,7 +70,7 @@
     "https://www.bkfc.com/fighters/harry-bray"
   ],
   "last_updated": "2026-08-29",
-  "elo": 1522,
+  "elo": 1500,
   "elo_peak": 1522,
   "record_source": "tracked-events",
   "record_verified": "2026-08-02",

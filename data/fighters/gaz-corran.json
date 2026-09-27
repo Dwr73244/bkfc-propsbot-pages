@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "0:26",
+      "opponent": "mac-bygraves",
+      "opponent_slug": "mac-bygraves",
+      "result": "W"
+    },
+    {
       "event": "BKFC 81 - Manchester",
       "event_slug": "bkfc-manchester",
       "date": "2025-09-27T00:00:00.000Z",
@@ -72,7 +83,7 @@
     "https://www.bkfc.com/fighters/gaz-corran"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
-  "elo_peak": 1522,
+  "elo": 1547,
+  "elo_peak": 1547,
   "history_last_verified": "2026-09-13T13:14:19.136Z"
 }

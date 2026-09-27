@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "joshy-williams",
+      "opponent_slug": "joshy-williams",
+      "result": "W"
+    },
+    {
       "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "date": "2026-08-01T00:00:00.000Z",
@@ -60,6 +71,6 @@
   ],
   "last_updated": "2026-07-31",
   "history_last_verified": "2026-08-04T10:37:29.219Z",
-  "elo": 1475,
+  "elo": 1499,
   "elo_peak": 1500
 }

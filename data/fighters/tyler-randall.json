@@ -4,7 +4,7 @@
   "nickname": "ROOKIE",
   "division": "Flyweight",
   "bkfc_record": {
-    "wins": 4,
+    "wins": 5,
     "losses": 4,
     "draws": 0,
     "kos": null
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1503,
   "elo_peak": 1503,
-  "history_last_verified": "2026-08-01T10:03:58.440Z"
+  "history_last_verified": "2026-09-27T13:33:14.961Z"
 }

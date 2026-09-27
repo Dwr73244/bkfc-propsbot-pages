@@ -42,6 +42,19 @@
       "result": "W"
     },
     {
+      "event": "BKFC 91",
+      "event_slug": "bkfc-naples",
+      "date": "2026-07-18T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "00:25",
+      "opponent": "Dominik Estorer",
+      "opponent_slug": "dominik-estorer",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tomas-melis"
+    },
+    {
       "event": "BKFC 83",
       "event_slug": "bkfc-rome",
       "date": "2025-10-25T00:00:00.000Z",
@@ -76,5 +89,5 @@
   "elo_peak": 1526,
   "record_source": "tracked-events",
   "record_verified": "2026-07-19",
-  "history_last_verified": "2026-08-04T10:37:43.493Z"
+  "history_last_verified": "2026-09-27T13:32:53.805Z"
 }

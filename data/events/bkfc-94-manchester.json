@@ -23,7 +23,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "darren-till",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 2,
@@ -34,7 +39,12 @@
       "title_fight": true,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "jack-cullen",
+        "method": "Split Decision",
+        "round": 6,
+        "time": "2:00"
+      }
     },
     {
       "order": 3,
@@ -45,7 +55,12 @@
       "title_fight": true,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "gaz-corran",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:26"
+      }
     },
     {
       "order": 4,
@@ -56,7 +71,12 @@
       "title_fight": true,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "karl-thompson",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 5,
@@ -78,7 +98,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "mikey-henderson",
+        "method": "TKO",
+        "round": 1,
+        "time": "2:00"
+      }
     },
     {
       "order": 7,
@@ -100,7 +125,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "leigh-cohoon",
+        "method": "TKO",
+        "round": 2,
+        "time": "2:00"
+      }
     },
     {
       "order": 9,
@@ -111,7 +141,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "bartlomiej-krol",
+        "method": "TKO",
+        "round": 1,
+        "time": "0:55"
+      }
     },
     {
       "order": 10,
@@ -122,7 +157,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "tyrone-hamer",
+        "method": "KO",
+        "round": 3,
+        "time": "1:59"
+      }
     },
     {
       "order": 11,
@@ -133,7 +173,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "benjamin-lowe",
+        "method": "TKO",
+        "round": 1,
+        "time": "1:42"
+      }
     },
     {
       "order": 12,
@@ -144,7 +189,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "joe-lister",
+        "method": "TKO",
+        "round": 2,
+        "time": "1:58"
+      }
     },
     {
       "order": 13,
@@ -155,7 +205,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "luke-bassnett",
+        "method": "KO",
+        "round": 2,
+        "time": "1:57"
+      }
     },
     {
       "order": 14,
@@ -166,12 +221,17 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "stew-martin",
+        "method": "TKO",
+        "round": 2,
+        "time": "2:00"
+      }
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-94-manchester"
   ],
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-27",
   "needs_card_population": false
 }

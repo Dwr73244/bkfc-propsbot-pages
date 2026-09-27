@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "1:59",
+      "opponent": "tyrone-hamer",
+      "opponent_slug": "tyrone-hamer",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Newcastle",
       "event_slug": "bkfc-fight-night-newcastle-2",
       "date": "2026-03-14T00:00:00.000Z",
@@ -72,7 +83,7 @@
     "https://www.bkfc.com/fighters/liam-dooley"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
+  "elo": 1498,
   "elo_peak": 1522,
   "history_last_verified": "2026-08-07T09:04:42.447Z"
 }

@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "2:00",
+      "opponent": "mikey-henderson",
+      "opponent_slug": "mikey-henderson",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Derby",
       "event_slug": "bkfc-fight-night-derby",
       "date": "2025-12-13T00:00:00.000Z",
@@ -74,5 +85,7 @@
     "https://www.bkfc.com/fighters/matthew-wiwczaryk"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-18T08:41:39.550Z"
+  "history_last_verified": "2026-08-18T08:41:39.550Z",
+  "elo": 1479,
+  "elo_peak": 1500
 }

@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "andy-thornton",
+      "opponent_slug": "andy-thornton",
+      "result": "W"
+    },
+    {
       "event": "BKFC 83",
       "event_slug": "bkfc-rome",
       "date": "2025-10-25T00:00:00.000Z",
@@ -78,19 +89,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/karl-thompson"
-    },
-    {
-      "event": "BKFC 46",
-      "event_slug": "bkfc-46-newcastle-franco-vs-harris",
-      "date": "2023-07-01T00:00:00.000Z",
-      "method": "TKO",
-      "round": 3,
-      "time": "01:06",
-      "opponent": "Dustin Rabiega",
-      "opponent_slug": "dustin-rabiega",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/karl-thompson"
     }
   ],
   "sources": [
@@ -98,7 +96,7 @@
     "https://www.bkfc.com/fighters/karl-thompson"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1528,
-  "elo_peak": 1528,
+  "elo": 1549,
+  "elo_peak": 1549,
   "history_last_verified": "2026-08-06T10:37:29.165Z"
 }

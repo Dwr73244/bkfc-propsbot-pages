@@ -29,10 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-94-manchester",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "darren-till",
+      "opponent_slug": "darren-till",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/yoel-romero-iqws6"
   ],
   "last_updated": "2026-07-31",
-  "stub": true
+  "stub": true,
+  "elo": 1481,
+  "elo_peak": 1500
 }
