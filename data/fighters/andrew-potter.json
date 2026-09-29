@@ -43,7 +43,7 @@
     {
       "event": "BKFC 43",
       "event_slug": "bkfc-43-omaha-alexander-vs-smith",
-      "date": "2023-05-19T04:00:00.000Z",
+      "date": "2023-05-19T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:17",
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:21.234Z"
+  "history_last_verified": "2026-09-29T14:44:32.632Z"
 }

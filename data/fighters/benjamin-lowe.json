@@ -4,7 +4,7 @@
   "nickname": "THE BUTLER",
   "division": "Light Heavyweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 2,
     "draws": 0,
     "kos": null
@@ -72,5 +72,5 @@
   "last_updated": "2026-07-31",
   "elo": 1504,
   "elo_peak": 1504,
-  "history_last_verified": "2026-08-14T09:13:13.686Z"
+  "history_last_verified": "2026-09-29T14:45:05.637Z"
 }

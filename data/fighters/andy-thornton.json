@@ -5,8 +5,8 @@
   "nickname": null,
   "division": "Cruiserweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 0,
+    "wins": 2,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -72,7 +72,7 @@
     "https://www.bkfc.com/fighters/andy-thornton"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-14T09:12:39.075Z",
+  "history_last_verified": "2026-09-29T14:44:38.127Z",
   "elo": 1479,
   "elo_peak": 1500
 }

@@ -6,7 +6,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Michigan",
+      "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
+      "date": "2025-11-01T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:15",
+      "opponent": "Antonio Castillo Jr",
+      "opponent_slug": "antonio-castillo-jr",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/antonio-castillo-jr"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/antonio-castillo-jr"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-09-29T14:44:50.372Z"
 }

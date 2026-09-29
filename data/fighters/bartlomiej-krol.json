@@ -4,7 +4,7 @@
   "nickname": "THE POLISH KING",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 5,
+    "wins": 6,
     "losses": 2,
     "draws": 0,
     "kos": null
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1540,
   "elo_peak": 1540,
-  "history_last_verified": "2026-08-14T09:13:09.144Z"
+  "history_last_verified": "2026-09-29T14:45:01.819Z"
 }

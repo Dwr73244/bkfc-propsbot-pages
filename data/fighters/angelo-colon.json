@@ -6,7 +6,7 @@
   "division": "Featherweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -42,15 +42,28 @@
       "result": "L"
     },
     {
+      "event": "BKFC 92",
+      "event_slug": "bkfc-92",
+      "date": "2026-08-29T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:07",
+      "opponent": "Jacob Pilla",
+      "opponent_slug": "jacob-pilla",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/angelo-colon"
+    },
+    {
       "event": "BKFC 85",
       "event_slug": "bkfc-85-hollywood-palomino-vs-trout",
       "date": "2025-12-05T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:24",
-      "opponent": "Angelo Colon",
-      "opponent_slug": "angelo-colon",
-      "result": "W",
+      "opponent": "Ernesto Suarez",
+      "opponent_slug": "ernesto-suarez",
+      "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/angelo-colon"
     }
@@ -59,7 +72,7 @@
     "https://www.bkfc.com/fighters/angelo-colon"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-14T09:12:41.853Z",
+  "history_last_verified": "2026-09-29T14:44:41.861Z",
   "elo": 1478,
   "elo_peak": 1500
 }

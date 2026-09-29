@@ -5,7 +5,7 @@
   "division": "Women's Strawweight",
   "bkfc_record": {
     "wins": 2,
-    "losses": 2,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -85,5 +85,5 @@
   "last_updated": "2026-07-31",
   "elo": 1499,
   "elo_peak": 1519,
-  "history_last_verified": "2026-08-14T09:12:41.819Z"
+  "history_last_verified": "2026-09-29T14:44:36.568Z"
 }
