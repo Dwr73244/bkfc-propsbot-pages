@@ -1,7 +1,15 @@
 {
   "slug": "john-dodson",
-  "fetched_at": "2026-09-29T16:54:38.923Z",
+  "fetched_at": "2026-09-30T16:50:06.659Z",
   "gym": null,
   "coach": null,
-  "news": []
+  "news": [
+    {
+      "title": "Fighting is a family affair with John Dodson; Van Tate’s Sports Office - KRQE",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZlFqYmxMR1VySHprTVdULThXbEMydGpmU2d2Q2xZVm82MWhuX3Z1dHZNVXRLZDU1Z3lKbWhLeWpob1J3T1BVTzV0bWt3VnVfWTRYX3FBaUR5T2J0ZmdDdS1idnJjTm1ZSkpBVXhudTh3UFY1eE9kVzFGbmNYRVRPZFFRY3JjU1ZJRVl2UmNhclBBUzQ4QXN5SXc5QXJSNzJUckFzVDIxc3BqQdIBqgFBVV95cUxNZlFqYmxMR1VySHprTVdULThXbEMydGpmU2d2Q2xZVm82MWhuX3Z1dHZNVXRLZDU1Z3lKbWhLeWpob1J3T1BVTzV0bWt3VnVfWTRYX3FBaUR5T2J0ZmdDdS1idnJjTm1ZSkpBVXhudTh3UFY1eE9kVzFGbmNYRVRPZFFRY3JjU1ZJRVl2UmNhclBBUzQ4QXN5SXc5QXJSNzJUckFzVDIxc3BqQQ?oc=5",
+      "source": "KRQE",
+      "date": "2026-09-29",
+      "snippet": "Fighting is a family affair with John Dodson; Van Tate’s Sports Office KRQE"
+    }
+  ]
 }

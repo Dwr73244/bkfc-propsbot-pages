@@ -90,11 +90,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "phil-caracappa",
+      "fighter_b_slug": "cole-cameron",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-95-newark"
   ],
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-30",
   "needs_card_population": false
 }
