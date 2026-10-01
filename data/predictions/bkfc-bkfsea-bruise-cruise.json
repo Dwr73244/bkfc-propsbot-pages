@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-bkfsea-bruise-cruise",
-  "generated_at": "2026-10-01T15:14:35.327Z",
+  "generated_at": "2026-10-01T16:15:01.538Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,9 +9,9 @@
       "fighter_a_slug": "joey-gambino",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.7908,
-        "prob_b": 0.2092,
-        "raw_score": 0.5115,
+        "prob_a": 0.7891,
+        "prob_b": 0.2109,
+        "raw_score": 0.5074,
         "favorite_slug": "joey-gambino",
         "confidence": "Very Low",
         "advantage_a": 79,
@@ -120,13 +120,13 @@
       "fighter_a_slug": "nathan-rivera",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.6071,
-        "prob_b": 0.3929,
-        "raw_score": 0.1673,
+        "prob_a": 0.6031,
+        "prob_b": 0.3969,
+        "raw_score": 0.1609,
         "favorite_slug": "nathan-rivera",
         "confidence": "Low",
-        "advantage_a": 61,
-        "advantage_b": 39,
+        "advantage_a": 60,
+        "advantage_b": 40,
         "predictability": 38,
         "factors": [
           {
@@ -193,7 +193,7 @@
             "display": "+6 fights Rivera"
           }
         ],
-        "summary": "Model leans Rivera 61/39. Edges on recent form, bkfc record, bkfc experience.",
+        "summary": "Model leans Rivera 60/40. Edges on recent form, bkfc record, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -240,13 +240,13 @@
       "fighter_a_slug": "julio-perez-rodriguez",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.6476,
-        "prob_b": 0.3524,
-        "raw_score": 0.2341,
+        "prob_a": 0.6448,
+        "prob_b": 0.3552,
+        "raw_score": 0.2293,
         "favorite_slug": "julio-perez-rodriguez",
         "confidence": "Low",
-        "advantage_a": 65,
-        "advantage_b": 35,
+        "advantage_a": 64,
+        "advantage_b": 36,
         "predictability": 44,
         "factors": [
           {
@@ -313,7 +313,7 @@
             "display": "+6 fights Rodriguez"
           }
         ],
-        "summary": "Model leans Rodriguez 65/35. Edges on recent form, bkfc record, bkfc experience.",
+        "summary": "Model leans Rodriguez 64/36. Edges on recent form, bkfc record, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -360,9 +360,9 @@
       "fighter_a_slug": "gustavo-balart",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.6732,
-        "prob_b": 0.3268,
-        "raw_score": 0.2779,
+        "prob_a": 0.672,
+        "prob_b": 0.328,
+        "raw_score": 0.2759,
         "favorite_slug": "gustavo-balart",
         "confidence": "Very Low",
         "advantage_a": 67,
@@ -435,9 +435,9 @@
       "fighter_a_slug": "cole-ferrell",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.681,
-        "prob_b": 0.319,
-        "raw_score": 0.2916,
+        "prob_a": 0.6813,
+        "prob_b": 0.3187,
+        "raw_score": 0.2922,
         "favorite_slug": "cole-ferrell",
         "confidence": "Very Low",
         "advantage_a": 68,
@@ -510,9 +510,9 @@
       "fighter_a_slug": "justyn-martinez",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.7012,
-        "prob_b": 0.2988,
-        "raw_score": 0.3281,
+        "prob_a": 0.7005,
+        "prob_b": 0.2995,
+        "raw_score": 0.3268,
         "favorite_slug": "justyn-martinez",
         "confidence": "Low",
         "advantage_a": 70,

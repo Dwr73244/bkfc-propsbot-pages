@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-bethlehem",
-  "generated_at": "2026-10-01T15:14:35.330Z",
+  "generated_at": "2026-10-01T16:15:01.541Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "gregoris-cisneros",
       "fighter_b_slug": "ryan-petersen",
       "prediction": {
-        "prob_a": 0.4752,
-        "prob_b": 0.5248,
-        "raw_score": -0.0382,
+        "prob_a": 0.4854,
+        "prob_b": 0.5146,
+        "raw_score": -0.0225,
         "favorite_slug": "ryan-petersen",
         "confidence": "Low",
-        "advantage_a": 48,
-        "advantage_b": 52,
+        "advantage_a": 49,
+        "advantage_b": 51,
         "predictability": 26,
         "factors": [
           {
@@ -91,7 +91,7 @@
             "display": "+2\" Cisneros"
           }
         ],
-        "summary": "Model leans Petersen 52/48. Edges on recent form.",
+        "summary": "Model leans Petersen 51/49. Edges on recent form.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -138,9 +138,9 @@
       "fighter_a_slug": "christian-torres",
       "fighter_b_slug": "brett-shoenfelt",
       "prediction": {
-        "prob_a": 0.3167,
-        "prob_b": 0.6833,
-        "raw_score": -0.2958,
+        "prob_a": 0.3157,
+        "prob_b": 0.6843,
+        "raw_score": -0.2975,
         "favorite_slug": "brett-shoenfelt",
         "confidence": "Medium",
         "advantage_a": 32,
@@ -276,9 +276,9 @@
       "fighter_a_slug": "lex-ludlow",
       "fighter_b_slug": "brock-walker",
       "prediction": {
-        "prob_a": 0.7864,
-        "prob_b": 0.2136,
-        "raw_score": 0.5013,
+        "prob_a": 0.785,
+        "prob_b": 0.215,
+        "raw_score": 0.4982,
         "favorite_slug": "lex-ludlow",
         "confidence": "Low",
         "advantage_a": 79,
@@ -471,9 +471,9 @@
       "fighter_a_slug": "jay-haas",
       "fighter_b_slug": "antonio-castillo-jr",
       "prediction": {
-        "prob_a": 0.6732,
-        "prob_b": 0.3268,
-        "raw_score": 0.2779,
+        "prob_a": 0.672,
+        "prob_b": 0.328,
+        "raw_score": 0.2759,
         "favorite_slug": "jay-haas",
         "confidence": "Very Low",
         "advantage_a": 67,
@@ -546,9 +546,9 @@
       "fighter_a_slug": "taylor-dagner",
       "fighter_b_slug": "marisol-ruelas",
       "prediction": {
-        "prob_a": 0.7709,
-        "prob_b": 0.2291,
-        "raw_score": 0.4666,
+        "prob_a": 0.7711,
+        "prob_b": 0.2289,
+        "raw_score": 0.4672,
         "favorite_slug": "taylor-dagner",
         "confidence": "Very Low",
         "advantage_a": 77,
@@ -630,14 +630,14 @@
       "fighter_a_slug": "travis-thompson",
       "fighter_b_slug": "nick-burgos",
       "prediction": {
-        "prob_a": 0.5059,
-        "prob_b": 0.4941,
-        "raw_score": 0.0091,
+        "prob_a": 0.5092,
+        "prob_b": 0.4908,
+        "raw_score": 0.0141,
         "favorite_slug": "travis-thompson",
         "confidence": "Medium",
         "advantage_a": 51,
         "advantage_b": 49,
-        "predictability": 45,
+        "predictability": 46,
         "factors": [
           {
             "name": "Recent Form",
@@ -777,9 +777,9 @@
       "fighter_a_slug": "brian-newman",
       "fighter_b_slug": "mark-culp",
       "prediction": {
-        "prob_a": 0.6732,
-        "prob_b": 0.3268,
-        "raw_score": 0.2779,
+        "prob_a": 0.672,
+        "prob_b": 0.328,
+        "raw_score": 0.2759,
         "favorite_slug": "brian-newman",
         "confidence": "Very Low",
         "advantage_a": 67,
@@ -852,9 +852,9 @@
       "fighter_a_slug": "lewis-rumsey",
       "fighter_b_slug": "maurice-morris",
       "prediction": {
-        "prob_a": 0.3987,
-        "prob_b": 0.6013,
-        "raw_score": -0.158,
+        "prob_a": 0.4037,
+        "prob_b": 0.5963,
+        "raw_score": -0.15,
         "favorite_slug": "maurice-morris",
         "confidence": "Low",
         "advantage_a": 40,

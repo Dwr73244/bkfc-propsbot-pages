@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-clearwater-4",
-  "generated_at": "2026-10-01T15:14:35.333Z",
+  "generated_at": "2026-10-01T16:15:01.543Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "royal-ryan-reber",
       "fighter_b_slug": "justin-street",
       "prediction": {
-        "prob_a": 0.5938,
-        "prob_b": 0.4062,
-        "raw_score": 0.1461,
+        "prob_a": 0.5963,
+        "prob_b": 0.4037,
+        "raw_score": 0.15,
         "favorite_slug": "royal-ryan-reber",
         "confidence": "High",
-        "advantage_a": 59,
-        "advantage_b": 41,
+        "advantage_a": 60,
+        "advantage_b": 40,
         "predictability": 73,
         "factors": [
           {
@@ -118,7 +118,7 @@
             "display": "+3\" Reber"
           }
         ],
-        "summary": "Model leans Reber 59/41. Edges on bkfc record, reach, activity, opponent quality.",
+        "summary": "Model leans Reber 60/40. Edges on bkfc record, reach, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -165,9 +165,9 @@
       "fighter_a_slug": "jared-warren",
       "fighter_b_slug": "thomas-angeloff",
       "prediction": {
-        "prob_a": 0.6477,
-        "prob_b": 0.3523,
-        "raw_score": 0.2343,
+        "prob_a": 0.6457,
+        "prob_b": 0.3543,
+        "raw_score": 0.2308,
         "favorite_slug": "jared-warren",
         "confidence": "Low",
         "advantage_a": 65,
@@ -249,13 +249,13 @@
       "fighter_a_slug": "michael-larrimore",
       "fighter_b_slug": "nate-morrow",
       "prediction": {
-        "prob_a": 0.5035,
-        "prob_b": 0.4965,
-        "raw_score": 0.0054,
+        "prob_a": 0.505,
+        "prob_b": 0.495,
+        "raw_score": 0.0077,
         "favorite_slug": "michael-larrimore",
         "confidence": "Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
+        "advantage_a": 51,
+        "advantage_b": 49,
         "predictability": 30,
         "factors": [
           {
@@ -286,7 +286,7 @@
             "display": "+4 fights Larrimore"
           }
         ],
-        "summary": "Model leans Larrimore 50/50. Edges on bkfc experience.",
+        "summary": "Model leans Larrimore 51/49. Edges on bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -333,9 +333,9 @@
       "fighter_a_slug": "mike-heckert",
       "fighter_b_slug": "rickie-mcconnico",
       "prediction": {
-        "prob_a": 0.6631,
-        "prob_b": 0.3369,
-        "raw_score": 0.2604,
+        "prob_a": 0.6584,
+        "prob_b": 0.3416,
+        "raw_score": 0.2525,
         "favorite_slug": "mike-heckert",
         "confidence": "Low",
         "advantage_a": 66,
@@ -462,9 +462,9 @@
       "fighter_a_slug": "crystal-van-wyk",
       "fighter_b_slug": "noelia-vasallo",
       "prediction": {
-        "prob_a": 0.6413,
-        "prob_b": 0.3587,
-        "raw_score": 0.2234,
+        "prob_a": 0.639,
+        "prob_b": 0.361,
+        "raw_score": 0.2196,
         "favorite_slug": "crystal-van-wyk",
         "confidence": "Very Low",
         "advantage_a": 64,
@@ -825,14 +825,14 @@
       "fighter_a_slug": "jason-dinunzio",
       "fighter_b_slug": "gabriel-freyre",
       "prediction": {
-        "prob_a": 0.3631,
-        "prob_b": 0.6369,
-        "raw_score": -0.2161,
+        "prob_a": 0.3754,
+        "prob_b": 0.6246,
+        "raw_score": -0.1958,
         "favorite_slug": "gabriel-freyre",
         "confidence": "Medium",
-        "advantage_a": 36,
-        "advantage_b": 64,
-        "predictability": 53,
+        "advantage_a": 38,
+        "advantage_b": 62,
+        "predictability": 52,
         "factors": [
           {
             "name": "BKFC Record",
@@ -880,7 +880,7 @@
             "display": "+3\" DiNunzio"
           }
         ],
-        "summary": "Model leans Freyre 64/36. Edges on bkfc record, reach.",
+        "summary": "Model leans Freyre 62/38. Edges on bkfc record, reach.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -927,14 +927,14 @@
       "fighter_a_slug": "chachi-versace",
       "fighter_b_slug": "angelo-trujillo",
       "prediction": {
-        "prob_a": 0.5013,
-        "prob_b": 0.4987,
-        "raw_score": 0.002,
-        "favorite_slug": "chachi-versace",
+        "prob_a": 0.4908,
+        "prob_b": 0.5092,
+        "raw_score": -0.0142,
+        "favorite_slug": "angelo-trujillo",
         "confidence": "Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 28,
+        "advantage_a": 49,
+        "advantage_b": 51,
+        "predictability": 33,
         "factors": [
           {
             "name": "Recent Form",
@@ -1009,7 +1009,7 @@
             "display": "-1\" Trujillo"
           }
         ],
-        "summary": "Model leans Versace 50/50. Edges on recent form, opponent quality.",
+        "summary": "Model leans Trujillo 51/49. Edges on age, activity.",
         "market_adjusted": false
       },
       "prop_markets": [
