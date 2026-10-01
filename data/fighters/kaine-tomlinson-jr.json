@@ -5,8 +5,8 @@
   "nickname": "KAINE 9",
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 2,
+    "losses": 4,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,76 @@
     "facebook": "https://www.facebook.com/kaine.tomlinson.58"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Knucklemania VI",
+      "event_slug": "knucklemania-vi",
+      "date": "2026-02-07T00:00:00.000Z",
+      "method": "TKO",
+      "round": 5,
+      "time": "00:49",
+      "opponent": "John Garbarino",
+      "opponent_slug": "john-garbarino",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kaine-tomlinson-jr"
+    },
+    {
+      "event": "BKFC: Hollywood",
+      "event_slug": "bkfc-70-hollywood",
+      "date": "2025-03-27T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:37",
+      "opponent": "Peter Peraza",
+      "opponent_slug": "peter-peraza",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kaine-tomlinson-jr"
+    },
+    {
+      "event": "BKFC - Knucklemania V",
+      "event_slug": "bkfc-knucklemania-v",
+      "date": "2025-01-25T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:37",
+      "opponent": "Patrick Sullivan",
+      "opponent_slug": "patrick-sullivan",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kaine-tomlinson-jr"
+    },
+    {
+      "event": "BKFC 65",
+      "event_slug": "bkfc-65-ferea-vs-masson-wong",
+      "date": "2024-09-06T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "02:00",
+      "opponent": "Dominico Salas",
+      "opponent_slug": "dominico-salas",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kaine-tomlinson-jr"
+    },
+    {
+      "event": "BKFC: Prospects Albuquerque",
+      "event_slug": "fight-night-prospect-albuquerque",
+      "date": "2024-01-27T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:33",
+      "opponent": "Apostle Spencer",
+      "opponent_slug": "apostle-spencer",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kaine-tomlinson-jr"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/kaine-tomlinson-jr"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-10-01T15:14:27.738Z"
 }
