@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-95-newark",
-  "generated_at": "2026-10-02T14:36:00.355Z",
+  "generated_at": "2026-10-02T16:36:45.561Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -925,6 +925,144 @@
               "outcome": "Decision",
               "moneyline": 257,
               "implied_prob": 0.28
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 10,
+      "fighter_a_slug": "jimmie-rivera",
+      "fighter_b_slug": "brandon-meyer",
+      "prediction": {
+        "prob_a": 0.5756,
+        "prob_b": 0.4244,
+        "raw_score": 0.1173,
+        "favorite_slug": "jimmie-rivera",
+        "confidence": "Low",
+        "advantage_a": 58,
+        "advantage_b": 42,
+        "predictability": 38,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1536,
+            "value_b": 1498,
+            "edge_slug": "jimmie-rivera",
+            "edge_strength": 0.19,
+            "weight": 0.16,
+            "display": "+38 ELO Rivera"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W",
+            "value_b": "L-W-W-L",
+            "edge_slug": "jimmie-rivera",
+            "edge_strength": 0.912,
+            "weight": 0.13,
+            "display": "Rivera hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "3-2",
+            "value_b": "3-4",
+            "edge_slug": "jimmie-rivera",
+            "edge_strength": 0.317,
+            "weight": 0.11,
+            "display": "57% vs 44% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "33%",
+            "edge_slug": null,
+            "edge_strength": 0.025,
+            "weight": 0.11,
+            "display": "2 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 36,
+            "value_b": 42,
+            "edge_slug": "jimmie-rivera",
+            "edge_strength": 0.64,
+            "weight": 0.09,
+            "display": "36 vs 42"
+          },
+          {
+            "name": "Activity",
+            "value_a": "2.4y ago",
+            "value_b": "8mo ago",
+            "edge_slug": "brandon-meyer",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Meyer more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/2 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "31%",
+            "value_b": "54%",
+            "edge_slug": "brandon-meyer",
+            "edge_strength": 0.464,
+            "weight": 0.04,
+            "display": "Meyer tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "5 fights",
+            "value_b": "7 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Rivera 58/42. Edges on recent form, bkfc record, age.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 296,
+              "implied_prob": 0.252
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -296,
+              "implied_prob": 0.748
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -117,
+              "implied_prob": 0.538
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 378,
+              "implied_prob": 0.209
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 296,
+              "implied_prob": 0.252
             }
           ]
         }

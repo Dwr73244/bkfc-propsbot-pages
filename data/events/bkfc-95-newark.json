@@ -112,11 +112,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "jimmie-rivera",
+      "fighter_b_slug": "brandon-meyer",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-95-newark"
   ],
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "needs_card_population": false
 }
