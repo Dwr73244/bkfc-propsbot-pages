@@ -1,7 +1,173 @@
 {
   "event_slug": "bkfc-fight-night-myrtle-beach",
-  "generated_at": "2026-10-03T13:09:36.832Z",
+  "generated_at": "2026-10-03T15:07:53.653Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
-  "bouts": []
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "keith-richardson",
+      "fighter_b_slug": "joshua-oxendine",
+      "prediction": {
+        "prob_a": 0.5174,
+        "prob_b": 0.4826,
+        "raw_score": 0.0268,
+        "favorite_slug": "keith-richardson",
+        "confidence": "Medium",
+        "advantage_a": 52,
+        "advantage_b": 48,
+        "predictability": 48,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1568,
+            "value_b": 1498,
+            "edge_slug": "keith-richardson",
+            "edge_strength": 0.35,
+            "weight": 0.16,
+            "display": "+70 ELO Richardson"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-L-W-W-W",
+            "value_b": "L-W",
+            "edge_slug": "keith-richardson",
+            "edge_strength": 0.56,
+            "weight": 0.13,
+            "display": "Richardson hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "5-2",
+            "value_b": "1-1",
+            "edge_slug": "keith-richardson",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "67% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "60%",
+            "value_b": "—",
+            "edge_slug": "keith-richardson",
+            "edge_strength": 0.375,
+            "weight": 0.11,
+            "display": "25 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 42,
+            "value_b": 32,
+            "edge_slug": "joshua-oxendine",
+            "edge_strength": 1,
+            "weight": 0.09,
+            "display": "42 vs 32"
+          },
+          {
+            "name": "Reach",
+            "value_a": "68\"",
+            "value_b": "67\"",
+            "edge_slug": "keith-richardson",
+            "edge_strength": 0.167,
+            "weight": 0.08,
+            "display": "+1\" Richardson"
+          },
+          {
+            "name": "MMA Background",
+            "value_a": "—",
+            "value_b": "10-7",
+            "edge_slug": "joshua-oxendine",
+            "edge_strength": 1,
+            "weight": 0.08,
+            "display": "Oxendine deeper background"
+          },
+          {
+            "name": "Activity",
+            "value_a": "4mo ago",
+            "value_b": "5mo ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "35%",
+            "value_b": "62%",
+            "edge_slug": "joshua-oxendine",
+            "edge_strength": 0.559,
+            "weight": 0.04,
+            "display": "Oxendine tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "7 fights",
+            "value_b": "2 fights",
+            "edge_slug": "keith-richardson",
+            "edge_strength": 0.625,
+            "weight": 0.03,
+            "display": "+5 fights Richardson"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'6\"",
+            "value_b": "5'10\"",
+            "edge_slug": "joshua-oxendine",
+            "edge_strength": 0.8,
+            "weight": 0.03,
+            "display": "-4\" Oxendine"
+          }
+        ],
+        "summary": "Model leans Richardson 52/48. Edges on elo rating, recent form, bkfc record, ko rate.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 190,
+              "implied_prob": 0.345
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -190,
+              "implied_prob": 0.655
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 112,
+              "implied_prob": 0.472
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 445,
+              "implied_prob": 0.184
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 190,
+              "implied_prob": 0.345
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
 }

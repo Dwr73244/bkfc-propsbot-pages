@@ -13,10 +13,22 @@
     "BKFC+"
   ],
   "poster_url": null,
-  "bouts": [],
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "keith-richardson",
+      "fighter_b_slug": "joshua-oxendine",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach"
   ],
-  "last_updated": "2026-09-27",
-  "needs_card_population": true
+  "last_updated": "2026-10-03",
+  "needs_card_population": false
 }
