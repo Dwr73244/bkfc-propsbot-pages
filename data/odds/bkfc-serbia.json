@@ -1,0 +1,14 @@
+{
+  "event_slug": "bkfc-serbia",
+  "event_date": "2026-10-17",
+  "source": "consensus",
+  "source_url": null,
+  "fetched_at": "2026-10-03T11:31:01.491Z",
+  "book_count": 3,
+  "books": [
+    "kalshi",
+    "polymarket",
+    "xbet"
+  ],
+  "bouts": []
+}
