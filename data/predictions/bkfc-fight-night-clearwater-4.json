@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-clearwater-4",
-  "generated_at": "2026-10-06T14:53:04.504Z",
+  "generated_at": "2026-10-06T17:10:16.710Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1045,6 +1045,183 @@
               "outcome": "Decision",
               "moneyline": 233,
               "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 11,
+      "fighter_a_slug": "tony-murphy",
+      "fighter_b_slug": "doug-coldred-coltrane",
+      "prediction": {
+        "prob_a": 0.8456,
+        "prob_b": 0.1544,
+        "raw_score": 0.6539,
+        "favorite_slug": "tony-murphy",
+        "confidence": "Very Low",
+        "advantage_a": 85,
+        "advantage_b": 15,
+        "predictability": 48,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "3-0",
+            "value_b": "0-0",
+            "edge_slug": "tony-murphy",
+            "edge_strength": 0.75,
+            "weight": 0.11,
+            "display": "80% vs 50% win rate"
+          },
+          {
+            "name": "Age",
+            "value_a": 34,
+            "value_b": 40,
+            "edge_slug": "tony-murphy",
+            "edge_strength": 0.72,
+            "weight": 0.09,
+            "display": "34 vs 40"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "0 fights",
+            "edge_slug": "tony-murphy",
+            "edge_strength": 0.375,
+            "weight": 0.03,
+            "display": "+3 fights Murphy"
+          }
+        ],
+        "summary": "Model leans Murphy 85/15. Edges on bkfc record, age, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 335,
+              "implied_prob": 0.23
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -335,
+              "implied_prob": 0.77
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -124,
+              "implied_prob": 0.554
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 364,
+              "implied_prob": 0.216
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 335,
+              "implied_prob": 0.23
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 12,
+      "fighter_a_slug": "frankie-solomon-jr",
+      "fighter_b_slug": "terryl-johnson",
+      "prediction": {
+        "prob_a": 0.721,
+        "prob_b": 0.279,
+        "raw_score": 0.3652,
+        "favorite_slug": "frankie-solomon-jr",
+        "confidence": "Very Low",
+        "advantage_a": 72,
+        "advantage_b": 28,
+        "predictability": 41,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "Age",
+            "value_a": 37,
+            "value_b": 44,
+            "edge_slug": "frankie-solomon-jr",
+            "edge_strength": 0.64,
+            "weight": 0.09,
+            "display": "37 vs 44"
+          },
+          {
+            "name": "Reach",
+            "value_a": "78\"",
+            "value_b": "73\"",
+            "edge_slug": "frankie-solomon-jr",
+            "edge_strength": 0.833,
+            "weight": 0.08,
+            "display": "+5\" Jr"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Jr 72/28. Edges on age, reach.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 545,
+              "implied_prob": 0.155
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -545,
+              "implied_prob": 0.845
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -155,
+              "implied_prob": 0.608
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 323,
+              "implied_prob": 0.237
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 545,
+              "implied_prob": 0.155
             }
           ]
         }

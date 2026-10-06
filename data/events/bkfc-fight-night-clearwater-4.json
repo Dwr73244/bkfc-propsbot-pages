@@ -123,11 +123,33 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 11,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "tony-murphy",
+      "fighter_b_slug": "doug-coldred-coltrane",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 12,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "frankie-solomon-jr",
+      "fighter_b_slug": "terryl-johnson",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-clearwater-4"
   ],
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-10-06",
   "needs_card_population": false
 }
