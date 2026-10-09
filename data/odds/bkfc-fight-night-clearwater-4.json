@@ -1,12 +1,11 @@
 {
-  "event_slug": "bkfc-fight-night-bethlehem",
-  "event_date": "2026-10-09",
+  "event_slug": "bkfc-fight-night-clearwater-4",
+  "event_date": "2026-10-23",
   "source": "consensus",
   "source_url": null,
   "fetched_at": "2026-10-09T07:56:52.470Z",
-  "book_count": 4,
+  "book_count": 3,
   "books": [
-    "bestfightodds",
     "kalshi",
     "polymarket",
     "xbet"

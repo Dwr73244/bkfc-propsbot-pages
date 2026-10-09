@@ -6,7 +6,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 10,
-    "losses": 2,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -96,7 +96,7 @@
     "https://www.bkfc.com/fighters/david-mundell"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-26T08:48:32.523Z",
+  "history_last_verified": "2026-10-09T15:06:35.707Z",
   "elo": 1458,
   "elo_peak": 1500
 }

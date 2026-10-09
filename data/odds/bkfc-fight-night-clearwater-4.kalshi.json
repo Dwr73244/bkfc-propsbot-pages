@@ -1,0 +1,8 @@
+{
+  "event_slug": "bkfc-fight-night-clearwater-4",
+  "event_date": "2026-10-23",
+  "source": "kalshi",
+  "source_url": "https://api.elections.kalshi.com/trade-api/v2/markets?status=open",
+  "fetched_at": "2026-10-09T01:08:53.912Z",
+  "bouts": []
+}
