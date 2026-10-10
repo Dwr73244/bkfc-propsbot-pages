@@ -2,8 +2,65 @@
   "event_slug": "bkfc-fight-night-bethlehem",
   "event_date": "2026-10-09",
   "source": "bestfightodds-props",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4372",
-  "fetched_at": "2026-09-27T07:01:08.693Z",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4404",
+  "fetched_at": "2026-10-09T20:17:38.084Z",
   "total_prop_rows": 0,
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "gregoris-cisneros",
+      "fighter_b_slug": "ryan-petersen",
+      "matchup_id": "45268",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "christian-torres",
+      "fighter_b_slug": "brett-shoenfelt",
+      "matchup_id": "45266",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "mike-liberto",
+      "fighter_b_slug": "jojo-schillizzi",
+      "matchup_id": "45263",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "jay-haas",
+      "fighter_b_slug": "antonio-castillo-jr",
+      "matchup_id": "45264",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "travis-thompson",
+      "fighter_b_slug": "nick-burgos",
+      "matchup_id": "45265",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "lewis-rumsey",
+      "fighter_b_slug": "maurice-morris",
+      "matchup_id": "45262",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "lex-ludlow",
+      "fighter_b_slug": "sean-schultz",
+      "matchup_id": "45261",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "douglas-lobasso",
+      "fighter_b_slug": "justin-walters",
+      "matchup_id": "45267",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
 }

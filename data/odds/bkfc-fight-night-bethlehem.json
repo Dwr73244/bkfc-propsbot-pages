@@ -3,13 +3,207 @@
   "event_date": "2026-10-09",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-10-09T15:13:13.898Z",
-  "book_count": 4,
+  "fetched_at": "2026-10-10T00:16:37.482Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "gregoris-cisneros",
+      "fighter_b_slug": "ryan-petersen",
+      "moneyline_a": -625,
+      "moneyline_b": 410,
+      "implied_prob_a": 0.862,
+      "implied_prob_b": 0.196,
+      "vig": 0.058,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -625,
+          -625
+        ],
+        "b": [
+          410,
+          410
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "christian-torres",
+      "fighter_b_slug": "brett-shoenfelt",
+      "moneyline_a": 195,
+      "moneyline_b": -286,
+      "implied_prob_a": 0.339,
+      "implied_prob_b": 0.741,
+      "vig": 0.08,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          195,
+          195
+        ],
+        "b": [
+          -286,
+          -286
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "mike-liberto",
+      "fighter_b_slug": "jojo-schillizzi",
+      "moneyline_a": -215,
+      "moneyline_b": 150,
+      "implied_prob_a": 0.683,
+      "implied_prob_b": 0.4,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -215,
+          -215
+        ],
+        "b": [
+          150,
+          150
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "jay-haas",
+      "fighter_b_slug": "antonio-castillo-jr",
+      "moneyline_a": -118,
+      "moneyline_b": -118,
+      "implied_prob_a": 0.541,
+      "implied_prob_b": 0.541,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -118,
+          -118
+        ],
+        "b": [
+          -118,
+          -118
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "travis-thompson",
+      "fighter_b_slug": "nick-burgos",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -335,
+          -335
+        ],
+        "b": [
+          220,
+          220
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "lewis-rumsey",
+      "fighter_b_slug": "maurice-morris",
+      "moneyline_a": 230,
+      "moneyline_b": -345,
+      "implied_prob_a": 0.303,
+      "implied_prob_b": 0.775,
+      "vig": 0.078,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          230,
+          230
+        ],
+        "b": [
+          -345,
+          -345
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "lex-ludlow",
+      "fighter_b_slug": "sean-schultz",
+      "moneyline_a": -435,
+      "moneyline_b": 285,
+      "implied_prob_a": 0.813,
+      "implied_prob_b": 0.26,
+      "vig": 0.073,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -435,
+          -435
+        ],
+        "b": [
+          285,
+          285
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "douglas-lobasso",
+      "fighter_b_slug": "justin-walters",
+      "moneyline_a": -167,
+      "moneyline_b": 120,
+      "implied_prob_a": 0.625,
+      "implied_prob_b": 0.455,
+      "vig": 0.08,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -167,
+          -167
+        ],
+        "b": [
+          120,
+          120
+        ]
+      }
+    }
+  ]
 }

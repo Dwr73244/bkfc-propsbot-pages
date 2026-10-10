@@ -2,7 +2,88 @@
   "event_slug": "bkfc-fight-night-bethlehem",
   "event_date": "2026-10-09",
   "source": "bestfightodds",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4372",
-  "fetched_at": "2026-09-25T04:40:01.149Z",
-  "bouts": []
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4404",
+  "fetched_at": "2026-10-09T20:17:37.296Z",
+  "bouts": [
+    {
+      "fighter_a_slug": "gregoris-cisneros",
+      "fighter_b_slug": "ryan-petersen",
+      "moneyline_a": -625,
+      "moneyline_b": 410,
+      "implied_prob_a": 0.862,
+      "implied_prob_b": 0.196,
+      "vig": 0.058,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "christian-torres",
+      "fighter_b_slug": "brett-shoenfelt",
+      "moneyline_a": 195,
+      "moneyline_b": -286,
+      "implied_prob_a": 0.339,
+      "implied_prob_b": 0.741,
+      "vig": 0.08,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "mike-liberto",
+      "fighter_b_slug": "jojo-schillizzi",
+      "moneyline_a": -215,
+      "moneyline_b": 150,
+      "implied_prob_a": 0.683,
+      "implied_prob_b": 0.4,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "jay-haas",
+      "fighter_b_slug": "antonio-castillo-jr",
+      "moneyline_a": -118,
+      "moneyline_b": -118,
+      "implied_prob_a": 0.541,
+      "implied_prob_b": 0.541,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "travis-thompson",
+      "fighter_b_slug": "nick-burgos",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "lewis-rumsey",
+      "fighter_b_slug": "maurice-morris",
+      "moneyline_a": 230,
+      "moneyline_b": -345,
+      "implied_prob_a": 0.303,
+      "implied_prob_b": 0.775,
+      "vig": 0.078,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "lex-ludlow",
+      "fighter_b_slug": "sean-schultz",
+      "moneyline_a": -435,
+      "moneyline_b": 285,
+      "implied_prob_a": 0.813,
+      "implied_prob_b": 0.26,
+      "vig": 0.073,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "douglas-lobasso",
+      "fighter_b_slug": "justin-walters",
+      "moneyline_a": -167,
+      "moneyline_b": 120,
+      "implied_prob_a": 0.625,
+      "implied_prob_b": 0.455,
+      "vig": 0.08,
+      "book_count": 1
+    }
+  ]
 }

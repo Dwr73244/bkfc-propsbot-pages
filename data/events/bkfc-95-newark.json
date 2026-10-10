@@ -134,11 +134,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 12,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "noah-getahoun",
+      "fighter_b_slug": "dustin-bailey",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-95-newark"
   ],
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-10",
   "needs_card_population": false
 }

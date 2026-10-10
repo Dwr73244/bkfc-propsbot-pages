@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-bethlehem",
-  "generated_at": "2026-10-09T17:25:36.499Z",
+  "generated_at": "2026-10-09T20:17:49.104Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "gregoris-cisneros",
       "fighter_b_slug": "ryan-petersen",
       "prediction": {
-        "prob_a": 0.4854,
-        "prob_b": 0.5146,
+        "prob_a": 0.6336,
+        "prob_b": 0.3664,
         "raw_score": -0.0225,
-        "favorite_slug": "ryan-petersen",
+        "favorite_slug": "gregoris-cisneros",
         "confidence": "Low",
-        "advantage_a": 49,
-        "advantage_b": 51,
-        "predictability": 26,
+        "advantage_a": 63,
+        "advantage_b": 37,
+        "predictability": 43,
         "factors": [
           {
             "name": "Recent Form",
@@ -91,8 +91,8 @@
             "display": "+2\" Cisneros"
           }
         ],
-        "summary": "Model leans Petersen 51/49. Edges on recent form.",
-        "market_adjusted": false
+        "summary": "Model leans Cisneros 63/37. Edges on bkfc record, age, height.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -131,20 +131,29 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.6335978735523389,
+        "model_prob_b": 0.3664021264476611,
+        "market_fair_prob_a": 0.8147448015122872,
+        "market_fair_prob_b": 0.18525519848771266,
+        "edge_pct_a": -0.18114692795994836,
+        "edge_pct_b": 0.18114692795994847,
+        "edge_slug": "ryan-petersen",
+        "edge_pct": 0.18114692795994836
+      }
     },
     {
       "order": 2,
       "fighter_a_slug": "christian-torres",
       "fighter_b_slug": "brett-shoenfelt",
       "prediction": {
-        "prob_a": 0.3157,
-        "prob_b": 0.6843,
+        "prob_a": 0.3149,
+        "prob_b": 0.6851,
         "raw_score": -0.2975,
         "favorite_slug": "brett-shoenfelt",
         "confidence": "Medium",
-        "advantage_a": 32,
-        "advantage_b": 68,
+        "advantage_a": 31,
+        "advantage_b": 69,
         "predictability": 60,
         "factors": [
           {
@@ -229,8 +238,8 @@
             "display": "-3\" Shoenfelt"
           }
         ],
-        "summary": "Model leans Shoenfelt 68/32. Edges on recent form, age, activity, cut history.",
-        "market_adjusted": false
+        "summary": "Model leans Shoenfelt 69/31. Edges on recent form, age, activity, cut history.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -269,7 +278,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.3148991063689257,
+        "model_prob_b": 0.6851008936310743,
+        "market_fair_prob_a": 0.3138888888888889,
+        "market_fair_prob_b": 0.686111111111111,
+        "edge_pct_a": 0.0010102174800368235,
+        "edge_pct_b": -0.0010102174800367125,
+        "edge_slug": "christian-torres",
+        "edge_pct": 0.0010102174800368235
+      }
     },
     {
       "order": 3,
@@ -396,14 +414,14 @@
       "fighter_a_slug": "mike-liberto",
       "fighter_b_slug": "jojo-schillizzi",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.5588,
+        "prob_b": 0.4412,
         "raw_score": 0,
-        "favorite_slug": "jojo-schillizzi",
+        "favorite_slug": "mike-liberto",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 56,
+        "advantage_b": 44,
+        "predictability": 21,
         "factors": [
           {
             "name": "BKFC Record",
@@ -425,7 +443,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -464,21 +482,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.5587950138504155,
+        "model_prob_b": 0.4412049861495845,
+        "market_fair_prob_a": 0.6306555863342567,
+        "market_fair_prob_b": 0.3693444136657433,
+        "edge_pct_a": -0.07186057248384115,
+        "edge_pct_b": 0.0718605724838412,
+        "edge_slug": "jojo-schillizzi",
+        "edge_pct": 0.07186057248384115
+      }
     },
     {
       "order": 5,
       "fighter_a_slug": "jay-haas",
       "fighter_b_slug": "antonio-castillo-jr",
       "prediction": {
-        "prob_a": 0.672,
-        "prob_b": 0.328,
+        "prob_a": 0.5946,
+        "prob_b": 0.4054,
         "raw_score": 0.2759,
         "favorite_slug": "jay-haas",
         "confidence": "Very Low",
-        "advantage_a": 67,
-        "advantage_b": 33,
-        "predictability": 38,
+        "advantage_a": 59,
+        "advantage_b": 41,
+        "predictability": 33,
         "factors": [
           {
             "name": "BKFC Record",
@@ -499,8 +526,8 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Haas 67/33. Edges on bkfc record.",
-        "market_adjusted": false
+        "summary": "Model leans Haas 59/41. Edges on bkfc record.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -539,7 +566,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.5946038373551344,
+        "model_prob_b": 0.40539616264486555,
+        "market_fair_prob_a": 0.5,
+        "market_fair_prob_b": 0.5,
+        "edge_pct_a": 0.09460383735513445,
+        "edge_pct_b": -0.09460383735513445,
+        "edge_slug": "jay-haas",
+        "edge_pct": 0.09460383735513445
+      }
     },
     {
       "order": 6,
@@ -630,14 +666,14 @@
       "fighter_a_slug": "travis-thompson",
       "fighter_b_slug": "nick-burgos",
       "prediction": {
-        "prob_a": 0.5092,
-        "prob_b": 0.4908,
+        "prob_a": 0.6,
+        "prob_b": 0.4,
         "raw_score": 0.0141,
         "favorite_slug": "travis-thompson",
         "confidence": "Medium",
-        "advantage_a": 51,
-        "advantage_b": 49,
-        "predictability": 46,
+        "advantage_a": 60,
+        "advantage_b": 40,
+        "predictability": 51,
         "factors": [
           {
             "name": "Recent Form",
@@ -730,8 +766,8 @@
             "display": "0\" even"
           }
         ],
-        "summary": "Model leans Thompson 51/49. Edges on bkfc record, age, activity, bkfc experience.",
-        "market_adjusted": false
+        "summary": "Model leans Thompson 60/40. Edges on bkfc record, age, activity, bkfc experience.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -770,7 +806,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.5999902085824331,
+        "model_prob_b": 0.4000097914175669,
+        "market_fair_prob_a": 0.710987996306556,
+        "market_fair_prob_b": 0.28901200369344415,
+        "edge_pct_a": -0.11099778772412283,
+        "edge_pct_b": 0.11099778772412272,
+        "edge_slug": "nick-burgos",
+        "edge_pct": 0.11099778772412283
+      }
     },
     {
       "order": 8,
@@ -852,14 +897,14 @@
       "fighter_a_slug": "lewis-rumsey",
       "fighter_b_slug": "maurice-morris",
       "prediction": {
-        "prob_a": 0.4037,
-        "prob_b": 0.5963,
+        "prob_a": 0.3485,
+        "prob_b": 0.6515,
         "raw_score": -0.15,
         "favorite_slug": "maurice-morris",
         "confidence": "Low",
-        "advantage_a": 40,
-        "advantage_b": 60,
-        "predictability": 38,
+        "advantage_a": 35,
+        "advantage_b": 65,
+        "predictability": 41,
         "factors": [
           {
             "name": "Recent Form",
@@ -916,8 +961,8 @@
             "display": "+7 fights Rumsey"
           }
         ],
-        "summary": "Model leans Morris 60/40. Edges on recent form, bkfc record, activity.",
-        "market_adjusted": false
+        "summary": "Model leans Morris 65/35. Edges on recent form, bkfc record, activity.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -956,7 +1001,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.34851997573664334,
+        "model_prob_b": 0.6514800242633567,
+        "market_fair_prob_a": 0.28107606679035246,
+        "market_fair_prob_b": 0.7189239332096474,
+        "edge_pct_a": 0.06744390894629088,
+        "edge_pct_b": -0.06744390894629071,
+        "edge_slug": "lewis-rumsey",
+        "edge_pct": 0.06744390894629088
+      }
     },
     {
       "order": 10,
@@ -1038,14 +1092,14 @@
       "fighter_a_slug": "lex-ludlow",
       "fighter_b_slug": "sean-schultz",
       "prediction": {
-        "prob_a": 0.7381,
-        "prob_b": 0.2619,
+        "prob_a": 0.7469,
+        "prob_b": 0.2531,
         "raw_score": 0.3986,
         "favorite_slug": "lex-ludlow",
         "confidence": "Very Low",
-        "advantage_a": 74,
-        "advantage_b": 26,
-        "predictability": 35,
+        "advantage_a": 75,
+        "advantage_b": 25,
+        "predictability": 36,
         "factors": [
           {
             "name": "Recent Form",
@@ -1111,8 +1165,8 @@
             "display": "+4 fights Ludlow"
           }
         ],
-        "summary": "Model leans Ludlow 74/26. Edges on recent form, bkfc record, activity, bkfc experience.",
-        "market_adjusted": false
+        "summary": "Model leans Ludlow 75/25. Edges on recent form, bkfc record, activity, bkfc experience.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -1151,21 +1205,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.7469376383099675,
+        "model_prob_b": 0.2530623616900325,
+        "market_fair_prob_a": 0.7576887232059646,
+        "market_fair_prob_b": 0.24231127679403544,
+        "edge_pct_a": -0.010751084895997076,
+        "edge_pct_b": 0.010751084895997048,
+        "edge_slug": "sean-schultz",
+        "edge_pct": 0.010751084895997076
+      }
     },
     {
       "order": 12,
       "fighter_a_slug": "douglas-lobasso",
       "fighter_b_slug": "justin-walters",
       "prediction": {
-        "prob_a": 0.2755,
-        "prob_b": 0.7245,
+        "prob_a": 0.4119,
+        "prob_b": 0.5881,
         "raw_score": -0.3719,
         "favorite_slug": "justin-walters",
         "confidence": "Very Low",
-        "advantage_a": 28,
-        "advantage_b": 72,
-        "predictability": 36,
+        "advantage_a": 41,
+        "advantage_b": 59,
+        "predictability": 28,
         "factors": [
           {
             "name": "Recent Form",
@@ -1231,8 +1294,8 @@
             "display": "+3 fights Walters"
           }
         ],
-        "summary": "Model leans Walters 72/28. Edges on ko rate, activity, bkfc experience.",
-        "market_adjusted": false
+        "summary": "Model leans Walters 59/41. Edges on ko rate, activity, bkfc experience.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -1271,7 +1334,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.4119359164612827,
+        "model_prob_b": 0.5880640835387173,
+        "market_fair_prob_a": 0.5787037037037037,
+        "market_fair_prob_b": 0.4212962962962963,
+        "edge_pct_a": -0.16676778724242103,
+        "edge_pct_b": 0.16676778724242103,
+        "edge_slug": "justin-walters",
+        "edge_pct": 0.16676778724242103
+      }
     }
   ]
 }
