@@ -6,7 +6,7 @@
   "division": "Welterweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -63,7 +63,7 @@
       "time": "02:00",
       "opponent": "Marley Churcher",
       "opponent_slug": "marley-churcher",
-      "result": "L",
+      "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/matthew-wiwczaryk"
     },
@@ -85,7 +85,7 @@
     "https://www.bkfc.com/fighters/matthew-wiwczaryk"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-08-18T08:41:39.550Z",
+  "history_last_verified": "2026-10-11T14:46:19.285Z",
   "elo": 1479,
   "elo_peak": 1500
 }

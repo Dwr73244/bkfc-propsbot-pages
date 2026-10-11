@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:16",
+      "opponent": "brett-shoenfelt",
+      "opponent_slug": "brett-shoenfelt",
+      "result": "W"
+    },
+    {
       "event": "BKFC on DAZN - Montana",
       "event_slug": "bkfc-on-dazn-montana",
       "date": "2024-11-09T00:00:00.000Z",
@@ -76,19 +87,6 @@
       "opponent": "joshua-moreno",
       "opponent_slug": "joshua-moreno",
       "result": "L"
-    },
-    {
-      "event": "BKFC 31",
-      "event_slug": "bkfc-31-denver-richman-vs-doolittle",
-      "date": "2022-10-15T00:00:00.000Z",
-      "method": "Unanimous Decision",
-      "round": 5,
-      "time": "02:00",
-      "opponent": "Cory Madden",
-      "opponent_slug": "cory-madden",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/christian-torres"
     }
   ],
   "sources": [
@@ -96,7 +94,7 @@
     "https://www.bkfc.com/fighters/christian-torres"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1457,
+  "elo": 1482,
   "elo_peak": 1500,
   "history_last_verified": "2026-08-15T08:33:48.573Z"
 }

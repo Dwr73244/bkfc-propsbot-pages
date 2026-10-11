@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1786734480/o/MIGUEL_HINOJOSA_AVATAR_400x533.png?1786734480",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1786734468/o/MIGUEL_HINOJOSA_SMALL_AVATAR_400x400.png?1786734468",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -40,14 +40,28 @@
       "opponent": "adyam-devillafuerte",
       "opponent_slug": "adyam-devillafuerte",
       "result": "L"
+    },
+    {
+      "event": "BKFC 93",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:54",
+      "opponent": "Miguel Hinojosa",
+      "opponent_slug": "miguel-hinojosa",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/miguel-hinojosa"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/miguel-hinojosa"
   ],
-  "last_updated": "2026-04-17",
+  "last_updated": "2026-10-11",
   "elo": 1478,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-09-12"
+  "record_verified": "2026-09-12",
+  "history_last_verified": "2026-10-11T14:46:30.161Z"
 }

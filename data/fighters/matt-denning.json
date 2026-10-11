@@ -45,7 +45,7 @@
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun-2",
       "date": "2026-08-21T00:00:00.000Z",
-      "method": "TKO",
+      "method": "KO",
       "round": 4,
       "time": "01:34",
       "opponent": "Matt Denning",
@@ -63,5 +63,5 @@
   "elo_peak": 1523,
   "record_source": "tracked-events",
   "record_verified": "2026-08-22",
-  "history_last_verified": "2026-09-07T14:06:28.141Z"
+  "history_last_verified": "2026-10-11T14:46:12.434Z"
 }

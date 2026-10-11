@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "0:21",
+      "opponent": "mark-culp",
+      "opponent_slug": "mark-culp",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/brian-newman"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "elo": 1522,
+  "elo_peak": 1522
 }

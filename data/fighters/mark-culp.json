@@ -6,7 +6,7 @@
   "division": "Heavyweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -31,15 +31,26 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "0:21",
+      "opponent": "brian-newman",
+      "opponent_slug": "brian-newman",
+      "result": "L"
+    },
+    {
       "event": "BKFC 51",
       "event_slug": "bkfc-51-salem",
       "date": "2023-09-29T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:43",
-      "opponent": "Mark Culp",
-      "opponent_slug": "mark-culp",
-      "result": "W",
+      "opponent": "Bruce Abramski",
+      "opponent_slug": "bruce-abramski",
+      "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/mark-culp"
     }
@@ -48,5 +59,7 @@
     "https://www.bkfc.com/fighters/mark-culp"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-07T14:06:24.941Z"
+  "history_last_verified": "2026-10-11T14:46:06.682Z",
+  "elo": 1478,
+  "elo_peak": 1500
 }

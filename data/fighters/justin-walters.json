@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:24",
+      "opponent": "douglas-lobasso",
+      "opponent_slug": "douglas-lobasso",
+      "result": "L"
+    },
+    {
       "event": "bkfc-fight-night-sturgis",
       "event_slug": "bkfc-fight-night-sturgis",
       "date": "2026-08-08T00:00:00.000Z",
@@ -68,7 +79,7 @@
     "https://www.bkfc.com/fighters/justin-walters"
   ],
   "last_updated": "2026-04-17",
-  "elo": 1482,
+  "elo": 1461,
   "elo_peak": 1500,
   "record_source": "tracked-events",
   "record_verified": "2026-09-06",

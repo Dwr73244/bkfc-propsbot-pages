@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:24",
+      "opponent": "justin-walters",
+      "opponent_slug": "justin-walters",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/douglas-lobasso"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "elo": 1521,
+  "elo_peak": 1521
 }

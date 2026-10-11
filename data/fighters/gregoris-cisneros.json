@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:59",
+      "opponent": "ryan-petersen",
+      "opponent_slug": "ryan-petersen",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-fight-night-hammond",
       "date": "2026-06-26T00:00:00.000Z",
@@ -48,5 +59,7 @@
     "https://www.bkfc.com/fighters/gregoris-cisneros"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-20T12:59:07.206Z"
+  "history_last_verified": "2026-09-20T12:59:07.206Z",
+  "elo": 1479,
+  "elo_peak": 1500
 }

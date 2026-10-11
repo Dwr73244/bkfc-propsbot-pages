@@ -5,7 +5,7 @@
   "nickname": "Warhorse",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -31,6 +31,19 @@
   "bio": null,
   "last_5": [
     {
+      "event": "BKFC Fight Night Australia",
+      "event_slug": "bkfc-fight-night-australia",
+      "date": "2026-10-03T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "00:50",
+      "opponent": "Ryan Winnett",
+      "opponent_slug": "ryan-winnett",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/mick-whitehead"
+    },
+    {
       "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
       "event_slug": "bkfc-fight-night-australia-townsville",
       "date": "2026-04-18T09:00:00.000Z",
@@ -40,19 +53,6 @@
       "opponent": "josh-kuhne",
       "opponent_slug": "josh-kuhne",
       "result": "L"
-    },
-    {
-      "event": "BKFC - Fight Night Australia",
-      "event_slug": "bkfc-australia-2",
-      "date": "2026-04-18T00:00:00.000Z",
-      "method": "TKO",
-      "round": 3,
-      "time": "00:51",
-      "opponent": "Mick Whitehead",
-      "opponent_slug": "mick-whitehead",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/mick-whitehead"
     }
   ],
   "sources": [
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-08-08T08:39:20.189Z"
+  "history_last_verified": "2026-10-11T14:46:27.442Z"
 }

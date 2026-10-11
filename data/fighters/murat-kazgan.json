@@ -4,8 +4,8 @@
   "nickname": "Lord Pitbull",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 1,
+    "wins": 2,
+    "losses": 2,
     "draws": 0,
     "kos": 1
   },
@@ -72,5 +72,5 @@
   "last_updated": "2026-07-31",
   "elo": 1499,
   "elo_peak": 1522,
-  "history_last_verified": "2026-08-09T08:47:10.177Z"
+  "history_last_verified": "2026-10-11T14:46:41.312Z"
 }

@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:16",
+      "opponent": "christian-torres",
+      "opponent_slug": "christian-torres",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Knucklemania VI",
       "event_slug": "knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
@@ -48,5 +59,7 @@
     "https://www.bkfc.com/fighters/brett-shoenfelt"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-16T13:16:12.916Z"
+  "history_last_verified": "2026-09-16T13:16:12.916Z",
+  "elo": 1475,
+  "elo_peak": 1500
 }

@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "nick-burgos",
+      "opponent_slug": "nick-burgos",
+      "result": "W"
+    },
+    {
       "event": "knucklemania-vi",
       "event_slug": "bkfc-knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
@@ -74,19 +85,6 @@
       "opponent": "zachary-pannell",
       "opponent_slug": "zachary-pannell",
       "result": "W"
-    },
-    {
-      "event": "BKFC - Knucklemania V",
-      "event_slug": "bkfc-knucklemania-v",
-      "date": "2025-01-25T00:00:00.000Z",
-      "method": "KO",
-      "round": 2,
-      "time": "00:41",
-      "opponent": "Zach Pannell",
-      "opponent_slug": "zach-pannell",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/travis-thompson"
     }
   ],
   "sources": [
@@ -95,7 +93,7 @@
     "https://www.bkfc.com/fighters/travis-thompson"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1464,
+  "elo": 1485,
   "elo_peak": 1501,
   "history_last_verified": "2026-08-01T10:04:05.100Z"
 }
