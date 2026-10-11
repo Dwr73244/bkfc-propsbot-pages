@@ -145,11 +145,33 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 13,
+      "card_position": "Main",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "ryan-reber",
+      "fighter_b_slug": "justin-street",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 14,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "tony-murphy",
+      "fighter_b_slug": "doug-coltrane",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-clearwater-4"
   ],
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-11",
   "needs_card_population": false
 }

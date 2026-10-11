@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-clearwater-4",
-  "generated_at": "2026-10-11T14:46:46.792Z",
+  "generated_at": "2026-10-11T16:37:54.446Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "royal-ryan-reber",
       "fighter_b_slug": "justin-street",
       "prediction": {
-        "prob_a": 0.5963,
-        "prob_b": 0.4037,
-        "raw_score": 0.15,
+        "prob_a": 0.5814,
+        "prob_b": 0.4186,
+        "raw_score": 0.1264,
         "favorite_slug": "royal-ryan-reber",
         "confidence": "High",
-        "advantage_a": 60,
-        "advantage_b": 40,
-        "predictability": 73,
+        "advantage_a": 58,
+        "advantage_b": 42,
+        "predictability": 72,
         "factors": [
           {
             "name": "ELO Rating",
@@ -93,11 +93,11 @@
           {
             "name": "Opponent Quality",
             "value_a": "58%",
-            "value_b": "40%",
-            "edge_slug": "royal-ryan-reber",
-            "edge_strength": 0.367,
+            "value_b": "55%",
+            "edge_slug": null,
+            "edge_strength": 0.067,
             "weight": 0.04,
-            "display": "Reber tougher schedule"
+            "display": "Similar schedule"
           },
           {
             "name": "BKFC Experience",
@@ -118,7 +118,7 @@
             "display": "+3\" Reber"
           }
         ],
-        "summary": "Model leans Reber 60/40. Edges on bkfc record, reach, activity, opponent quality.",
+        "summary": "Model leans Reber 58/42. Edges on bkfc record, reach, activity, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -398,7 +398,7 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "11%",
+            "value_a": "8%",
             "value_b": "83%",
             "edge_slug": "rickie-mcconnico",
             "edge_strength": 1,
@@ -1222,6 +1222,255 @@
               "outcome": "Decision",
               "moneyline": 545,
               "implied_prob": 0.155
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 13,
+      "fighter_a_slug": "ryan-reber",
+      "fighter_b_slug": "justin-street",
+      "prediction": {
+        "prob_a": 0.536,
+        "prob_b": 0.464,
+        "raw_score": 0.0555,
+        "favorite_slug": "ryan-reber",
+        "confidence": "Low",
+        "advantage_a": 54,
+        "advantage_b": 46,
+        "predictability": 32,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1542,
+            "value_b": 1539,
+            "edge_slug": null,
+            "edge_strength": 0.015,
+            "weight": 0.16,
+            "display": "+3 ELO "
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W",
+            "value_b": "W-W",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.13,
+            "display": "Similar form"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-0",
+            "value_b": "4-2",
+            "edge_slug": "ryan-reber",
+            "edge_strength": 0.313,
+            "weight": 0.11,
+            "display": "75% vs 63% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "50%",
+            "value_b": "25%",
+            "edge_slug": "ryan-reber",
+            "edge_strength": 0.375,
+            "weight": 0.11,
+            "display": "25 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "2.4y ago",
+            "value_b": "1.5y ago",
+            "edge_slug": "justin-street",
+            "edge_strength": 0.3,
+            "weight": 0.05,
+            "display": "Street more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "47%",
+            "value_b": "55%",
+            "edge_slug": null,
+            "edge_strength": 0.169,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "2 fights",
+            "value_b": "6 fights",
+            "edge_slug": "justin-street",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "+4 fights Street"
+          }
+        ],
+        "summary": "Model leans Reber 54/46. Edges on bkfc record, ko rate.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 151,
+              "implied_prob": 0.399
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -151,
+              "implied_prob": 0.601
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 131,
+              "implied_prob": 0.433
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 494,
+              "implied_prob": 0.168
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 151,
+              "implied_prob": 0.399
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 14,
+      "fighter_a_slug": "tony-murphy",
+      "fighter_b_slug": "doug-coltrane",
+      "prediction": {
+        "prob_a": 0.2746,
+        "prob_b": 0.7254,
+        "raw_score": -0.3737,
+        "favorite_slug": "doug-coltrane",
+        "confidence": "Low",
+        "advantage_a": 27,
+        "advantage_b": 73,
+        "predictability": 47,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "W-W",
+            "edge_slug": "doug-coltrane",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Coltrane hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "3-0",
+            "value_b": "2-0",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.11,
+            "display": "80% vs 75% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "100%",
+            "edge_slug": "doug-coltrane",
+            "edge_strength": 0.975,
+            "weight": 0.11,
+            "display": "-65 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "3.4y ago",
+            "edge_slug": "tony-murphy",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Murphy more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "50%",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "2 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Coltrane 73/27. Edges on recent form, ko rate.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 371,
+              "implied_prob": 0.213
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -371,
+              "implied_prob": 0.787
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -131,
+              "implied_prob": 0.567
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 354,
+              "implied_prob": 0.221
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 371,
+              "implied_prob": 0.213
             }
           ]
         }
