@@ -5,7 +5,7 @@
   "nickname": "Kamikaze",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -31,6 +31,19 @@
   "bio": null,
   "last_5": [
     {
+      "event": "BKFC Fight Night Australia",
+      "event_slug": "bkfc-fight-night-australia",
+      "date": "2026-10-03T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:58",
+      "opponent": "Shaun Curran",
+      "opponent_slug": "shaun-curran",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/josh-kuhne"
+    },
+    {
       "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
       "event_slug": "bkfc-fight-night-australia-townsville",
       "date": "2026-04-18T09:00:00.000Z",
@@ -48,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:45:11.549Z"
+  "history_last_verified": "2026-10-12T17:30:37.374Z"
 }

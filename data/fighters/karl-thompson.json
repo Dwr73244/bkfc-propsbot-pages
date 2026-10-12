@@ -4,7 +4,7 @@
   "nickname": "THE WASP",
   "division": "Cruiserweight",
   "bkfc_record": {
-    "wins": 4,
+    "wins": 5,
     "losses": 1,
     "draws": 0,
     "kos": 1
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1549,
   "elo_peak": 1549,
-  "history_last_verified": "2026-08-06T10:37:29.165Z"
+  "history_last_verified": "2026-10-12T17:31:14.661Z"
 }
