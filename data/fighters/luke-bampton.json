@@ -6,7 +6,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -31,6 +31,19 @@
   "bio": null,
   "last_5": [
     {
+      "event": "BKFC Fight Night Australia",
+      "event_slug": "bkfc-fight-night-australia",
+      "date": "2026-10-03T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "01:59",
+      "opponent": "Luke Bampton",
+      "opponent_slug": "luke-bampton",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/luke-bampton"
+    },
+    {
       "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
       "event_slug": "bkfc-fight-night-australia-townsville",
       "date": "2026-04-18T09:00:00.000Z",
@@ -40,6 +53,19 @@
       "opponent": "hunter-ioane",
       "opponent_slug": "hunter-ioane",
       "result": "L"
+    },
+    {
+      "event": "BKFC - Fight Night Australia",
+      "event_slug": "bkfc-australia-2",
+      "date": "2026-04-18T00:00:00.000Z",
+      "method": "KO",
+      "round": 3,
+      "time": "01:13",
+      "opponent": "Luke Bampton",
+      "opponent_slug": "luke-bampton",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/luke-bampton"
     }
   ],
   "sources": [
@@ -48,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:45:14.277Z"
+  "history_last_verified": "2026-10-13T15:43:14.666Z"
 }

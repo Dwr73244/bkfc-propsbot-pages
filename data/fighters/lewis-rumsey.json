@@ -5,7 +5,7 @@
   "division": "Heavyweight",
   "bkfc_record": {
     "wins": 2,
-    "losses": 5,
+    "losses": 6,
     "draws": 0,
     "kos": null
   },
@@ -98,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1460,
   "elo_peak": 1500,
-  "history_last_verified": "2026-08-07T09:04:47.216Z"
+  "history_last_verified": "2026-10-13T15:43:08.396Z"
 }

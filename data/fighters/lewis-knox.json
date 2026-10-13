@@ -5,8 +5,8 @@
   "nickname": "The Leith Warrior",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 5,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,24 @@
     "facebook": "https://www.facebook.com/lewis.knox.14"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Derby",
+      "event_slug": "bkfc-fight-night-derby",
+      "date": "2025-12-13T00:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "00:41",
+      "opponent": "Lewis Knox",
+      "opponent_slug": "lewis-knox",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/lewis-knox"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/lewis-knox"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-10-13T15:42:58.170Z"
 }

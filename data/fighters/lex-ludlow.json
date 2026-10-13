@@ -5,7 +5,7 @@
   "division": "Heavyweight",
   "bkfc_record": {
     "wins": 4,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -39,6 +39,19 @@
       "opponent": "sean-schultz",
       "opponent_slug": "sean-schultz",
       "result": "L"
+    },
+    {
+      "event": "BKFC Liberty Brawl",
+      "event_slug": "bkfc-liberty-brawl",
+      "date": "2026-07-03T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:09",
+      "opponent": "Drew Nolan",
+      "opponent_slug": "drew-nolan",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/lex-ludlow"
     },
     {
       "event": "knucklemania-vi",
@@ -83,5 +96,5 @@
   "last_updated": "2026-07-31",
   "elo": 1513,
   "elo_peak": 1537,
-  "history_last_verified": "2026-09-07T14:06:00.093Z"
+  "history_last_verified": "2026-10-13T15:43:04.764Z"
 }

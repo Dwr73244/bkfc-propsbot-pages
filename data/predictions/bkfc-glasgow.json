@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-10-12T20:15:32.058Z",
+  "generated_at": "2026-10-13T15:43:18.317Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -276,35 +276,35 @@
       "fighter_a_slug": "scott-malone",
       "fighter_b_slug": "kieron-sewell",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
+        "prob_a": 0.3187,
+        "prob_b": 0.6813,
+        "raw_score": -0.2922,
         "favorite_slug": "kieron-sewell",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 32,
+        "advantage_b": 68,
+        "predictability": 38,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_b": "2-1",
+            "edge_slug": "kieron-sewell",
+            "edge_strength": 0.25,
+            "weight": 0.11,
+            "display": "50% vs 60% win rate"
           },
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "0 fights",
-            "edge_slug": null,
-            "edge_strength": 0,
+            "value_b": "3 fights",
+            "edge_slug": "kieron-sewell",
+            "edge_strength": 0.375,
             "weight": 0.03,
-            "display": "Even"
+            "display": "+3 fights Sewell"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Sewell 68/32. Edges on bkfc record, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -693,23 +693,23 @@
       "fighter_a_slug": "lewis-knox",
       "fighter_b_slug": "tommy-carus",
       "prediction": {
-        "prob_a": 0.4627,
-        "prob_b": 0.5373,
-        "raw_score": -0.0575,
-        "favorite_slug": "tommy-carus",
-        "confidence": "Very Low",
-        "advantage_a": 46,
-        "advantage_b": 54,
-        "predictability": 23,
+        "prob_a": 0.648,
+        "prob_b": 0.352,
+        "raw_score": 0.2347,
+        "favorite_slug": "lewis-knox",
+        "confidence": "Low",
+        "advantage_a": 65,
+        "advantage_b": 35,
+        "predictability": 41,
         "factors": [
           {
             "name": "BKFC Record",
-            "value_a": "0-0",
+            "value_a": "5-2",
             "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "edge_slug": "lewis-knox",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "67% vs 50% win rate"
           },
           {
             "name": "Age",
@@ -731,12 +731,12 @@
           },
           {
             "name": "BKFC Experience",
-            "value_a": "0 fights",
+            "value_a": "7 fights",
             "value_b": "0 fights",
-            "edge_slug": null,
-            "edge_strength": 0,
+            "edge_slug": "lewis-knox",
+            "edge_strength": 0.875,
             "weight": 0.03,
-            "display": "Even"
+            "display": "+7 fights Knox"
           },
           {
             "name": "Height",
@@ -748,7 +748,7 @@
             "display": "-1\" Carus"
           }
         ],
-        "summary": "Model leans Carus 54/46. Edges on reach.",
+        "summary": "Model leans Knox 65/35. Edges on bkfc record, age, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [

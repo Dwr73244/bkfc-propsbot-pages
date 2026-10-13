@@ -5,8 +5,8 @@
   "nickname": "THE SCUMBAG",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 2,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Newcastle",
+      "event_slug": "bkfc-fight-night-newcastle-2",
+      "date": "2026-03-14T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Lewis Garside",
+      "opponent_slug": "lewis-garside",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kieron-sewell"
+    },
+    {
+      "event": "BKFC 81 - Manchester",
+      "event_slug": "bkfc-manchester",
+      "date": "2025-09-27T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:46",
+      "opponent": "Patryk Pientnik",
+      "opponent_slug": "patryk-pientnik",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/kieron-sewell"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/kieron-sewell"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-10-13T15:42:32.041Z"
 }

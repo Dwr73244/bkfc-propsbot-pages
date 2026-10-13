@@ -4,7 +4,7 @@
   "nickname": "EL ZAMBO",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 11,
+    "wins": 12,
     "losses": 0,
     "draws": 0,
     "kos": 2
@@ -39,6 +39,19 @@
       "opponent": "bear-hill",
       "opponent_slug": "bear-hill",
       "result": "W"
+    },
+    {
+      "event": "BKFC 93",
+      "event_slug": "bkfc-93-hollywood",
+      "date": "2026-09-11T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:14",
+      "opponent": "Shelby Hill",
+      "opponent_slug": "shelby-hill",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leonardo-perdomo"
     },
     {
       "event": "BKFC 87",
@@ -78,19 +91,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/leonardo-perdomo"
-    },
-    {
-      "event": "BKFC 78 -",
-      "event_slug": "bkfc-hollywood",
-      "date": "2025-07-12T00:00:00.000Z",
-      "method": "KO",
-      "round": 1,
-      "time": "01:26",
-      "opponent": "Arnold Adams",
-      "opponent_slug": "arnold-adams",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/leonardo-perdomo"
     }
   ],
   "sources": [
@@ -101,5 +101,5 @@
   "last_updated": "2026-07-31",
   "elo": 1563,
   "elo_peak": 1563,
-  "history_last_verified": "2026-08-07T09:04:43.602Z"
+  "history_last_verified": "2026-10-13T15:43:03.785Z"
 }
