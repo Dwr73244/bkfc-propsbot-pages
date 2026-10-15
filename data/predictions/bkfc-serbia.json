@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-serbia",
-  "generated_at": "2026-10-14T15:48:20.214Z",
+  "generated_at": "2026-10-15T13:12:31.216Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "agi-faulkner",
       "fighter_b_slug": "dilan-prasovic",
       "prediction": {
-        "prob_a": 0.2217,
-        "prob_b": 0.7783,
-        "raw_score": -0.483,
+        "prob_a": 0.241,
+        "prob_b": 0.759,
+        "raw_score": -0.4412,
         "favorite_slug": "dilan-prasovic",
         "confidence": "Low",
-        "advantage_a": 22,
-        "advantage_b": 78,
-        "predictability": 57,
+        "advantage_a": 24,
+        "advantage_b": 76,
+        "predictability": 56,
         "factors": [
           {
             "name": "Recent Form",
@@ -50,7 +50,7 @@
             "value_a": "—",
             "value_b": "6mo ago",
             "edge_slug": "dilan-prasovic",
-            "edge_strength": 1,
+            "edge_strength": 0.7,
             "weight": 0.05,
             "display": "Prasovic more active"
           },
@@ -91,7 +91,7 @@
             "display": "-4\" Prasovic"
           }
         ],
-        "summary": "Model leans Prasovic 78/22. Edges on recent form, age, activity, opponent quality.",
+        "summary": "Model leans Prasovic 76/24. Edges on recent form, age, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [

@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-95-newark",
-  "generated_at": "2026-10-14T15:48:20.197Z",
+  "generated_at": "2026-10-15T13:12:31.205Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -564,14 +564,14 @@
       "fighter_a_slug": "santo-curatolo",
       "fighter_b_slug": "anthony-yost",
       "prediction": {
-        "prob_a": 0.3121,
-        "prob_b": 0.6879,
-        "raw_score": -0.3041,
+        "prob_a": 0.3403,
+        "prob_b": 0.6597,
+        "raw_score": -0.2546,
         "favorite_slug": "anthony-yost",
         "confidence": "Very Low",
-        "advantage_a": 31,
-        "advantage_b": 69,
-        "predictability": 34,
+        "advantage_a": 34,
+        "advantage_b": 66,
+        "predictability": 32,
         "factors": [
           {
             "name": "Recent Form",
@@ -596,7 +596,7 @@
             "value_a": "—",
             "value_b": "6mo ago",
             "edge_slug": "anthony-yost",
-            "edge_strength": 1,
+            "edge_strength": 0.7,
             "weight": 0.05,
             "display": "Yost more active"
           },
@@ -628,7 +628,7 @@
             "display": "+4 fights Yost"
           }
         ],
-        "summary": "Model leans Yost 69/31. Edges on recent form, activity, bkfc experience.",
+        "summary": "Model leans Yost 66/34. Edges on recent form, activity, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
