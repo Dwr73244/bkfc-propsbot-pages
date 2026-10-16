@@ -2,8 +2,58 @@
   "event_slug": "bkfc-95-newark",
   "event_date": "2026-10-17",
   "source": "bestfightodds-props",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4404",
-  "fetched_at": "2026-10-11T06:59:32.277Z",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4413",
+  "fetched_at": "2026-10-16T11:49:15.682Z",
   "total_prop_rows": 0,
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "jamel-herring",
+      "fighter_b_slug": "john-dodson",
+      "matchup_id": "45355",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "tony-loco-soto",
+      "fighter_b_slug": "anthony-pike",
+      "matchup_id": "45358",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "dalvin-blair",
+      "fighter_b_slug": "paris-boyd",
+      "matchup_id": "45359",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "santo-curatolo",
+      "fighter_b_slug": "anthony-yost",
+      "matchup_id": "45357",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "jimmie-rivera",
+      "fighter_b_slug": "brandon-meyer",
+      "matchup_id": "45360",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "dylan-pitt",
+      "fighter_b_slug": "nicholas-saragosa",
+      "matchup_id": "45356",
+      "prop_row_count": 0,
+      "prop_markets": []
+    },
+    {
+      "fighter_a_slug": "tony-soto",
+      "fighter_b_slug": "anthony-pike",
+      "matchup_id": "45358",
+      "prop_row_count": 0,
+      "prop_markets": []
+    }
+  ]
 }

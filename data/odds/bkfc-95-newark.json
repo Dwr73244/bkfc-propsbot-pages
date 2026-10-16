@@ -3,13 +3,183 @@
   "event_date": "2026-10-17",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-10-15T15:17:37.744Z",
-  "book_count": 4,
+  "fetched_at": "2026-10-16T11:49:28.246Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "jamel-herring",
+      "fighter_b_slug": "john-dodson",
+      "moneyline_a": -245,
+      "moneyline_b": 170,
+      "implied_prob_a": 0.71,
+      "implied_prob_b": 0.37,
+      "vig": 0.081,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -245,
+          -245
+        ],
+        "b": [
+          170,
+          170
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "tony-loco-soto",
+      "fighter_b_slug": "anthony-pike",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -335,
+          -335
+        ],
+        "b": [
+          220,
+          220
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "dalvin-blair",
+      "fighter_b_slug": "paris-boyd",
+      "moneyline_a": -225,
+      "moneyline_b": 155,
+      "implied_prob_a": 0.692,
+      "implied_prob_b": 0.392,
+      "vig": 0.084,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -225,
+          -225
+        ],
+        "b": [
+          155,
+          155
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "santo-curatolo",
+      "fighter_b_slug": "anthony-yost",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -335,
+          -335
+        ],
+        "b": [
+          220,
+          220
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "jimmie-rivera",
+      "fighter_b_slug": "brandon-meyer",
+      "moneyline_a": -715,
+      "moneyline_b": 440,
+      "implied_prob_a": 0.877,
+      "implied_prob_b": 0.185,
+      "vig": 0.062,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -715,
+          -715
+        ],
+        "b": [
+          440,
+          440
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "dylan-pitt",
+      "fighter_b_slug": "nicholas-saragosa",
+      "moneyline_a": 115,
+      "moneyline_b": -159,
+      "implied_prob_a": 0.465,
+      "implied_prob_b": 0.614,
+      "vig": 0.079,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          115,
+          115
+        ],
+        "b": [
+          -159,
+          -159
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "tony-soto",
+      "fighter_b_slug": "anthony-pike",
+      "moneyline_a": -335,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.77,
+      "implied_prob_b": 0.313,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -335,
+          -335
+        ],
+        "b": [
+          220,
+          220
+        ]
+      }
+    }
+  ]
 }

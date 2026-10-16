@@ -43,7 +43,7 @@
       "source_url": "https://www.bkfc.com/fighters/marcus-edwards"
     },
     {
-      "event": "BKFCF 67 - Denver",
+      "event": "BKFC 67 - Denver",
       "event_slug": "bkfc-67-camozzi-vs-depee",
       "date": "2024-10-25T00:00:00.000Z",
       "method": "Unanimous Decision",
@@ -87,5 +87,5 @@
   "last_updated": "2026-07-31",
   "elo": 1523,
   "elo_peak": 1523,
-  "history_last_verified": "2026-08-08T08:39:02.539Z"
+  "history_last_verified": "2026-10-16T13:08:17.522Z"
 }
