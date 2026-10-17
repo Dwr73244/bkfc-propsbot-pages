@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-95-newark",
-  "generated_at": "2026-10-16T15:21:29.805Z",
+  "generated_at": "2026-10-17T11:59:43.955Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1119,35 +1119,35 @@
       "fighter_a_slug": "dylan-pitt",
       "fighter_b_slug": "nicholas-saragosa",
       "prediction": {
-        "prob_a": 0.4689,
-        "prob_b": 0.5311,
-        "raw_score": 0,
+        "prob_a": 0.3743,
+        "prob_b": 0.6257,
+        "raw_score": -0.2759,
         "favorite_slug": "nicholas-saragosa",
         "confidence": "Very Low",
-        "advantage_a": 47,
-        "advantage_b": 53,
-        "predictability": 19,
+        "advantage_a": 37,
+        "advantage_b": 63,
+        "predictability": 35,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_b": "1-0",
+            "edge_slug": "nicholas-saragosa",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 67% win rate"
           },
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Saragosa 63/37. Edges on bkfc record.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1188,14 +1188,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.46892956441149214,
-        "model_prob_b": 0.5310704355885079,
+        "model_prob_a": 0.37432572705635775,
+        "model_prob_b": 0.6256742729436422,
         "market_fair_prob_a": 0.4309545875810936,
         "market_fair_prob_b": 0.5690454124189064,
-        "edge_pct_a": 0.03797497683039852,
-        "edge_pct_b": -0.03797497683039852,
-        "edge_slug": "dylan-pitt",
-        "edge_pct": 0.03797497683039852
+        "edge_pct_a": -0.05662886052473587,
+        "edge_pct_b": 0.05662886052473581,
+        "edge_slug": "nicholas-saragosa",
+        "edge_pct": 0.05662886052473587
       }
     },
     {
