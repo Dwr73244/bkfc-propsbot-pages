@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-95-newark",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:37",
+      "opponent": "santo-curatolo",
+      "opponent_slug": "santo-curatolo",
+      "result": "L"
+    },
+    {
       "event": "BKFC 88 Denver: Camozzi vs. Rodriguez",
       "event_slug": "bkfc-88-denver",
       "date": "2026-04-18T02:00:00.000Z",
@@ -85,7 +96,7 @@
     "https://www.bkfc.com/fighters/anthony-yost"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1519,
+  "elo": 1496,
   "elo_peak": 1519,
   "history_last_verified": "2026-09-29T14:44:51.122Z"
 }

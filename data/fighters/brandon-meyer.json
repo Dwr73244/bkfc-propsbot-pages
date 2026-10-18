@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-95-newark",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "0:46",
+      "opponent": "jimmie-rivera",
+      "opponent_slug": "jimmie-rivera",
+      "result": "L"
+    },
+    {
       "event": "knucklemania-vi",
       "event_slug": "bkfc-knucklemania-vi",
       "date": "2026-02-07T00:00:00.000Z",
@@ -76,17 +87,6 @@
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/brandon-meyer"
-    },
-    {
-      "event": "BKFC Fight Night Miami: Davis vs. Wilson",
-      "event_slug": "bkfc-fight-night-miami-2024",
-      "date": "2024-03-15T20:00:00.000Z",
-      "method": "Decision (unanimous)",
-      "round": 5,
-      "time": "2:00",
-      "opponent": "famez",
-      "opponent_slug": "famez",
-      "result": "W"
     }
   ],
   "sources": [
@@ -96,7 +96,7 @@
     "https://www.bkfc.com/fighters/brandon-meyer"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1498,
+  "elo": 1479,
   "elo_peak": 1523,
   "history_last_verified": "2026-08-15T08:33:10.734Z"
 }

@@ -3,7 +3,7 @@
   "event_date": "2026-10-17",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-10-17T11:06:27.365Z",
+  "fetched_at": "2026-10-18T09:49:28.893Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -16,10 +16,10 @@
     {
       "fighter_a_slug": "jamel-herring",
       "fighter_b_slug": "john-dodson",
-      "moneyline_a": -245,
-      "moneyline_b": 170,
-      "implied_prob_a": 0.71,
-      "implied_prob_b": 0.37,
+      "moneyline_a": -275,
+      "moneyline_b": 188,
+      "implied_prob_a": 0.733,
+      "implied_prob_b": 0.347,
       "vig": 0.081,
       "book_count": 2,
       "books": [
@@ -28,12 +28,12 @@
       ],
       "line_range": {
         "a": [
-          -245,
-          -245
+          -275,
+          -275
         ],
         "b": [
-          170,
-          170
+          188,
+          188
         ]
       }
     },
@@ -88,11 +88,11 @@
     {
       "fighter_a_slug": "santo-curatolo",
       "fighter_b_slug": "anthony-yost",
-      "moneyline_a": -335,
-      "moneyline_b": 220,
-      "implied_prob_a": 0.77,
-      "implied_prob_b": 0.313,
-      "vig": 0.083,
+      "moneyline_a": -225,
+      "moneyline_b": 155,
+      "implied_prob_a": 0.692,
+      "implied_prob_b": 0.392,
+      "vig": 0.084,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -100,12 +100,12 @@
       ],
       "line_range": {
         "a": [
-          -335,
-          -335
+          -225,
+          -225
         ],
         "b": [
-          220,
-          220
+          155,
+          155
         ]
       }
     },

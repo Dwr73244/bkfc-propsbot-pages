@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-95-newark",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:22",
+      "opponent": "paris-boyd",
+      "opponent_slug": "paris-boyd",
+      "result": "W"
+    },
+    {
       "event": "BKFC 86",
       "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
       "date": "2026-01-17T00:00:00.000Z",
@@ -72,7 +83,7 @@
     "https://www.bkfc.com/fighters/dalvin-blair"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1522,
-  "elo_peak": 1522,
+  "elo": 1543,
+  "elo_peak": 1543,
   "history_last_verified": "2026-08-26T08:48:04.429Z"
 }

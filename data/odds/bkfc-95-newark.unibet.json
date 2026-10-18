@@ -3,15 +3,15 @@
   "event_date": "2026-10-17",
   "source": "unibet",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4413",
-  "fetched_at": "2026-10-16T11:49:14.900Z",
+  "fetched_at": "2026-10-17T22:09:36.658Z",
   "bouts": [
     {
       "fighter_a_slug": "jamel-herring",
       "fighter_b_slug": "john-dodson",
-      "moneyline_a": -245,
-      "moneyline_b": 170,
-      "implied_prob_a": 0.71,
-      "implied_prob_b": 0.37,
+      "moneyline_a": -275,
+      "moneyline_b": 188,
+      "implied_prob_a": 0.733,
+      "implied_prob_b": 0.347,
       "vig": 0.081,
       "book_count": 1
     },
@@ -38,11 +38,11 @@
     {
       "fighter_a_slug": "santo-curatolo",
       "fighter_b_slug": "anthony-yost",
-      "moneyline_a": -335,
-      "moneyline_b": 220,
-      "implied_prob_a": 0.77,
-      "implied_prob_b": 0.313,
-      "vig": 0.083,
+      "moneyline_a": -225,
+      "moneyline_b": 155,
+      "implied_prob_a": 0.692,
+      "implied_prob_b": 0.392,
+      "vig": 0.084,
       "book_count": 1
     },
     {

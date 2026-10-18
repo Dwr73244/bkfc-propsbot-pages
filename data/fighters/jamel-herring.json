@@ -31,6 +31,17 @@
   "bio": "Former WBO junior lightweight world champion (2019-2021) and U.S. Marine who served two tours in Iraq. Compiled a 24-5 professional boxing record with 12 KOs, successfully defending his title three times before losing to Shakur Stevenson in 2021. Competed at the 2012 London Olympics, the only U.S. Marine at those Games. Retired from pro boxing in 2022 and made his BKFC debut in January 2026.",
   "last_5": [
     {
+      "event": "bkfc-95-newark",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "john-dodson",
+      "opponent_slug": "john-dodson",
+      "result": "W"
+    },
+    {
       "event": "BKFC 89",
       "event_slug": "bkfc-palm-desert",
       "date": "2026-05-22T00:00:00.000Z",
@@ -468,5 +479,7 @@
       "status": "lost"
     }
   ],
-  "history_last_verified": "2026-08-30T13:40:40.708Z"
+  "history_last_verified": "2026-08-30T13:40:40.708Z",
+  "elo": 1524,
+  "elo_peak": 1524
 }

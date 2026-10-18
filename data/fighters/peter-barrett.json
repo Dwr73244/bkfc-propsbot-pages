@@ -5,7 +5,7 @@
   "nickname": "SLIPPERY PETE",
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -72,7 +72,7 @@
     "https://www.bkfc.com/fighters/peter-barrett"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-02T10:02:13.220Z",
+  "history_last_verified": "2026-10-18T12:34:00.200Z",
   "elo": 1523,
   "elo_peak": 1523
 }

@@ -5,7 +5,7 @@
   "nickname": "The Revenant",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -30,6 +30,19 @@
   },
   "bio": null,
   "last_5": [
+    {
+      "event": "BKFC Fight Night Australia",
+      "event_slug": "bkfc-fight-night-australia",
+      "date": "2026-10-03T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "00:41",
+      "opponent": "Ricky Rowles-Brown",
+      "opponent_slug": "ricky-rowles-brown",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/patrick-tolone"
+    },
     {
       "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
       "event_slug": "bkfc-fight-night-australia-townsville",
@@ -61,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-08-02T10:02:08.127Z"
+  "history_last_verified": "2026-10-18T12:33:59.440Z"
 }

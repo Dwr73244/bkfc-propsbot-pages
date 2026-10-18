@@ -42,7 +42,7 @@
       "result": "W"
     },
     {
-      "event": "BKFC 88",
+      "event": "BKFC - 88",
       "event_slug": "bkfc-denver",
       "date": "2026-04-17T00:00:00.000Z",
       "method": "Unanimous Decision",
@@ -104,5 +104,5 @@
   ],
   "elo": 1518,
   "elo_peak": 1518,
-  "history_last_verified": "2026-08-02T10:02:26.449Z"
+  "history_last_verified": "2026-10-18T12:34:10.033Z"
 }

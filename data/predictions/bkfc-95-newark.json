@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-95-newark",
-  "generated_at": "2026-10-17T14:10:59.469Z",
+  "generated_at": "2026-10-17T22:09:48.177Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "jamel-herring",
       "fighter_b_slug": "john-dodson",
       "prediction": {
-        "prob_a": 0.5882,
-        "prob_b": 0.4118,
+        "prob_a": 0.5978,
+        "prob_b": 0.4022,
         "raw_score": 0.0486,
         "favorite_slug": "jamel-herring",
         "confidence": "Low",
-        "advantage_a": 59,
-        "advantage_b": 41,
+        "advantage_a": 60,
+        "advantage_b": 40,
         "predictability": 37,
         "factors": [
           {
@@ -118,7 +118,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Herring 59/41. Edges on age, pro boxing, reach, activity.",
+        "summary": "Model leans Herring 60/40. Edges on age, pro boxing, reach, activity.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -159,14 +159,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5881862953048798,
-        "model_prob_b": 0.41181370469512024,
-        "market_fair_prob_a": 0.6574074074074073,
-        "market_fair_prob_b": 0.34259259259259256,
-        "edge_pct_a": -0.06922111210252757,
-        "edge_pct_b": 0.06922111210252768,
+        "model_prob_a": 0.597769628638213,
+        "model_prob_b": 0.40223037136178696,
+        "market_fair_prob_a": 0.6787037037037037,
+        "market_fair_prob_b": 0.32129629629629625,
+        "edge_pct_a": -0.08093407506549066,
+        "edge_pct_b": 0.08093407506549072,
         "edge_slug": "john-dodson",
-        "edge_pct": 0.06922111210252757
+        "edge_pct": 0.08093407506549066
       }
     },
     {
@@ -591,14 +591,14 @@
       "fighter_a_slug": "santo-curatolo",
       "fighter_b_slug": "anthony-yost",
       "prediction": {
-        "prob_a": 0.5071,
-        "prob_b": 0.4929,
+        "prob_a": 0.4744,
+        "prob_b": 0.5256,
         "raw_score": -0.2546,
-        "favorite_slug": "santo-curatolo",
+        "favorite_slug": "anthony-yost",
         "confidence": "Very Low",
-        "advantage_a": 51,
-        "advantage_b": 49,
-        "predictability": 13,
+        "advantage_a": 47,
+        "advantage_b": 53,
+        "predictability": 24,
         "factors": [
           {
             "name": "Recent Form",
@@ -655,7 +655,7 @@
             "display": "+4 fights Yost"
           }
         ],
-        "summary": "Model leans Curatolo 51/49. Edges on opponent quality.",
+        "summary": "Model leans Yost 53/47. Edges on recent form, activity, bkfc experience.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -696,14 +696,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5070965868529548,
-        "model_prob_b": 0.4929034131470452,
-        "market_fair_prob_a": 0.710987996306556,
-        "market_fair_prob_b": 0.28901200369344415,
-        "edge_pct_a": -0.20389140945360118,
-        "edge_pct_b": 0.20389140945360107,
+        "model_prob_a": 0.47442136120873146,
+        "model_prob_b": 0.5255786387912685,
+        "market_fair_prob_a": 0.6383763837638375,
+        "market_fair_prob_b": 0.36162361623616235,
+        "edge_pct_a": -0.16395502255510608,
+        "edge_pct_b": 0.1639550225551062,
         "edge_slug": "anthony-yost",
-        "edge_pct": 0.20389140945360118
+        "edge_pct": 0.16395502255510608
       }
     },
     {

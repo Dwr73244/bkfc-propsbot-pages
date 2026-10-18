@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-95-newark",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "Split Decision",
+      "round": 5,
+      "time": "2:00",
+      "opponent": "jamel-herring",
+      "opponent_slug": "jamel-herring",
+      "result": "L"
+    },
+    {
       "event": "BKFC 59 Albuquerque: Dodson vs. Aguero",
       "event_slug": "bkfc-59",
       "date": "2024-03-29T20:00:00.000Z",
@@ -88,7 +99,7 @@
     "counter",
     "volume"
   ],
-  "elo": 1522,
+  "elo": 1498,
   "elo_peak": 1522,
   "history_last_verified": "2026-08-05T10:39:57.555Z"
 }

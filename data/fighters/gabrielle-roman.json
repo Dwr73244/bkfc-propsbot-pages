@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-95-newark",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:59",
+      "opponent": "brooke-evans",
+      "opponent_slug": "brooke-evans",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun",
       "date": "2025-12-20T00:00:00.000Z",
@@ -78,19 +89,6 @@
       "opponent": "jade-masson-wong",
       "opponent_slug": "jade-masson-wong",
       "result": "L"
-    },
-    {
-      "event": "BKFC 47",
-      "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
-      "date": "2023-07-14T00:00:00.000Z",
-      "method": "TKO",
-      "round": 1,
-      "time": "02:00",
-      "opponent": "Martyna Krol",
-      "opponent_slug": "martyna-krol",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/gabrielle-roman"
     }
   ],
   "sources": [
@@ -99,7 +97,7 @@
     "https://www.bkfc.com/fighters/gabrielle-roman"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1479,
+  "elo": 1459,
   "elo_peak": 1500,
   "history_last_verified": "2026-08-29T13:44:41.435Z"
 }

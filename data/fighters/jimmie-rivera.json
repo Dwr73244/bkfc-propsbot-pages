@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-95-newark",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "KO",
+      "round": 4,
+      "time": "0:46",
+      "opponent": "brandon-meyer",
+      "opponent_slug": "brandon-meyer",
+      "result": "W"
+    },
+    {
       "event": "BKFC 82 -",
       "event_slug": "bkfc-new-jersey",
       "date": "2025-10-04T00:00:00.000Z",
@@ -78,17 +89,6 @@
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/jimmie-rivera"
-    },
-    {
-      "event": "BKFC 43 Omaha: Alexander vs. Smith",
-      "event_slug": "bkfc-43",
-      "date": "2023-05-19T20:00:00.000Z",
-      "method": "Decision (unanimous)",
-      "round": 5,
-      "time": "2:00",
-      "opponent": "bekhzod-usmonov",
-      "opponent_slug": "bekhzod-usmonov",
-      "result": "W"
     }
   ],
   "sources": [
@@ -97,7 +97,7 @@
     "https://www.bkfc.com/fighters/jimmie-rivera"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1536,
-  "elo_peak": 1536,
+  "elo": 1556,
+  "elo_peak": 1556,
   "history_last_verified": "2026-08-05T10:39:56.465Z"
 }
