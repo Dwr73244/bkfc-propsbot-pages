@@ -6,7 +6,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -31,6 +31,19 @@
   "bio": null,
   "last_5": [
     {
+      "event": "BKFC Fight Night Australia",
+      "event_slug": "bkfc-fight-night-australia",
+      "date": "2026-10-03T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "00:50",
+      "opponent": "Mick Whitehead",
+      "opponent_slug": "mick-whitehead",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ryan-winnett"
+    },
+    {
       "event": "BKFC Fight Night Australia: Hepi vs Wiśniewski 2",
       "event_slug": "bkfc-fight-night-australia-townsville",
       "date": "2026-04-18T09:00:00.000Z",
@@ -40,19 +53,6 @@
       "opponent": "cooper-clarke",
       "opponent_slug": "cooper-clarke",
       "result": "W"
-    },
-    {
-      "event": "BKFC - Fight Night Australia",
-      "event_slug": "bkfc-australia-2",
-      "date": "2026-04-18T00:00:00.000Z",
-      "method": "TKO",
-      "round": 3,
-      "time": "00:45",
-      "opponent": "Ryan Winnett",
-      "opponent_slug": "ryan-winnett",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/ryan-winnett"
     }
   ],
   "sources": [
@@ -61,5 +61,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-08-03T11:28:14.291Z"
+  "history_last_verified": "2026-10-19T15:17:45.721Z"
 }

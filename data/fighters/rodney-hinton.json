@@ -42,7 +42,7 @@
       "result": "W"
     },
     {
-      "event": "BKFC 88",
+      "event": "BKFC - 88",
       "event_slug": "bkfc-denver",
       "date": "2026-04-17T00:00:00.000Z",
       "method": "TKO",
@@ -91,5 +91,5 @@
   ],
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-08-03T11:27:52.717Z"
+  "history_last_verified": "2026-10-19T15:17:33.611Z"
 }

@@ -40,6 +40,19 @@
       "opponent": "mike-medrano",
       "opponent_slug": "mike-medrano",
       "result": "L"
+    },
+    {
+      "event": "BKFC 95",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "Split Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Rob Emerson",
+      "opponent_slug": "rob-emerson",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/rob-emerson"
     }
   ],
   "sources": [
@@ -49,5 +62,6 @@
   "elo": 1481,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-10-18"
+  "record_verified": "2026-10-18",
+  "history_last_verified": "2026-10-19T15:17:24.019Z"
 }
