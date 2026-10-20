@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-clearwater-4",
-  "generated_at": "2026-10-19T17:26:42.553Z",
+  "generated_at": "2026-10-20T13:29:15.445Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1140,23 +1140,23 @@
       "fighter_a_slug": "frankie-solomon-jr",
       "fighter_b_slug": "terryl-johnson",
       "prediction": {
-        "prob_a": 0.721,
-        "prob_b": 0.279,
-        "raw_score": 0.3652,
+        "prob_a": 0.7769,
+        "prob_b": 0.2231,
+        "raw_score": 0.4799,
         "favorite_slug": "frankie-solomon-jr",
         "confidence": "Very Low",
-        "advantage_a": 72,
-        "advantage_b": 28,
-        "predictability": 41,
+        "advantage_a": 78,
+        "advantage_b": 22,
+        "predictability": 44,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_b": "0-1",
+            "edge_slug": "frankie-solomon-jr",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 33% win rate"
           },
           {
             "name": "Age",
@@ -1179,14 +1179,14 @@
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "0 fights",
+            "value_b": "1 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.125,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Model leans Jr 72/28. Edges on age, reach.",
+        "summary": "Model leans Jr 78/22. Edges on bkfc record, age, reach.",
         "market_adjusted": false
       },
       "prop_markets": [

@@ -6,7 +6,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Michigan",
+      "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
+      "date": "2025-11-01T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:19",
+      "opponent": "David Sanchez",
+      "opponent_slug": "david-sanchez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/terryl-johnson"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/terryl-johnson"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-10-20T13:29:01.895Z"
 }

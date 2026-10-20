@@ -6,7 +6,7 @@
   "division": "Women's Flyweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -31,14 +31,27 @@
   "bio": null,
   "last_5": [
     {
+      "event": "BKFC Fight Night Bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Marisol Ruelas Lopez",
+      "opponent_slug": "marisol-ruelas-lopez",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/taylor-dagner"
+    },
+    {
       "event": "BKFC - Fight Night Mohegan Sun",
       "event_slug": "bkfc-fight-night-mohegan-sun-porter-vs-watson",
       "date": "2026-03-28T00:00:00.000Z",
       "method": "Unanimous Draw",
       "round": 3,
       "time": "02:00",
-      "opponent": "Taylor Dagner",
-      "opponent_slug": "taylor-dagner",
+      "opponent": "Alexandra Ballou",
+      "opponent_slug": "alexandra-ballou",
       "result": "D",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/taylor-dagner"
@@ -48,5 +61,5 @@
     "https://www.bkfc.com/fighters/taylor-dagner"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-23T13:29:32.443Z"
+  "history_last_verified": "2026-10-20T13:28:58.347Z"
 }

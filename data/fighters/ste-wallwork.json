@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 2,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -49,5 +49,6 @@
   "elo": 1479,
   "elo_peak": 1500,
   "record_source": "tracked-events",
-  "record_verified": "2026-09-27"
+  "record_verified": "2026-09-27",
+  "history_last_verified": "2026-10-20T13:28:34.025Z"
 }
