@@ -46,11 +46,33 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "CoMain",
+      "weight_class": "Cruiserweight",
+      "fighter_a_slug": "derek-brunson",
+      "fighter_b_slug": "theo-doukas",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "ryan-jett",
+      "fighter_b_slug": "rodney-hinton",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach"
   ],
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-20",
   "needs_card_population": false
 }
