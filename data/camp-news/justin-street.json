@@ -1,7 +1,15 @@
 {
   "slug": "justin-street",
-  "fetched_at": "2026-10-20T15:39:42.691Z",
+  "fetched_at": "2026-10-21T15:57:59.830Z",
   "gym": null,
   "coach": null,
-  "news": []
+  "news": [
+    {
+      "title": "Reber Vs. Street Headlines BKFC Fight Night Clearwater - MMANews.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcndQZnUyQ3dzRUUzRzQwdWhlV2R6WXlTd1pFUmFTcUJPZnlJWHRPb3R2Tktyb1JoaEpSN0JaWnBtaHJsUXlkemU3WWxfTHdHRlZwNXZaQ0l4TFRDdGNWZkY5bDhaU1pPTDlSa19ydy0tTDdYR3NHNmVWUC03amFrZ0otZmctU1U?oc=5",
+      "source": "MMANews.com",
+      "date": "2026-10-21",
+      "snippet": "Reber Vs. Street Headlines BKFC Fight Night Clearwater MMANews.com"
+    }
+  ]
 }

@@ -1,7 +1,146 @@
 {
   "event_slug": "bkfc-fight-night-hershey",
-  "generated_at": "2026-10-21T13:34:20.986Z",
+  "generated_at": "2026-10-21T15:55:47.410Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
-  "bouts": []
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "dustin-pague",
+      "fighter_b_slug": "mike-richman",
+      "prediction": {
+        "prob_a": 0.5363,
+        "prob_b": 0.4637,
+        "raw_score": 0.0559,
+        "favorite_slug": "dustin-pague",
+        "confidence": "Low",
+        "advantage_a": 54,
+        "advantage_b": 46,
+        "predictability": 34,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1543,
+            "value_b": 1518,
+            "edge_slug": "dustin-pague",
+            "edge_strength": 0.125,
+            "weight": 0.16,
+            "display": "+25 ELO Pague"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W-W",
+            "value_b": "W-W-L",
+            "edge_slug": "dustin-pague",
+            "edge_strength": 0.506,
+            "weight": 0.13,
+            "display": "Pague hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "6-2",
+            "value_b": "8-4",
+            "edge_slug": null,
+            "edge_strength": 0.143,
+            "weight": 0.11,
+            "display": "70% vs 64% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "33%",
+            "value_b": "13%",
+            "edge_slug": "dustin-pague",
+            "edge_strength": 0.313,
+            "weight": 0.11,
+            "display": "21 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 38,
+            "value_b": 38,
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.09,
+            "display": "38 vs 38"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.6y ago",
+            "value_b": "9mo ago",
+            "edge_slug": "mike-richman",
+            "edge_strength": 0.8,
+            "weight": 0.05,
+            "display": "Richman more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "47%",
+            "value_b": "56%",
+            "edge_slug": null,
+            "edge_strength": 0.178,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "8 fights",
+            "value_b": "12 fights",
+            "edge_slug": "mike-richman",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "+4 fights Richman"
+          }
+        ],
+        "summary": "Model leans Pague 54/46. Edges on recent form, ko rate.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 284,
+              "implied_prob": 0.261
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -284,
+              "implied_prob": 0.739
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -114,
+              "implied_prob": 0.532
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 383,
+              "implied_prob": 0.207
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 284,
+              "implied_prob": 0.261
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
 }
