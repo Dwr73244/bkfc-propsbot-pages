@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-myrtle-beach",
-  "generated_at": "2026-10-22T13:36:00.540Z",
+  "generated_at": "2026-10-22T15:51:58.213Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -508,6 +508,357 @@
               "outcome": "Decision",
               "moneyline": 257,
               "implied_prob": 0.28
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 6,
+      "fighter_a_slug": "windson-ramos",
+      "fighter_b_slug": "robert-fichtner",
+      "prediction": {
+        "prob_a": 0.5323,
+        "prob_b": 0.4677,
+        "raw_score": 0.0498,
+        "favorite_slug": "windson-ramos",
+        "confidence": "Very Low",
+        "advantage_a": 53,
+        "advantage_b": 47,
+        "predictability": 19,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "L",
+            "edge_slug": "windson-ramos",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Ramos hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-1",
+            "edge_slug": "windson-ramos",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 33% win rate"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "2mo ago",
+            "edge_slug": "robert-fichtner",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Fichtner more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "83%",
+            "edge_slug": "robert-fichtner",
+            "edge_strength": 0.667,
+            "weight": 0.04,
+            "display": "Fichtner tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "1 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Ramos 53/47. Edges on recent form, bkfc record.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 163,
+              "implied_prob": 0.38
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -163,
+              "implied_prob": 0.62
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 124,
+              "implied_prob": 0.446
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 476,
+              "implied_prob": 0.174
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 163,
+              "implied_prob": 0.38
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 7,
+      "fighter_a_slug": "brandon-bushaw",
+      "fighter_b_slug": "joshua-claudio",
+      "prediction": {
+        "prob_a": 0.6374,
+        "prob_b": 0.3626,
+        "raw_score": 0.217,
+        "favorite_slug": "brandon-bushaw",
+        "confidence": "Very Low",
+        "advantage_a": 64,
+        "advantage_b": 36,
+        "predictability": 36,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "L-W",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.073,
+            "weight": 0.13,
+            "display": "Similar form"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "2-2",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.11,
+            "display": "50% vs 50% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "50%",
+            "value_b": "—",
+            "edge_slug": "brandon-bushaw",
+            "edge_strength": 0.225,
+            "weight": 0.11,
+            "display": "15 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "2mo ago",
+            "value_b": "—",
+            "edge_slug": "brandon-bushaw",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Bushaw more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "50%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "4 fights",
+            "value_b": "0 fights",
+            "edge_slug": "brandon-bushaw",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "+4 fights Bushaw"
+          }
+        ],
+        "summary": "Model leans Bushaw 64/36. Edges on ko rate, activity, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 223,
+              "implied_prob": 0.31
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -223,
+              "implied_prob": 0.69
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 101,
+              "implied_prob": 0.497
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 418,
+              "implied_prob": 0.193
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 223,
+              "implied_prob": 0.31
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 8,
+      "fighter_a_slug": "maurice-morris",
+      "fighter_b_slug": "lewis-glover",
+      "prediction": {
+        "prob_a": 0.7127,
+        "prob_b": 0.2873,
+        "raw_score": 0.3495,
+        "favorite_slug": "maurice-morris",
+        "confidence": "Low",
+        "advantage_a": 71,
+        "advantage_b": 29,
+        "predictability": 49,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1518,
+            "value_b": 1478,
+            "edge_slug": "maurice-morris",
+            "edge_strength": 0.2,
+            "weight": 0.16,
+            "display": "+40 ELO Morris"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "L",
+            "edge_slug": "maurice-morris",
+            "edge_strength": 1,
+            "weight": 0.13,
+            "display": "Morris hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "1-0",
+            "value_b": "1-2",
+            "edge_slug": "maurice-morris",
+            "edge_strength": 0.667,
+            "weight": 0.11,
+            "display": "67% vs 40% win rate"
+          },
+          {
+            "name": "Activity",
+            "value_a": "14d ago",
+            "value_b": "1.6y ago",
+            "edge_slug": "maurice-morris",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Morris more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "29%",
+            "value_b": "83%",
+            "edge_slug": "lewis-glover",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Glover tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "1 fights",
+            "value_b": "3 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Morris 71/29. Edges on recent form, bkfc record, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 456,
+              "implied_prob": 0.18
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -456,
+              "implied_prob": 0.82
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -144,
+              "implied_prob": 0.59
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 336,
+              "implied_prob": 0.23
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 456,
+              "implied_prob": 0.18
             }
           ]
         }

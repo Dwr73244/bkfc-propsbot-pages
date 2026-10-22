@@ -178,11 +178,33 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 16,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "frankie-solomon-jr",
+      "fighter_b_slug": "brooks-warman",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 17,
+      "card_position": "Prelim",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "jadon-lee",
+      "fighter_b_slug": "donny-korbel",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-clearwater-4"
   ],
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-22",
   "needs_card_population": false
 }

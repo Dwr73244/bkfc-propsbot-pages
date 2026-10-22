@@ -1,7 +1,22 @@
 {
   "slug": "ryan-reber",
-  "fetched_at": "2026-10-21T15:58:15.682Z",
+  "fetched_at": "2026-10-22T15:53:39.221Z",
   "gym": null,
   "coach": null,
-  "news": []
+  "news": [
+    {
+      "title": "BKFC Clearwater Weigh-In Results: Reber vs. Street - FightBook MMA",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNjFIWE9rSEhpTFU4RVVLcnVaZnB2Ujh1SEtVMXZ1VDFsSXRramRCY2xuVmxQZ1ZhYW9iNVhLa2FUY2tBQ1REZURQUHVHZm56cTFnTjhDdTVlQTFGMWpvZ2lXS1kwdDRYZGdKVnpqSHhZd3RqanhvandNU1dFZW40Sw?oc=5",
+      "source": "FightBook MMA",
+      "date": "2026-10-22",
+      "snippet": "BKFC Clearwater Weigh-In Results: Reber vs. Street FightBook MMA"
+    },
+    {
+      "title": "Reber Vs. Street Headlines BKFC Fight Night Clearwater - MMANews.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcndQZnUyQ3dzRUUzRzQwdWhlV2R6WXlTd1pFUmFTcUJPZnlJWHRPb3R2Tktyb1JoaEpSN0JaWnBtaHJsUXlkemU3WWxfTHdHRlZwNXZaQ0l4TFRDdGNWZkY5bDhaU1pPTDlSa19ydy0tTDdYR3NHNmVWUC03amFrZ0otZmctU1U?oc=5",
+      "source": "MMANews.com",
+      "date": "2026-10-21",
+      "snippet": "Reber Vs. Street Headlines BKFC Fight Night Clearwater MMANews.com"
+    }
+  ]
 }

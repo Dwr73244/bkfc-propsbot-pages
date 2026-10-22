@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-10-22T13:36:00.542Z",
+  "generated_at": "2026-10-22T15:51:58.216Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1231,6 +1231,264 @@
               "outcome": "Decision",
               "moneyline": 300,
               "implied_prob": 0.25
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 13,
+      "fighter_a_slug": "gzim-selmani",
+      "fighter_b_slug": "rob-cunningham",
+      "prediction": {
+        "prob_a": 0.4536,
+        "prob_b": 0.5464,
+        "raw_score": -0.0716,
+        "favorite_slug": "rob-cunningham",
+        "confidence": "Low",
+        "advantage_a": 45,
+        "advantage_b": 55,
+        "predictability": 34,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "W",
+            "edge_slug": "rob-cunningham",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Cunningham hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "1-0",
+            "value_b": "2-5",
+            "edge_slug": "gzim-selmani",
+            "edge_strength": 0.833,
+            "weight": 0.11,
+            "display": "67% vs 33% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "50%",
+            "edge_slug": "rob-cunningham",
+            "edge_strength": 0.225,
+            "weight": 0.11,
+            "display": "-15 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 32,
+            "value_b": 35,
+            "edge_slug": "gzim-selmani",
+            "edge_strength": 0.36,
+            "weight": 0.09,
+            "display": "32 vs 35"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "3.5y ago",
+            "edge_slug": "gzim-selmani",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Selmani more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "50%",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "1 fights",
+            "value_b": "7 fights",
+            "edge_slug": "rob-cunningham",
+            "edge_strength": 0.75,
+            "weight": 0.03,
+            "display": "+6 fights Cunningham"
+          },
+          {
+            "name": "Height",
+            "value_a": "6'3\"",
+            "value_b": "6'4\"",
+            "edge_slug": "rob-cunningham",
+            "edge_strength": 0.2,
+            "weight": 0.03,
+            "display": "-1\" Cunningham"
+          }
+        ],
+        "summary": "Model leans Cunningham 55/45. Edges on recent form, ko rate, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -567,
+              "implied_prob": 0.85
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -158,
+              "implied_prob": 0.612
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 320,
+              "implied_prob": 0.238
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 14,
+      "fighter_a_slug": "doalty-torrance",
+      "fighter_b_slug": "kj-metcalfe",
+      "prediction": {
+        "prob_a": 0.2118,
+        "prob_b": 0.7882,
+        "raw_score": -0.5055,
+        "favorite_slug": "kj-metcalfe",
+        "confidence": "Very Low",
+        "advantage_a": 21,
+        "advantage_b": 79,
+        "predictability": 41,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "W",
+            "edge_slug": "kj-metcalfe",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Metcalfe hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "1-0",
+            "edge_slug": "kj-metcalfe",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 67% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "100%",
+            "edge_slug": "kj-metcalfe",
+            "edge_strength": 0.975,
+            "weight": 0.11,
+            "display": "-65 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "3mo ago",
+            "edge_slug": "kj-metcalfe",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Metcalfe more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "0%",
+            "edge_slug": "doalty-torrance",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Torrance tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "1 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Metcalfe 79/21. Edges on recent form, bkfc record, ko rate, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 312,
+              "implied_prob": 0.243
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -312,
+              "implied_prob": 0.757
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -120,
+              "implied_prob": 0.545
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 371,
+              "implied_prob": 0.212
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 312,
+              "implied_prob": 0.243
             }
           ]
         }
