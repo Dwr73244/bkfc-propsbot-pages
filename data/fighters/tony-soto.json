@@ -4,7 +4,7 @@
   "nickname": "Loco",
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 6,
+    "wins": 7,
     "losses": 4,
     "draws": 0,
     "kos": 1
@@ -29,6 +29,19 @@
   },
   "bio": null,
   "last_5": [
+    {
+      "event": "BKFC 95",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:40",
+      "opponent": "Tony Pike",
+      "opponent_slug": "tony-pike",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-soto"
+    },
     {
       "event": "BKFC - Fight Night Nashville",
       "event_slug": "bkfc-nashville",
@@ -80,19 +93,6 @@
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/tony-soto"
-    },
-    {
-      "event": "BKFC 52",
-      "event_slug": "bkfc-52-south-carolina",
-      "date": "2023-10-20T00:00:00.000Z",
-      "method": "Unanimous Decision",
-      "round": 5,
-      "time": "02:00",
-      "opponent": "Kevin Croom",
-      "opponent_slug": "kevin-croom",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/tony-soto"
     }
   ],
   "sources": [
@@ -106,5 +106,5 @@
   ],
   "elo": 1540,
   "elo_peak": 1540,
-  "history_last_verified": "2026-08-04T10:37:50.399Z"
+  "history_last_verified": "2026-10-22T13:35:45.960Z"
 }

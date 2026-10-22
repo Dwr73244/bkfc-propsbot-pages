@@ -6,7 +6,7 @@
   "division": "Cruiserweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 80",
+      "event_slug": "bkfc-hollywood-2",
+      "date": "2025-09-12T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:56",
+      "opponent": "Theo Doukas",
+      "opponent_slug": "theo-doukas",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/theo-doukas"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/theo-doukas"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-10-22T13:35:19.248Z"
 }
