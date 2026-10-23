@@ -1,0 +1,39 @@
+{
+  "event_slug": "bkfc-fight-night-clearwater-4",
+  "event_date": "2026-10-23",
+  "source": "unibet",
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4425",
+  "fetched_at": "2026-10-22T18:07:51.112Z",
+  "bouts": [
+    {
+      "fighter_a_slug": "tyler-baker",
+      "fighter_b_slug": "yari-kaganovsky",
+      "moneyline_a": 150,
+      "moneyline_b": -215,
+      "implied_prob_a": 0.4,
+      "implied_prob_b": 0.683,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "sam-delao",
+      "fighter_b_slug": "chris-keirn",
+      "moneyline_a": -420,
+      "moneyline_b": 270,
+      "implied_prob_a": 0.808,
+      "implied_prob_b": 0.27,
+      "vig": 0.078,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "jason-dinunzio",
+      "fighter_b_slug": "gabriel-freyre",
+      "moneyline_a": -235,
+      "moneyline_b": 163,
+      "implied_prob_a": 0.701,
+      "implied_prob_b": 0.38,
+      "vig": 0.082,
+      "book_count": 1
+    }
+  ]
+}

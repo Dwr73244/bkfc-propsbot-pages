@@ -3,13 +3,87 @@
   "event_date": "2026-10-23",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-10-22T13:08:18.448Z",
-  "book_count": 4,
+  "fetched_at": "2026-10-23T11:25:53.513Z",
+  "book_count": 5,
   "books": [
     "bestfightodds",
     "kalshi",
     "polymarket",
+    "unibet",
     "xbet"
   ],
-  "bouts": []
+  "bouts": [
+    {
+      "fighter_a_slug": "tyler-baker",
+      "fighter_b_slug": "yari-kaganovsky",
+      "moneyline_a": 150,
+      "moneyline_b": -215,
+      "implied_prob_a": 0.4,
+      "implied_prob_b": 0.683,
+      "vig": 0.083,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          150,
+          150
+        ],
+        "b": [
+          -215,
+          -215
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "sam-delao",
+      "fighter_b_slug": "chris-keirn",
+      "moneyline_a": -420,
+      "moneyline_b": 270,
+      "implied_prob_a": 0.808,
+      "implied_prob_b": 0.27,
+      "vig": 0.078,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -420,
+          -420
+        ],
+        "b": [
+          270,
+          270
+        ]
+      }
+    },
+    {
+      "fighter_a_slug": "jason-dinunzio",
+      "fighter_b_slug": "gabriel-freyre",
+      "moneyline_a": -235,
+      "moneyline_b": 163,
+      "implied_prob_a": 0.701,
+      "implied_prob_b": 0.38,
+      "vig": 0.082,
+      "book_count": 2,
+      "books": [
+        "bestfightodds",
+        "unibet"
+      ],
+      "line_range": {
+        "a": [
+          -235,
+          -235
+        ],
+        "b": [
+          163,
+          163
+        ]
+      }
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-clearwater-4",
-  "generated_at": "2026-10-22T15:51:58.210Z",
+  "generated_at": "2026-10-23T13:12:58.389Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -675,14 +675,14 @@
       "fighter_a_slug": "tyler-baker",
       "fighter_b_slug": "yari-kaganovsky",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.4412,
+        "prob_b": 0.5588,
         "raw_score": 0,
         "favorite_slug": "yari-kaganovsky",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 44,
+        "advantage_b": 56,
+        "predictability": 21,
         "factors": [
           {
             "name": "BKFC Record",
@@ -704,7 +704,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -743,21 +743,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.4412049861495845,
+        "model_prob_b": 0.5587950138504155,
+        "market_fair_prob_a": 0.3693444136657433,
+        "market_fair_prob_b": 0.6306555863342567,
+        "edge_pct_a": 0.0718605724838412,
+        "edge_pct_b": -0.07186057248384115,
+        "edge_slug": "tyler-baker",
+        "edge_pct": 0.0718605724838412
+      }
     },
     {
       "order": 8,
       "fighter_a_slug": "sam-delao",
       "fighter_b_slug": "chris-keirn",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
+        "prob_a": 0.6123,
+        "prob_b": 0.3877,
         "raw_score": 0,
-        "favorite_slug": "chris-keirn",
+        "favorite_slug": "sam-delao",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 61,
+        "advantage_b": 39,
+        "predictability": 24,
         "factors": [
           {
             "name": "BKFC Record",
@@ -779,7 +788,7 @@
           }
         ],
         "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
-        "market_adjusted": false
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -818,21 +827,30 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.612291280148423,
+        "model_prob_b": 0.38770871985157696,
+        "market_fair_prob_a": 0.7495361781076066,
+        "market_fair_prob_b": 0.2504638218923933,
+        "edge_pct_a": -0.1372448979591836,
+        "edge_pct_b": 0.13724489795918365,
+        "edge_slug": "chris-keirn",
+        "edge_pct": 0.1372448979591836
+      }
     },
     {
       "order": 9,
       "fighter_a_slug": "jason-dinunzio",
       "fighter_b_slug": "gabriel-freyre",
       "prediction": {
-        "prob_a": 0.3754,
-        "prob_b": 0.6246,
+        "prob_a": 0.4983,
+        "prob_b": 0.5017,
         "raw_score": -0.1958,
         "favorite_slug": "gabriel-freyre",
         "confidence": "Medium",
-        "advantage_a": 38,
-        "advantage_b": 62,
-        "predictability": 52,
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 45,
         "factors": [
           {
             "name": "BKFC Record",
@@ -880,8 +898,8 @@
             "display": "+3\" DiNunzio"
           }
         ],
-        "summary": "Model leans Freyre 62/38. Edges on bkfc record, reach.",
-        "market_adjusted": false
+        "summary": "Model leans Freyre 50/50. Edges on bkfc record, reach.",
+        "market_adjusted": true
       },
       "prop_markets": [
         {
@@ -920,7 +938,16 @@
           ]
         }
       ],
-      "edge": null
+      "edge": {
+        "model_prob_a": 0.49830357238452805,
+        "model_prob_b": 0.501696427615472,
+        "market_fair_prob_a": 0.6484736355226642,
+        "market_fair_prob_b": 0.3515263644773358,
+        "edge_pct_a": -0.1501700631381362,
+        "edge_pct_b": 0.15017006313813613,
+        "edge_slug": "gabriel-freyre",
+        "edge_pct": 0.1501700631381362
+      }
     },
     {
       "order": 10,
@@ -1280,7 +1307,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "2.4y ago",
+            "value_a": "2.5y ago",
             "value_b": "1.6y ago",
             "edge_slug": "justin-street",
             "edge_strength": 0.3,
@@ -1401,7 +1428,7 @@
           {
             "name": "Activity",
             "value_a": "—",
-            "value_b": "3.4y ago",
+            "value_b": "3.5y ago",
             "edge_slug": "tony-murphy",
             "edge_strength": 0.4,
             "weight": 0.05,

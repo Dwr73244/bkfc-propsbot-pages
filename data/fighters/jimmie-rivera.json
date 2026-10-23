@@ -4,7 +4,7 @@
   "nickname": "EL TERROR",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 3,
+    "wins": 4,
     "losses": 2,
     "draws": 0,
     "kos": null
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1556,
   "elo_peak": 1556,
-  "history_last_verified": "2026-08-05T10:39:56.465Z"
+  "history_last_verified": "2026-10-23T13:12:45.635Z"
 }

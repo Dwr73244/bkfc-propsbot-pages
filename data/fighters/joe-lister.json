@@ -4,7 +4,7 @@
   "nickname": "BIG",
   "division": "Light Heavyweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 1,
     "draws": 0,
     "kos": 1
@@ -85,5 +85,5 @@
   "last_updated": "2026-07-31",
   "elo": 1544,
   "elo_peak": 1544,
-  "history_last_verified": "2026-08-05T10:39:59.161Z"
+  "history_last_verified": "2026-10-23T13:12:51.072Z"
 }
