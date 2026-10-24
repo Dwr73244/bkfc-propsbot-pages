@@ -32,7 +32,7 @@
     {
       "event": "BKFC: Hollywood",
       "event_slug": "bkfc-70-hollywood",
-      "date": "2025-03-27T04:00:00.000Z",
+      "date": "2025-03-27T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 62",
       "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T04:00:00.000Z",
+      "date": "2024-06-21T00:00:00.000Z",
       "method": "KO",
       "round": 5,
       "time": "00:54",
@@ -80,7 +80,7 @@
     {
       "event": "Fight Night Jackson",
       "event_slug": "bkfc-jackson",
-      "date": "2022-01-29T05:00:00.000Z",
+      "date": "2022-01-29T00:00:00.000Z",
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1500,
   "elo_peak": 1519,
-  "history_last_verified": "2026-07-31T18:44:12.191Z"
+  "history_last_verified": "2026-10-24T12:34:41.953Z"
 }

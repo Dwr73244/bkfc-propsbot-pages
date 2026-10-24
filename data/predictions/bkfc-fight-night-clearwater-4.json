@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-clearwater-4",
-  "generated_at": "2026-10-23T15:43:21.808Z",
+  "generated_at": "2026-10-23T23:01:24.035Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -675,14 +675,14 @@
       "fighter_a_slug": "tyler-baker",
       "fighter_b_slug": "yari-kaganovsky",
       "prediction": {
-        "prob_a": 0.4412,
-        "prob_b": 0.5588,
+        "prob_a": 0.504,
+        "prob_b": 0.496,
         "raw_score": 0,
-        "favorite_slug": "yari-kaganovsky",
+        "favorite_slug": "tyler-baker",
         "confidence": "Very Low",
-        "advantage_a": 44,
-        "advantage_b": 56,
-        "predictability": 21,
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
         "factors": [
           {
             "name": "BKFC Record",
@@ -744,14 +744,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.4412049861495845,
-        "model_prob_b": 0.5587950138504155,
-        "market_fair_prob_a": 0.3693444136657433,
-        "market_fair_prob_b": 0.6306555863342567,
-        "edge_pct_a": 0.0718605724838412,
-        "edge_pct_b": -0.07186057248384115,
-        "edge_slug": "tyler-baker",
-        "edge_pct": 0.0718605724838412
+        "model_prob_a": 0.5039546716003701,
+        "model_prob_b": 0.4960453283996299,
+        "market_fair_prob_a": 0.5087881591119334,
+        "market_fair_prob_b": 0.49121184088806663,
+        "edge_pct_a": -0.004833487511563317,
+        "edge_pct_b": 0.004833487511563261,
+        "edge_slug": "yari-kaganovsky",
+        "edge_pct": 0.004833487511563317
       }
     },
     {
@@ -759,14 +759,14 @@
       "fighter_a_slug": "sam-delao",
       "fighter_b_slug": "chris-keirn",
       "prediction": {
-        "prob_a": 0.6123,
-        "prob_b": 0.3877,
+        "prob_a": 0.625,
+        "prob_b": 0.375,
         "raw_score": 0,
         "favorite_slug": "sam-delao",
         "confidence": "Very Low",
-        "advantage_a": 61,
-        "advantage_b": 39,
-        "predictability": 24,
+        "advantage_a": 63,
+        "advantage_b": 37,
+        "predictability": 25,
         "factors": [
           {
             "name": "BKFC Record",
@@ -828,14 +828,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.612291280148423,
-        "model_prob_b": 0.38770871985157696,
-        "market_fair_prob_a": 0.7495361781076066,
-        "market_fair_prob_b": 0.2504638218923933,
-        "edge_pct_a": -0.1372448979591836,
-        "edge_pct_b": 0.13724489795918365,
+        "model_prob_a": 0.625,
+        "model_prob_b": 0.375,
+        "market_fair_prob_a": 0.7777777777777778,
+        "market_fair_prob_b": 0.2222222222222222,
+        "edge_pct_a": -0.1527777777777778,
+        "edge_pct_b": 0.1527777777777778,
         "edge_slug": "chris-keirn",
-        "edge_pct": 0.1372448979591836
+        "edge_pct": 0.1527777777777778
       }
     },
     {

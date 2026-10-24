@@ -6,7 +6,7 @@
   "division": "Flyweight",
   "bkfc_record": {
     "wins": 2,
-    "losses": 2,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -22,7 +22,7 @@
   "gym": null,
   "champion": false,
   "ranking": null,
-  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1744600052/o/1744600051800_67f7ef23b257f8f2e4b839a3_ANTHONY_YOST_400x400_compressed.png?1744600052",
+  "headshot_url": "https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1791217349/o/ANTHONY_YOST_SMALL_AVATAR_400x400.png?1791217349",
   "social": {
     "instagram": null,
     "twitter": null,
@@ -95,8 +95,8 @@
   "sources": [
     "https://www.bkfc.com/fighters/anthony-yost"
   ],
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-10-24",
   "elo": 1496,
   "elo_peak": 1519,
-  "history_last_verified": "2026-09-29T14:44:51.122Z"
+  "history_last_verified": "2026-10-24T12:35:15.839Z"
 }

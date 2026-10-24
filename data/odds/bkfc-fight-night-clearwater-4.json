@@ -3,7 +3,7 @@
   "event_date": "2026-10-23",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-10-23T11:25:53.513Z",
+  "fetched_at": "2026-10-24T12:10:37.264Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -16,11 +16,11 @@
     {
       "fighter_a_slug": "tyler-baker",
       "fighter_b_slug": "yari-kaganovsky",
-      "moneyline_a": 150,
-      "moneyline_b": -215,
-      "implied_prob_a": 0.4,
-      "implied_prob_b": 0.683,
-      "vig": 0.083,
+      "moneyline_a": -122,
+      "moneyline_b": -113,
+      "implied_prob_a": 0.55,
+      "implied_prob_b": 0.531,
+      "vig": 0.08,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -28,23 +28,23 @@
       ],
       "line_range": {
         "a": [
-          150,
-          150
+          -122,
+          -122
         ],
         "b": [
-          -215,
-          -215
+          -113,
+          -113
         ]
       }
     },
     {
       "fighter_a_slug": "sam-delao",
       "fighter_b_slug": "chris-keirn",
-      "moneyline_a": -420,
-      "moneyline_b": 270,
-      "implied_prob_a": 0.808,
-      "implied_prob_b": 0.27,
-      "vig": 0.078,
+      "moneyline_a": -500,
+      "moneyline_b": 320,
+      "implied_prob_a": 0.833,
+      "implied_prob_b": 0.238,
+      "vig": 0.071,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -52,12 +52,12 @@
       ],
       "line_range": {
         "a": [
-          -420,
-          -420
+          -500,
+          -500
         ],
         "b": [
-          270,
-          270
+          320,
+          320
         ]
       }
     },

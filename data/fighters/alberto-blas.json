@@ -4,7 +4,7 @@
   "nickname": "EL INDIO",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 6,
+    "wins": 9,
     "losses": 0,
     "draws": 0,
     "kos": 1
@@ -32,7 +32,7 @@
     {
       "event": "BKFC 66",
       "event_slug": "bkfc-66-blas-vs-reber",
-      "date": "2024-09-13T04:00:00.000Z",
+      "date": "2024-09-13T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "00:56",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 62",
       "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T04:00:00.000Z",
+      "date": "2024-06-21T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:10",
@@ -69,7 +69,7 @@
     {
       "event": "BKFC 57",
       "event_slug": "bkfc-57-hollywood",
-      "date": "2024-02-02T05:00:00.000Z",
+      "date": "2024-02-02T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:00",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 49",
       "event_slug": "bkfc-49-miami",
-      "date": "2023-08-25T04:00:00.000Z",
+      "date": "2023-08-25T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:51",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-07-31T18:44:16.135Z"
+  "history_last_verified": "2026-10-24T12:34:44.387Z"
 }

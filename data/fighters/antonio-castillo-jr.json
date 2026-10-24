@@ -5,7 +5,7 @@
   "nickname": "THE MEICAN MUSCLE",
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 1,
     "draws": 0,
     "kos": null
@@ -31,15 +31,28 @@
   "bio": null,
   "last_5": [
     {
+      "event": "BKFC Fight Night Bethlehem",
+      "event_slug": "bkfc-fight-night-bethlehem",
+      "date": "2026-10-09T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:00",
+      "opponent": "Jay Haas",
+      "opponent_slug": "jay-haas",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/antonio-castillo-jr"
+    },
+    {
       "event": "BKFC - Fight Night Michigan",
       "event_slug": "bkfc-fight-night-michigan-rodriguez-vs-cavender",
       "date": "2025-11-01T00:00:00.000Z",
       "method": "TKO",
       "round": 2,
       "time": "01:15",
-      "opponent": "Antonio Castillo Jr",
-      "opponent_slug": "antonio-castillo-jr",
-      "result": "W",
+      "opponent": "Mike Hernandez",
+      "opponent_slug": "mike-hernandez",
+      "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/antonio-castillo-jr"
     }
@@ -48,5 +61,5 @@
     "https://www.bkfc.com/fighters/antonio-castillo-jr"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-29T14:44:50.372Z"
+  "history_last_verified": "2026-10-24T12:35:13.698Z"
 }

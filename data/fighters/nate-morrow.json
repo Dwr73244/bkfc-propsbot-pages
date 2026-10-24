@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-clearwater-4",
+      "event_slug": "bkfc-fight-night-clearwater-4",
+      "date": "2026-10-23T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:31",
+      "opponent": "michael-larrimore",
+      "opponent_slug": "michael-larrimore",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Omaha",
       "event_slug": "bkfc-fight-night-omaha",
       "date": "2024-05-17T00:00:00.000Z",
@@ -48,5 +59,7 @@
     "https://www.bkfc.com/fighters/nate-morrow"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-08T12:44:56.509Z"
+  "history_last_verified": "2026-09-08T12:44:56.509Z",
+  "elo": 1478,
+  "elo_peak": 1500
 }

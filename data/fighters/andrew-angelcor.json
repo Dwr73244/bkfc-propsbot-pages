@@ -43,7 +43,7 @@
     {
       "event": "BKFC - Knucklemania IV",
       "event_slug": "bkfc-knucklemania-iv",
-      "date": "2024-04-27T04:00:00.000Z",
+      "date": "2024-04-27T00:00:00.000Z",
       "method": "Split Decision",
       "round": 5,
       "time": "02:00",
@@ -56,7 +56,7 @@
     {
       "event": "BKFC 50",
       "event_slug": "bkfc-50-denver",
-      "date": "2023-09-22T04:00:00.000Z",
+      "date": "2023-09-22T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:09",
@@ -80,7 +80,7 @@
     {
       "event": "BKFC 31",
       "event_slug": "bkfc-31-denver-richman-vs-doolittle",
-      "date": "2022-10-15T04:00:00.000Z",
+      "date": "2022-10-15T00:00:00.000Z",
       "method": "KO",
       "round": 3,
       "time": "01:59",
@@ -99,5 +99,5 @@
   "last_updated": "2026-07-31",
   "elo": 1479,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:22.500Z"
+  "history_last_verified": "2026-10-24T12:34:58.284Z"
 }

@@ -23,7 +23,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "royal-ryan-reber",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 2,
@@ -45,7 +50,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "michael-larrimore",
+        "method": "KO",
+        "round": 2,
+        "time": "1:31"
+      }
     },
     {
       "order": 4,
@@ -56,7 +66,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "rickie-mcconnico",
+        "method": "TKO",
+        "round": 3,
+        "time": "0:47"
+      }
     },
     {
       "order": 5,
@@ -89,7 +104,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "tyler-baker",
+        "method": "KO",
+        "round": 1,
+        "time": "0:43"
+      }
     },
     {
       "order": 8,
@@ -100,7 +120,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "sam-delao",
+        "method": "Unanimous Decision",
+        "round": 3,
+        "time": "2:00"
+      }
     },
     {
       "order": 9,
@@ -133,7 +158,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "doug-coldred-coltrane",
+        "method": "KO",
+        "round": 2,
+        "time": "0:53"
+      }
     },
     {
       "order": 12,
@@ -155,7 +185,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "ryan-reber",
+        "method": "Unanimous Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 14,
@@ -166,7 +201,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "doug-coltrane",
+        "method": "KO",
+        "round": 2,
+        "time": "0:53"
+      }
     },
     {
       "order": 15,
@@ -205,6 +245,6 @@
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-clearwater-4"
   ],
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-10-24",
   "needs_card_population": false
 }

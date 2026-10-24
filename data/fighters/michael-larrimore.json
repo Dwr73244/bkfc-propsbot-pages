@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-clearwater-4",
+      "event_slug": "bkfc-fight-night-clearwater-4",
+      "date": "2026-10-23T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "1:31",
+      "opponent": "nate-morrow",
+      "opponent_slug": "nate-morrow",
+      "result": "W"
+    },
+    {
       "event": "BKFC 89",
       "event_slug": "bkfc-palm-desert",
       "date": "2026-05-22T00:00:00.000Z",
@@ -81,24 +92,13 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/michael-larrimore"
-    },
-    {
-      "event": "BKFC 47",
-      "event_slug": "bkfc-47-lakeland-mundell-vs-richman",
-      "date": "2023-07-14T00:00:00.000Z",
-      "method": "KO",
-      "round": 1,
-      "time": "00:22",
-      "opponent": "Daniel Gary",
-      "opponent_slug": "daniel-gary",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/michael-larrimore"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/michael-larrimore"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-08T12:44:36.735Z"
+  "history_last_verified": "2026-09-08T12:44:36.735Z",
+  "elo": 1522,
+  "elo_peak": 1522
 }

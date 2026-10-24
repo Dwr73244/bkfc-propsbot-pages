@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-clearwater-4",
+      "event_slug": "bkfc-fight-night-clearwater-4",
+      "date": "2026-10-23T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "0:47",
+      "opponent": "rickie-mcconnico",
+      "opponent_slug": "rickie-mcconnico",
+      "result": "L"
+    },
+    {
       "event": "BKFC Fight Night Clearwater: Gaskins vs Guymon",
       "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
       "date": "2026-04-25T00:00:00.000Z",
@@ -76,19 +87,6 @@
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/mike-heckert"
-    },
-    {
-      "event": "BKFC 53",
-      "event_slug": "bkfc-53-orlando",
-      "date": "2023-11-03T00:00:00.000Z",
-      "method": "TKO",
-      "round": 2,
-      "time": "00:53",
-      "opponent": "Scott Lampert",
-      "opponent_slug": "scott-lampert",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/mike-heckert"
     }
   ],
   "sources": [
@@ -96,7 +94,7 @@
     "https://www.bkfc.com/fighters/mike-heckert"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1541,
+  "elo": 1515,
   "elo_peak": 1541,
   "history_last_verified": "2026-08-08T08:39:25.308Z"
 }

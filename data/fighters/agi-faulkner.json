@@ -33,7 +33,7 @@
     {
       "event": "BKFC 68",
       "event_slug": "bkfc-68-faulkner-vs-oscar",
-      "date": "2024-11-02T04:00:00.000Z",
+      "date": "2024-11-02T00:00:00.000Z",
       "method": "KO",
       "round": 2,
       "time": "00:05",
@@ -46,7 +46,7 @@
     {
       "event": "BKFC 55 - Leeds",
       "event_slug": "bkfc-55-leeds",
-      "date": "2023-11-18T05:00:00.000Z",
+      "date": "2023-11-18T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "00:57",
@@ -59,7 +59,7 @@
     {
       "event": "BKFC - Newcastle",
       "event_slug": "bkfc-newcastle-terrill-vs-banks",
-      "date": "2022-11-26T05:00:00.000Z",
+      "date": "2022-11-26T00:00:00.000Z",
       "method": "KO",
       "round": 1,
       "time": "01:17",
@@ -74,5 +74,5 @@
     "https://www.bkfc.com/fighters/agi-faulkner"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-07-31T18:46:25.524Z"
+  "history_last_verified": "2026-10-24T12:34:33.363Z"
 }

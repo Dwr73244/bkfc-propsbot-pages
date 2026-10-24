@@ -5,7 +5,7 @@
   "nickname": "THE PITBULL",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0,
     "draws": 0,
     "kos": 1
@@ -40,6 +40,19 @@
       "opponent": "ben-rothwell",
       "opponent_slug": "ben-rothwell",
       "result": "W"
+    },
+    {
+      "event": "BKFC 76 - Texas",
+      "event_slug": "bkfc-fort-worth",
+      "date": "2025-06-21T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "02:00",
+      "opponent": "Josh Copeland",
+      "opponent_slug": "josh-copeland",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/andrei-arlovski"
     }
   ],
   "sources": [
@@ -49,5 +62,6 @@
   "elo": 1531,
   "elo_peak": 1531,
   "record_source": "tracked-events",
-  "record_verified": "2026-09-24"
+  "record_verified": "2026-09-24",
+  "history_last_verified": "2026-10-24T12:34:54.987Z"
 }

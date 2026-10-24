@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-clearwater-4",
+      "event_slug": "bkfc-fight-night-clearwater-4",
+      "date": "2026-10-23T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "chris-keirn",
+      "opponent_slug": "chris-keirn",
+      "result": "W"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/sam-delao"
   ],
-  "last_updated": "2026-10-19"
+  "last_updated": "2026-10-19",
+  "elo": 1519,
+  "elo_peak": 1519
 }

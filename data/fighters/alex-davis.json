@@ -32,10 +32,10 @@
     {
       "event": "BKFC - Fight Night Hammond",
       "event_slug": "bkfc-fight-night-hammond",
-      "date": "2026-06-26T04:00:00.000Z",
+      "date": "2026-06-26T00:00:00.000Z",
       "method": null,
       "round": 1,
-      "time": "00:00",
+      "time": null,
       "opponent": "Gabriel Mota",
       "opponent_slug": "gabriel-mota",
       "result": "NC",
@@ -45,7 +45,7 @@
     {
       "event": "BKFC 87",
       "event_slug": "bkfc-87-hollywood",
-      "date": "2026-03-20T04:00:00.000Z",
+      "date": "2026-03-20T00:00:00.000Z",
       "method": "Split Decision",
       "round": 3,
       "time": "02:00",
@@ -58,7 +58,7 @@
     {
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
-      "date": "2025-06-21T04:00:00.000Z",
+      "date": "2025-06-21T00:00:00.000Z",
       "method": "TKO",
       "round": 1,
       "time": "01:03",
@@ -82,7 +82,7 @@
     {
       "event": "BKFC 69",
       "event_slug": "bkfc-69-richardson-vs-larrimore",
-      "date": "2024-12-06T05:00:00.000Z",
+      "date": "2024-12-06T00:00:00.000Z",
       "method": "TKO",
       "round": 3,
       "time": "00:57",
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-07-31T18:44:21.715Z"
+  "history_last_verified": "2026-10-24T12:34:51.760Z"
 }

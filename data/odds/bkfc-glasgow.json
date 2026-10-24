@@ -1,0 +1,15 @@
+{
+  "event_slug": "bkfc-glasgow",
+  "event_date": "2026-11-07",
+  "source": "consensus",
+  "source_url": null,
+  "fetched_at": "2026-10-24T12:10:37.266Z",
+  "book_count": 4,
+  "books": [
+    "bestfightodds",
+    "kalshi",
+    "polymarket",
+    "xbet"
+  ],
+  "bouts": []
+}

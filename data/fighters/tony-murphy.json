@@ -31,6 +31,28 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-clearwater-4",
+      "event_slug": "bkfc-fight-night-clearwater-4",
+      "date": "2026-10-23T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:53",
+      "opponent": "doug-coldred-coltrane",
+      "opponent_slug": "doug-coldred-coltrane",
+      "result": "L"
+    },
+    {
+      "event": "bkfc-fight-night-clearwater-4",
+      "event_slug": "bkfc-fight-night-clearwater-4",
+      "date": "2026-10-23T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:53",
+      "opponent": "doug-coltrane",
+      "opponent_slug": "doug-coltrane",
+      "result": "L"
+    },
+    {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
       "date": "2026-04-24T00:00:00.000Z",
@@ -74,5 +96,7 @@
     "https://www.bkfc.com/fighters/tony-murphy"
   ],
   "last_updated": "2026-04-19",
-  "history_last_verified": "2026-08-04T10:37:45.282Z"
+  "history_last_verified": "2026-08-04T10:37:45.282Z",
+  "elo": 1460,
+  "elo_peak": 1500
 }

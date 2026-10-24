@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-clearwater-4",
+      "event_slug": "bkfc-fight-night-clearwater-4",
+      "date": "2026-10-23T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "0:47",
+      "opponent": "mike-heckert",
+      "opponent_slug": "mike-heckert",
+      "result": "W"
+    },
+    {
       "event": "BKFC Fight Night Clearwater: Gaskins vs Guymon",
       "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
       "date": "2026-04-25T00:00:00.000Z",
@@ -47,8 +58,8 @@
   ],
   "last_updated": "2026-04-17",
   "stub": true,
-  "elo": 1481,
-  "elo_peak": 1500,
+  "elo": 1507,
+  "elo_peak": 1507,
   "record_source": "tracked-events",
   "record_verified": "2026-07-07"
 }
