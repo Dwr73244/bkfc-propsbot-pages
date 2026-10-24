@@ -5,10 +5,10 @@
   "nickname": null,
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 1,
     "draws": 0,
-    "kos": null
+    "kos": 1
   },
   "mma_record": null,
   "height_in": null,
@@ -61,5 +61,5 @@
   "elo": 1507,
   "elo_peak": 1507,
   "record_source": "tracked-events",
-  "record_verified": "2026-07-07"
+  "record_verified": "2026-10-24"
 }

@@ -4,7 +4,7 @@
   "nickname": null,
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": 1
@@ -68,5 +68,7 @@
   ],
   "last_updated": "2026-04-17",
   "elo": 1560,
-  "elo_peak": 1560
+  "elo_peak": 1560,
+  "record_source": "tracked-events",
+  "record_verified": "2026-10-24"
 }
