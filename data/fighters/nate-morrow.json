@@ -5,8 +5,8 @@
   "nickname": "THE BAD MAN",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 0,
+    "wins": 2,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -48,9 +48,9 @@
       "method": "KO",
       "round": 3,
       "time": "01:59",
-      "opponent": "Nate Morrow",
-      "opponent_slug": "nate-morrow",
-      "result": "L",
+      "opponent": "Josh Krejci",
+      "opponent_slug": "josh-krejci",
+      "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/nate-morrow"
     }
@@ -59,7 +59,7 @@
     "https://www.bkfc.com/fighters/nate-morrow"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-08T12:44:56.509Z",
+  "history_last_verified": "2026-10-26T14:59:10.884Z",
   "elo": 1478,
   "elo_peak": 1500
 }

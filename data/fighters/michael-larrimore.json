@@ -5,7 +5,7 @@
   "nickname": "PAPA G",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 3,
+    "wins": 4,
     "losses": 2,
     "draws": 0,
     "kos": null
@@ -98,7 +98,7 @@
     "https://www.bkfc.com/fighters/michael-larrimore"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-09-08T12:44:36.735Z",
+  "history_last_verified": "2026-10-26T14:58:47.859Z",
   "elo": 1522,
   "elo_peak": 1522
 }

@@ -5,7 +5,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 2,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "kos": 1
   },
@@ -96,5 +96,5 @@
   "last_updated": "2026-07-31",
   "elo": 1515,
   "elo_peak": 1541,
-  "history_last_verified": "2026-08-08T08:39:25.308Z"
+  "history_last_verified": "2026-10-26T14:58:51.956Z"
 }
