@@ -1,7 +1,22 @@
 {
   "slug": "keith-richardson",
-  "fetched_at": "2026-10-27T16:42:31.935Z",
+  "fetched_at": "2026-10-28T17:10:37.928Z",
   "gym": null,
   "coach": null,
-  "news": []
+  "news": [
+    {
+      "title": "BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine - FightBook MMA",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM0RNZHFYY1dXUl9DSDlEY2JJUWpRRmY0MnV1RHE4ZFJrcTVCcDhBVElqUll3ZFFZSFFrLTZPRlFxQ2s4ZEVPRzlpbkZvOXB1aUxRM3FHU3Bxdm1KLVVseE1zc0d4SDZ0VFlqcWl1bUZQX04yWnFKWE5sSWtjOHFXbmZKMmV4aEZSb1J0RU5TQQ?oc=5",
+      "source": "FightBook MMA",
+      "date": "2026-10-28",
+      "snippet": "BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine FightBook MMA"
+    },
+    {
+      "title": "Keith Richardson Wants Four-Fight 2027 After Long BKFC Layoff - MiddleEasy",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaVY4dmxwMUFtRUdybXlQRG9qMjQ3WkxUNGpBVGxwX09LT0hCX0xSSWFQd05WaUNnZW84Nk9VQi1TaHk2Q2w4OVR6bUhLWURWVWp2Y2tNQVU3cVB2RG5rZkZJMDJCMHZPcm5tZDZOVDdudmFDNVZtamU5SmlSaGRjaWtLTks2djRUZXR1N1JoMnd0dlk?oc=5",
+      "source": "MiddleEasy",
+      "date": "2026-10-27",
+      "snippet": "Keith Richardson Wants Four-Fight 2027 After Long BKFC Layoff MiddleEasy"
+    }
+  ]
 }

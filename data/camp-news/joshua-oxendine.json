@@ -1,7 +1,15 @@
 {
   "slug": "joshua-oxendine",
-  "fetched_at": "2026-10-27T16:42:36.964Z",
+  "fetched_at": "2026-10-28T17:10:42.893Z",
   "gym": null,
   "coach": null,
-  "news": []
+  "news": [
+    {
+      "title": "BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine - FightBook MMA",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM0RNZHFYY1dXUl9DSDlEY2JJUWpRRmY0MnV1RHE4ZFJrcTVCcDhBVElqUll3ZFFZSFFrLTZPRlFxQ2s4ZEVPRzlpbkZvOXB1aUxRM3FHU3Bxdm1KLVVseE1zc0d4SDZ0VFlqcWl1bUZQX04yWnFKWE5sSWtjOHFXbmZKMmV4aEZSb1J0RU5TQQ?oc=5",
+      "source": "FightBook MMA",
+      "date": "2026-10-28",
+      "snippet": "BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine FightBook MMA"
+    }
+  ]
 }
