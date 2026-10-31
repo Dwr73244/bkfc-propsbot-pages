@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-10-30T11:16:01.702Z",
+  "generated_at": "2026-10-31T11:15:48.376Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1489,6 +1489,81 @@
               "outcome": "Decision",
               "moneyline": 312,
               "implied_prob": 0.243
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 15,
+      "fighter_a_slug": "gzim-selmani",
+      "fighter_b_slug": "reece-heer",
+      "prediction": {
+        "prob_a": 0.672,
+        "prob_b": 0.328,
+        "raw_score": 0.2759,
+        "favorite_slug": "gzim-selmani",
+        "confidence": "Very Low",
+        "advantage_a": 67,
+        "advantage_b": 33,
+        "predictability": 38,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "1-0",
+            "value_b": "0-0",
+            "edge_slug": "gzim-selmani",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "67% vs 50% win rate"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "1 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Selmani 67/33. Edges on bkfc record.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 567,
+              "implied_prob": 0.15
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -567,
+              "implied_prob": 0.85
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -158,
+              "implied_prob": 0.612
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 320,
+              "implied_prob": 0.238
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 567,
+              "implied_prob": 0.15
             }
           ]
         }
