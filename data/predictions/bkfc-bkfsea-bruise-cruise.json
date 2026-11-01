@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-bkfsea-bruise-cruise",
-  "generated_at": "2026-11-01T11:15:47.092Z",
+  "generated_at": "2026-11-01T15:55:26.252Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,9 +9,9 @@
       "fighter_a_slug": "joey-gambino",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.8198,
-        "prob_b": 0.1802,
-        "raw_score": 0.5827,
+        "prob_a": 0.8186,
+        "prob_b": 0.1814,
+        "raw_score": 0.5795,
         "favorite_slug": "joey-gambino",
         "confidence": "Very Low",
         "advantage_a": 82,
@@ -120,9 +120,9 @@
       "fighter_a_slug": "nathan-rivera",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.6328,
-        "prob_b": 0.3672,
-        "raw_score": 0.2093,
+        "prob_a": 0.6286,
+        "prob_b": 0.3714,
+        "raw_score": 0.2024,
         "favorite_slug": "nathan-rivera",
         "confidence": "Low",
         "advantage_a": 63,
@@ -240,9 +240,9 @@
       "fighter_a_slug": "julio-perez-rodriguez",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.6486,
-        "prob_b": 0.3514,
-        "raw_score": 0.2358,
+        "prob_a": 0.6457,
+        "prob_b": 0.3543,
+        "raw_score": 0.2308,
         "favorite_slug": "julio-perez-rodriguez",
         "confidence": "Low",
         "advantage_a": 65,
@@ -360,9 +360,9 @@
       "fighter_a_slug": "gustavo-balart",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.672,
-        "prob_b": 0.328,
-        "raw_score": 0.2759,
+        "prob_a": 0.67,
+        "prob_b": 0.33,
+        "raw_score": 0.2724,
         "favorite_slug": "gustavo-balart",
         "confidence": "Very Low",
         "advantage_a": 67,
@@ -435,9 +435,9 @@
       "fighter_a_slug": "cole-ferrell",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.6813,
-        "prob_b": 0.3187,
-        "raw_score": 0.2922,
+        "prob_a": 0.6819,
+        "prob_b": 0.3181,
+        "raw_score": 0.2933,
         "favorite_slug": "cole-ferrell",
         "confidence": "Very Low",
         "advantage_a": 68,
@@ -510,13 +510,13 @@
       "fighter_a_slug": "justyn-martinez",
       "fighter_b_slug": "tba",
       "prediction": {
-        "prob_a": 0.7345,
-        "prob_b": 0.2655,
-        "raw_score": 0.3913,
+        "prob_a": 0.735,
+        "prob_b": 0.265,
+        "raw_score": 0.3924,
         "favorite_slug": "justyn-martinez",
         "confidence": "Low",
-        "advantage_a": 73,
-        "advantage_b": 27,
+        "advantage_a": 74,
+        "advantage_b": 26,
         "predictability": 46,
         "factors": [
           {
@@ -583,7 +583,7 @@
             "display": "+8 fights Martinez"
           }
         ],
-        "summary": "Model leans Martinez 73/27. Edges on recent form, ko rate, bkfc experience.",
+        "summary": "Model leans Martinez 74/26. Edges on recent form, ko rate, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -696,7 +696,7 @@
           {
             "name": "Activity",
             "value_a": "2mo ago",
-            "value_b": "51d ago",
+            "value_b": "52d ago",
             "edge_slug": null,
             "edge_strength": 0,
             "weight": 0.05,
@@ -777,9 +777,9 @@
       "fighter_a_slug": "george-thorpe",
       "fighter_b_slug": "josh-kuhne",
       "prediction": {
-        "prob_a": 0.5507,
-        "prob_b": 0.4493,
-        "raw_score": 0.0782,
+        "prob_a": 0.5538,
+        "prob_b": 0.4462,
+        "raw_score": 0.083,
         "favorite_slug": "george-thorpe",
         "confidence": "Low",
         "advantage_a": 55,
@@ -924,14 +924,14 @@
       "fighter_a_slug": "julio-perez-rodriguez",
       "fighter_b_slug": "gabriel-mota",
       "prediction": {
-        "prob_a": 0.6663,
-        "prob_b": 0.3337,
-        "raw_score": 0.266,
+        "prob_a": 0.6631,
+        "prob_b": 0.3369,
+        "raw_score": 0.2604,
         "favorite_slug": "julio-perez-rodriguez",
         "confidence": "Low",
-        "advantage_a": 67,
-        "advantage_b": 33,
-        "predictability": 47,
+        "advantage_a": 66,
+        "advantage_b": 34,
+        "predictability": 46,
         "factors": [
           {
             "name": "ELO Rating",
@@ -1024,7 +1024,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Rodriguez 67/33. Edges on elo rating, recent form, bkfc record, age.",
+        "summary": "Model leans Rodriguez 66/34. Edges on elo rating, recent form, bkfc record, age.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1071,13 +1071,13 @@
       "fighter_a_slug": "joey-gambino",
       "fighter_b_slug": "matt-denning",
       "prediction": {
-        "prob_a": 0.3862,
-        "prob_b": 0.6138,
-        "raw_score": -0.1782,
+        "prob_a": 0.3805,
+        "prob_b": 0.6195,
+        "raw_score": -0.1875,
         "favorite_slug": "matt-denning",
         "confidence": "Low",
-        "advantage_a": 39,
-        "advantage_b": 61,
+        "advantage_a": 38,
+        "advantage_b": 62,
         "predictability": 37,
         "factors": [
           {
@@ -1153,7 +1153,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Denning 61/39. Edges on ko rate.",
+        "summary": "Model leans Denning 62/38. Edges on ko rate.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1200,9 +1200,9 @@
       "fighter_a_slug": "stephen-townsel",
       "fighter_b_slug": "brady-meister",
       "prediction": {
-        "prob_a": 0.6125,
-        "prob_b": 0.3875,
-        "raw_score": 0.1761,
+        "prob_a": 0.6148,
+        "prob_b": 0.3852,
+        "raw_score": 0.1799,
         "favorite_slug": "stephen-townsel",
         "confidence": "Low",
         "advantage_a": 61,
@@ -1329,9 +1329,9 @@
       "fighter_a_slug": "nathan-rivera",
       "fighter_b_slug": "brandon-meneses",
       "prediction": {
-        "prob_a": 0.63,
-        "prob_b": 0.37,
-        "raw_score": 0.2048,
+        "prob_a": 0.6266,
+        "prob_b": 0.3734,
+        "raw_score": 0.199,
         "favorite_slug": "nathan-rivera",
         "confidence": "Low",
         "advantage_a": 63,
@@ -1467,9 +1467,9 @@
       "fighter_a_slug": "gustavo-balart",
       "fighter_b_slug": "justyn-martinez",
       "prediction": {
-        "prob_a": 0.2823,
-        "prob_b": 0.7177,
-        "raw_score": -0.359,
+        "prob_a": 0.2809,
+        "prob_b": 0.7191,
+        "raw_score": -0.3616,
         "favorite_slug": "justyn-martinez",
         "confidence": "Low",
         "advantage_a": 28,

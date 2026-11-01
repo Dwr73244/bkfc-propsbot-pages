@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-11-01T11:15:47.103Z",
+  "generated_at": "2026-11-01T15:55:26.265Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,9 +9,9 @@
       "fighter_a_slug": "conor-cooke",
       "fighter_b_slug": "sean-weir",
       "prediction": {
-        "prob_a": 0.5364,
-        "prob_b": 0.4636,
-        "raw_score": 0.0562,
+        "prob_a": 0.5357,
+        "prob_b": 0.4643,
+        "raw_score": 0.055,
         "favorite_slug": "conor-cooke",
         "confidence": "Medium",
         "advantage_a": 54,
@@ -156,9 +156,9 @@
       "fighter_a_slug": "stevie-ray",
       "fighter_b_slug": "danny-christie",
       "prediction": {
-        "prob_a": 0.3593,
-        "prob_b": 0.6407,
-        "raw_score": -0.2224,
+        "prob_a": 0.3622,
+        "prob_b": 0.6378,
+        "raw_score": -0.2176,
         "favorite_slug": "danny-christie",
         "confidence": "Low",
         "advantage_a": 36,
@@ -276,9 +276,9 @@
       "fighter_a_slug": "scott-malone",
       "fighter_b_slug": "kieron-sewell",
       "prediction": {
-        "prob_a": 0.3187,
-        "prob_b": 0.6813,
-        "raw_score": -0.2922,
+        "prob_a": 0.3181,
+        "prob_b": 0.6819,
+        "raw_score": -0.2933,
         "favorite_slug": "kieron-sewell",
         "confidence": "Very Low",
         "advantage_a": 32,
@@ -351,9 +351,9 @@
       "fighter_a_slug": "rhys-pagan",
       "fighter_b_slug": "danny-moir",
       "prediction": {
-        "prob_a": 0.5593,
-        "prob_b": 0.4407,
-        "raw_score": 0.0916,
+        "prob_a": 0.5567,
+        "prob_b": 0.4433,
+        "raw_score": 0.0876,
         "favorite_slug": "rhys-pagan",
         "confidence": "Very Low",
         "advantage_a": 56,
@@ -462,9 +462,9 @@
       "fighter_a_slug": "cory-chapman",
       "fighter_b_slug": "lewis-dixon",
       "prediction": {
-        "prob_a": 0.7882,
-        "prob_b": 0.2118,
-        "raw_score": 0.5055,
+        "prob_a": 0.7872,
+        "prob_b": 0.2128,
+        "raw_score": 0.5032,
         "favorite_slug": "cory-chapman",
         "confidence": "Very Low",
         "advantage_a": 79,
@@ -582,9 +582,9 @@
       "fighter_a_slug": "doalty-torrance",
       "fighter_b_slug": "kyle-cassidy",
       "prediction": {
-        "prob_a": 0.7092,
-        "prob_b": 0.2908,
-        "raw_score": 0.3429,
+        "prob_a": 0.7067,
+        "prob_b": 0.2933,
+        "raw_score": 0.3383,
         "favorite_slug": "doalty-torrance",
         "confidence": "Very Low",
         "advantage_a": 71,
@@ -693,9 +693,9 @@
       "fighter_a_slug": "lewis-knox",
       "fighter_b_slug": "tommy-carus",
       "prediction": {
-        "prob_a": 0.7141,
-        "prob_b": 0.2859,
-        "raw_score": 0.3521,
+        "prob_a": 0.7101,
+        "prob_b": 0.2899,
+        "raw_score": 0.3446,
         "favorite_slug": "lewis-knox",
         "confidence": "Medium",
         "advantage_a": 71,
@@ -795,10 +795,10 @@
       "fighter_a_slug": "barry-boyle",
       "fighter_b_slug": "kaseem-saleem",
       "prediction": {
-        "prob_a": 0.4962,
-        "prob_b": 0.5038,
-        "raw_score": -0.0059,
-        "favorite_slug": "kaseem-saleem",
+        "prob_a": 0.5035,
+        "prob_b": 0.4965,
+        "raw_score": 0.0054,
+        "favorite_slug": "barry-boyle",
         "confidence": "Very Low",
         "advantage_a": 50,
         "advantage_b": 50,
@@ -859,7 +859,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Saleem 50/50. Edges on recent form, bkfc record.",
+        "summary": "Model leans Boyle 50/50. Edges on activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -906,9 +906,9 @@
       "fighter_a_slug": "barry-aikman",
       "fighter_b_slug": "cory-hardy",
       "prediction": {
-        "prob_a": 0.672,
-        "prob_b": 0.328,
-        "raw_score": 0.2759,
+        "prob_a": 0.67,
+        "prob_b": 0.33,
+        "raw_score": 0.2724,
         "favorite_slug": "barry-aikman",
         "confidence": "Very Low",
         "advantage_a": 67,
@@ -1056,10 +1056,10 @@
       "fighter_a_slug": "dan-morel",
       "fighter_b_slug": "owen-webster",
       "prediction": {
-        "prob_a": 0.5038,
-        "prob_b": 0.4962,
-        "raw_score": 0.0059,
-        "favorite_slug": "dan-morel",
+        "prob_a": 0.4965,
+        "prob_b": 0.5035,
+        "raw_score": -0.0054,
+        "favorite_slug": "owen-webster",
         "confidence": "Very Low",
         "advantage_a": 50,
         "advantage_b": 50,
@@ -1120,7 +1120,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Morel 50/50. Edges on recent form, bkfc record.",
+        "summary": "Model leans Webster 50/50. Edges on activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1242,9 +1242,9 @@
       "fighter_a_slug": "gzim-selmani",
       "fighter_b_slug": "rob-cunningham",
       "prediction": {
-        "prob_a": 0.4536,
-        "prob_b": 0.5464,
-        "raw_score": -0.0716,
+        "prob_a": 0.4542,
+        "prob_b": 0.5458,
+        "raw_score": -0.0706,
         "favorite_slug": "rob-cunningham",
         "confidence": "Low",
         "advantage_a": 45,
@@ -1380,9 +1380,9 @@
       "fighter_a_slug": "doalty-torrance",
       "fighter_b_slug": "kj-metcalfe",
       "prediction": {
-        "prob_a": 0.2118,
-        "prob_b": 0.7882,
-        "raw_score": -0.5055,
+        "prob_a": 0.2128,
+        "prob_b": 0.7872,
+        "raw_score": -0.5032,
         "favorite_slug": "kj-metcalfe",
         "confidence": "Very Low",
         "advantage_a": 21,
@@ -1500,9 +1500,9 @@
       "fighter_a_slug": "gzim-selmani",
       "fighter_b_slug": "reece-heer",
       "prediction": {
-        "prob_a": 0.672,
-        "prob_b": 0.328,
-        "raw_score": 0.2759,
+        "prob_a": 0.67,
+        "prob_b": 0.33,
+        "raw_score": 0.2724,
         "favorite_slug": "gzim-selmani",
         "confidence": "Very Low",
         "advantage_a": 67,

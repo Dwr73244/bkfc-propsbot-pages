@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-myrtle-beach",
-  "generated_at": "2026-11-01T11:15:47.101Z",
+  "generated_at": "2026-11-01T15:55:26.262Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "keith-richardson",
       "fighter_b_slug": "joshua-oxendine",
       "prediction": {
-        "prob_a": 0.5306,
-        "prob_b": 0.4694,
-        "raw_score": 0.0471,
+        "prob_a": 0.5233,
+        "prob_b": 0.4767,
+        "raw_score": 0.0358,
         "favorite_slug": "keith-richardson",
         "confidence": "Medium",
-        "advantage_a": 53,
-        "advantage_b": 47,
-        "predictability": 50,
+        "advantage_a": 52,
+        "advantage_b": 48,
+        "predictability": 49,
         "factors": [
           {
             "name": "ELO Rating",
@@ -127,7 +127,7 @@
             "display": "-4\" Oxendine"
           }
         ],
-        "summary": "Model leans Richardson 53/47. Edges on elo rating, recent form, bkfc record, ko rate.",
+        "summary": "Model leans Richardson 52/48. Edges on elo rating, recent form, bkfc record, ko rate.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -324,9 +324,9 @@
       "fighter_a_slug": "derek-brunson",
       "fighter_b_slug": "theo-doukas",
       "prediction": {
-        "prob_a": 0.672,
-        "prob_b": 0.328,
-        "raw_score": 0.2759,
+        "prob_a": 0.67,
+        "prob_b": 0.33,
+        "raw_score": 0.2724,
         "favorite_slug": "derek-brunson",
         "confidence": "Very Low",
         "advantage_a": 67,
@@ -399,9 +399,9 @@
       "fighter_a_slug": "ryan-jett",
       "fighter_b_slug": "rodney-hinton",
       "prediction": {
-        "prob_a": 0.2701,
-        "prob_b": 0.7299,
-        "raw_score": -0.3824,
+        "prob_a": 0.2729,
+        "prob_b": 0.7271,
+        "raw_score": -0.377,
         "favorite_slug": "rodney-hinton",
         "confidence": "Very Low",
         "advantage_a": 27,
@@ -519,9 +519,9 @@
       "fighter_a_slug": "windson-ramos",
       "fighter_b_slug": "robert-fichtner",
       "prediction": {
-        "prob_a": 0.5323,
-        "prob_b": 0.4677,
-        "raw_score": 0.0498,
+        "prob_a": 0.5255,
+        "prob_b": 0.4745,
+        "raw_score": 0.0392,
         "favorite_slug": "windson-ramos",
         "confidence": "Very Low",
         "advantage_a": 53,
@@ -630,9 +630,9 @@
       "fighter_a_slug": "brandon-bushaw",
       "fighter_b_slug": "joshua-claudio",
       "prediction": {
-        "prob_a": 0.6374,
-        "prob_b": 0.3626,
-        "raw_score": 0.217,
+        "prob_a": 0.639,
+        "prob_b": 0.361,
+        "raw_score": 0.2196,
         "favorite_slug": "brandon-bushaw",
         "confidence": "Very Low",
         "advantage_a": 64,
@@ -750,9 +750,9 @@
       "fighter_a_slug": "maurice-morris",
       "fighter_b_slug": "lewis-glover",
       "prediction": {
-        "prob_a": 0.7127,
-        "prob_b": 0.2873,
-        "raw_score": 0.3495,
+        "prob_a": 0.7132,
+        "prob_b": 0.2868,
+        "raw_score": 0.3504,
         "favorite_slug": "maurice-morris",
         "confidence": "Low",
         "advantage_a": 71,
@@ -788,7 +788,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "23d ago",
+            "value_a": "24d ago",
             "value_b": "1.6y ago",
             "edge_slug": "maurice-morris",
             "edge_strength": 1,

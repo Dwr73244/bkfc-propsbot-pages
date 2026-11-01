@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-hershey",
-  "generated_at": "2026-11-01T11:15:47.099Z",
+  "generated_at": "2026-11-01T15:55:26.259Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,13 +9,13 @@
       "fighter_a_slug": "dustin-pague",
       "fighter_b_slug": "mike-richman",
       "prediction": {
-        "prob_a": 0.5363,
-        "prob_b": 0.4637,
-        "raw_score": 0.0559,
+        "prob_a": 0.5334,
+        "prob_b": 0.4666,
+        "raw_score": 0.0515,
         "favorite_slug": "dustin-pague",
         "confidence": "Low",
-        "advantage_a": 54,
-        "advantage_b": 46,
+        "advantage_a": 53,
+        "advantage_b": 47,
         "predictability": 34,
         "factors": [
           {
@@ -100,7 +100,7 @@
             "display": "+4 fights Richman"
           }
         ],
-        "summary": "Model leans Pague 54/46. Edges on recent form, ko rate.",
+        "summary": "Model leans Pague 53/47. Edges on recent form, ko rate.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -147,9 +147,9 @@
       "fighter_a_slug": "matt-semelsberger",
       "fighter_b_slug": "michael-manno",
       "prediction": {
-        "prob_a": 0.4847,
-        "prob_b": 0.5153,
-        "raw_score": -0.0236,
+        "prob_a": 0.4845,
+        "prob_b": 0.5155,
+        "raw_score": -0.0239,
         "favorite_slug": "michael-manno",
         "confidence": "Very Low",
         "advantage_a": 48,
@@ -267,9 +267,9 @@
       "fighter_a_slug": "pat-carroll",
       "fighter_b_slug": "nelson-best",
       "prediction": {
-        "prob_a": 0.6646,
-        "prob_b": 0.3354,
-        "raw_score": 0.2631,
+        "prob_a": 0.661,
+        "prob_b": 0.339,
+        "raw_score": 0.2568,
         "favorite_slug": "pat-carroll",
         "confidence": "Very Low",
         "advantage_a": 66,
@@ -387,9 +387,9 @@
       "fighter_a_slug": "elijah-harris",
       "fighter_b_slug": "stevo-morris",
       "prediction": {
-        "prob_a": 0.6498,
-        "prob_b": 0.3502,
-        "raw_score": 0.2378,
+        "prob_a": 0.6535,
+        "prob_b": 0.3465,
+        "raw_score": 0.244,
         "favorite_slug": "elijah-harris",
         "confidence": "Low",
         "advantage_a": 65,
@@ -525,9 +525,9 @@
       "fighter_a_slug": "jay-haas",
       "fighter_b_slug": "eduardo-peralta",
       "prediction": {
-        "prob_a": 0.328,
-        "prob_b": 0.672,
-        "raw_score": -0.2759,
+        "prob_a": 0.33,
+        "prob_b": 0.67,
+        "raw_score": -0.2724,
         "favorite_slug": "eduardo-peralta",
         "confidence": "Very Low",
         "advantage_a": 33,
@@ -600,13 +600,13 @@
       "fighter_a_slug": "colin-reeser",
       "fighter_b_slug": "fabricio-berrun",
       "prediction": {
-        "prob_a": 0.3909,
-        "prob_b": 0.6091,
-        "raw_score": -0.1706,
+        "prob_a": 0.3962,
+        "prob_b": 0.6038,
+        "raw_score": -0.162,
         "favorite_slug": "fabricio-berrun",
         "confidence": "Very Low",
-        "advantage_a": 39,
-        "advantage_b": 61,
+        "advantage_a": 40,
+        "advantage_b": 60,
         "predictability": 27,
         "factors": [
           {
@@ -664,7 +664,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Berrun 61/39. Edges on recent form, bkfc record.",
+        "summary": "Model leans Berrun 60/40. Edges on recent form, bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
