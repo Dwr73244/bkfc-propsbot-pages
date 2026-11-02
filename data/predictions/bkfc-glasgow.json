@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-11-02T17:57:15.889Z",
+  "generated_at": "2026-11-02T20:44:22.816Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1564,6 +1564,153 @@
               "outcome": "Decision",
               "moneyline": 567,
               "implied_prob": 0.15
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 16,
+      "fighter_a_slug": "sean-weir",
+      "fighter_b_slug": "leigh-cohoon",
+      "prediction": {
+        "prob_a": 0.405,
+        "prob_b": 0.595,
+        "raw_score": -0.148,
+        "favorite_slug": "leigh-cohoon",
+        "confidence": "Medium",
+        "advantage_a": 40,
+        "advantage_b": 60,
+        "predictability": 49,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "W-L-W-W",
+            "edge_slug": "leigh-cohoon",
+            "edge_strength": 0.42,
+            "weight": 0.13,
+            "display": "Cohoon hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "3-0",
+            "value_b": "4-1",
+            "edge_slug": "sean-weir",
+            "edge_strength": 0.214,
+            "weight": 0.11,
+            "display": "80% vs 71% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "75%",
+            "edge_slug": "leigh-cohoon",
+            "edge_strength": 0.6,
+            "weight": 0.11,
+            "display": "-40 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 34,
+            "value_b": 41,
+            "edge_slug": "sean-weir",
+            "edge_strength": 1,
+            "weight": 0.09,
+            "display": "34 vs 41"
+          },
+          {
+            "name": "Reach",
+            "value_a": "76\"",
+            "value_b": "74\"",
+            "edge_slug": "sean-weir",
+            "edge_strength": 0.333,
+            "weight": 0.08,
+            "display": "+2\" Weir"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "38d ago",
+            "edge_slug": "leigh-cohoon",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Cohoon more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "62%",
+            "edge_slug": null,
+            "edge_strength": 0.233,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "5 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          },
+          {
+            "name": "Height",
+            "value_a": "6'3\"",
+            "value_b": "6'0\"",
+            "edge_slug": "sean-weir",
+            "edge_strength": 0.6,
+            "weight": 0.03,
+            "display": "+3\" Weir"
+          }
+        ],
+        "summary": "Model leans Cohoon 60/40. Edges on recent form, ko rate, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 613,
+              "implied_prob": 0.14
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -613,
+              "implied_prob": 0.86
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -162,
+              "implied_prob": 0.619
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 315,
+              "implied_prob": 0.241
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 613,
+              "implied_prob": 0.14
             }
           ]
         }

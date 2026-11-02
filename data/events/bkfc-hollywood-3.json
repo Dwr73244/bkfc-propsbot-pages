@@ -13,10 +13,66 @@
     "BKFC+"
   ],
   "poster_url": null,
-  "bouts": [],
+  "bouts": [
+    {
+      "order": 1,
+      "card_position": "Main",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "bryce-henry",
+      "fighter_b_slug": "clay-collard",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 2,
+      "card_position": "CoMain",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "gorjan-slaveski",
+      "fighter_b_slug": "joe-elmore",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 3,
+      "card_position": "MainCard",
+      "weight_class": "Women's Flyweight",
+      "fighter_a_slug": "jessica-eye",
+      "fighter_b_slug": "desiree-yanez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 4,
+      "card_position": "MainCard",
+      "weight_class": "Ironweight",
+      "fighter_a_slug": "brandon-alfano",
+      "fighter_b_slug": "alex-davis",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 5,
+      "card_position": "MainCard",
+      "weight_class": "Welterweight",
+      "fighter_a_slug": "murat-kazgan",
+      "fighter_b_slug": "israel-rodriguez",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-hollywood-3"
   ],
-  "last_updated": "2026-09-12",
-  "needs_card_population": true
+  "last_updated": "2026-11-02",
+  "needs_card_population": false
 }

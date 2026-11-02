@@ -79,11 +79,77 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "CoMain",
+      "weight_class": "Ironweight",
+      "fighter_a_slug": "sam-alvey",
+      "fighter_b_slug": "jonathan-miller",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 8,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "benjamin-moser",
+      "fighter_b_slug": "julian-valencia",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 9,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "hunter-starner",
+      "fighter_b_slug": "blaine-shutt",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Cruiserweight",
+      "fighter_a_slug": "lex-ludlow",
+      "fighter_b_slug": "mike-liberto",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 11,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "zach-pannell",
+      "fighter_b_slug": "zachary-shingara",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 12,
+      "card_position": "MainCard",
+      "weight_class": "Heavyweight",
+      "fighter_a_slug": "brian-newman",
+      "fighter_b_slug": "dale-reed",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-hershey"
   ],
-  "last_updated": "2026-10-24",
+  "last_updated": "2026-11-02",
   "needs_card_population": false
 }

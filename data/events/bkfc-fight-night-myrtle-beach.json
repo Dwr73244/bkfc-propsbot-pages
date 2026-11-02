@@ -112,11 +112,33 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 10,
+      "card_position": "MainCard",
+      "weight_class": "Featherweight",
+      "fighter_a_slug": "amos-collins",
+      "fighter_b_slug": "ashton-caniglia",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 11,
+      "card_position": "MainCard",
+      "weight_class": "Light Heavyweight",
+      "fighter_a_slug": "justin-howell",
+      "fighter_b_slug": "brian-maxwell",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach"
   ],
-  "last_updated": "2026-10-23",
+  "last_updated": "2026-11-02",
   "needs_card_population": false
 }

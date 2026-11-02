@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-myrtle-beach",
-  "generated_at": "2026-11-02T17:57:15.888Z",
+  "generated_at": "2026-11-02T20:44:22.783Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -934,6 +934,201 @@
               "outcome": "Decision",
               "moneyline": 163,
               "implied_prob": 0.38
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 10,
+      "fighter_a_slug": "amos-collins",
+      "fighter_b_slug": "ashton-caniglia",
+      "prediction": {
+        "prob_a": 0.5,
+        "prob_b": 0.5,
+        "raw_score": 0,
+        "favorite_slug": "ashton-caniglia",
+        "confidence": "Very Low",
+        "advantage_a": 50,
+        "advantage_b": 50,
+        "predictability": 18,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "0-0",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.08,
+            "display": "Both debuting"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "0 fights",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 194,
+              "implied_prob": 0.34
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -194,
+              "implied_prob": 0.66
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 110,
+              "implied_prob": 0.475
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 441,
+              "implied_prob": 0.185
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 194,
+              "implied_prob": 0.34
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 11,
+      "fighter_a_slug": "justin-howell",
+      "fighter_b_slug": "brian-maxwell",
+      "prediction": {
+        "prob_a": 0.3536,
+        "prob_b": 0.6464,
+        "raw_score": -0.232,
+        "favorite_slug": "brian-maxwell",
+        "confidence": "Low",
+        "advantage_a": 35,
+        "advantage_b": 65,
+        "predictability": 39,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "W",
+            "edge_slug": "brian-maxwell",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Maxwell hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "1-9",
+            "edge_slug": "justin-howell",
+            "edge_strength": 0.833,
+            "weight": 0.11,
+            "display": "50% vs 17% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "100%",
+            "edge_slug": "brian-maxwell",
+            "edge_strength": 0.975,
+            "weight": 0.11,
+            "display": "-65 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "3.6y ago",
+            "edge_slug": "justin-howell",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Howell more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "0%",
+            "edge_slug": "justin-howell",
+            "edge_strength": 1,
+            "weight": 0.04,
+            "display": "Howell tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "10 fights",
+            "edge_slug": "brian-maxwell",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+10 fights Maxwell"
+          }
+        ],
+        "summary": "Model leans Maxwell 65/35. Edges on recent form, ko rate, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 515,
+              "implied_prob": 0.162
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -515,
+              "implied_prob": 0.838
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -152,
+              "implied_prob": 0.603
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 326,
+              "implied_prob": 0.235
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 515,
+              "implied_prob": 0.162
             }
           ]
         }
