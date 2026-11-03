@@ -47,8 +47,8 @@
       "method": "Unanimous Decision",
       "round": 5,
       "time": "02:00",
-      "opponent": "Douglas (Harry) Coltrane",
-      "opponent_slug": "douglas-harry-coltrane",
+      "opponent": "Douglas Coltrane",
+      "opponent_slug": "douglas-coltrane",
       "result": "L",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/eduardo-concepcion"
@@ -74,5 +74,5 @@
   "last_updated": "2026-07-31",
   "elo": 1522,
   "elo_peak": 1522,
-  "history_last_verified": "2026-09-05T11:45:59.576Z"
+  "history_last_verified": "2026-11-03T15:56:52.214Z"
 }

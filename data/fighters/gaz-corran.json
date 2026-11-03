@@ -4,7 +4,7 @@
   "nickname": "THE CRUSHER",
   "division": "Heavyweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": 1
@@ -39,6 +39,19 @@
       "opponent": "mac-bygraves",
       "opponent_slug": "mac-bygraves",
       "result": "W"
+    },
+    {
+      "event": "BKFC 94",
+      "event_slug": "bkfc-94-manchester",
+      "date": "2026-09-26T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "00:26",
+      "opponent": "Macauley Bygraves",
+      "opponent_slug": "macauley-bygraves",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/gaz-corran"
     },
     {
       "event": "BKFC 81 - Manchester",
@@ -85,5 +98,5 @@
   "last_updated": "2026-07-31",
   "elo": 1547,
   "elo_peak": 1547,
-  "history_last_verified": "2026-09-13T13:14:19.136Z"
+  "history_last_verified": "2026-11-03T15:57:40.401Z"
 }

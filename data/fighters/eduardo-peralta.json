@@ -5,8 +5,8 @@
   "nickname": null,
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 2,
+    "losses": 4,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,76 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC on DAZN - Hollywood",
+      "event_slug": "bkfc-on-dazn-hollywood",
+      "date": "2024-12-21T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:02",
+      "opponent": "Sabah Homasi",
+      "opponent_slug": "sabah-homasi",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/eduardo-peralta"
+    },
+    {
+      "event": "BKFC - Fight Night Kansas City",
+      "event_slug": "bkfc-fight-night-kansas-city",
+      "date": "2024-08-16T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "01:59",
+      "opponent": "Deron Carlis",
+      "opponent_slug": "deron-carlis",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/eduardo-peralta"
+    },
+    {
+      "event": "BKFC - Fight Night Omaha",
+      "event_slug": "bkfc-fight-night-omaha",
+      "date": "2024-05-17T00:00:00.000Z",
+      "method": "TKO",
+      "round": 5,
+      "time": "01:10",
+      "opponent": "Brandon Meyer",
+      "opponent_slug": "brandon-meyer",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/eduardo-peralta"
+    },
+    {
+      "event": "BKFC 45",
+      "event_slug": "bkfc-45-palomino-vs-lilley",
+      "date": "2023-06-23T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:31",
+      "opponent": "Howard Davis",
+      "opponent_slug": "howard-davis",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/eduardo-peralta"
+    },
+    {
+      "event": "BKFC 33",
+      "event_slug": "bkfc-33-omaha-beltran-vs-alexander",
+      "date": "2022-11-18T00:00:00.000Z",
+      "method": "TKO",
+      "round": 5,
+      "time": "00:35",
+      "opponent": "Dakota Cochrane",
+      "opponent_slug": "dakota-cochrane",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/eduardo-peralta"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/eduardo-peralta"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-11-03T15:56:55.896Z"
 }

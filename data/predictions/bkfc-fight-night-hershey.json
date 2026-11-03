@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-hershey",
-  "generated_at": "2026-11-02T20:44:22.730Z",
+  "generated_at": "2026-11-03T15:57:45.488Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -525,35 +525,35 @@
       "fighter_a_slug": "jay-haas",
       "fighter_b_slug": "eduardo-peralta",
       "prediction": {
-        "prob_a": 0.33,
-        "prob_b": 0.67,
-        "raw_score": -0.2724,
+        "prob_a": 0.363,
+        "prob_b": 0.637,
+        "raw_score": -0.2163,
         "favorite_slug": "eduardo-peralta",
-        "confidence": "Very Low",
-        "advantage_a": 33,
-        "advantage_b": 67,
-        "predictability": 38,
+        "confidence": "Low",
+        "advantage_a": 36,
+        "advantage_b": 64,
+        "predictability": 48,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-1",
-            "value_b": "0-0",
-            "edge_slug": "eduardo-peralta",
-            "edge_strength": 0.417,
+            "value_b": "2-4",
+            "edge_slug": null,
+            "edge_strength": 0.104,
             "weight": 0.11,
-            "display": "33% vs 50% win rate"
+            "display": "33% vs 38% win rate"
           },
           {
             "name": "BKFC Experience",
             "value_a": "1 fights",
-            "value_b": "0 fights",
-            "edge_slug": null,
-            "edge_strength": 0.125,
+            "value_b": "6 fights",
+            "edge_slug": "eduardo-peralta",
+            "edge_strength": 0.625,
             "weight": 0.03,
-            "display": "Even"
+            "display": "+5 fights Peralta"
           }
         ],
-        "summary": "Model leans Peralta 67/33. Edges on bkfc record.",
+        "summary": "Model leans Peralta 64/36. Edges on bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1019,8 +1019,8 @@
           },
           {
             "name": "Activity",
-            "value_a": "25d ago",
-            "value_b": "25d ago",
+            "value_a": "26d ago",
+            "value_b": "26d ago",
             "edge_slug": null,
             "edge_strength": 0,
             "weight": 0.05,
@@ -1214,7 +1214,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "25d ago",
+            "value_a": "26d ago",
             "value_b": "—",
             "edge_slug": "brian-newman",
             "edge_strength": 1,
