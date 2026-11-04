@@ -145,11 +145,22 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 13,
+      "card_position": "MainCard",
+      "weight_class": "Bantamweight",
+      "fighter_a_slug": "tim-yanc",
+      "fighter_b_slug": "malcolm-schuyler",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-hershey"
   ],
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-04",
   "needs_card_population": false
 }
