@@ -1,0 +1,14 @@
+{
+  "event_slug": "bkfc-fight-night-myrtle-beach",
+  "event_date": "2026-11-20",
+  "source": "consensus",
+  "source_url": null,
+  "fetched_at": "2026-11-06T09:13:01.860Z",
+  "book_count": 3,
+  "books": [
+    "kalshi",
+    "polymarket",
+    "xbet"
+  ],
+  "bouts": []
+}
