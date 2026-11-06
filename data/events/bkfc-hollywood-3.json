@@ -68,11 +68,33 @@
       "title_name": null,
       "scheduled_rounds": 5,
       "result": null
+    },
+    {
+      "order": 6,
+      "card_position": "MainCard",
+      "weight_class": "Lightweight",
+      "fighter_a_slug": "howard-davis",
+      "fighter_b_slug": "elvin-brito",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
+    },
+    {
+      "order": 7,
+      "card_position": "MainCard",
+      "weight_class": "Middleweight",
+      "fighter_a_slug": "leo-acanda",
+      "fighter_b_slug": "justin-walters",
+      "title_fight": false,
+      "title_name": null,
+      "scheduled_rounds": 5,
+      "result": null
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-hollywood-3"
   ],
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-06",
   "needs_card_population": false
 }

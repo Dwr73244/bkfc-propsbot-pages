@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-hollywood-3",
-  "generated_at": "2026-11-06T15:47:55.683Z",
+  "generated_at": "2026-11-06T17:55:24.545Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -598,6 +598,291 @@
               "outcome": "Decision",
               "moneyline": 270,
               "implied_prob": 0.27
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 6,
+      "fighter_a_slug": "howard-davis",
+      "fighter_b_slug": "elvin-brito",
+      "prediction": {
+        "prob_a": 0.6306,
+        "prob_b": 0.3694,
+        "raw_score": 0.2056,
+        "favorite_slug": "howard-davis",
+        "confidence": "High",
+        "advantage_a": 63,
+        "advantage_b": 37,
+        "predictability": 73,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1517,
+            "value_b": 1466,
+            "edge_slug": "howard-davis",
+            "edge_strength": 0.255,
+            "weight": 0.16,
+            "display": "+51 ELO Davis"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "L-W-W",
+            "value_b": "L-L-W-L",
+            "edge_slug": "howard-davis",
+            "edge_strength": 0.692,
+            "weight": 0.13,
+            "display": "Davis hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "8-4",
+            "value_b": "7-8",
+            "edge_slug": "howard-davis",
+            "edge_strength": 0.431,
+            "weight": 0.11,
+            "display": "64% vs 47% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "25%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.15,
+            "weight": 0.11,
+            "display": "-10 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 31,
+            "value_b": 40,
+            "edge_slug": "howard-davis",
+            "edge_strength": 0.96,
+            "weight": 0.09,
+            "display": "31 vs 40"
+          },
+          {
+            "name": "Reach",
+            "value_a": "77\"",
+            "value_b": "70\"",
+            "edge_slug": "howard-davis",
+            "edge_strength": 1,
+            "weight": 0.08,
+            "display": "+7\" Davis"
+          },
+          {
+            "name": "Style",
+            "value_a": "ko-hunter",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.06,
+            "display": "No exploitable style mismatch"
+          },
+          {
+            "name": "Activity",
+            "value_a": "1.6y ago",
+            "value_b": "7mo ago",
+            "edge_slug": "elvin-brito",
+            "edge_strength": 0.8,
+            "weight": 0.05,
+            "display": "Brito more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0/3 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "45%",
+            "value_b": "50%",
+            "edge_slug": null,
+            "edge_strength": 0.1,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "12 fights",
+            "value_b": "15 fights",
+            "edge_slug": "elvin-brito",
+            "edge_strength": 0.375,
+            "weight": 0.03,
+            "display": "+3 fights Brito"
+          },
+          {
+            "name": "Height",
+            "value_a": "6'2\"",
+            "value_b": "5'8\"",
+            "edge_slug": "howard-davis",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+6\" Davis"
+          }
+        ],
+        "summary": "Model leans Davis 63/37. Edges on elo rating, recent form, bkfc record, age.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 279,
+              "implied_prob": 0.264
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -279,
+              "implied_prob": 0.736
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -113,
+              "implied_prob": 0.53
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 385,
+              "implied_prob": 0.206
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 279,
+              "implied_prob": 0.264
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 7,
+      "fighter_a_slug": "leo-acanda",
+      "fighter_b_slug": "justin-walters",
+      "prediction": {
+        "prob_a": 0.3201,
+        "prob_b": 0.6799,
+        "raw_score": -0.2898,
+        "favorite_slug": "justin-walters",
+        "confidence": "Very Low",
+        "advantage_a": 32,
+        "advantage_b": 68,
+        "predictability": 30,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "L-W-L-L",
+            "edge_slug": "leo-acanda",
+            "edge_strength": 0.42,
+            "weight": 0.13,
+            "display": "Acanda hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "0-0",
+            "value_b": "1-3",
+            "edge_slug": "leo-acanda",
+            "edge_strength": 0.417,
+            "weight": 0.11,
+            "display": "50% vs 33% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "—",
+            "value_b": "100%",
+            "edge_slug": "justin-walters",
+            "edge_strength": 0.975,
+            "weight": 0.11,
+            "display": "-65 pt KO-rate gap"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "29d ago",
+            "edge_slug": "justin-walters",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Walters more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/3 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "54%",
+            "edge_slug": null,
+            "edge_strength": 0.083,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "0 fights",
+            "value_b": "4 fights",
+            "edge_slug": "justin-walters",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "+4 fights Walters"
+          }
+        ],
+        "summary": "Model leans Walters 68/32. Edges on ko rate, activity, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 371,
+              "implied_prob": 0.213
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -371,
+              "implied_prob": 0.787
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -131,
+              "implied_prob": 0.567
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 354,
+              "implied_prob": 0.221
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 371,
+              "implied_prob": 0.213
             }
           ]
         }
