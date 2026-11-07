@@ -6,7 +6,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 65",
+      "event_slug": "bkfc-65-ferea-vs-masson-wong",
+      "date": "2024-09-06T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Mike Jones",
+      "opponent_slug": "mike-jones",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/diego-romo"
+    },
+    {
+      "event": "BKFC 53",
+      "event_slug": "bkfc-53-orlando",
+      "date": "2023-11-03T00:00:00.000Z",
+      "method": "Majority Draw",
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Ravon Baxter",
+      "opponent_slug": "ravon-baxter",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/diego-romo"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/diego-romo"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-11-07T14:47:51.602Z"
 }

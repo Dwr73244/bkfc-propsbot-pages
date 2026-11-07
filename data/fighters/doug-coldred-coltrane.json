@@ -5,8 +5,8 @@
   "nickname": "COLDRED",
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 1,
-    "losses": 0,
+    "wins": 5,
+    "losses": 2,
     "draws": 0,
     "kos": 1
   },
@@ -40,6 +40,58 @@
       "opponent": "tony-murphy",
       "opponent_slug": "tony-murphy",
       "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Honolulu",
+      "event_slug": "bkfc-hawaii",
+      "date": "2026-04-11T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:59",
+      "opponent": "Maki Pitolo",
+      "opponent_slug": "maki-pitolo",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/doug-coldred-coltrane"
+    },
+    {
+      "event": "BKFC - Fight Night Kansas City",
+      "event_slug": "bkfc-fight-night-kansas-city",
+      "date": "2024-08-16T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "01:17",
+      "opponent": "Zeb Vincent",
+      "opponent_slug": "zeb-vincent",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/doug-coldred-coltrane"
+    },
+    {
+      "event": "BKFC 53",
+      "event_slug": "bkfc-53-orlando",
+      "date": "2023-11-03T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:23",
+      "opponent": "David Mundell",
+      "opponent_slug": "david-mundell",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/doug-coldred-coltrane"
+    },
+    {
+      "event": "BKFC 42",
+      "event_slug": "bkfc-42-greenville",
+      "date": "2023-05-12T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:34",
+      "opponent": "Anthony Lacaze",
+      "opponent_slug": "anthony-lacaze",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/doug-coldred-coltrane"
     }
   ],
   "sources": [
@@ -49,5 +101,6 @@
   "elo": 1522,
   "elo_peak": 1522,
   "record_source": "tracked-events",
-  "record_verified": "2026-10-24"
+  "record_verified": "2026-10-24",
+  "history_last_verified": "2026-11-07T14:48:06.439Z"
 }

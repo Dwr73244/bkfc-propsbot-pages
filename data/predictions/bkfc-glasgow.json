@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-11-06T17:55:24.544Z",
+  "generated_at": "2026-11-07T14:48:40.488Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1035,13 +1035,13 @@
       "fighter_a_slug": "ian-mulroy",
       "fighter_b_slug": "charlie-thompson",
       "prediction": {
-        "prob_a": 0.4869,
-        "prob_b": 0.5131,
+        "prob_a": 0.5091,
+        "prob_b": 0.4909,
         "raw_score": 0,
-        "favorite_slug": "charlie-thompson",
+        "favorite_slug": "ian-mulroy",
         "confidence": "Very Low",
-        "advantage_a": 49,
-        "advantage_b": 51,
+        "advantage_a": 51,
+        "advantage_b": 49,
         "predictability": 18,
         "factors": [
           {
@@ -1104,14 +1104,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.4869113573407202,
-        "model_prob_b": 0.5130886426592798,
-        "market_fair_prob_a": 0.4709141274238227,
-        "market_fair_prob_b": 0.5290858725761772,
-        "edge_pct_a": 0.015997229916897504,
-        "edge_pct_b": -0.01599722991689745,
-        "edge_slug": "ian-mulroy",
-        "edge_pct": 0.015997229916897504
+        "model_prob_a": 0.5091497227356747,
+        "model_prob_b": 0.4908502772643253,
+        "market_fair_prob_a": 0.5203327171903882,
+        "market_fair_prob_b": 0.4796672828096119,
+        "edge_pct_a": -0.01118299445471349,
+        "edge_pct_b": 0.01118299445471338,
+        "edge_slug": "charlie-thompson",
+        "edge_pct": 0.01118299445471349
       }
     },
     {
@@ -1239,13 +1239,13 @@
       "fighter_a_slug": "ian-mulroy",
       "fighter_b_slug": "charlie-thomson",
       "prediction": {
-        "prob_a": 0.4869,
-        "prob_b": 0.5131,
+        "prob_a": 0.5091,
+        "prob_b": 0.4909,
         "raw_score": 0,
-        "favorite_slug": "charlie-thomson",
+        "favorite_slug": "ian-mulroy",
         "confidence": "Very Low",
-        "advantage_a": 49,
-        "advantage_b": 51,
+        "advantage_a": 51,
+        "advantage_b": 49,
         "predictability": 18,
         "factors": [
           {
@@ -1308,14 +1308,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.4869113573407202,
-        "model_prob_b": 0.5130886426592798,
-        "market_fair_prob_a": 0.4709141274238227,
-        "market_fair_prob_b": 0.5290858725761772,
-        "edge_pct_a": 0.015997229916897504,
-        "edge_pct_b": -0.01599722991689745,
-        "edge_slug": "ian-mulroy",
-        "edge_pct": 0.015997229916897504
+        "model_prob_a": 0.5091497227356747,
+        "model_prob_b": 0.4908502772643253,
+        "market_fair_prob_a": 0.5203327171903882,
+        "market_fair_prob_b": 0.4796672828096119,
+        "edge_pct_a": -0.01118299445471349,
+        "edge_pct_b": 0.01118299445471338,
+        "edge_slug": "charlie-thomson",
+        "edge_pct": 0.01118299445471349
       }
     },
     {
@@ -1731,7 +1731,7 @@
           {
             "name": "Activity",
             "value_a": "—",
-            "value_b": "42d ago",
+            "value_b": "43d ago",
             "edge_slug": "leigh-cohoon",
             "edge_strength": 1,
             "weight": 0.05,

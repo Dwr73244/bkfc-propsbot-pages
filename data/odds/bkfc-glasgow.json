@@ -3,7 +3,7 @@
   "event_date": "2026-11-07",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-11-06T16:53:46.016Z",
+  "fetched_at": "2026-11-07T08:38:33.123Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -160,11 +160,11 @@
     {
       "fighter_a_slug": "ian-mulroy",
       "fighter_b_slug": "charlie-thompson",
-      "moneyline_a": -104,
-      "moneyline_b": -134,
-      "implied_prob_a": 0.51,
-      "implied_prob_b": 0.573,
-      "vig": 0.082,
+      "moneyline_a": -129,
+      "moneyline_b": -108,
+      "implied_prob_a": 0.563,
+      "implied_prob_b": 0.519,
+      "vig": 0.083,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -172,12 +172,12 @@
       ],
       "line_range": {
         "a": [
-          -104,
-          -104
+          -129,
+          -129
         ],
         "b": [
-          -134,
-          -134
+          -108,
+          -108
         ]
       }
     },
@@ -208,11 +208,11 @@
     {
       "fighter_a_slug": "ian-mulroy",
       "fighter_b_slug": "charlie-thomson",
-      "moneyline_a": -104,
-      "moneyline_b": -134,
-      "implied_prob_a": 0.51,
-      "implied_prob_b": 0.573,
-      "vig": 0.082,
+      "moneyline_a": -129,
+      "moneyline_b": -108,
+      "implied_prob_a": 0.563,
+      "implied_prob_b": 0.519,
+      "vig": 0.083,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -220,12 +220,12 @@
       ],
       "line_range": {
         "a": [
-          -104,
-          -104
+          -129,
+          -129
         ],
         "b": [
-          -134,
-          -134
+          -108,
+          -108
         ]
       }
     },

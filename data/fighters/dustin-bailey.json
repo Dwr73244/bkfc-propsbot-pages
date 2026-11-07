@@ -40,10 +40,24 @@
       "opponent": "noah-getahoun",
       "opponent_slug": "noah-getahoun",
       "result": "D"
+    },
+    {
+      "event": "BKFC 95",
+      "event_slug": "bkfc-95-newark",
+      "date": "2026-10-17T00:00:00.000Z",
+      "method": "Unanimous Draw",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "Dustin Bailey",
+      "opponent_slug": "dustin-bailey",
+      "result": "D",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/dustin-bailey"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/dustin-bailey"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-11-07T14:48:08.912Z"
 }
