@@ -1,0 +1,311 @@
+{
+  "event_slug": "bkfc-99-sheffield-bonner-vs-franco",
+  "generated_at": "2026-11-08T17:00:44.835Z",
+  "model_version": "0.1.0",
+  "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
+  "bouts": [
+    {
+      "order": 1,
+      "fighter_a_slug": "ben-bonner",
+      "fighter_b_slug": "rico-franco",
+      "prediction": {
+        "prob_a": 0.4072,
+        "prob_b": 0.5928,
+        "raw_score": -0.1444,
+        "favorite_slug": "rico-franco",
+        "confidence": "Low",
+        "advantage_a": 41,
+        "advantage_b": 59,
+        "predictability": 39,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1522,
+            "value_b": 1564,
+            "edge_slug": "rico-franco",
+            "edge_strength": 0.21,
+            "weight": 0.16,
+            "display": "-42 ELO Franco"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "W-W-W",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.13,
+            "display": "Similar form"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "6-2",
+            "value_b": "11-3",
+            "edge_slug": null,
+            "edge_strength": 0.125,
+            "weight": 0.11,
+            "display": "70% vs 75% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "17%",
+            "value_b": "18%",
+            "edge_slug": null,
+            "edge_strength": 0.023,
+            "weight": 0.11,
+            "display": "-2 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 35,
+            "value_b": 33,
+            "edge_slug": "rico-franco",
+            "edge_strength": 0.36,
+            "weight": 0.09,
+            "display": "35 vs 33"
+          },
+          {
+            "name": "Activity",
+            "value_a": "2.6y ago",
+            "value_b": "5mo ago",
+            "edge_slug": "rico-franco",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Franco more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "64%",
+            "value_b": "38%",
+            "edge_slug": "ben-bonner",
+            "edge_strength": 0.536,
+            "weight": 0.04,
+            "display": "Bonner tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "8 fights",
+            "value_b": "14 fights",
+            "edge_slug": "rico-franco",
+            "edge_strength": 0.75,
+            "weight": 0.03,
+            "display": "+6 fights Franco"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'10\"",
+            "value_b": "5'8\"",
+            "edge_slug": "ben-bonner",
+            "edge_strength": 0.4,
+            "weight": 0.03,
+            "display": "+2\" Bonner"
+          }
+        ],
+        "summary": "Model leans Franco 59/41. Edges on elo rating, age, activity, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 187,
+              "implied_prob": 0.349
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -187,
+              "implied_prob": 0.651
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 113,
+              "implied_prob": 0.469
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 448,
+              "implied_prob": 0.182
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 187,
+              "implied_prob": 0.349
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 2,
+      "fighter_a_slug": "jimmy-sweeney",
+      "fighter_b_slug": "james-lilley",
+      "prediction": {
+        "prob_a": 0.6041,
+        "prob_b": 0.3959,
+        "raw_score": 0.1626,
+        "favorite_slug": "jimmy-sweeney",
+        "confidence": "High",
+        "advantage_a": 60,
+        "advantage_b": 40,
+        "predictability": 66,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1522,
+            "value_b": 1499,
+            "edge_slug": null,
+            "edge_strength": 0.115,
+            "weight": 0.16,
+            "display": "+23 ELO "
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "L-W",
+            "edge_slug": "jimmy-sweeney",
+            "edge_strength": 0.973,
+            "weight": 0.13,
+            "display": "Sweeney hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "30-6",
+            "value_b": "10-3",
+            "edge_slug": "jimmy-sweeney",
+            "edge_strength": 0.206,
+            "weight": 0.11,
+            "display": "82% vs 73% win rate"
+          },
+          {
+            "name": "KO Rate",
+            "value_a": "3%",
+            "value_b": "10%",
+            "edge_slug": null,
+            "edge_strength": 0.1,
+            "weight": 0.11,
+            "display": "-7 pt KO-rate gap"
+          },
+          {
+            "name": "Age",
+            "value_a": 41,
+            "value_b": 39,
+            "edge_slug": "james-lilley",
+            "edge_strength": 0.28,
+            "weight": 0.09,
+            "display": "41 vs 39"
+          },
+          {
+            "name": "Reach",
+            "value_a": "68\"",
+            "value_b": "71\"",
+            "edge_slug": "james-lilley",
+            "edge_strength": 0.5,
+            "weight": 0.08,
+            "display": "-3\" Lilley"
+          },
+          {
+            "name": "Activity",
+            "value_a": "4mo ago",
+            "value_b": "2.6y ago",
+            "edge_slug": "jimmy-sweeney",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Sweeney more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "38%",
+            "value_b": "81%",
+            "edge_slug": "james-lilley",
+            "edge_strength": 0.843,
+            "weight": 0.04,
+            "display": "Lilley tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "36 fights",
+            "value_b": "13 fights",
+            "edge_slug": "jimmy-sweeney",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+23 fights Sweeney"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'9\"",
+            "value_b": "5'10\"",
+            "edge_slug": "james-lilley",
+            "edge_strength": 0.2,
+            "weight": 0.03,
+            "display": "-1\" Lilley"
+          }
+        ],
+        "summary": "Model leans Sweeney 60/40. Edges on recent form, bkfc record, activity, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 244,
+              "implied_prob": 0.291
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -244,
+              "implied_prob": 0.709
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -104,
+              "implied_prob": 0.51
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 404,
+              "implied_prob": 0.199
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 244,
+              "implied_prob": 0.291
+            }
+          ]
+        }
+      ],
+      "edge": null
+    }
+  ]
+}
