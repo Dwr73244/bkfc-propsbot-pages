@@ -3,7 +3,7 @@
   "event_date": "2026-11-07",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-11-07T15:36:17.695Z",
+  "fetched_at": "2026-11-08T13:11:03.039Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -256,10 +256,10 @@
     {
       "fighter_a_slug": "gzim-selmani",
       "fighter_b_slug": "reece-heer",
-      "moneyline_a": -275,
-      "moneyline_b": 188,
-      "implied_prob_a": 0.733,
-      "implied_prob_b": 0.347,
+      "moneyline_a": -305,
+      "moneyline_b": 205,
+      "implied_prob_a": 0.753,
+      "implied_prob_b": 0.328,
       "vig": 0.081,
       "book_count": 2,
       "books": [
@@ -268,23 +268,23 @@
       ],
       "line_range": {
         "a": [
-          -275,
-          -275
+          -305,
+          -305
         ],
         "b": [
-          188,
-          188
+          205,
+          205
         ]
       }
     },
     {
       "fighter_a_slug": "sean-weir",
       "fighter_b_slug": "leigh-cohoon",
-      "moneyline_a": -286,
-      "moneyline_b": 195,
-      "implied_prob_a": 0.741,
-      "implied_prob_b": 0.339,
-      "vig": 0.08,
+      "moneyline_a": -360,
+      "moneyline_b": 240,
+      "implied_prob_a": 0.783,
+      "implied_prob_b": 0.294,
+      "vig": 0.077,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -292,12 +292,12 @@
       ],
       "line_range": {
         "a": [
-          -286,
-          -286
+          -360,
+          -360
         ],
         "b": [
-          195,
-          195
+          240,
+          240
         ]
       }
     }

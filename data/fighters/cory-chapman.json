@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-glasgow",
+      "event_slug": "bkfc-glasgow",
+      "date": "2026-11-07T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "0:40",
+      "opponent": "lewis-dixon",
+      "opponent_slug": "lewis-dixon",
+      "result": "W"
+    },
+    {
       "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "date": "2026-08-01T00:00:00.000Z",
@@ -46,8 +57,8 @@
     "https://www.bkfc.com/fighters/cory-chapman"
   ],
   "last_updated": "2026-08-26",
-  "elo": 1522,
-  "elo_peak": 1522,
+  "elo": 1543,
+  "elo_peak": 1543,
   "record_source": "tracked-events",
   "record_verified": "2026-08-02"
 }

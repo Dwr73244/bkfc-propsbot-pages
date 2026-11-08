@@ -29,9 +29,23 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-glasgow",
+      "event_slug": "bkfc-glasgow",
+      "date": "2026-11-07T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "1:14",
+      "opponent": "kj-metcalfe",
+      "opponent_slug": "kj-metcalfe",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/doalty-torrance"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "elo": 1479,
+  "elo_peak": 1500
 }

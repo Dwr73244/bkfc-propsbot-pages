@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-glasgow",
+      "event_slug": "bkfc-glasgow",
+      "date": "2026-11-07T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "1:17",
+      "opponent": "dan-morel",
+      "opponent_slug": "dan-morel",
+      "result": "L"
+    },
+    {
       "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "date": "2026-08-01T00:00:00.000Z",
@@ -60,7 +71,7 @@
   ],
   "last_updated": "2026-08-02",
   "history_last_verified": "2026-08-02T10:01:59.458Z",
-  "elo": 1478,
+  "elo": 1457,
   "elo_peak": 1500,
   "record_source": "tracked-events",
   "record_verified": "2026-08-02"

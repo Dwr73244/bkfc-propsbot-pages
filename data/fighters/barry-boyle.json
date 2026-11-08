@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-glasgow",
+      "event_slug": "bkfc-glasgow",
+      "date": "2026-11-07T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "0:44",
+      "opponent": "kaseem-saleem",
+      "opponent_slug": "kaseem-saleem",
+      "result": "W"
+    },
+    {
       "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "date": "2026-08-01T00:00:00.000Z",
@@ -59,8 +70,8 @@
     "https://www.bkfc.com/fighters/barry-boyle"
   ],
   "last_updated": "2026-08-14",
-  "elo": 1482,
-  "elo_peak": 1500,
+  "elo": 1505,
+  "elo_peak": 1505,
   "record_source": "tracked-events",
   "record_verified": "2026-08-02",
   "history_last_verified": "2026-08-14T09:13:05.917Z"

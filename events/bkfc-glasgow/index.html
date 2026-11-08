@@ -166,7 +166,18 @@
 
   <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-16">
     <h2 class="text-xs font-semibold mono uppercase tracking-wider text-white/50 mb-4">Full Fight Card</h2>
-    <div class="space-y-3">
+    <div class="space-y-3"><a href="recap/" class="block mb-5 group glass rounded-2xl p-5 border border-pb-teal/20 hover:border-pb-teal/50 transition">
+         <div class="flex items-center justify-between gap-4 flex-wrap">
+           <div>
+             <div class="flex items-center gap-2 mb-1">
+               <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-pb-teal/15 border border-pb-teal/30 text-pb-teal text-[10px] font-bold mono uppercase tracking-wider">Recap</span>
+               <span class="text-white font-bold">Model vs actual — hits, misses, method</span>
+             </div>
+             <div class="text-white/60 text-sm">What the model got right, what it got wrong, and how this card stacks up against our backtest baseline.</div>
+           </div>
+           <span class="text-pb-teal text-sm mono font-semibold group-hover:translate-x-1 transition">Read recap →</span>
+         </div>
+       </a>
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
         <div class="flex items-center gap-2 text-xs mono text-white/50 uppercase tracking-wider">
@@ -274,106 +285,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755717859/o/TBA_FIGHTER_AVATAR_400x400.png?1755717859" alt="Stevie Ray" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          46
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/stevie-ray/">Stevie Ray</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/stevie-ray/">Stevie Ray</a></div>
+          <div class="meta">0-0</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1746761850/o/CHRISTIE_SMALL_AVATAR_400x400.png?1746761850" alt="Danny Christie" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          54
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/danny-christie/">Danny Christie</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">5</span><span class="record-sep">-</span><span class="record-l">3</span></span> · age 41 · 73&quot; reach</div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter">
-        <a href="../../guide/betting-glossary/#predictability" class="label jargon-link" title="Predictability — how trustworthy this specific pick is, 0-100. Click for details.">Predictability</a>
-        <div class="track"><div class="fill" style="width:38%"></div></div>
-        <span class="pred-value">38</span>
-        <span class="pred-conf">Marginal</span>
-      </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="danny-christie|stevie-ray" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="stevie-ray">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Ray</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-a">-159</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">61.4%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="danny-christie">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Christie</div>
-          <div class="mono font-bold text-white/80" data-role="ml-b">+115</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">46.5%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/danny-christie/">Danny Christie</a></div>
+          <div class="meta">5-3 · United Kingdom · &quot;The Bastard&quot;</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+312</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-312</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">-120</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+371</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+312</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Low confidence</span>
-        <span class="status-pill status-title" style="font-size:0.65rem">⚠️ Edge 11.4pt Christie</span>
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="danny-christie|stevie-ray" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="stevie-ray" style="width:46%"><span data-role="pct-a">46%</span></div>
-        <div class="seg seg-b" data-fighter-slug="danny-christie" style="width:54%"><span data-role="pct-b">54%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Danny Christie def. Stevie Ray via TKO · R2</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -385,106 +313,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755717859/o/TBA_FIGHTER_AVATAR_400x533.png?1755717859" alt="Scott Malone" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge underdog jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          36
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/scott-malone/">Scott Malone</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/scott-malone/">Scott Malone</a></div>
+          <div class="meta">0-0</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md favorite" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1758126269/o/KIERON_SEWELL_SMALL_AVATAR_400x400.png?1758126269" alt="Kieron Sewell" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge favorite jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          64
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/kieron-sewell/">Kieron Sewell</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">2</span><span class="record-sep">-</span><span class="record-l">1</span></span> · age 33 · 65&quot; reach</div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter">
-        <a href="../../guide/betting-glossary/#predictability" class="label jargon-link" title="Predictability — how trustworthy this specific pick is, 0-100. Click for details.">Predictability</a>
-        <div class="track"><div class="fill" style="width:36%"></div></div>
-        <span class="pred-value">36</span>
-        <span class="pred-conf">Marginal</span>
-      </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="kieron-sewell|scott-malone" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="scott-malone">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Malone</div>
-          <div class="mono font-bold text-white/80" data-role="ml-a">+132</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">43.1%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="kieron-sewell">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Sewell</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-b">-182</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">64.5%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/kieron-sewell/">Kieron Sewell</a></div>
+          <div class="meta">2-1 · United Kingdom · &quot;THE SCUMBAG&quot;</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+163</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-163</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">+124</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+476</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+163</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Very Low confidence</span>
-
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="kieron-sewell|scott-malone" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="scott-malone" style="width:36%"><span data-role="pct-a">36%</span></div>
-        <div class="seg seg-b" data-fighter-slug="kieron-sewell" style="width:64%"><span data-role="pct-b">64%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Scott Malone def. Kieron Sewell via Unanimous Decision · R6</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -496,106 +341,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755717859/o/TBA_FIGHTER_AVATAR_400x533.png?1755717859" alt="Rhys Pagan" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          52
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/rhys-pagan/">Rhys Pagan</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/rhys-pagan/">Rhys Pagan</a></div>
+          <div class="meta">0-0</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1747694348/o/DANNY_MOIR_400x400.png?1747694348" alt="Danny Moir" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          48
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/danny-moir/">Danny Moir</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">3</span><span class="record-sep">-</span><span class="record-l">1</span></span> · age 33 · 78&quot; reach</div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter">
-        <a href="../../guide/betting-glossary/#predictability" class="label jargon-link" title="Predictability — how trustworthy this specific pick is, 0-100. Click for details.">Predictability</a>
-        <div class="track"><div class="fill" style="width:15%"></div></div>
-        <span class="pred-value">15</span>
-        <span class="pred-conf">Weak signal</span>
-      </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="danny-moir|rhys-pagan" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="rhys-pagan">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Pagan</div>
-          <div class="mono font-bold text-white/80" data-role="ml-a">-106</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">51.5%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="danny-moir">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Moir</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-b">-132</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">56.9%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/danny-moir/">Danny Moir</a></div>
+          <div class="meta">3-1 · United Kingdom · &quot;THE DESTROYER&quot;</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+400</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-400</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">-136</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+346</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+400</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Very Low confidence</span>
-
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="danny-moir|rhys-pagan" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="rhys-pagan" style="width:52%"><span data-role="pct-a">52%</span></div>
-        <div class="seg seg-b" data-fighter-slug="danny-moir" style="width:48%"><span data-role="pct-b">48%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Rhys Pagan def. Danny Moir via TKO · R1</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -607,104 +369,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md favorite" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1783623365/o/CORY_CHAPMAN_SMALL_AVATAR_400x400.png?1783623365" alt="Cory Chapman" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge favorite jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          73
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/cory-chapman/">Cory Chapman</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">1</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/cory-chapman/">Cory Chapman</a></div>
+          <div class="meta">1-0 · United Kingdom</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755717859/o/TBA_FIGHTER_AVATAR_400x533.png?1755717859" alt="Lewis Dixon" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge underdog jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          27
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/lewis-dixon/">Lewis Dixon</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter pred-meter-nodata">
-          <span class="label">Predictability</span>
-          <span class="pred-conf-warning">⚠ Limited BKFC signal — both fighters debut-tier</span>
-        </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="cory-chapman|lewis-dixon" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="cory-chapman">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Chapman</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-a">-250</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">71.4%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="lewis-dixon">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Dixon</div>
-          <div class="mono font-bold text-white/80" data-role="ml-b">+175</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">36.4%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/lewis-dixon/">Lewis Dixon</a></div>
+          <div class="meta">0-0</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+192</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-192</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">+111</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+443</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+192</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Very Low confidence</span>
-        <span class="status-pill status-title" style="font-size:0.65rem">⚠️ Edge 6.9pt Chapman</span>
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="cory-chapman|lewis-dixon" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="cory-chapman" style="width:73%"><span data-role="pct-a">73%</span></div>
-        <div class="seg seg-b" data-fighter-slug="lewis-dixon" style="width:27%"><span data-role="pct-b">27%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Cory Chapman def. Lewis Dixon via KO · R1</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -813,106 +494,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md favorite" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1763313640/o/LEWIS_KNOX_SMALL_AVATAR_400x400.png?1763313640" alt="Lewis Knox" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge favorite jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          68
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/lewis-knox/">Lewis Knox</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">5</span><span class="record-sep">-</span><span class="record-l">2</span></span> · age 30 · 72&quot; reach</div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/lewis-knox/">Lewis Knox</a></div>
+          <div class="meta">5-2 · United Kingdom · &quot;The Leith Warrior&quot;</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1763400869/o/TOMMY_CARUS_SMALL_AVATAR_400x400.png?1763400869" alt="Tommy Carus" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge underdog jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          32
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/tommy-carus/">Tommy Carus</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">1</span></span> · age 34 · 75&quot; reach</div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter">
-        <a href="../../guide/betting-glossary/#predictability" class="label jargon-link" title="Predictability — how trustworthy this specific pick is, 0-100. Click for details.">Predictability</a>
-        <div class="track"><div class="fill" style="width:58%"></div></div>
-        <span class="pred-value">58</span>
-        <span class="pred-conf">Solid</span>
-      </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="lewis-knox|tommy-carus" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="lewis-knox">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Knox</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-a">-225</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">69.2%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="tommy-carus">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Carus</div>
-          <div class="mono font-bold text-white/80" data-role="ml-b">+155</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">39.2%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/tommy-carus/">Tommy Carus</a></div>
+          <div class="meta">0-1 · United Kingdom · &quot;CHAOS&quot;</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+216</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-216</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">+103</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+422</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+216</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Medium confidence</span>
-
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="lewis-knox|tommy-carus" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="lewis-knox" style="width:68%"><span data-role="pct-a">68%</span></div>
-        <div class="seg seg-b" data-fighter-slug="tommy-carus" style="width:32%"><span data-role="pct-b">32%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Lewis Knox def. Tommy Carus via TKO · R4</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -924,104 +522,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md favorite" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1783620655/o/BARRY_BOYLE_SMALL_AVATAR_400x400.png?1783620655" alt="Barry Boyle" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge favorite jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          55
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/barry-boyle/">Barry Boyle</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">1</span></span></div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/barry-boyle/">Barry Boyle</a></div>
+          <div class="meta">0-1 · United Kingdom</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1777646013/o/KASEEM_SALEEM_SMALL_AVATAR_400x400.png?1777646013" alt="Kaseem Saleem" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge underdog jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          45
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/kaseem-saleem/">Kaseem Saleem</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter pred-meter-nodata">
-          <span class="label">Predictability</span>
-          <span class="pred-conf-warning">⚠ Limited BKFC signal — both fighters debut-tier</span>
-        </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="barry-boyle|kaseem-saleem" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="barry-boyle">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Boyle</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-a">-182</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">64.5%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="kaseem-saleem">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Saleem</div>
-          <div class="mono font-bold text-white/80" data-role="ml-b">+132</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">43.1%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/kaseem-saleem/">Kaseem Saleem</a></div>
+          <div class="meta">0-0</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+567</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-567</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">-158</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+320</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+567</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Very Low confidence</span>
-        <span class="status-pill status-title" style="font-size:0.65rem">⚠️ Edge 5.3pt Saleem</span>
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="barry-boyle|kaseem-saleem" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="barry-boyle" style="width:55%"><span data-role="pct-a">55%</span></div>
-        <div class="seg seg-b" data-fighter-slug="kaseem-saleem" style="width:45%"><span data-role="pct-b">45%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Barry Boyle def. Kaseem Saleem via KO · R2</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -1128,104 +645,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755717859/o/TBA_FIGHTER_AVATAR_400x533.png?1755717859" alt="Ian Mulroy" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          51
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/ian-mulroy/">Ian Mulroy</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/ian-mulroy/">Ian Mulroy</a></div>
+          <div class="meta">0-0</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755717859/o/TBA_FIGHTER_AVATAR_400x533.png?1755717859" alt="Charlie Thompson" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          49
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/charlie-thompson/">Charlie Thompson</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter pred-meter-nodata">
-          <span class="label">Predictability</span>
-          <span class="pred-conf-warning">⚠ Limited BKFC signal — both fighters debut-tier</span>
-        </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="charlie-thompson|ian-mulroy" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="ian-mulroy">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Mulroy</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-a">-129</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">56.3%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="charlie-thompson">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Thompson</div>
-          <div class="mono font-bold text-white/80" data-role="ml-b">-108</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">51.9%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/charlie-thompson/">Charlie Thompson</a></div>
+          <div class="meta">0-0</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+300</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-300</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">-117</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+376</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+300</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Very Low confidence</span>
-
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="charlie-thompson|ian-mulroy" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="ian-mulroy" style="width:51%"><span data-role="pct-a">51%</span></div>
-        <div class="seg seg-b" data-fighter-slug="charlie-thompson" style="width:49%"><span data-role="pct-b">49%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Charlie Thompson def. Ian Mulroy via TKO · R4</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -1237,104 +673,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md favorite" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755717859/o/TBA_FIGHTER_AVATAR_400x533.png?1755717859" alt="Dan Morel" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge favorite jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          55
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/dan-morel/">Dan Morel</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/dan-morel/">Dan Morel</a></div>
+          <div class="meta">0-0</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1784837720/o/OWEN_WEBSTER_SMALL_AVATAR_400x400.png?1784837720" alt="Owen Webster" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge underdog jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          45
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/owen-webster/">Owen Webster</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">1</span></span></div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter pred-meter-nodata">
-          <span class="label">Predictability</span>
-          <span class="pred-conf-warning">⚠ Limited BKFC signal — both fighters debut-tier</span>
-        </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="dan-morel|owen-webster" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="dan-morel">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Morel</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-a">-195</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">66.1%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="owen-webster">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Webster</div>
-          <div class="mono font-bold text-white/80" data-role="ml-b">+138</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">42.0%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/owen-webster/">Owen Webster</a></div>
+          <div class="meta">0-1</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+194</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-194</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">+110</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+441</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+194</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Very Low confidence</span>
-        <span class="status-pill status-title" style="font-size:0.65rem">⚠️ Edge 6.3pt Webster</span>
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="dan-morel|owen-webster" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="dan-morel" style="width:55%"><span data-role="pct-a">55%</span></div>
-        <div class="seg seg-b" data-fighter-slug="owen-webster" style="width:45%"><span data-role="pct-b">45%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Dan Morel def. Owen Webster via TKO · R4</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -1346,104 +701,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1755717859/o/TBA_FIGHTER_AVATAR_400x533.png?1755717859" alt="Ian Mulroy" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          51
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/ian-mulroy/">Ian Mulroy</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/ian-mulroy/">Ian Mulroy</a></div>
+          <div class="meta">0-0</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <div class="fighter-avatar md fallback" aria-label="Charlie Thomson" role="img"><span>T</span></div>
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          49
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/charlie-thomson/">Charlie Thomson</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter pred-meter-nodata">
-          <span class="label">Predictability</span>
-          <span class="pred-conf-warning">⚠ Limited BKFC signal — both fighters debut-tier</span>
-        </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="charlie-thomson|ian-mulroy" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="ian-mulroy">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Mulroy</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-a">-129</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">56.3%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="charlie-thomson">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Thomson</div>
-          <div class="mono font-bold text-white/80" data-role="ml-b">-108</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">51.9%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/charlie-thomson/">Charlie Thomson</a></div>
+          <div class="meta">0-0</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+300</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-300</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">-117</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+376</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+300</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Very Low confidence</span>
-
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="charlie-thomson|ian-mulroy" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="ian-mulroy" style="width:51%"><span data-role="pct-a">51%</span></div>
-        <div class="seg seg-b" data-fighter-slug="charlie-thomson" style="width:49%"><span data-role="pct-b">49%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Charlie Thomson def. Ian Mulroy via TKO · R4</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -1552,104 +826,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1783621665/o/DOALTY_TORRANCE_AVATAR_400x533.png?1783621665" alt="Doalty Torrance" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge underdog jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          34
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/doalty-torrance/">Doalty Torrance</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/doalty-torrance/">Doalty Torrance</a></div>
+          <div class="meta">0-0 · United Kingdom</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md favorite" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1783621481/o/KJ_METCALFE_SMALL_AVATAR_400x400.png?1783621481" alt="Kj Metcalfe" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge favorite jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          66
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/kj-metcalfe/">Kj Metcalfe</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">1</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter pred-meter-nodata">
-          <span class="label">Predictability</span>
-          <span class="pred-conf-warning">⚠ Limited BKFC signal — both fighters debut-tier</span>
-        </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="doalty-torrance|kj-metcalfe" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="doalty-torrance">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Torrance</div>
-          <div class="mono font-bold text-white/80" data-role="ml-a">-118</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">54.1%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="kj-metcalfe">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Metcalfe</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-b">-118</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">54.1%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/kj-metcalfe/">Kj Metcalfe</a></div>
+          <div class="meta">1-0 · United Kingdom</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+312</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-312</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">-120</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+371</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+312</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Very Low confidence</span>
-        <span class="status-pill status-title" style="font-size:0.65rem">⚠️ Edge 15.8pt Metcalfe</span>
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="doalty-torrance|kj-metcalfe" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="doalty-torrance" style="width:34%"><span data-role="pct-a">34%</span></div>
-        <div class="seg seg-b" data-fighter-slug="kj-metcalfe" style="width:66%"><span data-role="pct-b">66%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Kj Metcalfe def. Doalty Torrance via TKO · R2</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -1661,104 +854,23 @@
 
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md favorite" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1791217570/o/GZIM_SELMANI_SMALL_AVATAR_400x400.png?1791217570" alt="Gzim Selmani" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge favorite jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          67
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/gzim-selmani/">Gzim Selmani</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">1</span><span class="record-sep">-</span><span class="record-l">0</span></span> · age 32 · 80&quot; reach</div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/gzim-selmani/">Gzim Selmani</a></div>
+          <div class="meta">1-0 · &quot;THE ALBANIAN PSYCHO&quot;</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <div class="fighter-avatar md fallback" aria-label="Reece Heer" role="img"><span>H</span></div>
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge underdog jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          33
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><a href="../../fighters/reece-heer/">Reece Heer</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">0</span><span class="record-sep">-</span><span class="record-l">0</span></span></div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter pred-meter-nodata">
-          <span class="label">Predictability</span>
-          <span class="pred-conf-warning">⚠ Limited BKFC signal — both fighters debut-tier</span>
-        </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="gzim-selmani|reece-heer" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="gzim-selmani">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Selmani</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-a">-275</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">73.3%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="reece-heer">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Heer</div>
-          <div class="mono font-bold text-white/80" data-role="ml-b">+188</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">34.7%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/reece-heer/">Reece Heer</a></div>
+          <div class="meta">0-0</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+567</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-567</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">-158</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+320</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+567</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Very Low confidence</span>
-
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="gzim-selmani|reece-heer" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="gzim-selmani" style="width:67%"><span data-role="pct-a">67%</span></div>
-        <div class="seg seg-b" data-fighter-slug="reece-heer" style="width:33%"><span data-role="pct-b">33%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Gzim Selmani def. Reece Heer via Unanimous Decision · R5</div>
+    </article>
 
     <article class="fight-card glass rounded-xl p-4 sm:p-5 border border-white/5">
       <div class="flex items-center justify-between gap-2 mb-3 flex-wrap">
@@ -1770,106 +882,23 @@
         <span class="status-pill status-title">Title Fight</span>
       </div>
 
-    <div class="adv-row">
-      <div class="adv-side adv-side-a">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1773340018/o/SEAN_WEIR_SMALL_AVATAR_400x400.png?1773340018" alt="Sean Weir" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          53
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/sean-weir/">Sean Weir</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">3</span><span class="record-sep">-</span><span class="record-l">0</span></span> · age 34 · 76&quot; reach</div>
+      <div class="bout-row">
+        <div class="bout-fighter">
+          <div class="name"><a class="fighter-link" href="../../fighters/sean-weir/">Sean Weir</a></div>
+          <div class="meta">3-0 · United Kingdom · &quot;THE BUTCHER&quot;</div>
         </div>
-      </div>
-      <div class="adv-vs">VS</div>
-      <div class="adv-side adv-side-b">
-        <img class="fighter-avatar md" src="https://bkfc-cdn.gigcasters.com/a/881f5d0d-02d9-493b-b7ba-bced0210f9d9/39d1e984-6f40-4d73-a661-ad11c69477db/1786736010/o/LEIGH_COHOON_SMALL_AVATAR_400x400.png?1786736010" alt="Leigh Cohoon" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="44" height="44" fetchpriority="low">
-        <a href="../../guide/betting-glossary/#advantage-score" class="adv-badge toss-up jargon-link" title="Advantage Score — the model's 0-100 win probability. Click for details.">
-          47
-          <span class="adv-sub">ADV</span>
-        </a>
-        <div class="adv-fighter">
-          <div class="adv-name"><span class="nat-pill" title="United Kingdom" aria-label="United Kingdom">GB</span><a href="../../fighters/leigh-cohoon/">Leigh Cohoon</a></div>
-          <div class="adv-meta"><span class="record-num"><span class="record-w">4</span><span class="record-sep">-</span><span class="record-l">1</span></span> · age 41 · 74&quot; reach</div>
-        </div>
-      </div>
-    </div>
-    <div class="pred-meter">
-        <a href="../../guide/betting-glossary/#predictability" class="label jargon-link" title="Predictability — how trustworthy this specific pick is, 0-100. Click for details.">Predictability</a>
-        <div class="track"><div class="fill" style="width:48%"></div></div>
-        <span class="pred-value">48</span>
-        <span class="pred-conf">Marginal</span>
-      </div>
-
-      <div class="mt-3 pt-3 border-t border-white/5 grid grid-cols-2 gap-3 text-xs" data-bout-key="leigh-cohoon|sean-weir" data-variant="market-tiles">
-        <div class="text-center" data-fighter-slug="sean-weir">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Weir</div>
-          <div class="mono font-bold text-pb-teal" data-role="ml-a">-286</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-a">74.1%</div>
-
-        </div>
-        <div class="text-center" data-fighter-slug="leigh-cohoon">
-          <div class="mono text-white/40 uppercase tracking-wider text-[10px] mb-1">Cohoon</div>
-          <div class="mono font-bold text-white/80" data-role="ml-b">+195</div>
-          <div class="text-white/40 text-[10px] mono" data-role="ip-b">33.9%</div>
-
+        <div class="bout-vs">VS</div>
+        <div class="bout-fighter bout-fighter-b">
+          <div class="name"><a class="fighter-link" href="../../fighters/leigh-cohoon/">Leigh Cohoon</a></div>
+          <div class="meta">4-1 · United Kingdom · &quot;THE BOOM&quot;</div>
         </div>
       </div>
 
 
 
-    <details class="prop-accordion mt-3">
-      <summary>Prop markets (2)</summary>
-      <div class="prop-accordion-body">
-      <div class="prop-market">
-        <div class="prop-market-label">Fight Goes Distance</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">Yes (Decision)</div>
-            <div class="prop-ml">+613</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">No (Finish)</div>
-            <div class="prop-ml">-613</div>
-          </div></div>
-      </div>
 
-      <div class="prop-market">
-        <div class="prop-market-label">Method of Victory</div>
-        <div class="prop-tiles">
-          <div class="prop-tile">
-            <div class="prop-outcome">KO/TKO</div>
-            <div class="prop-ml">-162</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Doctor Stoppage</div>
-            <div class="prop-ml">+315</div>
-          </div>
-          <div class="prop-tile">
-            <div class="prop-outcome">Decision</div>
-            <div class="prop-ml">+613</div>
-          </div></div>
-      </div></div>
-    </details>
-
-
-    <div class="mt-3 pt-3 border-t border-white/5">
-      <div class="flex items-center justify-between gap-2 mb-2 flex-wrap">
-        <span class="text-[10px] mono uppercase tracking-wider text-white/40">Model vs Market · Medium confidence</span>
-        <span class="status-pill status-upcoming" style="font-size:0.65rem">★ Edge 15.5pt Cohoon</span>
-      </div>
-      <div class="prob-stack">
-
-    <div class="prob-row" data-bout-key="leigh-cohoon|sean-weir" data-variant="model">
-      <div class="prob-label">Model</div>
-      <div class="prob-bar model">
-        <div class="seg seg-a" data-fighter-slug="sean-weir" style="width:53%"><span data-role="pct-a">53%</span></div>
-        <div class="seg seg-b" data-fighter-slug="leigh-cohoon" style="width:47%"><span data-role="pct-b">47%</span></div>
-      </div>
-    </div>
-      </div>
-    </div></article></div>
+      <div class="mt-3 pt-3 border-t border-white/5 text-xs mono text-pb-teal">Sean Weir def. Leigh Cohoon via TKO · R1</div>
+    </article></div>
   </section>
 
   <section class="max-w-6xl mx-auto px-4 sm:px-6 pb-16">

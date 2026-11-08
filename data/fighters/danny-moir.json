@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-glasgow",
+      "event_slug": "bkfc-glasgow",
+      "date": "2026-11-07T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "1:22",
+      "opponent": "rhys-pagan",
+      "opponent_slug": "rhys-pagan",
+      "result": "L"
+    },
+    {
       "event": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "event_slug": "bkfc-fight-night-newcastle-garside-vs-taylor",
       "date": "2026-08-01T00:00:00.000Z",
@@ -76,19 +87,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/danny-moir"
-    },
-    {
-      "event": "BKFC - Prospects Newcastle",
-      "event_slug": "bkfc-prospects-newcastle",
-      "date": "2024-06-08T00:00:00.000Z",
-      "method": "Split Decision",
-      "round": 5,
-      "time": "02:00",
-      "opponent": "John Ferguson",
-      "opponent_slug": "john-ferguson",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/danny-moir"
     }
   ],
   "sources": [
@@ -96,7 +94,7 @@
     "https://www.bkfc.com/fighters/danny-moir"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1479,
+  "elo": 1459,
   "elo_peak": 1500,
   "history_last_verified": "2026-08-26T08:48:15.718Z"
 }

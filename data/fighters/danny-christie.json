@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-glasgow",
+      "event_slug": "bkfc-glasgow",
+      "date": "2026-11-07T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "2:00",
+      "opponent": "stevie-ray",
+      "opponent_slug": "stevie-ray",
+      "result": "W"
+    },
+    {
       "event": "BKFC 91",
       "event_slug": "bkfc-naples",
       "date": "2026-07-18T00:00:00.000Z",
@@ -80,17 +91,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/danny-christie"
-    },
-    {
-      "event": "BKFC 60 Milton Keynes: Lilley vs. Tenaglia",
-      "event_slug": "bkfc-60",
-      "date": "2024-04-06T20:00:00.000Z",
-      "method": "TKO",
-      "round": 1,
-      "time": "1:38",
-      "opponent": "david-round",
-      "opponent_slug": "david-round",
-      "result": "W"
     }
   ],
   "sources": [
@@ -99,7 +99,7 @@
     "https://www.bkfc.com/fighters/danny-christie"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1552,
-  "elo_peak": 1552,
+  "elo": 1571,
+  "elo_peak": 1571,
   "history_last_verified": "2026-08-26T08:48:17.211Z"
 }

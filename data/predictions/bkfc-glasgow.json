@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-glasgow",
-  "generated_at": "2026-11-07T16:49:25.963Z",
+  "generated_at": "2026-11-07T23:51:55.547Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1590,13 +1590,13 @@
       "fighter_a_slug": "gzim-selmani",
       "fighter_b_slug": "reece-heer",
       "prediction": {
-        "prob_a": 0.6739,
-        "prob_b": 0.3261,
+        "prob_a": 0.682,
+        "prob_b": 0.318,
         "raw_score": 0.2724,
         "favorite_slug": "gzim-selmani",
         "confidence": "Very Low",
-        "advantage_a": 67,
-        "advantage_b": 33,
+        "advantage_a": 68,
+        "advantage_b": 32,
         "predictability": 38,
         "factors": [
           {
@@ -1618,7 +1618,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Selmani 67/33. Edges on bkfc record.",
+        "summary": "Model leans Selmani 68/32. Edges on bkfc record.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1659,14 +1659,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.6739375031872958,
-        "model_prob_b": 0.32606249681270416,
-        "market_fair_prob_a": 0.6787037037037037,
-        "market_fair_prob_b": 0.32129629629629625,
-        "edge_pct_a": -0.004766200516407859,
-        "edge_pct_b": 0.004766200516407915,
+        "model_prob_a": 0.6819805960025903,
+        "model_prob_b": 0.3180194039974097,
+        "market_fair_prob_a": 0.696577243293247,
+        "market_fair_prob_b": 0.303422756706753,
+        "edge_pct_a": -0.014596647290656684,
+        "edge_pct_b": 0.014596647290656684,
         "edge_slug": "reece-heer",
-        "edge_pct": 0.004766200516407859
+        "edge_pct": 0.014596647290656684
       }
     },
     {
@@ -1674,14 +1674,14 @@
       "fighter_a_slug": "sean-weir",
       "fighter_b_slug": "leigh-cohoon",
       "prediction": {
-        "prob_a": 0.5315,
-        "prob_b": 0.4685,
+        "prob_a": 0.5499,
+        "prob_b": 0.4501,
         "raw_score": -0.148,
         "favorite_slug": "sean-weir",
         "confidence": "Medium",
-        "advantage_a": 53,
-        "advantage_b": 47,
-        "predictability": 48,
+        "advantage_a": 55,
+        "advantage_b": 45,
+        "predictability": 49,
         "factors": [
           {
             "name": "Recent Form",
@@ -1774,7 +1774,7 @@
             "display": "+3\" Weir"
           }
         ],
-        "summary": "Model leans Weir 53/47. Edges on bkfc record, age, reach, height.",
+        "summary": "Model leans Weir 55/45. Edges on bkfc record, age, reach, height.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1815,14 +1815,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5314960347641885,
-        "model_prob_b": 0.4685039652358115,
-        "market_fair_prob_a": 0.686111111111111,
-        "market_fair_prob_b": 0.3138888888888889,
-        "edge_pct_a": -0.1546150763469225,
-        "edge_pct_b": 0.15461507634692262,
+        "model_prob_a": 0.5499048091374477,
+        "model_prob_b": 0.45009519086255234,
+        "market_fair_prob_a": 0.7270194986072424,
+        "market_fair_prob_b": 0.27298050139275765,
+        "edge_pct_a": -0.1771146894697947,
+        "edge_pct_b": 0.1771146894697947,
         "edge_slug": "leigh-cohoon",
-        "edge_pct": 0.1546150763469225
+        "edge_pct": 0.1771146894697947
       }
     }
   ]
