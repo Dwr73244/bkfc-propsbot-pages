@@ -29,9 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 76 - Texas",
+      "event_slug": "bkfc-fort-worth",
+      "date": "2025-06-21T00:00:00.000Z",
+      "method": null,
+      "round": 5,
+      "time": "02:00",
+      "opponent": "Mariya Agapova",
+      "opponent_slug": "mariya-agapova",
+      "result": "NC",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/jessica-eye"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/jessica-eye"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-11-10T16:13:45.506Z"
 }
