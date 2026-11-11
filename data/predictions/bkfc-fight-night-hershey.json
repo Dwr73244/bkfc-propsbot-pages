@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-hershey",
-  "generated_at": "2026-11-10T18:38:52.881Z",
+  "generated_at": "2026-11-11T15:59:39.091Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -831,35 +831,35 @@
       "fighter_a_slug": "benjamin-moser",
       "fighter_b_slug": "julian-valencia",
       "prediction": {
-        "prob_a": 0.5,
-        "prob_b": 0.5,
-        "raw_score": 0,
-        "favorite_slug": "julian-valencia",
+        "prob_a": 0.7432,
+        "prob_b": 0.2568,
+        "raw_score": 0.4087,
+        "favorite_slug": "benjamin-moser",
         "confidence": "Very Low",
-        "advantage_a": 50,
-        "advantage_b": 50,
-        "predictability": 18,
+        "advantage_a": 74,
+        "advantage_b": 26,
+        "predictability": 42,
         "factors": [
           {
             "name": "BKFC Record",
             "value_a": "0-0",
-            "value_b": "0-0",
-            "edge_slug": null,
-            "edge_strength": 0,
-            "weight": 0.08,
-            "display": "Both debuting"
+            "value_b": "0-2",
+            "edge_slug": "benjamin-moser",
+            "edge_strength": 0.625,
+            "weight": 0.11,
+            "display": "50% vs 25% win rate"
           },
           {
             "name": "BKFC Experience",
             "value_a": "0 fights",
-            "value_b": "0 fights",
+            "value_b": "2 fights",
             "edge_slug": null,
-            "edge_strength": 0,
+            "edge_strength": 0.25,
             "weight": 0.03,
             "display": "Even"
           }
         ],
-        "summary": "Insufficient data to separate these fighters — model defaults to ~50/50.",
+        "summary": "Model leans Moser 74/26. Edges on bkfc record.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1019,8 +1019,8 @@
           },
           {
             "name": "Activity",
-            "value_a": "33d ago",
-            "value_b": "33d ago",
+            "value_a": "34d ago",
+            "value_b": "34d ago",
             "edge_slug": null,
             "edge_strength": 0,
             "weight": 0.05,
@@ -1214,7 +1214,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "33d ago",
+            "value_a": "34d ago",
             "value_b": "—",
             "edge_slug": "brian-newman",
             "edge_strength": 1,

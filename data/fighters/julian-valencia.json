@@ -6,7 +6,7 @@
   "division": "Bantamweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 2,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,37 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Nashville",
+      "event_slug": "bkfc-nashville",
+      "date": "2026-06-19T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:41",
+      "opponent": "Payton Hayes",
+      "opponent_slug": "payton-hayes",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/julian-valencia"
+    },
+    {
+      "event": "BKFC - Fight Night Hammond",
+      "event_slug": "bkfc-hammond",
+      "date": "2025-10-18T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "00:15",
+      "opponent": "Ronny Hauser",
+      "opponent_slug": "ronny-hauser",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/julian-valencia"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/julian-valencia"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-11-11T15:59:21.554Z"
 }
