@@ -5,7 +5,7 @@
   "nickname": "The Leith Warrior",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 5,
+    "wins": 6,
     "losses": 2,
     "draws": 0,
     "kos": null
@@ -48,9 +48,9 @@
       "method": "KO",
       "round": 4,
       "time": "00:41",
-      "opponent": "Lewis Knox",
-      "opponent_slug": "lewis-knox",
-      "result": "L",
+      "opponent": "Robbie Brown",
+      "opponent_slug": "robbie-brown",
+      "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/lewis-knox"
     }
@@ -59,7 +59,7 @@
     "https://www.bkfc.com/fighters/lewis-knox"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-10-13T15:42:58.170Z",
+  "history_last_verified": "2026-11-12T16:43:10.162Z",
   "elo": 1522,
   "elo_peak": 1522
 }

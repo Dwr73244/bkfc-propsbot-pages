@@ -5,7 +5,7 @@
   "nickname": null,
   "division": "Middleweight",
   "bkfc_record": {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -29,10 +29,25 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T00:00:00.000Z",
+      "method": "Unanimous Decision",
+      "round": 3,
+      "time": "02:00",
+      "opponent": "James Rodriguez",
+      "opponent_slug": "james-rodriguez",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/leo-acanda"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/leo-acanda"
   ],
   "last_updated": "2026-11-06",
-  "stub": true
+  "stub": true,
+  "history_last_verified": "2026-11-12T16:42:58.386Z"
 }
