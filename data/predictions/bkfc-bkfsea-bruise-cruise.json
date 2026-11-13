@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-bkfsea-bruise-cruise",
-  "generated_at": "2026-11-13T16:02:55.519Z",
+  "generated_at": "2026-11-13T18:29:38.805Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1585,6 +1585,348 @@
               "outcome": "Decision",
               "moneyline": 288,
               "implied_prob": 0.258
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 14,
+      "fighter_a_slug": "ramiro-figueroa",
+      "fighter_b_slug": "mick-whitehead",
+      "prediction": {
+        "prob_a": 0.6609,
+        "prob_b": 0.3391,
+        "raw_score": 0.2567,
+        "favorite_slug": "ramiro-figueroa",
+        "confidence": "Low",
+        "advantage_a": 66,
+        "advantage_b": 34,
+        "predictability": 47,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1518,
+            "value_b": 1478,
+            "edge_slug": "ramiro-figueroa",
+            "edge_strength": 0.2,
+            "weight": 0.16,
+            "display": "+40 ELO Figueroa"
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "W",
+            "value_b": "L",
+            "edge_slug": "ramiro-figueroa",
+            "edge_strength": 1,
+            "weight": 0.13,
+            "display": "Figueroa hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "5-1",
+            "value_b": "1-1",
+            "edge_slug": "ramiro-figueroa",
+            "edge_strength": 0.625,
+            "weight": 0.11,
+            "display": "75% vs 50% win rate"
+          },
+          {
+            "name": "Reach",
+            "value_a": "75\"",
+            "value_b": "72\"",
+            "edge_slug": "ramiro-figueroa",
+            "edge_strength": 0.5,
+            "weight": 0.08,
+            "display": "+3\" Figueroa"
+          },
+          {
+            "name": "Style",
+            "value_a": "pressure / volume",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.06,
+            "display": "No exploitable style mismatch"
+          },
+          {
+            "name": "Activity",
+            "value_a": "7mo ago",
+            "value_b": "7mo ago",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar activity"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "48%",
+            "value_b": "92%",
+            "edge_slug": "mick-whitehead",
+            "edge_strength": 0.867,
+            "weight": 0.04,
+            "display": "Whitehead tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "6 fights",
+            "value_b": "2 fights",
+            "edge_slug": "ramiro-figueroa",
+            "edge_strength": 0.5,
+            "weight": 0.03,
+            "display": "+4 fights Figueroa"
+          },
+          {
+            "name": "Height",
+            "value_a": "5'11\"",
+            "value_b": "5'9\"",
+            "edge_slug": "ramiro-figueroa",
+            "edge_strength": 0.4,
+            "weight": 0.03,
+            "display": "+2\" Figueroa"
+          }
+        ],
+        "summary": "Model leans Figueroa 66/34. Edges on recent form, bkfc record, reach, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 216,
+              "implied_prob": 0.316
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -216,
+              "implied_prob": 0.684
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": 103,
+              "implied_prob": 0.492
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 422,
+              "implied_prob": 0.192
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 216,
+              "implied_prob": 0.316
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 15,
+      "fighter_a_slug": "famez",
+      "fighter_b_slug": "josh-marer",
+      "prediction": {
+        "prob_a": 0.4206,
+        "prob_b": 0.5794,
+        "raw_score": -0.1232,
+        "favorite_slug": "josh-marer",
+        "confidence": "Low",
+        "advantage_a": 42,
+        "advantage_b": 58,
+        "predictability": 37,
+        "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "L",
+            "value_b": "—",
+            "edge_slug": "josh-marer",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Marer hotter"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "4-6",
+            "value_b": "0-0",
+            "edge_slug": "josh-marer",
+            "edge_strength": 0.208,
+            "weight": 0.11,
+            "display": "42% vs 50% win rate"
+          },
+          {
+            "name": "Age",
+            "value_a": 31,
+            "value_b": 36,
+            "edge_slug": "famez",
+            "edge_strength": 0.6,
+            "weight": 0.09,
+            "display": "31 vs 36"
+          },
+          {
+            "name": "Activity",
+            "value_a": "2.7y ago",
+            "value_b": "—",
+            "edge_slug": "josh-marer",
+            "edge_strength": 0.4,
+            "weight": 0.05,
+            "display": "Marer more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "43%",
+            "value_b": "—",
+            "edge_slug": null,
+            "edge_strength": 0.143,
+            "weight": 0.04,
+            "display": "Similar schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "10 fights",
+            "value_b": "0 fights",
+            "edge_slug": "famez",
+            "edge_strength": 1,
+            "weight": 0.03,
+            "display": "+10 fights Famez"
+          }
+        ],
+        "summary": "Model leans Marer 58/42. Edges on recent form, bkfc record, activity.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -233,
+              "implied_prob": 0.7
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -102,
+              "implied_prob": 0.504
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 410,
+              "implied_prob": 0.196
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 16,
+      "fighter_a_slug": "cole-ferrell",
+      "fighter_b_slug": "amos-collins",
+      "prediction": {
+        "prob_a": 0.6819,
+        "prob_b": 0.3181,
+        "raw_score": 0.2933,
+        "favorite_slug": "cole-ferrell",
+        "confidence": "Very Low",
+        "advantage_a": 68,
+        "advantage_b": 32,
+        "predictability": 38,
+        "factors": [
+          {
+            "name": "BKFC Record",
+            "value_a": "2-1",
+            "value_b": "0-0",
+            "edge_slug": "cole-ferrell",
+            "edge_strength": 0.25,
+            "weight": 0.11,
+            "display": "60% vs 50% win rate"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "3 fights",
+            "value_b": "0 fights",
+            "edge_slug": "cole-ferrell",
+            "edge_strength": 0.375,
+            "weight": 0.03,
+            "display": "+3 fights Ferrell"
+          }
+        ],
+        "summary": "Model leans Ferrell 68/32. Edges on bkfc record, bkfc experience.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 233,
+              "implied_prob": 0.3
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -233,
+              "implied_prob": 0.7
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -102,
+              "implied_prob": 0.504
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 410,
+              "implied_prob": 0.196
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 233,
+              "implied_prob": 0.3
             }
           ]
         }

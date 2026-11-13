@@ -1,0 +1,22 @@
+{
+  "slug": "bkfc-fight-night-palm-desert",
+  "name": "bkfc-fight-night-palm-desert",
+  "event_number": null,
+  "event_type": "Numbered",
+  "date": "2027-02-05T00:00:00.000Z",
+  "venue": "Palm Desert",
+  "city": null,
+  "state": null,
+  "country": null,
+  "country_code": null,
+  "broadcast": [
+    "BKFC+"
+  ],
+  "poster_url": null,
+  "bouts": [],
+  "sources": [
+    "https://www.bkfc.com/events/bkfc-fight-night-palm-desert"
+  ],
+  "last_updated": "2026-11-13",
+  "needs_card_population": true
+}

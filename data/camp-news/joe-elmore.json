@@ -1,7 +1,15 @@
 {
   "slug": "joe-elmore",
-  "fetched_at": "2026-11-12T18:58:19.441Z",
+  "fetched_at": "2026-11-13T18:32:51.530Z",
   "gym": null,
   "coach": null,
-  "news": []
+  "news": [
+    {
+      "title": "Gorjan Slaveski Faces Joe Elmore In BKFC 97 Co-Main Event - MiddleEasy",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWHAxbVJZZzRPdmVVOGk3R2FyeXRSNlktUEdEcWFyTHJrdEJ6UnZvZ2c0M0RMNU1FX21PUkZxRW00eV9GUFMxQVFBMWZmMUgwVUtzeXFkd0l1bEhRMENGVk43WlY5Qko2MUtyZWlRdEY1blM4eUUydVVEcXlJTGhhYmVHWFF2eDV1MV83enM0YTJUQQ?oc=5",
+      "source": "MiddleEasy",
+      "date": "2026-11-02",
+      "snippet": "Gorjan Slaveski Faces Joe Elmore In BKFC 97 Co-Main Event MiddleEasy"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-hollywood-3",
-  "generated_at": "2026-11-13T16:02:55.527Z",
+  "generated_at": "2026-11-13T18:29:38.818Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -883,6 +883,144 @@
               "outcome": "Decision",
               "moneyline": 371,
               "implied_prob": 0.213
+            }
+          ]
+        }
+      ],
+      "edge": null
+    },
+    {
+      "order": 8,
+      "fighter_a_slug": "francesco-ricchi",
+      "fighter_b_slug": "zeb-vincent",
+      "prediction": {
+        "prob_a": 0.4518,
+        "prob_b": 0.5482,
+        "raw_score": -0.0743,
+        "favorite_slug": "zeb-vincent",
+        "confidence": "Low",
+        "advantage_a": 45,
+        "advantage_b": 55,
+        "predictability": 35,
+        "factors": [
+          {
+            "name": "ELO Rating",
+            "value_a": 1478,
+            "value_b": 1479,
+            "edge_slug": null,
+            "edge_strength": 0.005,
+            "weight": 0.16,
+            "display": "-1 ELO "
+          },
+          {
+            "name": "Recent Form",
+            "value_a": "L",
+            "value_b": "L",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.13,
+            "display": "Similar form"
+          },
+          {
+            "name": "BKFC Record",
+            "value_a": "7-3",
+            "value_b": "3-5",
+            "edge_slug": "francesco-ricchi",
+            "edge_strength": 0.667,
+            "weight": 0.11,
+            "display": "67% vs 40% win rate"
+          },
+          {
+            "name": "Age",
+            "value_a": 32,
+            "value_b": 31,
+            "edge_slug": "zeb-vincent",
+            "edge_strength": 0.24,
+            "weight": 0.09,
+            "display": "32 vs 31"
+          },
+          {
+            "name": "Reach",
+            "value_a": "79\"",
+            "value_b": "76\"",
+            "edge_slug": "francesco-ricchi",
+            "edge_strength": 0.5,
+            "weight": 0.08,
+            "display": "+3\" Ricchi"
+          },
+          {
+            "name": "Activity",
+            "value_a": "3.6y ago",
+            "value_b": "3mo ago",
+            "edge_slug": "zeb-vincent",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Vincent more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0/1 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "35%",
+            "value_b": "73%",
+            "edge_slug": "zeb-vincent",
+            "edge_strength": 0.742,
+            "weight": 0.04,
+            "display": "Vincent tougher schedule"
+          },
+          {
+            "name": "BKFC Experience",
+            "value_a": "10 fights",
+            "value_b": "8 fights",
+            "edge_slug": null,
+            "edge_strength": 0.25,
+            "weight": 0.03,
+            "display": "Even"
+          }
+        ],
+        "summary": "Model leans Vincent 55/45. Edges on age, activity, opponent quality.",
+        "market_adjusted": false
+      },
+      "prop_markets": [
+        {
+          "market": "fight_goes_distance",
+          "options": [
+            {
+              "outcome": "Yes (Decision)",
+              "moneyline": 342,
+              "implied_prob": 0.226
+            },
+            {
+              "outcome": "No (Finish)",
+              "moneyline": -342,
+              "implied_prob": 0.774
+            }
+          ]
+        },
+        {
+          "market": "method_of_victory",
+          "options": [
+            {
+              "outcome": "KO/TKO",
+              "moneyline": -126,
+              "implied_prob": 0.557
+            },
+            {
+              "outcome": "Doctor Stoppage",
+              "moneyline": 361,
+              "implied_prob": 0.217
+            },
+            {
+              "outcome": "Decision",
+              "moneyline": 342,
+              "implied_prob": 0.226
             }
           ]
         }
