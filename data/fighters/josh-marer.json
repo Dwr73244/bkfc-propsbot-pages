@@ -5,8 +5,8 @@
   "nickname": "DANGER",
   "division": "Lightweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 1,
+    "losses": 4,
     "draws": 0,
     "kos": null
   },
@@ -29,9 +29,63 @@
     "facebook": "https://www.facebook.com/DangerMMA/"
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "BKFC 69",
+      "event_slug": "bkfc-69-richardson-vs-larrimore",
+      "date": "2024-12-06T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:33",
+      "opponent": "Kenny Hill",
+      "opponent_slug": "kenny-hill",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/josh-marer"
+    },
+    {
+      "event": "BKFC 52",
+      "event_slug": "bkfc-52-south-carolina",
+      "date": "2023-10-20T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:50",
+      "opponent": "Brandon Bushaw",
+      "opponent_slug": "brandon-bushaw",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/josh-marer"
+    },
+    {
+      "event": "BKFC 42",
+      "event_slug": "bkfc-42-greenville",
+      "date": "2023-05-12T00:00:00.000Z",
+      "method": "TKO",
+      "round": 1,
+      "time": "02:00",
+      "opponent": "Jon Barnard",
+      "opponent_slug": "jon-barnard",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/josh-marer"
+    },
+    {
+      "event": "BKFC 32",
+      "event_slug": "bkfc-32-orlando",
+      "date": "2022-11-05T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "01:45",
+      "opponent": "Brandon Allen",
+      "opponent_slug": "brandon-allen",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/josh-marer"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/josh-marer"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "history_last_verified": "2026-11-18T17:04:49.847Z"
 }

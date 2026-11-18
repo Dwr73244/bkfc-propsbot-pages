@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-bkfsea-bruise-cruise",
-  "generated_at": "2026-11-17T19:44:00.481Z",
+  "generated_at": "2026-11-18T17:05:13.015Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1743,14 +1743,14 @@
       "fighter_a_slug": "famez",
       "fighter_b_slug": "josh-marer",
       "prediction": {
-        "prob_a": 0.4206,
-        "prob_b": 0.5794,
-        "raw_score": -0.1232,
+        "prob_a": 0.4285,
+        "prob_b": 0.5715,
+        "raw_score": -0.1107,
         "favorite_slug": "josh-marer",
         "confidence": "Low",
-        "advantage_a": 42,
-        "advantage_b": 58,
-        "predictability": 37,
+        "advantage_a": 43,
+        "advantage_b": 57,
+        "predictability": 34,
         "factors": [
           {
             "name": "Recent Form",
@@ -1764,11 +1764,11 @@
           {
             "name": "BKFC Record",
             "value_a": "4-6",
-            "value_b": "0-0",
-            "edge_slug": "josh-marer",
-            "edge_strength": 0.208,
+            "value_b": "1-4",
+            "edge_slug": "famez",
+            "edge_strength": 0.327,
             "weight": 0.11,
-            "display": "42% vs 50% win rate"
+            "display": "42% vs 29% win rate"
           },
           {
             "name": "Age",
@@ -1799,24 +1799,24 @@
           },
           {
             "name": "Opponent Quality",
-            "value_a": "43%",
+            "value_a": "31%",
             "value_b": "—",
-            "edge_slug": null,
-            "edge_strength": 0.143,
+            "edge_slug": "josh-marer",
+            "edge_strength": 0.371,
             "weight": 0.04,
-            "display": "Similar schedule"
+            "display": "Marer tougher schedule"
           },
           {
             "name": "BKFC Experience",
             "value_a": "10 fights",
-            "value_b": "0 fights",
+            "value_b": "5 fights",
             "edge_slug": "famez",
-            "edge_strength": 1,
+            "edge_strength": 0.625,
             "weight": 0.03,
-            "display": "+10 fights Famez"
+            "display": "+5 fights Famez"
           }
         ],
-        "summary": "Model leans Marer 58/42. Edges on recent form, bkfc record, activity.",
+        "summary": "Model leans Marer 57/43. Edges on recent form, activity, opponent quality.",
         "market_adjusted": false
       },
       "prop_markets": [
