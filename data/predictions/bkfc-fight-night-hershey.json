@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-hershey",
-  "generated_at": "2026-11-18T19:20:15.941Z",
+  "generated_at": "2026-11-19T17:11:48.749Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -66,7 +66,7 @@
           {
             "name": "Activity",
             "value_a": "1.7y ago",
-            "value_b": "9mo ago",
+            "value_b": "10mo ago",
             "edge_slug": "mike-richman",
             "edge_strength": 0.8,
             "weight": 0.05,
@@ -1019,8 +1019,8 @@
           },
           {
             "name": "Activity",
-            "value_a": "41d ago",
-            "value_b": "41d ago",
+            "value_a": "42d ago",
+            "value_b": "42d ago",
             "edge_slug": null,
             "edge_strength": 0,
             "weight": 0.05,
@@ -1214,7 +1214,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "41d ago",
+            "value_a": "42d ago",
             "value_b": "—",
             "edge_slug": "brian-newman",
             "edge_strength": 1,

@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-myrtle-beach",
-  "generated_at": "2026-11-18T19:20:15.943Z",
+  "generated_at": "2026-11-19T17:11:48.754Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -9,14 +9,14 @@
       "fighter_a_slug": "keith-richardson",
       "fighter_b_slug": "joshua-oxendine",
       "prediction": {
-        "prob_a": 0.5233,
-        "prob_b": 0.4767,
-        "raw_score": 0.0358,
+        "prob_a": 0.5089,
+        "prob_b": 0.4911,
+        "raw_score": 0.0137,
         "favorite_slug": "keith-richardson",
         "confidence": "Medium",
-        "advantage_a": 52,
-        "advantage_b": 48,
-        "predictability": 49,
+        "advantage_a": 51,
+        "advantage_b": 49,
+        "predictability": 48,
         "factors": [
           {
             "name": "ELO Rating",
@@ -85,10 +85,10 @@
             "name": "Activity",
             "value_a": "6mo ago",
             "value_b": "7mo ago",
-            "edge_slug": "keith-richardson",
-            "edge_strength": 0.3,
+            "edge_slug": null,
+            "edge_strength": 0,
             "weight": 0.05,
-            "display": "Richardson more active"
+            "display": "Similar activity"
           },
           {
             "name": "Cut History",
@@ -127,7 +127,7 @@
             "display": "-4\" Oxendine"
           }
         ],
-        "summary": "Model leans Richardson 52/48. Edges on elo rating, recent form, bkfc record, ko rate.",
+        "summary": "Model leans Richardson 51/49. Edges on elo rating, recent form, bkfc record, ko rate.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -788,7 +788,7 @@
           },
           {
             "name": "Activity",
-            "value_a": "41d ago",
+            "value_a": "42d ago",
             "value_b": "1.6y ago",
             "edge_slug": "maurice-morris",
             "edge_strength": 1,
