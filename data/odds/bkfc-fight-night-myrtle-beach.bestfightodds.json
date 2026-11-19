@@ -2,7 +2,118 @@
   "event_slug": "bkfc-fight-night-myrtle-beach",
   "event_date": "2026-11-20",
   "source": "bestfightodds",
-  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4452",
-  "fetched_at": "2026-11-06T16:53:36.019Z",
-  "bouts": []
+  "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4471",
+  "fetched_at": "2026-11-19T18:34:20.752Z",
+  "bouts": [
+    {
+      "fighter_a_slug": "keith-richardson",
+      "fighter_b_slug": "joshua-oxendine",
+      "moneyline_a": -305,
+      "moneyline_b": 205,
+      "implied_prob_a": 0.753,
+      "implied_prob_b": 0.328,
+      "vig": 0.081,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "evan-pierce",
+      "fighter_b_slug": "diego-romo",
+      "moneyline_a": -190,
+      "moneyline_b": 133,
+      "implied_prob_a": 0.655,
+      "implied_prob_b": 0.429,
+      "vig": 0.084,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "austen-coleman",
+      "fighter_b_slug": "alex-eliam",
+      "moneyline_a": -400,
+      "moneyline_b": 260,
+      "implied_prob_a": 0.8,
+      "implied_prob_b": 0.278,
+      "vig": 0.078,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "derek-brunson",
+      "fighter_b_slug": "theo-doukas",
+      "moneyline_a": -400,
+      "moneyline_b": 260,
+      "implied_prob_a": 0.8,
+      "implied_prob_b": 0.278,
+      "vig": 0.078,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "ryan-jett",
+      "fighter_b_slug": "rodney-hinton",
+      "moneyline_a": -113,
+      "moneyline_b": -122,
+      "implied_prob_a": 0.531,
+      "implied_prob_b": 0.55,
+      "vig": 0.08,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "windson-ramos",
+      "fighter_b_slug": "robert-fichtner",
+      "moneyline_a": -305,
+      "moneyline_b": 205,
+      "implied_prob_a": 0.753,
+      "implied_prob_b": 0.328,
+      "vig": 0.081,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "brandon-bushaw",
+      "fighter_b_slug": "joshua-claudio",
+      "moneyline_a": -500,
+      "moneyline_b": 310,
+      "implied_prob_a": 0.833,
+      "implied_prob_b": 0.244,
+      "vig": 0.077,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "maurice-morris",
+      "fighter_b_slug": "lewis-glover",
+      "moneyline_a": -235,
+      "moneyline_b": 163,
+      "implied_prob_a": 0.701,
+      "implied_prob_b": 0.38,
+      "vig": 0.082,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "austin-coleman",
+      "fighter_b_slug": "alex-eliam",
+      "moneyline_a": -400,
+      "moneyline_b": 260,
+      "implied_prob_a": 0.8,
+      "implied_prob_b": 0.278,
+      "vig": 0.078,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "amos-collins",
+      "fighter_b_slug": "ashton-caniglia",
+      "moneyline_a": -265,
+      "moneyline_b": 180,
+      "implied_prob_a": 0.726,
+      "implied_prob_b": 0.357,
+      "vig": 0.083,
+      "book_count": 1
+    },
+    {
+      "fighter_a_slug": "justin-howell",
+      "fighter_b_slug": "brian-maxwell",
+      "moneyline_a": -670,
+      "moneyline_b": 390,
+      "implied_prob_a": 0.87,
+      "implied_prob_b": 0.204,
+      "vig": 0.074,
+      "book_count": 1
+    }
+  ]
 }
