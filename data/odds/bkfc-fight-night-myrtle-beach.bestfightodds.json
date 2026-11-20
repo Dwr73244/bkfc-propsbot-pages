@@ -3,7 +3,7 @@
   "event_date": "2026-11-20",
   "source": "bestfightodds",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4471",
-  "fetched_at": "2026-11-19T18:34:20.752Z",
+  "fetched_at": "2026-11-20T17:57:59.082Z",
   "bouts": [
     {
       "fighter_a_slug": "keith-richardson",
@@ -48,11 +48,11 @@
     {
       "fighter_a_slug": "ryan-jett",
       "fighter_b_slug": "rodney-hinton",
-      "moneyline_a": -113,
-      "moneyline_b": -122,
-      "implied_prob_a": 0.531,
-      "implied_prob_b": 0.55,
-      "vig": 0.08,
+      "moneyline_a": -108,
+      "moneyline_b": -129,
+      "implied_prob_a": 0.519,
+      "implied_prob_b": 0.563,
+      "vig": 0.083,
       "book_count": 1
     },
     {
@@ -108,11 +108,11 @@
     {
       "fighter_a_slug": "justin-howell",
       "fighter_b_slug": "brian-maxwell",
-      "moneyline_a": -670,
-      "moneyline_b": 390,
-      "implied_prob_a": 0.87,
-      "implied_prob_b": 0.204,
-      "vig": 0.074,
+      "moneyline_a": -345,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.775,
+      "implied_prob_b": 0.313,
+      "vig": 0.088,
       "book_count": 1
     }
   ]

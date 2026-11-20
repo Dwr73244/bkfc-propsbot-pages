@@ -3,7 +3,7 @@
   "event_date": "2026-11-20",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-11-20T09:05:16.599Z",
+  "fetched_at": "2026-11-20T17:58:02.649Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -112,11 +112,11 @@
     {
       "fighter_a_slug": "ryan-jett",
       "fighter_b_slug": "rodney-hinton",
-      "moneyline_a": -113,
-      "moneyline_b": -122,
-      "implied_prob_a": 0.531,
-      "implied_prob_b": 0.55,
-      "vig": 0.08,
+      "moneyline_a": -108,
+      "moneyline_b": -129,
+      "implied_prob_a": 0.519,
+      "implied_prob_b": 0.563,
+      "vig": 0.083,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -124,12 +124,12 @@
       ],
       "line_range": {
         "a": [
-          -113,
-          -113
+          -108,
+          -108
         ],
         "b": [
-          -122,
-          -122
+          -129,
+          -129
         ]
       }
     },
@@ -256,11 +256,11 @@
     {
       "fighter_a_slug": "justin-howell",
       "fighter_b_slug": "brian-maxwell",
-      "moneyline_a": -670,
-      "moneyline_b": 390,
-      "implied_prob_a": 0.87,
-      "implied_prob_b": 0.204,
-      "vig": 0.074,
+      "moneyline_a": -345,
+      "moneyline_b": 220,
+      "implied_prob_a": 0.775,
+      "implied_prob_b": 0.313,
+      "vig": 0.088,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -268,12 +268,12 @@
       ],
       "line_range": {
         "a": [
-          -670,
-          -670
+          -345,
+          -345
         ],
         "b": [
-          390,
-          390
+          220,
+          220
         ]
       }
     }

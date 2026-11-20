@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-myrtle-beach",
-  "generated_at": "2026-11-20T16:50:15.811Z",
+  "generated_at": "2026-11-20T17:58:03.469Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -435,14 +435,14 @@
       "fighter_a_slug": "ryan-jett",
       "fighter_b_slug": "rodney-hinton",
       "prediction": {
-        "prob_a": 0.3711,
-        "prob_b": 0.6289,
+        "prob_a": 0.3659,
+        "prob_b": 0.6341,
         "raw_score": -0.377,
         "favorite_slug": "rodney-hinton",
         "confidence": "Very Low",
         "advantage_a": 37,
         "advantage_b": 63,
-        "predictability": 35,
+        "predictability": 36,
         "factors": [
           {
             "name": "Recent Form",
@@ -549,14 +549,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.3711267051062145,
-        "model_prob_b": 0.6288732948937855,
-        "market_fair_prob_a": 0.49121184088806663,
-        "market_fair_prob_b": 0.5087881591119334,
-        "edge_pct_a": -0.12008513578185215,
-        "edge_pct_b": 0.12008513578185209,
+        "model_prob_a": 0.3659316539709099,
+        "model_prob_b": 0.6340683460290901,
+        "market_fair_prob_a": 0.4796672828096119,
+        "market_fair_prob_b": 0.5203327171903882,
+        "edge_pct_a": -0.11373562883870203,
+        "edge_pct_b": 0.11373562883870192,
         "edge_slug": "rodney-hinton",
-        "edge_pct": 0.12008513578185215
+        "edge_pct": 0.11373562883870203
       }
     },
     {
@@ -1110,14 +1110,14 @@
       "fighter_a_slug": "justin-howell",
       "fighter_b_slug": "brian-maxwell",
       "prediction": {
-        "prob_a": 0.559,
-        "prob_b": 0.441,
+        "prob_a": 0.515,
+        "prob_b": 0.485,
         "raw_score": -0.232,
         "favorite_slug": "justin-howell",
         "confidence": "Low",
-        "advantage_a": 56,
-        "advantage_b": 44,
-        "predictability": 34,
+        "advantage_a": 52,
+        "advantage_b": 48,
+        "predictability": 31,
         "factors": [
           {
             "name": "Recent Form",
@@ -1183,7 +1183,7 @@
             "display": "+10 fights Maxwell"
           }
         ],
-        "summary": "Model leans Howell 56/44. Edges on bkfc record, activity, opponent quality.",
+        "summary": "Model leans Howell 52/48. Edges on bkfc record, activity, opponent quality.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -1224,14 +1224,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.5590196549538308,
-        "model_prob_b": 0.44098034504616923,
-        "market_fair_prob_a": 0.8100558659217877,
-        "market_fair_prob_b": 0.18994413407821226,
-        "edge_pct_a": -0.2510362109679569,
-        "edge_pct_b": 0.251036210967957,
+        "model_prob_a": 0.515036794700791,
+        "model_prob_b": 0.484963205299209,
+        "market_fair_prob_a": 0.7123161764705882,
+        "market_fair_prob_b": 0.28768382352941174,
+        "edge_pct_a": -0.1972793817697972,
+        "edge_pct_b": 0.19727938176979726,
         "edge_slug": "brian-maxwell",
-        "edge_pct": 0.2510362109679569
+        "edge_pct": 0.1972793817697972
       }
     }
   ]
