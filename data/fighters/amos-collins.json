@@ -29,10 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-myrtle-beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "Split Decision",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "ashton-caniglia",
+      "opponent_slug": "ashton-caniglia",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/amos-collins"
   ],
   "last_updated": "2026-11-02",
-  "stub": true
+  "stub": true,
+  "elo": 1481,
+  "elo_peak": 1500
 }

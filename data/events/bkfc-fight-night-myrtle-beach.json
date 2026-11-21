@@ -23,7 +23,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "keith-richardson",
+        "method": "TKO",
+        "round": 3,
+        "time": "2:00"
+      }
     },
     {
       "order": 2,
@@ -34,7 +39,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "evan-pierce",
+        "method": "TKO",
+        "round": 4,
+        "time": "2:00"
+      }
     },
     {
       "order": 3,
@@ -45,7 +55,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "austen-coleman",
+        "method": "KO",
+        "round": 1,
+        "time": "1:30"
+      }
     },
     {
       "order": 4,
@@ -56,7 +71,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "derek-brunson",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:36"
+      }
     },
     {
       "order": 5,
@@ -67,7 +87,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "rodney-hinton",
+        "method": "Majority Decision",
+        "round": 5,
+        "time": "2:00"
+      }
     },
     {
       "order": 6,
@@ -78,7 +103,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "windson-ramos",
+        "method": "TKO",
+        "round": 2,
+        "time": "0:39"
+      }
     },
     {
       "order": 7,
@@ -89,7 +119,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "brandon-bushaw",
+        "method": "TKO",
+        "round": 4,
+        "time": "1:02"
+      }
     },
     {
       "order": 8,
@@ -100,7 +135,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "maurice-morris",
+        "method": "Unanimous Decision",
+        "round": 3,
+        "time": "2:00"
+      }
     },
     {
       "order": 9,
@@ -111,7 +151,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "austin-coleman",
+        "method": "KO",
+        "round": 1,
+        "time": "1:30"
+      }
     },
     {
       "order": 10,
@@ -122,7 +167,12 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "ashton-caniglia",
+        "method": "Split Decision",
+        "round": 3,
+        "time": "2:00"
+      }
     },
     {
       "order": 11,
@@ -133,12 +183,17 @@
       "title_fight": false,
       "title_name": null,
       "scheduled_rounds": 5,
-      "result": null
+      "result": {
+        "winner_slug": "brian-maxwell",
+        "method": "Unanimous Decision",
+        "round": 3,
+        "time": "2:00"
+      }
     }
   ],
   "sources": [
     "https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach"
   ],
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-21",
   "needs_card_population": false
 }

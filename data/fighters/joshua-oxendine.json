@@ -31,6 +31,17 @@
   "bio": "Multi-sport fighter from Pembroke, North Carolina and a member of the Lumbee Tribe. Holds a 5-0 professional boxing record and a 10-7 MMA record in addition to his bare-knuckle career. Overcame significant adversity including homelessness after his father's death at age 14. An active preacher and family man, he also coaches his three daughters in boxing.",
   "last_5": [
     {
+      "event": "bkfc-fight-night-myrtle-beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "keith-richardson",
+      "opponent_slug": "keith-richardson",
+      "result": "L"
+    },
+    {
       "event": "BKFC Fight Night Clearwater: Gaskins vs Guymon",
       "event_slug": "bkfc-fight-night-clearwater-gaskins-guymon",
       "date": "2026-04-25T00:00:00.000Z",
@@ -70,7 +81,7 @@
     "https://www.bkfc.com/fighters/joshua-oxendine"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1498,
+  "elo": 1480,
   "elo_peak": 1518,
   "history_last_verified": "2026-08-06T10:37:15.214Z"
 }

@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-bkfsea-bruise-cruise",
-  "generated_at": "2026-11-20T17:58:03.443Z",
+  "generated_at": "2026-11-21T16:02:35.208Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -1248,7 +1248,7 @@
           {
             "name": "Activity",
             "value_a": "2.8y ago",
-            "value_b": "3mo ago",
+            "value_b": "4mo ago",
             "edge_slug": "brady-meister",
             "edge_strength": 1,
             "weight": 0.05,
@@ -1863,15 +1863,24 @@
       "fighter_a_slug": "cole-ferrell",
       "fighter_b_slug": "amos-collins",
       "prediction": {
-        "prob_a": 0.6819,
-        "prob_b": 0.3181,
-        "raw_score": 0.2933,
+        "prob_a": 0.5582,
+        "prob_b": 0.4418,
+        "raw_score": 0.0899,
         "favorite_slug": "cole-ferrell",
         "confidence": "Very Low",
-        "advantage_a": 68,
-        "advantage_b": 32,
-        "predictability": 38,
+        "advantage_a": 56,
+        "advantage_b": 44,
+        "predictability": 23,
         "factors": [
+          {
+            "name": "Recent Form",
+            "value_a": "—",
+            "value_b": "L",
+            "edge_slug": "cole-ferrell",
+            "edge_strength": 0.9,
+            "weight": 0.13,
+            "display": "Ferrell hotter"
+          },
           {
             "name": "BKFC Record",
             "value_a": "2-1",
@@ -1880,6 +1889,33 @@
             "edge_strength": 0.25,
             "weight": 0.11,
             "display": "60% vs 50% win rate"
+          },
+          {
+            "name": "Activity",
+            "value_a": "—",
+            "value_b": "2d ago",
+            "edge_slug": "amos-collins",
+            "edge_strength": 1,
+            "weight": 0.05,
+            "display": "Collins more active"
+          },
+          {
+            "name": "Cut History",
+            "value_a": "0 cuts",
+            "value_b": "0/1 cuts",
+            "edge_slug": null,
+            "edge_strength": 0,
+            "weight": 0.05,
+            "display": "Similar durability"
+          },
+          {
+            "name": "Opponent Quality",
+            "value_a": "—",
+            "value_b": "67%",
+            "edge_slug": "amos-collins",
+            "edge_strength": 0.333,
+            "weight": 0.04,
+            "display": "Collins tougher schedule"
           },
           {
             "name": "BKFC Experience",
@@ -1891,7 +1927,7 @@
             "display": "+3 fights Ferrell"
           }
         ],
-        "summary": "Model leans Ferrell 68/32. Edges on bkfc record, bkfc experience.",
+        "summary": "Model leans Ferrell 56/44. Edges on recent form, bkfc record, bkfc experience.",
         "market_adjusted": false
       },
       "prop_markets": [

@@ -29,9 +29,34 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-myrtle-beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:30",
+      "opponent": "austen-coleman",
+      "opponent_slug": "austen-coleman",
+      "result": "L"
+    },
+    {
+      "event": "bkfc-fight-night-myrtle-beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "1:30",
+      "opponent": "austin-coleman",
+      "opponent_slug": "austin-coleman",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/alex-eliam"
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17",
+  "elo": 1457,
+  "elo_peak": 1500
 }

@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-fight-night-myrtle-beach",
-  "generated_at": "2026-11-20T17:58:03.469Z",
+  "generated_at": "2026-11-20T23:56:12.868Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -351,14 +351,14 @@
       "fighter_a_slug": "derek-brunson",
       "fighter_b_slug": "theo-doukas",
       "prediction": {
-        "prob_a": 0.7025,
-        "prob_b": 0.2975,
+        "prob_a": 0.7324,
+        "prob_b": 0.2676,
         "raw_score": 0.2724,
         "favorite_slug": "derek-brunson",
         "confidence": "Very Low",
-        "advantage_a": 70,
-        "advantage_b": 30,
-        "predictability": 40,
+        "advantage_a": 73,
+        "advantage_b": 27,
+        "predictability": 41,
         "factors": [
           {
             "name": "BKFC Record",
@@ -379,7 +379,7 @@
             "display": "Even"
           }
         ],
-        "summary": "Model leans Brunson 70/30. Edges on bkfc record.",
+        "summary": "Model leans Brunson 73/27. Edges on bkfc record.",
         "market_adjusted": true
       },
       "prop_markets": [
@@ -420,14 +420,14 @@
         }
       ],
       "edge": {
-        "model_prob_a": 0.7024725990438203,
-        "model_prob_b": 0.2975274009561797,
-        "market_fair_prob_a": 0.7421150278293135,
-        "market_fair_prob_b": 0.25788497217068646,
-        "edge_pct_a": -0.03964242878549318,
-        "edge_pct_b": 0.03964242878549323,
+        "model_prob_a": 0.7324045138189407,
+        "model_prob_b": 0.2675954861810593,
+        "market_fair_prob_a": 0.8086303939962476,
+        "market_fair_prob_b": 0.19136960600375233,
+        "edge_pct_a": -0.07622588017730692,
+        "edge_pct_b": 0.076225880177307,
         "edge_slug": "theo-doukas",
-        "edge_pct": 0.03964242878549318
+        "edge_pct": 0.07622588017730692
       }
     },
     {

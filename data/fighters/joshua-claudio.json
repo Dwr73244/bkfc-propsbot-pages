@@ -29,10 +29,24 @@
     "facebook": null
   },
   "bio": null,
-  "last_5": [],
+  "last_5": [
+    {
+      "event": "bkfc-fight-night-myrtle-beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "1:02",
+      "opponent": "brandon-bushaw",
+      "opponent_slug": "brandon-bushaw",
+      "result": "L"
+    }
+  ],
   "sources": [
     "https://www.bkfc.com/fighters/joshua-claudio"
   ],
   "last_updated": "2026-10-22",
-  "stub": true
+  "stub": true,
+  "elo": 1478,
+  "elo_peak": 1500
 }

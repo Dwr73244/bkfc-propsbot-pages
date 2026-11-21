@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-myrtle-beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "0:39",
+      "opponent": "windson-ramos",
+      "opponent_slug": "windson-ramos",
+      "result": "L"
+    },
+    {
       "event": "bkfc-fight-night-mohegan-sun-2",
       "event_slug": "bkfc-fight-night-mohegan-sun-2",
       "date": "2026-08-21T00:00:00.000Z",
@@ -47,7 +58,7 @@
   ],
   "last_updated": "2026-07-31",
   "stub": true,
-  "elo": 1477,
+  "elo": 1456,
   "elo_peak": 1500,
   "record_source": "tracked-events",
   "record_verified": "2026-08-22"

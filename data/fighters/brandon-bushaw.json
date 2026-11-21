@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-myrtle-beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "1:02",
+      "opponent": "joshua-claudio",
+      "opponent_slug": "joshua-claudio",
+      "result": "W"
+    },
+    {
       "event": "bkfc-fight-night-mohegan-sun-2",
       "event_slug": "bkfc-fight-night-mohegan-sun-2",
       "date": "2026-08-21T00:00:00.000Z",
@@ -83,7 +94,7 @@
     "https://www.bkfc.com/fighters/brandon-bushaw"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1499,
+  "elo": 1521,
   "elo_peak": 1522,
   "history_last_verified": "2026-08-24T08:52:39.501Z"
 }

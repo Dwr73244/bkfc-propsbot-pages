@@ -31,6 +31,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-myrtle-beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "TKO",
+      "round": 4,
+      "time": "2:00",
+      "opponent": "evan-pierce",
+      "opponent_slug": "evan-pierce",
+      "result": "L"
+    },
+    {
       "event": "BKFC 65",
       "event_slug": "bkfc-65-ferea-vs-masson-wong",
       "date": "2024-09-06T00:00:00.000Z",
@@ -61,5 +72,7 @@
     "https://www.bkfc.com/fighters/diego-romo"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-11-07T14:47:51.602Z"
+  "history_last_verified": "2026-11-07T14:47:51.602Z",
+  "elo": 1478,
+  "elo_peak": 1500
 }

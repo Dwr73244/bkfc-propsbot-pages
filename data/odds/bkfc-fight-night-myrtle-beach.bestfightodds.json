@@ -3,7 +3,7 @@
   "event_date": "2026-11-20",
   "source": "bestfightodds",
   "source_url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4471",
-  "fetched_at": "2026-11-20T17:57:59.082Z",
+  "fetched_at": "2026-11-20T23:56:10.356Z",
   "bouts": [
     {
       "fighter_a_slug": "keith-richardson",
@@ -38,11 +38,11 @@
     {
       "fighter_a_slug": "derek-brunson",
       "fighter_b_slug": "theo-doukas",
-      "moneyline_a": -400,
-      "moneyline_b": 260,
-      "implied_prob_a": 0.8,
-      "implied_prob_b": 0.278,
-      "vig": 0.078,
+      "moneyline_a": -625,
+      "moneyline_b": 390,
+      "implied_prob_a": 0.862,
+      "implied_prob_b": 0.204,
+      "vig": 0.066,
       "book_count": 1
     },
     {

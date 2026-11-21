@@ -30,6 +30,17 @@
   "bio": null,
   "last_5": [
     {
+      "event": "bkfc-fight-night-myrtle-beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "TKO",
+      "round": 3,
+      "time": "2:00",
+      "opponent": "joshua-oxendine",
+      "opponent_slug": "joshua-oxendine",
+      "result": "W"
+    },
+    {
       "event": "BKFC 89 Palm Desert: Herring vs. Maness",
       "event_slug": "bkfc-89-palm-desert",
       "date": "2026-05-23T04:00:00.000Z",
@@ -76,19 +87,6 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/keith-richardson"
-    },
-    {
-      "event": "BKFC 62",
-      "event_slug": "bkfc-62-hollywood",
-      "date": "2024-06-21T00:00:00.000Z",
-      "method": "TKO",
-      "round": 1,
-      "time": "01:10",
-      "opponent": "Alberto Blas",
-      "opponent_slug": "alberto-blas",
-      "result": "L",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/keith-richardson"
     }
   ],
   "sources": [
@@ -98,7 +96,7 @@
     "https://www.bkfc.com/fighters/keith-richardson"
   ],
   "last_updated": "2026-07-31",
-  "elo": 1568,
-  "elo_peak": 1577,
+  "elo": 1585,
+  "elo_peak": 1585,
   "history_last_verified": "2026-08-07T09:04:18.112Z"
 }

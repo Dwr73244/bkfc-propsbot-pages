@@ -3,7 +3,7 @@
   "event_date": "2026-11-20",
   "source": "consensus",
   "source_url": null,
-  "fetched_at": "2026-11-20T17:58:02.649Z",
+  "fetched_at": "2026-11-21T15:14:43.656Z",
   "book_count": 5,
   "books": [
     "bestfightodds",
@@ -88,11 +88,11 @@
     {
       "fighter_a_slug": "derek-brunson",
       "fighter_b_slug": "theo-doukas",
-      "moneyline_a": -400,
-      "moneyline_b": 260,
-      "implied_prob_a": 0.8,
-      "implied_prob_b": 0.278,
-      "vig": 0.078,
+      "moneyline_a": -625,
+      "moneyline_b": 390,
+      "implied_prob_a": 0.862,
+      "implied_prob_b": 0.204,
+      "vig": 0.066,
       "book_count": 2,
       "books": [
         "bestfightodds",
@@ -100,12 +100,12 @@
       ],
       "line_range": {
         "a": [
-          -400,
-          -400
+          -625,
+          -625
         ],
         "b": [
-          260,
-          260
+          390,
+          390
         ]
       }
     },
