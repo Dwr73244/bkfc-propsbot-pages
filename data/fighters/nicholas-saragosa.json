@@ -6,7 +6,7 @@
   "division": "Lightweight",
   "bkfc_record": {
     "wins": 1,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -59,7 +59,7 @@
     "https://www.bkfc.com/fighters/nicholas-saragosa"
   ],
   "last_updated": "2026-04-17",
-  "history_last_verified": "2026-10-17T11:59:36.861Z",
+  "history_last_verified": "2026-11-22T16:03:01.728Z",
   "elo": 1478,
   "elo_peak": 1500
 }
