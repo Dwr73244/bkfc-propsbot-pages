@@ -5,7 +5,7 @@
   "nickname": "The Animal",
   "division": "Welterweight",
   "bkfc_record": {
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "draws": 0,
     "kos": null
@@ -69,12 +69,12 @@
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
       "date": "2025-06-21T00:00:00.000Z",
-      "method": "Unanimous Decision",
+      "method": null,
       "round": 5,
       "time": "02:00",
       "opponent": "Darren Whitney",
       "opponent_slug": "darren-whitney",
-      "result": "W",
+      "result": "NC",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/rodney-hinton"
     },
@@ -102,5 +102,5 @@
   ],
   "elo": 1540,
   "elo_peak": 1540,
-  "history_last_verified": "2026-10-19T15:17:33.611Z"
+  "history_last_verified": "2026-11-23T19:58:52.373Z"
 }

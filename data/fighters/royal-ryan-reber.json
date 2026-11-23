@@ -5,7 +5,7 @@
   "nickname": "Royal",
   "division": "Bantamweight",
   "bkfc_record": {
-    "wins": 8,
+    "wins": 9,
     "losses": 2,
     "draws": 0,
     "kos": null
@@ -98,5 +98,5 @@
   "last_updated": "2026-04-19",
   "elo": 1540,
   "elo_peak": 1540,
-  "history_last_verified": "2026-08-03T11:28:14.611Z"
+  "history_last_verified": "2026-11-23T19:59:06.622Z"
 }
