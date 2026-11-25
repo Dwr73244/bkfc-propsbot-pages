@@ -6,7 +6,7 @@
   "division": "Middleweight",
   "bkfc_record": {
     "wins": 3,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -53,6 +53,19 @@
       "result": "L"
     },
     {
+      "event": "BKFC Fight Night Clearwater",
+      "event_slug": "bkfc-fight-night-clearwater-4",
+      "date": "2026-10-23T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:53",
+      "opponent": "Douglas Coltrane",
+      "opponent_slug": "douglas-coltrane",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/tony-murphy"
+    },
+    {
       "event": "BKFC - Fight Night Clearwater",
       "event_slug": "bkfc-clearwater",
       "date": "2026-04-24T00:00:00.000Z",
@@ -77,26 +90,13 @@
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/tony-murphy"
-    },
-    {
-      "event": "BKFC 32",
-      "event_slug": "bkfc-32-orlando",
-      "date": "2022-11-05T00:00:00.000Z",
-      "method": "KO",
-      "round": 1,
-      "time": "00:51",
-      "opponent": "Shane Stapp",
-      "opponent_slug": "shane-stapp",
-      "result": "W",
-      "source": "bkfc.com",
-      "source_url": "https://www.bkfc.com/fighters/tony-murphy"
     }
   ],
   "sources": [
     "https://www.bkfc.com/fighters/tony-murphy"
   ],
   "last_updated": "2026-04-19",
-  "history_last_verified": "2026-08-04T10:37:45.282Z",
+  "history_last_verified": "2026-11-25T18:33:48.066Z",
   "elo": 1460,
   "elo_peak": 1500
 }
