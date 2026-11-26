@@ -1,6 +1,6 @@
 {
   "event_slug": "bkfc-bkfsea-bruise-cruise",
-  "generated_at": "2026-11-25T18:34:16.695Z",
+  "generated_at": "2026-11-26T18:15:44.563Z",
   "model_version": "0.1.0",
   "model_description": "Transparent factor-based scoring. Weights: BKFC record 18%, recent form 14%, KO rate 13%, age 12%, reach 10%, MMA background 8%, style matchup 8%, activity 7%, cut susceptibility 6%, strength of schedule 5%, experience 5%, height 4%. Combined via normalized weighted sum → logistic. Pseudo-bayesian record smoothing. Activity + cut susceptibility + strength-of-schedule derived from event history. Style matchup uses manually curated style_tags. Outputs: advantage_a/b (0-100 per fighter, sums to 100) and predictability (0-100 aggregate trust metric).",
   "bouts": [
@@ -777,14 +777,14 @@
       "fighter_a_slug": "george-thorpe",
       "fighter_b_slug": "josh-kuhne",
       "prediction": {
-        "prob_a": 0.5538,
-        "prob_b": 0.4462,
-        "raw_score": 0.083,
+        "prob_a": 0.5364,
+        "prob_b": 0.4636,
+        "raw_score": 0.056,
         "favorite_slug": "george-thorpe",
         "confidence": "Low",
-        "advantage_a": 55,
-        "advantage_b": 45,
-        "predictability": 39,
+        "advantage_a": 54,
+        "advantage_b": 46,
+        "predictability": 37,
         "factors": [
           {
             "name": "ELO Rating",
@@ -835,10 +835,10 @@
             "name": "Activity",
             "value_a": "6mo ago",
             "value_b": "7mo ago",
-            "edge_slug": "george-thorpe",
-            "edge_strength": 0.3,
+            "edge_slug": null,
+            "edge_strength": 0,
             "weight": 0.05,
-            "display": "Thorpe more active"
+            "display": "Similar activity"
           },
           {
             "name": "Cut History",
@@ -877,7 +877,7 @@
             "display": "+4\" Thorpe"
           }
         ],
-        "summary": "Model leans Thorpe 55/45. Edges on ko rate, reach, activity, height.",
+        "summary": "Model leans Thorpe 54/46. Edges on ko rate, reach, height.",
         "market_adjusted": false
       },
       "prop_markets": [
@@ -1893,7 +1893,7 @@
           {
             "name": "Activity",
             "value_a": "—",
-            "value_b": "6d ago",
+            "value_b": "7d ago",
             "edge_slug": "amos-collins",
             "edge_strength": 1,
             "weight": 0.05,

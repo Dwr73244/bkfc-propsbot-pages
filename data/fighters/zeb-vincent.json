@@ -87,8 +87,8 @@
       "method": "TKO",
       "round": 4,
       "time": "01:17",
-      "opponent": "Douglas (Harry) Coltrane",
-      "opponent_slug": "douglas-harry-coltrane",
+      "opponent": "Douglas Coltrane",
+      "opponent_slug": "douglas-coltrane",
       "result": "W",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/zeb-vincent"
@@ -98,7 +98,7 @@
     "https://www.bkfc.com/fighters/zeb-vincent"
   ],
   "last_updated": "2026-07-31",
-  "history_last_verified": "2026-08-13T09:17:03.006Z",
+  "history_last_verified": "2026-11-26T18:15:33.861Z",
   "elo": 1479,
   "elo_peak": 1500
 }
