@@ -5,8 +5,8 @@
   "nickname": "NO CHANCE",
   "division": "Featherweight",
   "bkfc_record": {
-    "wins": 0,
-    "losses": 0,
+    "wins": 2,
+    "losses": 3,
     "draws": 0,
     "kos": null
   },
@@ -40,6 +40,45 @@
       "opponent": "amos-collins",
       "opponent_slug": "amos-collins",
       "result": "W"
+    },
+    {
+      "event": "BKFC - Fight Night Hollywood",
+      "event_slug": "bkfc-fight-night-hollywood",
+      "date": "2026-06-04T00:00:00.000Z",
+      "method": "TKO",
+      "round": 2,
+      "time": "01:46",
+      "opponent": "Peter Peraza",
+      "opponent_slug": "peter-peraza",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ashton-caniglia"
+    },
+    {
+      "event": "BKFC 86",
+      "event_slug": "bkfc-86-mohegan-sun-lane-vs-pague",
+      "date": "2026-01-17T00:00:00.000Z",
+      "method": "KO",
+      "round": 2,
+      "time": "00:26",
+      "opponent": "Rico DiSciullo",
+      "opponent_slug": "rico-disciullo",
+      "result": "L",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ashton-caniglia"
+    },
+    {
+      "event": "BKFC - Fight Night Mohegan Sun",
+      "event_slug": "bkfc-fight-night-mohegan-sun",
+      "date": "2025-12-20T00:00:00.000Z",
+      "method": "Disqualification",
+      "round": 4,
+      "time": "00:34",
+      "opponent": "Travis Demko",
+      "opponent_slug": "travis-demko",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/ashton-caniglia"
     }
   ],
   "sources": [
@@ -47,5 +86,6 @@
   ],
   "last_updated": "2026-04-17",
   "elo": 1519,
-  "elo_peak": 1519
+  "elo_peak": 1519,
+  "history_last_verified": "2026-11-27T17:51:24.066Z"
 }

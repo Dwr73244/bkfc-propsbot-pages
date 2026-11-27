@@ -59,12 +59,12 @@
       "event": "BKFC 76 - Texas",
       "event_slug": "bkfc-fort-worth",
       "date": "2025-06-21T00:00:00.000Z",
-      "method": "TKO",
+      "method": null,
       "round": 1,
       "time": "01:03",
       "opponent": "Kenzie Morrison",
       "opponent_slug": "kenzie-morrison",
-      "result": "L",
+      "result": "NC",
       "source": "bkfc.com",
       "source_url": "https://www.bkfc.com/fighters/alex-davis"
     },
@@ -100,5 +100,5 @@
   "last_updated": "2026-07-31",
   "elo": 1478,
   "elo_peak": 1500,
-  "history_last_verified": "2026-10-24T12:34:51.760Z"
+  "history_last_verified": "2026-11-27T17:50:55.932Z"
 }

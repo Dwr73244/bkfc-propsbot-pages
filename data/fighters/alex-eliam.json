@@ -6,7 +6,7 @@
   "division": "Bantamweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -51,6 +51,19 @@
       "opponent": "austin-coleman",
       "opponent_slug": "austin-coleman",
       "result": "L"
+    },
+    {
+      "event": "BKFC Fight Night Myrtle Beach",
+      "event_slug": "bkfc-fight-night-myrtle-beach",
+      "date": "2026-11-20T00:00:00.000Z",
+      "method": "KO",
+      "round": 1,
+      "time": "01:30",
+      "opponent": "Alex Eliam",
+      "opponent_slug": "alex-eliam",
+      "result": "W",
+      "source": "bkfc.com",
+      "source_url": "https://www.bkfc.com/fighters/alex-eliam"
     }
   ],
   "sources": [
@@ -58,5 +71,6 @@
   ],
   "last_updated": "2026-04-17",
   "elo": 1457,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-11-27T17:50:48.965Z"
 }

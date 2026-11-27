@@ -6,7 +6,7 @@
   "division": "Featherweight",
   "bkfc_record": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "draws": 0,
     "kos": null
   },
@@ -48,5 +48,6 @@
   "last_updated": "2026-11-02",
   "stub": true,
   "elo": 1481,
-  "elo_peak": 1500
+  "elo_peak": 1500,
+  "history_last_verified": "2026-11-27T17:50:52.887Z"
 }
